@@ -1,0 +1,14 @@
+archive_code,phase_archive_code,name,slug,feature_status,description,verification_status
+SP-FTR-0001,SP-PH1,Concrete walking trails,concrete-walking-trails,planned/current,Walking trails throughout the park.,verified
+SP-FTR-0002,SP-PH1,Picnic pavilions,picnic-pavilions,planned/current,Picnic pavilions included in Phase I.,verified
+SP-FTR-0003,SP-PH1,Inclusive playground equipment,inclusive-playground,planned/current,Inclusive playground equipment and shade.,verified
+SP-FTR-0004,SP-PH1,Year-round splash pad,splash-pad,planned/current,A year-round splash pad.,verified
+SP-FTR-0005,SP-PH1,Restroom building,restroom-building,planned/current,A new restroom building.,verified
+SP-FTR-0006,SP-PH1,Improved lighting,improved-lighting,planned/current,Improved park lighting.,verified
+SP-FTR-0007,SP-PH1,Expanded parking,expanded-parking,planned/current,Expanded parking facilities.,verified
+SP-FTR-0008,SP-PH2,Secondary playground,secondary-playground,future,A secondary playground.,verified
+SP-FTR-0009,SP-PH2,Skate park enhancements,skate-park-enhancements,future,Enhancements to the skate park.,verified
+SP-FTR-0010,SP-PH2,Relocated basketball court,basketball-court,future,Relocation of the basketball court.,verified
+SP-FTR-0011,SP-PH2,Bandshell,bandshell,future,A bandshell for community events.,verified
+SP-FTR-0012,SP-PH2,Pickleball striping,pickleball-striping,future,Pickleball striping.,verified
+SP-FTR-0013,SP-PH2,Picnic shelters,picnic-shelters,future,Additional picnic shelters.,verified

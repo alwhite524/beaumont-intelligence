@@ -1,0 +1,23 @@
+{
+  "release": "0.7.0",
+  "sprint": "2.3",
+  "web_app": "Stewart Park Intelligence Center",
+  "sections": [
+    "overview",
+    "timeline",
+    "features",
+    "council records",
+    "funding",
+    "verified questions",
+    "sources"
+  ],
+  "counts": {
+    "meetings": 13,
+    "agenda_items": 15,
+    "documents": 10,
+    "features": 13,
+    "funding_events": 2,
+    "media": 2,
+    "verified_questions": 4
+  }
+}
