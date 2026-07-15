@@ -1,0 +1,31 @@
+{
+  "document_types": [
+    "Agenda",
+    "Agenda packet",
+    "Minutes",
+    "Staff report",
+    "Contract",
+    "Contract amendment",
+    "Presentation",
+    "Official project page",
+    "Official news release",
+    "Grant document",
+    "Environmental document",
+    "Rendering",
+    "Photograph",
+    "Video"
+  ],
+  "verification_statuses": [
+    "unreviewed",
+    "reviewed",
+    "verified",
+    "disputed",
+    "superseded"
+  ],
+  "evidence_levels": {
+    "A": "Official agenda, minutes, staff report, contract, resolution, ordinance, or government record",
+    "B": "Official City or agency project page, presentation, or news release",
+    "C": "Credible secondary publication or agency partner material",
+    "D": "Campaign, social-media, photograph, or supporting material"
+  }
+}
