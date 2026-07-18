@@ -31,3 +31,19 @@ body.modal-open{overflow:hidden}
 
 /* v0.5 Council video integration */
 .evidence-actions{display:flex;gap:14px;flex-wrap:wrap;margin-top:14px}.evidence-actions a{color:var(--blue)}.video-status{margin-top:14px;padding-top:12px;border-top:1px solid var(--line);display:flex;gap:10px;align-items:center;flex-wrap:wrap}.video-status span{color:var(--muted);font-size:.82rem}.video-evidence-card{border-top:5px solid var(--blue)}.video-evidence-card.focused{outline:4px solid rgba(198,56,42,.28);scroll-margin-top:150px}.video-status-block{background:var(--soft);border:1px solid var(--line);border-radius:10px;padding:13px;margin:14px 0}.video-status-block strong,.video-status-block span{display:block}.video-status-block strong{color:var(--navy)}.video-status-block span{font-size:.82rem;color:var(--muted);margin-top:4px}.video-grid .card{min-height:290px}.page-nav-section{padding-top:0}.project-nav{scrollbar-width:thin}
+
+/* v1.2 Council Intelligence — compact first-view layout */
+@media (min-width:651px){
+  .hero{
+    min-height:360px;
+  }
+  .hero-content{
+    padding:70px 0 24px;
+  }
+}
+@media (min-width:981px){
+  .header-row{
+    min-height:96px;
+  }
+}
+
