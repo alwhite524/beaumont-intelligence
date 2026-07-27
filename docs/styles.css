@@ -96,4 +96,149 @@ body.modal-open{overflow:hidden}
 
 
 /* v1.2.2 Official Source Documents */
-.official-documents{margin-top:20px;padding:17px;background:#f7fafc;border:1px solid var(--line);border-radius:12px}.official-documents-title{display:flex;justify-content:space-between;gap:14px;align-items:center;margin-bottom:11px;color:var(--navy)}.evidence-complete{font-size:.75rem;font-weight:900;color:var(--green);background:#e4f4e8;border-radius:999px;padding:5px 9px}.official-document-links{display:grid;grid-template-columns:1fr 1fr;gap:9px}.official-document-links a{display:flex;justify-content:space-between;gap:12px;align-items:center;text-decoration:none;background:#fff;border:1px solid var(--line);border-radius:9px;padding:11px 12px;color:var(--navy)}.official-document-links a:hover{border-color:var(--blue);box-shadow:0 3px 10px rgba(9,43,88,.08)}.official-document-links a span{white-space:nowrap;color:var(--muted);font-size:.78rem}.hearing-record{background:#fff;border:1px solid var(--line);border-radius:12px;overflow:hidden}.hearing-record>article{border:0;border-radius:0}.hearing-record .official-documents{margin:0;border:0;border-top:1px solid var(--line);border-radius:0}.hearing-record .official-document-links{grid-template-columns:1fr}@media(max-width:700px){.official-document-links{grid-template-columns:1fr}.official-documents-title{display:block}.evidence-complete{display:inline-block;margin-top:7px}}
+.official-documents{margin-top:20px;padding:17p/* Pennsylvania Avenue — Design at a Glance */
+
+.design-at-glance {
+  margin: 2.5rem 0;
+}
+
+.design-at-glance-intro {
+  max-width: 850px;
+  margin-bottom: 1.5rem;
+}
+
+.grade-separation-diagram {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+  border: 1px solid #d9e0e8;
+  border-radius: 16px;
+  background: #f7f9fb;
+  text-align: center;
+  overflow: hidden;
+}
+
+.diagram-label {
+  font-weight: 700;
+  color: #0b3567;
+}
+
+.diagram-rail-label {
+  margin-bottom: .65rem;
+}
+
+.diagram-rail {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 8px 0;
+  border-left: 10px solid #56616d;
+  border-right: 10px solid #56616d;
+}
+
+.diagram-rail span {
+  display: block;
+  height: 5px;
+  background: #56616d;
+}
+
+.diagram-bridge-label {
+  margin-top: .75rem;
+  font-size: .9rem;
+  font-weight: 700;
+}
+
+.diagram-bridge {
+  height: 22px;
+  margin-top: .35rem;
+  background: #0b3567;
+  border-radius: 3px;
+}
+
+.diagram-clearance {
+  min-height: 115px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: .25rem;
+  color: #56616d;
+}
+
+.diagram-clearance span {
+  font-weight: 700;
+  color: #0b3567;
+}
+
+.diagram-clearance small {
+  font-size: .85rem;
+}
+
+.diagram-road {
+  padding: 1rem;
+  background: #3f4852;
+  border-radius: 6px;
+  color: #fff;
+}
+
+.diagram-road-label {
+  font-weight: 700;
+  margin-bottom: .8rem;
+}
+
+.diagram-road-label small {
+  display: block;
+  margin-top: .2rem;
+  font-weight: 400;
+  opacity: .85;
+}
+
+.diagram-lanes {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 1fr;
+  border-top: 2px solid rgba(255,255,255,.8);
+  border-bottom: 2px solid rgba(255,255,255,.8);
+}
+
+.diagram-lanes span {
+  padding: .65rem .35rem;
+  font-size: .8rem;
+  border-right: 1px dashed rgba(255,255,255,.65);
+}
+
+.diagram-lanes span:last-child {
+  border-right: 0;
+}
+
+.diagram-direction {
+  margin-top: 1rem;
+  font-size: .85rem;
+  font-weight: 700;
+  color: #0b3567;
+}
+
+.diagram-note {
+  max-width: 900px;
+  margin: .75rem auto 0;
+  font-size: .8rem;
+  color: #66717d;
+  text-align: center;
+}
+
+@media (max-width: 700px) {
+  .grade-separation-diagram {
+    padding: 1.25rem;
+  }
+
+  .diagram-lanes {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .diagram-lanes span:nth-child(2) {
+    border-right: 0;
+  }
+
+  .diagram-lanes span:nth-child(-n+2) {
+    border-bottom: 1px dashed rgba(255,255,255,.65);
+  }
+}x;background:#f7fafc;border:1px solid var(--line);border-radius:12px}.official-documents-title{display:flex;justify-content:space-between;gap:14px;align-items:center;margin-bottom:11px;color:var(--navy)}.evidence-complete{font-size:.75rem;font-weight:900;color:var(--green);background:#e4f4e8;border-radius:999px;padding:5px 9px}.official-document-links{display:grid;grid-template-columns:1fr 1fr;gap:9px}.official-document-links a{display:flex;justify-content:space-between;gap:12px;align-items:center;text-decoration:none;background:#fff;border:1px solid var(--line);border-radius:9px;padding:11px 12px;color:var(--navy)}.official-document-links a:hover{border-color:var(--blue);box-shadow:0 3px 10px rgba(9,43,88,.08)}.official-document-links a span{white-space:nowrap;color:var(--muted);font-size:.78rem}.hearing-record{background:#fff;border:1px solid var(--line);border-radius:12px;overflow:hidden}.hearing-record>article{border:0;border-radius:0}.hearing-record .official-documents{margin:0;border:0;border-top:1px solid var(--line);border-radius:0}.hearing-record .official-document-links{grid-template-columns:1fr}@media(max-width:700px){.official-document-links{grid-template-columns:1fr}.official-documents-title{display:block}.evidence-complete{display:inline-block;margin-top:7px}}
+
