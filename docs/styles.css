@@ -140,3 +140,268 @@ body.modal-open{overflow:hidden}
   .diagram-lanes span:nth-child(2){border-right:0}
   .diagram-lanes span:nth-child(-n+2){border-bottom:1px dashed rgba(255,255,255,.65)}
 }
+
+
+/* =========================================================
+   CB-202 — Production Council Briefing Template
+   Append this block once to docs/styles.css.
+   ========================================================= */
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 7rem;
+}
+
+.briefing-tools {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background: #fff;
+  border-bottom: 1px solid #d9e1ea;
+  box-shadow: 0 3px 12px rgba(11,53,103,.08);
+}
+
+.briefing-tools .wrap {
+  display: flex;
+  gap: .55rem;
+  overflow-x: auto;
+  padding: .7rem 1rem;
+  scrollbar-width: thin;
+}
+
+.briefing-tools a {
+  white-space: nowrap;
+  text-decoration: none;
+  border: 1px solid #b9c7d8;
+  border-radius: 999px;
+  padding: .48rem .78rem;
+  color: #0b3567;
+  font-weight: 700;
+  background: #fff;
+}
+
+.briefing-tools a:hover,
+.briefing-tools a:focus-visible {
+  background: #eef5fb;
+}
+
+.evidence-panel {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(175px,1fr));
+  gap: .8rem;
+  margin-top: 1.3rem;
+}
+
+.evidence-panel div {
+  background: rgba(255,255,255,.1);
+  border: 1px solid rgba(255,255,255,.28);
+  border-radius: .75rem;
+  padding: .8rem;
+}
+
+.evidence-panel strong,
+.evidence-panel span {
+  display: block;
+}
+
+.evidence-panel span {
+  font-size: .88rem;
+  opacity: .88;
+  margin-top: .2rem;
+}
+
+.item-card {
+  border: 1px solid #dce4ed;
+  border-radius: 1rem;
+  background: #fff;
+  margin: 1.15rem 0;
+  box-shadow: 0 5px 18px rgba(17,44,75,.06);
+  overflow: hidden;
+  scroll-margin-top: 7rem;
+}
+
+.item-head {
+  padding: 1.2rem 1.3rem;
+  background: #f6f9fc;
+  border-bottom: 1px solid #dce4ed;
+}
+
+.item-head h2 {
+  margin: .25rem 0 .3rem;
+}
+
+.item-head .meta {
+  margin: 0;
+}
+
+.decision-box {
+  margin: .9rem 0 0;
+  padding: .8rem 1rem;
+  border-left: 5px solid #c51f31;
+  background: #fff;
+}
+
+.decision-box strong {
+  display: block;
+  color: #7e101f;
+  font-size: .82rem;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+}
+
+.item-body {
+  padding: 1.25rem 1.3rem;
+}
+
+.fact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(190px,1fr));
+  gap: .75rem;
+  margin: 1rem 0;
+}
+
+.fact {
+  border: 1px solid #dfe6ee;
+  border-radius: .7rem;
+  padding: .8rem;
+  background: #fbfcfe;
+}
+
+.fact strong,
+.fact span {
+  display: block;
+}
+
+.fact strong {
+  color: #0b3567;
+}
+
+.fact span {
+  font-size: .9rem;
+  margin-top: .25rem;
+}
+
+.doc-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .65rem;
+  margin: 1rem 0;
+}
+
+.doc-actions a {
+  text-decoration: none;
+}
+
+.source-note {
+  font-size: .9rem;
+  color: #4c5c6d;
+}
+
+.compact-list {
+  margin: .45rem 0;
+  padding-left: 1.15rem;
+}
+
+.compact-list li {
+  margin: .35rem 0;
+}
+
+.status-pill {
+  display: inline-block;
+  padding: .28rem .6rem;
+  border-radius: 999px;
+  background: #fff1bf;
+  color: #694d00;
+  font-weight: 800;
+  font-size: .78rem;
+}
+
+.status-pill.ready {
+  background: #dff4e5;
+  color: #145b2c;
+}
+
+.after-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(160px,1fr));
+  gap: .7rem;
+}
+
+.after-grid div {
+  padding: .8rem;
+  border: 1px dashed #aebdcd;
+  border-radius: .65rem;
+}
+
+.after-grid strong,
+.after-grid span {
+  display: block;
+}
+
+.after-grid span {
+  color: #68788a;
+  margin-top: .25rem;
+}
+
+.accordion {
+  margin-top: 1rem;
+  border-top: 1px solid #e0e7ef;
+}
+
+.accordion details {
+  border-bottom: 1px solid #e0e7ef;
+}
+
+.accordion summary {
+  cursor: pointer;
+  padding: .85rem .1rem;
+  font-weight: 800;
+  color: #0b3567;
+}
+
+.accordion details > div {
+  padding: 0 0 1rem;
+}
+
+.top-link {
+  float: right;
+  font-size: .85rem;
+}
+
+.quick-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(190px,1fr));
+  gap: .8rem;
+}
+
+.quick-grid a {
+  display: block;
+  border: 1px solid #dce4ed;
+  border-radius: .75rem;
+  padding: .9rem;
+  text-decoration: none;
+  background: #fff;
+}
+
+.quick-grid strong,
+.quick-grid span {
+  display: block;
+}
+
+.quick-grid span {
+  font-size: .87rem;
+  margin-top: .25rem;
+  color: #5c6c7d;
+}
+
+@media (max-width: 650px) {
+  .briefing-tools {
+    position: static;
+  }
+
+  .top-link {
+    float: none;
+    display: inline-block;
+    margin-bottom: .4rem;
+  }
+}
