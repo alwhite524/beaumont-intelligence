@@ -405,3 +405,8 @@ html {
     margin-bottom: .4rem;
   }
 }
+
+/* =========================================================
+   Search v1.0 — Site-wide keyword search
+   ========================================================= */
+.search-hero{background:linear-gradient(135deg,#0b3567,#174f86);color:#fff;padding:3rem 0}.site-search-form{display:flex;gap:.65rem;margin-top:1.25rem}.site-search-form input{flex:1;min-width:0;padding:1rem 1.1rem;border:0;border-radius:.65rem;font-size:1rem}.site-search-form button{padding:.9rem 1.2rem;border:0;border-radius:.65rem;font-weight:800;cursor:pointer}.search-results-header{display:flex;justify-content:space-between;gap:1rem;align-items:end;margin-bottom:1.25rem}.search-filter{display:flex;gap:.4rem;flex-wrap:wrap}.search-filter button{border:1px solid #b9c7d8;background:#fff;color:#0b3567;border-radius:999px;padding:.45rem .75rem;font-weight:700;cursor:pointer}.search-filter button.active{background:#0b3567;color:#fff}.site-search-results{display:grid;gap:.85rem}.search-result-card{border:1px solid #dce4ed;border-radius:.8rem;padding:1rem 1.1rem;background:#fff}.search-result-card h3{margin:.3rem 0}.search-result-card h3 a{text-decoration:none;color:#0b3567}.search-result-meta{display:flex;justify-content:space-between;gap:1rem;color:#5c6c7d;font-size:.8rem;text-transform:uppercase;letter-spacing:.04em}.search-result-card p{margin:.35rem 0 .7rem}.empty{border:1px dashed #aebdcd;border-radius:.8rem;padding:1.25rem;color:#5c6c7d}.empty strong,.empty span{display:block}.empty span{margin-top:.3rem}@media(max-width:650px){.site-search-form{display:grid}.search-results-header{align-items:start;display:grid}.search-result-meta{display:grid;gap:.2rem}}
