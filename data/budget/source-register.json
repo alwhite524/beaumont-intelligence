@@ -1,0 +1,345 @@
+{
+  "schemaVersion": "1.0",
+  "issue": "BC-002",
+  "title": "Budget Center Source Register",
+  "lastUpdated": "2026-08-02",
+  "governance": {
+    "sourceIdPrefix": "SRC",
+    "verificationStatuses": [
+      "Verified",
+      "Archived",
+      "Pending",
+      "Missing",
+      "Superseded"
+    ],
+    "confidenceLevels": [
+      "High",
+      "Medium",
+      "Low"
+    ],
+    "rule": "Every published financial claim should reference one or more Source IDs."
+  },
+  "sources": [
+    {
+      "sourceId": "SRC-0001",
+      "title": "Stewart Park June 2023 Staff Report",
+      "documentType": "Staff Report",
+      "fiscalYear": "2022-23",
+      "documentDate": "2023-06-20",
+      "councilMeetingDate": "2023-06-20",
+      "agendaItem": null,
+      "resolutionNumber": null,
+      "department": "City of Beaumont",
+      "publisher": "City of Beaumont",
+      "officialUrl": "https://beaumontca.gov/DocumentCenter/View/38700/Stewart-Park-June-2023-Staff-Report",
+      "archivePath": null,
+      "retrievedDate": null,
+      "verificationStatus": "Verified",
+      "confidence": "High",
+      "evidenceLevel": "A",
+      "relatedTopics": [
+        "Capital Projects",
+        "Contracts",
+        "Expenditures"
+      ],
+      "relatedProjects": [
+        "Stewart Park Revitalization"
+      ],
+      "crossLinks": [
+        "stewart-park-funding.html",
+        "stewart-park-documents.html"
+      ],
+      "summary": "Official staff report documenting design development and project information.",
+      "notes": "Seeded from an existing verified Beaumont Intelligence source record."
+    },
+    {
+      "sourceId": "SRC-0002",
+      "title": "Stewart Park November 2023 Staff Report",
+      "documentType": "Staff Report",
+      "fiscalYear": "2023-24",
+      "documentDate": "2023-11-21",
+      "councilMeetingDate": "2023-11-21",
+      "agendaItem": "J.1",
+      "resolutionNumber": null,
+      "department": "City of Beaumont",
+      "publisher": "City of Beaumont",
+      "officialUrl": "https://www.beaumontca.gov/DocumentCenter/View/38702/Stewart-Park-November-2023-Staff-Report",
+      "archivePath": null,
+      "retrievedDate": null,
+      "verificationStatus": "Verified",
+      "confidence": "High",
+      "evidenceLevel": "A",
+      "relatedTopics": [
+        "Capital Projects",
+        "Cost History",
+        "Project Phasing"
+      ],
+      "relatedProjects": [
+        "Stewart Park Revitalization"
+      ],
+      "crossLinks": [
+        "stewart-park-funding.html",
+        "stewart-park-timeline.html"
+      ],
+      "summary": "Official staff report supporting cost and project-phasing research.",
+      "notes": "Seeded from an existing verified Beaumont Intelligence source record."
+    },
+    {
+      "sourceId": "SRC-0003",
+      "title": "Act 1 Construction Award Staff Report",
+      "documentType": "Staff Report",
+      "fiscalYear": "2023-24",
+      "documentDate": "2024-06-18",
+      "councilMeetingDate": "2024-06-18",
+      "agendaItem": null,
+      "resolutionNumber": null,
+      "department": "City of Beaumont",
+      "publisher": "City of Beaumont",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=4589",
+      "archivePath": null,
+      "retrievedDate": null,
+      "verificationStatus": "Verified",
+      "confidence": "High",
+      "evidenceLevel": "A",
+      "relatedTopics": [
+        "Contracts",
+        "Capital Expenditures",
+        "Council Actions"
+      ],
+      "relatedProjects": [
+        "Stewart Park Revitalization"
+      ],
+      "crossLinks": [
+        "stewart-park-funding.html",
+        "stewart-park-council-actions.html"
+      ],
+      "summary": "Official record for the Phase I construction award.",
+      "notes": "Contract authorization is not treated as proof of payment."
+    },
+    {
+      "sourceId": "SRC-0004",
+      "title": "PlaceWorks Amendment No. 1 Staff Report",
+      "documentType": "Contract Amendment",
+      "fiscalYear": "2023-24",
+      "documentDate": "2024-06-18",
+      "councilMeetingDate": "2024-06-18",
+      "agendaItem": null,
+      "resolutionNumber": null,
+      "department": "City of Beaumont",
+      "publisher": "City of Beaumont",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=4540",
+      "archivePath": null,
+      "retrievedDate": null,
+      "verificationStatus": "Verified",
+      "confidence": "High",
+      "evidenceLevel": "A",
+      "relatedTopics": [
+        "Contracts",
+        "Budget Amendments",
+        "Professional Services"
+      ],
+      "relatedProjects": [
+        "Stewart Park Revitalization"
+      ],
+      "crossLinks": [
+        "stewart-park-funding.html",
+        "stewart-park-council-actions.html"
+      ],
+      "summary": "Official staff report for construction-administration services.",
+      "notes": "Preserve original and amended authorizations separately."
+    },
+    {
+      "sourceId": "SRC-0005",
+      "title": "November 5, 2024 City Council Agenda Packet",
+      "documentType": "Agenda Packet",
+      "fiscalYear": "2024-25",
+      "documentDate": "2024-11-05",
+      "councilMeetingDate": "2024-11-05",
+      "agendaItem": null,
+      "resolutionNumber": null,
+      "department": "City Clerk",
+      "publisher": "City of Beaumont",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/FileStream.ashx?DocumentId=5403",
+      "archivePath": null,
+      "retrievedDate": null,
+      "verificationStatus": "Verified",
+      "confidence": "High",
+      "evidenceLevel": "A",
+      "relatedTopics": [
+        "Council Actions",
+        "Contracts",
+        "Environmental Compliance"
+      ],
+      "relatedProjects": [
+        "Stewart Park Revitalization"
+      ],
+      "crossLinks": [
+        "stewart-park-council-actions.html",
+        "stewart-park-documents.html"
+      ],
+      "summary": "Agenda packet containing project-related financial and professional-services actions.",
+      "notes": "Agenda item-level indexing remains future work."
+    },
+    {
+      "sourceId": "SRC-0006",
+      "title": "May 6, 2025 City Council Agenda Packet",
+      "documentType": "Agenda Packet",
+      "fiscalYear": "2024-25",
+      "documentDate": "2025-05-06",
+      "councilMeetingDate": "2025-05-06",
+      "agendaItem": "J.5",
+      "resolutionNumber": null,
+      "department": "City Clerk",
+      "publisher": "City of Beaumont",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/FileStream.ashx?DocumentId=6761",
+      "archivePath": null,
+      "retrievedDate": null,
+      "verificationStatus": "Verified",
+      "confidence": "High",
+      "evidenceLevel": "A",
+      "relatedTopics": [
+        "Grants",
+        "Council Actions",
+        "Capital Projects"
+      ],
+      "relatedProjects": [
+        "Stewart Park Revitalization"
+      ],
+      "crossLinks": [
+        "stewart-park-funding.html",
+        "stewart-park-timeline.html"
+      ],
+      "summary": "Official agenda material concerning the ORLP grant pre-award process.",
+      "notes": "Supports grant-status and project-delivery research."
+    },
+    {
+      "sourceId": "SRC-0007",
+      "title": "Stewart Park Update and Discussion",
+      "documentType": "Staff Report",
+      "fiscalYear": "2025-26",
+      "documentDate": "2026-03-17",
+      "councilMeetingDate": "2026-03-17",
+      "agendaItem": "J.5",
+      "resolutionNumber": null,
+      "department": "City of Beaumont",
+      "publisher": "City of Beaumont",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=9601",
+      "archivePath": null,
+      "retrievedDate": null,
+      "verificationStatus": "Verified",
+      "confidence": "High",
+      "evidenceLevel": "A",
+      "relatedTopics": [
+        "Grants",
+        "Capital Projects",
+        "Project Status"
+      ],
+      "relatedProjects": [
+        "Stewart Park Revitalization"
+      ],
+      "crossLinks": [
+        "stewart-park-funding.html",
+        "stewart-park-council-actions.html"
+      ],
+      "summary": "Comprehensive official project update used to support current funding and status research.",
+      "notes": "Seeded from the existing Stewart Park data record."
+    },
+    {
+      "sourceId": "SRC-0008",
+      "title": "Stewart Park Improvements",
+      "documentType": "Official Project Page",
+      "fiscalYear": null,
+      "documentDate": null,
+      "councilMeetingDate": null,
+      "agendaItem": null,
+      "resolutionNumber": null,
+      "department": "City of Beaumont",
+      "publisher": "City of Beaumont",
+      "officialUrl": "https://www.beaumontca.gov/1163/Stewart-Park-Renovation",
+      "archivePath": null,
+      "retrievedDate": null,
+      "verificationStatus": "Verified",
+      "confidence": "High",
+      "evidenceLevel": "B",
+      "relatedTopics": [
+        "Capital Projects",
+        "Grant Funding",
+        "Project Status"
+      ],
+      "relatedProjects": [
+        "Stewart Park Revitalization"
+      ],
+      "crossLinks": [
+        "stewart-park.html",
+        "stewart-park-funding.html"
+      ],
+      "summary": "Current official project page describing project phases, features, and funding status.",
+      "notes": "Web pages can change; future archive capture is required."
+    },
+    {
+      "sourceId": "SRC-0009",
+      "title": "Pennsylvania Avenue Grade Separation Funding Announcement",
+      "documentType": "Official News Release",
+      "fiscalYear": "2025-26",
+      "documentDate": "2026-06-01",
+      "councilMeetingDate": null,
+      "agendaItem": null,
+      "resolutionNumber": null,
+      "department": "City of Beaumont",
+      "publisher": "City of Beaumont",
+      "officialUrl": "https://www.beaumontca.gov/m/newsflash/home/detail/1176",
+      "archivePath": null,
+      "retrievedDate": null,
+      "verificationStatus": "Verified",
+      "confidence": "High",
+      "evidenceLevel": "B",
+      "relatedTopics": [
+        "Federal Funding",
+        "Capital Projects",
+        "Cost Estimate"
+      ],
+      "relatedProjects": [
+        "Pennsylvania Avenue Grade Separation"
+      ],
+      "crossLinks": [
+        "pennsylvania-grade-separation-funding.html",
+        "pennsylvania-grade-separation-primary-sources.html"
+      ],
+      "summary": "Official City announcement identifying additional federal funding and the City's then-current project estimate.",
+      "notes": "A news release is authoritative for the City's announcement, but underlying award documents remain preferred evidence."
+    },
+    {
+      "sourceId": "SRC-0010",
+      "title": "Potrero Interchange Phase II Official Project Sources",
+      "documentType": "Source Collection",
+      "fiscalYear": null,
+      "documentDate": null,
+      "councilMeetingDate": null,
+      "agendaItem": null,
+      "resolutionNumber": null,
+      "department": "Multiple agencies",
+      "publisher": "City of Beaumont / RCTC / California Transportation Commission",
+      "officialUrl": "",
+      "archivePath": null,
+      "retrievedDate": null,
+      "verificationStatus": "Pending",
+      "confidence": "Medium",
+      "evidenceLevel": "A/B",
+      "relatedTopics": [
+        "TCEP",
+        "TUMF",
+        "Capital Improvement Program",
+        "Construction Contract"
+      ],
+      "relatedProjects": [
+        "Potrero Interchange"
+      ],
+      "crossLinks": [
+        "potrero-interchange-funding.html",
+        "potrero-interchange-sources.html"
+      ],
+      "summary": "Placeholder parent record for the official documents supporting Potrero Phase II funding.",
+      "notes": "Replace this parent record with individual official source records during Phase 2 inventory."
+    }
+  ]
+}

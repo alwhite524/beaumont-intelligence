@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Budget Center | Beaumont Intelligence</title>
+  <meta name="description" content="Follow Beaumont funding, budgets, capital projects, amendments, and the official evidence behind each financial claim.">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .hub-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+    .hub-card{display:block;text-decoration:none;background:#fff;border:1px solid var(--line);border-radius:14px;padding:22px;box-shadow:0 6px 18px rgba(8,41,79,.06)}
+    .hub-card h3{margin:.25rem 0;color:var(--navy)}.hub-card p{color:var(--muted)}
+    .hub-card.ready{border-top:5px solid var(--green)}.hub-card.planned{border-top:5px solid #d6dde4}
+    @media(max-width:800px){.hub-grid{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="wrap">
+      <div class="eyebrow">Beaumont Intelligence</div>
+      <h1>Budget Center</h1>
+      <p class="lead">Trace public funding from the City record to the project, Council action, contract, amendment, and supporting evidence.</p>
+      <div class="hero-actions">
+        <a class="btn" href="sources.html">Open Source Register</a>
+        <a class="btn alt" href="index.html">Project Library</a>
+      </div>
+      <div class="metrics">
+        <div class="metric"><b>10</b>Initial source records</div>
+        <div class="metric"><b>3</b>Cross-linked projects</div>
+        <div class="metric"><b>1</b>Canonical register</div>
+        <div class="metric"><b>BC-002</b>Active foundation issue</div>
+      </div>
+    </div>
+  </header>
+  <nav><div class="wrap">
+    <a href="index.html">Home</a>
+    <a href="index.html">Budget Center</a>
+    <a href="sources.html">Sources</a>
+    <a href="stewart-park/index.html">Stewart Park</a>
+  </div></nav>
+  <main>
+    <section><div class="wrap">
+      <h2>Financial intelligence, connected</h2>
+      <p class="intro">The Budget Center will distinguish appropriations, amendments, contracts, encumbrances, grants, and actual expenditures while preserving the official evidence behind each statement.</p>
+      <div class="hub-grid">
+        <a class="hub-card ready" href="budget-sources.html"><span class="badge verified">Available for review</span><h3>Source Register</h3><p>Search the official records supporting funding and financial claims across Beaumont Intelligence.</p></a>
+        <div class="hub-card planned"><span class="badge pending">Planned</span><h3>Funds &amp; Accounts</h3><p>A shared vocabulary for City funds, departments, restrictions, and historical classifications.</p></div>
+        <div class="hub-card planned"><span class="badge pending">Planned</span><h3>Capital Projects</h3><p>Original budgets, revised budgets, funding sources, contracts, and project-level financial histories.</p></div>
+        <div class="hub-card planned"><span class="badge pending">Planned</span><h3>Budget Amendments</h3><p>A timeline showing when appropriations changed, why, and which Council action authorized the change.</p></div>
+        <div class="hub-card planned"><span class="badge pending">Planned</span><h3>Revenue</h3><p>Adopted, revised, and actual revenue by fund and source.</p></div>
+        <div class="hub-card planned"><span class="badge pending">Planned</span><h3>Expenditures</h3><p>Budget authority, contracts, encumbrances, and actual spending kept clearly separate.</p></div>
+      </div>
+    </div></section>
+    <section><div class="wrap"><div class="notice"><strong>Evidence rule:</strong> Every published financial claim should reference one or more permanent Source IDs.</div></div></section>
+  </main>
+  <footer class="footer"><div class="wrap"><strong>Move Beaumont Forward Digital Knowledge Base</strong><p>Budget Center public preview · BC-002 deliverable.</p></div></footer>
+</body>
+</html>
