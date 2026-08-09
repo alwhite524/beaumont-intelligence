@@ -1,12 +1,12 @@
 # Application Preview
 
-Open `website/index.html` directly in a browser, or run:
+Open `docs/index.html` directly in a browser, or run:
 
 ```bash
 python scripts/serve_preview.py
 ```
 
-The preview is a static application and does not write to the database. `website/data.js` is a generated snapshot of SQLite content.
+The preview is a static application and does not write to the database. `docs/data.js` is the browser-readable project-data snapshot.
 
 ## Current screens
 - Meetings and agenda items

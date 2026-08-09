@@ -33,14 +33,16 @@ python scripts/build_all.py
 
 ## Web preview
 
-Open `website/index.html` or run:
+Open `docs/index.html` or run:
 
 ```bash
 python scripts/serve_web.py
 ```
 
 ## Application routes
-- `website/index.html` — Beaumont Project Library landing page
-- `website/stewart-park/index.html` — Stewart Park Intelligence Center
+- `docs/index.html` — Beaumont Intelligence landing page
+- `docs/intelligence-centers.html` — Intelligence Center directory
+- `docs/stewart-park.html` — Stewart Park Intelligence Center
+- `docs/pennsylvania-grade-separation.html` — Pennsylvania Avenue Grade Separation Intelligence Center
 
 See `docs/github-project-board.md`.
