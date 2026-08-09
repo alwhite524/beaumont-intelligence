@@ -49,7 +49,7 @@ body.modal-open{overflow:hidden}
 
 /* v1.2 Council Intelligence */
 .council-feature{padding:34px 0;background:linear-gradient(180deg,#f4f7fa,#fff);border-bottom:1px solid var(--line)}
-.briefing-archive-summary{padding:36px;display:flex;flex-direction:column;justify-content:center}.briefing-archive-summary strong{color:var(--navy)}
+#council-briefings-entry .briefing-archive-summary{padding:40px 36px 36px;display:flex;flex-direction:column;justify-content:flex-start}.briefing-archive-summary strong{color:var(--navy)}
 .council-feature-card{display:grid;grid-template-columns:1.55fr .72fr;background:#fff;border:1px solid var(--line);border-radius:20px;overflow:hidden;box-shadow:var(--shadow)}
 .council-feature-copy{padding:30px 34px}.council-feature-copy h2{margin:.2rem 0 .55rem}.council-deck{font-size:1.04rem;color:var(--muted);max-width:760px}
 .council-highlights{display:grid;grid-template-columns:1fr 1fr;gap:7px 28px;padding-left:20px;margin:18px 0;color:#29435f}
