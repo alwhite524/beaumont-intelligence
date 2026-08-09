@@ -125,6 +125,32 @@
       padding: 20px;
     }
 
+    .document-grid.grouped {
+      display: block;
+    }
+
+    .project-document-group + .project-document-group {
+      margin-top: 28px;
+      padding-top: 24px;
+      border-top: 1px solid var(--line);
+    }
+
+    .project-document-group > h3 {
+      margin: 0 0 12px;
+      color: var(--navy);
+      font-size: 1.35rem;
+    }
+
+    .project-document-group[hidden] {
+      display: none;
+    }
+
+    .project-document-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 14px;
+    }
+
     .document-card {
       display: flex;
       flex-direction: column;
@@ -212,6 +238,10 @@
       }
 
       .library-principles {
+        grid-template-columns: 1fr;
+      }
+
+      .project-document-grid {
         grid-template-columns: 1fr;
       }
     }
@@ -365,7 +395,7 @@
           </div>
 
           <p id="document-count" class="library-count">
-            Showing 5 agenda collections
+            Showing 4 projects · 5 agenda collections
           </p>
 
         </div>
@@ -392,6 +422,7 @@
               <article
                 class="document-card"
                 data-category="finance"
+                data-project="CFD Bond Refunding"
                 data-search="j.1 finance cfd bond refunding good faith estimates"
               >
                 <div class="meta">J.1 · Finance</div>
@@ -419,6 +450,7 @@
               <article
                 class="document-card"
                 data-category="utilities"
+                data-project="Wastewater Master Plan"
                 data-search="j.2 utilities wastewater master plan professional services agreement"
               >
                 <div class="meta">J.2 · Utilities</div>
@@ -445,6 +477,7 @@
               <article
                 class="document-card"
                 data-category="transportation"
+                data-project="Citywide Street Rehabilitation"
                 data-search="j.3 transportation street rehabilitation construction agreement bid tabulation matich"
               >
                 <div class="meta">J.3 · Transportation</div>
@@ -471,6 +504,7 @@
               <article
                 class="document-card"
                 data-category="parks"
+                data-project="Stewart Park Phase II"
                 data-search="j.4 parks stewart park orlp outdoor recreation legacy program grant agreement"
               >
                 <div class="meta">J.4 · Parks</div>
@@ -497,6 +531,7 @@
               <article
                 class="document-card"
                 data-category="parks"
+                data-project="Stewart Park Phase II"
                 data-search="j.5 parks stewart park placeworks amendment 4 cost proposal levine act"
               >
                 <div class="meta">J.5 · Parks</div>
@@ -610,9 +645,36 @@
     (() => {
       const searchInput = document.querySelector("#document-search");
       const categorySelect = document.querySelector("#document-category");
+      const results = document.querySelector("#document-results");
       const cards = [...document.querySelectorAll(".document-card")];
       const count = document.querySelector("#document-count");
       const noResults = document.querySelector("#no-results");
+
+      const projectGroups = new Map();
+
+      cards.forEach((card) => {
+        const project = card.dataset.project || "Other City Records";
+
+        if (!projectGroups.has(project)) {
+          const section = document.createElement("section");
+          section.className = "project-document-group";
+          section.setAttribute("aria-label", project);
+
+          const heading = document.createElement("h3");
+          heading.textContent = project;
+
+          const grid = document.createElement("div");
+          grid.className = "project-document-grid";
+
+          section.append(heading, grid);
+          results.append(section);
+          projectGroups.set(project, { section, grid });
+        }
+
+        projectGroups.get(project).grid.append(card);
+      });
+
+      results.classList.add("grouped");
 
       function filterDocuments() {
         const searchTerm = searchInput.value.trim().toLowerCase();
@@ -639,16 +701,24 @@
           }
         });
 
-        count.textContent =
-          visibleCount === 1
-            ? "Showing 1 agenda collection"
-            : `Showing ${visibleCount} agenda collections`;
+        let visibleProjects = 0;
+
+        projectGroups.forEach(({ section, grid }) => {
+          const hasVisibleCard = [...grid.children].some((card) => !card.hidden);
+          section.hidden = !hasVisibleCard;
+          if (hasVisibleCard) visibleProjects += 1;
+        });
+
+        const projectLabel = visibleProjects === 1 ? "project" : "projects";
+        const collectionLabel = visibleCount === 1 ? "agenda collection" : "agenda collections";
+        count.textContent = `Showing ${visibleProjects} ${projectLabel} · ${visibleCount} ${collectionLabel}`;
 
         noResults.hidden = visibleCount !== 0;
       }
 
       searchInput.addEventListener("input", filterDocuments);
       categorySelect.addEventListener("change", filterDocuments);
+      filterDocuments();
     })();
   </script>
 
