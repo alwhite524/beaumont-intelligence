@@ -123,81 +123,54 @@
   <div class="wrap">
 
     <!-- FEATURED ITEM TEMPLATE
-         Keep this concise: decision, one-minute summary, key facts,
-         no more than three "What to watch" points, then direct sources. -->
-    <article class="item-card" id="{{ITEM_1_ID}}">
-      <header class="item-head">
-        <a class="top-link" href="#overview">Back to top ↑</a>
-        <div class="meta">{{ITEM_1_NUMBER}} · {{ITEM_1_CATEGORY}} · {{ITEM_1_STAGE}}</div>
-        <h2>{{ITEM_1_TITLE}}</h2>
-        <span class="status-pill">{{ITEM_1_STATUS}}</span>
+         Use this structure for every highlighted agenda item. Keep the
+         Council action and Action/Vote/Video row visible at all times. -->
+    <div class="agenda-stack">
+      <article class="agenda-item priority-five" id="{{ITEM_1_ID}}">
+        <div class="agenda-rank">★★★★★</div>
+        <div class="agenda-item-body">
+          <div class="meta">{{ITEM_1_NUMBER}} · {{ITEM_1_CATEGORY}} · {{ITEM_1_STAGE}}</div>
+          <h3>{{ITEM_1_TITLE}}</h3>
 
-        <div class="decision-box">
-          <strong>Decision before Council</strong>
-          {{ITEM_1_RECOMMENDATION}}
+          <div class="decision-box">
+            <strong>{{ITEM_1_DECISION_LABEL}}</strong>
+            {{ITEM_1_RECOMMENDATION_OR_ACTION}}
+          </div>
+
+          <div class="after-grid">
+            <div><strong>Action</strong><span>{{ITEM_1_ACTION_STATUS}}</span></div>
+            <div><strong>Vote</strong><span>{{ITEM_1_VOTE}}</span></div>
+            <div><strong>Video</strong><span>{{ITEM_1_VIDEO_LINK_OR_STATUS}}</span></div>
+          </div>
+
+          <p><strong>{{ITEM_1_SUMMARY_LABEL}}</strong> {{ITEM_1_SUMMARY}}</p>
+
+          <div class="bi-insight">
+            <strong>Key points</strong>
+            <ul class="compact-list">
+              <li>{{ITEM_1_KEY_POINT_1}}</li>
+              <li>{{ITEM_1_KEY_POINT_2}}</li>
+              <li>{{ITEM_1_KEY_POINT_3}}</li>
+              <li>{{ITEM_1_KEY_POINT_4}}</li>
+            </ul>
+          </div>
+
+          <p><strong>Fiscal impact:</strong> {{ITEM_1_FISCAL_IMPACT}}</p>
+          <p><strong>What to watch:</strong> {{ITEM_1_FOLLOW_UP}}</p>
+
+          <h3 class="official-documents-heading">Official documents</h3>
+          <div class="doc-actions">
+            <a class="btn small" href="{{ITEM_1_STAFF_REPORT_URL}}" target="_blank">Open staff report</a>
+            <a class="btn small" href="{{ITEM_1_ATTACHMENT_URL}}" target="_blank">Open attachments</a>
+            <a class="text-link" href="{{ITEM_1_RELATED_BI_URL}}">{{ITEM_1_RELATED_BI_LABEL}} →</a>
+          </div>
+
+          <p class="source-note">{{ITEM_1_SOURCE_NOTE}}</p>
         </div>
-      </header>
+      </article>
+    </div>
 
-      <div class="item-body">
-        <h3>In one minute</h3>
-        <p>{{ITEM_1_SUMMARY}}</p>
 
-        <div class="fact-grid">
-          <div class="fact"><strong>{{ITEM_1_FACT_1_VALUE}}</strong><span>{{ITEM_1_FACT_1_LABEL}}</span></div>
-          <div class="fact"><strong>{{ITEM_1_FACT_2_VALUE}}</strong><span>{{ITEM_1_FACT_2_LABEL}}</span></div>
-          <div class="fact"><strong>{{ITEM_1_FACT_3_VALUE}}</strong><span>{{ITEM_1_FACT_3_LABEL}}</span></div>
-        </div>
-
-        <div class="accordion">
-          <details open>
-            <summary>Key points</summary>
-            <div>
-              <ul class="compact-list">
-                <li>{{ITEM_1_KEY_POINT_1}}</li>
-                <li>{{ITEM_1_KEY_POINT_2}}</li>
-                <li>{{ITEM_1_KEY_POINT_3}}</li>
-                <li>{{ITEM_1_KEY_POINT_4}}</li>
-              </ul>
-            </div>
-          </details>
-
-          <details>
-            <summary>Fiscal impact</summary>
-            <div><p>{{ITEM_1_FISCAL_IMPACT}}</p></div>
-          </details>
-
-          <details>
-            <summary>What to watch</summary>
-            <div>
-              <ul class="compact-list">
-                <li>{{ITEM_1_WATCH_1}}</li>
-                <li>{{ITEM_1_WATCH_2}}</li>
-                <li>{{ITEM_1_WATCH_3}}</li>
-              </ul>
-            </div>
-          </details>
-
-          <details>
-            <summary>After the meeting</summary>
-            <div class="after-grid">
-              <div><strong>Motion</strong><span>Pending</span></div>
-              <div><strong>Vote</strong><span>Pending</span></div>
-              <div><strong>Video</strong><span>Pending</span></div>
-            </div>
-          </details>
-        </div>
-
-        <div class="doc-actions">
-          <a class="btn small" href="{{ITEM_1_STAFF_REPORT_URL}}" target="_blank">Open staff report</a>
-          <a class="btn small" href="{{ITEM_1_ATTACHMENT_URL}}" target="_blank">Open attachments</a>
-          <a class="text-link" href="{{ITEM_1_RELATED_BI_URL}}">{{ITEM_1_RELATED_BI_LABEL}} →</a>
-        </div>
-
-        <p class="source-note">{{ITEM_1_SOURCE_NOTE}}</p>
-      </div>
-    </article>
-
-    <!-- Duplicate the complete article above for each additional featured item. -->
 
   </div>
 </section>
