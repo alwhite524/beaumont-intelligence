@@ -253,5 +253,39 @@
     "verification_status": "verified",
     "timestamp_status": "pending",
     "notes": "State-clearance and construction-restart milestone."
+  },
+  {
+    "archive_code": "SP-AI-2026-0721-J4",
+    "meeting_date": "2026-07-21",
+    "body_name": "Beaumont City Council",
+    "item_number": "J.4",
+    "title": "ORLP Grant Agreement for Stewart Park Phase II",
+    "category": "Grant agreement",
+    "recommendation": "Approve the ORLP grant agreement.",
+    "official_url": "https://pub-beaumont.escribemeetings.com/Meeting.aspx?Id=14f9fc78-9177-48a5-ba20-6852b27b6940&Agenda=Agenda&lang=English",
+    "source_type": "Official agenda and meeting video",
+    "evidence_level": "A",
+    "verification_status": "verified",
+    "timestamp_status": "verified",
+    "video_url": "https://www.youtube.com/watch?v=9Cs24uKDkN0&t=12184s",
+    "video_timestamp": "3:23:04",
+    "notes": "Approved 5-0 together with J.5."
+  },
+  {
+    "archive_code": "SP-AI-2026-0721-J5",
+    "meeting_date": "2026-07-21",
+    "body_name": "Beaumont City Council",
+    "item_number": "J.5",
+    "title": "PlaceWorks Amendment No. 4",
+    "category": "Design and construction support",
+    "recommendation": "Approve Amendment No. 4 for Phase II bid and construction-related services.",
+    "official_url": "https://pub-beaumont.escribemeetings.com/Meeting.aspx?Id=14f9fc78-9177-48a5-ba20-6852b27b6940&Agenda=Agenda&lang=English",
+    "source_type": "Official agenda and meeting video",
+    "evidence_level": "A",
+    "verification_status": "verified",
+    "timestamp_status": "verified",
+    "video_url": "https://www.youtube.com/watch?v=9Cs24uKDkN0&t=12184s",
+    "video_timestamp": "3:23:04",
+    "notes": "Approved 5-0 together with J.4."
   }
 ]
