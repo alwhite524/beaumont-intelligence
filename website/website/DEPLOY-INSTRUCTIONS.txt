@@ -1,9 +1,0 @@
-VERSION 1.0 ROOT UPDATE
-
-Copy every item INSIDE this extracted folder directly into the ROOT of the GitHub-connected repository.
-Do not copy the enclosing update folder itself.
-
-Commit message:
-Release v1.0 mountain homepage and Stewart Park project routes
-
-After push, wait for GitHub Pages deployment and hard-refresh with Ctrl+F5.
