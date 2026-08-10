@@ -2,7 +2,7 @@
   "schemaVersion": "1.0",
   "issue": "BC-002",
   "title": "Budget Center Source Register",
-  "lastUpdated": "2026-08-02",
+  "lastUpdated": "2026-08-09",
   "governance": {
     "sourceIdPrefix": "SRC",
     "verificationStatuses": [
@@ -340,6 +340,30 @@
       ],
       "summary": "Placeholder parent record for the official documents supporting Potrero Phase II funding.",
       "notes": "Replace this parent record with individual official source records during Phase 2 inventory."
+    },
+    {
+      "sourceId": "SRC-0011", "title": "FY 2025-26 Fourth-Quarter Budget and Financial Status", "documentType": "Financial Status Report", "fiscalYear": "2025-26", "documentDate": "2026-08-04", "councilMeetingDate": "2026-08-04", "agendaItem": "G.13", "resolutionNumber": null, "department": "Finance", "publisher": "City of Beaumont", "officialUrl": null, "archivePath": "docs/official-documents/2026-08-04/g-13-staff-report-fourth-quarter-budget-and-financial-status.pdf", "retrievedDate": "2026-08-04", "verificationStatus": "Archived", "confidence": "High", "evidenceLevel": "A", "relatedTopics": ["Budget Reporting", "Revenue", "Expenditures", "Cash and Investments"], "relatedProjects": [], "crossLinks": ["budget.html", "budget-sources.html", "briefings/2026-08-04.html#budget"], "summary": "Year-end financial status report as of June 30, 2026, before final closing and audit adjustments.", "notes": "Receive-and-file reporting is not a new spending authorization."
+    },
+    {
+      "sourceId": "SRC-0012", "title": "Fourth-Quarter Budget Adjustment Form", "documentType": "Budget Adjustment", "fiscalYear": "2025-26", "documentDate": "2026-08-04", "councilMeetingDate": "2026-08-04", "agendaItem": "G.13", "resolutionNumber": null, "department": "Finance", "publisher": "City of Beaumont", "officialUrl": null, "archivePath": "docs/official-documents/2026-08-04/g-13-attachment-budget-adjustment-form.pdf", "retrievedDate": "2026-08-04", "verificationStatus": "Archived", "confidence": "High", "evidenceLevel": "A", "relatedTopics": ["Budget Amendments", "Budget Reporting"], "relatedProjects": [], "crossLinks": ["budget.html", "budget-sources.html"], "summary": "Supporting budget adjustment form archived with the fourth-quarter financial-status agenda item.", "notes": null
+    },
+    {
+      "sourceId": "SRC-0013", "title": "First Amendment to the FY 2027-2031 Capital Improvement Plan Staff Report", "documentType": "Staff Report", "fiscalYear": "2026-27", "documentDate": "2026-07-21", "councilMeetingDate": "2026-07-21", "agendaItem": "I.3", "resolutionNumber": null, "department": "City of Beaumont", "publisher": "City of Beaumont", "officialUrl": null, "archivePath": "docs/official-documents/2026-07-21/i-3-staff-report-fy-27-cip-amendment-1.pdf", "retrievedDate": "2026-07-21", "verificationStatus": "Archived", "confidence": "High", "evidenceLevel": "A", "relatedTopics": ["Capital Improvement Program", "Budget Amendments", "Capital Projects"], "relatedProjects": [], "crossLinks": ["budget.html", "budget-sources.html", "briefings/2026-07-21.html"], "summary": "Staff report supporting the first amendment to the FY 2027-2031 Capital Improvement Plan.", "notes": null
+    },
+    {
+      "sourceId": "SRC-0014", "title": "FY 2027-2031 CIP Project List", "documentType": "Capital Project List", "fiscalYear": "2026-27", "documentDate": "2026-07-21", "councilMeetingDate": "2026-07-21", "agendaItem": "I.3", "resolutionNumber": null, "department": "City of Beaumont", "publisher": "City of Beaumont", "officialUrl": null, "archivePath": "docs/official-documents/2026-07-21/i-3-exhibit-b-cip-project-list.pdf", "retrievedDate": "2026-07-21", "verificationStatus": "Archived", "confidence": "High", "evidenceLevel": "A", "relatedTopics": ["Capital Improvement Program", "Capital Projects"], "relatedProjects": [], "crossLinks": ["budget-sources.html"], "summary": "Project-level list accompanying the first FY 2027-2031 CIP amendment.", "notes": null
+    },
+    {
+      "sourceId": "SRC-0015", "title": "FY 2027-2031 CIP Changelog", "documentType": "Changelog", "fiscalYear": "2026-27", "documentDate": "2026-07-21", "councilMeetingDate": "2026-07-21", "agendaItem": "I.3", "resolutionNumber": null, "department": "City of Beaumont", "publisher": "City of Beaumont", "officialUrl": null, "archivePath": "docs/official-documents/2026-07-21/i-3-exhibit-c-cip-changelog.pdf", "retrievedDate": "2026-07-21", "verificationStatus": "Archived", "confidence": "High", "evidenceLevel": "A", "relatedTopics": ["Capital Improvement Program", "Budget Amendments"], "relatedProjects": [], "crossLinks": ["budget-sources.html"], "summary": "Record of project changes included with the first Capital Improvement Plan amendment.", "notes": null
+    },
+    {
+      "sourceId": "SRC-0016", "title": "FY 2027-2031 CIP Budget Adjustment Form", "documentType": "Budget Adjustment", "fiscalYear": "2026-27", "documentDate": "2026-07-21", "councilMeetingDate": "2026-07-21", "agendaItem": "I.3", "resolutionNumber": null, "department": "City of Beaumont", "publisher": "City of Beaumont", "officialUrl": null, "archivePath": "docs/official-documents/2026-07-21/i-3-exhibit-e-budget-adjustment-form.pdf", "retrievedDate": "2026-07-21", "verificationStatus": "Archived", "confidence": "High", "evidenceLevel": "A", "relatedTopics": ["Capital Improvement Program", "Budget Amendments"], "relatedProjects": [], "crossLinks": ["budget-sources.html"], "summary": "Budget adjustment associated with the adopted first CIP amendment.", "notes": null
+    },
+    {
+      "sourceId": "SRC-0017", "title": "2026 CFD Bond Refunding Staff Report", "documentType": "Staff Report", "fiscalYear": "2026-27", "documentDate": "2026-07-21", "councilMeetingDate": "2026-07-21", "agendaItem": "J.1", "resolutionNumber": null, "department": "Finance", "publisher": "City of Beaumont", "officialUrl": null, "archivePath": "docs/official-documents/2026-07-21/j-1-staff-report-2026-cfd-refunding.pdf", "retrievedDate": "2026-07-21", "verificationStatus": "Archived", "confidence": "High", "evidenceLevel": "A", "relatedTopics": ["Community Facilities Districts", "Debt", "Bond Refunding"], "relatedProjects": [], "crossLinks": ["budget.html", "budget-sources.html", "briefings/2026-07-21.html"], "summary": "Staff report supporting four related refunding authorizations and Council savings thresholds.", "notes": "Authorization does not by itself confirm final transaction terms or savings."
+    },
+    {
+      "sourceId": "SRC-0018", "title": "CFD Refunding Good-Faith Estimates", "documentType": "Financial Estimate", "fiscalYear": "2026-27", "documentDate": "2026-07-21", "councilMeetingDate": "2026-07-21", "agendaItem": "J.1", "resolutionNumber": null, "department": "Finance", "publisher": "City of Beaumont", "officialUrl": null, "archivePath": "docs/official-documents/2026-07-21/j-1-attachment-a-good-faith-estimates.pdf", "retrievedDate": "2026-07-21", "verificationStatus": "Archived", "confidence": "High", "evidenceLevel": "A", "relatedTopics": ["Community Facilities Districts", "Debt", "Bond Refunding"], "relatedProjects": [], "crossLinks": ["budget-sources.html"], "summary": "Supporting good-faith estimates for the proposed CFD refunding transactions.", "notes": "Estimates are not final transaction results."
     }
   ]
 }

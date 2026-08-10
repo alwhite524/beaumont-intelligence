@@ -14,8 +14,8 @@ Every published financial claim should be traceable to one or more permanent Sou
 ## Repository artifacts
 
 - `data/budget/source-register.json` — canonical machine-readable register
-- `website/budget-sources.html` — human-readable, filterable review page
-- `website/budget.html` — initial Budget Center landing page
+- `docs/budget-sources.html` — human-readable, filterable public register
+- `docs/budget.html` — Budget Center landing page
 
 ## Source record schema
 
@@ -82,7 +82,7 @@ Confidence describes the interpretation or extracted data, not whether the docum
 
 ## Initial inventory
 
-This deliverable seeds the register with official records already used in Beaumont Intelligence, including Stewart Park staff reports and agenda packets, a Pennsylvania Avenue funding announcement, and a pending Potrero source collection.
+This deliverable seeds the register with official records already used in Beaumont Intelligence, including citywide financial reporting, the Capital Improvement Plan, CFD refunding, Stewart Park records, a Pennsylvania Avenue funding announcement, and ongoing Potrero research.
 
 The initial inventory is intentionally not presented as a complete City budget-document catalog. Adopted budgets, ACFRs, CIP books, budget amendments, and workshop records still need to be entered as individual verified sources.
 
