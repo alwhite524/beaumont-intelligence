@@ -14,7 +14,7 @@ Every published financial claim should be traceable to one or more permanent Sou
 ## Repository artifacts
 
 - `data/budget/source-register.json` — canonical machine-readable register
-- `docs/budget-sources.html` — human-readable, filterable public register
+- `docs/budget-evidence.html` — human-readable, filterable public register
 - `docs/budget.html` — Budget Center landing page
 
 ## Source record schema
