@@ -9,7 +9,6 @@
   const category = document.querySelector("#category");
   const documentType = document.querySelector("#document-type");
   const attachments = document.querySelector("#attachments");
-  const relatedIntelligence = document.querySelector("#related-intelligence");
   const briefingLink = document.querySelector("#briefing-link");
   const pdfLink = document.querySelector("#pdf-link");
 
@@ -24,8 +23,6 @@
 
     attachments.innerHTML =
       '<p><a href="index.html">Return to the Official Source Library →</a></p>';
-
-    relatedIntelligence.innerHTML = "";
     briefingLink.hidden = true;
     pdfLink.hidden = true;
 
@@ -104,19 +101,4 @@ else {
         "<p>No related documents.</p>";
 
 }
-
-  if (record.relatedIntelligence?.length) {
-    relatedIntelligence.innerHTML = record.relatedIntelligence
-      .map(
-        (item) => `
-          <a class="text-link" href="${item.url}">
-            ${item.title} →
-          </a>
-        `
-      )
-      .join("<br>");
-  } else {
-    relatedIntelligence.innerHTML =
-      "<p>No related Intelligence Centers are currently linked.</p>";
-  }
 })();
