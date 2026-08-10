@@ -90,34 +90,38 @@
     "notes": "Minutes confirm J.1; staff report documents 30%, 60%, cost estimate, and two-phase strategy."
   },
   {
-    "archive_code": "SP-AI-2024-0618-TBD1",
+    "archive_code": "SP-AI-2024-0618-A",
     "meeting_date": "2024-06-18",
     "body_name": "Beaumont City Council",
-    "item_number": "TBD",
+    "item_number": "J.3",
     "title": "Award Phase I Construction Agreement to Act 1 Construction",
     "category": "Construction award",
     "recommendation": "Award the public works agreement for Stewart Park Phase I construction.",
     "official_url": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=4589",
-    "source_type": "Official staff report",
+    "source_type": "Official staff report and meeting video",
     "evidence_level": "A",
     "verification_status": "verified",
-    "timestamp_status": "pending",
-    "notes": "Exact agenda item number and vote remain to be added."
+    "timestamp_status": "verified",
+    "video_url": "https://www.youtube.com/watch?v=4rJ-kAwq3qE&t=15449s",
+    "video_timestamp": "4:17:29",
+    "notes": "Approved 5-0. Transcript confirms the J.3 discussion begins at 4:17:29."
   },
   {
-    "archive_code": "SP-AI-2024-0618-TBD2",
+    "archive_code": "SP-AI-2024-0618-B",
     "meeting_date": "2024-06-18",
     "body_name": "Beaumont City Council",
-    "item_number": "TBD",
+    "item_number": "J.4",
     "title": "First Amendment to PlaceWorks Agreement",
     "category": "Construction administration",
     "recommendation": "Approve the first amendment for construction administration services.",
     "official_url": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=4540",
-    "source_type": "Official staff report",
+    "source_type": "Official staff report and meeting video",
     "evidence_level": "A",
     "verification_status": "verified",
-    "timestamp_status": "pending",
-    "notes": "Separate action from the construction contract."
+    "timestamp_status": "verified",
+    "video_url": "https://www.youtube.com/watch?v=4rJ-kAwq3qE&t=15838s",
+    "video_timestamp": "4:23:58",
+    "notes": "Approved 5-0. Transcript confirms the J.4 discussion begins at 4:23:58."
   },
   {
     "archive_code": "SP-AI-2024-0716-TBD",
@@ -267,8 +271,8 @@
     "evidence_level": "A",
     "verification_status": "verified",
     "timestamp_status": "verified",
-    "video_url": "https://www.youtube.com/watch?v=9Cs24uKDkN0&t=12184s",
-    "video_timestamp": "3:23:04",
+    "video_url": "https://www.youtube.com/watch?v=9Cs24uKDkN0&t=12200s",
+    "video_timestamp": "3:23:20",
     "notes": "Approved 5-0 together with J.5."
   },
   {
@@ -284,8 +288,8 @@
     "evidence_level": "A",
     "verification_status": "verified",
     "timestamp_status": "verified",
-    "video_url": "https://www.youtube.com/watch?v=9Cs24uKDkN0&t=12184s",
-    "video_timestamp": "3:23:04",
+    "video_url": "https://www.youtube.com/watch?v=9Cs24uKDkN0&t=12200s",
+    "video_timestamp": "3:23:20",
     "notes": "Approved 5-0 together with J.4."
   }
 ]

@@ -99,26 +99,32 @@
         {
           "meeting_date": "2024-06-18",
           "archive_code": "SP-AI-2024-0618-B",
-          "item_number": "TBD",
+          "item_number": "J.4",
           "title": "First Amendment to PlaceWorks Agreement",
           "category": "Contract amendment",
           "recommendation": "Approve construction administration amendment.",
-          "action_taken_summary": null,
+          "action_taken_summary": "Approved 5-0.",
           "official_url": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=4540",
-          "verification_status": "reviewed",
-          "notes": "Construction administration."
+          "verification_status": "verified",
+          "notes": "Verified discussion start 4:23:58.",
+          "video_url": "https://www.youtube.com/watch?v=4rJ-kAwq3qE&t=15838s",
+          "video_timestamp": "4:23:58",
+          "video_start_seconds": 15838
         },
         {
           "meeting_date": "2024-06-18",
           "archive_code": "SP-AI-2024-0618-A",
-          "item_number": "TBD",
+          "item_number": "J.3",
           "title": "Award Phase I Construction Agreement to Act 1 Construction",
           "category": "Construction award",
           "recommendation": "Award public works agreement.",
-          "action_taken_summary": null,
+          "action_taken_summary": "Approved 5-0.",
           "official_url": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=4589",
-          "verification_status": "reviewed",
-          "notes": "Major construction action."
+          "verification_status": "verified",
+          "notes": "Verified discussion start 4:17:29.",
+          "video_url": "https://www.youtube.com/watch?v=4rJ-kAwq3qE&t=15449s",
+          "video_timestamp": "4:17:29",
+          "video_start_seconds": 15449
         },
         {
           "meeting_date": "2024-11-05",
@@ -297,26 +303,32 @@
     {
       "meeting_date": "2024-06-18",
       "archive_code": "SP-AI-2024-0618-B",
-      "item_number": "TBD",
+      "item_number": "J.4",
       "title": "First Amendment to PlaceWorks Agreement",
       "category": "Contract amendment",
       "recommendation": "Approve construction administration amendment.",
-      "action_taken_summary": null,
+      "action_taken_summary": "Approved 5-0.",
       "official_url": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=4540",
-      "verification_status": "reviewed",
-      "notes": "Construction administration."
+      "verification_status": "verified",
+      "notes": "Verified discussion start 4:23:58.",
+      "video_url": "https://www.youtube.com/watch?v=4rJ-kAwq3qE&t=15838s",
+      "video_timestamp": "4:23:58",
+      "video_start_seconds": 15838
     },
     {
       "meeting_date": "2024-06-18",
       "archive_code": "SP-AI-2024-0618-A",
-      "item_number": "TBD",
+      "item_number": "J.3",
       "title": "Award Phase I Construction Agreement to Act 1 Construction",
       "category": "Construction award",
       "recommendation": "Award public works agreement.",
-      "action_taken_summary": null,
+      "action_taken_summary": "Approved 5-0.",
       "official_url": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=4589",
-      "verification_status": "reviewed",
-      "notes": "Major construction action."
+      "verification_status": "verified",
+      "notes": "Verified discussion start 4:17:29.",
+      "video_url": "https://www.youtube.com/watch?v=4rJ-kAwq3qE&t=15449s",
+      "video_timestamp": "4:17:29",
+      "video_start_seconds": 15449
     },
     {
       "meeting_date": "2024-11-05",
@@ -663,7 +675,7 @@
       "archive_code": "SP-FUND-2026-0602-ORLP",
       "event_date": "2026-06-02",
       "event_type": "State clearance / award preserved",
-      "amount": 2500000.0,
+      "amount": 2500000,
       "amount_status": "Official current project-page amount",
       "purpose": "Phase II improvements",
       "verification_status": "verified",
@@ -749,7 +761,7 @@
   "meta": {
     "version": "0.7.0",
     "generated": "2026-07-13",
-    "verified_timestamps": 0,
-    "verified_council_actions": 0
+    "verified_timestamps": 2,
+    "verified_council_actions": 2
   }
 }

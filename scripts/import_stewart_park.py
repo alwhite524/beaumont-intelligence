@@ -57,6 +57,16 @@ for r in rows("agenda_items.csv"):
     conn.execute("INSERT OR IGNORE INTO project_agenda_item(project_id,agenda_item_id,relationship_type) VALUES(?,?,?)",
                  (PROJECT_ID,aid,"substantive"))
 
+# verified video segments
+for r in rows("video_segments.csv"):
+    conn.execute("""INSERT OR REPLACE INTO video_segment
+    (video_segment_id,agenda_item_id,archive_code,title,start_seconds,end_seconds,
+     topic,transcript,direct_url,verification_status)
+    VALUES(?,?,?,?,?,?,?,?,?,?)""",
+    (uid(),agenda_ids[r["agenda_item_archive_code"]],r["archive_code"],r["title"],
+     int(r["start_seconds"]),int(r["end_seconds"]) if r["end_seconds"] else None,
+     r["topic"] or None,r["transcript"] or None,r["direct_url"],r["verification_status"]))
+
 # document types and documents
 doc_type_ids={}
 doc_ids={}
@@ -167,6 +177,6 @@ for qcode, dcodes in evidence_map.items():
 
 conn.commit()
 print("Imported Stewart Park dataset.")
-for table in ["meeting","agenda_item","document","project_feature","funding_event","media","verified_question","evidence_link"]:
+for table in ["meeting","agenda_item","video_segment","document","project_feature","funding_event","media","verified_question","evidence_link"]:
     print(table, conn.execute(f"SELECT COUNT(*) FROM {table}").fetchone()[0])
 conn.close()
