@@ -136,7 +136,10 @@
           "action_taken_summary": null,
           "official_url": "https://pub-beaumont.escribemeetings.com/FileStream.ashx?DocumentId=5403",
           "verification_status": "reviewed",
-          "notes": "NEPA support."
+          "notes": "NEPA support. Verified joint discussion start for items J.1 and J.2 at 2:28:39.",
+          "video_url": "https://www.youtube.com/watch?v=9rwrDxZWFPs&t=8919s",
+          "video_timestamp": "2:28:39",
+          "video_start_seconds": 8919
         },
         {
           "meeting_date": "2024-11-05",
@@ -148,7 +151,10 @@
           "action_taken_summary": null,
           "official_url": "https://pub-beaumont.escribemeetings.com/FileStream.ashx?DocumentId=5403",
           "verification_status": "reviewed",
-          "notes": "Geotechnical support."
+          "notes": "Geotechnical support. Verified joint discussion start for items J.1 and J.2 at 2:28:39.",
+          "video_url": "https://www.youtube.com/watch?v=9rwrDxZWFPs&t=8919s",
+          "video_timestamp": "2:28:39",
+          "video_start_seconds": 8919
         }
       ]
     },
@@ -167,7 +173,10 @@
           "action_taken_summary": null,
           "official_url": "https://pub-beaumont.escribemeetings.com/FileStream.ashx?DocumentId=6761",
           "verification_status": "reviewed",
-          "notes": "Pre-award process."
+          "notes": "Pre-award process. Verified discussion start 3:26:39.",
+          "video_url": "https://www.youtube.com/watch?v=SFV7M6Jk3RY&t=12399s",
+          "video_timestamp": "3:26:39",
+          "video_start_seconds": 12399
         },
         {
           "meeting_date": "2025-06-03",
@@ -340,7 +349,10 @@
       "action_taken_summary": null,
       "official_url": "https://pub-beaumont.escribemeetings.com/FileStream.ashx?DocumentId=5403",
       "verification_status": "reviewed",
-      "notes": "NEPA support."
+      "notes": "NEPA support. Verified joint discussion start for items J.1 and J.2 at 2:28:39.",
+      "video_url": "https://www.youtube.com/watch?v=9rwrDxZWFPs&t=8919s",
+      "video_timestamp": "2:28:39",
+      "video_start_seconds": 8919
     },
     {
       "meeting_date": "2024-11-05",
@@ -352,7 +364,10 @@
       "action_taken_summary": null,
       "official_url": "https://pub-beaumont.escribemeetings.com/FileStream.ashx?DocumentId=5403",
       "verification_status": "reviewed",
-      "notes": "Geotechnical support."
+      "notes": "Geotechnical support. Verified joint discussion start for items J.1 and J.2 at 2:28:39.",
+      "video_url": "https://www.youtube.com/watch?v=9rwrDxZWFPs&t=8919s",
+      "video_timestamp": "2:28:39",
+      "video_start_seconds": 8919
     },
     {
       "meeting_date": "2025-05-06",
@@ -364,7 +379,10 @@
       "action_taken_summary": null,
       "official_url": "https://pub-beaumont.escribemeetings.com/FileStream.ashx?DocumentId=6761",
       "verification_status": "reviewed",
-      "notes": "Pre-award process."
+      "notes": "Pre-award process. Verified discussion start 3:26:39.",
+      "video_url": "https://www.youtube.com/watch?v=SFV7M6Jk3RY&t=12399s",
+      "video_timestamp": "3:26:39",
+      "video_start_seconds": 12399
     },
     {
       "meeting_date": "2025-06-03",
@@ -768,7 +786,7 @@
   "meta": {
     "version": "0.7.0",
     "generated": "2026-07-13",
-    "verified_timestamps": 2,
+    "verified_timestamps": 5,
     "verified_council_actions": 2
   }
 }
