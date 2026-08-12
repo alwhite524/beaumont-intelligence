@@ -96,10 +96,13 @@
           "title": "Stewart Park Improvement Project Update",
           "category": "Cost and phasing",
           "recommendation": "Receive update and provide direction.",
-          "action_taken_summary": null,
+          "action_taken_summary": "Received the cost and phasing update; Council directed staff to advance Phase I quickly while planning and pursuing funding for Phase II.",
           "official_url": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=3141",
-          "verification_status": "reviewed",
-          "notes": "Cost estimate and phased implementation."
+          "verification_status": "verified",
+          "notes": "Council supported the phased approach and emphasized completing the splash pad in Phase I while planning and seeking funding for Phase II. No formal vote was taken. Verified discussion start 2:27:02.",
+          "video_url": "https://www.youtube.com/watch?v=jw0KRbAHLLY&t=8822s",
+          "video_timestamp": "2:27:02",
+          "video_start_seconds": 8822
         }
       ]
     },
@@ -197,10 +200,13 @@
           "title": "Stewart Park Phase II ORLP Grant Update",
           "category": "Grant preservation",
           "recommendation": "Select Option 1 and pause construction effective June 4.",
-          "action_taken_summary": null,
+          "action_taken_summary": "Approved Option 1 unanimously, pausing construction effective June 4, 2025, until the City executes the required OGALS agreement.",
           "official_url": "https://pub-beaumont.escribemeetings.com/Meeting.aspx?Id=f0fbc3fe-8d21-4382-a457-58dd85cf91ca",
-          "verification_status": "reviewed",
-          "notes": "Construction pause recommendation."
+          "verification_status": "verified",
+          "notes": "Council unanimously selected Option 1 to preserve grant eligibility. Verified discussion start 4:47:59 and approval 5–0.",
+          "video_url": "https://www.youtube.com/watch?v=LRk0mLMR_vs&t=17279s",
+          "video_timestamp": "4:47:59",
+          "video_start_seconds": 17279
         }
       ]
     },
@@ -228,10 +234,13 @@
           "title": "Stewart Park Update and Discussion",
           "category": "Project update",
           "recommendation": "Receive and file or direct additional action.",
-          "action_taken_summary": null,
+          "action_taken_summary": "Received the project and grant update; Council directed staff to send an escalation letter and revisit the construction decision on May 5 after the Washington, D.C. trip.",
           "official_url": "https://pub-beaumont.escribemeetings.com/Meeting.aspx?Id=4d5c25e8-f8e2-43cf-ab09-48b4a7663abf&lang=English",
-          "verification_status": "reviewed",
-          "notes": "Comprehensive update."
+          "verification_status": "verified",
+          "notes": "Council directed staff to escalate the delayed state review and return May 5 before making a formal construction decision. No formal vote was taken. Verified discussion start 2:19:49.",
+          "video_url": "https://www.youtube.com/watch?v=DB1lDM5B56w&t=8389s",
+          "video_timestamp": "2:19:49",
+          "video_start_seconds": 8389
         },
         {
           "meeting_date": "2026-05-05",
@@ -328,10 +337,13 @@
       "title": "Stewart Park Improvement Project Update",
       "category": "Cost and phasing",
       "recommendation": "Receive update and provide direction.",
-      "action_taken_summary": null,
+      "action_taken_summary": "Received the cost and phasing update; Council directed staff to advance Phase I quickly while planning and pursuing funding for Phase II.",
       "official_url": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=3141",
-      "verification_status": "reviewed",
-      "notes": "Cost estimate and phased implementation."
+      "verification_status": "verified",
+      "notes": "Council supported the phased approach and emphasized completing the splash pad in Phase I while planning and seeking funding for Phase II. No formal vote was taken. Verified discussion start 2:27:02.",
+      "video_url": "https://www.youtube.com/watch?v=jw0KRbAHLLY&t=8822s",
+      "video_timestamp": "2:27:02",
+      "video_start_seconds": 8822
     },
     {
       "meeting_date": "2024-06-18",
@@ -415,10 +427,13 @@
       "title": "Stewart Park Phase II ORLP Grant Update",
       "category": "Grant preservation",
       "recommendation": "Select Option 1 and pause construction effective June 4.",
-      "action_taken_summary": null,
+      "action_taken_summary": "Approved Option 1 unanimously, pausing construction effective June 4, 2025, until the City executes the required OGALS agreement.",
       "official_url": "https://pub-beaumont.escribemeetings.com/Meeting.aspx?Id=f0fbc3fe-8d21-4382-a457-58dd85cf91ca",
-      "verification_status": "reviewed",
-      "notes": "Construction pause recommendation."
+      "verification_status": "verified",
+      "notes": "Council unanimously selected Option 1 to preserve grant eligibility. Verified discussion start 4:47:59 and approval 5–0.",
+      "video_url": "https://www.youtube.com/watch?v=LRk0mLMR_vs&t=17279s",
+      "video_timestamp": "4:47:59",
+      "video_start_seconds": 17279
     },
     {
       "meeting_date": "2026-02-03",
@@ -439,10 +454,13 @@
       "title": "Stewart Park Update and Discussion",
       "category": "Project update",
       "recommendation": "Receive and file or direct additional action.",
-      "action_taken_summary": null,
+      "action_taken_summary": "Received the project and grant update; Council directed staff to send an escalation letter and revisit the construction decision on May 5 after the Washington, D.C. trip.",
       "official_url": "https://pub-beaumont.escribemeetings.com/Meeting.aspx?Id=4d5c25e8-f8e2-43cf-ab09-48b4a7663abf&lang=English",
-      "verification_status": "reviewed",
-      "notes": "Comprehensive update."
+      "verification_status": "verified",
+      "notes": "Council directed staff to escalate the delayed state review and return May 5 before making a formal construction decision. No formal vote was taken. Verified discussion start 2:19:49.",
+      "video_url": "https://www.youtube.com/watch?v=DB1lDM5B56w&t=8389s",
+      "video_timestamp": "2:19:49",
+      "video_start_seconds": 8389
     },
     {
       "meeting_date": "2026-05-05",
@@ -810,7 +828,7 @@
   "meta": {
     "version": "0.7.0",
     "generated": "2026-07-13",
-    "verified_timestamps": 9,
-    "verified_council_actions": 9
+    "verified_timestamps": 12,
+    "verified_council_actions": 12
   }
 }

@@ -250,18 +250,18 @@ html {
 .decision-box strong {
   display: block;
   color: #7e101f;
-  font-size: calc(.82rem + 2px);
+  font-size: calc(.82rem + 4px);
   text-transform: uppercase;
   letter-spacing: .05em;
 }
 
-/* Small red section labels are intentionally two pixels larger sitewide. */
+/* Small red section labels are intentionally enlarged sitewide. */
 .eyebrow {
-  font-size: calc(.75rem + 2px);
+  font-size: calc(.75rem + 4px);
 }
 
 .result-type {
-  font-size: calc(.72rem + 2px);
+  font-size: calc(.72rem + 4px);
 }
 
 .video-unverified {
