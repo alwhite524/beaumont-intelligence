@@ -250,9 +250,22 @@ html {
 .decision-box strong {
   display: block;
   color: #7e101f;
-  font-size: .82rem;
+  font-size: calc(.82rem + 2px);
   text-transform: uppercase;
   letter-spacing: .05em;
+}
+
+/* Small red section labels are intentionally two pixels larger sitewide. */
+.eyebrow {
+  font-size: calc(.75rem + 2px);
+}
+
+.result-type {
+  font-size: calc(.72rem + 2px);
+}
+
+.video-unverified {
+  color: #b42318 !important;
 }
 
 .item-body {
