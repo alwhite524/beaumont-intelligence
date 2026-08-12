@@ -277,14 +277,17 @@ html {
 .story-card .status-actions .btn {
   align-self: flex-start;
   display: inline-flex;
-  width: auto;
+  width: 100%;
   max-width: 100%;
   min-height: 0;
-  padding: .65rem .85rem;
-  color: #fff;
-  font-size: .85rem;
+  padding: .7rem .85rem;
+  background: var(--blue) !important;
+  color: #fff !important;
+  font-size: .78rem;
   line-height: 1.25;
-  text-align: left;
+  text-align: center;
+  white-space: nowrap;
+  justify-content: center;
 }
 
 .item-body {
