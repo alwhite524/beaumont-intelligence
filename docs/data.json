@@ -217,15 +217,18 @@
       "records": [
         {
           "meeting_date": "2026-02-03",
-          "archive_code": "SP-AI-2026-0203-TBD",
-          "item_number": "TBD",
+          "archive_code": "SP-AI-2026-0203-G5",
+          "item_number": "G.5",
           "title": "Third Amendment to PlaceWorks Agreement",
           "category": "Professional services",
           "recommendation": "Approve third amendment.",
-          "action_taken_summary": null,
+          "action_taken_summary": "Approved 5-0 with the consent calendar.",
           "official_url": "https://pub-beaumont.escribemeetings.com/Meeting.aspx?Id=fc6fc3fc-cd91-4fd6-a0b3-6a48c8925176",
-          "verification_status": "reviewed",
-          "notes": "Continued services."
+          "verification_status": "verified",
+          "notes": "Verified consent-calendar approval at 3:14:35; vote completed at 3:15:27.",
+          "video_url": "https://www.youtube.com/watch?v=sfwHehdE6yA&t=11675s",
+          "video_timestamp": "3:14:35",
+          "video_start_seconds": 11675
         },
         {
           "meeting_date": "2026-03-17",
@@ -244,27 +247,33 @@
         },
         {
           "meeting_date": "2026-05-05",
-          "archive_code": "SP-AI-2026-0505-TBD",
-          "item_number": "TBD",
+          "archive_code": "SP-AI-2026-0505-J6",
+          "item_number": "J.6",
           "title": "Stewart Park Update and Discussion",
           "category": "Project update",
           "recommendation": "Receive current status update.",
-          "action_taken_summary": null,
+          "action_taken_summary": "Council received the update and requested another status report on June 2 if construction had not resumed.",
           "official_url": "https://pub-beaumont.escribemeetings.com/Meeting.aspx?Agenda=Agenda&Id=e3d73581-b7cd-43e2-9cc6-dda6e508c858&lang=English",
-          "verification_status": "reviewed",
-          "notes": "ORLP status."
+          "verification_status": "verified",
+          "notes": "Verified discussion 2:30:17–2:45:01; no formal vote.",
+          "video_url": "https://www.youtube.com/watch?v=sVHGrTJoQZM&t=9017s",
+          "video_timestamp": "2:30:17",
+          "video_start_seconds": 9017
         },
         {
           "meeting_date": "2026-06-02",
-          "archive_code": "SP-AI-2026-0602-TBD",
-          "item_number": "TBD",
+          "archive_code": "SP-AI-2026-0602-J7",
+          "item_number": "J.7",
           "title": "Stewart Park Revitalization Project Status Update",
           "category": "State clearance",
           "recommendation": "Receive update regarding grant and project status.",
-          "action_taken_summary": null,
+          "action_taken_summary": "Council received the state-clearance and construction-restart update; no formal vote was taken.",
           "official_url": "https://pub-beaumont.escribemeetings.com/Meeting.aspx?Agenda=Agenda&Id=0a96fb8f-3972-4e14-988c-be8fe52fd96d&lang=English",
-          "verification_status": "reviewed",
-          "notes": "State clearance and restart."
+          "verification_status": "verified",
+          "notes": "Verified discussion 3:46:53–3:54:29.",
+          "video_url": "https://www.youtube.com/watch?v=pZeRQ4vKI3A&t=13613s",
+          "video_timestamp": "3:46:53",
+          "video_start_seconds": 13613
         }
       ]
     }
@@ -437,15 +446,18 @@
     },
     {
       "meeting_date": "2026-02-03",
-      "archive_code": "SP-AI-2026-0203-TBD",
-      "item_number": "TBD",
+      "archive_code": "SP-AI-2026-0203-G5",
+      "item_number": "G.5",
       "title": "Third Amendment to PlaceWorks Agreement",
       "category": "Professional services",
       "recommendation": "Approve third amendment.",
-      "action_taken_summary": null,
+      "action_taken_summary": "Approved 5-0 with the consent calendar.",
       "official_url": "https://pub-beaumont.escribemeetings.com/Meeting.aspx?Id=fc6fc3fc-cd91-4fd6-a0b3-6a48c8925176",
-      "verification_status": "reviewed",
-      "notes": "Continued services."
+      "verification_status": "verified",
+      "notes": "Verified consent-calendar approval at 3:14:35; vote completed at 3:15:27.",
+      "video_url": "https://www.youtube.com/watch?v=sfwHehdE6yA&t=11675s",
+      "video_timestamp": "3:14:35",
+      "video_start_seconds": 11675
     },
     {
       "meeting_date": "2026-03-17",
@@ -464,27 +476,33 @@
     },
     {
       "meeting_date": "2026-05-05",
-      "archive_code": "SP-AI-2026-0505-TBD",
-      "item_number": "TBD",
+      "archive_code": "SP-AI-2026-0505-J6",
+      "item_number": "J.6",
       "title": "Stewart Park Update and Discussion",
       "category": "Project update",
       "recommendation": "Receive current status update.",
-      "action_taken_summary": null,
+      "action_taken_summary": "Council received the update and requested another status report on June 2 if construction had not resumed.",
       "official_url": "https://pub-beaumont.escribemeetings.com/Meeting.aspx?Agenda=Agenda&Id=e3d73581-b7cd-43e2-9cc6-dda6e508c858&lang=English",
-      "verification_status": "reviewed",
-      "notes": "ORLP status."
+      "verification_status": "verified",
+      "notes": "Verified discussion 2:30:17–2:45:01; no formal vote.",
+      "video_url": "https://www.youtube.com/watch?v=sVHGrTJoQZM&t=9017s",
+      "video_timestamp": "2:30:17",
+      "video_start_seconds": 9017
     },
     {
       "meeting_date": "2026-06-02",
-      "archive_code": "SP-AI-2026-0602-TBD",
-      "item_number": "TBD",
+      "archive_code": "SP-AI-2026-0602-J7",
+      "item_number": "J.7",
       "title": "Stewart Park Revitalization Project Status Update",
       "category": "State clearance",
       "recommendation": "Receive update regarding grant and project status.",
-      "action_taken_summary": null,
+      "action_taken_summary": "Council received the state-clearance and construction-restart update; no formal vote was taken.",
       "official_url": "https://pub-beaumont.escribemeetings.com/Meeting.aspx?Agenda=Agenda&Id=0a96fb8f-3972-4e14-988c-be8fe52fd96d&lang=English",
-      "verification_status": "reviewed",
-      "notes": "State clearance and restart."
+      "verification_status": "verified",
+      "notes": "Verified discussion 3:46:53–3:54:29.",
+      "video_url": "https://www.youtube.com/watch?v=pZeRQ4vKI3A&t=13613s",
+      "video_timestamp": "3:46:53",
+      "video_start_seconds": 13613
     }
   ],
   "features": [
@@ -826,9 +844,9 @@
     }
   ],
   "meta": {
-    "version": "0.7.0",
-    "generated": "2026-07-13",
-    "verified_timestamps": 12,
-    "verified_council_actions": 12
+    "version": "0.8.0",
+    "generated": "2026-08-15",
+    "verified_timestamps": 15,
+    "verified_council_actions": 15
   }
 }

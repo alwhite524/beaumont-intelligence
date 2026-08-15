@@ -31,6 +31,10 @@ See `docs/sprint-2.1-data-engine.md` and `docs/data-engine-dictionary.md`.
 python scripts/build_all.py
 ```
 
+## Transcript verification workflow
+
+When a Council transcript is added, review the meeting against the entire site—not only the center that prompted the upload. Match every relevant agenda item to all applicable Intelligence Centers, add timestamped video links and verified outcomes, update source datasets and generated site data, and refresh the search index. A transcript should remain unattached when the corresponding meeting contains no relevant item for a center.
+
 ## Web preview
 
 Open `docs/index.html` or run:
