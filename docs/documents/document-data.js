@@ -391,3 +391,47 @@ const documentLibrary = [
     ]
   }
 ];
+
+// August 18, 2026 consent-calendar collections.
+const august18ConsentDocument = (id, title, agendaItem, category, documentType, summary, pdf, relatedDocuments) => ({
+  id,
+  title,
+  shortTitle: `${agendaItem} ${documentType}`,
+  meetingDate: "2026-08-18",
+  meetingLabel: "August 18, 2026 City Council Meeting",
+  agendaItem,
+  category,
+  documentType,
+  summary,
+  pdf: `../official-documents/2026-08-18/${pdf}`,
+  briefing: "../briefings/2026-08-18.html#consent-highlights",
+  relatedDocuments,
+  relatedIntelligence: [{ title: "August 18 Council Briefing", url: "../briefings/2026-08-18.html#consent-highlights" }]
+});
+
+documentLibrary.push(
+  august18ConsentDocument("ci-2026-08-18-g1-warrants-0724", "July 24, 2026 Warrants", "G.1", "Finance", "Warrant Register", "City payment register presented for Council ratification.", "g-1-july-24-2026-warrants.pdf", ["ci-2026-08-18-g1-warrants-0731"]),
+  august18ConsentDocument("ci-2026-08-18-g1-warrants-0731", "July 31, 2026 Warrants", "G.1", "Finance", "Warrant Register", "City payment register presented for Council ratification.", "g-1-july-31-2026-warrants.pdf", ["ci-2026-08-18-g1-warrants-0724"]),
+  august18ConsentDocument("ci-2026-08-18-g2-minutes", "August 4, 2026 City Council Minutes", "G.2", "Meeting Record", "Draft Minutes", "Draft minutes presented for Council approval.", "g-2-august-4-2026-minutes.pdf", []),
+  august18ConsentDocument("ci-2026-08-18-g3-attorney-invoices", "July 2026 City Attorney Invoices", "G.3", "Legal Services", "Invoice Record", "City Attorney invoices presented for Council approval.", "g-3-july-2026-city-attorney-invoices.pdf", []),
+
+  august18ConsentDocument("ci-2026-08-18-g4-staff-report", "FY 2025-26 SB 1205 Annual Inspection Report", "G.4", "Fire and Life Safety", "Staff Report", "Staff report recommending receipt and filing of the annual inspection report for regulated occupancies.", "g-4-staff-report-sb-1205-annual-inspection-report.pdf", ["ci-2026-08-18-g4-inspection-report", "ci-2026-08-18-g4-statute"]),
+  august18ConsentDocument("ci-2026-08-18-g4-inspection-report", "FY 2025-26 Beaumont SB 1205 Inspection Report", "G.4", "Fire and Life Safety", "Attachment", "Annual inspection results supporting the SB 1205 staff report.", "g-4-attachment-a-sb-1205-inspection-report.pdf", ["ci-2026-08-18-g4-staff-report", "ci-2026-08-18-g4-statute"]),
+  august18ConsentDocument("ci-2026-08-18-g4-statute", "SB 1205 Statutory Text", "G.4", "Fire and Life Safety", "Attachment", "State statutory text governing the annual inspection reporting requirement.", "g-4-attachment-b-sb-1205-statute.pdf", ["ci-2026-08-18-g4-staff-report", "ci-2026-08-18-g4-inspection-report"]),
+
+  august18ConsentDocument("ci-2026-08-18-g5-staff-report", "Federal Equitable Sharing Agreement", "G.5", "Public Safety", "Staff Report", "Staff report supporting participation in the federal equitable-sharing program.", "g-5-staff-report-federal-equitable-sharing-agreement.pdf", ["ci-2026-08-18-g5-resolution", "ci-2026-08-18-g5-esac-form"]),
+  august18ConsentDocument("ci-2026-08-18-g5-resolution", "Federal Equitable Sharing Resolution", "G.5", "Public Safety", "Resolution", "Proposed Council resolution authorizing participation and required signatures.", "g-5-attachment-a-equitable-sharing-resolution.pdf", ["ci-2026-08-18-g5-staff-report", "ci-2026-08-18-g5-esac-form"]),
+  august18ConsentDocument("ci-2026-08-18-g5-esac-form", "Equitable Sharing Agreement and Certification", "G.5", "Public Safety", "Form", "Federal Equitable Sharing Agreement and Certification form.", "g-5-attachment-b-esac-form.pdf", ["ci-2026-08-18-g5-staff-report", "ci-2026-08-18-g5-resolution"]),
+
+  august18ConsentDocument("ci-2026-08-18-g6-staff-report", "Cherry Channel Grant Deed", "G.6", "Drainage Infrastructure", "Staff Report", "Staff report supporting acceptance of property for the Cherry Channel drainage facility.", "g-6-staff-report-cherry-channel-grant-deed.pdf", ["ci-2026-08-18-g6-deed", "ci-2026-08-18-g6-acceptance", "ci-2026-08-18-g6-resolution", "ci-2026-08-18-g6-compliance"]),
+  august18ConsentDocument("ci-2026-08-18-g6-deed", "Cherry Channel Grant Deed Package", "G.6", "Drainage Infrastructure", "Grant Deed", "Grant deed package for the portion of Sundance Lot 89 used as the Cherry Channel.", "g-6-attachment-a-grant-deed-package.pdf", ["ci-2026-08-18-g6-staff-report", "ci-2026-08-18-g6-acceptance", "ci-2026-08-18-g6-resolution", "ci-2026-08-18-g6-compliance"]),
+  august18ConsentDocument("ci-2026-08-18-g6-acceptance", "Cherry Channel Certificate of Acceptance", "G.6", "Drainage Infrastructure", "Certificate", "Certificate documenting the City's acceptance of the grant deed.", "g-6-attachment-b-certificate-of-acceptance.pdf", ["ci-2026-08-18-g6-staff-report", "ci-2026-08-18-g6-deed", "ci-2026-08-18-g6-resolution", "ci-2026-08-18-g6-compliance"]),
+  august18ConsentDocument("ci-2026-08-18-g6-resolution", "Cherry Channel Grant Deed Resolution", "G.6", "Drainage Infrastructure", "Resolution", "Proposed resolution accepting the Cherry Channel property interest.", "g-6-attachment-c-grant-deed-resolution.pdf", ["ci-2026-08-18-g6-staff-report", "ci-2026-08-18-g6-deed", "ci-2026-08-18-g6-acceptance", "ci-2026-08-18-g6-compliance"]),
+  august18ConsentDocument("ci-2026-08-18-g6-compliance", "Cherry Channel Certificate of Compliance", "G.6", "Drainage Infrastructure", "Certificate", "Certificate of compliance associated with the property action.", "g-6-attachment-d-certificate-of-compliance.pdf", ["ci-2026-08-18-g6-staff-report", "ci-2026-08-18-g6-deed", "ci-2026-08-18-g6-acceptance", "ci-2026-08-18-g6-resolution"]),
+
+  august18ConsentDocument("ci-2026-08-18-g7-staff-report", "McClure Industrial Offer of Dedication", "G.7", "Streets and Utilities", "Staff Report", "Staff report supporting acceptance of public street and utility dedications for the McClure Industrial project.", "g-7-staff-report-mcclure-offer-of-dedication.pdf", ["ci-2026-08-18-g7-west", "ci-2026-08-18-g7-east", "ci-2026-08-18-g7-acceptance", "ci-2026-08-18-g7-resolution"]),
+  august18ConsentDocument("ci-2026-08-18-g7-west", "McClure West Offer of Dedication", "G.7", "Streets and Utilities", "Offer of Dedication", "Western public street and utility dedication document.", "g-7-attachment-a-west-offer-of-dedication.pdf", ["ci-2026-08-18-g7-staff-report", "ci-2026-08-18-g7-east", "ci-2026-08-18-g7-acceptance", "ci-2026-08-18-g7-resolution"]),
+  august18ConsentDocument("ci-2026-08-18-g7-east", "McClure East Offer of Dedication", "G.7", "Streets and Utilities", "Offer of Dedication", "Eastern public street and utility dedication document.", "g-7-attachment-b-east-offer-of-dedication.pdf", ["ci-2026-08-18-g7-staff-report", "ci-2026-08-18-g7-west", "ci-2026-08-18-g7-acceptance", "ci-2026-08-18-g7-resolution"]),
+  august18ConsentDocument("ci-2026-08-18-g7-acceptance", "McClure Certificate of Acceptance", "G.7", "Streets and Utilities", "Certificate", "Certificate documenting acceptance of the offers of dedication.", "g-7-attachment-c-certificate-of-acceptance.pdf", ["ci-2026-08-18-g7-staff-report", "ci-2026-08-18-g7-west", "ci-2026-08-18-g7-east", "ci-2026-08-18-g7-resolution"]),
+  august18ConsentDocument("ci-2026-08-18-g7-resolution", "McClure Offer of Dedication Resolution", "G.7", "Streets and Utilities", "Resolution", "Proposed resolution accepting the public street and utility dedications.", "g-7-attachment-d-offer-of-dedication-resolution.pdf", ["ci-2026-08-18-g7-staff-report", "ci-2026-08-18-g7-west", "ci-2026-08-18-g7-east", "ci-2026-08-18-g7-acceptance"])
+);
