@@ -48,5 +48,6 @@ python scripts/serve_web.py
 - `docs/intelligence-centers.html` — Intelligence Center directory
 - `docs/stewart-park.html` — Stewart Park Intelligence Center
 - `docs/pennsylvania-grade-separation.html` — Pennsylvania Avenue Grade Separation Intelligence Center
+- `docs/police.html` — Police Intelligence Center
 
 See `docs/github-project-board.md`.
