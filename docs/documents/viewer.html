@@ -8,17 +8,19 @@
 
 <title>Official Document Viewer | Beaumont Intelligence</title>
 
-<link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="../styles.css?v=20260815">
 
 </head>
 
-<body>
+<body data-page="document-viewer">
+<a class="skip-link" href="#main">Skip to content</a>
 
-<header class="app-header">
-    ...
-</header>
+<header class="app-header"><div class="wrap header-row">
+  <a aria-label="Beaumont Intelligence home" class="brand" href="../index.html"><img alt="Moving Beaumont Forward logo" class="brand-logo" src="../mbf-logo.png"><span class="brand-copy"><strong><span class="red">BEAUMONT</span> <span class="blue">INTELLIGENCE</span></strong><small>Official Source Library</small></span></a>
+  <nav aria-label="Primary navigation" class="primary-nav"><a href="../index.html">Home</a><a href="../council-intelligence.html">Council Intelligence</a><a href="index.html">Research Library</a></nav>
+</div></header>
 
-<main class="wrap">
+<main class="wrap document-viewer-page" id="main">
 
 <div class="eyebrow">
 Official Source Library
@@ -32,7 +34,15 @@ Loading...
 Loading document summary...
 </p>
 
-<hr>
+<div class="document-viewer-actions">
+  <a class="btn" id="pdf-link" href="#">Open PDF in a new tab ↗</a>
+  <a class="text-link" id="briefing-link" href="#">← Return to Council briefing</a>
+</div>
+
+<section class="inline-pdf-panel" aria-labelledby="pdf-heading">
+  <div class="inline-pdf-heading"><h2 id="pdf-heading">Document</h2><span>Use the attachment cards below to switch documents.</span></div>
+  <iframe id="pdf-viewer" title="Official document PDF" loading="eager"></iframe>
+</section>
 
 <h2>Meeting Information</h2>
 
@@ -60,8 +70,6 @@ Loading document summary...
 
 </table>
 
-<hr>
-
 <h2>Attachments</h2>
 
 <div id="attachments">
@@ -70,32 +78,10 @@ No attachments.
 
 </div>
 
-<hr>
-
-<p>
-
-<a id="briefing-link" href="#">
-
-← Return to Council Intelligence Briefing
-
-</a>
-
-</p>
-
-<p>
-
-<a id="pdf-link" href="#">
-
-Open Original PDF →
-
-</a>
-
-</p>
-
 </main>
 
-<script src="document-data.js"></script>
-<script src="viewer.js"></script>
+<script src="document-data.js?v=20260815"></script>
+<script src="viewer.js?v=20260815"></script>
 
 </body>
 
