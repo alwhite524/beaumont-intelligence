@@ -56,23 +56,25 @@
     pdfViewer.src = record.pdf;
     pdfViewer.title = `${record.title} PDF`;
 
-    if (record.relatedDocuments?.length) {
+    const documentCollection = documentLibrary.filter(
+      (item) =>
+        item.meetingLabel === record.meetingLabel &&
+        item.agendaItem === record.agendaItem
+    );
+
+    if (documentCollection.length > 1) {
 
       attachments.innerHTML =
-        record.relatedDocuments
-            .map(id => {
+        documentCollection
+            .map(related => {
 
-                const related =
-                    documentLibrary.find(
-                        d => d.id === id
-                    );
-
-                if (!related) return "";
+                const isCurrent = related.id === record.id;
 
                 return `
                     <a class="card related-document-card"
                        href="viewer.html?id=${encodeURIComponent(related.id)}"
-                       data-document-id="${related.id}">
+                       data-document-id="${related.id}"
+                       ${isCurrent ? 'aria-current="page"' : ""}>
 
                         <div class="meta">
 
@@ -92,7 +94,7 @@
 
                         </p>
 
-                        <strong class="text-link">View Document →</strong>
+                        <strong class="text-link">${isCurrent ? "Currently viewing" : "View Document →"}</strong>
 
                     </a>
                 `;
@@ -113,6 +115,7 @@
     const link = event.target.closest("[data-document-id]");
     if (!link) return;
     event.preventDefault();
+    if (link.dataset.documentId === new URLSearchParams(window.location.search).get("id")) return;
     renderDocument(link.dataset.documentId, true);
     document.querySelector("#document-title").scrollIntoView({ behavior: "smooth", block: "start" });
   });
