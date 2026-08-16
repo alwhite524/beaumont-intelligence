@@ -435,3 +435,16 @@ documentLibrary.push(
   august18ConsentDocument("ci-2026-08-18-g7-acceptance", "McClure Certificate of Acceptance", "G.7", "Streets and Utilities", "Certificate", "Certificate documenting acceptance of the offers of dedication.", "g-7-attachment-c-certificate-of-acceptance.pdf", ["ci-2026-08-18-g7-staff-report", "ci-2026-08-18-g7-west", "ci-2026-08-18-g7-east", "ci-2026-08-18-g7-resolution"]),
   august18ConsentDocument("ci-2026-08-18-g7-resolution", "McClure Offer of Dedication Resolution", "G.7", "Streets and Utilities", "Resolution", "Proposed resolution accepting the public street and utility dedications.", "g-7-attachment-d-offer-of-dedication-resolution.pdf", ["ci-2026-08-18-g7-staff-report", "ci-2026-08-18-g7-west", "ci-2026-08-18-g7-east", "ci-2026-08-18-g7-acceptance"])
 );
+
+// These scanned records use layered CCITT fax images that some browser PDF
+// renderers display without their text. Use verified page renders in the
+// in-page viewer while retaining the original PDFs as the archival sources.
+documentLibrary.find((item) => item.id === "ci-2026-08-18-g6-deed").pageImages =
+  Array.from({ length: 5 }, (_, index) =>
+    `../official-documents/2026-08-18/rendered/g6-grant-deed/page-${index + 1}.png`
+  );
+
+documentLibrary.find((item) => item.id === "ci-2026-08-18-g6-compliance").pageImages =
+  Array.from({ length: 7 }, (_, index) =>
+    `../official-documents/2026-08-18/rendered/g6-compliance/page-${index + 1}.png`
+  );

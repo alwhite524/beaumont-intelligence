@@ -36,6 +36,22 @@
     pdfViewer.removeAttribute("aria-busy");
   };
 
+  const renderPageImages = (pageImages, documentTitle) => {
+    pdfRenderToken += 1;
+    pdfViewer.replaceChildren();
+    pdfViewer.removeAttribute("aria-busy");
+
+    pageImages.forEach((src, index) => {
+      const image = document.createElement("img");
+      image.className = "pdf-page-image";
+      image.src = src;
+      image.alt = `${documentTitle}, page ${index + 1} of ${pageImages.length}`;
+      image.loading = index === 0 ? "eager" : "lazy";
+      image.decoding = "async";
+      pdfViewer.appendChild(image);
+    });
+  };
+
   const renderPdf = async (url, documentTitle) => {
     const renderToken = ++pdfRenderToken;
     pdfViewer.setAttribute("aria-busy", "true");
@@ -122,7 +138,11 @@
       lastOpenedDocumentId = record.id;
       pdfPanel.hidden = false;
       pdfViewer.setAttribute("aria-label", `${record.title} PDF`);
-      renderPdf(record.pdf, record.title);
+      if (record.pageImages) {
+        renderPageImages(record.pageImages, record.title);
+      } else {
+        renderPdf(record.pdf, record.title);
+      }
     } else {
       pdfPanel.hidden = true;
       clearPdf();
