@@ -117,7 +117,7 @@
     event.preventDefault();
     if (link.dataset.documentId === new URLSearchParams(window.location.search).get("id")) return;
     renderDocument(link.dataset.documentId, true);
-    document.querySelector("#document-title").scrollIntoView({ behavior: "smooth", block: "start" });
+    document.querySelector(".inline-pdf-panel").scrollIntoView({ behavior: "smooth", block: "start" });
   });
 
   window.addEventListener("popstate", () => {
