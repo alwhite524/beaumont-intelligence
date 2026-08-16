@@ -8,7 +8,7 @@
 
 <title>Official Document Viewer | Beaumont Intelligence</title>
 
-<link rel="stylesheet" href="../styles.css?v=20260815e">
+<link rel="stylesheet" href="../styles.css?v=20260815f">
 
 </head>
 
@@ -35,12 +35,14 @@ Loading document summary...
 </p>
 
 <div class="document-viewer-actions">
-  <a class="btn" id="pdf-link" href="#">Open PDF in a new tab ↗</a>
   <a class="text-link" id="briefing-link" href="#">← Return to Council briefing</a>
 </div>
 
-<section class="inline-pdf-panel" aria-labelledby="pdf-heading">
-  <div class="inline-pdf-heading"><h2 id="pdf-heading">Document</h2><span>Use the attachment cards below to switch documents.</span></div>
+<section class="inline-pdf-panel" aria-labelledby="pdf-heading" hidden>
+  <div class="inline-pdf-heading">
+    <div><h2 id="pdf-heading">Document</h2><span>Use the attachment cards below to switch documents.</span></div>
+    <button class="inline-pdf-close" id="pdf-close" type="button" aria-label="Close document viewer">×</button>
+  </div>
   <iframe id="pdf-viewer" title="Official document PDF" loading="eager"></iframe>
 </section>
 
@@ -81,7 +83,7 @@ No attachments.
 </main>
 
 <script src="document-data.js?v=20260815b"></script>
-<script src="viewer.js?v=20260815c"></script>
+<script src="viewer.js?v=20260815d"></script>
 
 </body>
 

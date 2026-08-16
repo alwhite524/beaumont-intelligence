@@ -9,10 +9,12 @@
   const documentType = document.querySelector("#document-type");
   const attachments = document.querySelector("#attachments");
   const briefingLink = document.querySelector("#briefing-link");
-  const pdfLink = document.querySelector("#pdf-link");
+  const pdfPanel = document.querySelector(".inline-pdf-panel");
   const pdfViewer = document.querySelector("#pdf-viewer");
+  const pdfClose = document.querySelector("#pdf-close");
+  let lastOpenedDocumentId = null;
 
-  const renderDocument = (documentId, updateHistory = false) => {
+  const renderDocument = (documentId, updateHistory = false, openPdf = false) => {
     const record = documentLibrary.find(
       (item) => item.id === documentId
     );
@@ -25,8 +27,8 @@
       attachments.innerHTML =
         '<p><a href="index.html">Return to the Official Source Library →</a></p>';
       briefingLink.hidden = true;
-      pdfLink.hidden = true;
-      pdfViewer.hidden = true;
+      pdfPanel.hidden = true;
+      pdfViewer.removeAttribute("src");
 
       return;
     }
@@ -48,13 +50,15 @@
 
     briefingLink.hidden = false;
     briefingLink.href = record.briefing;
-    pdfLink.hidden = false;
-    pdfLink.href = record.pdf;
-    pdfLink.target = "_blank";
-    pdfLink.rel = "noopener";
-    pdfViewer.hidden = false;
-    pdfViewer.src = record.pdf;
-    pdfViewer.title = `${record.title} PDF`;
+    if (openPdf) {
+      lastOpenedDocumentId = record.id;
+      pdfPanel.hidden = false;
+      pdfViewer.src = record.pdf;
+      pdfViewer.title = `${record.title} PDF`;
+    } else {
+      pdfPanel.hidden = true;
+      pdfViewer.removeAttribute("src");
+    }
 
     const documentCollection = documentLibrary.filter(
       (item) =>
@@ -115,9 +119,23 @@
     const link = event.target.closest("[data-document-id]");
     if (!link) return;
     event.preventDefault();
-    if (link.dataset.documentId === new URLSearchParams(window.location.search).get("id")) return;
-    renderDocument(link.dataset.documentId, true);
-    document.querySelector(".inline-pdf-panel").scrollIntoView({ behavior: "smooth", block: "start" });
+    const documentId = link.dataset.documentId;
+    const isCurrent = documentId === new URLSearchParams(window.location.search).get("id");
+    renderDocument(documentId, !isCurrent, true);
+    pdfPanel.scrollIntoView({ behavior: "smooth", block: "start" });
+  });
+
+  pdfClose.addEventListener("click", () => {
+    pdfPanel.hidden = true;
+    pdfViewer.removeAttribute("src");
+
+    const lastOpenedCard = [...attachments.querySelectorAll("[data-document-id]")]
+      .find((card) => card.dataset.documentId === lastOpenedDocumentId);
+
+    if (lastOpenedCard) {
+      lastOpenedCard.scrollIntoView({ behavior: "smooth", block: "center" });
+      lastOpenedCard.focus({ preventScroll: true });
+    }
   });
 
   window.addEventListener("popstate", () => {
