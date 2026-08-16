@@ -220,8 +220,18 @@
   });
 
   window.addEventListener("popstate", () => {
-    renderDocument(new URLSearchParams(window.location.search).get("id"));
+    const historyParams = new URLSearchParams(window.location.search);
+    const historyPdf = historyParams.get("pdf");
+    const historyRecord = historyPdf
+      ? documentLibrary.find((item) => item.pdf.endsWith(`/official-documents/${historyPdf}`))
+      : null;
+    renderDocument(historyParams.get("id") || historyRecord?.id);
   });
 
-  renderDocument(params.get("id"));
+  const requestedPdf = params.get("pdf");
+  const requestedRecord = requestedPdf
+    ? documentLibrary.find((item) => item.pdf.endsWith(`/official-documents/${requestedPdf}`))
+    : null;
+
+  renderDocument(params.get("id") || requestedRecord?.id);
 })();

@@ -448,3 +448,79 @@ documentLibrary.find((item) => item.id === "ci-2026-08-18-g6-compliance").pageIm
   Array.from({ length: 7 }, (_, index) =>
     `../official-documents/2026-08-18/rendered/g6-compliance/page-${index + 1}.png`
   );
+
+const historicalBriefingDocument = (meetingDate, meetingLabel, briefing, row) => ({
+  id: `ci-${meetingDate}-${row[0]}`,
+  title: row[1],
+  shortTitle: `${row[2]} ${row[4]}`,
+  meetingDate,
+  meetingLabel,
+  agendaItem: row[2],
+  category: row[3],
+  documentType: row[4],
+  summary: row[5],
+  pdf: `../official-documents/${meetingDate}/${row[6]}`,
+  briefing,
+  relatedDocuments: [],
+  relatedIntelligence: []
+});
+
+[
+  ["g9-staff", "Beaumont Library District Biz Hub Lease", "G.9", "Economic Development", "Staff Report", "Staff report supporting the proposed Library District lease.", "g-9-staff-report-2026-beaumont-library-district-biz-hub-lease.pdf"],
+  ["g9-lease", "Biz Hub Lease Agreement", "G.9", "Economic Development", "Agreement", "Proposed lease agreement with the Beaumont Library District.", "g-9-attachment-a-biz-hub-lease-agreement-bld-signed.pdf"],
+  ["g13-staff", "California Opportunity Zones 2.0", "G.13", "Economic Development", "Staff Report", "Staff report supporting Beaumont's Opportunity Zone recommendation.", "g-13-staff-report-california-s-opportunity-zones-2-0-beaumont-census-tract.pdf"],
+  ["g13-faq", "Opportunity Zones 2.0 Frequently Asked Questions", "G.13", "Economic Development", "Attachment", "Frequently asked questions supporting the Opportunity Zone item.", "g-13-attachment-a-opportunity-zones-2-0-frequently-asked-questions.pdf"],
+  ["g13-map", "Recommended Beaumont Opportunity Zone Map", "G.13", "Economic Development", "Map", "Map of the recommended Beaumont census tract.", "g-13-attachment-b-recommended-beaumont-opportunity-zone-2-0-census-tract-map.pdf"],
+  ["g14-staff", "Three School Resource Officers", "G.14", "Public Safety", "Staff Report", "Staff report supporting the three-year school-resource-officer agreement.", "g-14-staff-report-approval-of-a-three-year-renewal-agreement-with-busd-to-provide-three-school-resource-officers.pdf"],
+  ["g14-agreement", "School Resource Officer Agreement", "G.14", "Public Safety", "Agreement", "Three-year agreement with Beaumont Unified School District.", "g-14-attachment-a-sro-agreement-with-busd.pdf"],
+  ["g15-staff", "Billboard Relocation Agreement", "G.15", "Development", "Staff Report", "Staff report supporting the billboard relocation agreement.", "g-15-staff-report-approval-to-enter-into-and-execute-a-billboard-relocation-agreement-with-amg-sign-company-inc.pdf"],
+  ["g15-letter", "Billboard Hold Harmless Letter", "G.15", "Development", "Attachment", "Hold-harmless letter associated with the relocation.", "g-15-attachment-a-hold-harmless-letter.pdf"],
+  ["g15-agreement", "Draft Billboard Relocation Agreement", "G.15", "Development", "Agreement", "Draft agreement for the Highland Springs Avenue billboard relocation.", "g-15-attachment-b-draft-billboard-relocation-agreement.pdf"],
+  ["i1-staff", "Delinquent Solid-Waste Charges", "I.1", "Public Hearing", "Staff Report", "Staff report supporting placement of delinquent charges on the property-tax roll.", "i-1-staff-report-placement-of-delinquent-solid-waste-handling-services-charges-on-the-2026-property-tax-roll.pdf"],
+  ["i1-resolution", "Solid-Waste Fee Resolution", "I.1", "Public Hearing", "Resolution", "Resolution authorizing collection of delinquent solid-waste charges.", "i-1-attachment-a-resolution-delinquent-solid-waste-fees.pdf"],
+  ["i1-list", "2026 Solid-Waste Fee Delinquencies", "I.1", "Public Hearing", "Exhibit", "List of delinquent solid-waste accounts.", "i-1-attachment-b-exhibit-a-to-resolution-2026-list-of-solid-waste-fee-delinquencies.pdf"],
+  ["i1-notice", "Solid-Waste Public Hearing Notice", "I.1", "Public Hearing", "Notice", "Published notice for the delinquent-charge hearing.", "i-1-attachment-c-public-hearing-delinquent-solid-waste-notice.pdf"],
+  ["i2-staff", "Delinquent Sewer-Service Charges", "I.2", "Public Hearing", "Staff Report", "Staff report supporting delinquent sewer assessments.", "i-2-delinquent-sewer-service-on-property-tax.pdf"],
+  ["i2-resolution", "Sewer-Service Assessment Resolution", "I.2", "Public Hearing", "Resolution", "Resolution authorizing delinquent sewer-service assessments.", "i-2-resolution.pdf"],
+  ["i2-list", "Delinquent Sewer Accounts", "I.2", "Public Hearing", "Exhibit", "List of delinquent sewer-service accounts.", "i-2-exhibit-a-to-resolution-list-of-delinquent-accounts.pdf"],
+  ["i3-staff", "FY 2027-31 CIP Amendment No. 1", "I.3", "Capital Planning", "Staff Report", "Staff report supporting the first capital-plan amendment.", "i-3-staff-report-fy-27-cip-amendment-1.pdf"],
+  ["i3-resolution", "CIP Amendment Resolution", "I.3", "Capital Planning", "Resolution", "Resolution adopting the capital-plan amendment.", "i-3-exhibit-a-resolution.pdf"],
+  ["i3-projects", "CIP Project List", "I.3", "Capital Planning", "Exhibit", "Project list associated with the CIP amendment.", "i-3-exhibit-b-cip-project-list.pdf"],
+  ["i3-changelog", "CIP Changelog", "I.3", "Capital Planning", "Exhibit", "Summary of changes in the capital plan.", "i-3-exhibit-c-cip-changelog.pdf"],
+  ["i3-notice", "CIP Public Notice", "I.3", "Capital Planning", "Notice", "Published notice for the capital-plan hearing.", "i-3-exhibit-d-public-notice.pdf"],
+  ["i3-budget", "CIP Budget Adjustment Form", "I.3", "Capital Planning", "Budget Adjustment", "Budget adjustment supporting the CIP amendment.", "i-3-exhibit-e-budget-adjustment-form.pdf"],
+  ["i4-staff", "2026 Workforce Vacancy Report", "I.4", "City Workforce", "Staff Report", "Annual vacancy report required by AB 2561.", "i-4-staff-report-annual-vacancies-report-ab2561.pdf"]
+].forEach((row) => documentLibrary.push(historicalBriefingDocument(
+  "2026-07-21", "July 21, 2026 City Council Meeting", "../briefings/2026-07-21.html", row
+)));
+
+[
+  ["j2-staff", "Pennsylvania Grade Separation Funding Strategy", "J.2", "Transportation", "Staff Report", "Staff report supporting the revised project funding strategy.", "j-2-staff-report-pennsylvania-grade-separation-funding-strategy.pdf"],
+  ["j2-presentation", "Pennsylvania Grade Separation Project Update", "J.2", "Transportation", "Presentation", "RCTC project update presentation.", "j-2-attachment-rctc-project-update-presentation.pdf"],
+  ["j3-staff", "2026-31 Economic Development Strategic Plan", "J.3", "Economic Development", "Staff Report", "Staff report supporting adoption of the five-year strategy.", "j-3-staff-report-economic-development-strategic-plan.pdf"],
+  ["j3-plan", "2026-31 Economic Development Strategic Plan", "J.3", "Economic Development", "Plan", "Five-year economic development strategy.", "j-3-attachment-a-2026-2031-economic-development-strategic-plan.pdf"],
+  ["j3-presentation", "Economic Development Strategic Plan Presentation", "J.3", "Economic Development", "Presentation", "Presentation supporting the strategic-plan item.", "j-3-attachment-b-economic-development-strategic-plan-presentation.pdf"],
+  ["g13-staff", "Fourth-Quarter Budget and Financial Status", "G.13", "Finance", "Staff Report", "Fiscal-year closeout staff report.", "g-13-staff-report-fourth-quarter-budget-and-financial-status.pdf"],
+  ["g13-adjustment", "Fourth-Quarter Budget Adjustment Form", "G.13", "Finance", "Budget Adjustment", "Budget adjustment supporting the fourth-quarter report.", "g-13-attachment-budget-adjustment-form.pdf"],
+  ["g10-staff", "2025-27 Strategic Plan Priority Order", "G.10", "Governance", "Staff Report", "Staff report supporting the revised priority order.", "g-10-staff-report-strategic-plan-priority-order.pdf"],
+  ["j1-staff", "Tuscano's Business Attraction and Expansion Grant", "J.1", "Economic Development", "Staff Report", "Staff report supporting the proposed business incentive.", "j-1-staff-report-tuscanos-business-attraction-expansion-grant.pdf"],
+  ["j1-scoring", "Tuscano's Interdepartmental Scoring Sheet", "J.1", "Economic Development", "Attachment", "Scoring sheet supporting the incentive application.", "j-1-attachment-a-interdepartmental-scoring-sheet.pdf"],
+  ["j1-narrative", "Tuscano's Applicant Narrative", "J.1", "Economic Development", "Application", "Applicant narrative for the proposed expansion.", "j-1-applicant-narrative-tuscanos-expansion.pdf"],
+  ["j1-agreement", "Tuscano's Program Agreement and Loan Policy", "J.1", "Economic Development", "Agreement", "Program agreement and loan policy for the incentive.", "j-1-attachment-b-program-agreement-and-loan-policy.pdf"],
+  ["i2-staff", "Sustainability Plan Hearing Continuance", "I.2", "Sustainability", "Staff Report", "Staff report requesting continuance of the public hearing.", "i-2-staff-report-sustainability-plan-public-hearing-continuance.pdf"]
+].forEach((row) => documentLibrary.push(historicalBriefingDocument(
+  "2026-08-04", "August 4, 2026 City Council Meeting", "../briefings/2026-08-04.html", row
+)));
+
+const renderedPageSeries = (folder, count, padded = false) =>
+  Array.from({ length: count }, (_, index) => {
+    const page = padded ? String(index + 1).padStart(2, "0") : String(index + 1);
+    return `../official-documents/2026-08-04/rendered/${folder}/page-${page}.jpg`;
+  });
+
+documentLibrary.find((item) => item.id === "ci-2026-08-04-j1-narrative").pageImages =
+  renderedPageSeries("j1-applicant", 3);
+documentLibrary.find((item) => item.id === "ci-2026-08-04-j1-scoring").pageImages =
+  renderedPageSeries("j1-scoring", 12, true);
+documentLibrary.find((item) => item.id === "ci-2026-08-04-j1-agreement").pageImages =
+  renderedPageSeries("j1-agreement", 18, true);
