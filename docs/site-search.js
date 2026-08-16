@@ -1,5 +1,9 @@
 (() => {
-  const index = Array.isArray(window.BI_SEARCH_INDEX) ? window.BI_SEARCH_INDEX : [];
+  const rawIndex = Array.isArray(window.BI_SEARCH_INDEX) ? window.BI_SEARCH_INDEX : [];
+  const index = rawIndex.flatMap(item => {
+    if (Array.isArray(item?.value)) return item.value;
+    return item?.title && item?.url ? [item] : [];
+  });
   const form = document.getElementById('site-search-form');
   const input = document.getElementById('site-search-input');
   const results = document.getElementById('site-search-results');
