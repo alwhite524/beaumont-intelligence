@@ -143,9 +143,8 @@
                 const isCurrent = related.id === lastOpenedDocumentId;
 
                 return `
-                    <a class="card related-document-card"
-                       href="viewer.html?id=${encodeURIComponent(related.id)}"
-                       data-document-id="${related.id}"
+                    <article class="card related-document-card"
+                       data-document-card-id="${related.id}"
                        ${isCurrent ? 'aria-current="page"' : ""}>
 
                         <div class="meta">
@@ -166,9 +165,11 @@
 
                         </p>
 
-                        <strong class="text-link">${isCurrent ? "Currently viewing" : "View Document →"}</strong>
+                        <a class="text-link"
+                           href="viewer.html?id=${encodeURIComponent(related.id)}"
+                           data-document-id="${related.id}">View Document →</a>
 
-                    </a>
+                    </article>
                 `;
 
             })
@@ -198,7 +199,7 @@
     clearPdf();
 
     const lastOpenedCard = [...attachments.querySelectorAll("[data-document-id]")]
-      .find((card) => card.dataset.documentId === lastOpenedDocumentId);
+      .find((link) => link.dataset.documentId === lastOpenedDocumentId);
 
     if (lastOpenedCard) {
       lastOpenedCard.scrollIntoView({ behavior: "smooth", block: "center" });
