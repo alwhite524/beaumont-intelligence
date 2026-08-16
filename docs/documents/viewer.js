@@ -154,10 +154,8 @@
         item.agendaItem === record.agendaItem
     );
 
-    if (documentCollection.length > 1) {
-
-      attachments.innerHTML =
-        documentCollection
+    attachments.innerHTML = documentCollection.length
+      ? documentCollection
             .map(related => {
 
                 const isCurrent = related.id === lastOpenedDocumentId;
@@ -194,14 +192,8 @@
 
             })
 
-            .join("");
-
-    }
-    else {
-
-      attachments.innerHTML =
-        "<p>No related documents.</p>";
-    }
+            .join("")
+      : "<p>No documents available.</p>";
   };
 
   attachments.addEventListener("click", (event) => {
