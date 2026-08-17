@@ -66,6 +66,8 @@ On June 1, 2021, the Beaumont City Council considered and approved an Animal Con
 
 The agreement continued the regional service relationship and addressed the financial and operational terms governing those services.
 
+The [meeting transcript](../transcripts/2021-06-21-city-council-transcript.txt#L209) verifies the unanimous approval and records staff's explanation of the revised cost-recovery formula.
+
 ### Shelter Agreement
 
 Later in 2021, the City approved a new shelter services agreement with the Ramona Humane Society.

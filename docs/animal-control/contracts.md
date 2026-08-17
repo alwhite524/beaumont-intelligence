@@ -45,6 +45,8 @@ The agreement addressed matters including:
 - Administrative responsibilities
 - Contract duration
 
+The [meeting transcript](../transcripts/2021-06-21-city-council-transcript.txt#L209) confirms that Council approved the agreement unanimously. Staff also explained that the revised structure recalculated Calimesa's annual share using its percentage of service calls and Beaumont's total Animal Control operating budget, improving cost recovery for Beaumont.
+
 ---
 
 ### End of Calimesa Services

@@ -40,6 +40,10 @@ When an original historical document has not been located digitally, later offic
 **Source Type:** City Council Agenda / Agreement  
 **Subject:** Animal Control services between Beaumont and Calimesa
 
+**Meeting transcript:** [Discussion begins at 3:08:37](../transcripts/2021-06-21-city-council-transcript.txt#L209)
+
+**Transcript note:** The source filename reflects its upload label, but the transcript header and meeting audio identify the meeting as June 1, 2021.
+
 ### Used To Establish
 
 - Continuation of the Beaumont-Calimesa Animal Control relationship
@@ -47,6 +51,8 @@ When an original historical document has not been located digitally, later offic
 - Contract expiration June 30, 2023
 - Regional service responsibilities
 - Compensation and cost-recovery structure
+- Council's unanimous approval of the agreement
+- Staff's explanation that Calimesa's annual share would be recalculated from service-call volume and the total Animal Control operating budget
 
 ### Research Status
 
