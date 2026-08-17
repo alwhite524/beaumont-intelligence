@@ -43,6 +43,24 @@ Open `docs/index.html` or run:
 python scripts/serve_web.py
 ```
 
+## Document storage
+
+Large public PDFs are synchronized to the Cloudflare R2 bucket
+`beaumont-intelligence-documents` and served from
+`https://documents.beaumontintelligence.com`. Credentials belong in the
+git-ignored `.r2.local.json` file.
+
+Place a new PDF under its intended `docs/official-documents` or
+`docs/records/agenda-packets` path, run the sync, verify the manifest, and then
+remove the local copy. PDFs in those folders are ignored to prevent accidental
+commits.
+
+```bash
+python -m pip install -r requirements-r2.txt
+python scripts/sync_r2_documents.py
+python scripts/sync_r2_documents.py --verify-manifest
+```
+
 ## Application routes
 - `docs/index.html` — Beaumont Intelligence landing page
 - `docs/intelligence-centers.html` — Intelligence Center directory

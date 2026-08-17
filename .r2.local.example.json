@@ -1,0 +1,8 @@
+{
+  "accountId": "CLOUDFLARE_ACCOUNT_ID",
+  "bucket": "beaumont-intelligence-documents",
+  "endpoint": "https://CLOUDFLARE_ACCOUNT_ID.r2.cloudflarestorage.com",
+  "publicBaseUrl": "https://documents.beaumontintelligence.com",
+  "accessKeyId": "R2_ACCESS_KEY_ID",
+  "secretAccessKey": "R2_SECRET_ACCESS_KEY"
+}

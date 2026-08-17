@@ -196,6 +196,45 @@
       : "<p>No documents available.</p>";
   };
 
+  const renderStandalone = (url) => {
+    let filename = "Official document";
+    try {
+      const parsedUrl = new URL(url);
+      if (
+        parsedUrl.protocol !== "https:" ||
+        parsedUrl.hostname !== "documents.beaumontintelligence.com"
+      ) {
+        throw new Error("Unsupported document host");
+      }
+      filename = decodeURIComponent(parsedUrl.pathname.split("/").pop() || filename)
+        .replace(/\.pdf$/i, "")
+        .replace(/[-_]+/g, " ");
+    } catch {
+      renderDocument();
+      return;
+    }
+
+    document.title = `${filename} | Beaumont Intelligence`;
+    title.textContent = filename;
+    summary.textContent = "Archived official document hosted by Beaumont Intelligence.";
+    meetingDate.textContent = "See source record";
+    agendaItem.textContent = "—";
+    category.textContent = "Official record";
+    documentType.textContent = "PDF";
+    briefingLink.hidden = true;
+    attachments.replaceChildren();
+    const downloadParagraph = document.createElement("p");
+    const downloadLink = document.createElement("a");
+    downloadLink.href = url;
+    downloadLink.download = "";
+    downloadLink.textContent = "Download PDF →";
+    downloadParagraph.appendChild(downloadLink);
+    attachments.appendChild(downloadParagraph);
+    pdfPanel.hidden = false;
+    pdfViewer.setAttribute("aria-label", `${filename} PDF`);
+    renderPdf(url, filename);
+  };
+
   attachments.addEventListener("click", (event) => {
     const link = event.target.closest("[data-document-id]");
     if (!link) return;
@@ -229,9 +268,11 @@
   });
 
   const requestedPdf = params.get("pdf");
+  const requestedUrl = params.get("url");
   const requestedRecord = requestedPdf
     ? documentLibrary.find((item) => item.pdf.endsWith(`/official-documents/${requestedPdf}`))
     : null;
 
-  renderDocument(params.get("id") || requestedRecord?.id);
+  if (requestedUrl) renderStandalone(requestedUrl);
+  else renderDocument(params.get("id") || requestedRecord?.id);
 })();

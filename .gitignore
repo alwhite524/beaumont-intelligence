@@ -1,0 +1,5 @@
+.r2.local.json
+__pycache__/
+*.pyc
+docs/official-documents/**/*.pdf
+docs/records/agenda-packets/**/*.pdf
