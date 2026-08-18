@@ -2,7 +2,7 @@
   "bucket": "beaumont-intelligence-documents",
   "public_base_url": "https://documents.beaumontintelligence.com",
   "document_count": 91,
-  "total_bytes": 230563004,
+  "total_bytes": 251203588,
   "documents": [
     {
       "path": "official-documents/2026-07-21/g-13-attachment-a-opportunity-zones-2-0-frequently-asked-questions.pdf",
@@ -409,8 +409,8 @@
     {
       "path": "official-documents/2026-08-18/g-7-attachment-a-west-offer-of-dedication.pdf",
       "url": "https://documents.beaumontintelligence.com/official-documents/2026-08-18/g-7-attachment-a-west-offer-of-dedication.pdf",
-      "bytes": 881439,
-      "sha256": "2424cd9345d7a6b5dc67b96b974f1009e9c27dde1c8c53ac1c0f8514eca162f7"
+      "bytes": 2400729,
+      "sha256": "c9a20c7d5ecf19baa296d0bb48f713a0e86838a2cc1267055badf54e26b37fe0"
     },
     {
       "path": "official-documents/2026-08-18/g-7-attachment-b-east-offer-of-dedication.pdf",
@@ -475,8 +475,8 @@
     {
       "path": "official-documents/2026-08-18/j-3-attachment-a-rha-community-works-agreement.pdf",
       "url": "https://documents.beaumontintelligence.com/official-documents/2026-08-18/j-3-attachment-a-rha-community-works-agreement.pdf",
-      "bytes": 4127693,
-      "sha256": "0bc5de34fd5eee89e60f8621df2dbeacac5201e831b8b348e57cbdf55a4ed55c"
+      "bytes": 23248987,
+      "sha256": "6a519802aa1aa9f235e9873560b2b61047aa3382ec964281eb44a1d062de3f37"
     },
     {
       "path": "official-documents/2026-08-18/j-3-staff-report-recreation-center-feasibility-study.pdf",
