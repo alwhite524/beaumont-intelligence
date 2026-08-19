@@ -26,6 +26,30 @@
     title: 'Police Evidence Explorer', url: 'police-evidence.html', category: 'Intelligence Center',
     description: 'Official meeting records, transcripts, agreements, and staff reports supporting the Police Intelligence Center.',
     text: 'Police evidence sources contracts transcripts Axon Peregrine SRO station', aliases: ['police sources']
+  }, {
+    title: 'Downtown Revitalization History', url: 'downtown-revitalization-history.html', category: 'Intelligence Center',
+    description: 'Timeline of downtown zoning, Elevate 2050, engineering direction, business incentives, and economic strategy.',
+    text: 'downtown history zoning Elevate 2050 engineering incentives strategy', aliases: ['downtown timeline']
+  }, {
+    title: 'Downtown Plan and Design', url: 'downtown-revitalization-plan.html', category: 'Intelligence Center',
+    description: 'Elevate 2050 concepts, proposed design elements, mobility questions, and implementation boundaries.',
+    text: 'downtown design Sixth Street Beaumont Avenue Grace Avenue roundabouts walkable mixed use mobility', aliases: ['Elevate 2050 plan']
+  }, {
+    title: 'Downtown Business Programs', url: 'downtown-revitalization-business.html', category: 'Intelligence Center',
+    description: 'Verified downtown business attraction and expansion incentive records.',
+    text: 'downtown business grant forgivable loan Cloud9 Cornerstone Tuscano economic development', aliases: ['business incentives']
+  }, {
+    title: 'Downtown Revitalization Funding', url: 'downtown-revitalization-funding.html', category: 'Intelligence Center',
+    description: 'Planning budgets, capital projects, property investment, business incentives, and construction funding.',
+    text: 'downtown funding CD03 R25-15 CIP general fund property grants contracts costs', aliases: ['downtown budget']
+  }, {
+    title: 'Downtown Council Actions', url: 'downtown-revitalization-council-actions.html', category: 'Intelligence Center',
+    description: 'Verified Council actions affecting downtown zoning, design, incentives, and economic strategy.',
+    text: 'downtown council actions votes zoning engineering Cloud9 Cornerstone Tuscano strategy', aliases: ['downtown decisions']
+  }, {
+    title: 'Downtown Evidence Explorer', url: 'downtown-revitalization-evidence.html', category: 'Intelligence Center',
+    description: 'Primary meeting records, transcripts, plans, staff reports, and agreements supporting the Downtown Center.',
+    text: 'downtown evidence sources transcripts plans staff reports agreements', aliases: ['downtown sources']
   }];
   const rawIndex = [
     ...(Array.isArray(window.BI_SEARCH_INDEX) ? window.BI_SEARCH_INDEX : []),
