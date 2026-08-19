@@ -1,5 +1,16 @@
 (() => {
-  const rawIndex = Array.isArray(window.BI_SEARCH_INDEX) ? window.BI_SEARCH_INDEX : [];
+  const supplementalIndex = [{
+    title: 'Downtown Revitalization Intelligence Center',
+    url: 'downtown-revitalization.html',
+    description: "Follow Beaumont's Elevate 2050 vision, public investment, business programs, mobility questions, design decisions, and Council actions.",
+    category: 'Intelligence Center',
+    text: 'Downtown Beaumont revitalization Elevate 2050 economic development streetscape Sixth Street Grace Avenue business attraction expansion mixed use pedestrian mobility traffic preliminary engineering Council actions',
+    aliases: ['downtown', 'Elevate 2050', 'downtown plan', 'downtown Beaumont']
+  }];
+  const rawIndex = [
+    ...(Array.isArray(window.BI_SEARCH_INDEX) ? window.BI_SEARCH_INDEX : []),
+    ...supplementalIndex
+  ];
   const index = rawIndex.flatMap(item => {
     if (Array.isArray(item?.value)) return item.value;
     return item?.title && item?.url ? [item] : [];
