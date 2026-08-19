@@ -6,6 +6,26 @@
     category: 'Intelligence Center',
     text: 'Downtown Beaumont revitalization Elevate 2050 economic development streetscape Sixth Street Grace Avenue business attraction expansion mixed use pedestrian mobility traffic preliminary engineering Council actions',
     aliases: ['downtown', 'Elevate 2050', 'downtown plan', 'downtown Beaumont']
+  }, {
+    title: 'Police History', url: 'police-history.html', category: 'Intelligence Center',
+    description: 'Verified timeline of Beaumont Police technology, partnership, and facility-planning decisions.',
+    text: 'Police history body cameras Intrensic Axon station SRO Peregrine Council actions', aliases: ['police timeline']
+  }, {
+    title: 'Police Operations and Technology', url: 'police-operations.html', category: 'Intelligence Center',
+    description: 'Body-worn cameras, evidence services, investigative search, analytics, and operational technology.',
+    text: 'Police operations technology Axon evidence.com Peregrine AI databases analytics drone DFR', aliases: ['police technology']
+  }, {
+    title: 'Police Staffing and Partnerships', url: 'police-staffing.html', category: 'Intelligence Center',
+    description: 'Verified police staffing partnerships and a transparent inventory of workforce evidence gaps.',
+    text: 'Police staffing officers vacancies school resource officer SRO BUSD Animal Control', aliases: ['police officers']
+  }, {
+    title: 'Police Facilities', url: 'police-facilities.html', category: 'Intelligence Center',
+    description: "Track Beaumont's future Police Department Station through estimates, priorities, funding, design, and Council actions.",
+    text: 'Police station facility Beaumont Avenue Cougar Way CIP estimate design funding construction priority', aliases: ['new police station']
+  }, {
+    title: 'Police Evidence Explorer', url: 'police-evidence.html', category: 'Intelligence Center',
+    description: 'Official meeting records, transcripts, agreements, and staff reports supporting the Police Intelligence Center.',
+    text: 'Police evidence sources contracts transcripts Axon Peregrine SRO station', aliases: ['police sources']
   }];
   const rawIndex = [
     ...(Array.isArray(window.BI_SEARCH_INDEX) ? window.BI_SEARCH_INDEX : []),
