@@ -295,6 +295,29 @@ html {
   justify-content: center;
 }
 
+/* Story labels expand into pills when their text is longer than a single digit. */
+.story-card > span:first-child,
+body[data-page="history"] .story-card > span:first-child {
+  width: auto;
+  min-width: 34px;
+  height: 34px;
+  padding: 0 10px;
+  border-radius: 999px;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.hearing-grid > article > strong,
+.hearing-grid .hearing-record > article > strong {
+  width: auto;
+  min-width: 44px;
+  height: 44px;
+  padding: 0 10px;
+  border-radius: 999px;
+  line-height: 1;
+  white-space: nowrap;
+}
+
 .item-body {
   padding: 1.25rem 1.3rem;
 }
