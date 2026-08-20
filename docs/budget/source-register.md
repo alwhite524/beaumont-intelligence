@@ -3,7 +3,7 @@
 **Issue:** BC-002 — Build Budget Source Register  
 **Schema version:** 1.0  
 **Status:** Initial reviewable deliverable  
-**Last updated:** August 2, 2026
+**Last updated:** August 19, 2026
 
 ## Purpose
 
@@ -84,7 +84,7 @@ Confidence describes the interpretation or extracted data, not whether the docum
 
 This deliverable seeds the register with official records already used in Beaumont Intelligence, including citywide financial reporting, the Capital Improvement Plan, CFD refunding, Stewart Park records, a Pennsylvania Avenue funding announcement, and ongoing Potrero research.
 
-The initial inventory is intentionally not presented as a complete City budget-document catalog. Adopted budgets, ACFRs, CIP books, budget amendments, and workshop records still need to be entered as individual verified sources.
+The initial inventory is intentionally not presented as a complete City budget-document catalog. FY 2025–26 is the latest adopted annual budget currently cataloged. The adopted FY 2026–27 budget book, adoption staff report, resolution, Council outcome, and public summary are the immediate priority; additional prior-year budgets, ACFRs, amendments, and workshop records also remain to be entered as individual verified sources.
 
 ## Review checklist
 
