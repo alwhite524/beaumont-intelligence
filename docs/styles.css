@@ -68,6 +68,7 @@ body.modal-open{overflow:hidden}
 .council-highlights{display:grid;grid-template-columns:1fr 1fr;gap:7px 28px;padding-left:20px;margin:18px 0;color:#29435f}
 .council-feature-meta{padding:28px;background:var(--navy);color:#fff}.council-feature-meta dl{margin:16px 0}.council-feature-meta dl div{display:flex;justify-content:space-between;gap:14px;padding:9px 0;border-bottom:1px solid rgba(255,255,255,.18)}
 .council-feature-meta dt{color:#cbd9e8}.council-feature-meta dd{margin:0;text-align:right;font-weight:900}.council-feature-meta a{color:#fff;font-weight:900}
+.meeting-schedule-note{margin-top:18px;padding-top:15px;border-top:1px solid rgba(255,255,255,.22);color:#dce8f4;font-size:.82rem}
 .btn.small{padding:9px 13px;font-size:.86rem}.btn.ghost-light{background:transparent;border:2px solid rgba(255,255,255,.75);color:#fff}
 .ci-hero,.briefing-hero{background:linear-gradient(125deg,#092b58,#174d82);color:#fff;padding:58px 0}.ci-hero h1,.briefing-hero h1{color:#fff;font-size:clamp(2.35rem,5vw,4.25rem);margin:.15rem 0}.ci-hero p,.briefing-subtitle{font-size:1.2rem;color:#dce8f4;max-width:830px}
 .briefing-card{display:grid;grid-template-columns:1fr 180px;gap:24px;align-items:center;background:#fff;border:1px solid var(--line);border-radius:18px;padding:28px;box-shadow:var(--shadow)}
