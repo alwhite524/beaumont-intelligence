@@ -1,9 +1,15 @@
 {
   "bucket": "beaumont-intelligence-documents",
   "public_base_url": "https://documents.beaumontintelligence.com",
-  "document_count": 91,
-  "total_bytes": 251203588,
+  "document_count": 92,
+  "total_bytes": 251297549,
   "documents": [
+    {
+      "path": "official-documents/2023-05-02/d-7-staff-report-flock-encroachment-agreement.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2023-05-02/d-7-staff-report-flock-encroachment-agreement.pdf",
+      "bytes": 93961,
+      "sha256": "eb97d9468a02dca1a2d6607b13e78e79ad1cfe1097d6cfe9c3137a74834fab46"
+    },
     {
       "path": "official-documents/2026-07-21/g-13-attachment-a-opportunity-zones-2-0-frequently-asked-questions.pdf",
       "url": "https://documents.beaumontintelligence.com/official-documents/2026-07-21/g-13-attachment-a-opportunity-zones-2-0-frequently-asked-questions.pdf",
