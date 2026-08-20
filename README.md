@@ -1,8 +1,10 @@
-# MBF Digital Knowledge Base
+# Beaumont Intelligence
 
 Version **0.8.0** — Sprint 2.1 Data Engine
 
-The Move Beaumont Forward Digital Knowledge Base is a source-first, searchable project intelligence platform. Stewart Park is the first seeded project.
+Beaumont Intelligence is a source-first, searchable research and civic-intelligence platform. It is the private source of truth for evidence, analysis, verification, and editorial preparation. Approved public material is published separately to Moving Beaumont Forward.
+
+See [`docs/platform-architecture.md`](docs/platform-architecture.md) for the center, dossier, and publishing model.
 
 ## Build
 
@@ -67,5 +69,6 @@ python scripts/sync_r2_documents.py --verify-manifest
 - `docs/stewart-park.html` — Stewart Park Intelligence Center
 - `docs/pennsylvania-grade-separation.html` — Pennsylvania Avenue Grade Separation Intelligence Center
 - `docs/police.html` — Police Intelligence Center
+- `docs/dossiers/police/flock-cameras.html` — Flock Camera research dossier
 
 See `docs/github-project-board.md`.
