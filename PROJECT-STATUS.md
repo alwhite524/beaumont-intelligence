@@ -44,6 +44,15 @@ Budget Center work has started and is the active newer center after Potrero and 
 
 Before continuing in a new chat/device, inspect the current repository files first. The full latest Budget Center page/file state is not reliably captured here, so do not rebuild it from the older Finance/CFD roadmap.
 
+## Downtown Revitalization — STRONG / 85%
+The center now includes Overview, History, Plan & Design, Business Programs, Funding, Council Actions, Questions, and Evidence pages.
+
+Verified transcripts cover the September 17, 2024 plan adoption, September 2, 2025 GHD preliminary-design authorization, November 18, 2025 CIP funding redirection, and January 20, 2026 implementation discussion. The September 2025 GHD vote was 3–2, not unanimous. Council Members Martinez and Lara voted no.
+
+Current framing: the adopted long-range plan remains in place, but CIP R25-15 was closed, its budget was redirected toward Pennsylvania Avenue readiness, and the GHD contract was terminated. In January 2026, staff reported approximately $5.5 million in prior Downtown spending and an early approximately $27 million public-right-of-way estimate with no identified construction funding. Council directed a measured approach using smaller steps.
+
+Remaining priorities: reconcile GHD activity and payments before termination; complete the ledger behind the January spending summary; and track the short-term implementation program, specific-plan funding, wayfinding, hub selection, and later Council actions.
+
 ## Source-link standard
 Beaumont Intelligence is **Evidence First**.
 
