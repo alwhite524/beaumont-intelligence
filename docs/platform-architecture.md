@@ -19,6 +19,10 @@ Every publishable body of work moves through these stages:
 
 Publication is a deliberate editorial action, not an automatic synchronization. A dossier may remain private indefinitely, and individual internal notes or records may never be published.
 
+### PD Technology integration
+
+The canonical, editable PD Technology article is `data/police/pd-technology.html`. Its Moving Beaumont Forward artifact is `docs/dossiers/police/flock-cameras.html`. Run `python scripts/publish_pd_technology.py` to publish the source without transforming its established MBF design, or add `--check` to detect drift without changing either file.
+
 ## Center and dossier model
 
 An Intelligence Center is an index for a subject area. It helps researchers and readers locate distinct dossiers and supporting center-wide material; it should not become a single oversized investigation.
@@ -62,4 +66,3 @@ A completion percentage describes research readiness, not factual certainty and 
 The Police Intelligence Center is the index. The Flock Camera dossier is the first standalone police dossier and owns the fixed-camera ALPR research previously distributed across Police History, Operations, Questions, and Evidence.
 
 The Flock Drone-as-First-Responder program is a separate technology and should not be merged into the fixed-camera ALPR dossier. It may become its own dossier later.
-

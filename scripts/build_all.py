@@ -5,6 +5,7 @@ ROOT = Path(__file__).resolve().parents[1]
 scripts = [
     "build_database.py",
     "import_stewart_park.py",
+    "publish_pd_technology.py",
     "refresh_search_index.py",
     "validate_database.py",
 ]

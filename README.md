@@ -33,6 +33,13 @@ See `docs/sprint-2.1-data-engine.md` and `docs/data-engine-dictionary.md`.
 python scripts/build_all.py
 ```
 
+## PD Technology publishing
+
+The editable Beaumont Intelligence source for the PD Technology article is
+`data/police/pd-technology.html`. Publish it into the existing Moving Beaumont
+Forward design with `python scripts/publish_pd_technology.py`; use `--check` to
+verify that the public copy is current without writing files.
+
 ## Transcript verification workflow
 
 When a Council transcript is added, review the meeting against the entire site—not only the center that prompted the upload. Match every relevant agenda item to all applicable Intelligence Centers, add timestamped video links and verified outcomes, update source datasets and generated site data, and refresh the search index. A transcript should remain unattached when the corresponding meeting contains no relevant item for a center.
