@@ -24,7 +24,7 @@
     text: 'Police station facility Beaumont Avenue Cougar Way CIP estimate design funding construction priority', aliases: ['new police station']
   }, {
     title: 'Police Evidence Explorer', url: 'police-evidence.html', category: 'Intelligence Center',
-    description: 'Official meeting records, transcripts, agreements, and staff reports supporting the Police Intelligence Center.',
+    description: 'Official videos, meeting records, agreements, policies, and staff reports supporting the Police Intelligence Center.',
     text: 'Police evidence sources contracts transcripts Axon Peregrine SRO station', aliases: ['police sources']
   }, {
     title: 'Downtown Revitalization History', url: 'downtown-revitalization-history.html', category: 'Intelligence Center',
