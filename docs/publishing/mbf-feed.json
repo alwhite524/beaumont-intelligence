@@ -1,4 +1,12 @@
 {
   "version": 1,
-  "items": []
+  "items": [
+    {
+      "id": "council-intelligence-briefings",
+      "title": "Council Intelligence Briefings",
+      "excerpt": "Verified Beaumont City Council briefings, final actions, meeting videos, and supporting public records.",
+      "url": "https://movingbeaumontforward.com/council-intelligence.html",
+      "publishedAt": "2026-08-23T08:00:00-07:00"
+    }
+  ]
 }
