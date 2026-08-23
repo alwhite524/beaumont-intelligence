@@ -1,14 +1,32 @@
 {
   "bucket": "beaumont-intelligence-documents",
   "public_base_url": "https://documents.beaumontintelligence.com",
-  "document_count": 92,
-  "total_bytes": 251297549,
+  "document_count": 96,
+  "total_bytes": 370288106,
   "documents": [
     {
       "path": "official-documents/2023-05-02/d-7-staff-report-flock-encroachment-agreement.pdf",
       "url": "https://documents.beaumontintelligence.com/official-documents/2023-05-02/d-7-staff-report-flock-encroachment-agreement.pdf",
       "bytes": 93961,
       "sha256": "eb97d9468a02dca1a2d6607b13e78e79ad1cfe1097d6cfe9c3137a74834fab46"
+    },
+    {
+      "path": "official-documents/2024-08-20/j-5-staff-report-flock-camera-expansion.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2024-08-20/j-5-staff-report-flock-camera-expansion.pdf",
+      "bytes": 15911,
+      "sha256": "b0b82d955714769c65ef2f7d42c85681d67a1ecd4f9de872fdb613208645874e"
+    },
+    {
+      "path": "official-documents/2025-12-02/j-4-staff-report-axon-technology-agreement.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2025-12-02/j-4-staff-report-axon-technology-agreement.pdf",
+      "bytes": 100900,
+      "sha256": "6308ff5fad66511828fdce5beec3fc08d0f815fd68c5f2927d1a55238a6ccb7d"
+    },
+    {
+      "path": "official-documents/2026-04-07/j-9-staff-report-drone-as-first-responder.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-04-07/j-9-staff-report-drone-as-first-responder.pdf",
+      "bytes": 100316,
+      "sha256": "017a7b04d201deb0ea9cf3f62e924e7e5bd1f70b02d5573cc61c596b1c12c20e"
     },
     {
       "path": "official-documents/2026-07-21/g-13-attachment-a-opportunity-zones-2-0-frequently-asked-questions.pdf",
@@ -243,6 +261,12 @@
       "url": "https://documents.beaumontintelligence.com/official-documents/2026-07-21/j-5-staff-report-placeworks-inc-amendment-4.pdf",
       "bytes": 210785,
       "sha256": "58fdfab38d5b7bae515acb3731e289f91ebe4768fe51cab3593c410abcff8f2e"
+    },
+    {
+      "path": "official-documents/2026-08-04/august-4-2026-city-council-agenda-package.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-08-04/august-4-2026-city-council-agenda-package.pdf",
+      "bytes": 118773430,
+      "sha256": "74aa9c212c562f0ab727fcdb59ec07ce4ae4dd2708357d1a290a2cb38426a928"
     },
     {
       "path": "official-documents/2026-08-04/g-10-staff-report-strategic-plan-priority-order.pdf",
