@@ -1,7 +1,11 @@
 (() => {
   const sourceId = new URLSearchParams(window.location.search).get("doc");
   const sources = {
-    "flock-2023-staff-report": { title: "Flock Group Inc. Encroachment Agreement — Staff Report", description: "City staff report documenting the 2020 Sundance arrangement and the proposed citywide right-of-way agreement.", type: "Official staff report · PDF", date: "May 2, 2023", format: "pdf", url: "https://documents.beaumontintelligence.com/official-documents/2023-05-02/d-7-staff-report-flock-encroachment-agreement.pdf" }
+    "flock-2023-staff-report": { title: "Flock Group Inc. Encroachment Agreement — Staff Report", description: "City staff report documenting the 2020 Sundance arrangement and the proposed citywide right-of-way agreement.", type: "Official staff report · PDF", date: "May 2, 2023", format: "pdf", url: "https://documents.beaumontintelligence.com/official-documents/2023-05-02/d-7-staff-report-flock-encroachment-agreement.pdf" },
+    "flock-2024-staff-report": { title: "Flock Safety Camera Expansion — Staff Report", description: "City staff report supporting the two-year service contract for 36 additional Flock cameras.", type: "Official staff report · PDF", date: "August 20, 2024", format: "pdf", url: "https://pub-beaumont.escribemeetings.com/FileStream.ashx?DocumentId=4811" },
+    "axon-2025-staff-report": { title: "Axon Body-Worn Cameras and Software — Staff Report", description: "City staff report supporting the five-year Axon body-worn-camera and associated-software agreement.", type: "Official staff report · PDF", date: "December 2, 2025", format: "pdf", url: "https://pub-beaumont.escribemeetings.com/FileStream.ashx?DocumentId=8336" },
+    "drone-2026-staff-report": { title: "Drone-as-First-Responder Program — Staff Report", description: "City staff report supporting the three-year Flock Safety Drone-as-First-Responder agreement.", type: "Official staff report · PDF", date: "April 7, 2026", format: "pdf", url: "https://pub-beaumont.escribemeetings.com/FileStream.ashx?DocumentId=9702" },
+    "peregrine-2026-agenda-package": { title: "August 4, 2026 City Council Agenda Package", description: "Official City agenda package containing the Peregrine platform record considered as Agenda Item G.14.", type: "Official agenda package · PDF", date: "August 4, 2026", format: "pdf", url: "https://pub-beaumont.escribemeetings.com/FileStream.ashx?DocumentId=10591" }
   };
   const record = sources[sourceId];
   const title = document.querySelector("#source-title");
