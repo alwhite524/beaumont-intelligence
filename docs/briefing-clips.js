@@ -24,7 +24,7 @@
     const vote = toSeconds(match[2]);
     if (start === null || vote === null || vote < start) return;
 
-    const end = vote + 15;
+    const end = vote + 30;
     const item = summary.closest('.agenda-item');
     const title = item?.querySelector('h3')?.textContent.trim() || 'Council discussion';
     const params = new URLSearchParams({

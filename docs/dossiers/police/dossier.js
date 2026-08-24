@@ -25,19 +25,10 @@
 
     card.querySelectorAll(".accordion > details").forEach((panel) => {
       panel.removeAttribute("open");
-      panel.addEventListener("toggle", () => {
-        if (!panel.open) return;
-        card.querySelectorAll(".accordion > details[open]").forEach((other) => {
-          if (other !== panel) other.removeAttribute("open");
-        });
-      });
     });
 
     card.addEventListener("toggle", () => {
-      if (!card.open) {
-        card.querySelectorAll(".accordion > details[open]").forEach((panel) => panel.removeAttribute("open"));
-        return;
-      }
+      if (!card.open) return;
       cards.forEach((other) => {
         if (other !== card) other.removeAttribute("open");
       });
