@@ -68,7 +68,7 @@
     body.querySelectorAll(':scope > p').forEach(paragraph => {
       const label = paragraph.querySelector(':scope > strong:first-child');
       const title = label?.textContent.replace(/:$/, '').trim();
-      if (!['What to watch', 'Fiscal impact'].includes(title)) return;
+      if (!['What to watch', 'Fiscal impact', 'Why it matters', 'Plain English'].includes(title)) return;
       label.remove();
       wrapAccordion(paragraph, title);
     });
@@ -79,6 +79,15 @@
       if (actions) holder.appendChild(actions);
       docHeading.textContent = '';
       wrapAccordion(docHeading, 'Official documents', holder);
+    });
+
+    body.querySelectorAll(':scope > .official-documents').forEach(documents => {
+      documents.querySelector(':scope > .official-documents-title')?.remove();
+      wrapAccordion(documents, 'Official documents');
+    });
+
+    body.querySelectorAll(':scope > .questions-list').forEach(questions => {
+      wrapAccordion(questions, 'Questions to track');
     });
 
     const details = document.createElement('details');
