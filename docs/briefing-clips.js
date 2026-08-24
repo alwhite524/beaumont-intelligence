@@ -37,4 +37,65 @@
     });
     videoValue.innerHTML = `<a href="video-viewer.html?${params}">${match[1]}–${fromSeconds(end)} →</a>`;
   });
+
+  const wrapAccordion = (node, title, additionalNode = null) => {
+    const wrapper = document.createElement('div');
+    wrapper.className = 'accordion';
+    const details = document.createElement('details');
+    const summary = document.createElement('summary');
+    const content = document.createElement('div');
+    summary.textContent = title;
+    while (node.firstChild) content.appendChild(node.firstChild);
+    if (additionalNode) content.appendChild(additionalNode);
+    details.append(summary, content);
+    wrapper.appendChild(details);
+    node.replaceWith(wrapper);
+  };
+
+  document.querySelectorAll('article.agenda-item').forEach((article, index) => {
+    const body = article.querySelector(':scope > .agenda-item-body');
+    const rank = article.querySelector(':scope > .agenda-rank');
+    const heading = body?.querySelector(':scope > h3');
+    if (!body || !rank || !heading) return;
+
+    body.querySelectorAll(':scope > .bi-insight').forEach(panel => {
+      const label = panel.querySelector(':scope > strong');
+      const title = label?.textContent.trim() || 'Key points';
+      label?.remove();
+      wrapAccordion(panel, title);
+    });
+
+    body.querySelectorAll(':scope > p').forEach(paragraph => {
+      const label = paragraph.querySelector(':scope > strong:first-child');
+      const title = label?.textContent.replace(/:$/, '').trim();
+      if (!['What to watch', 'Fiscal impact'].includes(title)) return;
+      label.remove();
+      wrapAccordion(paragraph, title);
+    });
+
+    body.querySelectorAll(':scope > .official-documents-heading').forEach(docHeading => {
+      const actions = docHeading.nextElementSibling?.classList.contains('doc-actions') ? docHeading.nextElementSibling : null;
+      const holder = document.createElement('div');
+      if (actions) holder.appendChild(actions);
+      docHeading.textContent = '';
+      wrapAccordion(docHeading, 'Official documents', holder);
+    });
+
+    const details = document.createElement('details');
+    details.className = `${article.className} dossier-technology-card`;
+    details.id = article.id;
+    details.setAttribute('name', 'briefing-card');
+    if (index === 0) details.open = true;
+
+    const summary = document.createElement('summary');
+    const summaryHeading = document.createElement('span');
+    const strong = document.createElement('strong');
+    summaryHeading.className = 'dossier-card-heading';
+    strong.textContent = heading.textContent.trim();
+    summaryHeading.append(strong, document.createElement('i'));
+    heading.remove();
+    summary.append(rank, summaryHeading);
+    details.append(summary, body);
+    article.replaceWith(details);
+  });
 })();
