@@ -1,4 +1,24 @@
 (() => {
+  document.querySelectorAll('a[href^="../../"]').forEach((link) => {
+    if (["../../index.html", "../../police.html"].includes(link.getAttribute("href"))) return;
+    if (link.getAttribute("href") === "../../briefings/2026-08-04.html") {
+      link.href = "viewer.html?doc=peregrine-2026-agenda-package";
+      link.removeAttribute("target");
+      link.textContent = "Official agenda package →";
+      return;
+    }
+    link.remove();
+  });
+
+  const sourceRegister = document.querySelector(".source-register");
+  const peregrineSource = [...(sourceRegister?.children || [])].find((item) => item.textContent.includes("Peregrine platform"));
+  if (sourceRegister && peregrineSource && !sourceRegister.querySelector('[data-source="prepared-ai"]')) {
+    const preparedSource = document.createElement("li");
+    preparedSource.dataset.source = "prepared-ai";
+    preparedSource.innerHTML = '<strong>Prepared AI dispatch:</strong> <a href="viewer.html?doc=prepared-ai-2026-staff-report">June 16, 2026 staff report · PDF →</a> and <a href="video-viewer.html?segment=prepared-ai">bounded video segment →</a>';
+    sourceRegister.insertBefore(preparedSource, peregrineSource);
+  }
+
   const cards = [...document.querySelectorAll(".technology-card-stack > .dossier-technology-card")];
   if (!cards.length) return;
 
