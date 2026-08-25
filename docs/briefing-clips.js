@@ -52,7 +52,7 @@
     node.replaceWith(wrapper);
   };
 
-  document.querySelectorAll('article.agenda-item').forEach((article, index) => {
+  document.querySelectorAll('article.agenda-item').forEach(article => {
     const body = article.querySelector(':scope > .agenda-item-body');
     const rank = article.querySelector(':scope > .agenda-rank');
     const heading = body?.querySelector(':scope > h3');
@@ -93,9 +93,6 @@
     const details = document.createElement('details');
     details.className = `${article.className} dossier-technology-card`;
     details.id = article.id;
-    details.setAttribute('name', 'briefing-card');
-    if (index === 0) details.open = true;
-
     const summary = document.createElement('summary');
     const summaryHeading = document.createElement('span');
     const strong = document.createElement('strong');
