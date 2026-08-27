@@ -1,6 +1,6 @@
 # Beaumont Intelligence — Project Status / Handoff
 
-**Updated:** July 27, 2026
+**Updated:** August 27, 2026
 
 ## Website / workflow
 - Public site: `BeaumontIntelligence.com`, branded Moving Beaumont Forward / Beaumont Intelligence.
@@ -24,13 +24,15 @@ Built pages: Overview, Operations, History, Contracts, Municipal Code, Shelterin
 
 Sources page upgraded to direct official records including City Animal Services, budgets, sheltering/service agreements, and Council records.
 
-### Potrero Interchange — COMPLETE
+### Potrero Interchange — STRONG / 90%
 Built pages: Overview, Timeline, Project Design, Funding, Council Actions, Construction, Traffic & Impact, Sources.
 
 - Homepage Potrero quick link opens `potrero-interchange.html`.
 - Sources page is now a clickable register using City, RCTC, Council/eScribe, funding, construction, environmental, and concept-plan records.
 - Historical lead: March 17, **2015** Council agenda contains a Potrero Interchange Progress Report. Priority research: actual staff report, attachments, and minutes.
-- Potrero map idea parked: thumbnail on center → dedicated/full-size viewer. Official concept image uploaded as `potrero-interchange-concept-plan.png`.
+- The overview now includes a clickable preview of the January 2019 concept plan, with a visible warning that it is not a final or as-built drawing.
+- A Questions & Answers page now separates verified scope, funding, roles, and construction status from projected benefits and unresolved outcomes.
+- Remaining 10%: obtain the March 17, 2015 staff report, attachments, and minutes; assemble the complete executed contract/amendment/change-order/payment chain; and continue adding construction progress and closeout records as they are created.
 
 ### Pennsylvania Avenue Grade Separation — COMPLETE
 Treat this as completed work; do not restart from an older draft.
@@ -107,7 +109,7 @@ For each meeting, seek: full agenda/packet, staff reports, attachments, minutes,
 3. Reconstruct/archive Jan–Mar 2015 Council records.
 4. Investigate the March 17, 2015 Potrero Progress Report + attachments + minutes and feed verified findings into Potrero.
 5. Finish source-link audits, especially Stewart Park and any remaining Animal Control/Potrero claim-level links.
-6. Later: Potrero concept-map thumbnail → dedicated viewer.
+6. Continue the Potrero construction record with contract, change-order, payment, schedule, acceptance, and post-opening outcome evidence.
 7. Later: improve Cloudflare Access mobile/session UX.
 8. Keep Pennsylvania completed unless new evidence requires updates.
 
