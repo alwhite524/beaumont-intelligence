@@ -21,7 +21,6 @@ CANONICAL_BASE = "https://beaumontintelligence.com/"
 
 ROOT_FILES = (
     "council-intelligence.html",
-    "council-briefings.html",
     "council-briefings-2026.html",
     "styles.css",
     "app.js",

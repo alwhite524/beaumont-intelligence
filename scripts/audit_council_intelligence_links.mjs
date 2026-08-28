@@ -16,7 +16,6 @@ const documentLibrary = new Function(`${dataSource}\nreturn documentLibrary;`)()
 
 const htmlFiles = [
   "council-intelligence.html",
-  "council-briefings.html",
   "council-briefings-2026.html",
   ...(await fs.readdir(briefingRoot))
     .filter((name) => name.endsWith(".html"))
