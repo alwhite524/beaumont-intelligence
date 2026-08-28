@@ -1,12 +1,6 @@
 (() => {
   document.querySelectorAll('a[href^="../../"]').forEach((link) => {
-    if (["../../index.html", "../../police.html"].includes(link.getAttribute("href"))) return;
-    if (link.getAttribute("href") === "../../briefings/2026-08-04.html") {
-      link.href = "viewer.html?doc=peregrine-2026-agenda-package";
-      link.removeAttribute("target");
-      link.textContent = "Official agenda package →";
-      return;
-    }
+    if (["../../index.html", "../../police.html", "../../briefings/2026-08-04.html"].includes(link.getAttribute("href"))) return;
     link.remove();
   });
 
