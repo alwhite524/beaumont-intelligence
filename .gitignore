@@ -3,3 +3,4 @@ __pycache__/
 *.pyc
 docs/official-documents/**/*.pdf
 docs/records/agenda-packets/**/*.pdf
+docs/records/council-actions/**/*.pdf
