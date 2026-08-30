@@ -274,5 +274,9 @@
     : null;
 
   if (requestedUrl) renderStandalone(requestedUrl);
-  else renderDocument(params.get("id") || requestedRecord?.id);
+  else renderDocument(
+    params.get("id") || requestedRecord?.id,
+    false,
+    Boolean(requestedPdf && requestedRecord)
+  );
 })();

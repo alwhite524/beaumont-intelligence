@@ -524,3 +524,28 @@ documentLibrary.find((item) => item.id === "ci-2026-08-04-j1-scoring").pageImage
   renderedPageSeries("j1-scoring", 12, true);
 documentLibrary.find((item) => item.id === "ci-2026-08-04-j1-agreement").pageImages =
   renderedPageSeries("j1-agreement", 18, true);
+
+[
+  ["g3-staff", "Traffic Signal Battery Backup Systems", "G.3", "Transportation", "Staff Report", "Staff report supporting the contract for traffic-signal battery backup systems.", "g-3-staff-report-signal-battery-backups.pdf", "consent"],
+  ["g5-staff", "Office of Traffic Safety Grant", "G.5", "Public Safety", "Staff Report", "Staff report supporting acceptance of the $80,000 Office of Traffic Safety grant.", "g-5-staff-report-ots-grant.pdf", "consent"],
+  ["g6-staff", "Rubrik Disaster Recovery Renewal", "G.6", "Information Technology", "Staff Report", "Staff report supporting the five-year Rubrik disaster-recovery renewal.", "g-6-staff-report-rubrik-disaster-recovery.pdf", "consent"],
+  ["g7-staff", "Accounts Receivable Report", "G.7", "Finance", "Staff Report", "Staff report presenting aged accounts receivable and the proposed write-off.", "g-7-staff-report-accounts-receivable.pdf", "consent"],
+  ["i1-staff", "2026 Beaumont Sustainability Plan", "I.1", "Sustainability", "Staff Report", "Staff report supporting adoption of the 2026 Beaumont Sustainability Plan.", "i-1-staff-report-sustainability-plan.pdf", "sustainability"],
+  ["i1-plan", "2026 Beaumont Sustainability Plan", "I.1", "Sustainability", "Plan", "The proposed 2026 Beaumont Sustainability Plan.", "i-1-attachment-a-2026-sustainability-plan.pdf", "sustainability"],
+  ["i1-eir", "Sustainability Plan EIR Addendum", "I.1", "Sustainability", "Environmental Review", "Addendum to the General Plan environmental impact report for the Sustainability Plan.", "i-1-attachment-b-eir-addendum.pdf", "sustainability"],
+  ["i2-staff", "Short-Term Rental Program", "I.2", "Neighborhood Regulation", "Staff Report", "Staff report supporting the proposed short-term rental program and ordinance.", "i-2-staff-report-short-term-rental-program.pdf", "short-term-rentals"],
+  ["i2-ordinance", "Draft Short-Term Rental Ordinance", "I.2", "Neighborhood Regulation", "Ordinance", "Proposed ordinance establishing Beaumont's short-term rental regulations.", "i-2-attachment-a-draft-short-term-rental-ordinance.pdf", "short-term-rentals"],
+  ["i2-fees", "Short-Term Rental Fee Resolution", "I.2", "Neighborhood Regulation", "Resolution", "Proposed fee schedule for the short-term rental program.", "i-2-attachment-b-short-term-rental-fee-resolution.pdf", "short-term-rentals"],
+  ["i3-staff", "E-Bikes and E-Conveyances", "I.3", "Public Safety", "Staff Report", "Staff report supporting proposed rules for e-bikes and other electric conveyances.", "i-3-staff-report-e-bikes-e-conveyances.pdf", "e-bikes"],
+  ["i3-ordinance", "Draft E-Bike Ordinance", "I.3", "Public Safety", "Ordinance", "Proposed ordinance regulating e-bikes and other electric conveyances.", "i-3-attachment-a-draft-e-bike-ordinance.pdf", "e-bikes"],
+  ["i3-citations", "E-Bike Citation Resolution", "I.3", "Public Safety", "Resolution", "Proposed administrative citation schedule for e-bike and e-conveyance violations.", "i-3-attachment-b-citation-resolution.pdf", "e-bikes"],
+  ["j1-staff", "Chamber of Commerce MOU and Sponsorships", "J.1", "Economic Development", "Staff Report", "Staff report supporting the Chamber of Commerce memorandum of understanding and sponsorship funding.", "j-1-staff-report-chamber-mou-sponsorships.pdf", "actions"],
+  ["j2-staff", "Lamar Digital Billboard Conversion", "J.2", "Development", "Staff Report", "Staff report supporting conversion of one billboard face to a digital display.", "j-2-staff-report-lamar-digital-billboard.pdf", "actions"],
+  ["j3-staff", "Citywide Sponsorship Policy", "J.3", "Governance", "Staff Report", "Staff report supporting a citywide policy for sponsorship applications and awards.", "j-3-staff-report-citywide-sponsorship-policy.pdf", "actions"],
+  ["j4-staff", "2027 Beaumont Nights", "J.4", "Community Events", "Staff Report", "Staff report presenting the proposed 2027 Beaumont Nights calendar and beer-garden option.", "j-4-staff-report-2027-beaumont-nights.pdf", "actions"]
+].forEach((row) => documentLibrary.push(historicalBriefingDocument(
+  "2026-09-01",
+  "September 1, 2026 City Council Meeting",
+  `../briefings/2026-09-01.html#${row[7]}`,
+  row
+)));
