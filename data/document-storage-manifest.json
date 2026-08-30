@@ -1,8 +1,8 @@
 {
   "bucket": "beaumont-intelligence-documents",
   "public_base_url": "https://documents.beaumontintelligence.com",
-  "document_count": 96,
-  "total_bytes": 370288106,
+  "document_count": 113,
+  "total_bytes": 381021007,
   "documents": [
     {
       "path": "official-documents/2023-05-02/d-7-staff-report-flock-encroachment-agreement.pdf",
@@ -525,6 +525,108 @@
       "url": "https://documents.beaumontintelligence.com/official-documents/2026-08-18/j-4-staff-report-emergency-services-coordinator.pdf",
       "bytes": 82419,
       "sha256": "e72d9ab38cc56788f8eb8f0d74d04acdf6cb95d9b2adc6c8ac177d88add04a88"
+    },
+    {
+      "path": "official-documents/2026-09-01/g-3-staff-report-signal-battery-backups.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-09-01/g-3-staff-report-signal-battery-backups.pdf",
+      "bytes": 233696,
+      "sha256": "fcee869e903071d7e1b0bfc52baf32581f40e33f190bcfa0bed6865c65a007d4"
+    },
+    {
+      "path": "official-documents/2026-09-01/g-5-staff-report-ots-grant.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-09-01/g-5-staff-report-ots-grant.pdf",
+      "bytes": 82491,
+      "sha256": "24bbd6ab9aa05e85d59cbb91a093441c4f4a63f94c98f740ea9dbbda736775d8"
+    },
+    {
+      "path": "official-documents/2026-09-01/g-6-staff-report-rubrik-disaster-recovery.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-09-01/g-6-staff-report-rubrik-disaster-recovery.pdf",
+      "bytes": 82679,
+      "sha256": "6e7ada187ac8399136b299e088e636e3ed02e2487d17fbecf2c76c72fecb8c71"
+    },
+    {
+      "path": "official-documents/2026-09-01/g-7-staff-report-accounts-receivable.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-09-01/g-7-staff-report-accounts-receivable.pdf",
+      "bytes": 76526,
+      "sha256": "9f13e8a3bdac446980e0c93f15e4e4cbcd17bbcf74f4a5fc4a9d744634694f19"
+    },
+    {
+      "path": "official-documents/2026-09-01/i-1-attachment-a-2026-sustainability-plan.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-09-01/i-1-attachment-a-2026-sustainability-plan.pdf",
+      "bytes": 7360185,
+      "sha256": "e42c07daa0938af297ba59a239e3da572a55d5df883a641079a100f78d2b9013"
+    },
+    {
+      "path": "official-documents/2026-09-01/i-1-attachment-b-eir-addendum.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-09-01/i-1-attachment-b-eir-addendum.pdf",
+      "bytes": 1298262,
+      "sha256": "f3b8a15e7dcc47cf140ba3ea517cf564c640f877ff077de2e1661fc72c18e791"
+    },
+    {
+      "path": "official-documents/2026-09-01/i-1-staff-report-sustainability-plan.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-09-01/i-1-staff-report-sustainability-plan.pdf",
+      "bytes": 106154,
+      "sha256": "83f34dace47d5a619c9b5351bd277fec90d961093ae0f06d10b0a81e5230841f"
+    },
+    {
+      "path": "official-documents/2026-09-01/i-2-attachment-a-draft-short-term-rental-ordinance.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-09-01/i-2-attachment-a-draft-short-term-rental-ordinance.pdf",
+      "bytes": 260002,
+      "sha256": "5d836f977eb558db9352c89d4023a97f2c0c1d5772533ec4329b97a65dd43c3f"
+    },
+    {
+      "path": "official-documents/2026-09-01/i-2-attachment-b-short-term-rental-fee-resolution.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-09-01/i-2-attachment-b-short-term-rental-fee-resolution.pdf",
+      "bytes": 83105,
+      "sha256": "01f0a09ed6a303ff5bcf1c5c6163052ddea028612c146835fd7a0df5db111d83"
+    },
+    {
+      "path": "official-documents/2026-09-01/i-2-staff-report-short-term-rental-program.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-09-01/i-2-staff-report-short-term-rental-program.pdf",
+      "bytes": 95594,
+      "sha256": "87e88e9948e2b37fa818e0de951c25c4d7dd8b1a91cc9a4f66866c6a830586a3"
+    },
+    {
+      "path": "official-documents/2026-09-01/i-3-attachment-a-draft-e-bike-ordinance.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-09-01/i-3-attachment-a-draft-e-bike-ordinance.pdf",
+      "bytes": 288912,
+      "sha256": "6210d7298f07709b71111befc0d447d8ad7f3e3cf885dcf2258beafd5442273e"
+    },
+    {
+      "path": "official-documents/2026-09-01/i-3-attachment-b-citation-resolution.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-09-01/i-3-attachment-b-citation-resolution.pdf",
+      "bytes": 287970,
+      "sha256": "775677a1379994a57d3a67012ff0b60e8624afd8eb5c2fcc9968e01e13d140de"
+    },
+    {
+      "path": "official-documents/2026-09-01/i-3-staff-report-e-bikes-e-conveyances.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-09-01/i-3-staff-report-e-bikes-e-conveyances.pdf",
+      "bytes": 83901,
+      "sha256": "7523e0393896f4383f4d6ad7c3f4106d16fa82b9e1b7f8e12c6ef19ad7c07032"
+    },
+    {
+      "path": "official-documents/2026-09-01/j-1-staff-report-chamber-mou-sponsorships.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-09-01/j-1-staff-report-chamber-mou-sponsorships.pdf",
+      "bytes": 95408,
+      "sha256": "ad3627c1ee8b8559d5b90c2b2aee1ce25199e61d0ee23f3fb9665fb64558c447"
+    },
+    {
+      "path": "official-documents/2026-09-01/j-2-staff-report-lamar-digital-billboard.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-09-01/j-2-staff-report-lamar-digital-billboard.pdf",
+      "bytes": 124768,
+      "sha256": "bfa560d455bb8c5091481780cb0577227c4eb5375ddd648d9bc11bf4dff1195f"
+    },
+    {
+      "path": "official-documents/2026-09-01/j-3-staff-report-citywide-sponsorship-policy.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-09-01/j-3-staff-report-citywide-sponsorship-policy.pdf",
+      "bytes": 84707,
+      "sha256": "044f148facb7299cfa81aa2d4b0d52b8ec8b38baf8099e22f0d6ab8d297e06a6"
+    },
+    {
+      "path": "official-documents/2026-09-01/j-4-staff-report-2027-beaumont-nights.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-09-01/j-4-staff-report-2027-beaumont-nights.pdf",
+      "bytes": 88541,
+      "sha256": "f5d1af5758d69b2ced557e5b1517829b5193e68947dd20a3902badf85e830836"
     },
     {
       "path": "official-documents/stewart-park/2024-06-18-act-1-construction-award-staff-report.pdf",
