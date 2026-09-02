@@ -44,6 +44,19 @@ verify that the public copy is current without writing files.
 
 When a Council transcript is added, review the meeting against the entire site—not only the center that prompted the upload. Match every relevant agenda item to all applicable Intelligence Centers, add timestamped video links and verified outcomes, update source datasets and generated site data, and refresh the search index. A transcript should remain unattached when the corresponding meeting contains no relevant item for a center.
 
+## Council briefing source-completeness standard
+
+Before publishing a briefing, audit the City's HTML agenda item by item. For every consent item, public hearing, and action item:
+
+1. inventory the staff report and every attachment shown by the official meeting system;
+2. link each document from the briefing or its meeting source-set page;
+3. preserve the official City URL even when an archived R2 copy is available;
+4. record the expected and linked document totals and do not label the audit complete unless they match;
+5. after the meeting, add the transcript, timestamps, motion, vote, and outcome without replacing the pre-meeting recommendation; and
+6. rebuild the Research Library index with `python scripts/build_research_library_index.py` so new City-hosted documents and transcripts become searchable.
+
+The Research Library indexes both archived documents and official City-hosted sources. Transcript text is indexed for discovery, allowing questions such as which meetings discussed a particular subject; results still need editorial review to distinguish substantive decisions from incidental mentions.
+
 ## Web preview
 
 Open `docs/index.html` or run:

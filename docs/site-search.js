@@ -1,5 +1,9 @@
 (() => {
   const supplementalIndex = [{
+    title: 'Billboards: Policy and Decisions', url: 'dossiers/billboards.html', category: 'Research Record',
+    description: 'Documented history of billboard advertising, regulation, relocation agreements, and digital conversion decisions.',
+    text: 'billboards digital signs electronic signs Lamar AMG relocation agreement replacement ratio survey advertising Council history', aliases: ['digital billboard', 'electronic billboard', 'sign policy']
+  }, {
     title: 'Downtown Revitalization Intelligence Center',
     url: 'downtown-revitalization.html',
     description: "Follow Beaumont's Elevate 2050 vision, public investment, business programs, mobility questions, design decisions, and Council actions.",
