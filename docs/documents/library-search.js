@@ -4,7 +4,6 @@
   const topic = document.querySelector('#topic');
   const meeting = document.querySelector('#meeting');
   const topics = document.querySelector('#topics');
-  const kit = document.querySelector('.meeting-kit');
   const count = document.querySelector('#count');
   if (!search || !topics) return;
 
@@ -86,7 +85,6 @@
     if (!query) {
       results.hidden = true;
       topics.hidden = false;
-      kit.hidden = false;
       return;
     }
     const matches = records.filter(record =>
@@ -95,7 +93,6 @@
       (meeting.value === 'all' || record.date === meeting.value)
     ).slice(0, 100);
     topics.hidden = true;
-    kit.hidden = true;
     results.hidden = false;
     const transcriptMatches = matches.filter(record => record.type === 'Meeting transcript').length;
     count.textContent = `Showing ${matches.length} matching records, including ${transcriptMatches} meeting ${transcriptMatches === 1 ? 'transcript' : 'transcripts'}`;
