@@ -523,3 +523,4 @@ body[data-page="history"] .story-card > span:first-child {
 .potrero-map-link{display:block;text-decoration:none;background:#fff;border:1px solid var(--line);border-radius:8px;overflow:hidden;box-shadow:var(--shadow)}
 .potrero-map-preview{display:block;width:100%;max-height:520px;object-fit:contain;background:#eef2f5}
 .potrero-map-link span{display:block;padding:13px 16px;color:var(--blue);font-weight:900;border-top:1px solid var(--line)}
+.pdf-native-embed{display:block;width:100%;min-height:75vh;border:0;background:#fff}

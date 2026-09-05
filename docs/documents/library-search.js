@@ -46,6 +46,22 @@
     const searchable = norm(value);
     return searchable.includes(query) || compact(searchable).includes(compact(query));
   };
+  const documentDestination = record => {
+    const viewableDocument = /^(Archived document|Official City document)$/.test(record.type) &&
+      /^https:\/\/(documents\.beaumontintelligence\.com|pub-beaumont\.escribemeetings\.com)\//i.test(record.url);
+    if (viewableDocument) {
+      return {
+        href: `viewer.html?url=${encodeURIComponent(record.url)}`,
+        label: 'View document',
+        external: false,
+      };
+    }
+    return {
+      href: record.url,
+      label: record.type === 'Meeting transcript' ? 'Open transcript' : 'Open original source',
+      external: record.type !== 'Meeting transcript',
+    };
+  };
   const secondsFromTimestamp = timestamp => {
     const parts = timestamp.split(':').map(Number);
     if (parts.some(Number.isNaN)) return null;
@@ -95,10 +111,21 @@
       const watchLink = hit && record.videoUrl
         ? `<a href="${esc(record.videoUrl)}&amp;t=${hit.seconds}s" target="_blank" rel="noopener">Watch at ${esc(hit.label)} ↗</a>`
         : '';
-      return `<article class="record"><div class="record-date"><span>${esc(record.item || record.type)}</span>${esc(record.date || 'Undated')}</div><div><h3>${esc(record.title)}</h3><p>${esc(resultSnippet)}</p></div><div class="links"><span class="doc-count">${esc(record.type)}</span>${watchLink}<a href="${esc(record.url)}" target="_blank" rel="noopener">${record.type === 'Meeting transcript' ? 'Open transcript' : 'Open source'} ↗</a></div></article>`;
+      const destination = documentDestination(record);
+      return `<article class="record"><div class="record-date"><span>${esc(record.item || record.type)}</span>${esc(record.date || 'Undated')}</div><div><h3>${esc(record.title)}</h3><p>${esc(resultSnippet)}</p></div><div class="links"><span class="doc-count">${esc(record.type)}</span>${watchLink}<a href="${esc(destination.href)}" data-library-route="true"${destination.external ? ' data-open-external="true" target="_blank" rel="noopener"' : ''}>${esc(destination.label)} ${destination.external ? '↗' : '→'}</a></div></article>`;
     }).join('')}</div></section>` : '<div class="empty">No indexed document or transcript matches. The City may have additional records not yet cataloged.</div>';
   }
   search.addEventListener('input', render);
   topic.addEventListener('change', () => search.value.trim() && render());
   meeting.addEventListener('change', () => search.value.trim() && render());
+
+  // Route trusted archived and City-hosted PDFs through the full Library viewer.
+  document.querySelectorAll('a[href^="https://documents.beaumontintelligence.com/"], a[href^="https://pub-beaumont.escribemeetings.com/"]').forEach(link => {
+    link.href = `viewer.html?url=${encodeURIComponent(link.href)}`;
+    link.dataset.libraryRoute = 'true';
+    link.removeAttribute('target');
+  });
+  document.addEventListener('click', event => {
+    if (event.target.closest('[data-library-route="true"]')) event.stopImmediatePropagation();
+  }, true);
 })();

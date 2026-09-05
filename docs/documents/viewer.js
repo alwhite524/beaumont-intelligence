@@ -93,7 +93,23 @@
     } catch (error) {
       if (renderToken !== pdfRenderToken) return;
       pdfViewer.removeAttribute("aria-busy");
-      pdfViewer.innerHTML = '<p class="pdf-error">The document could not be displayed. Please close the viewer and try again.</p>';
+      pdfViewer.replaceChildren();
+      const nativeViewer = document.createElement("object");
+      nativeViewer.className = "pdf-native-embed";
+      nativeViewer.type = "application/pdf";
+      nativeViewer.data = url;
+      nativeViewer.setAttribute("aria-label", `${documentTitle} PDF`);
+      const fallback = document.createElement("p");
+      fallback.className = "pdf-error";
+      fallback.append("This browser could not display the PDF. ");
+      const fallbackLink = document.createElement("a");
+      fallbackLink.href = url;
+      fallbackLink.target = "_blank";
+      fallbackLink.rel = "noopener";
+      fallbackLink.textContent = "Open the original document ↗";
+      fallback.appendChild(fallbackLink);
+      nativeViewer.appendChild(fallback);
+      pdfViewer.appendChild(nativeViewer);
       console.error("Unable to render PDF", error);
     }
   };
@@ -200,10 +216,11 @@
     let filename = "Official document";
     try {
       const parsedUrl = new URL(url);
-      if (
-        parsedUrl.protocol !== "https:" ||
-        parsedUrl.hostname !== "documents.beaumontintelligence.com"
-      ) {
+      const trustedHosts = new Set([
+        "documents.beaumontintelligence.com",
+        "pub-beaumont.escribemeetings.com",
+      ]);
+      if (parsedUrl.protocol !== "https:" || !trustedHosts.has(parsedUrl.hostname)) {
         throw new Error("Unsupported document host");
       }
       filename = decodeURIComponent(parsedUrl.pathname.split("/").pop() || filename)
