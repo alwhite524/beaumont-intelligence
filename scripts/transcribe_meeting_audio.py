@@ -23,6 +23,7 @@ def main() -> None:
     parser.add_argument("output", type=Path)
     parser.add_argument("--model", default="small.en")
     parser.add_argument("--chunk-seconds", type=int, default=1800)
+    parser.add_argument("--source-url", required=True)
     args = parser.parse_args()
 
     model = WhisperModel(args.model, device="cpu", compute_type="int8")
@@ -44,7 +45,7 @@ def main() -> None:
                 "AI-generated transcript from the public City Council meeting recording. "
                 "Verify quotations against the linked video.\n"
             )
-            handle.write("Source: https://www.youtube.com/watch?v=K6OHlAsz0oA\n\n")
+            handle.write(f"Source: {args.source_url}\n\n")
             for index, chunk in enumerate(chunks):
                 segments, info = transcriber.transcribe(
                     str(chunk),
