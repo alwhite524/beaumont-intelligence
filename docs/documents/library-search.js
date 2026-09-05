@@ -14,20 +14,14 @@
   if (statusCounts[1]) statusCounts[1].textContent = `${transcriptCount} full-text Council transcripts`;
 
   const meetingLabel = document.querySelector('label[for="meeting"]');
-  if (meetingLabel) meetingLabel.textContent = 'Source collection';
+  if (meetingLabel) meetingLabel.textContent = 'Council meeting';
 
-  // The meeting filter is a source-collection browser, not a transcript inventory.
-  // Dates represented by the curated page are collections; Official City document
-  // records identify complete source inventories such as September 1, 2026.
-  const curatedDates = [...document.querySelectorAll('#topics .record[data-meeting]')]
-    .map(record => record.dataset.meeting)
-    .filter(Boolean);
-  const indexedCollectionDates = records
-    .filter(record => record.type === 'Official City document')
+  // Include every meeting represented by searchable Library material. Records
+  // without a meeting date remain searchable but do not create an empty option.
+  const dates = [...new Set(records
     .map(record => record.date)
-    .filter(Boolean);
-  const dates = [...new Set([...curatedDates, ...indexedCollectionDates])].sort().reverse();
-  meeting.innerHTML = '<option value="all">All source collections</option>' + dates.map(date => {
+    .filter(Boolean))].sort().reverse();
+  meeting.innerHTML = '<option value="all">All meetings with sources</option>' + dates.map(date => {
     const label = new Date(`${date}T12:00:00`).toLocaleDateString('en-US', {year:'numeric', month:'long', day:'numeric'});
     return `<option value="${date}">${label}</option>`;
   }).join('');

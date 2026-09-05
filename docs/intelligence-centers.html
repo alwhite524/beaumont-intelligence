@@ -106,6 +106,39 @@
       font-size: 1.25rem;
     }
 
+    .center-links {
+      display: grid;
+      gap: 9px;
+      margin-top: auto;
+      padding-top: 18px;
+      border-top: 1px solid #dce4ed;
+    }
+
+    .center-links a {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      padding: 10px 12px;
+      border-radius: 9px;
+      background: #eef5fb;
+      color: #0b3567;
+      font-weight: 800;
+      text-decoration: none;
+    }
+
+    .center-links a:hover,
+    .center-links a:focus {
+      background: #dcebf7;
+      color: #082f63;
+    }
+
+    .center-links small {
+      color: #667487;
+      font-weight: 700;
+      text-align: right;
+    }
+
     @media (max-width: 760px) {
       .center-directory {
         grid-template-columns: 1fr;
@@ -235,222 +268,107 @@
 
 <main id="main">
 
-<section class="section compact alt">
-  <div class="wrap">
-    <div class="section-heading"><div><div class="eyebrow">Cross-cutting dossiers</div><h2>Focused histories without another full center</h2></div></div>
-    <div class="center-directory"><article class="center-card"><span class="center-number">D</span><h3>Billboards: Policy and Decisions</h3><p>Follow City advertising, community input, digital-sign policy, replacement ratios, and individual relocation agreements without treating billboards as a standalone Intelligence Center.</p><div class="center-explore"><strong>Recommended future home: Growth &amp; Development</strong><p>This dossier can later sit beside land use, housing, economic development, signage, and development agreements in a broader center.</p><a class="center-button" href="dossiers/billboards.html"><span>Open billboard history</span><span class="arrow">→</span></a></div></article></div>
-  </div>
-</section>
-
 <section class="section compact">
   <div class="wrap">
 
     <div class="section-heading">
       <div>
-        <div class="eyebrow">Explore</div>
-        <h2>Current Intelligence Centers</h2>
+        <div class="eyebrow">Explore by public service</div>
+        <h2>Seven connected Intelligence Centers</h2>
       </div>
+      <p>Projects remain detailed destinations, but now live inside broader civic-service areas.</p>
     </div>
 
 
     <div class="center-directory">
 
-      <article class="center-card">
+      <article class="center-card" id="public-works-mobility">
 
         <span class="center-number">1</span>
-
-        <h3>Stewart Park Revitalization</h3>
-
-        <p>
-          Follow the planning, design, funding, construction,
-          grant history, Council actions, and project evolution
-          behind the Stewart Park revitalization.
-        </p>
-
-        <div class="center-explore">
-
-          <strong>Explore project intelligence</strong>
-
-          <p>
-            View timelines, funding, documents, Council records,
-            videos, questions, and verified evidence.
-          </p>
-
-          <a class="center-button"
-             href="stewart-park.html">
-
-            <span>Explore Stewart Park</span>
-            <span class="arrow" aria-hidden="true">→</span>
-
-          </a>
-
+        <h3>Public Works &amp; Mobility</h3>
+        <p>Roads, rail crossings, interchanges, street maintenance, capital infrastructure, traffic, and transportation.</p>
+        <div class="center-links">
+          <a href="potrero-interchange.html"><span>Potrero Interchange</span><small>Project center →</small></a>
+          <a href="pennsylvania-grade-separation.html"><span>Pennsylvania Avenue</span><small>Project center →</small></a>
+          <a href="search.html?q=street%20maintenance"><span>Street Maintenance</span><small>Search records →</small></a>
         </div>
 
       </article>
 
 
-      <article class="center-card">
+      <article class="center-card" id="public-safety">
 
         <span class="center-number">2</span>
 
-        <h3>Animal Control</h3>
-
-        <p>
-          Explore Beaumont's Animal Control service model,
-          municipal law, staffing, sheltering, contracts,
-          performance, and regional service history.
-        </p>
-
-        <div class="center-explore">
-
-          <strong>Explore service intelligence</strong>
-
-          <p>
-            View operations, contracts, sheltering, staffing,
-            municipal law, performance data, and source records.
-          </p>
-
-          <a class="center-button"
-             href="animal-control.html">
-
-            <span>Explore Animal Control</span>
-            <span class="arrow" aria-hidden="true">→</span>
-
-          </a>
-
+        <h3>Public Safety</h3>
+        <p>Police, fire and emergency services, public-safety technology, preparedness, and animal services.</p>
+        <div class="center-links">
+          <a href="police.html"><span>Police</span><small>Service center →</small></a>
+          <a href="animal-control.html"><span>Animal Control</span><small>Service center →</small></a>
+          <a href="search.html?q=fire"><span>Fire &amp; Emergency Services</span><small>Search records →</small></a>
         </div>
 
       </article>
 
 
-      <article class="center-card">
+      <article class="center-card" id="growth-community-development">
 
         <span class="center-number">3</span>
 
-        <h3>Potrero Interchange</h3>
-
-        <p>
-          Track the SR-60/Potrero Boulevard Interchange through
-          planning, design, funding, Council actions, construction,
-          traffic impacts, and source records.
-        </p>
-
-        <div class="center-explore">
-
-          <strong>Explore project intelligence</strong>
-
-          <p>
-            View the project timeline, design, funding,
-            Council actions, construction activity,
-            traffic impacts, and official sources.
-          </p>
-
-          <a class="center-button"
-             href="potrero-interchange.html">
-
-            <span>Explore Potrero Interchange</span>
-            <span class="arrow" aria-hidden="true">→</span>
-
-          </a>
-
+        <h3>Growth &amp; Community Development</h3>
+        <p>Planning, zoning, development review, building safety, neighborhood standards, signage, and land-use policy.</p>
+        <div class="center-links">
+          <a href="dossiers/billboards.html"><span>Billboards &amp; Sign Policy</span><small>Issue dossier →</small></a>
+          <a href="search.html?q=planning%20zoning"><span>Planning &amp; Zoning</span><small>Search records →</small></a>
+          <a href="search.html?q=development"><span>Development Projects</span><small>Search records →</small></a>
         </div>
 
       </article>
 
-<article class="center-card">
+<article class="center-card" id="economic-development">
 
   <span class="center-number">4</span>
 
-  <h3>Pennsylvania Avenue Grade Separation</h3>
-
-  <p>
-    Follow the history, design, funding, Council decisions,
-    RCTC delivery transition, schedule, construction-readiness,
-    and supporting records behind one of Beaumont's most
-    complex transportation projects.
-  </p>
-
-  <div class="center-explore">
-
-    <strong>Explore project intelligence</strong>
-
-    <p>
-      View the timeline, changing cost estimates,
-      state funding, project design, Council actions,
-      RCTC delivery structure, schedule, questions,
-      documents, and primary evidence.
-    </p>
-
-    <a class="center-button"
-       href="pennsylvania-grade-separation.html">
-
-      <span>Explore Pennsylvania Avenue</span>
-      <span class="arrow" aria-hidden="true">→</span>
-
-    </a>
-
+  <h3>Economic Development</h3>
+  <p>Downtown revitalization, business attraction and retention, incentives, opportunity zones, and economic strategy.</p>
+  <div class="center-links">
+    <a href="downtown-revitalization.html"><span>Downtown Revitalization</span><small>Project center →</small></a>
+    <a href="search.html?q=business%20incentive"><span>Business Programs</span><small>Search records →</small></a>
+    <a href="search.html?q=economic%20development"><span>Economic Strategy</span><small>Search records →</small></a>
   </div>
 
 </article>
 
-<article class="center-card">
+<article class="center-card" id="parks-community-services">
   <span class="center-number">5</span>
-  <h3>Budget Center</h3>
-  <p>
-    Follow citywide financial reporting, Capital Improvement Plan
-    amendments, Community Facilities Districts, project funding,
-    and the evidence behind Council financial decisions.
-  </p>
-  <div class="center-explore">
-    <strong>Explore financial intelligence</strong>
-    <p>
-      Review current reporting, recent Council actions,
-      project finance, financial definitions, and official sources.
-    </p>
-    <a class="center-button" href="budget.html">
-      <span>Explore the Budget Center</span>
-      <span class="arrow" aria-hidden="true">→</span>
-    </a>
+  <h3>Parks &amp; Community Services</h3>
+  <p>Parks, recreation, community facilities, public spaces, programs, events, and neighborhood quality of life.</p>
+  <div class="center-links">
+    <a href="stewart-park.html"><span>Stewart Park Revitalization</span><small>Project center →</small></a>
+    <a href="search.html?q=parks%20recreation"><span>Parks &amp; Recreation</span><small>Search records →</small></a>
+    <a href="search.html?q=community%20services"><span>Community Services</span><small>Search records →</small></a>
   </div>
 </article>
 
-<article class="center-card">
+<article class="center-card" id="finance-government">
   <span class="center-number">6</span>
-  <h3>Police</h3>
-  <p>
-    Follow Beaumont Police operations, technology, staffing,
-    facilities, public-safety policy, contracts, and Council actions.
-  </p>
-  <div class="center-explore">
-    <strong>Explore public-safety intelligence</strong>
-    <p>
-      Review verified technology, school partnership, staffing,
-      facility-planning, history, and evidence records.
-    </p>
-    <a class="center-button" href="police.html">
-      <span>Explore the Police Center</span>
-      <span class="arrow" aria-hidden="true">→</span>
-    </a>
+  <h3>Finance &amp; City Government</h3>
+  <p>Budgets, financial performance, capital funding, contracts, Council governance, strategy, and public accountability.</p>
+  <div class="center-links">
+    <a href="budget.html"><span>Budget Center</span><small>Financial center →</small></a>
+    <a href="council-intelligence.html"><span>Council Intelligence</span><small>Meetings &amp; actions →</small></a>
+    <a href="documents/index.html"><span>Research Library</span><small>Primary sources →</small></a>
   </div>
 </article>
 
-<article class="center-card">
+<article class="center-card" id="utilities-environment">
   <span class="center-number">7</span>
-  <h3>Downtown Revitalization</h3>
-  <p>
-    Follow the Elevate 2050 vision, public investment, business programs,
-    mobility questions, design decisions, and Council actions shaping downtown.
-  </p>
-  <div class="center-explore">
-    <strong>Explore place and economic-development intelligence</strong>
-    <p>
-      Review the plan, history, business programs, funding structure,
-      Council actions, mobility questions, and source evidence.
-    </p>
-    <a class="center-button" href="downtown-revitalization.html">
-      <span>Explore Downtown Revitalization</span>
-      <span class="arrow" aria-hidden="true">→</span>
-    </a>
+  <h3>Utilities &amp; Environment</h3>
+  <p>Wastewater, solid waste, sustainability, environmental compliance, utility planning, and long-term resilience.</p>
+  <div class="center-links">
+    <a href="search.html?q=wastewater"><span>Wastewater</span><small>Search records →</small></a>
+    <a href="search.html?q=solid%20waste"><span>Solid Waste</span><small>Search records →</small></a>
+    <a href="search.html?q=sustainability"><span>Sustainability</span><small>Search records →</small></a>
   </div>
 </article>
 
