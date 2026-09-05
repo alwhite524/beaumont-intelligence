@@ -8,6 +8,11 @@
   const count = document.querySelector('#count');
   if (!search || !topics) return;
 
+  const statusCounts = document.querySelectorAll('.library-hero .status span');
+  const transcriptCount = records.filter(record => record.type === 'Meeting transcript').length;
+  if (statusCounts[0]) statusCounts[0].textContent = `${records.length} searchable sources`;
+  if (statusCounts[1]) statusCounts[1].textContent = `${transcriptCount} full-text Council transcripts`;
+
   const meetingLabel = document.querySelector('label[for="meeting"]');
   if (meetingLabel) meetingLabel.textContent = 'Source collection';
 
