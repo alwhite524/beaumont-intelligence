@@ -56,8 +56,10 @@ for item, section, title, doc_id in re.findall(r"\['([^']+)','([^']+)','([^']+)'
 for transcript in sorted((DOCS / "transcripts").glob("*-city-council-transcript.txt"), reverse=True):
     date = transcript.name[:10]
     body = transcript.read_text(encoding="utf-8", errors="replace")
+    video_match = re.search(r"https://www\.youtube\.com/watch\?v=[A-Za-z0-9_-]+", body[:1000])
     records.append({"title": f"{date} City Council transcript", "url": f"../transcripts/{transcript.name}",
-                    "date": date, "item": "", "topic": "council", "type": "Meeting transcript", "body": body})
+                    "videoUrl": video_match.group(0) if video_match else "", "date": date, "item": "",
+                    "topic": "council", "type": "Meeting transcript", "body": body})
 
 output = "window.BI_RESEARCH_LIBRARY=" + json.dumps(records, ensure_ascii=False, separators=(",", ":")) + ";\n"
 (DOCS / "documents" / "library-index.js").write_text(output, encoding="utf-8")

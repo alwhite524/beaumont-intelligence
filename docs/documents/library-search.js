@@ -46,6 +46,22 @@
     const searchable = norm(value);
     return searchable.includes(query) || compact(searchable).includes(compact(query));
   };
+  const secondsFromTimestamp = timestamp => {
+    const parts = timestamp.split(':').map(Number);
+    if (parts.some(Number.isNaN)) return null;
+    if (parts.length === 3) return parts[0] * 3600 + parts[1] * 60 + parts[2];
+    if (parts.length === 2) return parts[0] * 60 + parts[1];
+    return null;
+  };
+  const transcriptHit = (record, query) => {
+    if (record.type !== 'Meeting transcript') return null;
+    const line = String(record.body || '').split(/\r?\n/).find(value => matchesQuery(value, query));
+    if (!line) return null;
+    const match = line.match(/^\((\d{1,2}:\d{2}(?::\d{2})?)\)\s*/);
+    if (!match) return null;
+    const seconds = secondsFromTimestamp(match[1]);
+    return seconds === null ? null : { label: match[1], seconds, text: line.slice(match[0].length) };
+  };
   const snippet = (body, query) => {
     const text = String(body || '').replace(/\s+/g, ' ').trim();
     const normalized = norm(text);
@@ -73,7 +89,14 @@
     results.hidden = false;
     const transcriptMatches = matches.filter(record => record.type === 'Meeting transcript').length;
     count.textContent = `Showing ${matches.length} matching records, including ${transcriptMatches} meeting ${transcriptMatches === 1 ? 'transcript' : 'transcripts'}`;
-    results.innerHTML = matches.length ? `<section class="topic"><div class="topic-label"><div class="eyebrow">Documents + transcripts</div><h2>Search results</h2><p>Transcript matches can identify meetings even when no source collection has been created.</p></div><div class="collection-list">${matches.map(record => `<article class="record"><div class="record-date"><span>${esc(record.item || record.type)}</span>${esc(record.date || 'Undated')}</div><div><h3>${esc(record.title)}</h3><p>${esc(snippet(record.body, query))}</p></div><div class="links"><span class="doc-count">${esc(record.type)}</span><a href="${esc(record.url)}" target="_blank" rel="noopener">${record.type === 'Meeting transcript' ? 'Open transcript' : 'Open source'} ↗</a></div></article>`).join('')}</div></section>` : '<div class="empty">No indexed document or transcript matches. The City may have additional records not yet cataloged.</div>';
+    results.innerHTML = matches.length ? `<section class="topic"><div class="topic-label"><div class="eyebrow">Documents + transcripts</div><h2>Search results</h2><p>Transcript matches can identify meetings even when no source collection has been created.</p></div><div class="collection-list">${matches.map(record => {
+      const hit = transcriptHit(record, query);
+      const resultSnippet = hit ? hit.text : snippet(record.body, query);
+      const watchLink = hit && record.videoUrl
+        ? `<a href="${esc(record.videoUrl)}&amp;t=${hit.seconds}s" target="_blank" rel="noopener">Watch at ${esc(hit.label)} ↗</a>`
+        : '';
+      return `<article class="record"><div class="record-date"><span>${esc(record.item || record.type)}</span>${esc(record.date || 'Undated')}</div><div><h3>${esc(record.title)}</h3><p>${esc(resultSnippet)}</p></div><div class="links"><span class="doc-count">${esc(record.type)}</span>${watchLink}<a href="${esc(record.url)}" target="_blank" rel="noopener">${record.type === 'Meeting transcript' ? 'Open transcript' : 'Open source'} ↗</a></div></article>`;
+    }).join('')}</div></section>` : '<div class="empty">No indexed document or transcript matches. The City may have additional records not yet cataloged.</div>';
   }
   search.addEventListener('input', render);
   topic.addEventListener('change', () => search.value.trim() && render());
