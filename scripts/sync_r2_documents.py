@@ -80,7 +80,19 @@ def main() -> None:
     for index, path in enumerate(local_pdfs, start=1):
         key = path.relative_to(DOCS).as_posix()
         checksum = sha256(path)
-        if not args.verify_only:
+        remote = None
+        try:
+            remote = client.head_object(Bucket=settings["bucket"], Key=key)
+        except client.exceptions.ClientError as error:
+            if error.response.get("Error", {}).get("Code") not in {"404", "NoSuchKey"}:
+                raise
+
+        already_current = (
+            remote is not None
+            and remote["ContentLength"] == path.stat().st_size
+            and remote.get("Metadata", {}).get("sha256") == checksum
+        )
+        if not args.verify_only and not already_current:
             client.upload_file(
                 str(path),
                 settings["bucket"],

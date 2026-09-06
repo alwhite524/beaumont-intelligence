@@ -40,18 +40,17 @@ manifest = json.loads((ROOT / "data" / "document-storage-manifest.json").read_te
 for doc in manifest["documents"]:
     path = doc["path"]
     parts = path.split("/")
-    date = parts[1] if len(parts) > 2 and re.fullmatch(r"\d{4}-\d{2}-\d{2}", parts[1]) else ""
-    if date == "2026-09-01":
-        continue  # The official source inventory below is complete and avoids duplicate results.
+    date = next((part for part in parts if re.fullmatch(r"\d{4}-\d{2}-\d{2}", part)), "")
     title = title_from_path(path)
     records.append({"title": title, "url": doc["url"], "date": date, "item": agenda_item(path),
                     "topic": topic_for(title), "type": "Archived document", "body": title})
 
-source_text = (DOCS / "briefings" / "2026-09-01-sources.js").read_text(encoding="utf-8")
-for item, section, title, doc_id in re.findall(r"\['([^']+)','([^']+)','([^']+)',(\d+)\]", source_text):
-    records.append({"title": title, "url": f"https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId={doc_id}",
-                    "date": "2026-09-01", "item": item, "topic": topic_for(title),
-                    "type": "Official City document", "body": f"{item} {section} {title}"})
+if not any(record["date"] == "2026-09-01" and record["type"] == "Archived document" for record in records):
+    source_text = (DOCS / "briefings" / "2026-09-01-sources.js").read_text(encoding="utf-8")
+    for item, section, title, doc_id in re.findall(r"\['([^']+)','([^']+)','([^']+)',(\d+)\]", source_text):
+        records.append({"title": title, "url": f"https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId={doc_id}",
+                        "date": "2026-09-01", "item": item, "topic": topic_for(title),
+                        "type": "Official City document", "body": f"{item} {section} {title}"})
 
 for transcript in sorted((DOCS / "transcripts").glob("*-city-council-transcript.txt"), reverse=True):
     date = transcript.name[:10]
