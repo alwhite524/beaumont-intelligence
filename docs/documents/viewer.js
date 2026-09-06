@@ -230,7 +230,8 @@
   };
 
   const renderStandalone = (url) => {
-    let filename = "Official document";
+    let filename = params.get("title") || "Official document";
+    let sourceHost = "";
     try {
       const parsedUrl = new URL(url);
       const trustedHosts = new Set([
@@ -240,9 +241,11 @@
       if (parsedUrl.protocol !== "https:" || !trustedHosts.has(parsedUrl.hostname)) {
         throw new Error("Unsupported document host");
       }
-      filename = decodeURIComponent(parsedUrl.pathname.split("/").pop() || filename)
-        .replace(/\.pdf$/i, "")
-        .replace(/[-_]+/g, " ");
+      sourceHost = parsedUrl.hostname;
+      const pathName = decodeURIComponent(parsedUrl.pathname.split("/").pop() || "");
+      if (!params.get("title") && pathName && !/filestream\.ashx$/i.test(pathName)) {
+        filename = pathName.replace(/\.pdf$/i, "").replace(/[-_]+/g, " ");
+      }
     } catch {
       renderDocument();
       return;
@@ -250,7 +253,9 @@
 
     document.title = `${filename} | Beaumont Intelligence`;
     title.textContent = filename;
-    summary.textContent = "Archived official document hosted by Beaumont Intelligence.";
+    summary.textContent = sourceHost === "documents.beaumontintelligence.com"
+      ? "Archived official document hosted by Beaumont Intelligence."
+      : "Official City document displayed through the Beaumont Intelligence viewer.";
     meetingDate.textContent = "See source record";
     agendaItem.textContent = "—";
     category.textContent = "Official record";
