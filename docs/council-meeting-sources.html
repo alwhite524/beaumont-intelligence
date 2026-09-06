@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Council Meeting Videos and Agenda Packets | Beaumont Intelligence</title>
+  <meta name="description" content="Beaumont City Council meeting videos and archived agenda packets, organized newest to oldest.">
+  <meta name="theme-color" content="#0b3567">
+  <link href="favicon.png" rel="icon" type="image/png">
+  <link href="styles.css" rel="stylesheet">
+</head>
+<body data-page="council-meeting-sources">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="preview-banner"><strong>★ Council meeting sources</strong><span>Full meeting videos and available agenda packets.</span></div>
+  <header class="app-header"><div class="wrap header-row">
+    <a aria-label="Beaumont Intelligence home" class="brand" href="index.html"><img alt="Moving Beaumont Forward logo" class="brand-logo" src="mbf-logo.png"><span class="brand-copy"><strong><span class="red">BEAUMONT</span> <span class="blue">INTELLIGENCE</span></strong><small>Council Intelligence</small><em>Connecting Today's Decisions to Tomorrow's Beaumont.</em></span></a>
+    <button aria-controls="primary-nav" aria-expanded="false" class="menu-button" id="menu-button">Menu</button>
+    <nav aria-label="Primary navigation" class="primary-nav" id="primary-nav"><a href="index.html">Home</a><a aria-current="page" href="council-intelligence.html">Council Intelligence</a><a href="intelligence-centers.html">Intelligence Centers</a><a href="documents/index.html">Research Library</a><a href="about.html">About</a></nav>
+  </div></header>
+  <div class="breadcrumb-strip"><div class="wrap"><nav aria-label="Breadcrumb" class="breadcrumbs"><a href="index.html">Home</a><span aria-hidden="true">›</span><a href="council-intelligence.html">Council Intelligence</a><span aria-hidden="true">›</span><a href="council-briefings-2026.html">Council Briefings</a><span aria-hidden="true">›</span><span aria-current="page">Meeting sources</span></nav></div></div>
+  <main id="main">
+    <section class="ci-hero"><div class="wrap narrow"><div class="eyebrow light">Council source archive</div><h1>Meeting videos and agenda packets</h1><p>Open the full Council meeting on YouTube or review an available agenda packet in the Beaumont Intelligence document viewer.</p><div class="status-actions"><a class="btn" href="council-briefings-2026.html">← Council Briefings</a></div></div></section>
+    <section class="section compact"><div class="wrap">
+      <div class="section-heading"><div><div class="eyebrow">Newest first</div><h2>Available meeting sources</h2></div><p id="meeting-source-count"></p></div>
+      <div class="meeting-source-list" id="meeting-source-list"></div>
+    </div></section>
+  </main>
+  <footer class="footer"><div class="wrap footer-grid"><div class="footer-brand"><a aria-label="Beaumont Intelligence home" class="footer-home" href="index.html"><img alt="" src="mbf-logo.png"><div><strong>Moving Beaumont Forward</strong><p>Beaumont Intelligence</p></div></a></div><div><strong>Connecting Today's Decisions to Tomorrow's Beaumont.</strong><p>Official records, historical context, and plain-English civic intelligence.</p></div><div><strong>Quick Links</strong><nav aria-label="Footer navigation" class="footer-nav"><a href="index.html">Home</a><a href="council-intelligence.html">Council Intelligence</a><a href="council-briefings-2026.html">Council Briefings</a><a href="documents/index.html">Research Library</a></nav></div></div></footer>
+  <script src="council-meeting-sources.js"></script>
+  <script>
+    (() => {
+      const records = window.BI_COUNCIL_MEETING_SOURCES || [];
+      const list = document.querySelector('#meeting-source-list');
+      const count = document.querySelector('#meeting-source-count');
+      const formatDate = value => new Intl.DateTimeFormat('en-US', {year:'numeric',month:'long',day:'numeric',timeZone:'UTC'}).format(new Date(`${value}T00:00:00Z`));
+      const viewerUrl = value => `documents/viewer.html?url=${encodeURIComponent(value)}&title=${encodeURIComponent('City Council agenda packet')}`;
+      count.textContent = `${records.length} meetings with a video, an agenda packet, or both.`;
+      list.innerHTML = records.map(record => `<article class="meeting-source-row"><div><span class="meta">City Council meeting</span><h3>${formatDate(record.date)}</h3></div><div class="meeting-source-status"><span class="${record.video ? 'available' : 'unavailable'}">${record.video ? 'Video available' : 'Video not collected'}</span><span class="${record.packet ? 'available' : 'unavailable'}">${record.packet ? 'Agenda packet available' : 'Agenda packet not collected'}</span></div><div class="meeting-source-actions">${record.video ? `<a class="btn small" href="${record.video}" target="_blank" rel="noopener">Full YouTube video ↗</a>` : ''}${record.packet ? `<a class="btn small secondary" href="${viewerUrl(record.packet)}">Agenda packet PDF →</a>` : ''}</div></article>`).join('');
+    })();
+  </script>
+  <script src="app.js"></script>
+</body>
+</html>
