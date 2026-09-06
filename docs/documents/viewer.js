@@ -8,6 +8,7 @@
   const category = document.querySelector("#category");
   const documentType = document.querySelector("#document-type");
   const attachments = document.querySelector("#attachments");
+  const viewerBackLink = document.querySelector("#viewer-back-link");
   const briefingLink = document.querySelector("#briefing-link");
   const pdfPanel = document.querySelector(".inline-pdf-panel");
   const pdfViewer = document.querySelector("#pdf-viewer");
@@ -15,6 +16,22 @@
   let lastOpenedDocumentId = null;
   let pdfRenderToken = 0;
   let pdfJsPromise;
+
+  try {
+    const previousUrl = new URL(document.referrer);
+    if (previousUrl.origin === window.location.origin) {
+      viewerBackLink.href = previousUrl.href;
+    }
+  } catch {
+    viewerBackLink.href = "index.html";
+  }
+
+  viewerBackLink.addEventListener("click", (event) => {
+    if (document.referrer && window.history.length > 1) {
+      event.preventDefault();
+      window.history.back();
+    }
+  });
 
   const loadPdfJs = () => {
     if (!pdfJsPromise) {
@@ -240,19 +257,39 @@
     documentType.textContent = "PDF";
     briefingLink.hidden = true;
     attachments.replaceChildren();
-    const downloadParagraph = document.createElement("p");
+    const actionsParagraph = document.createElement("p");
+    const viewLink = document.createElement("a");
+    viewLink.href = url;
+    viewLink.className = "text-link";
+    viewLink.dataset.standaloneUrl = url;
+    viewLink.dataset.documentTitle = filename;
+    viewLink.textContent = "View document →";
+    actionsParagraph.appendChild(viewLink);
+    actionsParagraph.append(" · ");
     const downloadLink = document.createElement("a");
     downloadLink.href = url;
     downloadLink.download = "";
     downloadLink.textContent = "Download PDF →";
-    downloadParagraph.appendChild(downloadLink);
-    attachments.appendChild(downloadParagraph);
+    actionsParagraph.appendChild(downloadLink);
+    attachments.appendChild(actionsParagraph);
     pdfPanel.hidden = false;
     pdfViewer.setAttribute("aria-label", `${filename} PDF`);
     renderPdf(url, filename);
   };
 
   attachments.addEventListener("click", (event) => {
+    const standaloneLink = event.target.closest("[data-standalone-url]");
+    if (standaloneLink) {
+      event.preventDefault();
+      pdfPanel.hidden = false;
+      renderPdf(
+        standaloneLink.dataset.standaloneUrl,
+        standaloneLink.dataset.documentTitle || "Official document"
+      );
+      pdfPanel.scrollIntoView({ behavior: "smooth", block: "start" });
+      return;
+    }
+
     const link = event.target.closest("[data-document-id]");
     if (!link) return;
     event.preventDefault();
@@ -269,9 +306,14 @@
     const lastOpenedCard = [...attachments.querySelectorAll("[data-document-id]")]
       .find((link) => link.dataset.documentId === lastOpenedDocumentId);
 
+    const standaloneLink = attachments.querySelector("[data-standalone-url]");
+
     if (lastOpenedCard) {
       lastOpenedCard.scrollIntoView({ behavior: "smooth", block: "center" });
       lastOpenedCard.focus({ preventScroll: true });
+    } else if (standaloneLink) {
+      standaloneLink.scrollIntoView({ behavior: "smooth", block: "center" });
+      standaloneLink.focus({ preventScroll: true });
     }
   });
 
