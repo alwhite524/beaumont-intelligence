@@ -5,7 +5,9 @@ ROOT = Path(__file__).resolve().parents[1]
 MEETINGS = {
     "2026-01-20": ("January 20, 2026", "BI_JANUARY_20_SOURCES"),
     "2026-02-03": ("February 3, 2026", "BI_FEBRUARY_3_SOURCES"),
+    "2026-02-17": ("February 17, 2026", "BI_FEBRUARY_17_SOURCES"),
     "2026-02-23": ("February 23, 2026", "BI_FEBRUARY_23_SOURCES"),
+    "2026-03-03": ("March 3, 2026", "BI_MARCH_3_SOURCES"),
 }
 
 PAGE = """<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{label} Interactive Agenda | Beaumont Intelligence</title><link href="../favicon.png" rel="icon"><link href="../styles.css" rel="stylesheet"><style>
