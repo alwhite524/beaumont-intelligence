@@ -1,8 +1,8 @@
 {
   "bucket": "beaumont-intelligence-documents",
   "public_base_url": "https://documents.beaumontintelligence.com",
-  "document_count": 467,
-  "total_bytes": 1927204101,
+  "document_count": 524,
+  "total_bytes": 2048982131,
   "documents": [
     {
       "path": "official-documents/2023-05-02/d-7-staff-report-flock-encroachment-agreement.pdf",
@@ -1853,10 +1853,100 @@
       "sha256": "74aa9c212c562f0ab727fcdb59ec07ce4ae4dd2708357d1a290a2cb38426a928"
     },
     {
+      "path": "official-documents/2026-08-04/g-1-july-10-2026-warrants.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-08-04/g-1-july-10-2026-warrants.pdf",
+      "bytes": 1199283,
+      "sha256": "552be8c09627a5bff57d7f0ebef75cb3b4f4fdc5ba22d8eb8e33bb5798393778"
+    },
+    {
+      "path": "official-documents/2026-08-04/g-1-july-17-2026-warrants.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-08-04/g-1-july-17-2026-warrants.pdf",
+      "bytes": 745530,
+      "sha256": "1504df4825442dae28646cc6e2745483e999d01c5e3476d25782e78b9b4f22ab"
+    },
+    {
+      "path": "official-documents/2026-08-04/g-10-staff-report-proposed-updates-to-the-2025-2027-strategic-plan-priority-order.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-08-04/g-10-staff-report-proposed-updates-to-the-2025-2027-strategic-plan-priority-order.pdf",
+      "bytes": 100234,
+      "sha256": "beb176206232cf0215458472c7b3590bfd2c4bdc35fe4e5b76efc26cbfa772f1"
+    },
+    {
       "path": "official-documents/2026-08-04/g-10-staff-report-strategic-plan-priority-order.pdf",
       "url": "https://documents.beaumontintelligence.com/official-documents/2026-08-04/g-10-staff-report-strategic-plan-priority-order.pdf",
       "bytes": 100234,
       "sha256": "beb176206232cf0215458472c7b3590bfd2c4bdc35fe4e5b76efc26cbfa772f1"
+    },
+    {
+      "path": "official-documents/2026-08-04/g-11-attachment-a-resolution-offer-of-dedication.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-08-04/g-11-attachment-a-resolution-offer-of-dedication.pdf",
+      "bytes": 98376,
+      "sha256": "38363fbc29f2dbfc137e0e844426623f87737ad2ef6b96b3f7e900545c39d80f"
+    },
+    {
+      "path": "official-documents/2026-08-04/g-11-attachment-b-certificate-of-acceptance-lot-103.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-08-04/g-11-attachment-b-certificate-of-acceptance-lot-103.pdf",
+      "bytes": 94148,
+      "sha256": "4f6d702aacdc3ed8b9119303bcfb76b1f6d22d866be25c216dd10ba6abac996d"
+    },
+    {
+      "path": "official-documents/2026-08-04/g-11-attachment-c-certificate-of-acceptance-lot-31.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-08-04/g-11-attachment-c-certificate-of-acceptance-lot-31.pdf",
+      "bytes": 94384,
+      "sha256": "bde6a5439abf483116158a66b174da7fb4459a6f29cb226ae6325312c45fdeb3"
+    },
+    {
+      "path": "official-documents/2026-08-04/g-11-staff-report-certificate-of-acceptance.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-08-04/g-11-staff-report-certificate-of-acceptance.pdf",
+      "bytes": 694935,
+      "sha256": "7a5fe7f098604930d99740a1e8e4feb02acca2a6ec1260b518485b31da8750eb"
+    },
+    {
+      "path": "official-documents/2026-08-04/g-12-attachment-a-pooled-cash-investment-holding-report-as-of-jun-30-2026.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-08-04/g-12-attachment-a-pooled-cash-investment-holding-report-as-of-jun-30-2026.pdf",
+      "bytes": 97683,
+      "sha256": "026fb10304f22bb54c01dd9a9e816aab7a2c2aa92cdece350934675e12f284e2"
+    },
+    {
+      "path": "official-documents/2026-08-04/g-12-attachment-b-pooled-cash-report-06-30-26.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-08-04/g-12-attachment-b-pooled-cash-report-06-30-26.pdf",
+      "bytes": 277925,
+      "sha256": "3ba8a1444674cdcd89c80bb5032e5d720c38b3bc7bd7f343adec50d9459be63f"
+    },
+    {
+      "path": "official-documents/2026-08-04/g-12-attachment-c-investment-certification-for-quarter-ending-june-30-2026.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-08-04/g-12-attachment-c-investment-certification-for-quarter-ending-june-30-2026.pdf",
+      "bytes": 168597,
+      "sha256": "5604a28deb25eec6c8126d607ec0f5b2d8fc6e3480355dc4388c9c2af6977da9"
+    },
+    {
+      "path": "official-documents/2026-08-04/g-12-attachment-d-zion-holdings-security-listing-june-30-2026.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-08-04/g-12-attachment-d-zion-holdings-security-listing-june-30-2026.pdf",
+      "bytes": 138920,
+      "sha256": "73d9ec76d0248149a8ecc39a707fe05f34646a5c940390568e92e7e0622d939d"
+    },
+    {
+      "path": "official-documents/2026-08-04/g-12-attachment-e-public-trust-board-package-for-period-ending-june-30-2026.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-08-04/g-12-attachment-e-public-trust-board-package-for-period-ending-june-30-2026.pdf",
+      "bytes": 904033,
+      "sha256": "372f763d84efe0cd242fce6a3575590863af92b5f821af7b32085ffb2343cfdb"
+    },
+    {
+      "path": "official-documents/2026-08-04/g-12-attachment-f-pars-statement-for-june-30-2026.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-08-04/g-12-attachment-f-pars-statement-for-june-30-2026.pdf",
+      "bytes": 53870,
+      "sha256": "8f523d13ff79c817989794574cbfe2a54dbc81ac66cf68950e78f3960efdb87d"
+    },
+    {
+      "path": "official-documents/2026-08-04/g-12-staff-report-fy2025-20026-4th-quarter-cash-and-investment-report.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-08-04/g-12-staff-report-fy2025-20026-4th-quarter-cash-and-investment-report.pdf",
+      "bytes": 290678,
+      "sha256": "6d9de805093537f89cb0f90280079d4b761e37745b2b8713cd5888e48e9aa3ef"
+    },
+    {
+      "path": "official-documents/2026-08-04/g-13-attachment-a-budget-adjustment-form-4th-qtr.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-08-04/g-13-attachment-a-budget-adjustment-form-4th-qtr.pdf",
+      "bytes": 61646,
+      "sha256": "c6e907c28849742fcf27c491bb8787416b665d6773aacf4fb6cd0b621e80f7f0"
     },
     {
       "path": "official-documents/2026-08-04/g-13-attachment-budget-adjustment-form.pdf",
@@ -1871,16 +1961,196 @@
       "sha256": "d50e08afa9d1b4da2e067ab65dc239779bd8b2fff656323853795ec8cebec3f7"
     },
     {
+      "path": "official-documents/2026-08-04/g-13-staff-report-fy2025-2026-4th-quarter-budget-update-and-financial-status-report.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-08-04/g-13-staff-report-fy2025-2026-4th-quarter-budget-update-and-financial-status-report.pdf",
+      "bytes": 360956,
+      "sha256": "d50e08afa9d1b4da2e067ab65dc239779bd8b2fff656323853795ec8cebec3f7"
+    },
+    {
+      "path": "official-documents/2026-08-04/g-14-attachment-a-penegrine-contract.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-08-04/g-14-attachment-a-penegrine-contract.pdf",
+      "bytes": 352213,
+      "sha256": "1270897a231a62cb9255bca6c83e05fcc97b04c2bc87dc44d775a7a6ce1266a1"
+    },
+    {
+      "path": "official-documents/2026-08-04/g-14-attachment-b-peregrine-sole-source-letter-beaumont-pd.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-08-04/g-14-attachment-b-peregrine-sole-source-letter-beaumont-pd.pdf",
+      "bytes": 144764,
+      "sha256": "012c9a034f3fcb1a88e8cf01cdf5642351ccd3373808402b9a78a63d1be0e065"
+    },
+    {
+      "path": "official-documents/2026-08-04/g-14-staff-report-request-to-approve-a-three-year-agreement-with-peregrine-technologies-inc.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-08-04/g-14-staff-report-request-to-approve-a-three-year-agreement-with-peregrine-technologies-inc.pdf",
+      "bytes": 99692,
+      "sha256": "66826b6eba235d4a7247402226288681637872bd369bacba4f01f0a8dca7d2d8"
+    },
+    {
+      "path": "official-documents/2026-08-04/g-2-cc-minutes-07-21-2026.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-08-04/g-2-cc-minutes-07-21-2026.pdf",
+      "bytes": 263421,
+      "sha256": "7d2d7c13db3b9af9ed84973783f30419c804872e21aa5767160fc8834ba1960a"
+    },
+    {
+      "path": "official-documents/2026-08-04/g-3-sbemp-may-2026.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-08-04/g-3-sbemp-may-2026.pdf",
+      "bytes": 192507,
+      "sha256": "b890aff38d3dceafeca720ce78f553a894cc9cfbaa3392ff20b43df8575b7d2c"
+    },
+    {
+      "path": "official-documents/2026-08-04/g-4-staff-report-economic-development-incentive-program-report.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-08-04/g-4-staff-report-economic-development-incentive-program-report.pdf",
+      "bytes": 102633,
+      "sha256": "c04c81fdb75ea9a3dfdb13d4d5dc0bae92f1653bb31b24cd33a5eadaea30d23b"
+    },
+    {
+      "path": "official-documents/2026-08-04/g-5-attachment-a-pw2026-0048-tr-31462-16-bond-x-package.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-08-04/g-5-attachment-a-pw2026-0048-tr-31462-16-bond-x-package.pdf",
+      "bytes": 14519225,
+      "sha256": "38c701c1327d79ded9ca0b18cec0b6e670bd7433f6aee2727a6a7ddc33086d2c"
+    },
+    {
+      "path": "official-documents/2026-08-04/g-5-attachment-b-notice-of-completion.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-08-04/g-5-attachment-b-notice-of-completion.pdf",
+      "bytes": 99504,
+      "sha256": "917c146a0a1e0f0caca6074731b478766cc9149a5104bddfcc8c6102f6e18e8c"
+    },
+    {
+      "path": "official-documents/2026-08-04/g-5-staff-report-bond-exonerations-performance-fairway-canyon-streets.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-08-04/g-5-staff-report-bond-exonerations-performance-fairway-canyon-streets.pdf",
+      "bytes": 150484,
+      "sha256": "1ca284e7455f2f23c20fb640d5e563010554b2039bbbd146cb1cf6e82fdce48e"
+    },
+    {
+      "path": "official-documents/2026-08-04/g-6-attachment-a-rcfc-highland-springs-channel-purchase-and-sale-agreement-letter.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-08-04/g-6-attachment-a-rcfc-highland-springs-channel-purchase-and-sale-agreement-letter.pdf",
+      "bytes": 109633,
+      "sha256": "55f8729ee926602e5f5bacffa3cdfd83ba2346e0db24631006888883fe7cb352"
+    },
+    {
+      "path": "official-documents/2026-08-04/g-6-attachment-b-highland-springs-channel-grant-deed-and-reservation-of-easements-agreement.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-08-04/g-6-attachment-b-highland-springs-channel-grant-deed-and-reservation-of-easements-agreement.pdf",
+      "bytes": 1096104,
+      "sha256": "6ac0b8f6978591cec75f45b181e806564ca8854c250dad7ab70b4556577f2c57"
+    },
+    {
+      "path": "official-documents/2026-08-04/g-6-attachment-c-certificate-of-acceptance.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-08-04/g-6-attachment-c-certificate-of-acceptance.pdf",
+      "bytes": 94421,
+      "sha256": "e220317cc94175daddf28cb64bdb8ac7d93be8ceed08f767216893ed211ce1d2"
+    },
+    {
+      "path": "official-documents/2026-08-04/g-6-attachment-d-grant-deed-resolution.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-08-04/g-6-attachment-d-grant-deed-resolution.pdf",
+      "bytes": 153965,
+      "sha256": "fad3d0eb9e5f3ce28830cfe7e75e929443047192dd0f62c05814dd913fa5db7a"
+    },
+    {
+      "path": "official-documents/2026-08-04/g-6-staff-report-rcfc-highland-springs-channel-grant-deed-and-easement-reservation.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-08-04/g-6-staff-report-rcfc-highland-springs-channel-grant-deed-and-easement-reservation.pdf",
+      "bytes": 188697,
+      "sha256": "7a09c0fb664f52161fc2ad86dba2571ef12659902419770d9ee6c41141612940"
+    },
+    {
+      "path": "official-documents/2026-08-04/g-7-attachment-a-rctc-city-of-beaumont-license-agreement-c1.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-08-04/g-7-attachment-a-rctc-city-of-beaumont-license-agreement-c1.pdf",
+      "bytes": 548361,
+      "sha256": "88a31c9218c42b628d3520051cedba6a29ad73a28247cece094cb777383f982c"
+    },
+    {
+      "path": "official-documents/2026-08-04/g-7-staff-report-stream-gage-access-agreement-rctc.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-08-04/g-7-staff-report-stream-gage-access-agreement-rctc.pdf",
+      "bytes": 94016,
+      "sha256": "aeaa5577d76e056ed98520793559bb0ad713815de1f55defdc7948234bd5ace4"
+    },
+    {
+      "path": "official-documents/2026-08-04/g-8-staff-report-report-of-planning-commission-action.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-08-04/g-8-staff-report-report-of-planning-commission-action.pdf",
+      "bytes": 97321,
+      "sha256": "ee5af6023231fb289ff0dbc605c02d8c0655cca9721d61561d53fe4c82d90666"
+    },
+    {
+      "path": "official-documents/2026-08-04/g-9-attachment-a-pwa-southern-contracting.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-08-04/g-9-attachment-a-pwa-southern-contracting.pdf",
+      "bytes": 10508555,
+      "sha256": "b404b4435adb96892642dd591061c6f98b15c4d11e25efbde5eeac5448e5564a"
+    },
+    {
+      "path": "official-documents/2026-08-04/g-9-attachment-b-change-order-no-1.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-08-04/g-9-attachment-b-change-order-no-1.pdf",
+      "bytes": 194307,
+      "sha256": "a05cdd34f381cfea44cc47a895b4ac53b1cea52df6018da80ec525f94023f170"
+    },
+    {
+      "path": "official-documents/2026-08-04/g-9-attachment-c-change-order-no-2.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-08-04/g-9-attachment-c-change-order-no-2.pdf",
+      "bytes": 103591,
+      "sha256": "d07215d2c42172ebef2384b4306429f29cb190f02d3e4a56756a072da6d8cc97"
+    },
+    {
+      "path": "official-documents/2026-08-04/g-9-staff-report-southern-contracting-change-order.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-08-04/g-9-staff-report-southern-contracting-change-order.pdf",
+      "bytes": 99977,
+      "sha256": "d3d555bbcd491aaa183d512503919740bf68dae373165b5d3a69a02728676db5"
+    },
+    {
+      "path": "official-documents/2026-08-04/i-1-attachment-a-final-is-mnd.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-08-04/i-1-attachment-a-final-is-mnd.pdf",
+      "bytes": 920754,
+      "sha256": "0ab55edc055ea3dc25e3bd8d90ce8c26d1273c73458c08f3a6caff45cdf8282a"
+    },
+    {
+      "path": "official-documents/2026-08-04/i-1-attachment-b-mmrp.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-08-04/i-1-attachment-b-mmrp.pdf",
+      "bytes": 298751,
+      "sha256": "9b5ec895e5242a724ee1f75d20b008433661c64e8b4e9160d18c3e915f139657"
+    },
+    {
+      "path": "official-documents/2026-08-04/i-1-attachment-c-draft-ismnd.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-08-04/i-1-attachment-c-draft-ismnd.pdf",
+      "bytes": 56256552,
+      "sha256": "4b61ae278578ca8c35b5eedd3e9c9f9f168de029f993d912a5d79e56f1e8ee8f"
+    },
+    {
+      "path": "official-documents/2026-08-04/i-1-attachment-d-nod.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-08-04/i-1-attachment-d-nod.pdf",
+      "bytes": 98140,
+      "sha256": "f55ffbf7dbf49b35761cd81c6756baf27abb63af0444c0513c495783e7d38019"
+    },
+    {
+      "path": "official-documents/2026-08-04/i-1-staff-report-mitigated-negative-declaration-for-the-mdp-line-2-stage-1-project.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-08-04/i-1-staff-report-mitigated-negative-declaration-for-the-mdp-line-2-stage-1-project.pdf",
+      "bytes": 250679,
+      "sha256": "6a0da833f40bd58eabbf253d22d2764c47b85fff1bcca24d3fe2ca31388491a2"
+    },
+    {
       "path": "official-documents/2026-08-04/i-2-staff-report-sustainability-plan-public-hearing-continuance.pdf",
       "url": "https://documents.beaumontintelligence.com/official-documents/2026-08-04/i-2-staff-report-sustainability-plan-public-hearing-continuance.pdf",
       "bytes": 92952,
       "sha256": "84cd67874594a57845b6d2931f5f5d8685672d9e8dc3fc86da7eee34e93980c9"
     },
     {
+      "path": "official-documents/2026-08-04/i-2-staff-report-the-2026-beaumont-sustainability-plan-public-hearing-continuation.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-08-04/i-2-staff-report-the-2026-beaumont-sustainability-plan-public-hearing-continuation.pdf",
+      "bytes": 92952,
+      "sha256": "84cd67874594a57845b6d2931f5f5d8685672d9e8dc3fc86da7eee34e93980c9"
+    },
+    {
+      "path": "official-documents/2026-08-04/i-3-staff-report-mitigated-negative-declaration-for-beaumont-transit-yard.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-08-04/i-3-staff-report-mitigated-negative-declaration-for-beaumont-transit-yard.pdf",
+      "bytes": 96824,
+      "sha256": "4d8a5d8b2671d304760878844c2c00046940e9392b9267aeb1bba88058039d14"
+    },
+    {
       "path": "official-documents/2026-08-04/j-1-applicant-narrative-tuscanos-expansion.pdf",
       "url": "https://documents.beaumontintelligence.com/official-documents/2026-08-04/j-1-applicant-narrative-tuscanos-expansion.pdf",
       "bytes": 48651,
       "sha256": "7dfd0da1428b35b2088ac6b45c89f667af8deb578beb596d82f22e7d28ba4f0b"
+    },
+    {
+      "path": "official-documents/2026-08-04/j-1-attachment-a-inter-departmental-scoring-sheet-tuscano-s.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-08-04/j-1-attachment-a-inter-departmental-scoring-sheet-tuscano-s.pdf",
+      "bytes": 74618,
+      "sha256": "335148db9e7ba159deae0d545b8b8653219f604256d4aafb6a3e84366e92d291"
     },
     {
       "path": "official-documents/2026-08-04/j-1-attachment-a-interdepartmental-scoring-sheet.pdf",
@@ -1895,10 +2165,28 @@
       "sha256": "e44c9fab067ae197ea549880ad25c2ea7fd20ff0ca3ce75a89acbbe6e7241a6c"
     },
     {
+      "path": "official-documents/2026-08-04/j-1-attachment-b-tuscano-s-pizza-and-pasta-expansion-program-agreement.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-08-04/j-1-attachment-b-tuscano-s-pizza-and-pasta-expansion-program-agreement.pdf",
+      "bytes": 11047208,
+      "sha256": "3377c44d3ac80724d3fe951e2cc6f5f4cff445f3c1657fa08cca1771b9d71983"
+    },
+    {
+      "path": "official-documents/2026-08-04/j-1-staff-report-tuscano-s-pizza-and-pasta-expansion-program.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-08-04/j-1-staff-report-tuscano-s-pizza-and-pasta-expansion-program.pdf",
+      "bytes": 103357,
+      "sha256": "b959b029e29d9a299f73f13adb53f859ae7eeb3f2443377bd0225eb16b6b616e"
+    },
+    {
       "path": "official-documents/2026-08-04/j-1-staff-report-tuscanos-business-attraction-expansion-grant.pdf",
       "url": "https://documents.beaumontintelligence.com/official-documents/2026-08-04/j-1-staff-report-tuscanos-business-attraction-expansion-grant.pdf",
       "bytes": 103357,
       "sha256": "b959b029e29d9a299f73f13adb53f859ae7eeb3f2443377bd0225eb16b6b616e"
+    },
+    {
+      "path": "official-documents/2026-08-04/j-2-a-project-timeline.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-08-04/j-2-a-project-timeline.pdf",
+      "bytes": 159741,
+      "sha256": "0b0a28f9cb73e50d719da09147a337cc4bfdf3cfab5515e634cd77e68c55a5e6"
     },
     {
       "path": "official-documents/2026-08-04/j-2-attachment-rctc-project-update-presentation.pdf",
@@ -1907,10 +2195,28 @@
       "sha256": "bb07fe221decc837fd5d23cb63e5079e9fd5c5653a689b2f980a3afff492bc18"
     },
     {
+      "path": "official-documents/2026-08-04/j-2-b-rctc-city-presentation-slides-only.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-08-04/j-2-b-rctc-city-presentation-slides-only.pdf",
+      "bytes": 2213591,
+      "sha256": "bb07fe221decc837fd5d23cb63e5079e9fd5c5653a689b2f980a3afff492bc18"
+    },
+    {
+      "path": "official-documents/2026-08-04/j-2-staff-report-pennsylvania-ave-grade-separation-funding-strategy.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-08-04/j-2-staff-report-pennsylvania-ave-grade-separation-funding-strategy.pdf",
+      "bytes": 234079,
+      "sha256": "568b057874f1ab8429cedd3a0a4a7da2c660177b16943aa2b68e9a0cbfeb7e5e"
+    },
+    {
       "path": "official-documents/2026-08-04/j-2-staff-report-pennsylvania-grade-separation-funding-strategy.pdf",
       "url": "https://documents.beaumontintelligence.com/official-documents/2026-08-04/j-2-staff-report-pennsylvania-grade-separation-funding-strategy.pdf",
       "bytes": 373126,
       "sha256": "af643a92140cc1d7abb257d4d78fde80b5ebb319b7bba4cf0e570f9e52e4c15f"
+    },
+    {
+      "path": "official-documents/2026-08-04/j-3-attachment-a-2026-07-27-beaumont-ca-edsp-final-v2.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-08-04/j-3-attachment-a-2026-07-27-beaumont-ca-edsp-final-v2.pdf",
+      "bytes": 12353463,
+      "sha256": "e01dbb96bc1c261c74f0a186e526f6ff8fc2665a387ca438bf801345c1ec6b03"
     },
     {
       "path": "official-documents/2026-08-04/j-3-attachment-a-2026-2031-economic-development-strategic-plan.pdf",
@@ -1919,16 +2225,52 @@
       "sha256": "5244e562e3e8b846ea0478983cc4acf98bf22d4c550783e7c1caa399514e9c85"
     },
     {
+      "path": "official-documents/2026-08-04/j-3-attachment-b-2026-08-04-beaumont-sc-rollout-final.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-08-04/j-3-attachment-b-2026-08-04-beaumont-sc-rollout-final.pdf",
+      "bytes": 1564581,
+      "sha256": "8e48de2e2aeaeba9ece9ce8198ac64b6650e84e16b1dcce5002fe62964dd5884"
+    },
+    {
       "path": "official-documents/2026-08-04/j-3-attachment-b-economic-development-strategic-plan-presentation.pdf",
       "url": "https://documents.beaumontintelligence.com/official-documents/2026-08-04/j-3-attachment-b-economic-development-strategic-plan-presentation.pdf",
       "bytes": 1564581,
       "sha256": "8e48de2e2aeaeba9ece9ce8198ac64b6650e84e16b1dcce5002fe62964dd5884"
     },
     {
+      "path": "official-documents/2026-08-04/j-3-staff-report-2026-2030-economic-development-strategic-plan-presentation.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-08-04/j-3-staff-report-2026-2030-economic-development-strategic-plan-presentation.pdf",
+      "bytes": 189982,
+      "sha256": "181be232867b9dc90b3852ec5a8a63d9892cb574625c1c280d7cc112581cb0ba"
+    },
+    {
       "path": "official-documents/2026-08-04/j-3-staff-report-economic-development-strategic-plan.pdf",
       "url": "https://documents.beaumontintelligence.com/official-documents/2026-08-04/j-3-staff-report-economic-development-strategic-plan.pdf",
       "bytes": 4329411,
       "sha256": "d2d791a0be97413fe0a1bc2850d488046339b0c21d158d6d0d2b43cf07c55ce7"
+    },
+    {
+      "path": "official-documents/2026-08-04/j-4-attachment-a-second-amendment-to-agreement-for-professional-services-with-placeworks-inc.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-08-04/j-4-attachment-a-second-amendment-to-agreement-for-professional-services-with-placeworks-inc.pdf",
+      "bytes": 237502,
+      "sha256": "4f5679d39640cad4de81fac619c18506be9ce4757365d871b0f6cbb07d4624d1"
+    },
+    {
+      "path": "official-documents/2026-08-04/j-4-attachment-b-exhibit-a-to-the-second-amendment-to-agreement-for-professional-services-with-placeworks-inc.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-08-04/j-4-attachment-b-exhibit-a-to-the-second-amendment-to-agreement-for-professional-services-with-placeworks-inc.pdf",
+      "bytes": 773041,
+      "sha256": "b28cefa690c5ed7c5bc4ecda0485ce919278f17987bafea5b760b41f81edefc2"
+    },
+    {
+      "path": "official-documents/2026-08-04/j-4-attachment-c-resolution-2025-53-council-annexation-authorization.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-08-04/j-4-attachment-c-resolution-2025-53-council-annexation-authorization.pdf",
+      "bytes": 105359,
+      "sha256": "c31b081f74ffe73c7e5c4cacca49f9f9ea57061e297bf8d9932ba505babe67de"
+    },
+    {
+      "path": "official-documents/2026-08-04/j-4-staff-report-consideration-of-a-second-amendment-to-the-placeworks-inc-professional-services-agreement.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-08-04/j-4-staff-report-consideration-of-a-second-amendment-to-the-placeworks-inc-professional-services-agreement.pdf",
+      "bytes": 112267,
+      "sha256": "826fdaa8dee0ad2087a3c512da25cf8f3f02df206877f6b4abd4d1dc89ce0851"
     },
     {
       "path": "official-documents/2026-08-18/agenda.pdf",
