@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import re
 import shutil
+import json
 from pathlib import Path
 
 from pypdf import PdfReader, PdfWriter
@@ -14,6 +15,7 @@ OUTPUT = ROOT / "docs" / "official-documents"
 PACKETS = ROOT / "docs" / "records" / "agenda-packets"
 
 MEETINGS = {
+    "Apr07_2026": "2026-04-07",
     "May05_2026": "2026-05-05",
     "Jun02_2026": "2026-06-02",
     "Jun16_2026": "2026-06-16",
@@ -58,6 +60,7 @@ def main() -> None:
         target_dir = OUTPUT / date
         target_dir.mkdir(parents=True, exist_ok=True)
         used: set[str] = set()
+        source_records: list[dict[str, str]] = []
 
         for index, (start, title) in enumerate(marks):
             end = marks[index + 1][0] if index + 1 < len(marks) else len(reader.pages)
@@ -72,10 +75,30 @@ def main() -> None:
                 writer.add_page(reader.pages[page_index])
             with (target_dir / filename).open("wb") as stream:
                 writer.write(stream)
+            match = re.match(r"^([GIJ]\.\d+)\.\s*(.+)\.pdf$", title, re.IGNORECASE)
+            if match and date == "2026-04-07":
+                item, document_title = match.groups()
+                section = {"G": "Consent", "I": "Public Hearing", "J": "Action"}[item[0].upper()]
+                archive_name = filename
+                if item.upper() == "J.9" and document_title.lower().startswith("staff report"):
+                    archive_name = "j-9-staff-report-drone-as-first-responder.pdf"
+                source_records.append({
+                    "item": item.upper(),
+                    "section": section,
+                    "title": document_title,
+                    "archiveUrl": f"https://documents.beaumontintelligence.com/official-documents/{date}/{archive_name}",
+                })
             total += 1
 
+        if date == "2026-04-07":
+            output_js = ROOT / "docs" / "briefings" / "2026-04-07-sources.js"
+            output_js.write_text(
+                "window.BI_APRIL_7_SOURCES=" + json.dumps(source_records, ensure_ascii=False, separators=(",", ":")) + ";\n",
+                encoding="utf-8",
+            )
+
         print(f"{date}: packet plus {len(used)} viewer documents")
-    print(f"Created {total} viewer documents from five agenda packages")
+    print(f"Created {total} viewer documents from {len(MEETINGS)} agenda packages")
 
 
 if __name__ == "__main__":

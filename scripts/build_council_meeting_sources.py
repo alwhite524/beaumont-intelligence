@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import json
 import re
+from datetime import datetime
 from pathlib import Path
 from urllib.parse import quote
 
@@ -14,6 +15,10 @@ def meeting_records() -> list[dict[str, str | None]]:
     meetings: dict[str, dict[str, str | None]] = {}
     for transcript in sorted((DOCS / "transcripts").glob("*-city-council-transcript.txt")):
         date = transcript.name[:10]
+        try:
+            datetime.strptime(date, "%Y-%m-%d")
+        except ValueError:
+            continue
         header = transcript.read_text(encoding="utf-8", errors="replace")[:1500]
         video = re.search(r"https://www\.youtube\.com/watch\?v=[A-Za-z0-9_-]+", header)
         if not video:
