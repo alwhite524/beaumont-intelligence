@@ -14,6 +14,7 @@ OUTPUT = ROOT / "docs" / "official-documents"
 PACKETS = ROOT / "docs" / "records" / "agenda-packets"
 
 MEETINGS = {
+    "May05_2026": "2026-05-05",
     "Jun02_2026": "2026-06-02",
     "Jun16_2026": "2026-06-16",
     "Jul21_2026": "2026-07-21",
