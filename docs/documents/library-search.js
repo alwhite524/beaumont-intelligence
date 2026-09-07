@@ -3,6 +3,7 @@
   const search = document.querySelector('#search');
   const topic = document.querySelector('#topic');
   const meeting = document.querySelector('#meeting');
+  const modeInputs = [...document.querySelectorAll('input[name="search-mode"]')];
   const topics = document.querySelector('#topics');
   const count = document.querySelector('#count');
   const empty = document.querySelector('#empty');
@@ -17,15 +18,21 @@
   if (statusCounts[0]) statusCounts[0].textContent = `${records.length} searchable sources`;
   if (statusCounts[1]) statusCounts[1].textContent = `${transcriptCount} full-text Council transcripts`;
 
-  // The meeting menu represents source-document coverage. Transcript-only
-  // meetings remain discoverable through a word or phrase search.
-  const dates = [...new Set(documents.map(record => record.date).filter(Boolean))].sort().reverse();
-  meeting.innerHTML = '<option value="all">All meetings with source documents</option>' + dates.map(date => {
+  const transcripts = records.filter(record => record.type === transcriptType);
+  const searchMode = () => modeInputs.find(input => input.checked)?.value || 'documents';
+  const meetingOptions = sourceRecords => {
+    const dates = [...new Set(sourceRecords.map(record => record.date).filter(Boolean))].sort().reverse();
+    const allLabel = searchMode() === 'transcripts'
+      ? 'All meetings with transcripts'
+      : 'All meetings with source documents';
+    meeting.innerHTML = `<option value="all">${allLabel}</option>` + dates.map(date => {
     const label = new Date(`${date}T12:00:00`).toLocaleDateString('en-US', {
       year: 'numeric', month: 'long', day: 'numeric',
     });
     return `<option value="${date}">${label}</option>`;
-  }).join('');
+    }).join('');
+  };
+  meetingOptions(documents);
 
   const results = document.createElement('div');
   results.className = 'topic-stack';
@@ -103,17 +110,17 @@
     if (empty) empty.hidden = staticRows.length !== 0;
   };
 
-  const renderRecords = (matches, query, includeTranscripts) => {
+  const renderRecords = (matches, query, mode) => {
     topics.hidden = true;
     results.hidden = false;
     if (empty) empty.hidden = true;
-    const transcriptMatches = matches.filter(record => record.type === transcriptType).length;
-    count.textContent = includeTranscripts
-      ? `Showing ${matches.length} matching ${matches.length === 1 ? 'record' : 'records'}, including ${transcriptMatches} meeting ${transcriptMatches === 1 ? 'transcript' : 'transcripts'}`
+    const transcriptMode = mode === 'transcripts';
+    count.textContent = transcriptMode
+      ? `Showing ${matches.length} matching meeting ${matches.length === 1 ? 'transcript' : 'transcripts'}`
       : `Showing ${matches.length} source ${matches.length === 1 ? 'document' : 'documents'}`;
-    const heading = includeTranscripts ? 'Search results' : 'Source documents';
-    const eyebrow = includeTranscripts ? 'Documents + transcripts' : 'Official records';
-    const explanation = includeTranscripts
+    const heading = transcriptMode ? 'Transcript results' : 'Source documents';
+    const eyebrow = transcriptMode ? 'Council transcripts' : 'Official records';
+    const explanation = transcriptMode
       ? 'Transcript matches identify the meeting and link directly to the matching moment in the video.'
       : 'Every indexed source document matching the selected topic and meeting is shown below.';
     results.innerHTML = matches.length ? `<section class="topic"><div class="topic-label"><div class="eyebrow">${eyebrow}</div><h2>${heading}</h2><p>${explanation}</p></div><div class="collection-list">${matches.map(record => {
@@ -128,34 +135,46 @@
         ? `<a href="${esc(destination.href)}" data-library-route="true">${esc(destination.label)} →</a>`
         : '';
       return `<article class="record"><div class="record-date"><span>${esc(record.item || record.type)}</span>${esc(record.date || 'Undated')}</div><div><h3>${esc(record.title)}</h3><p>${esc(resultSnippet)}</p></div><div class="links"><span class="doc-count">${esc(record.type)}</span>${watchLink}${destinationLink}</div></article>`;
-    }).join('')}</div></section>` : `<div class="empty">${includeTranscripts ? 'No indexed document or transcript matches.' : 'No source documents match those filters.'}</div>`;
+    }).join('')}</div></section>` : `<div class="empty">${transcriptMode ? 'No transcript matches that word or phrase.' : 'No source documents match those filters.'}</div>`;
   };
 
   function render() {
+    const mode = searchMode();
     const query = norm(search.value.trim());
-    if (!query && topic.value === 'all' && meeting.value === 'all') {
+    if (mode === 'documents' && !query && topic.value === 'all' && meeting.value === 'all') {
       showCollections();
       return;
     }
-    if (!query) {
-      renderRecords(documents.filter(recordMatchesFilters), '', false);
+    if (mode === 'transcripts' && !query) {
+      topics.hidden = true;
+      results.hidden = false;
+      if (empty) empty.hidden = true;
+      count.textContent = 'Enter a word or phrase to search the collected Council transcripts.';
+      results.innerHTML = '<div class="empty">Search transcript text to find matching meetings and jump directly to the relevant video timestamp.</div>';
       return;
     }
-    const allMatches = records.filter(record => {
+    const sourceRecords = mode === 'transcripts' ? transcripts : documents;
+    const matches = sourceRecords.filter(record => {
       if (!recordMatchesFilters(record)) return false;
-      if (record.type === transcriptType) return Boolean(transcriptHit(record, query));
-      return matchesQuery(`${record.title} ${record.item} ${record.body}`, query);
-    });
-    const transcriptMatches = allMatches.filter(record => record.type === transcriptType).slice(0, 50);
-    const documentMatches = allMatches.filter(record => record.type !== transcriptType)
-      .slice(0, Math.max(0, 100 - transcriptMatches.length));
-    const matches = [...transcriptMatches, ...documentMatches];
-    renderRecords(matches, query, true);
+      if (mode === 'transcripts') return Boolean(transcriptHit(record, query));
+      return !query || matchesQuery(`${record.title} ${record.item} ${record.body}`, query);
+    }).slice(0, 100);
+    renderRecords(matches, query, mode);
   }
 
   search.addEventListener('input', render);
   topic.addEventListener('change', render);
   meeting.addEventListener('change', render);
+  modeInputs.forEach(input => input.addEventListener('change', () => {
+    const transcriptMode = searchMode() === 'transcripts';
+    topic.value = 'all';
+    topic.disabled = transcriptMode;
+    meetingOptions(transcriptMode ? transcripts : documents);
+    search.placeholder = transcriptMode
+      ? 'Try “billboard,” “Brookside,” or “short-term rental”…'
+      : 'Try “budget,” “Pennsylvania,” or “J.2”…';
+    render();
+  }));
 
   // All indexed documents use the Library viewer. Transcript text stays local,
   // while timestamp buttons open the corresponding moment on YouTube.
