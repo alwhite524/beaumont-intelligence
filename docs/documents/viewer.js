@@ -16,8 +16,13 @@
   let lastOpenedDocumentId = null;
   let pdfRenderToken = 0;
   let pdfJsPromise;
+  const returnUrl = params.get("returnUrl");
+  const returnLabel = params.get("returnLabel");
 
-  try {
+  if (returnUrl) {
+    viewerBackLink.href = returnUrl;
+    viewerBackLink.textContent = `← ${returnLabel || "Back to previous page"}`;
+  } else try {
     const previousUrl = new URL(document.referrer);
     if (previousUrl.origin === window.location.origin) {
       viewerBackLink.href = previousUrl.href;
@@ -27,7 +32,7 @@
   }
 
   viewerBackLink.addEventListener("click", (event) => {
-    if (document.referrer && window.history.length > 1) {
+    if (!returnUrl && document.referrer && window.history.length > 1) {
       event.preventDefault();
       window.history.back();
     }
