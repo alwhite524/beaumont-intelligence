@@ -45,7 +45,7 @@
     return searchable.includes(query) || compact(searchable).includes(compact(query));
   };
   const destinationFor = record => record.type === transcriptType
-    ? { href: record.url, label: 'Open transcript' }
+    ? null
     : { href: `viewer.html?url=${encodeURIComponent(record.url)}`, label: 'View document' };
   const secondsFromTimestamp = timestamp => {
     const parts = timestamp.split(':').map(Number);
@@ -124,7 +124,10 @@
         ? `<a href="${esc(videoLink)}" target="_blank" rel="noopener">Watch video at ${esc(hit.label)} ↗</a>`
         : '';
       const destination = destinationFor(record);
-      return `<article class="record"><div class="record-date"><span>${esc(record.item || record.type)}</span>${esc(record.date || 'Undated')}</div><div><h3>${esc(record.title)}</h3><p>${esc(resultSnippet)}</p></div><div class="links"><span class="doc-count">${esc(record.type)}</span>${watchLink}<a href="${esc(destination.href)}" data-library-route="true">${esc(destination.label)} →</a></div></article>`;
+      const destinationLink = destination
+        ? `<a href="${esc(destination.href)}" data-library-route="true">${esc(destination.label)} →</a>`
+        : '';
+      return `<article class="record"><div class="record-date"><span>${esc(record.item || record.type)}</span>${esc(record.date || 'Undated')}</div><div><h3>${esc(record.title)}</h3><p>${esc(resultSnippet)}</p></div><div class="links"><span class="doc-count">${esc(record.type)}</span>${watchLink}${destinationLink}</div></article>`;
     }).join('')}</div></section>` : `<div class="empty">${includeTranscripts ? 'No indexed document or transcript matches.' : 'No source documents match those filters.'}</div>`;
   };
 
@@ -138,11 +141,15 @@
       renderRecords(documents.filter(recordMatchesFilters), '', false);
       return;
     }
-    const matches = records.filter(record => {
+    const allMatches = records.filter(record => {
       if (!recordMatchesFilters(record)) return false;
       if (record.type === transcriptType) return Boolean(transcriptHit(record, query));
       return matchesQuery(`${record.title} ${record.item} ${record.body}`, query);
-    }).slice(0, 100);
+    });
+    const transcriptMatches = allMatches.filter(record => record.type === transcriptType).slice(0, 50);
+    const documentMatches = allMatches.filter(record => record.type !== transcriptType)
+      .slice(0, Math.max(0, 100 - transcriptMatches.length));
+    const matches = [...transcriptMatches, ...documentMatches];
     renderRecords(matches, query, true);
   }
 
