@@ -16,12 +16,18 @@ PACKETS = ROOT / "docs" / "records" / "agenda-packets"
 
 MEETINGS = {
     "Apr07_2026": "2026-04-07",
+    "Apr21_2026": "2026-04-21",
     "May05_2026": "2026-05-05",
     "Jun02_2026": "2026-06-02",
     "Jun16_2026": "2026-06-16",
     "Jul21_2026": "2026-07-21",
     "Aug18_2026": "2026-08-18",
     "Sep01_2026": "2026-09-01",
+}
+
+SOURCE_VARS = {
+    "2026-04-07": "BI_APRIL_7_SOURCES",
+    "2026-04-21": "BI_APRIL_21_SOURCES",
 }
 
 
@@ -76,11 +82,11 @@ def main() -> None:
             with (target_dir / filename).open("wb") as stream:
                 writer.write(stream)
             match = re.match(r"^([GIJ]\.\d+)\.\s*(.+)\.pdf$", title, re.IGNORECASE)
-            if match and date == "2026-04-07":
+            if match and date in SOURCE_VARS:
                 item, document_title = match.groups()
                 section = {"G": "Consent", "I": "Public Hearing", "J": "Action"}[item[0].upper()]
                 archive_name = filename
-                if item.upper() == "J.9" and document_title.lower().startswith("staff report"):
+                if date == "2026-04-07" and item.upper() == "J.9" and document_title.lower().startswith("staff report"):
                     archive_name = "j-9-staff-report-drone-as-first-responder.pdf"
                 source_records.append({
                     "item": item.upper(),
@@ -90,10 +96,10 @@ def main() -> None:
                 })
             total += 1
 
-        if date == "2026-04-07":
-            output_js = ROOT / "docs" / "briefings" / "2026-04-07-sources.js"
+        if date in SOURCE_VARS:
+            output_js = ROOT / "docs" / "briefings" / f"{date}-sources.js"
             output_js.write_text(
-                "window.BI_APRIL_7_SOURCES=" + json.dumps(source_records, ensure_ascii=False, separators=(",", ":")) + ";\n",
+                f"window.{SOURCE_VARS[date]}=" + json.dumps(source_records, ensure_ascii=False, separators=(",", ":")) + ";\n",
                 encoding="utf-8",
             )
 
