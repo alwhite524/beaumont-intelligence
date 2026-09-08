@@ -1,0 +1,22 @@
+/* Shared Council meeting-record cards for current and future briefings. */
+body[data-page="briefing"] .briefing-tools{display:none!important}
+body[data-page="briefing"] .agenda-stack,body[data-page="briefing"] .outcome-stack{display:grid;gap:14px}
+body[data-page="briefing"] .meeting-item-card{overflow:hidden;border:1px solid #cbd8e6!important;border-left:5px solid var(--blue)!important;border-radius:12px!important;background:#fff!important;box-shadow:0 5px 16px rgba(9,43,88,.07)!important}
+body[data-page="briefing"] .meeting-item-card.calendar-public-hearing{border-left-color:var(--red)!important}
+body[data-page="briefing"] .meeting-item-card.calendar-action{border-left-color:var(--blue)!important}
+body[data-page="briefing"] .meeting-item-card.calendar-consent{border-left-color:#d69a08!important}
+body[data-page="briefing"] .agenda-item.meeting-item-card{display:block!important}
+body[data-page="briefing"] .agenda-item.meeting-item-card .agenda-rank{display:none!important}
+body[data-page="briefing"] .agenda-item.meeting-item-card .agenda-item-body{padding:18px!important}
+body[data-page="briefing"] .meeting-item-card h3{margin:.25rem 0 .55rem;color:var(--navy);font:800 1.25rem/1.3 Georgia,serif}
+body[data-page="briefing"] .meeting-item-card .meta{color:#52677d;font-size:.82rem;font-weight:750}
+body[data-page="briefing"] .meeting-item-card .decision-box{margin:.75rem 0;border-left:4px solid currentColor;border-radius:0 8px 8px 0;background:#f4f8fc}
+body[data-page="briefing"] .calendar-public-hearing .decision-box{color:#982a22;background:#fff5f3}
+body[data-page="briefing"] .calendar-action .decision-box{color:#0b4f8a;background:#f1f7fd}
+body[data-page="briefing"] .calendar-consent .decision-box{color:#775400;background:#fff9e8}
+body[data-page="briefing"] .hearing-record.meeting-item-card{display:grid;grid-template-columns:minmax(0,1fr) minmax(280px,.8fr);padding:18px}
+body[data-page="briefing"] .hearing-record.meeting-item-card>article{padding:0}
+body[data-page="briefing"] .hearing-record.meeting-item-card>.official-documents{margin:0 0 0 18px}
+body[data-page="briefing"] .briefing-collapsible-section>summary{border-left:5px solid #d69a08;background:#fff9e8}
+body[data-page="briefing"] .briefing-collapsible-section>summary span:before{background:#d69a08;color:#122f54}
+@media(max-width:700px){body[data-page="briefing"] main a[href^="#"]{display:none!important}body[data-page="briefing"] .meeting-item-card h3{font-size:1.12rem}body[data-page="briefing"] .agenda-item.meeting-item-card .agenda-item-body{padding:15px!important}body[data-page="briefing"] .hearing-record.meeting-item-card{grid-template-columns:1fr;padding:15px}body[data-page="briefing"] .hearing-record.meeting-item-card>.official-documents{margin:14px 0 0}body[data-page="briefing"] .quick-grid{display:none!important}}
