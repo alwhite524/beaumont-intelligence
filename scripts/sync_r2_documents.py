@@ -39,6 +39,11 @@ def main() -> None:
         action="store_true",
         help="Verify already-migrated objects without requiring local PDFs.",
     )
+    parser.add_argument(
+        "--meeting",
+        action="append",
+        help="Upload and verify only PDFs whose repository path contains this YYYY-MM-DD meeting date; may be repeated.",
+    )
     args = parser.parse_args()
 
     settings = json.loads(CREDENTIALS.read_text(encoding="utf-8"))
@@ -77,6 +82,11 @@ def main() -> None:
         }
 
     local_pdfs = pdf_files()
+    if args.meeting:
+        local_pdfs = [
+            path for path in local_pdfs
+            if any(f"/{date}/" in f"/{path.relative_to(DOCS).as_posix()}" for date in args.meeting)
+        ]
     for index, path in enumerate(local_pdfs, start=1):
         key = path.relative_to(DOCS).as_posix()
         checksum = sha256(path)

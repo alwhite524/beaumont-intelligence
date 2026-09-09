@@ -4,6 +4,7 @@ from __future__ import annotations
 import re
 import shutil
 import json
+import argparse
 from pathlib import Path
 
 from pypdf import PdfReader, PdfWriter
@@ -15,6 +16,9 @@ OUTPUT = ROOT / "docs" / "official-documents"
 PACKETS = ROOT / "docs" / "records" / "agenda-packets"
 
 MEETINGS = {
+    "Nov18_2025": "2025-11-18",
+    "Dec02_2025": "2025-12-02",
+    "Dec16_2025": "2025-12-16",
     "Jan20_2026": "2026-01-20",
     "Feb03_2026": "2026-02-03",
     "Feb17_2026": "2026-02-17",
@@ -32,6 +36,9 @@ MEETINGS = {
 }
 
 SOURCE_VARS = {
+    "2025-11-18": "BI_NOVEMBER_18_2025_SOURCES",
+    "2025-12-02": "BI_DECEMBER_2_2025_SOURCES",
+    "2025-12-16": "BI_DECEMBER_16_2025_SOURCES",
     "2026-01-20": "BI_JANUARY_20_SOURCES",
     "2026-02-03": "BI_FEBRUARY_3_SOURCES",
     "2026-02-17": "BI_FEBRUARY_17_SOURCES",
@@ -63,8 +70,19 @@ def destinations(reader: PdfReader) -> list[tuple[int, str]]:
 
 
 def main() -> None:
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--meeting",
+        action="append",
+        choices=sorted(MEETINGS),
+        help="Import only the selected meeting token; may be repeated.",
+    )
+    args = parser.parse_args()
+    selected = set(args.meeting or MEETINGS)
     total = 0
     for token, date in MEETINGS.items():
+        if token not in selected:
+            continue
         source = DOWNLOADS / f"Agenda Package - City Council Closed and Regular Session_{token}.pdf"
         if not source.exists():
             raise FileNotFoundError(source)
@@ -116,7 +134,7 @@ def main() -> None:
             )
 
         print(f"{date}: packet plus {len(used)} viewer documents")
-    print(f"Created {total} viewer documents from {len(MEETINGS)} agenda packages")
+    print(f"Created {total} viewer documents from {len(selected)} agenda packages")
 
 
 if __name__ == "__main__":

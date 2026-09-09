@@ -1,8 +1,11 @@
-"""Build searchable interactive-agenda pages for archived 2026 packets."""
+"""Build searchable interactive-agenda pages for archived packets."""
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 MEETINGS = {
+    "2025-11-18": ("November 18, 2025", "BI_NOVEMBER_18_2025_SOURCES"),
+    "2025-12-02": ("December 2, 2025", "BI_DECEMBER_2_2025_SOURCES"),
+    "2025-12-16": ("December 16, 2025", "BI_DECEMBER_16_2025_SOURCES"),
     "2026-01-20": ("January 20, 2026", "BI_JANUARY_20_SOURCES"),
     "2026-02-03": ("February 3, 2026", "BI_FEBRUARY_3_SOURCES"),
     "2026-02-17": ("February 17, 2026", "BI_FEBRUARY_17_SOURCES"),
