@@ -1,0 +1,523 @@
+{
+  "date": "2015-11-03",
+  "videoUrl": "https://www.youtube.com/watch?v=mokmwjT4ujs",
+  "archiveUrl": "https://portal.laserfiche.com/Portal/Browse.aspx?id=135575&repo=r-d75cb0c2",
+  "archiveEntryCount": 26,
+  "attachmentAuditStatus": "partial",
+  "transcriptStatus": "unavailable",
+  "items": [
+    {
+      "item": "1",
+      "title": "Public comment",
+      "section": "Opening and Reports",
+      "notes": "Listed for consideration in the posted agenda; no outcome inferred.",
+      "documents": [],
+      "id": "item-1"
+    },
+    {
+      "item": "2",
+      "title": "Council reports",
+      "section": "Opening and Reports",
+      "notes": "Listed for consideration in the posted agenda; no outcome inferred.",
+      "documents": [],
+      "id": "item-2"
+    },
+    {
+      "item": "3",
+      "title": "City Treasurer report",
+      "section": "Opening and Reports",
+      "notes": "Listed for consideration in the posted agenda; no outcome inferred.",
+      "documents": [],
+      "id": "item-3"
+    },
+    {
+      "item": "4.A",
+      "title": "September 2015 Interim Financial Report",
+      "section": "Action",
+      "notes": "Listed for consideration in the posted agenda; no outcome inferred.",
+      "documents": [
+        {
+          "title": "September 2015 Interim Financial Report",
+          "url": "https://portal.laserfiche.com/Portal/DocView.aspx?id=199611&repo=r-d75cb0c2"
+        }
+      ],
+      "id": "item-4-a"
+    },
+    {
+      "item": "4.B",
+      "title": "Budget amendment: part-time public safety dispatcher",
+      "section": "Action",
+      "notes": "Listed for consideration in the posted agenda; no outcome inferred.",
+      "documents": [
+        {
+          "title": "Budget amendment: part-time public safety dispatcher",
+          "url": "https://portal.laserfiche.com/Portal/DocView.aspx?id=199612&repo=r-d75cb0c2"
+        }
+      ],
+      "id": "item-4-b"
+    },
+    {
+      "item": "4.C",
+      "title": "Urban Futures contract amendment: independent accounting and fund reconciliation",
+      "section": "Action",
+      "notes": "Agenda pages 3\u20134 propose a $248,000 amendment. This is a proposed authorization, not a verified vote, payment, or recovery.",
+      "documents": [
+        {
+          "title": "Urban Futures contract amendment",
+          "url": "https://beaumontca.gov/DocumentCenter/View/26616/4c---Urban-Futures-Inc-Contract-Amendment"
+        }
+      ],
+      "id": "item-4-c"
+    },
+    {
+      "item": "4.D",
+      "title": "Interim Staffing Services",
+      "section": "Action",
+      "notes": "Listed for consideration in the posted agenda; no outcome inferred.",
+      "documents": [
+        {
+          "title": "Interim Staffing Services",
+          "url": "https://portal.laserfiche.com/Portal/DocView.aspx?id=199613&repo=r-d75cb0c2"
+        }
+      ],
+      "id": "item-4-d"
+    },
+    {
+      "item": "4.E",
+      "title": "Quiet Zones",
+      "section": "Action",
+      "notes": "Listed for consideration in the posted agenda; no outcome inferred.",
+      "documents": [
+        {
+          "title": "Quiet Zones",
+          "url": "https://portal.laserfiche.com/Portal/DocView.aspx?id=199614&repo=r-d75cb0c2"
+        }
+      ],
+      "id": "item-4-e"
+    },
+    {
+      "item": "4.F",
+      "title": "Interwest Consulting Contract Amendment",
+      "section": "Action",
+      "notes": "Listed for consideration in the posted agenda; no outcome inferred.",
+      "documents": [
+        {
+          "title": "Interwest Consulting Contract Amendment",
+          "url": "https://portal.laserfiche.com/Portal/DocView.aspx?id=199615&repo=r-d75cb0c2"
+        },
+        {
+          "title": "Interwest Consulting Contract Amendment \u2014 alternate version",
+          "url": "https://portal.laserfiche.com/Portal/DocView.aspx?id=199621&repo=r-d75cb0c2"
+        }
+      ],
+      "id": "item-4-f"
+    },
+    {
+      "item": "4.G",
+      "title": "Fire Engine Use Agreement",
+      "section": "Action",
+      "notes": "Listed for consideration in the posted agenda; no outcome inferred.",
+      "documents": [
+        {
+          "title": "Fire Engine Use Agreement",
+          "url": "https://portal.laserfiche.com/Portal/DocView.aspx?id=199634&repo=r-d75cb0c2"
+        }
+      ],
+      "id": "item-4-g"
+    },
+    {
+      "item": "4.H",
+      "title": "IT Service and Support Contract",
+      "section": "Action",
+      "notes": "Listed for consideration in the posted agenda; no outcome inferred.",
+      "documents": [
+        {
+          "title": "IT Service and Support Contract",
+          "url": "https://portal.laserfiche.com/Portal/DocView.aspx?id=199635&repo=r-d75cb0c2"
+        }
+      ],
+      "id": "item-4-h"
+    },
+    {
+      "item": "4.I",
+      "title": "Volunteer Appreciation Awards Sponsorship",
+      "section": "Action",
+      "notes": "Listed for consideration in the posted agenda; no outcome inferred.",
+      "documents": [
+        {
+          "title": "Volunteer Appreciation Awards Sponsorship",
+          "url": "https://portal.laserfiche.com/Portal/DocView.aspx?id=199657&repo=r-d75cb0c2"
+        }
+      ],
+      "id": "item-4-i"
+    },
+    {
+      "item": "4.J",
+      "title": "Wildermuth Environmental Project Update",
+      "section": "Action",
+      "notes": "Listed for consideration in the posted agenda; no outcome inferred.",
+      "documents": [
+        {
+          "title": "Wildermuth Environmental Project Update",
+          "url": "https://portal.laserfiche.com/Portal/DocView.aspx?id=199660&repo=r-d75cb0c2"
+        }
+      ],
+      "id": "item-4-j"
+    },
+    {
+      "item": "5.A.1",
+      "title": "Future agenda items",
+      "section": "Opening and Reports",
+      "notes": "Listed for consideration in the posted agenda; no outcome inferred.",
+      "documents": [],
+      "id": "item-5-a-1"
+    },
+    {
+      "item": "5.A.2",
+      "title": "Sales Tax Update",
+      "section": "Opening and Reports",
+      "notes": "Listed for consideration in the posted agenda; no outcome inferred.",
+      "documents": [
+        {
+          "title": "Sales Tax Update",
+          "url": "https://portal.laserfiche.com/Portal/DocView.aspx?id=199683&repo=r-d75cb0c2"
+        }
+      ],
+      "id": "item-5-a-2"
+    },
+    {
+      "item": "5.A.3",
+      "title": "Yearly Permit Information",
+      "section": "Opening and Reports",
+      "notes": "Listed for consideration in the posted agenda; no outcome inferred.",
+      "documents": [
+        {
+          "title": "Yearly Permit Information",
+          "url": "https://portal.laserfiche.com/Portal/DocView.aspx?id=199685&repo=r-d75cb0c2"
+        }
+      ],
+      "id": "item-5-a-3"
+    },
+    {
+      "item": "5.A.4",
+      "title": "Potrero Interchange Workshop \u2014 set date",
+      "section": "Opening and Reports",
+      "notes": "Listed for consideration in the posted agenda; no outcome inferred.",
+      "documents": [],
+      "id": "item-5-a-4"
+    },
+    {
+      "item": "5.B.1",
+      "title": "Community Outlook",
+      "section": "Opening and Reports",
+      "notes": "Listed for consideration in the posted agenda; no outcome inferred.",
+      "documents": [
+        {
+          "title": "Community Outlook",
+          "url": "https://portal.laserfiche.com/Portal/DocView.aspx?id=199686&repo=r-d75cb0c2"
+        }
+      ],
+      "id": "item-5-b-1"
+    },
+    {
+      "item": "6",
+      "title": "City Clerk report",
+      "section": "Opening and Reports",
+      "notes": "Listed for consideration in the posted agenda; no outcome inferred.",
+      "documents": [],
+      "id": "item-6"
+    },
+    {
+      "item": "7",
+      "title": "City Attorney report",
+      "section": "Opening and Reports",
+      "notes": "Listed for consideration in the posted agenda; no outcome inferred.",
+      "documents": [],
+      "id": "item-7"
+    },
+    {
+      "item": "8.A",
+      "title": "Read ordinances and resolutions by title; publish by summary",
+      "section": "Consent",
+      "notes": "Listed for consideration in the posted agenda; no outcome inferred.",
+      "documents": [],
+      "id": "item-8-a"
+    },
+    {
+      "item": "8.B",
+      "title": "Warrants November 3, 2015",
+      "section": "Consent",
+      "notes": "Listed for consideration in the posted agenda; no outcome inferred.",
+      "documents": [
+        {
+          "title": "Warrants November 3, 2015",
+          "url": "https://portal.laserfiche.com/Portal/DocView.aspx?id=199689&repo=r-d75cb0c2"
+        }
+      ],
+      "id": "item-8-b"
+    },
+    {
+      "item": "8.C",
+      "title": "Pump Repair Purchase Ratification",
+      "section": "Consent",
+      "notes": "Listed for consideration in the posted agenda; no outcome inferred.",
+      "documents": [
+        {
+          "title": "Pump Repair Purchase Ratification",
+          "url": "https://portal.laserfiche.com/Portal/DocView.aspx?id=199692&repo=r-d75cb0c2"
+        }
+      ],
+      "id": "item-8-c"
+    },
+    {
+      "item": "8.D",
+      "title": "Terminate PASIS Joint Powers Authority",
+      "section": "Consent",
+      "notes": "Listed for consideration in the posted agenda; no outcome inferred.",
+      "documents": [
+        {
+          "title": "Terminate PASIS Joint Powers Authority",
+          "url": "https://portal.laserfiche.com/Portal/DocView.aspx?id=199695&repo=r-d75cb0c2"
+        }
+      ],
+      "id": "item-8-d"
+    },
+    {
+      "item": "8.E",
+      "title": "TPM 36426 Extension",
+      "section": "Consent",
+      "notes": "Listed for consideration in the posted agenda; no outcome inferred.",
+      "documents": [
+        {
+          "title": "TPM 36426 Extension",
+          "url": "https://portal.laserfiche.com/Portal/DocView.aspx?id=199697&repo=r-d75cb0c2"
+        }
+      ],
+      "id": "item-8-e"
+    },
+    {
+      "item": "8.F",
+      "title": "TTM 29267 Extension",
+      "section": "Consent",
+      "notes": "Listed for consideration in the posted agenda; no outcome inferred.",
+      "documents": [
+        {
+          "title": "TTM 29267 Extension",
+          "url": "https://portal.laserfiche.com/Portal/DocView.aspx?id=199701&repo=r-d75cb0c2"
+        }
+      ],
+      "id": "item-8-f"
+    },
+    {
+      "item": "8.G",
+      "title": "CDBG Supplemental Agreement",
+      "section": "Consent",
+      "notes": "Listed for consideration in the posted agenda; no outcome inferred.",
+      "documents": [
+        {
+          "title": "CDBG Supplemental Agreement",
+          "url": "https://portal.laserfiche.com/Portal/DocView.aspx?id=199702&repo=r-d75cb0c2"
+        }
+      ],
+      "id": "item-8-g"
+    },
+    {
+      "item": "8.H",
+      "title": "Sustainable Beaumont Climate Action Plan",
+      "section": "Consent",
+      "notes": "Listed for consideration in the posted agenda; no outcome inferred.",
+      "documents": [
+        {
+          "title": "Sustainable Beaumont Climate Action Plan",
+          "url": "https://portal.laserfiche.com/Portal/DocView.aspx?id=199712&repo=r-d75cb0c2"
+        }
+      ],
+      "id": "item-8-h"
+    },
+    {
+      "item": "8.I",
+      "title": "CV Communities Tolling Agreement Update",
+      "section": "Consent",
+      "notes": "Listed for consideration in the posted agenda; no outcome inferred.",
+      "documents": [
+        {
+          "title": "CV Communities Tolling Agreement Update",
+          "url": "https://portal.laserfiche.com/Portal/DocView.aspx?id=199720&repo=r-d75cb0c2"
+        }
+      ],
+      "id": "item-8-i"
+    },
+    {
+      "item": "8.J",
+      "title": "New job descriptions and salary comparison chart",
+      "section": "Consent",
+      "notes": "Seven positions listed on agenda page 7. Separate supporting document not identified in the archive inventory.",
+      "documents": [],
+      "id": "item-8-j"
+    },
+    {
+      "item": "8.K",
+      "title": "Engine 20 Funding Cooperative Agreement",
+      "section": "Consent",
+      "notes": "Listed for consideration in the posted agenda; no outcome inferred.",
+      "documents": [
+        {
+          "title": "Engine 20 Funding Cooperative Agreement",
+          "url": "https://portal.laserfiche.com/Portal/DocView.aspx?id=199721&repo=r-d75cb0c2"
+        }
+      ],
+      "id": "item-8-k"
+    },
+    {
+      "item": "Agenda",
+      "title": "Official seven-page agenda",
+      "section": "Additional Records",
+      "notes": "Listed for consideration in the posted agenda; no outcome inferred.",
+      "documents": [
+        {
+          "title": "Official seven-page agenda",
+          "url": "https://portal.laserfiche.com/Portal/DocView.aspx?id=199722&repo=r-d75cb0c2"
+        }
+      ],
+      "id": "item-agenda"
+    },
+    {
+      "item": "CS.A",
+      "title": "Anticipated litigation: one potential case",
+      "section": "Closed Session",
+      "notes": "Official agenda pages 1\u20132. The listing does not establish confidential discussion, action, settlement, or recovery.",
+      "documents": [
+        {
+          "title": "Official agenda",
+          "url": "https://portal.laserfiche.com/Portal/DocView.aspx?id=199722&repo=r-d75cb0c2"
+        }
+      ],
+      "id": "item-cs-a"
+    },
+    {
+      "item": "CS.B",
+      "title": "WRCOG v. City of Beaumont \u2014 RIC 536164 (appeal filed)",
+      "section": "Closed Session",
+      "notes": "Official agenda pages 1\u20132. The listing does not establish confidential discussion, action, settlement, or recovery.",
+      "documents": [
+        {
+          "title": "Official agenda",
+          "url": "https://portal.laserfiche.com/Portal/DocView.aspx?id=199722&repo=r-d75cb0c2"
+        }
+      ],
+      "id": "wrcog"
+    },
+    {
+      "item": "CS.C",
+      "title": "Potential litigation against third parties: four potential cases",
+      "section": "Closed Session",
+      "notes": "Official agenda pages 1\u20132. The listing does not establish confidential discussion, action, settlement, or recovery.",
+      "documents": [
+        {
+          "title": "Official agenda",
+          "url": "https://portal.laserfiche.com/Portal/DocView.aspx?id=199722&repo=r-d75cb0c2"
+        }
+      ],
+      "id": "item-cs-c"
+    },
+    {
+      "item": "CS.D",
+      "title": "Liability claim: Andy George vehicle accident",
+      "section": "Closed Session",
+      "notes": "Official agenda pages 1\u20132. The listing does not establish confidential discussion, action, settlement, or recovery.",
+      "documents": [
+        {
+          "title": "Official agenda",
+          "url": "https://portal.laserfiche.com/Portal/DocView.aspx?id=199722&repo=r-d75cb0c2"
+        }
+      ],
+      "id": "item-cs-d"
+    },
+    {
+      "item": "CS.E",
+      "title": "Workers compensation claim",
+      "section": "Closed Session",
+      "notes": "Official agenda pages 1\u20132. The listing does not establish confidential discussion, action, settlement, or recovery.",
+      "documents": [
+        {
+          "title": "Official agenda",
+          "url": "https://portal.laserfiche.com/Portal/DocView.aspx?id=199722&repo=r-d75cb0c2"
+        }
+      ],
+      "id": "item-cs-e"
+    },
+    {
+      "item": "CS.F",
+      "title": "Acting City Manager evaluation",
+      "section": "Closed Session",
+      "notes": "Official agenda pages 1\u20132. The listing does not establish confidential discussion, action, settlement, or recovery.",
+      "documents": [
+        {
+          "title": "Official agenda",
+          "url": "https://portal.laserfiche.com/Portal/DocView.aspx?id=199722&repo=r-d75cb0c2"
+        }
+      ],
+      "id": "item-cs-f"
+    },
+    {
+      "item": "CS.G",
+      "title": "Interim City Attorney evaluation",
+      "section": "Closed Session",
+      "notes": "Official agenda pages 1\u20132. The listing does not establish confidential discussion, action, settlement, or recovery.",
+      "documents": [
+        {
+          "title": "Official agenda",
+          "url": "https://portal.laserfiche.com/Portal/DocView.aspx?id=199722&repo=r-d75cb0c2"
+        }
+      ],
+      "id": "item-cs-g"
+    },
+    {
+      "item": "Handout 1",
+      "title": "Public comment handout regarding taxes",
+      "section": "Additional Records",
+      "notes": "Listed for consideration in the posted agenda; no outcome inferred.",
+      "documents": [
+        {
+          "title": "Public comment handout regarding taxes",
+          "url": "https://portal.laserfiche.com/Portal/DocView.aspx?id=199724&repo=r-d75cb0c2"
+        }
+      ],
+      "id": "item-handout-1"
+    },
+    {
+      "item": "Handout 2",
+      "title": "Public comment handout regarding taxes \u2014 second record",
+      "section": "Additional Records",
+      "notes": "Listed for consideration in the posted agenda; no outcome inferred.",
+      "documents": [
+        {
+          "title": "Public comment handout regarding taxes \u2014 second record",
+          "url": "https://portal.laserfiche.com/Portal/DocView.aspx?id=199723&repo=r-d75cb0c2"
+        }
+      ],
+      "id": "item-handout-2"
+    },
+    {
+      "item": "Opening",
+      "title": "Roll call, pledge, invocation, public report-out and recognitions",
+      "section": "Opening and Reports",
+      "notes": "Listed for consideration in the posted agenda; no outcome inferred.",
+      "documents": [],
+      "id": "item-opening"
+    },
+    {
+      "item": "Unclassified",
+      "title": "Unnamed scan SKMBT_C652D15120212110_201512021419399127",
+      "section": "Additional Records",
+      "notes": "Listed for consideration in the posted agenda; no outcome inferred.",
+      "documents": [
+        {
+          "title": "Unnamed scan SKMBT_C652D15120212110_201512021419399127",
+          "url": "https://portal.laserfiche.com/Portal/DocView.aspx?id=199725&repo=r-d75cb0c2"
+        }
+      ],
+      "id": "item-unclassified"
+    }
+  ]
+}

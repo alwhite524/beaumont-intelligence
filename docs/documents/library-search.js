@@ -53,6 +53,8 @@
   };
   const destinationFor = record => record.type === transcriptType
     ? null
+    : record.url.startsWith('https://portal.laserfiche.com/')
+    ? { href: record.url, label: 'Open official archive' }
     : { href: `viewer.html?url=${encodeURIComponent(record.url)}`, label: 'View document' };
   const secondsFromTimestamp = timestamp => {
     const parts = timestamp.split(':').map(Number);

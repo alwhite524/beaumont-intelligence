@@ -4,6 +4,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 MEETINGS = {
+    "2025-11-04": ("November 4, 2025", "BI_NOVEMBER_4_2025_SOURCES"),
     "2025-11-18": ("November 18, 2025", "BI_NOVEMBER_18_2025_SOURCES"),
     "2025-12-02": ("December 2, 2025", "BI_DECEMBER_2_2025_SOURCES"),
     "2025-12-16": ("December 16, 2025", "BI_DECEMBER_16_2025_SOURCES"),

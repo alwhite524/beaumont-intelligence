@@ -9,6 +9,7 @@ scripts = [
     "refresh_search_index.py",
     "build_research_library_index.py",
     "build_wrcog_center.py",
+    "build_2015_11_03_agenda.py",
     "validate_database.py",
 ]
 for script in scripts:

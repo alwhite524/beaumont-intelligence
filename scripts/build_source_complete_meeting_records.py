@@ -5,6 +5,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 BRIEFINGS = ROOT / "docs" / "briefings"
 MEETINGS = {
+    "2025-11-04": ("November 4, 2025", "BI_NOVEMBER_4_2025_SOURCES", "MD_kHQ6H4UI", "Quarterly finance and budget reporting, development agreements, transportation safety, community facilities districts, public safety partnerships, downtown business development, billboard policy, and capital-project funding."),
     "2025-11-18": ("November 18, 2025", "BI_NOVEMBER_18_2025_SOURCES", "qfbPJv8BP0U", "Capital planning, special-event rules, holiday lighting, transportation coordination, public safety systems, and City travel policy."),
     "2025-12-02": ("December 2, 2025", "BI_DECEMBER_2_2025_SOURCES", "cfqIZpAQfg4", "Zoning and food-truck rules, housing-property standards, community grants, City administration, animal control, police technology, and Potrero mitigation."),
     "2025-12-16": ("December 16, 2025", "BI_DECEMBER_16_2025_SOURCES", "GjLWN4HiGxI", "Community facilities districts, housing maps, transportation mitigation, appointments, the Cherry Festival, billboards, downtown crosswalks, financial reporting, and City staffing."),

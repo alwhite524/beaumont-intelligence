@@ -60,6 +60,17 @@ for transcript in sorted((DOCS / "transcripts").glob("*-city-council-transcript.
                     "videoUrl": video_match.group(0) if video_match else "", "date": date, "item": "",
                     "topic": "council", "type": "Meeting transcript", "body": body})
 
+historical = json.loads((ROOT / 'data/council/2015-11-03.json').read_text(encoding='utf-8'))
+seen = {record['url'] for record in records}
+for item in historical['items']:
+    for doc in item['documents']:
+        if doc['url'] in seen:
+            continue
+        seen.add(doc['url'])
+        records.append({'title': doc['title'], 'url': doc['url'], 'date': historical['date'],
+                        'item': item['item'], 'topic': topic_for(doc['title']),
+                        'type': 'Official City document', 'body': doc['title'] + ' ' + item['notes']})
+
 output = "window.BI_RESEARCH_LIBRARY=" + json.dumps(records, ensure_ascii=False, separators=(",", ":")) + ";\n"
 (DOCS / "documents" / "library-index.js").write_text(output, encoding="utf-8")
 print(f"Research Library index: {len(records)} records")

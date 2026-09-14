@@ -43,12 +43,15 @@ search = [{'title': 'WRCOG & Restitution Intelligence Center', 'url': CENTER + '
 for s in sources:
     sid = s['sourceId']
     url = s.get('archivePath') or s.get('officialUrl')
-    link = f'<a href="viewer.html?url={quote(url, safe="")}">Open source document</a>' if url else '<p>Document not yet available.</p>'
+    target = url if url and 'portal.laserfiche.com/' in url else f'documents/viewer.html?url={quote(url or "", safe="")}'
+    link = f'<a href="{escape(target, quote=True)}">Open source document</a>' if url else '<p>Document not yet available.</p>'
+    link += ''.join(f' <a href="{escape(path, quote=True)}">Related evidence record</a>' for path in s.get('crossLinks', []))
     cards.append(f'<article id="{escape(sid)}"><h2>{escape(sid)} · {escape(s["title"])}</h2><p>{escape(s["verificationStatus"])} · {escape(s.get("publisher", ""))}</p><p>{escape(s.get("summary", ""))}</p>{link}</article>')
     search.append({'title': s['title'], 'url': CENTER + '-evidence.html#' + sid, 'category': 'Source Document', 'description': s.get('summary', ''), 'text': f'{sid} {s["verificationStatus"]} WRCOG restitution', 'aliases': []})
 evidence = '<p>This view uses the existing financial Source Register and its permanent SRC identifiers. No separate source catalog is maintained.</p>' + (''.join(cards) or '<p><strong>No source documents registered for this Center yet.</strong> Working research supplied in the handoff is not a verified source record. Documents will appear here after registration and review.</p>') + '<p><a href="budget-evidence.html">Browse existing financial evidence</a></p>'
 (DOCS / (CENTER + '.html')).write_text(page('WRCOG & Restitution Intelligence Center', overview), encoding='utf-8')
 (DOCS / (CENTER + '-evidence.html')).write_text(page('WRCOG & Restitution Source Register', evidence), encoding='utf-8')
 search.append({'title': 'WRCOG & Restitution Source Register', 'url': CENTER + '-evidence.html', 'category': 'Intelligence Center', 'description': 'Shared financial Source Register view; source acquisition pending.', 'text': 'WRCOG restitution source documents evidence My Story', 'aliases': []})
+search.append({'title': 'November 3, 2015 Interactive Council Agenda', 'url': 'briefings/2015-11-03-sources.html', 'category': 'Council Intelligence', 'description': 'Official agenda, supporting records and meeting video. Outcomes and timestamps pending.', 'text': 'WRCOG RIC 536164 Urban Futures financial report quiet zones Interwest wastewater fire IT services climate plan', 'aliases': []})
 (DOCS / 'evidence-search-index.js').write_text('window.BI_EVIDENCE_SEARCH_INDEX=' + json.dumps(search, ensure_ascii=False) + ';\n', encoding='utf-8')
 print(f'Built WRCOG shell with {len(sources)} registered sources.')

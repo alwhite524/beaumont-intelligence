@@ -382,6 +382,37 @@
     },
     {
       "sourceId": "SRC-0024", "title": "FY 2026-27 Budget Adoption Meeting Record", "documentType": "Council Meeting Transcript", "fiscalYear": "2026-27", "documentDate": "2026-06-16", "councilMeetingDate": "2026-06-16", "agendaItem": "I.1", "resolutionNumber": null, "department": "Finance", "publisher": "City of Beaumont", "officialUrl": "https://www.youtube.com/watch?v=GQRUR33qyiY", "archivePath": "docs/transcripts/2026-06-16-city-council-transcript.txt", "retrievedDate": "2026-08-24", "verificationStatus": "Archived", "confidence": "High", "evidenceLevel": "A", "relatedTopics": ["Adopted Budget", "Appropriation Limit", "Capital Improvement Program", "Council Actions"], "relatedProjects": [], "crossLinks": ["budget.html", "budget-council-actions.html", "budget-evidence.html"], "summary": "Transcript-verified 5-0 adoption of the FY 2026-27 appropriation limit, operating budget, five-year CIP, related prior-year project list, and requisition list.", "notes": "The bounded discussion runs from 1:33:05 through 1:44:18, ending 30 seconds after the completed vote. The separate budget book, staff report, resolutions, and public summary remain to be archived."
+    },
+    {
+      "sourceId": "SRC-0025",
+      "title": "November 3, 2015 City Council agenda — WRCOG litigation",
+      "documentType": "Council Agenda",
+      "documentDate": "2015-11-03",
+      "councilMeetingDate": "2015-11-03",
+      "agendaItem": "Closed Session B",
+      "publisher": "City of Beaumont",
+      "officialUrl": "https://portal.laserfiche.com/Portal/DocView.aspx?id=199722&repo=r-d75cb0c2",
+      "archivePath": null,
+      "verificationStatus": "Verified",
+      "confidence": "High",
+      "evidenceLevel": "A",
+      "relatedCenters": [
+        "wrcog-restitution"
+      ],
+      "relatedTopics": [
+        "WRCOG litigation"
+      ],
+      "relatedProjects": [
+        "WRCOG & Restitution"
+      ],
+      "crossLinks": [
+        "briefings/2015-11-03-sources.html#wrcog"
+      ],
+      "pageReferences": [
+        "1"
+      ],
+      "summary": "Page 1 lists WRCOG v. City of Beaumont, RIC 536164, appeal filed, for closed-session consideration. This verifies the posted listing only; no outcome or confidential discussion is established.",
+      "notes": "Official City-linked Laserfiche agenda inspected. Video timestamps and public report-out remain unverified."
     }
   ]
 }

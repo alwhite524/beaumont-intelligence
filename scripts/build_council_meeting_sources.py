@@ -38,6 +38,7 @@ def meeting_records() -> list[dict[str, str | None]]:
         preferred = sorted(documents, key=lambda item: ("records/agenda-packets" not in item["path"], item["path"]))[0]
         meetings.setdefault(date, {"date": date, "video": None, "packet": None})["packet"] = preferred["url"]
 
+    meetings.setdefault('2015-11-03', {'date': '2015-11-03', 'video': 'https://www.youtube.com/watch?v=mokmwjT4ujs', 'packet': None})
     return sorted(meetings.values(), key=lambda item: item["date"], reverse=True)
 
 
