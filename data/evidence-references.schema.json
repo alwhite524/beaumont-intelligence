@@ -1,0 +1,86 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "references"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": "1.0"
+    },
+    "references": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "chapter_url",
+          "passage_label",
+          "verification_status",
+          "targets"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "chapter_url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "passage_label": {
+            "type": "string"
+          },
+          "verification_status": {
+            "enum": [
+              "verified-primary",
+              "verified-secondary",
+              "partially-verified",
+              "to-verify",
+              "disputed"
+            ]
+          },
+          "targets": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "type",
+                "id",
+                "page_reference"
+              ],
+              "properties": {
+                "type": {
+                  "enum": [
+                    "source",
+                    "recovery",
+                    "center",
+                    "person",
+                    "organization",
+                    "case",
+                    "timeline-event"
+                  ]
+                },
+                "id": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "page_reference": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "$schema": "https://json-schema.org/draft/2020-12/schema"
+}

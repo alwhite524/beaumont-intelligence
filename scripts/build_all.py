@@ -8,6 +8,7 @@ scripts = [
     "publish_pd_technology.py",
     "refresh_search_index.py",
     "build_research_library_index.py",
+    "build_wrcog_center.py",
     "validate_database.py",
 ]
 for script in scripts:

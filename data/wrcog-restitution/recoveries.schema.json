@@ -1,0 +1,203 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "centerId",
+    "sourceRegister",
+    "records"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": "1.0"
+    },
+    "centerId": {
+      "const": "wrcog-restitution"
+    },
+    "sourceRegister": {
+      "const": "../budget/source-register.json"
+    },
+    "records": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "payer",
+          "person_or_entity",
+          "role",
+          "case_or_matter",
+          "legal_basis",
+          "date_ordered",
+          "date_received",
+          "restrictions",
+          "non_monetary_terms",
+          "notes",
+          "amount_ordered",
+          "settlement_amount",
+          "amount_received",
+          "gross_amount_credited",
+          "legal_costs",
+          "wrcog_share",
+          "beaumont_share",
+          "id",
+          "recovery_type",
+          "verification_status",
+          "wrcog_third_party_claim",
+          "source_ids"
+        ],
+        "properties": {
+          "payer": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "person_or_entity": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "role": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "case_or_matter": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "legal_basis": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "date_ordered": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "date_received": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "restrictions": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "non_monetary_terms": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "notes": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "amount_ordered": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "minimum": 0
+          },
+          "settlement_amount": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "minimum": 0
+          },
+          "amount_received": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "minimum": 0
+          },
+          "gross_amount_credited": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "minimum": 0
+          },
+          "legal_costs": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "minimum": 0
+          },
+          "wrcog_share": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "minimum": 0
+          },
+          "beaumont_share": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "minimum": 0
+          },
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "recovery_type": {
+            "enum": [
+              "criminal-restitution",
+              "civil-settlement",
+              "insurance-recovery",
+              "professional-liability",
+              "reimbursement",
+              "judgment",
+              "settlement-credit",
+              "other"
+            ]
+          },
+          "verification_status": {
+            "enum": [
+              "verified-primary",
+              "verified-secondary",
+              "partially-verified",
+              "to-verify",
+              "disputed"
+            ]
+          },
+          "wrcog_third_party_claim": {
+            "type": [
+              "boolean",
+              "null"
+            ]
+          },
+          "source_ids": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^SRC-[0-9]+$"
+            },
+            "uniqueItems": true
+          }
+        }
+      }
+    }
+  },
+  "$schema": "https://json-schema.org/draft/2020-12/schema"
+}

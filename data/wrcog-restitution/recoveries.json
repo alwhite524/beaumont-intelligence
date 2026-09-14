@@ -1,0 +1,6 @@
+{
+  "schemaVersion": "1.0",
+  "centerId": "wrcog-restitution",
+  "sourceRegister": "../budget/source-register.json",
+  "records": []
+}

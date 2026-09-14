@@ -57,6 +57,7 @@
   }];
   const rawIndex = [
     ...(Array.isArray(window.BI_SEARCH_INDEX) ? window.BI_SEARCH_INDEX : []),
+    ...(Array.isArray(window.BI_EVIDENCE_SEARCH_INDEX) ? window.BI_EVIDENCE_SEARCH_INDEX : []),
     ...supplementalIndex
   ];
   const index = rawIndex.flatMap(item => {
@@ -218,7 +219,7 @@
   }
 
   const isDocument = item =>
-    item.category === 'Official Document' || item.category === 'Research Record';
+    item.category === 'Source Document' || item.category === 'Official Document' || item.category === 'Research Record';
 
   function render(query) {
     currentQuery = query.trim();
