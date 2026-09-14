@@ -88,8 +88,8 @@
     </div>
 
     <div class="status-actions">
-      <a class="btn" href="{{ARCHIVED_PACKET_URL}}" target="_blank">Open archived agenda package</a>
-      <a class="btn ghost-light" href="{{OFFICIAL_CITY_SOURCE_URL}}" rel="noopener" target="_blank">Official City source ↗</a>
+      <a class="btn" href="{{INTERACTIVE_AGENDA_URL}}">Open interactive agenda →</a>
+      <a class="btn ghost-light" href="{{FULL_MEETING_VIDEO_URL}}" rel="noopener" target="_blank">Full meeting video ↗</a>
     </div>
 
     <div class="evidence-panel" aria-label="Meeting record status">
@@ -122,8 +122,10 @@
   <div class="wrap">
 
     <!-- FEATURED ITEM TEMPLATE
-         Use this structure for every highlighted agenda item. Keep the
-         Council action and Action/Vote/Video row visible at all times. -->
+         Use this structure for every public-hearing and action item. Keep the
+         Council action and Action/Vote/Video row visible at all times. Every
+         completed item must link its verified starting timestamp to the full
+         meeting video; never leave the Video cell as unlinked text. -->
     <div class="agenda-stack">
       <article class="agenda-item priority-five" id="{{ITEM_1_ID}}">
         <div class="agenda-rank">★★★★★</div>
@@ -139,7 +141,7 @@
           <div class="after-grid">
             <div><strong>Action</strong><span>{{ITEM_1_ACTION_STATUS}}</span></div>
             <div><strong>Vote</strong><span>{{ITEM_1_VOTE}}</span></div>
-            <div><strong>Video</strong><span>{{ITEM_1_VIDEO_LINK_OR_STATUS}}</span></div>
+            <div><strong>Video</strong><span><a href="{{ITEM_1_VIDEO_TIMESTAMP_URL}}" rel="noopener" target="_blank">{{ITEM_1_VIDEO_RANGE}} ↗</a></span></div>
           </div>
 
           <p><strong>{{ITEM_1_SUMMARY_LABEL}}</strong> {{ITEM_1_SUMMARY}}</p>
