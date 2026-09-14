@@ -74,7 +74,29 @@
     });
   };
 
+  const renderNativePdf = (url, documentTitle) => {
+    pdfRenderToken += 1;
+    pdfViewer.replaceChildren();
+    pdfViewer.removeAttribute("aria-busy");
+
+    const nativeViewer = document.createElement("iframe");
+    nativeViewer.className = "pdf-native-embed";
+    nativeViewer.src = url;
+    nativeViewer.title = `${documentTitle} PDF`;
+    pdfViewer.appendChild(nativeViewer);
+  };
+
   const renderPdf = async (url, documentTitle) => {
+    try {
+      const documentUrl = new URL(url, window.location.href);
+      if (documentUrl.origin !== window.location.origin) {
+        renderNativePdf(documentUrl.href, documentTitle);
+        return;
+      }
+    } catch {
+      // Let PDF.js report an invalid or unavailable document below.
+    }
+
     const renderToken = ++pdfRenderToken;
     pdfViewer.setAttribute("aria-busy", "true");
     pdfViewer.innerHTML = '<p class="pdf-loading">Loading document…</p>';
@@ -114,24 +136,7 @@
       }
     } catch (error) {
       if (renderToken !== pdfRenderToken) return;
-      pdfViewer.removeAttribute("aria-busy");
-      pdfViewer.replaceChildren();
-      const nativeViewer = document.createElement("object");
-      nativeViewer.className = "pdf-native-embed";
-      nativeViewer.type = "application/pdf";
-      nativeViewer.data = url;
-      nativeViewer.setAttribute("aria-label", `${documentTitle} PDF`);
-      const fallback = document.createElement("p");
-      fallback.className = "pdf-error";
-      fallback.append("This browser could not display the PDF. ");
-      const fallbackLink = document.createElement("a");
-      fallbackLink.href = url;
-      fallbackLink.target = "_blank";
-      fallbackLink.rel = "noopener";
-      fallbackLink.textContent = "Open the original document ↗";
-      fallback.appendChild(fallbackLink);
-      nativeViewer.appendChild(fallback);
-      pdfViewer.appendChild(nativeViewer);
+      renderNativePdf(url, documentTitle);
       console.error("Unable to render PDF", error);
     }
   };
@@ -269,11 +274,11 @@
     attachments.replaceChildren();
     const actionsParagraph = document.createElement("p");
     const viewLink = document.createElement("a");
-    viewLink.href = url;
+    viewLink.href = "#pdf-heading";
     viewLink.className = "text-link";
     viewLink.dataset.standaloneUrl = url;
     viewLink.dataset.documentTitle = filename;
-    viewLink.textContent = "View document →";
+    viewLink.textContent = "Reopen in viewer →";
     actionsParagraph.appendChild(viewLink);
     actionsParagraph.append(" · ");
     const downloadLink = document.createElement("a");
