@@ -54,9 +54,14 @@
 
   document.querySelectorAll('article.agenda-item').forEach(article => {
     const body = article.querySelector(':scope > .agenda-item-body');
-    const rank = article.querySelector(':scope > .agenda-rank');
+    const rank = article.querySelector(':scope > .agenda-rank') || document.createElement('div');
     const heading = body?.querySelector(':scope > h3');
-    if (!body || !rank || !heading) return;
+    if (!body || !heading) return;
+
+    if (!rank.classList.contains('agenda-rank')) {
+      rank.className = 'agenda-rank';
+      rank.setAttribute('aria-hidden', 'true');
+    }
 
     body.querySelectorAll(':scope > .bi-insight').forEach(panel => {
       const label = panel.querySelector(':scope > strong');

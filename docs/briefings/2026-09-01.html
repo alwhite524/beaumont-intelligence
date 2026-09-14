@@ -72,6 +72,6 @@
 <script>
 (()=>{const DATA=window.BI_SEPTEMBER_1_SOURCES||[];const esc=v=>String(v).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));const returnUrl=location.href;document.querySelectorAll('[data-documents-for]').forEach(container=>{const item=container.dataset.documentsFor;const documents=DATA.filter(document=>document.item===item);if(!documents.length)return;container.innerHTML=`<details class="official-documents item-documents"><summary>Official documents · ${documents.length}</summary><div class="official-document-links">${documents.map(document=>{const viewer=`../documents/viewer.html?url=${encodeURIComponent(document.archiveUrl)}&title=${encodeURIComponent(document.title)}&returnUrl=${encodeURIComponent(returnUrl)}&returnLabel=${encodeURIComponent('Back to September 1 meeting record')}`;return `<a href="${esc(viewer)}">${esc(document.title)}<span>View →</span></a>`}).join('')}</div></details>`})})();
 </script>
-<script src="../data.js"></script><script src="../app.js"></script>
+<script src="../data.js"></script><script src="../app.js"></script><script src="../briefing-clips.js?v=20260913-1"></script>
 </body>
 </html>
