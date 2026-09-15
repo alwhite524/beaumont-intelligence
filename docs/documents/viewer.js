@@ -14,8 +14,6 @@
   const pdfViewer = document.querySelector("#pdf-viewer");
   const pdfClose = document.querySelector("#pdf-close");
   let lastOpenedDocumentId = null;
-  let pdfRenderToken = 0;
-  let pdfJsPromise;
   const returnUrl = params.get("returnUrl");
   const returnLabel = params.get("returnLabel");
 
@@ -38,108 +36,17 @@
     }
   });
 
-  const loadPdfJs = () => {
-    if (!pdfJsPromise) {
-      pdfJsPromise = import(
-        "https://cdn.jsdelivr.net/npm/pdfjs-dist@6.2.108/build/pdf.min.mjs"
-      ).then((pdfjsLib) => {
-        pdfjsLib.GlobalWorkerOptions.workerSrc =
-          "https://cdn.jsdelivr.net/npm/pdfjs-dist@6.2.108/build/pdf.worker.min.mjs";
-        return pdfjsLib;
-      });
-    }
-
-    return pdfJsPromise;
-  };
-
-  const clearPdf = () => {
-    pdfRenderToken += 1;
-    pdfViewer.replaceChildren();
-    pdfViewer.removeAttribute("aria-busy");
-  };
-
-  const renderPageImages = (pageImages, documentTitle) => {
-    pdfRenderToken += 1;
-    pdfViewer.replaceChildren();
-    pdfViewer.removeAttribute("aria-busy");
-
-    pageImages.forEach((src, index) => {
-      const image = document.createElement("img");
-      image.className = "pdf-page-image";
-      image.src = src;
-      image.alt = `${documentTitle}, page ${index + 1} of ${pageImages.length}`;
-      image.loading = index === 0 ? "eager" : "lazy";
-      image.decoding = "async";
-      pdfViewer.appendChild(image);
+  const clearPdf = () => window.BIPdfReader.clear(pdfViewer);
+  const renderPageImages = (images, documentTitle) => {
+    clearPdf();
+    images.forEach((src, index) => {
+      const image = document.createElement('img');
+      image.className = 'pdf-page-image'; image.src = src;
+      image.alt = `${documentTitle}, page ${index + 1} of ${images.length}`;
+      image.loading = index ? 'lazy' : 'eager'; pdfViewer.appendChild(image);
     });
   };
-
-  const renderNativePdf = (url, documentTitle) => {
-    pdfRenderToken += 1;
-    pdfViewer.replaceChildren();
-    pdfViewer.removeAttribute("aria-busy");
-
-    const nativeViewer = document.createElement("iframe");
-    nativeViewer.className = "pdf-native-embed";
-    nativeViewer.src = url;
-    nativeViewer.title = `${documentTitle} PDF`;
-    pdfViewer.appendChild(nativeViewer);
-  };
-
-  const renderPdf = async (url, documentTitle) => {
-    try {
-      const documentUrl = new URL(url, window.location.href);
-      if (documentUrl.origin !== window.location.origin) {
-        renderNativePdf(documentUrl.href, documentTitle);
-        return;
-      }
-    } catch {
-      // Let PDF.js report an invalid or unavailable document below.
-    }
-
-    const renderToken = ++pdfRenderToken;
-    pdfViewer.setAttribute("aria-busy", "true");
-    pdfViewer.innerHTML = '<p class="pdf-loading">Loading document…</p>';
-
-    try {
-      const pdfjsLib = await loadPdfJs();
-      const pdf = await pdfjsLib.getDocument({ url }).promise;
-      if (renderToken !== pdfRenderToken) return;
-
-      pdfViewer.replaceChildren();
-
-      for (let pageNumber = 1; pageNumber <= pdf.numPages; pageNumber += 1) {
-        if (renderToken !== pdfRenderToken) return;
-
-        const page = await pdf.getPage(pageNumber);
-        const baseViewport = page.getViewport({ scale: 1 });
-        const availableWidth = Math.max(pdfViewer.clientWidth - 24, 280);
-        const cssScale = availableWidth / baseViewport.width;
-        const outputScale = Math.min(window.devicePixelRatio || 1, 2);
-        const viewport = page.getViewport({ scale: cssScale * outputScale });
-        const canvas = document.createElement("canvas");
-        const context = canvas.getContext("2d", { alpha: false });
-
-        canvas.className = "pdf-page-canvas";
-        canvas.width = Math.floor(viewport.width);
-        canvas.height = Math.floor(viewport.height);
-        canvas.style.width = `${Math.floor(viewport.width / outputScale)}px`;
-        canvas.style.height = `${Math.floor(viewport.height / outputScale)}px`;
-        canvas.setAttribute("aria-label", `${documentTitle}, page ${pageNumber} of ${pdf.numPages}`);
-        pdfViewer.appendChild(canvas);
-
-        await page.render({ canvasContext: context, viewport }).promise;
-      }
-
-      if (renderToken === pdfRenderToken) {
-        pdfViewer.removeAttribute("aria-busy");
-      }
-    } catch (error) {
-      if (renderToken !== pdfRenderToken) return;
-      renderNativePdf(url, documentTitle);
-      console.error("Unable to render PDF", error);
-    }
-  };
+  const renderPdf = (url, documentTitle) => window.BIPdfReader.open(pdfViewer, url, documentTitle);
 
   const renderDocument = (documentId, updateHistory = false, openPdf = false) => {
     const record = documentLibrary.find(
@@ -247,6 +154,8 @@
       const trustedHosts = new Set([
         "documents.beaumontintelligence.com",
         "pub-beaumont.escribemeetings.com",
+        "beaumontca.gov",
+        "www.beaumontca.gov",
       ]);
       if (parsedUrl.protocol !== "https:" || !trustedHosts.has(parsedUrl.hostname)) {
         throw new Error("Unsupported document host");
