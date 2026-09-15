@@ -32,6 +32,7 @@ DOCUMENT_FILES = (
     "documents/index.html",
     "documents/viewer.html",
     "documents/viewer.js",
+    "documents/pdf-reader.js",
     "documents/document-data.js",
 )
 RENDERED_ROOTS = (

@@ -6,6 +6,7 @@
     const session = sessions.get(container);
     if (session) {
       session.closed = true;
+      session.closeExpanded?.();
       session.render?.cancel();
       session.task?.destroy().catch(() => {});
       sessions.delete(container);
@@ -29,10 +30,60 @@
     const next = document.createElement('button');
     next.type = 'button'; next.textContent = 'Next page';
     previous.disabled = next.disabled = true;
+    const fullscreen = document.createElement('button');
+    fullscreen.type = 'button';
+    fullscreen.textContent = 'Full screen';
+    fullscreen.setAttribute('aria-pressed', 'false');
+    let expanded = null;
+    const closeExpanded = () => {
+      if (!expanded) return;
+      const { dialog, marker, originalStyle } = expanded;
+      expanded = null;
+      document.removeEventListener('fullscreenchange', onFullscreenChange);
+      if (document.fullscreenElement === dialog) document.exitFullscreen().catch(() => {});
+      marker.replaceWith(container);
+      container.style.cssText = originalStyle;
+      dialog.close();
+      dialog.remove();
+      fullscreen.textContent = 'Full screen';
+      fullscreen.setAttribute('aria-pressed', 'false');
+      if (!session.closed) fullscreen.focus();
+    };
+    const onFullscreenChange = () => {
+      if (expanded?.native && !document.fullscreenElement) closeExpanded();
+    };
+    session.closeExpanded = closeExpanded;
+    fullscreen.addEventListener('click', async () => {
+      if (expanded) { closeExpanded(); return; }
+      const marker = document.createElement('span');
+      container.before(marker);
+      const dialog = document.createElement('dialog');
+      dialog.setAttribute('aria-label', `${title} full screen viewer`);
+      dialog.style.cssText = 'position:fixed;inset:0;margin:0;width:100vw;height:100dvh;max-width:none;max-height:none;box-sizing:border-box;border:0;padding:16px;background:white;color:#172b45;overflow:auto';
+      expanded = { dialog, marker, originalStyle: container.style.cssText, native: false };
+      container.style.cssText = 'width:100%;max-width:1200px;margin:auto';
+      document.body.append(dialog);
+      dialog.append(container);
+      dialog.addEventListener('close', closeExpanded);
+      dialog.showModal();
+      fullscreen.textContent = 'Exit full screen';
+      fullscreen.setAttribute('aria-pressed', 'true');
+      fullscreen.focus();
+      document.addEventListener('fullscreenchange', onFullscreenChange);
+      // A modal filling the viewport remains usable on iPhones and inside
+      // agenda iframes where the Fullscreen API is unavailable or denied.
+      if (document.fullscreenEnabled && dialog.requestFullscreen) {
+        try {
+          const state = expanded;
+          await dialog.requestFullscreen();
+          if (expanded === state) state.native = true;
+        } catch { /* Keep the expanded modal. */ }
+      }
+    });
     const status = document.createElement('p');
     status.setAttribute('role', 'status');
     status.textContent = 'Loading document…';
-    controls.append(previous, next, original);
+    controls.append(previous, next, fullscreen, original);
     const pages = document.createElement('div');
     container.append(controls, status, pages);
     container.setAttribute('aria-busy', 'true');
@@ -72,7 +123,7 @@
           canvas.className = 'pdf-page-canvas';
           canvas.width = Math.max(1, Math.floor(viewport.width));
           canvas.height = Math.max(1, Math.floor(viewport.height));
-          canvas.style.cssText = `width:${width}px;max-width:100%;height:auto;display:block;margin:auto`;
+          canvas.style.cssText = 'width:100%;max-width:1200px;height:auto;display:block;margin:auto';
           canvas.setAttribute('role', 'img');
           canvas.setAttribute('aria-label', `${title}, page ${number} of ${pdf.numPages}`);
           pages.append(canvas);

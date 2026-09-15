@@ -10,6 +10,12 @@ class Element {
   setAttribute(k, v) { this.attrs[k] = v; }
   removeAttribute(k) { delete this.attrs[k]; }
   addEventListener(k, v) { this.events[k] = v; }
+  before(marker) { this.marker = marker; }
+  replaceWith(element) { this.replacement = element; }
+  remove() { this.removed = true; }
+  showModal() { this.open = true; }
+  close() { this.open = false; this.events.close?.(); }
+  focus() {}
   getContext() { return {}; }
   querySelectorAll(tag) { return this.children.flatMap(c => [...(c.tag === tag ? [c] : []), ...c.querySelectorAll(tag)]); }
 }
@@ -27,9 +33,10 @@ function setup(fail = false) {
     }) })
   };
   const source = fs.readFileSync('docs/documents/pdf-reader.js', 'utf8').replace(/import\('https:[^']+'\)/, 'Promise.resolve(mockLibrary)');
-  const context = { window: { devicePixelRatio: 3 }, document: { createElement: tag => new Element(tag) }, mockLibrary: lib, console: { error() {} } };
+  const document = { body: new Element('body'), createElement: tag => new Element(tag), addEventListener() {}, removeEventListener() {} };
+  const context = { window: { devicePixelRatio: 3 }, document, mockLibrary: lib, console: { error() {} } };
   vm.runInNewContext(source, context);
-  return { reader: context.window.BIPdfReader, container: new Element('div'), requested, destroyed: () => destroyed };
+  return { reader: context.window.BIPdfReader, container: new Element('div'), requested, document, destroyed: () => destroyed };
 }
 test('renders one page of a large document and respects policy ranges', async () => {
   const { reader, container, requested } = setup();
@@ -57,5 +64,23 @@ test('close releases the PDF session', async () => {
   reader.clear(container);
   assert.equal(destroyed(), 1);
   assert.equal(container.children.length, 0);
+});
+
+test('fullscreen fallback restores the viewer on exit and close', async () => {
+  const { reader, container, document } = setup();
+  container.style.cssText = 'width:360px';
+  await reader.open(container, '/report.pdf', 'Report');
+  const toggle = container.querySelectorAll('button')[2];
+  await toggle.events.click();
+  const dialog = document.body.children[0];
+  assert.equal(dialog.open, true);
+  assert.equal(toggle.textContent, 'Exit full screen');
+  dialog.close();
+  assert.equal(container.marker.replacement, container);
+  assert.equal(container.style.cssText, 'width:360px');
+  assert.equal(toggle.attrs['aria-pressed'], 'false');
+  await toggle.events.click();
+  reader.clear(container);
+  assert.equal(document.body.children[1].removed, true);
 });
 
