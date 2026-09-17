@@ -7,6 +7,7 @@
     if (session) {
       session.closed = true;
       session.observer?.disconnect();
+      if (session.updateCounter) container.removeEventListener('scroll', session.updateCounter);
       session.closeExpanded?.();
       session.task?.destroy().catch(() => {});
       sessions.delete(container);
@@ -20,6 +21,10 @@
     sessions.set(container, session);
     const controls = document.createElement('div');
     controls.className = 'pdf-reader-controls';
+    const pageCounter = document.createElement('span');
+    pageCounter.className = 'pdf-reader-counter';
+    pageCounter.setAttribute('aria-live', 'polite');
+    pageCounter.textContent = 'Loading…';
     const fullscreen = document.createElement('button');
     fullscreen.type = 'button';
     fullscreen.textContent = '⛶ Full screen';
@@ -34,7 +39,7 @@
     collapse.textContent = '↙ Collapse';
     collapse.setAttribute('aria-label', 'Collapse viewer');
     collapse.hidden = true;
-    controls.append(fullscreen, original, collapse);
+    controls.append(fullscreen, pageCounter, original, collapse);
     const status = document.createElement('p');
     status.className = 'pdf-reader-status';
     status.setAttribute('role', 'status');
@@ -91,6 +96,8 @@
     const fail = error => {
       if (session.closed) return;
       status.textContent = 'Inline viewing is unavailable. Use “Open PDF in a new tab” to read or save the document.';
+      status.hidden = false;
+      pageCounter.textContent = 'Unavailable';
       container.removeAttribute('aria-busy');
       console.error('Unable to display PDF', error?.name, error?.message, error?.details);
     };
@@ -118,8 +125,21 @@
         pages.append(slot);
         slots.push(slot);
       }
-      status.textContent = (last - first + 1) + ' page' + (last === first ? '' : 's') + ' · Scroll to read';
+      pageCounter.textContent = 'Page ' + first + ' of ' + pdf.numPages;
+      status.hidden = true;
       container.removeAttribute('aria-busy');
+      const updateCounter = () => {
+        if (session.closed) return;
+        const visibleTop = container.getBoundingClientRect().top + controls.offsetHeight;
+        let current = slots[0];
+        for (const slot of slots) {
+          if (slot.getBoundingClientRect().top <= visibleTop + 32) current = slot;
+          else break;
+        }
+        pageCounter.textContent = 'Page ' + current.dataset.page + ' of ' + pdf.numPages;
+      };
+      container.addEventListener('scroll', updateCounter, { passive: true });
+      session.updateCounter = updateCounter;
       let queue = Promise.resolve();
       const render = slot => {
         queue = queue.then(async () => {
