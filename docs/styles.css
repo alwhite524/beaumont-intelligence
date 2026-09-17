@@ -507,6 +507,21 @@ body[data-page="history"] .story-card > span:first-child {
 /* Make the return action as prominent and readable as the document controls. */
 .document-viewer-actions #briefing-link{font-size:32px}
 .pdf-page-image{display:block;max-width:100%;height:auto;background:#fff;box-shadow:0 2px 10px rgba(0,0,0,.3)}
+.pdf-reader-controls{position:sticky;top:0;z-index:5;display:flex;align-items:center;gap:10px;width:100%;box-sizing:border-box;padding:8px 12px;background:#fff;color:#172b45;box-shadow:0 1px 5px rgba(0,0,0,.18)}
+.pdf-reader-controls button,.pdf-reader-controls a{min-height:36px;box-sizing:border-box;padding:7px 10px;border:1px solid #a8b5c2;border-radius:6px;background:#fff;color:#102f54;font:inherit;font-size:.88rem;font-weight:700;text-decoration:none;cursor:pointer}
+.pdf-reader-controls button:hover,.pdf-reader-controls a:hover{background:#eaf1f8}
+.pdf-reader-controls a{margin-left:auto}
+.pdf-reader-controls [hidden]{display:none}
+.pdf-reader-status{margin:0;padding:4px 12px;background:#fff;color:#344b62;text-align:center;font-size:.78rem}
+.pdf-reader-pages{display:flex;flex-direction:column;align-items:center;gap:12px;width:100%;box-sizing:border-box;padding:4px 12px 12px}
+.pdf-reader-page{width:100%;max-width:1200px;position:relative;background:#fff;box-shadow:0 2px 10px rgba(0,0,0,.3)}
+.pdf-reader-page canvas{width:100%;height:100%!important;object-fit:contain;box-shadow:none}
+.pdf-reader-dialog{position:fixed;inset:0;width:100vw;height:100dvh;max-width:none;max-height:none;margin:0;padding:0;border:0;background:#59636e;overflow:hidden}
+.pdf-reader-dialog::backdrop{background:#59636e}
+.pdf-reader-dialog .pdf-reader-controls{top:0}
+.pdf-reader-dialog .pdf-reader-controls a{margin-left:0}
+.pdf-reader-dialog .pdf-reader-controls button:last-child{margin-left:auto}
+@media(max-width:600px){.pdf-reader-controls{gap:6px;padding:6px}.pdf-reader-controls button,.pdf-reader-controls a{font-size:.76rem;padding:5px 7px}.pdf-reader-pages{padding:4px 4px 8px;gap:8px}}
 
 /* =========================================================
    Research dossiers
