@@ -8,6 +8,7 @@
   const viewerBackLink = document.querySelector("#viewer-back-link");
   const briefingLink = document.querySelector("#briefing-link");
   const pdfPanel = document.querySelector(".inline-pdf-panel");
+  const pdfHeading = document.querySelector("#pdf-heading");
   const pdfViewer = document.querySelector("#pdf-viewer");
   const pdfClose = document.querySelector("#pdf-close");
   let lastOpenedDocumentId = null;
@@ -85,6 +86,7 @@
     if (openPdf) {
       lastOpenedDocumentId = record.id;
       pdfPanel.hidden = false;
+      pdfHeading.textContent = record.title;
       pdfViewer.setAttribute("aria-label", `${record.title} PDF`);
       if (record.pageImages) {
         renderPageImages(record.pageImages, record.title);
@@ -241,6 +243,7 @@
     viewerAttachments.replaceChildren();
     viewerAttachments.hidden = true;
     pdfPanel.hidden = false;
+    pdfHeading.textContent = filename;
     pdfViewer.setAttribute("aria-label", `${filename} PDF`);
     renderPdf(url, filename);
     relatedSources(url).then(otherDocuments => {

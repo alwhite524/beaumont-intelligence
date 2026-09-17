@@ -518,11 +518,13 @@ body[data-page="history"] .story-card > span:first-child {
 .pdf-reader-pages{display:flex;flex-direction:column;align-items:center;gap:12px;width:100%;box-sizing:border-box;padding:4px 12px 12px}
 .pdf-reader-page{width:100%;max-width:1200px;position:relative;background:#fff;box-shadow:0 2px 10px rgba(0,0,0,.3)}
 .pdf-reader-page canvas{width:100%;height:100%!important;object-fit:contain;box-shadow:none}
-.pdf-reader-dialog{position:fixed;inset:0;width:100vw;height:100dvh;max-width:none;max-height:none;margin:0;padding:0;border:0;background:#59636e;overflow:hidden}
+.pdf-reader-dialog{position:fixed;inset:0;display:flex;flex-direction:column;width:100vw;height:100dvh;max-width:none;max-height:none;margin:0;padding:0;border:0;background:#59636e;overflow:hidden}
 .pdf-reader-dialog::backdrop{background:#59636e}
 .pdf-reader-dialog .pdf-reader-controls{top:0}
 @media(max-width:600px){.pdf-reader-controls{gap:5px;padding:4px}.pdf-reader-controls button,.pdf-reader-controls a,.pdf-reader-counter{font-size:.72rem}.pdf-reader-controls button,.pdf-reader-controls a{padding:4px 5px}.pdf-reader-pages{padding:4px 4px 8px;gap:8px}}
 .pdf-reader-title{display:none}
+.pdf-reader-dialog .pdf-reader-title{display:block;flex:1 1 auto;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:.82rem;font-weight:700}
+.pdf-reader-dialog .viewer-attachments{width:100%;box-sizing:border-box;max-height:100px}
 .inline-pdf-panel:not([hidden]){display:flex;flex-direction:column;height:max(640px,calc(100dvh - 140px))}
 .inline-pdf-panel .pdf-page-stack{flex:1 1 auto;height:auto;min-height:0}
 .viewer-attachments{display:flex;align-items:center;gap:8px;flex-wrap:wrap;flex:0 0 auto;max-height:110px;overflow:auto;padding:8px 12px;background:#fff;color:var(--navy);font-size:.82rem}

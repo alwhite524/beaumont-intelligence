@@ -2,21 +2,43 @@
 (() => {
   let library;
   const sessions = new WeakMap();
-  function clear(container) {
+  const expandedViews = new WeakMap();
+  function closeExpanded(container) {
+    const state = expandedViews.get(container);
+    if (!state) return;
+    expandedViews.delete(container);
+    document.body.classList.remove('pdf-reader-expanded');
+    document.removeEventListener('fullscreenchange', state.onFullscreenChange);
+    if (document.fullscreenElement === state.dialog) document.exitFullscreen().catch(() => {});
+    state.marker.replaceWith(container);
+    container.style.cssText = state.originalStyle;
+    if (state.attachmentMarker) state.attachmentMarker.replaceWith(state.attachments);
+    state.dialog.removeEventListener('close', state.onClose);
+    if (state.dialog.open) state.dialog.close();
+    state.dialog.remove();
+    const controls = container.querySelector('.pdf-reader-controls');
+    if (controls) {
+      controls.querySelector('.pdf-reader-expand').hidden = false;
+      controls.querySelector('.pdf-reader-collapse').hidden = true;
+      controls.querySelector('.pdf-reader-expand').focus();
+    }
+  }
+  function clear(container, preserveExpanded = false) {
     const session = sessions.get(container);
     if (session) {
       session.closed = true;
       session.observer?.disconnect();
       if (session.updateCounter) container.removeEventListener('scroll', session.updateCounter);
-      session.closeExpanded?.();
       session.task?.destroy().catch(() => {});
       sessions.delete(container);
     }
+    if (!preserveExpanded) closeExpanded(container);
     container.replaceChildren();
     container.removeAttribute('aria-busy');
   }
   async function open(container, url, title, options = {}) {
-    clear(container);
+    clear(container, true);
+    expandedViews.get(container)?.dialog.setAttribute('aria-label', title + ' full screen viewer');
     const session = { closed: false };
     sessions.set(container, session);
     const controls = document.createElement('div');
@@ -43,7 +65,8 @@
     collapse.className = 'pdf-reader-collapse';
     collapse.textContent = '↙ Collapse';
     collapse.setAttribute('aria-label', 'Collapse viewer');
-    collapse.hidden = true;
+    collapse.hidden = !expandedViews.has(container);
+    fullscreen.hidden = expandedViews.has(container);
     controls.append(readerTitle, pageCounter, original, fullscreen, collapse);
     const status = document.createElement('p');
     status.className = 'pdf-reader-status';
@@ -53,53 +76,41 @@
     pages.className = 'pdf-reader-pages';
     container.append(controls, status, pages);
     container.setAttribute('aria-busy', 'true');
-    let expanded = null;
-    const closeExpanded = () => {
-      if (!expanded) return;
-      const { dialog, marker, originalStyle } = expanded;
-      expanded = null;
-      document.body.classList.remove('pdf-reader-expanded');
-      document.removeEventListener('fullscreenchange', onFullscreenChange);
-      if (document.fullscreenElement === dialog) document.exitFullscreen().catch(() => {});
-      marker.replaceWith(container);
-      container.style.cssText = originalStyle;
-      dialog.removeEventListener('close', closeExpanded);
-      dialog.close();
-      dialog.remove();
-      fullscreen.hidden = false;
-      collapse.hidden = true;
-      if (!session.closed) fullscreen.focus();
-    };
-    const onFullscreenChange = () => {
-      if (expanded?.native && !document.fullscreenElement) closeExpanded();
-    };
-    session.closeExpanded = closeExpanded;
     fullscreen.addEventListener('click', async () => {
+      if (expandedViews.has(container)) return;
       const marker = document.createElement('span');
       container.before(marker);
       const dialog = document.createElement('dialog');
       dialog.className = 'pdf-reader-dialog';
       dialog.setAttribute('aria-label', title + ' full screen viewer');
-      expanded = { dialog, marker, originalStyle: container.style.cssText, native: false };
-      container.style.cssText = 'width:100%;height:100%;min-height:0;max-height:none;max-width:none;border-radius:0;padding:0;box-sizing:border-box';
+      const attachments = container.parentElement?.querySelector('#viewer-attachments');
+      const attachmentMarker = attachments ? document.createElement('span') : null;
+      if (attachmentMarker) attachments.before(attachmentMarker);
+      const state = { dialog, marker, originalStyle: container.style.cssText, attachments, attachmentMarker, native: false };
+      state.onClose = () => closeExpanded(container);
+      state.onFullscreenChange = () => {
+        if (state.native && !document.fullscreenElement) closeExpanded(container);
+      };
+      expandedViews.set(container, state);
+      container.style.cssText = 'flex:1 1 auto;width:100%;height:auto;min-height:0;max-height:none;max-width:none;border-radius:0;padding:0;box-sizing:border-box';
       document.body.append(dialog);
       dialog.append(container);
-      dialog.addEventListener('close', closeExpanded);
+      if (attachments) dialog.append(attachments);
+      dialog.addEventListener('close', state.onClose);
       dialog.showModal();
       document.body.classList.add('pdf-reader-expanded');
       fullscreen.hidden = true;
       collapse.hidden = false;
       collapse.focus();
-      document.addEventListener('fullscreenchange', onFullscreenChange);
+      document.addEventListener('fullscreenchange', state.onFullscreenChange);
       if (document.fullscreenEnabled && dialog.requestFullscreen) {
         try {
-          const state = expanded;
           await dialog.requestFullscreen();
-          if (expanded === state) state.native = true;
+          if (expandedViews.get(container) === state) state.native = true;
         } catch { /* The viewport-filling modal still works. */ }
       }
     });
-    collapse.addEventListener('click', closeExpanded);
+    collapse.addEventListener('click', () => closeExpanded(container));
     const fail = error => {
       if (session.closed) return;
       status.textContent = 'Inline viewing is unavailable. Use “Open PDF in a new tab” to read or save the document.';
