@@ -507,11 +507,11 @@ body[data-page="history"] .story-card > span:first-child {
 /* Make the return action as prominent and readable as the document controls. */
 .document-viewer-actions #briefing-link{font-size:32px}
 .pdf-page-image{display:block;max-width:100%;height:auto;background:#fff;box-shadow:0 2px 10px rgba(0,0,0,.3)}
-.pdf-reader-controls{position:sticky;top:0;z-index:5;display:flex;align-items:center;gap:10px;width:100%;box-sizing:border-box;padding:5px 10px;background:#fff;color:#172b45;box-shadow:0 1px 5px rgba(0,0,0,.18)}
-.pdf-reader-controls button,.pdf-reader-controls a{min-height:30px;box-sizing:border-box;padding:4px 8px;border:1px solid #a8b5c2;border-radius:5px;background:#fff;color:#102f54;font:inherit;font-size:.82rem;font-weight:700;text-decoration:none;cursor:pointer}
-.pdf-reader-counter{font-size:.82rem;font-weight:700;white-space:nowrap;color:#172b45}
-.pdf-reader-controls button:hover,.pdf-reader-controls a:hover{background:#eaf1f8}
-.pdf-reader-controls a{margin-left:auto}
+.pdf-reader-controls{position:sticky;top:0;z-index:5;display:flex;align-items:center;gap:10px;width:100%;box-sizing:border-box;padding:5px 10px;background:var(--red);color:#fff;box-shadow:0 1px 5px rgba(0,0,0,.18)}
+.pdf-reader-controls button,.pdf-reader-controls a{min-height:30px;box-sizing:border-box;padding:4px 8px;border:1px solid rgba(255,255,255,.8);border-radius:5px;background:transparent;color:#fff;font:inherit;font-size:.82rem;font-weight:700;text-decoration:none;cursor:pointer}
+.pdf-reader-counter{font-size:.82rem;font-weight:700;white-space:nowrap;color:#fff}
+.pdf-reader-controls button:hover,.pdf-reader-controls a:hover,.pdf-reader-controls button:focus-visible,.pdf-reader-controls a:focus-visible{background:#fff;color:var(--red)}
+.pdf-reader-controls .pdf-reader-expand,.pdf-reader-controls .pdf-reader-collapse{margin-left:auto}
 .pdf-reader-controls [hidden]{display:none}
 .pdf-reader-status{margin:0;padding:4px 12px;background:#fff;color:#344b62;text-align:center;font-size:.78rem}
 .pdf-reader-status[hidden]{display:none}
@@ -521,8 +521,6 @@ body[data-page="history"] .story-card > span:first-child {
 .pdf-reader-dialog{position:fixed;inset:0;width:100vw;height:100dvh;max-width:none;max-height:none;margin:0;padding:0;border:0;background:#59636e;overflow:hidden}
 .pdf-reader-dialog::backdrop{background:#59636e}
 .pdf-reader-dialog .pdf-reader-controls{top:0}
-.pdf-reader-dialog .pdf-reader-controls a{margin-left:0}
-.pdf-reader-dialog .pdf-reader-controls button:last-child{margin-left:auto}
 @media(max-width:600px){.pdf-reader-controls{gap:5px;padding:4px}.pdf-reader-controls button,.pdf-reader-controls a,.pdf-reader-counter{font-size:.72rem}.pdf-reader-controls button,.pdf-reader-controls a{padding:4px 5px}.pdf-reader-pages{padding:4px 4px 8px;gap:8px}}
 
 /* =========================================================

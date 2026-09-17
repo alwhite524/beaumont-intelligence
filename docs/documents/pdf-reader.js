@@ -27,6 +27,7 @@
     pageCounter.textContent = 'Loading…';
     const fullscreen = document.createElement('button');
     fullscreen.type = 'button';
+    fullscreen.className = 'pdf-reader-expand';
     fullscreen.textContent = '⛶ Full screen';
     fullscreen.setAttribute('aria-label', 'Full screen');
     const original = document.createElement('a');
@@ -36,10 +37,11 @@
     original.textContent = 'Open PDF in a new tab ↗';
     const collapse = document.createElement('button');
     collapse.type = 'button';
+    collapse.className = 'pdf-reader-collapse';
     collapse.textContent = '↙ Collapse';
     collapse.setAttribute('aria-label', 'Collapse viewer');
     collapse.hidden = true;
-    controls.append(fullscreen, pageCounter, original, collapse);
+    controls.append(pageCounter, original, fullscreen, collapse);
     const status = document.createElement('p');
     status.className = 'pdf-reader-status';
     status.setAttribute('role', 'status');
