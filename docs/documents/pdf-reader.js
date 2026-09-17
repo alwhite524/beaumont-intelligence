@@ -21,6 +21,9 @@
     sessions.set(container, session);
     const controls = document.createElement('div');
     controls.className = 'pdf-reader-controls';
+    const readerTitle = document.createElement('span');
+    readerTitle.className = 'pdf-reader-title';
+    readerTitle.textContent = title;
     const pageCounter = document.createElement('span');
     pageCounter.className = 'pdf-reader-counter';
     pageCounter.setAttribute('aria-live', 'polite');
@@ -41,7 +44,7 @@
     collapse.textContent = '↙ Collapse';
     collapse.setAttribute('aria-label', 'Collapse viewer');
     collapse.hidden = true;
-    controls.append(pageCounter, original, fullscreen, collapse);
+    controls.append(readerTitle, pageCounter, original, fullscreen, collapse);
     const status = document.createElement('p');
     status.className = 'pdf-reader-status';
     status.setAttribute('role', 'status');
@@ -55,6 +58,7 @@
       if (!expanded) return;
       const { dialog, marker, originalStyle } = expanded;
       expanded = null;
+      document.body.classList.remove('pdf-reader-expanded');
       document.removeEventListener('fullscreenchange', onFullscreenChange);
       if (document.fullscreenElement === dialog) document.exitFullscreen().catch(() => {});
       marker.replaceWith(container);
@@ -82,6 +86,7 @@
       dialog.append(container);
       dialog.addEventListener('close', closeExpanded);
       dialog.showModal();
+      document.body.classList.add('pdf-reader-expanded');
       fullscreen.hidden = true;
       collapse.hidden = false;
       collapse.focus();

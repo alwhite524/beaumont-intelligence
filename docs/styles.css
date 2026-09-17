@@ -522,6 +522,16 @@ body[data-page="history"] .story-card > span:first-child {
 .pdf-reader-dialog::backdrop{background:#59636e}
 .pdf-reader-dialog .pdf-reader-controls{top:0}
 @media(max-width:600px){.pdf-reader-controls{gap:5px;padding:4px}.pdf-reader-controls button,.pdf-reader-controls a,.pdf-reader-counter{font-size:.72rem}.pdf-reader-controls button,.pdf-reader-controls a{padding:4px 5px}.pdf-reader-pages{padding:4px 4px 8px;gap:8px}}
+.pdf-reader-title{display:none}
+.inline-pdf-panel:not([hidden]){display:flex;flex-direction:column;height:max(640px,calc(100dvh - 140px))}
+.inline-pdf-panel .pdf-page-stack{flex:1 1 auto;height:auto;min-height:0}
+.viewer-attachments{display:flex;align-items:center;gap:8px;flex-wrap:wrap;flex:0 0 auto;max-height:110px;overflow:auto;padding:8px 12px;background:#fff;color:var(--navy);font-size:.82rem}
+.viewer-attachments[hidden]{display:none}
+.viewer-attachments strong{white-space:nowrap}
+.viewer-attachments a{display:inline-block;padding:5px 8px;border:1px solid var(--line);border-radius:5px;color:var(--blue);font-weight:700;text-decoration:none}
+.viewer-attachments a:hover,.viewer-attachments a:focus-visible{border-color:var(--red);color:var(--red)}
+.pdf-reader-expanded .inline-pdf-heading{display:none}
+@media(max-width:800px){.document-viewer-page{padding-top:16px}.document-viewer-page>h1{font-size:1rem;line-height:1.25}.inline-pdf-panel:not([hidden]){height:max(500px,calc(100dvh - 110px))}.pdf-reader-dialog .pdf-reader-controls{flex-wrap:wrap}.pdf-reader-dialog .pdf-reader-title{display:block;flex:0 0 100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:.72rem;font-weight:700;line-height:1.1}.pdf-reader-expanded .inline-pdf-close{display:none}}
 
 /* =========================================================
    Research dossiers

@@ -3,17 +3,16 @@
 
   const title = document.querySelector("#document-title");
   const summary = document.querySelector("#document-summary");
-  const meetingDate = document.querySelector("#meeting-date");
-  const agendaItem = document.querySelector("#agenda-item");
-  const category = document.querySelector("#category");
-  const documentType = document.querySelector("#document-type");
   const attachments = document.querySelector("#attachments");
+  const viewerAttachments = document.querySelector("#viewer-attachments");
   const viewerBackLink = document.querySelector("#viewer-back-link");
   const briefingLink = document.querySelector("#briefing-link");
   const pdfPanel = document.querySelector(".inline-pdf-panel");
   const pdfViewer = document.querySelector("#pdf-viewer");
   const pdfClose = document.querySelector("#pdf-close");
   let lastOpenedDocumentId = null;
+  let activeStandaloneUrl = null;
+  const sourceLists = new Map();
   const returnUrl = params.get("returnUrl");
   const returnLabel = params.get("returnLabel");
 
@@ -49,6 +48,7 @@
   const renderPdf = (url, documentTitle) => window.BIPdfReader.open(pdfViewer, url, documentTitle);
 
   const renderDocument = (documentId, updateHistory = false, openPdf = false) => {
+    activeStandaloneUrl = null;
     const record = documentLibrary.find(
       (item) => item.id === documentId
     );
@@ -57,11 +57,13 @@
       title.textContent = "Document not found";
       summary.textContent =
         "The requested document could not be found in the Official Source Library.";
+      summary.hidden = false;
 
       attachments.innerHTML =
         '<p><a href="index.html">Return to the Official Source Library →</a></p>';
       briefingLink.hidden = true;
       pdfPanel.hidden = true;
+      viewerAttachments.hidden = true;
       clearPdf();
 
       return;
@@ -76,11 +78,7 @@
     document.title = `${record.title} | Beaumont Intelligence`;
     title.textContent = record.title;
     summary.textContent = record.summary;
-
-    meetingDate.textContent = record.meetingLabel;
-    agendaItem.textContent = record.agendaItem;
-    category.textContent = record.category;
-    documentType.textContent = record.documentType;
+    summary.hidden = !record.summary;
 
     briefingLink.hidden = false;
     briefingLink.href = record.briefing;
@@ -103,6 +101,21 @@
         item.meetingLabel === record.meetingLabel &&
         item.agendaItem === record.agendaItem
     );
+    const otherDocuments = documentCollection.filter(item => item.id !== record.id);
+    viewerAttachments.replaceChildren();
+    viewerAttachments.hidden = !openPdf || !otherDocuments.length;
+    if (openPdf && otherDocuments.length) {
+      const label = document.createElement("strong");
+      label.textContent = "Other attachments";
+      viewerAttachments.append(label);
+      otherDocuments.forEach(item => {
+        const link = document.createElement("a");
+        link.href = `viewer.html?id=${encodeURIComponent(item.id)}`;
+        link.dataset.documentId = item.id;
+        link.textContent = item.title;
+        viewerAttachments.append(link);
+      });
+    }
 
     attachments.innerHTML = documentCollection.length
       ? documentCollection
@@ -146,9 +159,37 @@
       : "<p>No documents available.</p>";
   };
 
-  const renderStandalone = (url) => {
-    let filename = params.get("title") || "Official document";
-    let sourceHost = "";
+  const relatedSources = (url) => {
+    let parsed;
+    try { parsed = new URL(url); } catch { return Promise.resolve([]); }
+    const match = parsed.hostname === "documents.beaumontintelligence.com"
+      ? parsed.pathname.match(/^\/official-documents\/(\d{4}-\d{2}-\d{2})\//)
+      : null;
+    if (!match) return Promise.resolve([]);
+    const date = match[1];
+    if (!sourceLists.has(date)) {
+      sourceLists.set(date, new Promise(resolve => {
+        const script = document.createElement("script");
+        script.src = `../briefings/${date}-sources.js`;
+        script.onload = () => {
+          const list = Object.keys(window)
+            .filter(key => /^BI_.*_SOURCES$/.test(key) && Array.isArray(window[key]))
+            .map(key => window[key])
+            .find(items => items.some(item => item.archiveUrl === url));
+          resolve(list || []);
+        };
+        script.onerror = () => resolve([]);
+        document.head.append(script);
+      }));
+    }
+    return sourceLists.get(date).then(items => {
+      const current = items.find(item => item.archiveUrl === url);
+      return current ? items.filter(item => item.item === current.item && item.archiveUrl !== url) : [];
+    });
+  };
+
+  const renderStandalone = (url, suppliedTitle = null, updateHistory = false) => {
+    let filename = suppliedTitle || params.get("title") || "Official document";
     try {
       const parsedUrl = new URL(url);
       const trustedHosts = new Set([
@@ -160,7 +201,6 @@
       if (parsedUrl.protocol !== "https:" || !trustedHosts.has(parsedUrl.hostname)) {
         throw new Error("Unsupported document host");
       }
-      sourceHost = parsedUrl.hostname;
       const pathName = decodeURIComponent(parsedUrl.pathname.split("/").pop() || "");
       if (!params.get("title") && pathName && !/filestream\.ashx$/i.test(pathName)) {
         filename = pathName.replace(/\.pdf$/i, "").replace(/[-_]+/g, " ");
@@ -171,14 +211,16 @@
     }
 
     document.title = `${filename} | Beaumont Intelligence`;
+    activeStandaloneUrl = url;
+    if (updateHistory) {
+      const nextUrl = new URL(window.location.href);
+      nextUrl.searchParams.set("url", url);
+      nextUrl.searchParams.set("title", filename);
+      window.history.pushState({ standaloneUrl: url }, "", nextUrl);
+    }
     title.textContent = filename;
-    summary.textContent = sourceHost === "documents.beaumontintelligence.com"
-      ? "Archived official document hosted by Beaumont Intelligence."
-      : "Official City document displayed through the Beaumont Intelligence viewer.";
-    meetingDate.textContent = "See source record";
-    agendaItem.textContent = "—";
-    category.textContent = "Official record";
-    documentType.textContent = "PDF";
+    summary.textContent = "";
+    summary.hidden = true;
     briefingLink.hidden = true;
     attachments.replaceChildren();
     const actionsParagraph = document.createElement("p");
@@ -196,12 +238,38 @@
     downloadLink.textContent = "Download PDF →";
     actionsParagraph.appendChild(downloadLink);
     attachments.appendChild(actionsParagraph);
+    viewerAttachments.replaceChildren();
+    viewerAttachments.hidden = true;
     pdfPanel.hidden = false;
     pdfViewer.setAttribute("aria-label", `${filename} PDF`);
     renderPdf(url, filename);
+    relatedSources(url).then(otherDocuments => {
+      if (activeStandaloneUrl !== url) return;
+      viewerAttachments.replaceChildren();
+      viewerAttachments.hidden = !otherDocuments.length;
+      if (!otherDocuments.length) return;
+      const label = document.createElement("strong");
+      label.textContent = "Other attachments";
+      viewerAttachments.append(label);
+      otherDocuments.forEach(item => {
+        const link = document.createElement("a");
+        link.href = `viewer.html?url=${encodeURIComponent(item.archiveUrl)}&title=${encodeURIComponent(item.title)}`;
+        link.dataset.switchUrl = item.archiveUrl;
+        link.dataset.documentTitle = item.title;
+        link.textContent = item.title;
+        viewerAttachments.append(link);
+      });
+    });
   };
 
-  attachments.addEventListener("click", (event) => {
+  const handleAttachmentClick = (event) => {
+    const switchLink = event.target.closest("[data-switch-url]");
+    if (switchLink) {
+      event.preventDefault();
+      renderStandalone(switchLink.dataset.switchUrl, switchLink.dataset.documentTitle, true);
+      pdfPanel.scrollIntoView({ behavior: "smooth", block: "start" });
+      return;
+    }
     const standaloneLink = event.target.closest("[data-standalone-url]");
     if (standaloneLink) {
       event.preventDefault();
@@ -221,7 +289,9 @@
     const isCurrent = documentId === new URLSearchParams(window.location.search).get("id");
     renderDocument(documentId, !isCurrent, true);
     pdfPanel.scrollIntoView({ behavior: "smooth", block: "start" });
-  });
+  };
+  attachments.addEventListener("click", handleAttachmentClick);
+  viewerAttachments.addEventListener("click", handleAttachmentClick);
 
   pdfClose.addEventListener("click", () => {
     pdfPanel.hidden = true;
@@ -243,6 +313,10 @@
 
   window.addEventListener("popstate", () => {
     const historyParams = new URLSearchParams(window.location.search);
+    if (historyParams.get("url")) {
+      renderStandalone(historyParams.get("url"), historyParams.get("title"));
+      return;
+    }
     const historyPdf = historyParams.get("pdf");
     const historyRecord = historyPdf
       ? documentLibrary.find((item) => item.pdf.endsWith(`/official-documents/${historyPdf}`))
