@@ -16,6 +16,10 @@ OUTPUT = ROOT / "docs" / "official-documents"
 PACKETS = ROOT / "docs" / "records" / "agenda-packets"
 
 MEETINGS = {
+    "Sep02_2025": "2025-09-02",
+    "Sep16_2025": "2025-09-16",
+    "Oct07_2025": "2025-10-07",
+    "Oct21_2025": "2025-10-21",
     "Nov04_2025": "2025-11-04",
     "Nov18_2025": "2025-11-18",
     "Dec02_2025": "2025-12-02",
@@ -38,6 +42,10 @@ MEETINGS = {
 }
 
 SOURCE_VARS = {
+    "2025-09-02": "BI_SEPTEMBER_2_2025_SOURCES",
+    "2025-09-16": "BI_SEPTEMBER_16_2025_SOURCES",
+    "2025-10-07": "BI_OCTOBER_7_2025_SOURCES",
+    "2025-10-21": "BI_OCTOBER_21_2025_SOURCES",
     "2025-11-04": "BI_NOVEMBER_4_2025_SOURCES",
     "2025-11-18": "BI_NOVEMBER_18_2025_SOURCES",
     "2025-12-02": "BI_DECEMBER_2_2025_SOURCES",
@@ -97,6 +105,13 @@ def main() -> None:
 
         reader = PdfReader(str(source))
         marks = destinations(reader)
+        if not marks:
+            ranges = ROOT / "data" / "council" / "agenda-page-ranges" / f"{date}.json"
+            if not ranges.exists():
+                raise ValueError(f"No bookmarks or reviewed page ranges for {date}")
+            marks = [(entry["page"] - 1, entry["title"]) for entry in json.loads(ranges.read_text(encoding="utf-8"))["sections"]]
+        if any(start < 0 or start >= len(reader.pages) for start, _ in marks):
+            raise ValueError(f"Invalid page boundaries for {date}")
         target_dir = OUTPUT / date
         target_dir.mkdir(parents=True, exist_ok=True)
         used: set[str] = set()
@@ -126,6 +141,8 @@ def main() -> None:
                     "item": item.upper(),
                     "section": section,
                     "title": document_title,
+                    "packet_page_start": start + 1,
+                    "packet_page_end": end,
                     "archiveUrl": f"https://documents.beaumontintelligence.com/official-documents/{date}/{archive_name}",
                 })
             total += 1
