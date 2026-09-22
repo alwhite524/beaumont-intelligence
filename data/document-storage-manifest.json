@@ -1,8 +1,8 @@
 {
   "bucket": "beaumont-intelligence-documents",
   "public_base_url": "https://documents.beaumontintelligence.com",
-  "document_count": 1897,
-  "total_bytes": 10969892680,
+  "document_count": 1899,
+  "total_bytes": 11225604087,
   "documents": [
     {
       "path": "official-documents/2015-03-03/agenda.pdf",
@@ -423,6 +423,12 @@
       "url": "https://documents.beaumontintelligence.com/official-documents/2017/2017-council-minutes.pdf",
       "bytes": 121528149,
       "sha256": "8fa3471c3f1570ae03a7b58ff04ed86e44d5260cd827af47c320b024cf0665c1"
+    },
+    {
+      "path": "official-documents/2018/2018-council-minutes.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2018/2018-council-minutes.pdf",
+      "bytes": 132269163,
+      "sha256": "819a9c723c5a21aec1a82a45bebad610ddd2f35791c07d8ad83cabe3f9291352"
     },
     {
       "path": "official-documents/2023-05-02/d-7-staff-report-flock-encroachment-agreement.pdf",
@@ -11235,6 +11241,12 @@
       "url": "https://documents.beaumontintelligence.com/official-documents/stewart-park/stewart-park-november-2023-staff-report.pdf",
       "bytes": 155165,
       "sha256": "0876f1df19778e1bbf9b504157d6bf412cdfd346b19e2011242a22ae9dd44e46"
+    },
+    {
+      "path": "records/agenda-packets/2017-03-07/2017-03-07-city-council-agenda-package.pdf",
+      "url": "https://documents.beaumontintelligence.com/records/agenda-packets/2017-03-07/2017-03-07-city-council-agenda-package.pdf",
+      "bytes": 123442244,
+      "sha256": "b6c63954ea29bb40b7794e4e394b3a12334e3e53b0c63c8c4c1c82d5ecfece05"
     },
     {
       "path": "records/agenda-packets/2021/2021-06-01_City-Council_Agenda-Packet.pdf",

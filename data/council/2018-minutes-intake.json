@@ -1,0 +1,16 @@
+{
+  "originalFilename": "2018 Minutes.pdf",
+  "path": "official-documents/2018/2018-council-minutes.pdf",
+  "pages": 199,
+  "sha256": "819a9c723c5a21aec1a82a45bebad610ddd2f35791c07d8ad83cabe3f9291352",
+  "sourceIds": [
+    "SRC-0034"
+  ],
+  "reviewStatus": "partial",
+  "verifiedPageReferences": [
+    "March 20: PDF page 49",
+    "September 18: PDF page 157",
+    "December 18: PDF page 195"
+  ],
+  "limitations": "199-page compilation; three cited pages visually reviewed. Underlying agreement terms, actual reimbursement payments, and minutes adoption dates not established. Other references remain pending review; no claim of a complete annual archive."
+}

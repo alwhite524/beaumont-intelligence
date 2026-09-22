@@ -1,0 +1,14 @@
+{
+  "originalFilename": "City Council - 07 Mar 2017 - Agenda - Pdf.pdf",
+  "path": "records/agenda-packets/2017-03-07/2017-03-07-city-council-agenda-package.pdf",
+  "pages": 226,
+  "sha256": "b6c63954ea29bb40b7794e4e394b3a12334e3e53b0c63c8c4c1c82d5ecfece05",
+  "sourceIds": [
+    "SRC-0033"
+  ],
+  "reviewStatus": "partial",
+  "verifiedPageReferences": [
+    "PDF pages 1–2; Closed Session item 4"
+  ],
+  "limitations": "226-page packet; 148 pages have fewer than 100 extractable text characters. Agenda pages 1–2 visually reviewed; attachments require further visual/OCR review. Item 5 concerns a separate Kapanicas claim and is not classified as restitution."
+}
