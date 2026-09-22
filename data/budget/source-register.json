@@ -413,6 +413,98 @@
       ],
       "summary": "Page 1 lists WRCOG v. City of Beaumont, RIC 536164, appeal filed, for closed-session consideration. This verifies the posted listing only; no outcome or confidential discussion is established.",
       "notes": "Official City-linked Laserfiche agenda inspected. Video timestamps and public report-out remain unverified."
+    },
+    {
+      "sourceId": "SRC-0026",
+      "title": "September 15, 2015 City Council agenda — WRCOG litigation",
+      "documentType": "Council Agenda",
+      "documentDate": "2015-09-15",
+      "councilMeetingDate": "2015-09-15",
+      "agendaItem": "Closed Session 1.c.1",
+      "publisher": "City of Beaumont",
+      "officialUrl": null,
+      "archivePath": "https://documents.beaumontintelligence.com/official-documents/2015-09-15/agenda.pdf",
+      "verificationStatus": "Verified",
+      "confidence": "High",
+      "evidenceLevel": "A",
+      "relatedCenters": [
+        "wrcog-restitution"
+      ],
+      "relatedTopics": [
+        "WRCOG litigation"
+      ],
+      "relatedProjects": [
+        "WRCOG & Restitution"
+      ],
+      "crossLinks": [
+        "transcripts/2015-09-15-city-council-transcript.txt",
+        "https://www.youtube.com/watch?v=SWmLsAYXQYI&t=4691s"
+      ],
+      "pageReferences": [
+        "1"
+      ],
+      "summary": "Page 1 lists WRCOG v. City of Beaumont, RIC 536164, appeal filed, under Closed Session 1.c.1. This verifies the posted litigation listing only, not a settlement, recovery, or confidential discussion.",
+      "notes": "User-supplied City agenda export; page 1 visually reviewed. The existing September 15 transcript reports no reportable action at 1:18:11; that report-out remains transcript-derived pending video/minutes verification. See data/council/2015-09-15.json for attachment provenance."
+    },
+    {
+      "sourceId": "SRC-0027",
+      "title": "FY2016 budget — historical WRCOG/TUMF litigation exposure estimate",
+      "documentType": "Budget",
+      "documentDate": null,
+      "councilMeetingDate": "2015-09-15",
+      "agendaItem": "4.a (related budget material)",
+      "publisher": "City of Beaumont",
+      "officialUrl": null,
+      "archivePath": "https://documents.beaumontintelligence.com/official-documents/2015-09-15/fy-2016-budget-document-final.pdf",
+      "verificationStatus": "Verified",
+      "confidence": "High",
+      "evidenceLevel": "A",
+      "relatedCenters": [
+        "wrcog-restitution"
+      ],
+      "relatedTopics": [
+        "WRCOG litigation",
+        "Budget"
+      ],
+      "relatedProjects": [
+        "WRCOG & Restitution"
+      ],
+      "crossLinks": [],
+      "pageReferences": [
+        "Printed page 12; PDF page 15"
+      ],
+      "summary": "The FY2016 budget message reports an estimated $43 million financial exposure for the ongoing WRCOG/TUMF lawsuit, excluding interest. This is the estimate stated in that historical document, not a final judgment total, settlement amount, payment, or recovery.",
+      "notes": "Preserved from user-supplied September 15, 2015 agenda export. Relevant page visually reviewed. Publication date not separately established; meeting date records supplied context. Do not substitute this estimate for later audited judgment, fees, and interest figures."
+    },
+    {
+      "sourceId": "SRC-0028",
+      "title": "March 3, 2015 City Council agenda — two WRCOG litigation matters",
+      "documentType": "Council Agenda",
+      "documentDate": "2015-03-03",
+      "councilMeetingDate": "2015-03-03",
+      "agendaItem": "Closed Session 10.b.1 and 10.b.4",
+      "publisher": "City of Beaumont",
+      "officialUrl": null,
+      "archivePath": "https://documents.beaumontintelligence.com/official-documents/2015-03-03/agenda.pdf",
+      "verificationStatus": "Verified",
+      "confidence": "High",
+      "evidenceLevel": "A",
+      "relatedCenters": [
+        "wrcog-restitution"
+      ],
+      "relatedTopics": [
+        "WRCOG litigation",
+        "RCTC"
+      ],
+      "relatedProjects": [
+        "WRCOG & Restitution"
+      ],
+      "crossLinks": [],
+      "pageReferences": [
+        "PDF page 3"
+      ],
+      "summary": "The agenda lists WRCOG v. City of Beaumont, RIC 536164 (appeal filed), under 10.b.1, and City of Beaumont v. WRCOG/RCTC, RIC 1211222 (stayed), under 10.b.4. These are distinct listed cases. The agenda does not establish closed-session outcomes, settlement terms, or recoveries.",
+      "notes": "User-supplied ExportedContents (1).Zip; date confirmed on page 1 and litigation entries visually reviewed on page 3. No March 3 transcript or video is linked in the meeting intake. Attachment completeness remains unverified."
     }
   ]
 }

@@ -46,7 +46,9 @@ for s in sources:
     target = url if url and 'portal.laserfiche.com/' in url else f'documents/viewer.html?url={quote(url or "", safe="")}'
     link = f'<a href="{escape(target, quote=True)}">Open source document</a>' if url else '<p>Document not yet available.</p>'
     link += ''.join(f' <a href="{escape(path, quote=True)}">Related evidence record</a>' for path in s.get('crossLinks', []))
-    cards.append(f'<article id="{escape(sid)}"><h2>{escape(sid)} · {escape(s["title"])}</h2><p>{escape(s["verificationStatus"])} · {escape(s.get("publisher", ""))}</p><p>{escape(s.get("summary", ""))}</p>{link}</article>')
+    page_refs = ', '.join(s.get('pageReferences', []))
+    citation = f'<p>Page reference: {escape(page_refs)}</p>' if page_refs else ''
+    cards.append(f'<article id="{escape(sid)}"><h2>{escape(sid)} · {escape(s["title"])}</h2><p>{escape(s["verificationStatus"])} · {escape(s.get("publisher", ""))}</p><p>{escape(s.get("summary", ""))}</p>{citation}{link}</article>')
     search.append({'title': s['title'], 'url': CENTER + '-evidence.html#' + sid, 'category': 'Source Document', 'description': s.get('summary', ''), 'text': f'{sid} {s["verificationStatus"]} WRCOG restitution', 'aliases': []})
 evidence = '<p>This view uses the existing financial Source Register and its permanent SRC identifiers. No separate source catalog is maintained.</p>' + (''.join(cards) or '<p><strong>No source documents registered for this Center yet.</strong> Working research supplied in the handoff is not a verified source record. Documents will appear here after registration and review.</p>') + '<p><a href="budget-evidence.html">Browse existing financial evidence</a></p>'
 (DOCS / (CENTER + '.html')).write_text(page('WRCOG & Restitution Intelligence Center', overview), encoding='utf-8')

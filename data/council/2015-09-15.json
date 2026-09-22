@@ -1,0 +1,335 @@
+{
+  "date": "2015-09-15",
+  "providedArchive": "ExportedContents.Zip",
+  "videoUrl": "https://www.youtube.com/watch?v=SWmLsAYXQYI",
+  "transcriptPath": "transcripts/2015-09-15-city-council-transcript.txt",
+  "attachmentAuditStatus": "partial",
+  "notes": "45 supplied PDF files preserved byte-for-byte. Completeness against agenda and duplicate versions not reconciled. No outcomes or payments inferred from attachments.",
+  "wrcog": {
+    "agendaItem": "Closed Session 1.c.1",
+    "page": 1,
+    "case": "RIC 536164",
+    "agendaFinding": "Western Riverside Council of Governments v. City of Beaumont; appeal filed.",
+    "transcriptTimestamp": "1:18:11",
+    "transcriptFinding": "Transcript reports no reportable action for WRCOG litigation.",
+    "verificationStatus": "partially-verified",
+    "limitation": "Agenda page visually verified; report-out is transcript-derived, not checked against video or approved minutes."
+  },
+  "documents": [
+    {
+      "originalFilename": "Andrea Avitia Claim.pdf",
+      "path": "official-documents/2015-09-15/andrea-avitia-claim.pdf",
+      "sha256": "b79bc171414b249d542a9ef1a3e343cf5ab62adb78d0f98b73ac4602e02593fd",
+      "pages": 5,
+      "reviewStatus": "not-reviewed"
+    },
+    {
+      "originalFilename": "City Council Agenda for September 15, 2015 Agenda.pdf",
+      "path": "official-documents/2015-09-15/agenda.pdf",
+      "sha256": "0a3478283696061ae95afcd38a1f1d0ab64160db9bad6ba12ab5f5230df3648e",
+      "pages": 7,
+      "reviewStatus": "agenda-page-1-verified"
+    },
+    {
+      "originalFilename": "FY 2016 Budget Document FINAL.pdf",
+      "path": "official-documents/2015-09-15/fy-2016-budget-document-final.pdf",
+      "sha256": "0bc3ba6ee7f7ea11793293cc70dcaaef1e500e20cd2dcf9f00d39b3757a2a34a",
+      "pages": 99,
+      "reviewStatus": "not-reviewed"
+    },
+    {
+      "originalFilename": "Item 4.a - 2015-2016 Operating Budget.pdf",
+      "path": "official-documents/2015-09-15/item-4-a-2015-2016-operating-budget.pdf",
+      "sha256": "d0458c2a43af9ae3d9b4700e7b7702b26c44a02e6435f953e0653133942c65ad",
+      "pages": 103,
+      "reviewStatus": "not-reviewed"
+    },
+    {
+      "originalFilename": "Item 4.b - 2015-2016 Appropriations Limit.pdf",
+      "path": "official-documents/2015-09-15/item-4-b-2015-2016-appropriations-limit.pdf",
+      "sha256": "074cb88fd05e4da19ea32fec4d89c870211687650a7ac0a383e78ff84f7306c7",
+      "pages": 6,
+      "reviewStatus": "not-reviewed"
+    },
+    {
+      "originalFilename": "Item 4.c - Ordinance City Treasurer Duties.pdf",
+      "path": "official-documents/2015-09-15/item-4-c-ordinance-city-treasurer-duties.pdf",
+      "sha256": "9f10e5bf03e9b15b0d43595c309ccb785fa2d5defbc1df604a2940bfcdb2caab",
+      "pages": 4,
+      "reviewStatus": "not-reviewed"
+    },
+    {
+      "originalFilename": "item 4.d - Ordinance Small Residential Rooftop Solar.pdf",
+      "path": "official-documents/2015-09-15/item-4-d-ordinance-small-residential-rooftop-solar.pdf",
+      "sha256": "f92387c32ffa840fd4a03a08c9e45264f92e804895459e73aec521fcbac95dc4",
+      "pages": 9,
+      "reviewStatus": "not-reviewed"
+    },
+    {
+      "originalFilename": "Item 4.e - CDBG Funding Allocation.pdf",
+      "path": "official-documents/2015-09-15/item-4-e-cdbg-funding-allocation.pdf",
+      "sha256": "9cfc7cab7281cd6f06778f66c0950bb7a061542b75116b3418153b59c1c732bc",
+      "pages": 3,
+      "reviewStatus": "not-reviewed"
+    },
+    {
+      "originalFilename": "Item 4.f - Outstanding invoices - ULC.pdf",
+      "path": "official-documents/2015-09-15/item-4-f-outstanding-invoices-ulc.pdf",
+      "sha256": "8b7a72a9f9e075d8a11d8c0307aa4f6850cc11ba2114476558e5a205b4be4995",
+      "pages": 223,
+      "reviewStatus": "not-reviewed"
+    },
+    {
+      "originalFilename": "Item 4.g - Invoices SBEMP.pdf",
+      "path": "official-documents/2015-09-15/item-4-g-invoices-sbemp.pdf",
+      "sha256": "7456354ad81380049be3f8cb8285c90805a219df6008c3edc60faf1c26cd5660",
+      "pages": 18,
+      "reviewStatus": "not-reviewed"
+    },
+    {
+      "originalFilename": "Item 5.a - Resolution - Successor Agency - Administrative Budget.pdf",
+      "path": "official-documents/2015-09-15/item-5-a-resolution-successor-agency-administrative-budget.pdf",
+      "sha256": "5c2f2c65505a4c28c524158faff2a3fb5e34fa9118c75dfa2189406ca6a851d4",
+      "pages": 5,
+      "reviewStatus": "not-reviewed"
+    },
+    {
+      "originalFilename": "Item 5.b - Resolution Successor Agency - ROPS.pdf",
+      "path": "official-documents/2015-09-15/item-5-b-resolution-successor-agency-rops.pdf",
+      "sha256": "eacbbff171c910cb58c36f308fa30e6012d0638353e8954cd59209379a084ff6",
+      "pages": 9,
+      "reviewStatus": "not-reviewed"
+    },
+    {
+      "originalFilename": "Item 5.c - Notice of Vacant Postion.pdf",
+      "path": "official-documents/2015-09-15/item-5-c-notice-of-vacant-postion.pdf",
+      "sha256": "bafbed2b37121dbb82fa65c9881a328be2a81163489016dfbf2e85c2039efe1a",
+      "pages": 1,
+      "reviewStatus": "not-reviewed"
+    },
+    {
+      "originalFilename": "Item 6.a.2 - Response to questions - 1086 Edgar.pdf",
+      "path": "official-documents/2015-09-15/item-6-a-2-response-to-questions-1086-edgar.pdf",
+      "sha256": "8de05dd103261561258ef41da330caf918949703343eed271cef216c61666c8d",
+      "pages": 4,
+      "reviewStatus": "not-reviewed"
+    },
+    {
+      "originalFilename": "Item 6.a.3 - Response to questions - 1070 Edgar.pdf",
+      "path": "official-documents/2015-09-15/item-6-a-3-response-to-questions-1070-edgar.pdf",
+      "sha256": "945bd0200bb8782695899187292e97a07e02c7df58db894c6c54dcfd40d82b12",
+      "pages": 3,
+      "reviewStatus": "not-reviewed"
+    },
+    {
+      "originalFilename": "Item 6.a.4 - Response to questions - Utility Partners.pdf",
+      "path": "official-documents/2015-09-15/item-6-a-4-response-to-questions-utility-partners.pdf",
+      "sha256": "4b821e9762b10bf233f0ebd07026e3c11adbaed6d0a66ff4f4920fe47862b304",
+      "pages": 6,
+      "reviewStatus": "not-reviewed"
+    },
+    {
+      "originalFilename": "Item 6.a.5 - Response to questions - Hisam Baqai.pdf",
+      "path": "official-documents/2015-09-15/item-6-a-5-response-to-questions-hisam-baqai.pdf",
+      "sha256": "256f3e03ce4ef15342c3b3d13b55dffa106f388b0a1879634dd61231db986542",
+      "pages": 1,
+      "reviewStatus": "not-reviewed"
+    },
+    {
+      "originalFilename": "Item 6.a.6 - Response to questions - Wildermuth Environmental.pdf",
+      "path": "official-documents/2015-09-15/item-6-a-6-response-to-questions-wildermuth-environmental.pdf",
+      "sha256": "2a58951d2efc5fa0c13ec9596046f784e9d92d18ec52e7bbbbdb32acedbfa4cd",
+      "pages": 2,
+      "reviewStatus": "not-reviewed"
+    },
+    {
+      "originalFilename": "Item 6.a.7 - Response to questions - COI IA 19A.pdf",
+      "path": "official-documents/2015-09-15/item-6-a-7-response-to-questions-coi-ia-19a.pdf",
+      "sha256": "01bc6152a62a59bdfbab73e093ba01e426f8c55ea9ed32060bbcb6f5d2177cf7",
+      "pages": 10,
+      "reviewStatus": "not-reviewed"
+    },
+    {
+      "originalFilename": "Item 6.a.8 - Beaumont Chamber of Commerce.pdf",
+      "path": "official-documents/2015-09-15/item-6-a-8-beaumont-chamber-of-commerce.pdf",
+      "sha256": "692addab56202076550f70e741b0a161b2331edefb2020a481b0966f4f1a5dde",
+      "pages": 2,
+      "reviewStatus": "not-reviewed"
+    },
+    {
+      "originalFilename": "item 6.b.1 - Community Outlook.pdf",
+      "path": "official-documents/2015-09-15/item-6-b-1-community-outlook.pdf",
+      "sha256": "5f32df35b9b3a4460e793fc8efe6928e82d9da5c447cac116c8a06b91f64a245",
+      "pages": 2,
+      "reviewStatus": "not-reviewed"
+    },
+    {
+      "originalFilename": "Item 9.b - Minutes of August 4, 2015 - revised per council.pdf",
+      "path": "official-documents/2015-09-15/item-9-b-minutes-of-august-4-2015-revised-per-council.pdf",
+      "sha256": "652f9f2d73b29a9579977f896d59a9e4228c0359e36763906194968f947c0442",
+      "pages": 6,
+      "reviewStatus": "not-reviewed"
+    },
+    {
+      "originalFilename": "Item 9.c - Minutes of August 18, 2015.pdf",
+      "path": "official-documents/2015-09-15/item-9-c-minutes-of-august-18-2015.pdf",
+      "sha256": "e4c393e2dcfef13d42187086798554f5769a47104c25031ebe9e9b2ccdabe0b7",
+      "pages": 22,
+      "reviewStatus": "not-reviewed"
+    },
+    {
+      "originalFilename": "Item 9.d - Minutes of August 24, 2015.pdf",
+      "path": "official-documents/2015-09-15/item-9-d-minutes-of-august-24-2015.pdf",
+      "sha256": "4ffca6b0e56d34a751adaf552b6a749fb237b5f6f03e953df3856e4fe925cb81",
+      "pages": 1,
+      "reviewStatus": "not-reviewed"
+    },
+    {
+      "originalFilename": "item 9.e - Minutes of August 26, 2015.pdf",
+      "path": "official-documents/2015-09-15/item-9-e-minutes-of-august-26-2015.pdf",
+      "sha256": "5aa73ed9631138137258c1bd2afc8841d921bd66f2f2dede9b88e0c5eba7cc8d",
+      "pages": 1,
+      "reviewStatus": "not-reviewed"
+    },
+    {
+      "originalFilename": "Item 9.f - Minutes of September 1, 2015.pdf",
+      "path": "official-documents/2015-09-15/item-9-f-minutes-of-september-1-2015.pdf",
+      "sha256": "d8cb92c601b3a2dd9d067a78176ddc97b81edc4c8b07f1b62df5013cfa3e7941",
+      "pages": 7,
+      "reviewStatus": "not-reviewed"
+    },
+    {
+      "originalFilename": "Item 9.g - Minutes of September 9, 2015.pdf",
+      "path": "official-documents/2015-09-15/item-9-g-minutes-of-september-9-2015.pdf",
+      "sha256": "1cdbb7eafdff86474970d92644a24ff89bcf49e1f98bd3ca21ec41139f6f680f",
+      "pages": 2,
+      "reviewStatus": "not-reviewed"
+    },
+    {
+      "originalFilename": "Item 9.h - Ratification of Warrants.pdf",
+      "path": "official-documents/2015-09-15/item-9-h-ratification-of-warrants.pdf",
+      "sha256": "d2b321a90299804a072200b196821bbaee672ff169967f204270058ce60f125b",
+      "pages": 5,
+      "reviewStatus": "not-reviewed"
+    },
+    {
+      "originalFilename": "Item 9.i - Ordinance - Standing Financial Committee - 2nd reading.pdf",
+      "path": "official-documents/2015-09-15/item-9-i-ordinance-standing-financial-committee-2nd-reading.pdf",
+      "sha256": "bd0d2d926e10f9b73392e184f9570d6b1680fe01fc7020ed0bb6d6a9c597687d",
+      "pages": 5,
+      "reviewStatus": "not-reviewed"
+    },
+    {
+      "originalFilename": "Item 9.j - RFP - On-Call Environmental Consulting Services.pdf",
+      "path": "official-documents/2015-09-15/item-9-j-rfp-on-call-environmental-consulting-services.pdf",
+      "sha256": "34fcd3b78d34205b5db777a123a97360d45d7003036de3b2704db4ee6a84b932",
+      "pages": 8,
+      "reviewStatus": "not-reviewed"
+    },
+    {
+      "originalFilename": "Item 9.k  - Interim Staffing Services - Muni-Temp.pdf",
+      "path": "official-documents/2015-09-15/item-9-k-interim-staffing-services-muni-temp.pdf",
+      "sha256": "02510af79ac5427a77929bce455e1a0a4e6a030517afda96efab6e2bf7f58560",
+      "pages": 6,
+      "reviewStatus": "not-reviewed"
+    },
+    {
+      "originalFilename": "Item 9.l - Interim Staffing Services - Accountemps.pdf",
+      "path": "official-documents/2015-09-15/item-9-l-interim-staffing-services-accountemps.pdf",
+      "sha256": "6cf0654e5f18fdc098252c41dc2b41ca76bd9ecd933546ca8693decb128090d4",
+      "pages": 3,
+      "reviewStatus": "not-reviewed"
+    },
+    {
+      "originalFilename": "Item 9.m - Reimbursement Request - Orozco.pdf",
+      "path": "official-documents/2015-09-15/item-9-m-reimbursement-request-orozco.pdf",
+      "sha256": "c28ed8063aa6eb3dddee154965c84160ee5baf3728093d0cec0bf34e90e44cc1",
+      "pages": 6,
+      "reviewStatus": "not-reviewed"
+    },
+    {
+      "originalFilename": "Item 9.o - Certificate of Acceptance.pdf",
+      "path": "official-documents/2015-09-15/item-9-o-certificate-of-acceptance.pdf",
+      "sha256": "14b11e82fcd35c9ad8dbbfd36f1ffda7b7577fd5614a7694c88a57d08156eec0",
+      "pages": 2,
+      "reviewStatus": "not-reviewed"
+    },
+    {
+      "originalFilename": "Item 9.p - Purchase of WWTP Sludge Pump.pdf",
+      "path": "official-documents/2015-09-15/item-9-p-purchase-of-wwtp-sludge-pump.pdf",
+      "sha256": "5a6abc2bc1b494ff8aed1285ed241dcba46d1873b79d90c572d750817b3696b4",
+      "pages": 26,
+      "reviewStatus": "not-reviewed"
+    },
+    {
+      "originalFilename": "Item 9.q - Agreement to provide security - 14-PP-03.pdf",
+      "path": "official-documents/2015-09-15/item-9-q-agreement-to-provide-security-14-pp-03.pdf",
+      "sha256": "46373f1b94435168686e527e9636a116a198e642e89d2e83bcaf2e6871965026",
+      "pages": 14,
+      "reviewStatus": "not-reviewed"
+    },
+    {
+      "originalFilename": "Item 9.r - Resolution - Designating the City Engineer - Public Improvment P.pdf",
+      "path": "official-documents/2015-09-15/item-9-r-resolution-designating-the-city-engineer-public-improvment-p.pdf",
+      "sha256": "9695caacbc37c71629694c61a5f36258c99c114bc0ece25b76037aed6591ee39",
+      "pages": 4,
+      "reviewStatus": "not-reviewed"
+    },
+    {
+      "originalFilename": "Item 9.s - Final Map 31462-7.pdf",
+      "path": "official-documents/2015-09-15/item-9-s-final-map-31462-7.pdf",
+      "sha256": "6a51ca111e785b6457f54937a3f34a5bb9b0d72b7b12fd30d495f16ac56d7368",
+      "pages": 18,
+      "reviewStatus": "not-reviewed"
+    },
+    {
+      "originalFilename": "Item 9.t - Transfer of AB109.pdf",
+      "path": "official-documents/2015-09-15/item-9-t-transfer-of-ab109.pdf",
+      "sha256": "664dee44d8844e4f0b4be6a9a749cbbaaabee78a3d5f23d890215ef87360edec",
+      "pages": 3,
+      "reviewStatus": "not-reviewed"
+    },
+    {
+      "originalFilename": "Item 9.u - Request for Expenditure - Cop-Logic Online Reporting System.pdf",
+      "path": "official-documents/2015-09-15/item-9-u-request-for-expenditure-cop-logic-online-reporting-system.pdf",
+      "sha256": "bbad4fbfe3035736cb686c446d2b61a203d44acb2474054b080fcb1df35046cc",
+      "pages": 2,
+      "reviewStatus": "not-reviewed"
+    },
+    {
+      "originalFilename": "item 9.v - Request for Expenditures - Gunshot Residue Detection.pdf",
+      "path": "official-documents/2015-09-15/item-9-v-request-for-expenditures-gunshot-residue-detection.pdf",
+      "sha256": "dade2f1154569cad2b60cd1af1f830defed367ffb95c825192ff99e7fb6b1d8d",
+      "pages": 1,
+      "reviewStatus": "not-reviewed"
+    },
+    {
+      "originalFilename": "Outlook Sept2.pdf",
+      "path": "official-documents/2015-09-15/outlook-sept2.pdf",
+      "sha256": "b428c57b07f7b0de06ba25ba5ee212c885a13a7f08624c6d5ab89d2a6e9cce10",
+      "pages": 2,
+      "reviewStatus": "not-reviewed"
+    },
+    {
+      "originalFilename": "SKMBT_C652D15091115500_201509111900402134.pdf",
+      "path": "official-documents/2015-09-15/skmbt-c652d15091115500-201509111900402134.pdf",
+      "sha256": "ed2b32ce7b32cb281d2591cd53bc56bed8cad759175ee48a2db88d1c8270684b",
+      "pages": 3,
+      "reviewStatus": "not-reviewed"
+    },
+    {
+      "originalFilename": "Staff Report FY 2016 Appropriations Limit.pdf",
+      "path": "official-documents/2015-09-15/staff-report-fy-2016-appropriations-limit.pdf",
+      "sha256": "36b9fe680a59982700310efe5dc2aaaf2bc2bdf00fed8e15af6a63fd89fb1191",
+      "pages": 4,
+      "reviewStatus": "not-reviewed"
+    },
+    {
+      "originalFilename": "Staff Report Interim Staffing Services - Purchase Orders - Account Temps.pdf",
+      "path": "official-documents/2015-09-15/staff-report-interim-staffing-services-purchase-orders-account-temps.pdf",
+      "sha256": "e23028a6fca6d12d53a9dc006e7c18846220066c50ecee75f4406ee6dc199497",
+      "pages": 3,
+      "reviewStatus": "not-reviewed"
+    }
+  ]
+}

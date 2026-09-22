@@ -1,9 +1,399 @@
 {
   "bucket": "beaumont-intelligence-documents",
   "public_base_url": "https://documents.beaumontintelligence.com",
-  "document_count": 1827,
-  "total_bytes": 10089381241,
+  "document_count": 1892,
+  "total_bytes": 10557542834,
   "documents": [
+    {
+      "path": "official-documents/2015-03-03/agenda.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2015-03-03/agenda.pdf",
+      "bytes": 2338395,
+      "sha256": "b11619f7923ec6fa73dac7f8989e2d2092e157b5f215a5e7a90d86523f4b1e38"
+    },
+    {
+      "path": "official-documents/2015-03-03/item-6-a-1-a-rail-station.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2015-03-03/item-6-a-1-a-rail-station.pdf",
+      "bytes": 4005694,
+      "sha256": "9a50553cd7f4d99f1301359663a1db2094938eea1372e9728bde61da37d6fb6f"
+    },
+    {
+      "path": "official-documents/2015-03-03/item-6-a-8-recycling-your-e-waste.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2015-03-03/item-6-a-8-recycling-your-e-waste.pdf",
+      "bytes": 635828,
+      "sha256": "11add08c29698f3d5fbd75d6d19b4d458be4b8ce0803b85454e042713bb82216"
+    },
+    {
+      "path": "official-documents/2015-03-03/item-6-b-2-boys-in-blue-serving-you.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2015-03-03/item-6-b-2-boys-in-blue-serving-you.pdf",
+      "bytes": 792729,
+      "sha256": "7a362584ecf7814d5fe7c3d70400a837ed0c6df943a92eb95fd157d856aacd03"
+    },
+    {
+      "path": "official-documents/2015-03-03/item-6-b-3-low-cost-animal-shot-clinic.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2015-03-03/item-6-b-3-low-cost-animal-shot-clinic.pdf",
+      "bytes": 620162,
+      "sha256": "4f2459dc5477b49fb36ff45f0689162c210e307a977c928cf4c67a0768a8061c"
+    },
+    {
+      "path": "official-documents/2015-03-03/item-6-b-6-community-outlook.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2015-03-03/item-6-b-6-community-outlook.pdf",
+      "bytes": 2736316,
+      "sha256": "ae20a33587ca227be4d244371b8cf5e138e6b910ff90932676deaa2554ba9f02"
+    },
+    {
+      "path": "official-documents/2015-03-03/item-7-a-10-fee-waiver-request-for-breezin-through-beaumont.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2015-03-03/item-7-a-10-fee-waiver-request-for-breezin-through-beaumont.pdf",
+      "bytes": 872998,
+      "sha256": "a4584921ac2530641efff69a63da0c7f6ee06a3fcaf7489d848cafb271eb38ab"
+    },
+    {
+      "path": "official-documents/2015-03-03/item-7-a-11-city-maintained-landscape-area-policy.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2015-03-03/item-7-a-11-city-maintained-landscape-area-policy.pdf",
+      "bytes": 526421,
+      "sha256": "efc811723489f5f760843b3a5857c6ec2a439b446cbd2f531ad8cb44970b130c"
+    },
+    {
+      "path": "official-documents/2015-03-03/item-7-a-2-minutes-of-february-17-2015.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2015-03-03/item-7-a-2-minutes-of-february-17-2015.pdf",
+      "bytes": 3262860,
+      "sha256": "c77523bda0cb5f09926ccf6d16283874081cbf2ba57d38617ee61bca244c3f71"
+    },
+    {
+      "path": "official-documents/2015-03-03/item-7-a-3-minutes-of-february-23-2015.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2015-03-03/item-7-a-3-minutes-of-february-23-2015.pdf",
+      "bytes": 556323,
+      "sha256": "342a55ed938e18433f1a3c64ee1bf5a7d36c52cd8d6a883c78c07cb77930f9fd"
+    },
+    {
+      "path": "official-documents/2015-03-03/item-7-a-4-warrant-list.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2015-03-03/item-7-a-4-warrant-list.pdf",
+      "bytes": 3004575,
+      "sha256": "8d59f9f0d879ce0999f7ac97aa67d705c1e7af71ae3515ab765c9f6761fd7e25"
+    },
+    {
+      "path": "official-documents/2015-03-03/item-7-a-5-agreement-to-provide-financial-security-for-sewer-on-cherry-av.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2015-03-03/item-7-a-5-agreement-to-provide-financial-security-for-sewer-on-cherry-av.pdf",
+      "bytes": 11637548,
+      "sha256": "765a704144f41d241f4593d492c889b0fe18215a93d5c525f7d084aeec814ad7"
+    },
+    {
+      "path": "official-documents/2015-03-03/item-7-a-6-agreement-to-provide-financial-security-for-channel-and-storm.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2015-03-03/item-7-a-6-agreement-to-provide-financial-security-for-channel-and-storm.pdf",
+      "bytes": 13192710,
+      "sha256": "cbb103bb0bf72512761d8f2184c8f3b5444dde7f6cbc69604dbbf7a1f919248a"
+    },
+    {
+      "path": "official-documents/2015-03-03/item-7-a-7-agreement-to-provide-financial-security-for-storm-drain-improv.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2015-03-03/item-7-a-7-agreement-to-provide-financial-security-for-storm-drain-improv.pdf",
+      "bytes": 12890803,
+      "sha256": "c56b6d2434c8b4dcab69f1c6d3efd4fc997c9012b7b9166b73859e6615cda27b"
+    },
+    {
+      "path": "official-documents/2015-03-03/item-7-a-8-notice-of-completion-and-performance-bond-reduction-american.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2015-03-03/item-7-a-8-notice-of-completion-and-performance-bond-reduction-american.pdf",
+      "bytes": 10068285,
+      "sha256": "0b1d3d75b49b053743eba8945782d871d659b6cfb817956031b4b196336786bf"
+    },
+    {
+      "path": "official-documents/2015-03-03/item-7-a-9-final-map-for-pardee-sundance-tract-no-31469-1-and-31469-2.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2015-03-03/item-7-a-9-final-map-for-pardee-sundance-tract-no-31469-1-and-31469-2.pdf",
+      "bytes": 11819564,
+      "sha256": "d6c49c2f6bff291086643f7297e2940875736cea1423479db480893ade0c0294"
+    },
+    {
+      "path": "official-documents/2015-03-03/item-7-b-outdoor-lighting-update.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2015-03-03/item-7-b-outdoor-lighting-update.pdf",
+      "bytes": 46962058,
+      "sha256": "547f12c82d1a29f13ffa7ded36edc8270218bc92dcd4472f5046bf418f6a85ed"
+    },
+    {
+      "path": "official-documents/2015-03-03/item-9-a-city-council-annual-compensation-ordinance.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2015-03-03/item-9-a-city-council-annual-compensation-ordinance.pdf",
+      "bytes": 322819,
+      "sha256": "0e912cda2f0a3c2ba39405b8cb22e6d0e9ab492343898f22a75196431388787b"
+    },
+    {
+      "path": "official-documents/2015-03-03/item-9-b-city-clerk-and-city-treasurer-compensation.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2015-03-03/item-9-b-city-clerk-and-city-treasurer-compensation.pdf",
+      "bytes": 440260,
+      "sha256": "6dd32c24ff570c2753e0cb6bea7f97d7656d303b08eedb8aab9dc0389689e358"
+    },
+    {
+      "path": "official-documents/2015-03-03/item-9-c-political-sign-ordinance-amendment.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2015-03-03/item-9-c-political-sign-ordinance-amendment.pdf",
+      "bytes": 6912822,
+      "sha256": "cfa4d3c60d473954f948f01ad29c077ecfb5c31afd5e0ca8bc4d6b35808b483a"
+    },
+    {
+      "path": "official-documents/2015-09-15/agenda.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2015-09-15/agenda.pdf",
+      "bytes": 4084148,
+      "sha256": "0a3478283696061ae95afcd38a1f1d0ab64160db9bad6ba12ab5f5230df3648e"
+    },
+    {
+      "path": "official-documents/2015-09-15/andrea-avitia-claim.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2015-09-15/andrea-avitia-claim.pdf",
+      "bytes": 3632749,
+      "sha256": "b79bc171414b249d542a9ef1a3e343cf5ab62adb78d0f98b73ac4602e02593fd"
+    },
+    {
+      "path": "official-documents/2015-09-15/fy-2016-budget-document-final.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2015-09-15/fy-2016-budget-document-final.pdf",
+      "bytes": 45017328,
+      "sha256": "0bc3ba6ee7f7ea11793293cc70dcaaef1e500e20cd2dcf9f00d39b3757a2a34a"
+    },
+    {
+      "path": "official-documents/2015-09-15/item-4-a-2015-2016-operating-budget.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2015-09-15/item-4-a-2015-2016-operating-budget.pdf",
+      "bytes": 46203587,
+      "sha256": "d0458c2a43af9ae3d9b4700e7b7702b26c44a02e6435f953e0653133942c65ad"
+    },
+    {
+      "path": "official-documents/2015-09-15/item-4-b-2015-2016-appropriations-limit.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2015-09-15/item-4-b-2015-2016-appropriations-limit.pdf",
+      "bytes": 2671145,
+      "sha256": "074cb88fd05e4da19ea32fec4d89c870211687650a7ac0a383e78ff84f7306c7"
+    },
+    {
+      "path": "official-documents/2015-09-15/item-4-c-ordinance-city-treasurer-duties.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2015-09-15/item-4-c-ordinance-city-treasurer-duties.pdf",
+      "bytes": 2311701,
+      "sha256": "9f10e5bf03e9b15b0d43595c309ccb785fa2d5defbc1df604a2940bfcdb2caab"
+    },
+    {
+      "path": "official-documents/2015-09-15/item-4-d-ordinance-small-residential-rooftop-solar.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2015-09-15/item-4-d-ordinance-small-residential-rooftop-solar.pdf",
+      "bytes": 3915729,
+      "sha256": "f92387c32ffa840fd4a03a08c9e45264f92e804895459e73aec521fcbac95dc4"
+    },
+    {
+      "path": "official-documents/2015-09-15/item-4-e-cdbg-funding-allocation.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2015-09-15/item-4-e-cdbg-funding-allocation.pdf",
+      "bytes": 1130398,
+      "sha256": "9cfc7cab7281cd6f06778f66c0950bb7a061542b75116b3418153b59c1c732bc"
+    },
+    {
+      "path": "official-documents/2015-09-15/item-4-f-outstanding-invoices-ulc.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2015-09-15/item-4-f-outstanding-invoices-ulc.pdf",
+      "bytes": 97998424,
+      "sha256": "8b7a72a9f9e075d8a11d8c0307aa4f6850cc11ba2114476558e5a205b4be4995"
+    },
+    {
+      "path": "official-documents/2015-09-15/item-4-g-invoices-sbemp.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2015-09-15/item-4-g-invoices-sbemp.pdf",
+      "bytes": 4789852,
+      "sha256": "7456354ad81380049be3f8cb8285c90805a219df6008c3edc60faf1c26cd5660"
+    },
+    {
+      "path": "official-documents/2015-09-15/item-5-a-resolution-successor-agency-administrative-budget.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2015-09-15/item-5-a-resolution-successor-agency-administrative-budget.pdf",
+      "bytes": 2477864,
+      "sha256": "5c2f2c65505a4c28c524158faff2a3fb5e34fa9118c75dfa2189406ca6a851d4"
+    },
+    {
+      "path": "official-documents/2015-09-15/item-5-b-resolution-successor-agency-rops.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2015-09-15/item-5-b-resolution-successor-agency-rops.pdf",
+      "bytes": 4834637,
+      "sha256": "eacbbff171c910cb58c36f308fa30e6012d0638353e8954cd59209379a084ff6"
+    },
+    {
+      "path": "official-documents/2015-09-15/item-5-c-notice-of-vacant-postion.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2015-09-15/item-5-c-notice-of-vacant-postion.pdf",
+      "bytes": 684445,
+      "sha256": "bafbed2b37121dbb82fa65c9881a328be2a81163489016dfbf2e85c2039efe1a"
+    },
+    {
+      "path": "official-documents/2015-09-15/item-6-a-2-response-to-questions-1086-edgar.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2015-09-15/item-6-a-2-response-to-questions-1086-edgar.pdf",
+      "bytes": 3250858,
+      "sha256": "8de05dd103261561258ef41da330caf918949703343eed271cef216c61666c8d"
+    },
+    {
+      "path": "official-documents/2015-09-15/item-6-a-3-response-to-questions-1070-edgar.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2015-09-15/item-6-a-3-response-to-questions-1070-edgar.pdf",
+      "bytes": 1781783,
+      "sha256": "945bd0200bb8782695899187292e97a07e02c7df58db894c6c54dcfd40d82b12"
+    },
+    {
+      "path": "official-documents/2015-09-15/item-6-a-4-response-to-questions-utility-partners.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2015-09-15/item-6-a-4-response-to-questions-utility-partners.pdf",
+      "bytes": 4339101,
+      "sha256": "4b821e9762b10bf233f0ebd07026e3c11adbaed6d0a66ff4f4920fe47862b304"
+    },
+    {
+      "path": "official-documents/2015-09-15/item-6-a-5-response-to-questions-hisam-baqai.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2015-09-15/item-6-a-5-response-to-questions-hisam-baqai.pdf",
+      "bytes": 706547,
+      "sha256": "256f3e03ce4ef15342c3b3d13b55dffa106f388b0a1879634dd61231db986542"
+    },
+    {
+      "path": "official-documents/2015-09-15/item-6-a-6-response-to-questions-wildermuth-environmental.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2015-09-15/item-6-a-6-response-to-questions-wildermuth-environmental.pdf",
+      "bytes": 1235342,
+      "sha256": "2a58951d2efc5fa0c13ec9596046f784e9d92d18ec52e7bbbbdb32acedbfa4cd"
+    },
+    {
+      "path": "official-documents/2015-09-15/item-6-a-7-response-to-questions-coi-ia-19a.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2015-09-15/item-6-a-7-response-to-questions-coi-ia-19a.pdf",
+      "bytes": 4081543,
+      "sha256": "01bc6152a62a59bdfbab73e093ba01e426f8c55ea9ed32060bbcb6f5d2177cf7"
+    },
+    {
+      "path": "official-documents/2015-09-15/item-6-a-8-beaumont-chamber-of-commerce.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2015-09-15/item-6-a-8-beaumont-chamber-of-commerce.pdf",
+      "bytes": 1377306,
+      "sha256": "692addab56202076550f70e741b0a161b2331edefb2020a481b0966f4f1a5dde"
+    },
+    {
+      "path": "official-documents/2015-09-15/item-6-b-1-community-outlook.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2015-09-15/item-6-b-1-community-outlook.pdf",
+      "bytes": 3016435,
+      "sha256": "5f32df35b9b3a4460e793fc8efe6928e82d9da5c447cac116c8a06b91f64a245"
+    },
+    {
+      "path": "official-documents/2015-09-15/item-9-b-minutes-of-august-4-2015-revised-per-council.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2015-09-15/item-9-b-minutes-of-august-4-2015-revised-per-council.pdf",
+      "bytes": 2532564,
+      "sha256": "652f9f2d73b29a9579977f896d59a9e4228c0359e36763906194968f947c0442"
+    },
+    {
+      "path": "official-documents/2015-09-15/item-9-c-minutes-of-august-18-2015.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2015-09-15/item-9-c-minutes-of-august-18-2015.pdf",
+      "bytes": 13658907,
+      "sha256": "e4c393e2dcfef13d42187086798554f5769a47104c25031ebe9e9b2ccdabe0b7"
+    },
+    {
+      "path": "official-documents/2015-09-15/item-9-d-minutes-of-august-24-2015.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2015-09-15/item-9-d-minutes-of-august-24-2015.pdf",
+      "bytes": 706385,
+      "sha256": "4ffca6b0e56d34a751adaf552b6a749fb237b5f6f03e953df3856e4fe925cb81"
+    },
+    {
+      "path": "official-documents/2015-09-15/item-9-e-minutes-of-august-26-2015.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2015-09-15/item-9-e-minutes-of-august-26-2015.pdf",
+      "bytes": 527170,
+      "sha256": "5aa73ed9631138137258c1bd2afc8841d921bd66f2f2dede9b88e0c5eba7cc8d"
+    },
+    {
+      "path": "official-documents/2015-09-15/item-9-f-minutes-of-september-1-2015.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2015-09-15/item-9-f-minutes-of-september-1-2015.pdf",
+      "bytes": 2249540,
+      "sha256": "d8cb92c601b3a2dd9d067a78176ddc97b81edc4c8b07f1b62df5013cfa3e7941"
+    },
+    {
+      "path": "official-documents/2015-09-15/item-9-g-minutes-of-september-9-2015.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2015-09-15/item-9-g-minutes-of-september-9-2015.pdf",
+      "bytes": 1245124,
+      "sha256": "1cdbb7eafdff86474970d92644a24ff89bcf49e1f98bd3ca21ec41139f6f680f"
+    },
+    {
+      "path": "official-documents/2015-09-15/item-9-h-ratification-of-warrants.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2015-09-15/item-9-h-ratification-of-warrants.pdf",
+      "bytes": 808177,
+      "sha256": "d2b321a90299804a072200b196821bbaee672ff169967f204270058ce60f125b"
+    },
+    {
+      "path": "official-documents/2015-09-15/item-9-i-ordinance-standing-financial-committee-2nd-reading.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2015-09-15/item-9-i-ordinance-standing-financial-committee-2nd-reading.pdf",
+      "bytes": 2771553,
+      "sha256": "bd0d2d926e10f9b73392e184f9570d6b1680fe01fc7020ed0bb6d6a9c597687d"
+    },
+    {
+      "path": "official-documents/2015-09-15/item-9-j-rfp-on-call-environmental-consulting-services.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2015-09-15/item-9-j-rfp-on-call-environmental-consulting-services.pdf",
+      "bytes": 4277818,
+      "sha256": "34fcd3b78d34205b5db777a123a97360d45d7003036de3b2704db4ee6a84b932"
+    },
+    {
+      "path": "official-documents/2015-09-15/item-9-k-interim-staffing-services-muni-temp.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2015-09-15/item-9-k-interim-staffing-services-muni-temp.pdf",
+      "bytes": 2812652,
+      "sha256": "02510af79ac5427a77929bce455e1a0a4e6a030517afda96efab6e2bf7f58560"
+    },
+    {
+      "path": "official-documents/2015-09-15/item-9-l-interim-staffing-services-accountemps.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2015-09-15/item-9-l-interim-staffing-services-accountemps.pdf",
+      "bytes": 802770,
+      "sha256": "6cf0654e5f18fdc098252c41dc2b41ca76bd9ecd933546ca8693decb128090d4"
+    },
+    {
+      "path": "official-documents/2015-09-15/item-9-m-reimbursement-request-orozco.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2015-09-15/item-9-m-reimbursement-request-orozco.pdf",
+      "bytes": 3073355,
+      "sha256": "c28ed8063aa6eb3dddee154965c84160ee5baf3728093d0cec0bf34e90e44cc1"
+    },
+    {
+      "path": "official-documents/2015-09-15/item-9-o-certificate-of-acceptance.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2015-09-15/item-9-o-certificate-of-acceptance.pdf",
+      "bytes": 1037720,
+      "sha256": "14b11e82fcd35c9ad8dbbfd36f1ffda7b7577fd5614a7694c88a57d08156eec0"
+    },
+    {
+      "path": "official-documents/2015-09-15/item-9-p-purchase-of-wwtp-sludge-pump.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2015-09-15/item-9-p-purchase-of-wwtp-sludge-pump.pdf",
+      "bytes": 19426112,
+      "sha256": "5a6abc2bc1b494ff8aed1285ed241dcba46d1873b79d90c572d750817b3696b4"
+    },
+    {
+      "path": "official-documents/2015-09-15/item-9-q-agreement-to-provide-security-14-pp-03.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2015-09-15/item-9-q-agreement-to-provide-security-14-pp-03.pdf",
+      "bytes": 10571579,
+      "sha256": "46373f1b94435168686e527e9636a116a198e642e89d2e83bcaf2e6871965026"
+    },
+    {
+      "path": "official-documents/2015-09-15/item-9-r-resolution-designating-the-city-engineer-public-improvment-p.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2015-09-15/item-9-r-resolution-designating-the-city-engineer-public-improvment-p.pdf",
+      "bytes": 2515229,
+      "sha256": "9695caacbc37c71629694c61a5f36258c99c114bc0ece25b76037aed6591ee39"
+    },
+    {
+      "path": "official-documents/2015-09-15/item-9-s-final-map-31462-7.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2015-09-15/item-9-s-final-map-31462-7.pdf",
+      "bytes": 14333394,
+      "sha256": "6a51ca111e785b6457f54937a3f34a5bb9b0d72b7b12fd30d495f16ac56d7368"
+    },
+    {
+      "path": "official-documents/2015-09-15/item-9-t-transfer-of-ab109.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2015-09-15/item-9-t-transfer-of-ab109.pdf",
+      "bytes": 2078216,
+      "sha256": "664dee44d8844e4f0b4be6a9a749cbbaaabee78a3d5f23d890215ef87360edec"
+    },
+    {
+      "path": "official-documents/2015-09-15/item-9-u-request-for-expenditure-cop-logic-online-reporting-system.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2015-09-15/item-9-u-request-for-expenditure-cop-logic-online-reporting-system.pdf",
+      "bytes": 561043,
+      "sha256": "bbad4fbfe3035736cb686c446d2b61a203d44acb2474054b080fcb1df35046cc"
+    },
+    {
+      "path": "official-documents/2015-09-15/item-9-v-request-for-expenditures-gunshot-residue-detection.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2015-09-15/item-9-v-request-for-expenditures-gunshot-residue-detection.pdf",
+      "bytes": 757422,
+      "sha256": "dade2f1154569cad2b60cd1af1f830defed367ffb95c825192ff99e7fb6b1d8d"
+    },
+    {
+      "path": "official-documents/2015-09-15/outlook-sept2.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2015-09-15/outlook-sept2.pdf",
+      "bytes": 2821086,
+      "sha256": "b428c57b07f7b0de06ba25ba5ee212c885a13a7f08624c6d5ab89d2a6e9cce10"
+    },
+    {
+      "path": "official-documents/2015-09-15/skmbt-c652d15091115500-201509111900402134.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2015-09-15/skmbt-c652d15091115500-201509111900402134.pdf",
+      "bytes": 2165848,
+      "sha256": "ed2b32ce7b32cb281d2591cd53bc56bed8cad759175ee48a2db88d1c8270684b"
+    },
+    {
+      "path": "official-documents/2015-09-15/staff-report-fy-2016-appropriations-limit.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2015-09-15/staff-report-fy-2016-appropriations-limit.pdf",
+      "bytes": 1867610,
+      "sha256": "36b9fe680a59982700310efe5dc2aaaf2bc2bdf00fed8e15af6a63fd89fb1191"
+    },
+    {
+      "path": "official-documents/2015-09-15/staff-report-interim-staffing-services-purchase-orders-account-temps.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2015-09-15/staff-report-interim-staffing-services-purchase-orders-account-temps.pdf",
+      "bytes": 1420227,
+      "sha256": "e23028a6fca6d12d53a9dc006e7c18846220066c50ecee75f4406ee6dc199497"
+    },
     {
       "path": "official-documents/2023-05-02/d-7-staff-report-flock-encroachment-agreement.pdf",
       "url": "https://documents.beaumontintelligence.com/official-documents/2023-05-02/d-7-staff-report-flock-encroachment-agreement.pdf",

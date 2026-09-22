@@ -1,0 +1,167 @@
+{
+  "date": "2015-03-03",
+  "providedArchive": "ExportedContents (1).Zip",
+  "videoUrl": null,
+  "transcriptPath": null,
+  "attachmentAuditStatus": "partial",
+  "notes": "20 supplied files preserved byte-for-byte. Supporting attachments not substantively reviewed; agenda completeness and outcomes not verified.",
+  "documents": [
+    {
+      "originalFilename": "City Council Agenda.pdf",
+      "path": "official-documents/2015-03-03/agenda.pdf",
+      "sha256": "b11619f7923ec6fa73dac7f8989e2d2092e157b5f215a5e7a90d86523f4b1e38",
+      "pages": 3,
+      "reviewStatus": "date-and-wrcog-listings-verified"
+    },
+    {
+      "originalFilename": "Item 6.a.1.a - Rail Station.pdf",
+      "path": "official-documents/2015-03-03/item-6-a-1-a-rail-station.pdf",
+      "sha256": "9a50553cd7f4d99f1301359663a1db2094938eea1372e9728bde61da37d6fb6f",
+      "pages": 6,
+      "reviewStatus": "pending"
+    },
+    {
+      "originalFilename": "Item 6.a.8 - Recycling Your E-Waste.pdf",
+      "path": "official-documents/2015-03-03/item-6-a-8-recycling-your-e-waste.pdf",
+      "sha256": "11add08c29698f3d5fbd75d6d19b4d458be4b8ce0803b85454e042713bb82216",
+      "pages": 1,
+      "reviewStatus": "pending"
+    },
+    {
+      "originalFilename": "Item 6.b.2 - Boys in Blue Serving You.pdf",
+      "path": "official-documents/2015-03-03/item-6-b-2-boys-in-blue-serving-you.pdf",
+      "sha256": "7a362584ecf7814d5fe7c3d70400a837ed0c6df943a92eb95fd157d856aacd03",
+      "pages": 1,
+      "reviewStatus": "pending"
+    },
+    {
+      "originalFilename": "Item 6.b.3 - Low Cost Animal Shot Clinic.pdf",
+      "path": "official-documents/2015-03-03/item-6-b-3-low-cost-animal-shot-clinic.pdf",
+      "sha256": "4f2459dc5477b49fb36ff45f0689162c210e307a977c928cf4c67a0768a8061c",
+      "pages": 1,
+      "reviewStatus": "pending"
+    },
+    {
+      "originalFilename": "Item 6.b.6 - Community Outlook.pdf",
+      "path": "official-documents/2015-03-03/item-6-b-6-community-outlook.pdf",
+      "sha256": "ae20a33587ca227be4d244371b8cf5e138e6b910ff90932676deaa2554ba9f02",
+      "pages": 2,
+      "reviewStatus": "pending"
+    },
+    {
+      "originalFilename": "Item 7.a.10 - Fee Waiver Request for Breezin through Beaumont.pdf",
+      "path": "official-documents/2015-03-03/item-7-a-10-fee-waiver-request-for-breezin-through-beaumont.pdf",
+      "sha256": "a4584921ac2530641efff69a63da0c7f6ee06a3fcaf7489d848cafb271eb38ab",
+      "pages": 2,
+      "reviewStatus": "pending"
+    },
+    {
+      "originalFilename": "Item 7.a.11 - City Maintained Landscape Area Policy.pdf",
+      "path": "official-documents/2015-03-03/item-7-a-11-city-maintained-landscape-area-policy.pdf",
+      "sha256": "efc811723489f5f760843b3a5857c6ec2a439b446cbd2f531ad8cb44970b130c",
+      "pages": 1,
+      "reviewStatus": "pending"
+    },
+    {
+      "originalFilename": "Item 7.a.2 - Minutes of February 17, 2015.pdf",
+      "path": "official-documents/2015-03-03/item-7-a-2-minutes-of-february-17-2015.pdf",
+      "sha256": "c77523bda0cb5f09926ccf6d16283874081cbf2ba57d38617ee61bca244c3f71",
+      "pages": 5,
+      "reviewStatus": "pending"
+    },
+    {
+      "originalFilename": "Item 7.a.3 - Minutes of February 23, 2015.pdf",
+      "path": "official-documents/2015-03-03/item-7-a-3-minutes-of-february-23-2015.pdf",
+      "sha256": "342a55ed938e18433f1a3c64ee1bf5a7d36c52cd8d6a883c78c07cb77930f9fd",
+      "pages": 1,
+      "reviewStatus": "pending"
+    },
+    {
+      "originalFilename": "Item 7.a.4 - Warrant List.pdf",
+      "path": "official-documents/2015-03-03/item-7-a-4-warrant-list.pdf",
+      "sha256": "8d59f9f0d879ce0999f7ac97aa67d705c1e7af71ae3515ab765c9f6761fd7e25",
+      "pages": 5,
+      "reviewStatus": "pending"
+    },
+    {
+      "originalFilename": "Item 7.a.5 - Agreement to Provide Financial Security for Sewer on Cherry Av.pdf",
+      "path": "official-documents/2015-03-03/item-7-a-5-agreement-to-provide-financial-security-for-sewer-on-cherry-av.pdf",
+      "sha256": "765a704144f41d241f4593d492c889b0fe18215a93d5c525f7d084aeec814ad7",
+      "pages": 15,
+      "reviewStatus": "pending"
+    },
+    {
+      "originalFilename": "Item 7.a.6 - Agreement to Provide Financial Security for Channel and Storm .pdf",
+      "path": "official-documents/2015-03-03/item-7-a-6-agreement-to-provide-financial-security-for-channel-and-storm.pdf",
+      "sha256": "cbb103bb0bf72512761d8f2184c8f3b5444dde7f6cbc69604dbbf7a1f919248a",
+      "pages": 15,
+      "reviewStatus": "pending"
+    },
+    {
+      "originalFilename": "Item 7.a.7 - Agreement to Provide Financial Security for Storm Drain Improv.pdf",
+      "path": "official-documents/2015-03-03/item-7-a-7-agreement-to-provide-financial-security-for-storm-drain-improv.pdf",
+      "sha256": "c56b6d2434c8b4dcab69f1c6d3efd4fc997c9012b7b9166b73859e6615cda27b",
+      "pages": 15,
+      "reviewStatus": "pending"
+    },
+    {
+      "originalFilename": "Item 7.a.8 - Notice of Completion and Performance Bond Reduction - American.pdf",
+      "path": "official-documents/2015-03-03/item-7-a-8-notice-of-completion-and-performance-bond-reduction-american.pdf",
+      "sha256": "0b1d3d75b49b053743eba8945782d871d659b6cfb817956031b4b196336786bf",
+      "pages": 16,
+      "reviewStatus": "pending"
+    },
+    {
+      "originalFilename": "Item 7.a.9 - Final Map for Pardee Sundance Tract No. 31469-1 and 31469-2.pdf",
+      "path": "official-documents/2015-03-03/item-7-a-9-final-map-for-pardee-sundance-tract-no-31469-1-and-31469-2.pdf",
+      "sha256": "d6c49c2f6bff291086643f7297e2940875736cea1423479db480893ade0c0294",
+      "pages": 13,
+      "reviewStatus": "pending"
+    },
+    {
+      "originalFilename": "Item 7.b - Outdoor Lighting Update.pdf",
+      "path": "official-documents/2015-03-03/item-7-b-outdoor-lighting-update.pdf",
+      "sha256": "547f12c82d1a29f13ffa7ded36edc8270218bc92dcd4472f5046bf418f6a85ed",
+      "pages": 60,
+      "reviewStatus": "pending"
+    },
+    {
+      "originalFilename": "Item 9.a. - City Council Annual Compensation Ordinance.pdf",
+      "path": "official-documents/2015-03-03/item-9-a-city-council-annual-compensation-ordinance.pdf",
+      "sha256": "0e912cda2f0a3c2ba39405b8cb22e6d0e9ab492343898f22a75196431388787b",
+      "pages": 1,
+      "reviewStatus": "pending"
+    },
+    {
+      "originalFilename": "Item 9.b - City Clerk and City Treasurer Compensation.pdf",
+      "path": "official-documents/2015-03-03/item-9-b-city-clerk-and-city-treasurer-compensation.pdf",
+      "sha256": "6dd32c24ff570c2753e0cb6bea7f97d7656d303b08eedb8aab9dc0389689e358",
+      "pages": 1,
+      "reviewStatus": "pending"
+    },
+    {
+      "originalFilename": "Item 9.c - Political Sign Ordinance Amendment.pdf",
+      "path": "official-documents/2015-03-03/item-9-c-political-sign-ordinance-amendment.pdf",
+      "sha256": "cfa4d3c60d473954f948f01ad29c077ecfb5c31afd5e0ca8bc4d6b35808b483a",
+      "pages": 13,
+      "reviewStatus": "pending"
+    }
+  ],
+  "sourceIds": [
+    "SRC-0028"
+  ],
+  "wrcogCases": [
+    {
+      "item": "10.b.1",
+      "case": "RIC 536164",
+      "parties": "WRCOG v. City of Beaumont",
+      "postedStatus": "Appeal Filed"
+    },
+    {
+      "item": "10.b.4",
+      "case": "RIC 1211222",
+      "parties": "City of Beaumont v. WRCOG/RCTC",
+      "postedStatus": "Stayed"
+    }
+  ]
+}
