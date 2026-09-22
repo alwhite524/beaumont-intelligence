@@ -1,0 +1,79 @@
+{
+  "sourceId": "SRC-0035",
+  "status": "approval-packet-text-verified",
+  "executionVerified": false,
+  "collectionsVerified": false,
+  "allocation": {
+    "section": "1.3.5",
+    "packetPage": 164,
+    "extractPage": 20,
+    "tiers": [
+      {
+        "range": "First $9,000,000",
+        "wrcogPercent": 100,
+        "beaumontPercent": 0
+      },
+      {
+        "range": "$9,000,001–$12,000,000",
+        "wrcogPercent": 85,
+        "beaumontPercent": 15
+      },
+      {
+        "range": "$12,000,001–$18,000,000",
+        "wrcogPercent": 65,
+        "beaumontPercent": 35
+      },
+      {
+        "range": "$18,000,001 and above",
+        "wrcogPercent": 50,
+        "beaumontPercent": 50
+      }
+    ],
+    "scope": "Recoveries related to defined Third Party Claims; no actual allocations calculated."
+  },
+  "findings": [
+    {
+      "title": "Guarantee and legal fees",
+      "packetPages": "164",
+      "extractPages": "20",
+      "text": "Section 1.3.6: the City guarantees WRCOG recovery of $7 million from Third Party Claims, plus a fee share equal to the lesser of 50% of legal fees incurred pursuing those claims or $1 million. WRCOG advances that fee share; reimbursement forms part of the Litigation Guaranty."
+    },
+    {
+      "title": "Conditional repayment",
+      "packetPages": "164–165",
+      "extractPages": "20–21",
+      "text": "If recoveries had not reached $8 million by July 1, 2022, the text provides for annual payments beginning August 1, 2022 over 20 years, adjusted for subsequent recoveries. This records a conditional provision, not a finding that payments became due or were made. Section 1.3.7 addresses indemnity and the guarantee cap."
+    },
+    {
+      "title": "Claims and assignment",
+      "packetPages": "162–164",
+      "extractPages": "18–20",
+      "text": "Defined Third Party Claims include certain restitution claims as well as other claims. Assignment is upon written request from WRCOG; the packet does not establish that every criminal restitution payment was credited under this provision."
+    },
+    {
+      "title": "Other obligations remain separate",
+      "packetPages": "163",
+      "extractPages": "19",
+      "text": "The text separately addresses Measure A revenue sharing capped at $9.4 million, including an $8 million recovery condition; a $2 million payment to WRCOG; $2.1 million for Cherry Valley Boulevard/I-10 design; a $3 million designated Pennsylvania Avenue account; and transportation improvements. These obligations are not recovery receipts."
+    },
+    {
+      "title": "Judgment recital is not the later balance",
+      "packetPages": "160",
+      "extractPages": "16",
+      "text": "The recitals state $42,994,879 principal, $14,809,096 prejudgment interest, and $2,077,525 fees/costs, totaling $59,881,500, with further interest described at $8,246 per day. This does not by itself verify the later approximately $62 million figure."
+    },
+    {
+      "title": "Release language and execution",
+      "packetPages": "160, 165–166, 171–173",
+      "extractPages": "16, 21–22, 27–29",
+      "text": "Section 2 contains releases with exceptions for Third Party Claims. The agreement states effectiveness requires full execution and governing-body approval; signature lines in this approval copy are blank. Actual execution and court dismissal require further records."
+    },
+    {
+      "title": "Original April agreement and May amendment",
+      "packetPages": "145 (May staff report); April packet 7 and 11",
+      "extractPages": "1 (May); April extract 1 and 5",
+      "text": "The April approval copy names the City and WRCOG and contains the same recovery brackets and guarantee in the reviewed clauses. The May staff report describes adding City-related entities and assignment upon WRCOG written request. The April packet also supplies Exhibits 1–6, inventoried but not fully analyzed. Both packet copies have blank signature lines; this is a limited comparison, not verification of execution."
+    }
+  ],
+  "originalAgreementSourceId": "SRC-0036"
+}

@@ -1,0 +1,24 @@
+{
+  "originalFilename": "Agenda Package - City Council Closed and Regular Session_Apr04_2017.pdf",
+  "sourceIds": [
+    "SRC-0036"
+  ],
+  "documents": [
+    {
+      "path": "records/agenda-packets/2017-04-04/2017-04-04-city-council-agenda-package.pdf",
+      "pages": 621,
+      "sha256": "d9fba92ab65864a31d2d3934c814e7049b849a1e25c52fc23e176c4127a2fc95"
+    },
+    {
+      "path": "official-documents/2017-04-04/item-1-wrcog-settlement-agreement-and-exhibits.pdf",
+      "pages": 42,
+      "sha256": "c2594fb81c33bd7b1960b7cfae9bdb945327cb8fec7ee89ee90e7e833d58f79c"
+    }
+  ],
+  "extractPacketPages": [
+    7,
+    48
+  ],
+  "reviewStatus": "partial; cited agreement pages visually reviewed; exhibits inventoried",
+  "comparisonToSource": "SRC-0035"
+}

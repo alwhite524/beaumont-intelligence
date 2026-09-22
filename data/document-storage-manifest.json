@@ -1,8 +1,8 @@
 {
   "bucket": "beaumont-intelligence-documents",
   "public_base_url": "https://documents.beaumontintelligence.com",
-  "document_count": 1899,
-  "total_bytes": 11225604087,
+  "document_count": 1903,
+  "total_bytes": 12964116518,
   "documents": [
     {
       "path": "official-documents/2015-03-03/agenda.pdf",
@@ -417,6 +417,18 @@
       "url": "https://documents.beaumontintelligence.com/official-documents/2016/2016-council-minutes.pdf",
       "bytes": 136064258,
       "sha256": "d353a5e995bf84406dc5fef9eddbacd50aab0d4c2014aa9756efd288c981b831"
+    },
+    {
+      "path": "official-documents/2017-04-04/item-1-wrcog-settlement-agreement-and-exhibits.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2017-04-04/item-1-wrcog-settlement-agreement-and-exhibits.pdf",
+      "bytes": 23523539,
+      "sha256": "c2594fb81c33bd7b1960b7cfae9bdb945327cb8fec7ee89ee90e7e833d58f79c"
+    },
+    {
+      "path": "official-documents/2017-05-16/item-3-wrcog-amended-settlement-staff-report-and-attachments.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2017-05-16/item-3-wrcog-amended-settlement-staff-report-and-attachments.pdf",
+      "bytes": 16763459,
+      "sha256": "1463da36f982453bd01328519f0c855ecfc7ea8a77a7d46a9f6e854b17a47717"
     },
     {
       "path": "official-documents/2017/2017-council-minutes.pdf",
@@ -11247,6 +11259,18 @@
       "url": "https://documents.beaumontintelligence.com/records/agenda-packets/2017-03-07/2017-03-07-city-council-agenda-package.pdf",
       "bytes": 123442244,
       "sha256": "b6c63954ea29bb40b7794e4e394b3a12334e3e53b0c63c8c4c1c82d5ecfece05"
+    },
+    {
+      "path": "records/agenda-packets/2017-04-04/2017-04-04-city-council-agenda-package.pdf",
+      "url": "https://documents.beaumontintelligence.com/records/agenda-packets/2017-04-04/2017-04-04-city-council-agenda-package.pdf",
+      "bytes": 356736296,
+      "sha256": "d9fba92ab65864a31d2d3934c814e7049b849a1e25c52fc23e176c4127a2fc95"
+    },
+    {
+      "path": "records/agenda-packets/2017-05-16/2017-05-16-city-council-agenda-package.pdf",
+      "url": "https://documents.beaumontintelligence.com/records/agenda-packets/2017-05-16/2017-05-16-city-council-agenda-package.pdf",
+      "bytes": 1341489137,
+      "sha256": "11b37c2fe766391cc7586dfe84b6e960050c97cb3e7f9844bfc7380dd449545c"
     },
     {
       "path": "records/agenda-packets/2021/2021-06-01_City-Council_Agenda-Packet.pdf",

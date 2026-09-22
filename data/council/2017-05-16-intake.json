@@ -1,0 +1,23 @@
+{
+  "originalFilename": "Agenda Package - City Council Closed and Regular Session_May16_2017.pdf",
+  "sourceIds": [
+    "SRC-0035"
+  ],
+  "documents": [
+    {
+      "path": "records/agenda-packets/2017-05-16/2017-05-16-city-council-agenda-package.pdf",
+      "sha256": "11b37c2fe766391cc7586dfe84b6e960050c97cb3e7f9844bfc7380dd449545c",
+      "pages": 999
+    },
+    {
+      "path": "official-documents/2017-05-16/item-3-wrcog-amended-settlement-staff-report-and-attachments.pdf",
+      "sha256": "1463da36f982453bd01328519f0c855ecfc7ea8a77a7d46a9f6e854b17a47717",
+      "pages": 29
+    }
+  ],
+  "extractPacketPages": [
+    145,
+    173
+  ],
+  "reviewStatus": "partial; cited Item 3 pages visually reviewed"
+}
