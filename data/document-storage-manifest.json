@@ -1,8 +1,8 @@
 {
   "bucket": "beaumont-intelligence-documents",
   "public_base_url": "https://documents.beaumontintelligence.com",
-  "document_count": 1892,
-  "total_bytes": 10557542834,
+  "document_count": 1897,
+  "total_bytes": 10969892680,
   "documents": [
     {
       "path": "official-documents/2015-03-03/agenda.pdf",
@@ -393,6 +393,36 @@
       "url": "https://documents.beaumontintelligence.com/official-documents/2015-09-15/staff-report-interim-staffing-services-purchase-orders-account-temps.pdf",
       "bytes": 1420227,
       "sha256": "e23028a6fca6d12d53a9dc006e7c18846220066c50ecee75f4406ee6dc199497"
+    },
+    {
+      "path": "official-documents/2015/2015-council-minutes.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2015/2015-council-minutes.pdf",
+      "bytes": 152976834,
+      "sha256": "5fbec32426684582cadf0fc1d3061f4afb7a12ace6f723526b15ac54374c62c9"
+    },
+    {
+      "path": "official-documents/2016-09-12/special-meeting-minutes.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2016-09-12/special-meeting-minutes.pdf",
+      "bytes": 883354,
+      "sha256": "59e2f1742a737962e9fe0310c4b38707f80b8b2e5434e613445e808ff9e91c5e"
+    },
+    {
+      "path": "official-documents/2016-10-12/special-meeting-minutes.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2016-10-12/special-meeting-minutes.pdf",
+      "bytes": 897251,
+      "sha256": "d229c0174d22c963b3bfa7b8887eff5bdad08d3c87eb90ec5a67f9037771e60c"
+    },
+    {
+      "path": "official-documents/2016/2016-council-minutes.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2016/2016-council-minutes.pdf",
+      "bytes": 136064258,
+      "sha256": "d353a5e995bf84406dc5fef9eddbacd50aab0d4c2014aa9756efd288c981b831"
+    },
+    {
+      "path": "official-documents/2017/2017-council-minutes.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2017/2017-council-minutes.pdf",
+      "bytes": 121528149,
+      "sha256": "8fa3471c3f1570ae03a7b58ff04ed86e44d5260cd827af47c320b024cf0665c1"
     },
     {
       "path": "official-documents/2023-05-02/d-7-staff-report-flock-encroachment-agreement.pdf",

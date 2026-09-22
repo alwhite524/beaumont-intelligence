@@ -1,0 +1,38 @@
+{
+  "originalFilename": "2017 Minutes.pdf",
+  "path": "official-documents/2017/2017-council-minutes.pdf",
+  "pages": 189,
+  "sha256": "8fa3471c3f1570ae03a7b58ff04ed86e44d5260cd827af47c320b024cf0665c1",
+  "sourceIds": [
+    "SRC-0032"
+  ],
+  "reviewStatus": "partial; listed findings visually verified",
+  "findings": [
+    {
+      "date": "2017-04-04",
+      "pdfPage": 53,
+      "finding": "Council authorized the Mayor to sign the settlement agreement. Motion by Lara, second by White; carried."
+    },
+    {
+      "date": "2017-05-16",
+      "pdfPage": 77,
+      "finding": "Item 3: Amended and Restated Settlement Agreement and Release approved 4–0, Orozco absent. Motion by Lara, second by Carroll."
+    },
+    {
+      "date": "2017-06-20",
+      "pdfPage": 98,
+      "finding": "Item 24: approved and authorized the Mayor to execute the WRCOG JPA addendum and appointed Lara as alternate committee member; carried 4–0."
+    },
+    {
+      "date": "2017-07-18",
+      "pdfPage": 104,
+      "finding": "Resolution approving an addendum to join WRCOG as a member agency carried 3–0."
+    },
+    {
+      "date": "2017-09-05",
+      "pdfPage": 131,
+      "finding": "Council adopted the TUMF ordinance adding Chapter 3.31 and the TUMF fee schedule resolution; carried 4–0."
+    }
+  ],
+  "limitations": "189-page user-supplied compilation preserved byte-for-byte. Five cited action pages visually reviewed, including vote marks rather than relying on OCR. These findings establish recorded Council actions only; execution, effective dates, dismissal, financial terms, allocations, and receipts require the underlying agreements and other records. Minutes adoption dates not separately established; compilation completeness not assumed."
+}

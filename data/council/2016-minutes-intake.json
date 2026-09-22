@@ -1,0 +1,29 @@
+{
+  "providedArchive": "ExportedContents (2).Zip",
+  "documents": [
+    {
+      "originalFilename": "2016 CC Minutes.pdf",
+      "path": "official-documents/2016/2016-council-minutes.pdf",
+      "pages": 204,
+      "sha256": "d353a5e995bf84406dc5fef9eddbacd50aab0d4c2014aa9756efd288c981b831"
+    },
+    {
+      "originalFilename": "CC Minutes 09.12.16 Sp Mtg.pdf",
+      "path": "official-documents/2016-09-12/special-meeting-minutes.pdf",
+      "pages": 2,
+      "sha256": "59e2f1742a737962e9fe0310c4b38707f80b8b2e5434e613445e808ff9e91c5e"
+    },
+    {
+      "originalFilename": "CC Minutes 10.12.16 Sp Mtg.pdf",
+      "path": "official-documents/2016-10-12/special-meeting-minutes.pdf",
+      "pages": 2,
+      "sha256": "d229c0174d22c963b3bfa7b8887eff5bdad08d3c87eb90ec5a67f9037771e60c"
+    }
+  ],
+  "sourceIds": [
+    "SRC-0030",
+    "SRC-0031"
+  ],
+  "reviewStatus": "partial",
+  "notes": "WRCOG report-outs verified for August 2 and September 12. October 12 concerns a separate tolling agreement with Local Union 1184 and Timoteo Land Development and is not classified as WRCOG evidence. No assumption that this compilation contains every 2016 meeting."
+}

@@ -148,7 +148,8 @@
     }
   ],
   "sourceIds": [
-    "SRC-0028"
+    "SRC-0028",
+    "SRC-0029"
   ],
   "wrcogCases": [
     {
@@ -163,5 +164,13 @@
       "parties": "City of Beaumont v. WRCOG/RCTC",
       "postedStatus": "Stayed"
     }
-  ]
+  ],
+  "minutesEvidence": {
+    "sourceId": "SRC-0029",
+    "pdfPage": 25,
+    "finding": "No reportable action taken",
+    "scope": "Closed session as a whole",
+    "verificationStatus": "verified-primary",
+    "approvalDate": null
+  }
 }

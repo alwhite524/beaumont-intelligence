@@ -12,8 +12,8 @@
     "agendaFinding": "Western Riverside Council of Governments v. City of Beaumont; appeal filed.",
     "transcriptTimestamp": "1:18:11",
     "transcriptFinding": "Transcript reports no reportable action for WRCOG litigation.",
-    "verificationStatus": "partially-verified",
-    "limitation": "Agenda page visually verified; report-out is transcript-derived, not checked against video or approved minutes."
+    "verificationStatus": "verified-primary",
+    "limitation": "Agenda listing and no-reportable-action finding supported by supplied minutes (PDF page 155). Exact transcript timestamp not independently checked against video. No confidential discussion inferred."
   },
   "documents": [
     {
@@ -331,5 +331,16 @@
       "pages": 3,
       "reviewStatus": "not-reviewed"
     }
-  ]
+  ],
+  "sourceIds": [
+    "SRC-0029"
+  ],
+  "minutesEvidence": {
+    "sourceId": "SRC-0029",
+    "pdfPage": 155,
+    "finding": "No reportable action taken",
+    "scope": "WRCOG item 1.c.1",
+    "verificationStatus": "verified-primary",
+    "approvalDate": null
+  }
 }

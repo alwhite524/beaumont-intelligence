@@ -1,0 +1,18 @@
+{
+  "originalFilename": "2015 Minutes.pdf",
+  "path": "official-documents/2015/2015-council-minutes.pdf",
+  "pages": 227,
+  "sha256": "5fbec32426684582cadf0fc1d3061f4afb7a12ace6f723526b15ac54374c62c9",
+  "sourceIds": [
+    "SRC-0029"
+  ],
+  "visuallyReviewedPages": [
+    25,
+    155
+  ],
+  "dateHeaderCheckedPages": [
+    22,
+    155
+  ],
+  "reviewStatus": "partial; other meeting findings not yet registered"
+}

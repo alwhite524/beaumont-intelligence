@@ -444,7 +444,7 @@
         "1"
       ],
       "summary": "Page 1 lists WRCOG v. City of Beaumont, RIC 536164, appeal filed, under Closed Session 1.c.1. This verifies the posted litigation listing only, not a settlement, recovery, or confidential discussion.",
-      "notes": "User-supplied City agenda export; page 1 visually reviewed. The existing September 15 transcript reports no reportable action at 1:18:11; that report-out remains transcript-derived pending video/minutes verification. See data/council/2015-09-15.json for attachment provenance."
+      "notes": "User-supplied City agenda export; page 1 visually reviewed. The existing September 15 transcript reports no reportable action at 1:18:11; the finding is now corroborated by the supplied minutes, SRC-0029, PDF page 155. The exact video timestamp remains unchecked. See data/council/2015-09-15.json for attachment provenance."
     },
     {
       "sourceId": "SRC-0027",
@@ -505,6 +505,128 @@
       ],
       "summary": "The agenda lists WRCOG v. City of Beaumont, RIC 536164 (appeal filed), under 10.b.1, and City of Beaumont v. WRCOG/RCTC, RIC 1211222 (stayed), under 10.b.4. These are distinct listed cases. The agenda does not establish closed-session outcomes, settlement terms, or recoveries.",
       "notes": "User-supplied ExportedContents (1).Zip; date confirmed on page 1 and litigation entries visually reviewed on page 3. No March 3 transcript or video is linked in the meeting intake. Attachment completeness remains unverified."
+    },
+    {
+      "sourceId": "SRC-0029",
+      "title": "2015 Council minutes — March 3 and September 15 WRCOG report-outs",
+      "documentType": "Council Minutes",
+      "documentDate": null,
+      "councilMeetingDate": null,
+      "publisher": "City of Beaumont",
+      "officialUrl": null,
+      "archivePath": "https://documents.beaumontintelligence.com/official-documents/2015/2015-council-minutes.pdf",
+      "verificationStatus": "Verified",
+      "confidence": "High",
+      "evidenceLevel": "A",
+      "relatedCenters": [
+        "wrcog-restitution"
+      ],
+      "relatedTopics": [
+        "WRCOG litigation"
+      ],
+      "relatedProjects": [
+        "WRCOG & Restitution"
+      ],
+      "pageReferences": [
+        "PDF pages 22–25: March 3, 2015 minutes; report-out on page 25",
+        "PDF page 155: September 15, 2015 minutes, Closed Session 1.c.1"
+      ],
+      "crossLinks": [
+        "wrcog-restitution-evidence.html#SRC-0026",
+        "wrcog-restitution-evidence.html#SRC-0028"
+      ],
+      "summary": "The September 15 minutes explicitly record no reportable action for WRCOG v. Beaumont, RIC 536164. The March 3 minutes list both WRCOG cases and record no reportable action for the closed session as a whole. Neither statement establishes that no discussion occurred, or proves any settlement or recovery.",
+      "notes": "User-supplied 227-page compilation preserved byte-for-byte. Relevant report-out pages visually reviewed; March 3 meeting header confirmed on PDF page 22. Approval/adoption dates of these minutes have not been separately established. Other WRCOG references in the compilation require individual review before further assertions."
+    },
+    {
+      "sourceId": "SRC-0030",
+      "title": "2016-08-02 Council minutes — WRCOG report-out",
+      "documentType": "Council Minutes",
+      "documentDate": null,
+      "councilMeetingDate": "2016-08-02",
+      "publisher": "City of Beaumont",
+      "officialUrl": null,
+      "archivePath": "https://documents.beaumontintelligence.com/official-documents/2016/2016-council-minutes.pdf",
+      "verificationStatus": "Verified",
+      "confidence": "High",
+      "evidenceLevel": "A",
+      "relatedCenters": [
+        "wrcog-restitution"
+      ],
+      "relatedTopics": [
+        "WRCOG litigation"
+      ],
+      "relatedProjects": [
+        "WRCOG & Restitution"
+      ],
+      "pageReferences": [
+        "PDF page 156; meeting page 9 of 9"
+      ],
+      "crossLinks": [],
+      "summary": "The 2016-08-02 minutes record no reportable action for WRCOG v. City of Beaumont, RIC 536164, with the appeal noted. This verifies the public report-out, not the content of confidential discussions or any settlement or recovery.",
+      "notes": "User-supplied ExportedContents (2).Zip; relevant page visually reviewed. Compilation contains 204 pages; other meeting references remain pending individual verification."
+    },
+    {
+      "sourceId": "SRC-0031",
+      "title": "2016-09-12 Council minutes — WRCOG report-out",
+      "documentType": "Council Minutes",
+      "documentDate": null,
+      "councilMeetingDate": "2016-09-12",
+      "publisher": "City of Beaumont",
+      "officialUrl": null,
+      "archivePath": "https://documents.beaumontintelligence.com/official-documents/2016-09-12/special-meeting-minutes.pdf",
+      "verificationStatus": "Verified",
+      "confidence": "High",
+      "evidenceLevel": "A",
+      "relatedCenters": [
+        "wrcog-restitution"
+      ],
+      "relatedTopics": [
+        "WRCOG litigation"
+      ],
+      "relatedProjects": [
+        "WRCOG & Restitution"
+      ],
+      "pageReferences": [
+        "PDF page 2; meeting page 2 of 2"
+      ],
+      "crossLinks": [],
+      "summary": "The 2016-09-12 minutes record no reportable action for WRCOG v. City of Beaumont, RIC 536164, with the appeal noted. This verifies the public report-out, not the content of confidential discussions or any settlement or recovery.",
+      "notes": "User-supplied ExportedContents (2).Zip; relevant page visually reviewed. Clerk signature/date fields are blank on the supplied copy; adoption date not established."
+    },
+    {
+      "sourceId": "SRC-0032",
+      "title": "2017 Council minutes — WRCOG settlement approval, membership and TUMF",
+      "documentType": "Council Minutes",
+      "documentDate": null,
+      "councilMeetingDate": null,
+      "publisher": "City of Beaumont",
+      "officialUrl": null,
+      "archivePath": "https://documents.beaumontintelligence.com/official-documents/2017/2017-council-minutes.pdf",
+      "verificationStatus": "Verified",
+      "confidence": "High",
+      "evidenceLevel": "A",
+      "relatedCenters": [
+        "wrcog-restitution"
+      ],
+      "relatedTopics": [
+        "WRCOG litigation",
+        "Settlement approval",
+        "TUMF"
+      ],
+      "relatedProjects": [
+        "WRCOG & Restitution"
+      ],
+      "crossLinks": [],
+      "pageReferences": [
+        "2017-04-04: PDF page 53",
+        "2017-05-16: PDF page 77",
+        "2017-06-20: PDF page 98",
+        "2017-07-18: PDF page 104",
+        "2017-09-05: PDF page 131"
+      ],
+      "summary": "April 4: authorized the Mayor to sign the settlement agreement. May 16: approved the Amended and Restated Settlement Agreement and Release, 4–0, Orozco absent. June 20: approved the WRCOG JPA addendum, 4–0. July 18: approved the membership addendum resolution, 3–0. September 5: adopted the TUMF ordinance and fee schedule resolution, 4–0.",
+      "notes": "189-page user-supplied compilation preserved byte-for-byte. Five cited action pages visually reviewed, including vote marks rather than relying on OCR. These findings establish recorded Council actions only; execution, effective dates, dismissal, financial terms, allocations, and receipts require the underlying agreements and other records. Minutes adoption dates not separately established; compilation completeness not assumed."
     }
   ]
 }
