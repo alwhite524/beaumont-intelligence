@@ -22,7 +22,7 @@ def page(title, body):
 <nav aria-label="Center navigation"><a href="wrcog-restitution.html">Overview</a> · <a href="wrcog-restitution-evidence.html">Source Register</a></nav>{body}</main>
 <footer class="footer"><div class="wrap">Beaumont Intelligence · Documentary evidence for independent review</div></footer></body></html>'''
 
-overview = '''<p>This Center will document the WRCOG litigation and settlement, criminal restitution, and other recoveries involving the City of Beaumont. It is the documentary research layer that My Story can cite.</p>
+overview = '''<p>This Center documents the WRCOG litigation and settlement, criminal restitution, and other recoveries involving the City of Beaumont. It is the documentary research layer that My Story can cite.</p>
 <p><strong>Settlement approval text reviewed; collections unverified.</strong> The May 16, 2017 packet documents the proposed amended agreement terms, and the minutes document Council approval. A fully executed agreement and records of actual receipts remain needed. An empty ledger means records have not been loaded; it does not mean no money was recovered.</p>
 <section><h2>Keep the financial tracks separate</h2><ol>
 <li>WRCOG judgment and settlement: exposure and the terms resolving it.</li>
@@ -38,6 +38,9 @@ overview = '''<p>This Center will document the WRCOG litigation and settlement, 
 <section><h2>My Story evidence links</h2><p>Chapters can link to this Center now. Individual evidence references will connect a chapter or passage to permanent Source IDs, recoveries, people, organizations, cases, and timeline events as those records are registered. Narrative recollections will be labeled separately from contemporary records.</p><a href="wrcog-restitution-evidence.html">View evidence</a></section>
 <section><h2>Related personnel and pension records</h2><p>The Kapanicas employment agreement, City staff correspondence, and underlying CalPERS determinations remain a separate evidence request. They are not entered as restitution or recovery. The disposition of the contemplated service-credit purchase remains unresolved pending documents.</p></section>
 <section><h2>Evidence standards</h2><p>Allegations, charges, and convictions are distinct. Civil settlements are not criminal restitution. City receipts and WRCOG allocations require separate support. Later recollections are not contemporary records. Confidential mediation or closed-session discussions will not be inferred.</p></section>'''
+milestones = json.loads((ROOT / 'data/council/2017-minutes-intake.json').read_text(encoding='utf-8'))
+timeline = ''.join(f'<li><strong>{escape(event["date"])}</strong> — {escape(event["finding"])} <a href="wrcog-restitution-evidence.html#{milestones["sourceIds"][0]}">Minutes, PDF page {event["pdfPage"]}</a></li>' for event in milestones['findings'])
+overview += f'<section id="council-actions"><h2>Documented Council actions</h2><p>The supplied minutes support these actions. Approval does not itself establish execution, dismissal, or payment.</p><ol>{timeline}</ol><p><a href="council-meeting-sources.html">Browse Council videos, agendas and minutes</a></p></section>'
 terms = json.loads((ROOT / 'data/wrcog-restitution/settlement-terms.json').read_text(encoding='utf-8'))
 source_link = f'wrcog-restitution-evidence.html#{terms["sourceId"]}'
 rows = ''.join(f'<tr><th scope="row">{escape(t["range"])}</th><td>{t["wrcogPercent"]}%</td><td>{t["beaumontPercent"]}%</td></tr>' for t in terms['allocation']['tiers'])
@@ -54,11 +57,13 @@ for s in sources:
     link += ''.join(f' <a href="{escape(path, quote=True)}">Related evidence record</a>' for path in s.get('crossLinks', []))
     page_refs = ', '.join(s.get('pageReferences', []))
     citation = f'<p>Page reference: {escape(page_refs)}</p>' if page_refs else ''
-    cards.append(f'<article id="{escape(sid)}"><h2>{escape(sid)} · {escape(s["title"])}</h2><p>{escape(s["verificationStatus"])} · {escape(s.get("publisher", ""))}</p><p>{escape(s.get("summary", ""))}</p>{citation}{link}</article>')
+    limitations = f'<p><strong>Review notes:</strong> {escape(s.get("notes") or "")}</p>' if s.get('notes') else ''
+    cards.append(f'<article id="{escape(sid)}"><h2>{escape(sid)} · {escape(s["title"])}</h2><p>{escape(s["verificationStatus"])} · {escape(s.get("publisher", ""))}</p><p>{escape(s.get("summary", ""))}</p>{citation}{limitations}{link}</article>')
     search.append({'title': s['title'], 'url': CENTER + '-evidence.html#' + sid, 'category': 'Source Document', 'description': s.get('summary', ''), 'text': f'{sid} {s["verificationStatus"]} WRCOG restitution', 'aliases': []})
 evidence = '<p>This view uses the existing financial Source Register and its permanent SRC identifiers. No separate source catalog is maintained.</p>' + (''.join(cards) or '<p><strong>No source documents registered for this Center yet.</strong> Working research supplied in the handoff is not a verified source record. Documents will appear here after registration and review.</p>') + '<p><a href="budget-evidence.html">Browse existing financial evidence</a></p>'
 (DOCS / (CENTER + '.html')).write_text(page('WRCOG & Restitution Intelligence Center', overview), encoding='utf-8')
 (DOCS / (CENTER + '-evidence.html')).write_text(page('WRCOG & Restitution Source Register', evidence), encoding='utf-8')
+search.append({'title': 'WRCOG settlement and membership Council actions', 'url': 'wrcog-restitution.html#council-actions', 'category': 'Timeline Event', 'description': '2017 settlement approval, WRCOG membership and TUMF actions documented in Council minutes.', 'text': 'April 4 May 16 June 20 July 18 September 5 2017 WRCOG', 'aliases': []})
 search.append({'title': 'WRCOG & Restitution Source Register', 'url': CENTER + '-evidence.html', 'category': 'Intelligence Center', 'description': 'Shared financial Source Register with Council records and settlement approval materials.', 'text': 'WRCOG restitution source documents evidence My Story', 'aliases': []})
 search.append({'title': 'November 3, 2015 Interactive Council Agenda', 'url': 'briefings/2015-11-03-sources.html', 'category': 'Council Intelligence', 'description': 'Official agenda, supporting records and meeting video. Outcomes and timestamps pending.', 'text': 'WRCOG RIC 536164 Urban Futures financial report quiet zones Interwest wastewater fire IT services climate plan', 'aliases': []})
 (DOCS / 'evidence-search-index.js').write_text('window.BI_EVIDENCE_SEARCH_INDEX=' + json.dumps(search, ensure_ascii=False) + ';\n', encoding='utf-8')
