@@ -77,7 +77,7 @@ def meeting_records() -> list[dict[str, str | None]]:
         existing = [d['url'] for d in record.get('documents', [])] + [record.get('minutes')]
         if minute['url'] in existing:
             continue
-        if minute['kind'] == 'regular' and not record.get('minutes'):
+        if minute['kind'] == 'regular' and not minute['url'].lower().endswith('.docx') and not record.get('minutes'):
             record['minutes'] = minute['url']
         else:
             record.setdefault('documents', []).append({'title': minute['title'], 'url': minute['url']})

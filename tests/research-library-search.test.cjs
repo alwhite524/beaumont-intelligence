@@ -41,6 +41,7 @@ const records = [
   { title: '2018 transcript', url: '../transcripts/2018.txt', videoUrl: 'https://www.youtube.com/watch?v=abc', date: '2018-06-19', item: '', topic: 'council', type: 'Meeting transcript', body: '(5:25:07) Council discussed digital billboards.' },
 ];
 records.push({ title: '2020 Council minutes', url: 'https://documents.beaumontintelligence.com/minutes.pdf', date: '2020-11-03', topic: 'council', type: 'Meeting minutes', body: 'WRCOG lawsuit authorization' });
+records.push({ title: 'Workshop Word original', url: 'https://documents.beaumontintelligence.com/workshop-minutes.docx', date: '2025-04-22', topic: 'council', type: 'Meeting minutes', body: 'workshop budget' });
 const context = vm.createContext({ window: { BI_RESEARCH_LIBRARY: records }, document, URL, console });
 vm.runInContext(fs.readFileSync('docs/documents/library-search.js', 'utf8'), context);
 
@@ -81,6 +82,10 @@ assert.doesNotMatch(meeting.innerHTML, /2018-06-19/);
 assert.match(topics.results.innerHTML, /2020 Council minutes/);
 assert.match(topics.results.innerHTML, /viewer.html/);
 assert.doesNotMatch(topics.results.innerHTML, /Billboard staff report/);
+search.value = 'workshop budget'; search.listeners.input();
+assert.match(topics.results.innerHTML, /Download Word original/);
+assert.match(topics.results.innerHTML, /href="https:\/\/documents.beaumontintelligence.com\/workshop-minutes.docx"/);
+assert.doesNotMatch(topics.results.innerHTML, /viewer.html/);
 search.value = 'absent phrase'; search.listeners.input();
 assert.match(topics.results.innerHTML, /No minutes/);
 console.log('Research Library documents, transcripts and minutes behavior passed.');

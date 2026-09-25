@@ -2,6 +2,8 @@
 import hashlib
 import json
 import re
+import zipfile
+from xml.etree import ElementTree
 from datetime import datetime
 from pathlib import Path
 
@@ -59,13 +61,22 @@ def main():
         kind = old.get('kind') or kind
         pages = old.get('textPages') if old.get('sha256') == checksum else None
         if pages is None:
-            pages = [page.extract_text() or '' for page in PdfReader(local).pages]
+            if local.suffix.lower() == '.docx':
+                with zipfile.ZipFile(local) as word:
+                    tree = ElementTree.fromstring(word.read('word/document.xml'))
+                ns = {'w': 'http://schemas.openxmlformats.org/wordprocessingml/2006/main'}
+                pages = ['\n'.join(''.join(t.text or '' for t in paragraph.findall('.//w:t', ns))
+                                   for paragraph in tree.findall('.//w:p', ns))]
+            else:
+                pages = [page.extract_text() or '' for page in PdfReader(local).pages]
         title = f'{annual[1]} Council minutes compilation' if annual else f'{date or "Undated"} {kind.title()} Council minutes'
+        if local.suffix.lower() == '.docx':
+            title += ' (Word original)'
         records.append(dict(archivePath=archive, localPath=local.relative_to(DOCS).as_posix(), url=doc['url'],
                             date=date, year=annual[1] if annual else date[:4], kind=kind, title=title,
                             sha256=checksum, textPages=pages))
     REGISTER.write_text(json.dumps({'description': 'Minutes catalog using existing document-storage-manifest archive identities. Extracted text is a search aid, not verified transcription.', 'documents': records}, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
-    print(f'Minutes catalog: {len(records)} PDFs in docs/minutes')
+    print(f'Minutes catalog: {len(records)} files in docs/minutes')
 
 
 if __name__ == '__main__':

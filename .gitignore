@@ -6,3 +6,5 @@ docs/records/agenda-packets/**/*.pdf
 docs/records/council-actions/**/*.pdf
 
 docs/minutes/*.pdf
+
+docs/minutes/*.docx

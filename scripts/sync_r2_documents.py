@@ -20,7 +20,7 @@ MANIFEST = ROOT / "data" / "document-storage-manifest.json"
 
 def pdf_files() -> list[Path]:
     roots = (DOCS / "official-documents", DOCS / "records" / "agenda-packets", DOCS / "minutes")
-    return sorted(path for root in roots for path in root.rglob("*.pdf"))
+    return sorted([path for root in roots for path in root.rglob("*.pdf")] + list((DOCS / "minutes").glob("*.docx")))
 
 
 def sha256(path: Path) -> str:
@@ -34,6 +34,7 @@ def sha256(path: Path) -> str:
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--verify-only", action="store_true")
+    parser.add_argument("--path", action="append", help="Upload/verify only this exact archive key; may be repeated.")
     parser.add_argument(
         "--verify-manifest",
         action="store_true",
@@ -88,6 +89,11 @@ def main() -> None:
         return minute_keys.get(local, local)
 
     local_pdfs = pdf_files()
+    if args.path:
+        local_pdfs = [path for path in local_pdfs if archive_key(path) in args.path]
+        missing = set(args.path) - {archive_key(path) for path in local_pdfs}
+        if missing:
+            raise FileNotFoundError(f"Requested archive keys have no local file: {sorted(missing)}")
     if args.meeting:
         local_pdfs = [
             path for path in local_pdfs

@@ -54,6 +54,8 @@
   };
   const destinationFor = record => record.type === transcriptType
     ? null
+    : /\.docx$/i.test(record.url)
+    ? { href: record.url, label: 'Download Word original' }
     : record.url.startsWith('https://portal.laserfiche.com/')
     ? { href: record.url, label: 'Open official archive' }
     : { href: `viewer.html?url=${encodeURIComponent(record.url)}`, label: 'View document' };
@@ -126,7 +128,7 @@
     const eyebrow = transcriptMode ? 'Council transcripts' : 'Official records';
     const explanation = transcriptMode
       ? 'Transcript matches identify the meeting and link directly to the matching moment in the video.'
-      : mode === 'minutes' ? 'Searchable text comes from the minutes PDFs and may contain OCR errors or omissions. Open the original to verify a result. Annual compilations are listed separately from individual meeting dates.' : 'Every indexed source document matching the selected topic and meeting is shown below.';
+      : mode === 'minutes' ? 'Searchable text comes from PDF and Word minutes and may contain extraction errors or omissions. Open the original to verify a result. Word originals download rather than opening in the PDF viewer. Annual compilations are listed separately from individual meeting dates.' : 'Every indexed source document matching the selected topic and meeting is shown below.';
     results.innerHTML = matches.length ? `<section class="topic"><div class="topic-label"><div class="eyebrow">${eyebrow}</div><h2>${heading}</h2><p>${explanation}</p></div><div class="collection-list">${matches.map(record => {
       const hit = query ? transcriptHit(record, query) : null;
       const resultSnippet = hit ? hit.text : snippet(record.body, query);
