@@ -1,0 +1,29 @@
+{
+  "originalFilename": "2019 CC Minutes.pdf",
+  "path": "official-documents/2019/2019-council-minutes.pdf",
+  "pages": 188,
+  "sha256": "d988caa94ff8ee29d07f9d6e69a4b1692e2bd25b488640ad6e219a26db1c7956",
+  "sourceIds": [
+    "SRC-0037"
+  ],
+  "reviewStatus": "partial",
+  "visuallyReviewedPages": [
+    46,
+    160
+  ],
+  "findings": [
+    {
+      "date": "2019-03-19",
+      "pdfPage": 46,
+      "item": "Closed Session 2",
+      "finding": "March 19 lists two pending and three potential cases involving Moss Levy Hertzheim, Urban Logic, Norton Rose, McFarlin & Anderson, and AIG; each lists no reportable action."
+    },
+    {
+      "date": "2019-11-05",
+      "pdfPage": 160,
+      "item": "Closed Session 3",
+      "finding": "McFarlin and Anderson, Norton Rose, and Urban Logic cases: no reportable action for each."
+    }
+  ],
+  "limitations": "188-page compilation preserved byte-for-byte. Cited pages visually reviewed. No assumption that every listed matter is a qualifying Third Party Claim under the WRCOG settlement. Complete annual coverage and minutes adoption dates not established. Text search has OCR limitations; other findings remain pending review."
+}

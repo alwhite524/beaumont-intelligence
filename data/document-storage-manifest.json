@@ -1,8 +1,8 @@
 {
   "bucket": "beaumont-intelligence-documents",
   "public_base_url": "https://documents.beaumontintelligence.com",
-  "document_count": 1903,
-  "total_bytes": 12964116518,
+  "document_count": 1904,
+  "total_bytes": 13082360340,
   "documents": [
     {
       "path": "official-documents/2015-03-03/agenda.pdf",
@@ -441,6 +441,12 @@
       "url": "https://documents.beaumontintelligence.com/official-documents/2018/2018-council-minutes.pdf",
       "bytes": 132269163,
       "sha256": "819a9c723c5a21aec1a82a45bebad610ddd2f35791c07d8ad83cabe3f9291352"
+    },
+    {
+      "path": "official-documents/2019/2019-council-minutes.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2019/2019-council-minutes.pdf",
+      "bytes": 118243822,
+      "sha256": "d988caa94ff8ee29d07f9d6e69a4b1692e2bd25b488640ad6e219a26db1c7956"
     },
     {
       "path": "official-documents/2023-05-02/d-7-staff-report-flock-encroachment-agreement.pdf",
