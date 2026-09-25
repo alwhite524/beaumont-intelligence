@@ -13,6 +13,25 @@ ROOT = Path(__file__).resolve().parents[1]
 DOCS = ROOT / 'docs'
 REGISTER = ROOT / 'data/council/minutes-register.json'
 
+MONTHS = ('January|February|March|April|May|June|July|August|September|October|November|December')
+
+
+def annual_page_dates(pages: list[str], year: str) -> list[str]:
+    """Associate each compilation page with the meeting date printed in its header."""
+    current = ''
+    dates = []
+    pattern = re.compile(rf'\b({MONTHS})\s*(\d{{1,2}}),?\s*({year})\b', re.I)
+    for page in pages:
+        # Limit the scan to the heading so an agenda-item date does not relabel
+        # subsequent pages from the same meeting.
+        match = pattern.search(re.sub(r'\s+', ' ', page[:1200]))
+        if match:
+            current = datetime.strptime(
+                f'{match.group(1)} {match.group(2)} {match.group(3)}', '%B %d %Y'
+            ).strftime('%Y-%m-%d')
+        dates.append(current)
+    return dates
+
 
 def main():
     manifest = json.loads((ROOT / 'data/document-storage-manifest.json').read_text(encoding='utf-8'))
@@ -72,9 +91,10 @@ def main():
         title = f'{annual[1]} Council minutes compilation' if annual else f'{date or "Undated"} {kind.title()} Council minutes'
         if local.suffix.lower() == '.docx':
             title += ' (Word original)'
+        page_dates = annual_page_dates(pages, annual[1]) if annual else []
         records.append(dict(archivePath=archive, localPath=local.relative_to(DOCS).as_posix(), url=doc['url'],
                             date=date, year=annual[1] if annual else date[:4], kind=kind, title=title,
-                            sha256=checksum, textPages=pages))
+                            sha256=checksum, textPages=pages, pageDates=page_dates))
     REGISTER.write_text(json.dumps({'description': 'Minutes catalog using existing document-storage-manifest archive identities. Extracted text is a search aid, not verified transcription.', 'documents': records}, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     print(f'Minutes catalog: {len(records)} files in docs/minutes')
 

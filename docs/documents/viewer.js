@@ -46,7 +46,10 @@
       image.loading = index ? 'lazy' : 'eager'; pdfViewer.appendChild(image);
     });
   };
-  const renderPdf = (url, documentTitle) => window.BIPdfReader.open(pdfViewer, url, documentTitle);
+  const requestedPage = Math.max(1, Number.parseInt(params.get("page") || "1", 10) || 1);
+  const renderPdf = (url, documentTitle) => window.BIPdfReader.open(
+    pdfViewer, url, documentTitle, { startPage: requestedPage }
+  );
 
   const renderDocument = (documentId, updateHistory = false, openPdf = false) => {
     activeStandaloneUrl = null;

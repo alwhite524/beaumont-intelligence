@@ -56,7 +56,7 @@
     fullscreen.textContent = '⛶ Full screen';
     fullscreen.setAttribute('aria-label', 'Full screen');
     const original = document.createElement('a');
-    original.href = url;
+    original.href = options.startPage > 1 ? `${url}#page=${options.startPage}` : url;
     original.target = '_blank';
     original.rel = 'noopener';
     original.textContent = 'Open PDF in a new tab ↗';

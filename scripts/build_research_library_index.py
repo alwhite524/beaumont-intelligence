@@ -79,7 +79,10 @@ for minute in minutes:
     records.append({"title": minute['title'], "url": minute['url'], "date": minute['date'],
                     "item": "", "topic": "council", "type": "Meeting minutes",
                     "body": "\n".join(minute['textPages']) or "Text unavailable; open the scanned minutes to read.",
-                    "textAvailable": any(page.strip() for page in minute['textPages'])})
+                    "textAvailable": any(page.strip() for page in minute['textPages']),
+                    "annualCompilation": minute['kind'] == 'annual',
+                    "textPages": minute['textPages'] if minute['kind'] == 'annual' else [],
+                    "pageDates": minute.get('pageDates', [])})
 
 output = "window.BI_RESEARCH_LIBRARY=" + json.dumps(records, ensure_ascii=False, separators=(",", ":")) + ";\n"
 (DOCS / "documents" / "library-index.js").write_text(output, encoding="utf-8")

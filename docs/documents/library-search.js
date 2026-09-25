@@ -84,6 +84,17 @@
     }
     return null;
   };
+  const minuteHits = (record, query) => {
+    if (!query || !record.annualCompilation || !Array.isArray(record.textPages)) return [];
+    return record.textPages.flatMap((pageText, index) => matchesQuery(pageText, query) ? [{
+      page: index + 1,
+      date: record.pageDates?.[index] || '',
+      text: snippet(pageText, query),
+    }] : []);
+  };
+  const formatMeetingDate = value => value ? new Date(`${value}T12:00:00`).toLocaleDateString('en-US', {
+    year: 'numeric', month: 'long', day: 'numeric',
+  }) : 'Meeting date not identified';
   const watchUrl = (videoUrl, seconds) => {
     try {
       const url = new URL(videoUrl);
@@ -140,7 +151,12 @@
       const destinationLink = destination
         ? `<a href="${esc(destination.href)}" data-library-route="true">${esc(destination.label)} →</a>`
         : '';
-      return `<article class="record"><div class="record-date"><span>${esc(record.item || record.type)}</span>${esc(record.date || 'Undated')}</div><div><h3>${esc(record.title)}</h3><p>${esc(resultSnippet)}</p></div><div class="links"><span class="doc-count">${esc(record.type)}</span>${watchLink}${destinationLink}</div></article>`;
+      const annualHits = minutesMode ? minuteHits(record, query) : [];
+      const annualHitLinks = annualHits.length ? `<div class="minute-page-hits"><strong>${annualHits.length} matching ${annualHits.length === 1 ? 'page' : 'pages'}:</strong>${annualHits.map(pageHit => {
+        const href = `viewer.html?url=${encodeURIComponent(record.url)}&title=${encodeURIComponent(record.title)}&page=${pageHit.page}`;
+        return `<div><a href="${esc(href)}" data-library-route="true">${esc(formatMeetingDate(pageHit.date))} — PDF page ${pageHit.page} →</a><p>${esc(pageHit.text)}</p></div>`;
+      }).join('')}</div>` : '';
+      return `<article class="record"><div class="record-date"><span>${esc(record.item || record.type)}</span>${esc(record.date || 'Annual compilation')}</div><div><h3>${esc(record.title)}</h3><p>${esc(resultSnippet)}</p>${annualHitLinks}</div><div class="links"><span class="doc-count">${esc(record.type)}</span>${watchLink}${destinationLink}</div></article>`;
     }).join('')}</div></section>` : `<div class="empty">${transcriptMode ? 'No transcript matches that word or phrase.' : minutesMode ? 'No minutes match those filters.' : 'No source documents match those filters.'}</div>`;
   };
 

@@ -42,6 +42,7 @@ const records = [
 ];
 records.push({ title: '2020 Council minutes', url: 'https://documents.beaumontintelligence.com/minutes.pdf', date: '2020-11-03', topic: 'council', type: 'Meeting minutes', body: 'WRCOG lawsuit authorization' });
 records.push({ title: 'Workshop Word original', url: 'https://documents.beaumontintelligence.com/workshop-minutes.docx', date: '2025-04-22', topic: 'council', type: 'Meeting minutes', body: 'workshop budget' });
+records.push({ title: '2016 Council minutes compilation', url: 'https://documents.beaumontintelligence.com/2016-minutes.pdf', date: '', topic: 'council', type: 'Meeting minutes', body: 'Norton Rose legal matter', annualCompilation: true, textPages: ['unrelated page', 'Norton Rose legal matter'], pageDates: ['2016-06-07', '2016-06-21'] });
 const context = vm.createContext({ window: { BI_RESEARCH_LIBRARY: records }, document, URL, console });
 vm.runInContext(fs.readFileSync('docs/documents/library-search.js', 'utf8'), context);
 
@@ -86,6 +87,11 @@ search.value = 'workshop budget'; search.listeners.input();
 assert.match(topics.results.innerHTML, /Download Word original/);
 assert.match(topics.results.innerHTML, /href="https:\/\/documents.beaumontintelligence.com\/workshop-minutes.docx"/);
 assert.doesNotMatch(topics.results.innerHTML, /viewer.html/);
+search.value = 'Norton Rose'; search.listeners.input();
+assert.match(topics.results.innerHTML, /June 21, 2016/);
+assert.match(topics.results.innerHTML, /PDF page 2/);
+assert.match(topics.results.innerHTML, /page=2/);
+assert.doesNotMatch(topics.results.innerHTML, /June 7, 2016/);
 search.value = 'absent phrase'; search.listeners.input();
 assert.match(topics.results.innerHTML, /No minutes/);
 console.log('Research Library documents, transcripts and minutes behavior passed.');
