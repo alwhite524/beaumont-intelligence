@@ -1,8 +1,8 @@
 {
   "bucket": "beaumont-intelligence-documents",
   "public_base_url": "https://documents.beaumontintelligence.com",
-  "document_count": 1931,
-  "total_bytes": 13184813508,
+  "document_count": 1957,
+  "total_bytes": 13289453036,
   "documents": [
     {
       "path": "official-documents/2015-03-03/agenda.pdf",
@@ -609,6 +609,162 @@
       "url": "https://documents.beaumontintelligence.com/official-documents/2020-12-15/council-minutes.pdf",
       "bytes": 7405980,
       "sha256": "a2aac44b4e505089b0eeeb6a304926fe5105b8624dc8045a92681e261976982a"
+    },
+    {
+      "path": "official-documents/2021-01-05/council-minutes.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2021-01-05/council-minutes.pdf",
+      "bytes": 2075508,
+      "sha256": "11cc079ee784fe2068808f5bbc588a061148037d1ea007972366daf258d620f3"
+    },
+    {
+      "path": "official-documents/2021-01-19/council-minutes.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2021-01-19/council-minutes.pdf",
+      "bytes": 3376071,
+      "sha256": "5ef2149b4102cc78d5c4a6b21a21b40783a4cd9894f98ddcc92e630e9aa7218e"
+    },
+    {
+      "path": "official-documents/2021-02-02/council-minutes.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2021-02-02/council-minutes.pdf",
+      "bytes": 3526933,
+      "sha256": "f4c1e555d4e4cfd471083819108f741a197768562ddd0e864146cb07df1b65ce"
+    },
+    {
+      "path": "official-documents/2021-02-16/council-minutes.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2021-02-16/council-minutes.pdf",
+      "bytes": 3147149,
+      "sha256": "cec5d3a98f04652e2f9ff951d2c4a1ede9498092488518c0cb07db5b98edc9ea"
+    },
+    {
+      "path": "official-documents/2021-02-23/special-meeting-minutes.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2021-02-23/special-meeting-minutes.pdf",
+      "bytes": 598460,
+      "sha256": "2b0c67c973d17b99d95c555d6a3633d37d5eea5c81df79e5d76e227e27b0110b"
+    },
+    {
+      "path": "official-documents/2021-03-02/council-minutes.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2021-03-02/council-minutes.pdf",
+      "bytes": 2803387,
+      "sha256": "cba9f2f9b4304ca82b6eb0406c44a0e0ebc37ce73522feda45a556a6188171fa"
+    },
+    {
+      "path": "official-documents/2021-03-16/council-minutes.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2021-03-16/council-minutes.pdf",
+      "bytes": 4543219,
+      "sha256": "b890709bb217d2625f13d5891e06d9ce1daaba9cceb7b432a2b12f52812ca43f"
+    },
+    {
+      "path": "official-documents/2021-04-06/council-minutes.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2021-04-06/council-minutes.pdf",
+      "bytes": 4320876,
+      "sha256": "68062910fcb28ff9ab754a5edbc568347683b82ea8c9f70d1cb6ceb2716347ff"
+    },
+    {
+      "path": "official-documents/2021-04-20/council-minutes.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2021-04-20/council-minutes.pdf",
+      "bytes": 4348039,
+      "sha256": "59e98b4b84cf51d979d2ace417f326303dba1b31f935d571a39b8739d2ee0c7c"
+    },
+    {
+      "path": "official-documents/2021-05-04/council-minutes.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2021-05-04/council-minutes.pdf",
+      "bytes": 3507752,
+      "sha256": "1a879c97dafe7ef8c86a184efc59bfd369f5d2e42aed555fe225fda4cfa35c9b"
+    },
+    {
+      "path": "official-documents/2021-05-18/council-minutes.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2021-05-18/council-minutes.pdf",
+      "bytes": 3658378,
+      "sha256": "fa5201df8ec01ce8ad77aeaeb5a9593374dd21fb086bfc2acf38499a020e359f"
+    },
+    {
+      "path": "official-documents/2021-06-01/council-minutes.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2021-06-01/council-minutes.pdf",
+      "bytes": 6752581,
+      "sha256": "ab397db203eda845d183c6c9c7c9bcdfe210ede5c29a31142f1ca6a8e7ec3946"
+    },
+    {
+      "path": "official-documents/2021-06-15/council-minutes.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2021-06-15/council-minutes.pdf",
+      "bytes": 6407348,
+      "sha256": "f59a80381db3c53de232d7dc79cacc534a151f5e8f73c520b0e2c341a5510c7b"
+    },
+    {
+      "path": "official-documents/2021-06-29/special-meeting-minutes.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2021-06-29/special-meeting-minutes.pdf",
+      "bytes": 936327,
+      "sha256": "6759653997bec51b4469c4659b65e4002e0d446691b9ae7d0f5331a8d282039a"
+    },
+    {
+      "path": "official-documents/2021-07-20/council-minutes.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2021-07-20/council-minutes.pdf",
+      "bytes": 6689685,
+      "sha256": "666259bca9128ed23b3a3404f666d4b0cfdcddcd13c5622ac722650e8091276a"
+    },
+    {
+      "path": "official-documents/2021-07-22/workshop-minutes.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2021-07-22/workshop-minutes.pdf",
+      "bytes": 679789,
+      "sha256": "04d7b4a57a64952b95e1bff1a8203d9d5874ea83305b9f7e57ac5df66964c9ab"
+    },
+    {
+      "path": "official-documents/2021-08-03/council-minutes.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2021-08-03/council-minutes.pdf",
+      "bytes": 4783045,
+      "sha256": "70846460660dc3b8023acda5fccfaa71998fe70d3e9105c8d8695324707368b9"
+    },
+    {
+      "path": "official-documents/2021-08-17/council-minutes.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2021-08-17/council-minutes.pdf",
+      "bytes": 5236764,
+      "sha256": "f2b3fdae8132ad04a5aa336d55d90f184d28f738f0516473823db7cb7ab952cf"
+    },
+    {
+      "path": "official-documents/2021-09-07/council-minutes.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2021-09-07/council-minutes.pdf",
+      "bytes": 4560715,
+      "sha256": "9b35e80c63167807f48bd7d0acc9c5f15903b277a3fc4a46113dd12b2f858272"
+    },
+    {
+      "path": "official-documents/2021-09-21/council-minutes.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2021-09-21/council-minutes.pdf",
+      "bytes": 4663929,
+      "sha256": "c8272c4c3464ac50edfd97cdb6198f2e703e76e581776f000250b51846781ce3"
+    },
+    {
+      "path": "official-documents/2021-10-05/council-minutes.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2021-10-05/council-minutes.pdf",
+      "bytes": 3730217,
+      "sha256": "7edf60ecbda39e35db89ffec1e56eb759a3b44990b00bfbe1fa42a5e96416b52"
+    },
+    {
+      "path": "official-documents/2021-10-19/council-minutes.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2021-10-19/council-minutes.pdf",
+      "bytes": 4162248,
+      "sha256": "0931e64bbf9af6d952b29a84de58fe85effe82b9ca76a819da04569047ab3f85"
+    },
+    {
+      "path": "official-documents/2021-11-02/council-minutes.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2021-11-02/council-minutes.pdf",
+      "bytes": 5205233,
+      "sha256": "5a9e78f4e04bf79814f0c71764a633b4fd7ca5980ca456fd88d080dd77f99192"
+    },
+    {
+      "path": "official-documents/2021-11-16/council-minutes.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2021-11-16/council-minutes.pdf",
+      "bytes": 3565219,
+      "sha256": "998023274cefe2d2f3a61acdd007dd6435676ab23c4e85e1d4f7c19b1891b52a"
+    },
+    {
+      "path": "official-documents/2021-12-07/council-minutes.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2021-12-07/council-minutes.pdf",
+      "bytes": 5373022,
+      "sha256": "ecebe2b9e6e70d1c052e2b9dbe36a310cd9e07f69baba1fd5cc5687edda1bdff"
+    },
+    {
+      "path": "official-documents/2021-12-21/council-minutes.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2021-12-21/council-minutes.pdf",
+      "bytes": 5987634,
+      "sha256": "6dcd31b52b06fe2414ade7afcbabf7aab135b4939d7f21abf6b37dc224e8615d"
     },
     {
       "path": "official-documents/2023-05-02/d-7-staff-report-flock-encroachment-agreement.pdf",

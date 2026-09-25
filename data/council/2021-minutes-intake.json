@@ -1,0 +1,266 @@
+{
+  "originalArchive": "ExportedContents (4).Zip",
+  "documents": [
+    {
+      "date": "2021-01-05",
+      "kind": "regular",
+      "originalFilename": "2021/CC Minutes 01.05.2021.pdf",
+      "path": "official-documents/2021-01-05/council-minutes.pdf",
+      "localPath": "minutes/official-documents--2021-01-05--council-minutes.pdf",
+      "pages": 4,
+      "sha256": "11cc079ee784fe2068808f5bbc588a061148037d1ea007972366daf258d620f3",
+      "reviewStatus": "Meeting date and session type checked against extracted PDF header; substantive findings pending page-level review."
+    },
+    {
+      "date": "2021-01-19",
+      "kind": "regular",
+      "originalFilename": "2021/CC Minutes 01.19.2021.pdf",
+      "path": "official-documents/2021-01-19/council-minutes.pdf",
+      "localPath": "minutes/official-documents--2021-01-19--council-minutes.pdf",
+      "pages": 5,
+      "sha256": "5ef2149b4102cc78d5c4a6b21a21b40783a4cd9894f98ddcc92e630e9aa7218e",
+      "reviewStatus": "Meeting date and session type checked against extracted PDF header; substantive findings pending page-level review."
+    },
+    {
+      "date": "2021-02-02",
+      "kind": "regular",
+      "originalFilename": "2021/CC Minutes 02.02.2021.pdf",
+      "path": "official-documents/2021-02-02/council-minutes.pdf",
+      "localPath": "minutes/official-documents--2021-02-02--council-minutes.pdf",
+      "pages": 6,
+      "sha256": "f4c1e555d4e4cfd471083819108f741a197768562ddd0e864146cb07df1b65ce",
+      "reviewStatus": "Meeting date and session type checked against extracted PDF header; substantive findings pending page-level review."
+    },
+    {
+      "date": "2021-02-16",
+      "kind": "regular",
+      "originalFilename": "2021/CC Minutes 02.16.2021.pdf",
+      "path": "official-documents/2021-02-16/council-minutes.pdf",
+      "localPath": "minutes/official-documents--2021-02-16--council-minutes.pdf",
+      "pages": 6,
+      "sha256": "cec5d3a98f04652e2f9ff951d2c4a1ede9498092488518c0cb07db5b98edc9ea",
+      "reviewStatus": "Meeting date and session type checked against extracted PDF header; substantive findings pending page-level review."
+    },
+    {
+      "date": "2021-02-23",
+      "kind": "special",
+      "originalFilename": "2021/CC Minutes 02.23.2021.pdf",
+      "path": "official-documents/2021-02-23/special-meeting-minutes.pdf",
+      "localPath": "minutes/official-documents--2021-02-23--special-meeting-minutes.pdf",
+      "pages": 1,
+      "sha256": "2b0c67c973d17b99d95c555d6a3633d37d5eea5c81df79e5d76e227e27b0110b",
+      "reviewStatus": "Meeting date and session type checked against extracted PDF header; substantive findings pending page-level review."
+    },
+    {
+      "date": "2021-03-02",
+      "kind": "regular",
+      "originalFilename": "2021/CC Minutes 03.02.2021.pdf",
+      "path": "official-documents/2021-03-02/council-minutes.pdf",
+      "localPath": "minutes/official-documents--2021-03-02--council-minutes.pdf",
+      "pages": 5,
+      "sha256": "cba9f2f9b4304ca82b6eb0406c44a0e0ebc37ce73522feda45a556a6188171fa",
+      "reviewStatus": "Meeting date and session type checked against extracted PDF header; substantive findings pending page-level review."
+    },
+    {
+      "date": "2021-03-16",
+      "kind": "regular",
+      "originalFilename": "2021/CC Minutes 03.16.2021.pdf",
+      "path": "official-documents/2021-03-16/council-minutes.pdf",
+      "localPath": "minutes/official-documents--2021-03-16--council-minutes.pdf",
+      "pages": 7,
+      "sha256": "b890709bb217d2625f13d5891e06d9ce1daaba9cceb7b432a2b12f52812ca43f",
+      "reviewStatus": "Meeting date and session type checked against extracted PDF header; substantive findings pending page-level review."
+    },
+    {
+      "date": "2021-04-06",
+      "kind": "regular",
+      "originalFilename": "2021/CC Minutes 04.06.2021.pdf",
+      "path": "official-documents/2021-04-06/council-minutes.pdf",
+      "localPath": "minutes/official-documents--2021-04-06--council-minutes.pdf",
+      "pages": 7,
+      "sha256": "68062910fcb28ff9ab754a5edbc568347683b82ea8c9f70d1cb6ceb2716347ff",
+      "reviewStatus": "Meeting date and session type checked against extracted PDF header; substantive findings pending page-level review."
+    },
+    {
+      "date": "2021-04-20",
+      "kind": "regular",
+      "originalFilename": "2021/CC Minutes 04.20.2021.pdf",
+      "path": "official-documents/2021-04-20/council-minutes.pdf",
+      "localPath": "minutes/official-documents--2021-04-20--council-minutes.pdf",
+      "pages": 7,
+      "sha256": "59e98b4b84cf51d979d2ace417f326303dba1b31f935d571a39b8739d2ee0c7c",
+      "reviewStatus": "Meeting date and session type checked against extracted PDF header; substantive findings pending page-level review."
+    },
+    {
+      "date": "2021-05-04",
+      "kind": "regular",
+      "originalFilename": "2021/CC Minutes 05.04.2021.pdf",
+      "path": "official-documents/2021-05-04/council-minutes.pdf",
+      "localPath": "minutes/official-documents--2021-05-04--council-minutes.pdf",
+      "pages": 6,
+      "sha256": "1a879c97dafe7ef8c86a184efc59bfd369f5d2e42aed555fe225fda4cfa35c9b",
+      "reviewStatus": "Meeting date and session type checked against extracted PDF header; substantive findings pending page-level review."
+    },
+    {
+      "date": "2021-05-18",
+      "kind": "regular",
+      "originalFilename": "2021/CC Minutes 05.18.2021.pdf",
+      "path": "official-documents/2021-05-18/council-minutes.pdf",
+      "localPath": "minutes/official-documents--2021-05-18--council-minutes.pdf",
+      "pages": 6,
+      "sha256": "fa5201df8ec01ce8ad77aeaeb5a9593374dd21fb086bfc2acf38499a020e359f",
+      "reviewStatus": "Meeting date and session type checked against extracted PDF header; substantive findings pending page-level review."
+    },
+    {
+      "date": "2021-06-01",
+      "kind": "regular",
+      "originalFilename": "2021/CC Minutes 06.01.2021.pdf",
+      "path": "official-documents/2021-06-01/council-minutes.pdf",
+      "localPath": "minutes/official-documents--2021-06-01--council-minutes.pdf",
+      "pages": 11,
+      "sha256": "ab397db203eda845d183c6c9c7c9bcdfe210ede5c29a31142f1ca6a8e7ec3946",
+      "reviewStatus": "Meeting date and session type checked against extracted PDF header; substantive findings pending page-level review."
+    },
+    {
+      "date": "2021-06-15",
+      "kind": "regular",
+      "originalFilename": "2021/CC Minutes 06.15.2021.pdf",
+      "path": "official-documents/2021-06-15/council-minutes.pdf",
+      "localPath": "minutes/official-documents--2021-06-15--council-minutes.pdf",
+      "pages": 10,
+      "sha256": "f59a80381db3c53de232d7dc79cacc534a151f5e8f73c520b0e2c341a5510c7b",
+      "reviewStatus": "Meeting date and session type checked against extracted PDF header; substantive findings pending page-level review."
+    },
+    {
+      "date": "2021-06-29",
+      "kind": "special",
+      "originalFilename": "2021/CC minutes 06.29.2021 special meeting.pdf",
+      "path": "official-documents/2021-06-29/special-meeting-minutes.pdf",
+      "localPath": "minutes/official-documents--2021-06-29--special-meeting-minutes.pdf",
+      "pages": 2,
+      "sha256": "6759653997bec51b4469c4659b65e4002e0d446691b9ae7d0f5331a8d282039a",
+      "reviewStatus": "Meeting date and session type checked against extracted PDF header; substantive findings pending page-level review."
+    },
+    {
+      "date": "2021-07-20",
+      "kind": "regular",
+      "originalFilename": "2021/CC Minutes 07.20.2021.pdf",
+      "path": "official-documents/2021-07-20/council-minutes.pdf",
+      "localPath": "minutes/official-documents--2021-07-20--council-minutes.pdf",
+      "pages": 11,
+      "sha256": "666259bca9128ed23b3a3404f666d4b0cfdcddcd13c5622ac722650e8091276a",
+      "reviewStatus": "Meeting date and session type checked against extracted PDF header; substantive findings pending page-level review."
+    },
+    {
+      "date": "2021-08-03",
+      "kind": "regular",
+      "originalFilename": "2021/CC Minutes 08.03.2021.pdf",
+      "path": "official-documents/2021-08-03/council-minutes.pdf",
+      "localPath": "minutes/official-documents--2021-08-03--council-minutes.pdf",
+      "pages": 8,
+      "sha256": "70846460660dc3b8023acda5fccfaa71998fe70d3e9105c8d8695324707368b9",
+      "reviewStatus": "Meeting date and session type checked against extracted PDF header; substantive findings pending page-level review."
+    },
+    {
+      "date": "2021-08-17",
+      "kind": "regular",
+      "originalFilename": "2021/CC Minutes 08.17.2021.pdf",
+      "path": "official-documents/2021-08-17/council-minutes.pdf",
+      "localPath": "minutes/official-documents--2021-08-17--council-minutes.pdf",
+      "pages": 8,
+      "sha256": "f2b3fdae8132ad04a5aa336d55d90f184d28f738f0516473823db7cb7ab952cf",
+      "reviewStatus": "Meeting date and session type checked against extracted PDF header; substantive findings pending page-level review."
+    },
+    {
+      "date": "2021-09-07",
+      "kind": "regular",
+      "originalFilename": "2021/CC Minutes 09.07.2021.pdf",
+      "path": "official-documents/2021-09-07/council-minutes.pdf",
+      "localPath": "minutes/official-documents--2021-09-07--council-minutes.pdf",
+      "pages": 7,
+      "sha256": "9b35e80c63167807f48bd7d0acc9c5f15903b277a3fc4a46113dd12b2f858272",
+      "reviewStatus": "Meeting date and session type checked against extracted PDF header; substantive findings pending page-level review."
+    },
+    {
+      "date": "2021-09-21",
+      "kind": "regular",
+      "originalFilename": "2021/CC Minutes 09.21.2021.pdf",
+      "path": "official-documents/2021-09-21/council-minutes.pdf",
+      "localPath": "minutes/official-documents--2021-09-21--council-minutes.pdf",
+      "pages": 8,
+      "sha256": "c8272c4c3464ac50edfd97cdb6198f2e703e76e581776f000250b51846781ce3",
+      "reviewStatus": "Meeting date and session type checked against extracted PDF header; substantive findings pending page-level review."
+    },
+    {
+      "date": "2021-10-05",
+      "kind": "regular",
+      "originalFilename": "2021/CC Minutes 10.05.2021.pdf",
+      "path": "official-documents/2021-10-05/council-minutes.pdf",
+      "localPath": "minutes/official-documents--2021-10-05--council-minutes.pdf",
+      "pages": 6,
+      "sha256": "7edf60ecbda39e35db89ffec1e56eb759a3b44990b00bfbe1fa42a5e96416b52",
+      "reviewStatus": "Meeting date and session type checked against extracted PDF header; substantive findings pending page-level review."
+    },
+    {
+      "date": "2021-10-19",
+      "kind": "regular",
+      "originalFilename": "2021/CC Minutes 10.19.2021.pdf",
+      "path": "official-documents/2021-10-19/council-minutes.pdf",
+      "localPath": "minutes/official-documents--2021-10-19--council-minutes.pdf",
+      "pages": 7,
+      "sha256": "0931e64bbf9af6d952b29a84de58fe85effe82b9ca76a819da04569047ab3f85",
+      "reviewStatus": "Meeting date and session type checked against extracted PDF header; substantive findings pending page-level review."
+    },
+    {
+      "date": "2021-11-02",
+      "kind": "regular",
+      "originalFilename": "2021/CC Minutes 11.02.2021.pdf",
+      "path": "official-documents/2021-11-02/council-minutes.pdf",
+      "localPath": "minutes/official-documents--2021-11-02--council-minutes.pdf",
+      "pages": 8,
+      "sha256": "5a9e78f4e04bf79814f0c71764a633b4fd7ca5980ca456fd88d080dd77f99192",
+      "reviewStatus": "Meeting date and session type checked against extracted PDF header; substantive findings pending page-level review."
+    },
+    {
+      "date": "2021-11-16",
+      "kind": "regular",
+      "originalFilename": "2021/CC Minutes 11.16.2021.pdf",
+      "path": "official-documents/2021-11-16/council-minutes.pdf",
+      "localPath": "minutes/official-documents--2021-11-16--council-minutes.pdf",
+      "pages": 6,
+      "sha256": "998023274cefe2d2f3a61acdd007dd6435676ab23c4e85e1d4f7c19b1891b52a",
+      "reviewStatus": "Meeting date and session type checked against extracted PDF header; substantive findings pending page-level review."
+    },
+    {
+      "date": "2021-12-07",
+      "kind": "regular",
+      "originalFilename": "2021/CC Minutes 12.07.2021.pdf",
+      "path": "official-documents/2021-12-07/council-minutes.pdf",
+      "localPath": "minutes/official-documents--2021-12-07--council-minutes.pdf",
+      "pages": 9,
+      "sha256": "ecebe2b9e6e70d1c052e2b9dbe36a310cd9e07f69baba1fd5cc5687edda1bdff",
+      "reviewStatus": "Meeting date and session type checked against extracted PDF header; substantive findings pending page-level review."
+    },
+    {
+      "date": "2021-12-21",
+      "kind": "regular",
+      "originalFilename": "2021/CC Minutes 12.21.2021.pdf",
+      "path": "official-documents/2021-12-21/council-minutes.pdf",
+      "localPath": "minutes/official-documents--2021-12-21--council-minutes.pdf",
+      "pages": 11,
+      "sha256": "6dcd31b52b06fe2414ade7afcbabf7aab135b4939d7f21abf6b37dc224e8615d",
+      "reviewStatus": "Meeting date and session type checked against extracted PDF header; substantive findings pending page-level review."
+    },
+    {
+      "date": "2021-07-22",
+      "kind": "workshop",
+      "originalFilename": "2021/CC Minutes Workshop  07.22.2021.pdf",
+      "path": "official-documents/2021-07-22/workshop-minutes.pdf",
+      "localPath": "minutes/official-documents--2021-07-22--workshop-minutes.pdf",
+      "pages": 2,
+      "sha256": "04d7b4a57a64952b95e1bff1a8203d9d5874ea83305b9f7e57ac5df66964c9ab",
+      "reviewStatus": "Meeting date and session type checked against extracted PDF header; substantive findings pending page-level review."
+    }
+  ],
+  "limitations": "No assumption of complete annual coverage. Search text may contain OCR errors. WRCOG findings and financial claims require separate page-level verification."
+}
