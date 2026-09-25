@@ -37,7 +37,11 @@ def topic_for(text: str) -> str:
 
 records: list[dict] = []
 manifest = json.loads((ROOT / "data" / "document-storage-manifest.json").read_text(encoding="utf-8"))
+minutes = json.loads((ROOT / "data/council/minutes-register.json").read_text(encoding="utf-8"))["documents"]
+minutes_paths = {record['archivePath'] for record in minutes}
 for doc in manifest["documents"]:
+    if doc['path'] in minutes_paths:
+        continue
     path = doc["path"]
     parts = path.split("/")
     date = next((part for part in parts if re.fullmatch(r"\d{4}-\d{2}-\d{2}", part)), "")
@@ -70,6 +74,12 @@ for item in historical['items']:
         records.append({'title': doc['title'], 'url': doc['url'], 'date': historical['date'],
                         'item': item['item'], 'topic': topic_for(doc['title']),
                         'type': 'Official City document', 'body': doc['title'] + ' ' + item['notes']})
+
+for minute in minutes:
+    records.append({"title": minute['title'], "url": minute['url'], "date": minute['date'],
+                    "item": "", "topic": "council", "type": "Meeting minutes",
+                    "body": "\n".join(minute['textPages']) or "Text unavailable; open the scanned minutes to read.",
+                    "textAvailable": any(page.strip() for page in minute['textPages'])})
 
 output = "window.BI_RESEARCH_LIBRARY=" + json.dumps(records, ensure_ascii=False, separators=(",", ":")) + ";\n"
 (DOCS / "documents" / "library-index.js").write_text(output, encoding="utf-8")

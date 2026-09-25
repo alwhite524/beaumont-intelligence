@@ -42,11 +42,17 @@ def meeting_records() -> list[dict[str, str | None]]:
     for document in manifest['documents']:
         if document.get('publication_status') == 'pending-upload':
             continue
-        match = re.fullmatch(r'official-documents/(\d{4}-\d{2}-\d{2})/(agenda|special-meeting-minutes)\.pdf', document['path'])
+        match = re.fullmatch(r'official-documents/(\d{4}-\d{2}-\d{2})/(agenda|special-meeting-minutes|council-minutes|workshop-minutes)\.pdf', document['path'])
         if match:
             date, kind = match.groups()
             record = meetings.setdefault(date, {'date': date, 'video': None, 'packet': None})
-            record['agenda' if kind == 'agenda' else 'minutes'] = document['url']
+            if kind == 'agenda':
+                record['agenda'] = document['url']
+            elif kind == 'council-minutes':
+                record['minutes'] = document['url']
+            else:
+                title = 'Special meeting minutes' if kind == 'special-meeting-minutes' else 'Workshop minutes'
+                record.setdefault('documents', []).append({'title': title, 'url': document['url']})
     register = json.loads((ROOT / 'data/budget/source-register.json').read_text(encoding='utf-8'))
     for source in register['sources']:
         date = source.get('councilMeetingDate')
@@ -56,10 +62,25 @@ def meeting_records() -> list[dict[str, str | None]]:
         url = source.get('archivePath') or source.get('officialUrl')
         if source['documentType'] == 'Council Agenda' and not record.get('packet'):
             record.setdefault('agenda', url)
-        if source['documentType'] == 'Council Minutes':
+        if source['documentType'] == 'Council Minutes' and url not in [d['url'] for d in record.get('documents', [])]:
             record.setdefault('minutes', url)
         if source['sourceId'] in ('SRC-0035', 'SRC-0036'):
             record.setdefault('documents', []).append({'title': 'Settlement agreement and attachments', 'url': url})
+
+    # Dates in this catalog describe the meeting recorded, not the approving agenda.
+    minutes = json.loads((ROOT / 'data/council/minutes-register.json').read_text(encoding='utf-8'))['documents']
+    for minute in minutes:
+        date = minute['date']
+        if not date:
+            continue
+        record = meetings.setdefault(date, {'date': date, 'video': None, 'packet': None})
+        existing = [d['url'] for d in record.get('documents', [])] + [record.get('minutes')]
+        if minute['url'] in existing:
+            continue
+        if minute['kind'] == 'regular' and not record.get('minutes'):
+            record['minutes'] = minute['url']
+        else:
+            record.setdefault('documents', []).append({'title': minute['title'], 'url': minute['url']})
 
     meetings.setdefault('2015-11-03', {'date': '2015-11-03', 'video': 'https://www.youtube.com/watch?v=mokmwjT4ujs', 'packet': None})
     return sorted(meetings.values(), key=lambda item: item["date"], reverse=True)

@@ -10,7 +10,8 @@
   if (!search || !topic || !meeting || !topics || !count) return;
 
   const transcriptType = 'Meeting transcript';
-  const documents = records.filter(record => record.type !== transcriptType);
+  const minutes = records.filter(record => record.type === 'Meeting minutes');
+  const documents = records.filter(record => record.type !== transcriptType && record.type !== 'Meeting minutes');
   const staticRows = [...topics.querySelectorAll('.record')];
   const staticGroups = [...topics.querySelectorAll('.topic')];
   const statusCounts = document.querySelectorAll('.library-hero .status span');
@@ -24,7 +25,7 @@
     const dates = [...new Set(sourceRecords.map(record => record.date).filter(Boolean))].sort().reverse();
     const allLabel = searchMode() === 'transcripts'
       ? 'All meetings with transcripts'
-      : 'All meetings with source documents';
+      : searchMode() === 'minutes' ? 'All available minutes' : 'All meetings with source documents';
     meeting.innerHTML = `<option value="all">${allLabel}</option>` + dates.map(date => {
     const label = new Date(`${date}T12:00:00`).toLocaleDateString('en-US', {
       year: 'numeric', month: 'long', day: 'numeric',
@@ -117,14 +118,15 @@
     results.hidden = false;
     if (empty) empty.hidden = true;
     const transcriptMode = mode === 'transcripts';
+    const minutesMode = mode === 'minutes';
     count.textContent = transcriptMode
       ? `Showing ${matches.length} matching meeting ${matches.length === 1 ? 'transcript' : 'transcripts'}`
-      : `Showing ${matches.length} source ${matches.length === 1 ? 'document' : 'documents'}`;
-    const heading = transcriptMode ? 'Transcript results' : 'Source documents';
+      : minutesMode ? `Showing ${matches.length} minutes records` : `Showing ${matches.length} source ${matches.length === 1 ? 'document' : 'documents'}`;
+    const heading = transcriptMode ? 'Transcript results' : mode === 'minutes' ? 'Council minutes' : 'Source documents';
     const eyebrow = transcriptMode ? 'Council transcripts' : 'Official records';
     const explanation = transcriptMode
       ? 'Transcript matches identify the meeting and link directly to the matching moment in the video.'
-      : 'Every indexed source document matching the selected topic and meeting is shown below.';
+      : mode === 'minutes' ? 'Searchable text comes from the minutes PDFs and may contain OCR errors or omissions. Open the original to verify a result. Annual compilations are listed separately from individual meeting dates.' : 'Every indexed source document matching the selected topic and meeting is shown below.';
     results.innerHTML = matches.length ? `<section class="topic"><div class="topic-label"><div class="eyebrow">${eyebrow}</div><h2>${heading}</h2><p>${explanation}</p></div><div class="collection-list">${matches.map(record => {
       const hit = query ? transcriptHit(record, query) : null;
       const resultSnippet = hit ? hit.text : snippet(record.body, query);
@@ -137,7 +139,7 @@
         ? `<a href="${esc(destination.href)}" data-library-route="true">${esc(destination.label)} →</a>`
         : '';
       return `<article class="record"><div class="record-date"><span>${esc(record.item || record.type)}</span>${esc(record.date || 'Undated')}</div><div><h3>${esc(record.title)}</h3><p>${esc(resultSnippet)}</p></div><div class="links"><span class="doc-count">${esc(record.type)}</span>${watchLink}${destinationLink}</div></article>`;
-    }).join('')}</div></section>` : `<div class="empty">${transcriptMode ? 'No transcript matches that word or phrase.' : 'No source documents match those filters.'}</div>`;
+    }).join('')}</div></section>` : `<div class="empty">${transcriptMode ? 'No transcript matches that word or phrase.' : minutesMode ? 'No minutes match those filters.' : 'No source documents match those filters.'}</div>`;
   };
 
   function render() {
@@ -155,12 +157,12 @@
       results.innerHTML = '<div class="empty">Search transcript text to find matching meetings and jump directly to the relevant video timestamp.</div>';
       return;
     }
-    const sourceRecords = mode === 'transcripts' ? transcripts : documents;
+    const sourceRecords = mode === 'transcripts' ? transcripts : mode === 'minutes' ? minutes : documents;
     const matches = sourceRecords.filter(record => {
       if (!recordMatchesFilters(record)) return false;
       if (mode === 'transcripts') return Boolean(transcriptHit(record, query));
       return !query || matchesQuery(`${record.title} ${record.item} ${record.body}`, query);
-    }).slice(0, 100);
+    });
     renderRecords(matches, query, mode);
   }
 
@@ -170,8 +172,8 @@
   modeInputs.forEach(input => input.addEventListener('change', () => {
     const transcriptMode = searchMode() === 'transcripts';
     topic.value = 'all';
-    topic.disabled = transcriptMode;
-    meetingOptions(transcriptMode ? transcripts : documents);
+    topic.disabled = searchMode() !== 'documents';
+    meetingOptions(transcriptMode ? transcripts : searchMode() === 'minutes' ? minutes : documents);
     search.placeholder = transcriptMode
       ? 'Try “billboard,” “Brookside,” or “short-term rental”…'
       : 'Try “budget,” “Pennsylvania,” or “J.2”…';

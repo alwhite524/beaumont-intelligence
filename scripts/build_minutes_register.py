@@ -1,0 +1,72 @@
+"""Consolidate local minutes and cache searchable text; retain existing archive URLs."""
+import hashlib
+import json
+import re
+from datetime import datetime
+from pathlib import Path
+
+from pypdf import PdfReader
+
+ROOT = Path(__file__).resolve().parents[1]
+DOCS = ROOT / 'docs'
+REGISTER = ROOT / 'data/council/minutes-register.json'
+
+
+def main():
+    manifest = json.loads((ROOT / 'data/document-storage-manifest.json').read_text(encoding='utf-8'))
+    previous = {r['archivePath']: r for r in json.loads(REGISTER.read_text(encoding='utf-8'))['documents']} if REGISTER.exists() else {}
+    folder = DOCS / 'minutes'
+    folder.mkdir(exist_ok=True)
+    records = []
+    for doc in manifest['documents']:
+        archive = doc['path']
+        if 'minutes' not in Path(archive).stem.lower() or doc.get('publication_status') == 'pending-upload':
+            continue
+        old = previous.get(archive, {})
+        filename = archive.replace('/', '--')
+        local = folder / filename
+        original = DOCS / archive
+        if original.exists() and original != local:
+            if local.exists():
+                raise RuntimeError(f'Duplicate local file needs review: {archive}')
+            original.rename(local)
+        if not local.exists():
+            raise FileNotFoundError(local)
+        checksum = hashlib.sha256(local.read_bytes()).hexdigest()
+        if checksum != doc['sha256']:
+            raise RuntimeError(f'Checksum mismatch: {archive}')
+        name = Path(archive).stem
+        annual = re.fullmatch(r'(20\d{2})-council-minutes', name)
+        date = ''
+        match = re.search(r'cc-minutes-(\d{2})-(\d{2})-(\d{4})', name)
+        named = re.search(r'minutes-of-([a-z]+-\d{1,2}-\d{4})', name)
+        if match:
+            date = f'{match[3]}-{match[1]}-{match[2]}'
+        elif named:
+            date = datetime.strptime(named[1], '%B-%d-%Y').strftime('%Y-%m-%d')
+        elif name in ('council-minutes', 'special-meeting-minutes', 'workshop-minutes'):
+            date = archive.split('/')[-2]
+        elif name == 'g-2-september-2-minutes-item-bundle':
+            date = '2025-09-02'
+        elif name == 'g-2-august-4-2026-minutes':
+            date = '2026-08-04'
+        elif re.fullmatch(r'\d{4}-\d{2}-\d{2}-(?:council|special-meeting|workshop)-minutes', name):
+            date = name[:10]
+        date = old.get('date') or date
+        if date:
+            datetime.strptime(date, '%Y-%m-%d')
+        kind = 'annual' if annual else 'special' if 'special' in name or 'sp-mtg' in name else 'workshop' if 'workshop' in name else 'regular'
+        kind = old.get('kind') or kind
+        pages = old.get('textPages') if old.get('sha256') == checksum else None
+        if pages is None:
+            pages = [page.extract_text() or '' for page in PdfReader(local).pages]
+        title = f'{annual[1]} Council minutes compilation' if annual else f'{date or "Undated"} {kind.title()} Council minutes'
+        records.append(dict(archivePath=archive, localPath=local.relative_to(DOCS).as_posix(), url=doc['url'],
+                            date=date, year=annual[1] if annual else date[:4], kind=kind, title=title,
+                            sha256=checksum, textPages=pages))
+    REGISTER.write_text(json.dumps({'description': 'Minutes catalog using existing document-storage-manifest archive identities. Extracted text is a search aid, not verified transcription.', 'documents': records}, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+    print(f'Minutes catalog: {len(records)} PDFs in docs/minutes')
+
+
+if __name__ == '__main__':
+    main()

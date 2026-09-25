@@ -1,0 +1,14 @@
+const assert = require('node:assert/strict');
+const fs = require('node:fs');
+const vm = require('node:vm');
+const context = vm.createContext({window:{}});
+vm.runInContext(fs.readFileSync('docs/council-meeting-sources.js','utf8'),context);
+const records=context.window.BI_COUNCIL_MEETING_SOURCES;
+const get=date=>records.find(r=>r.date===date);
+assert.match(get('2025-10-21').minutes,/2025-11-04\/g-2-cc-minutes-10-21-2025/);
+assert.match(get('2025-09-02').minutes,/2025-09-16/);
+assert.match(get('2020-03-17').minutes,/council-minutes/);
+assert.ok(get('2020-03-17').documents.some(d=>d.url.includes('special-meeting-minutes')));
+assert.equal(new Set(records.map(r=>r.date)).size,records.length);
+assert.equal(context.window.BI_COUNCIL_MINUTES_COMPILATIONS.length,5);
+console.log('Meeting dates, regular/special minutes and annual links passed.');

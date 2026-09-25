@@ -19,7 +19,7 @@ MANIFEST = ROOT / "data" / "document-storage-manifest.json"
 
 
 def pdf_files() -> list[Path]:
-    roots = (DOCS / "official-documents", DOCS / "records" / "agenda-packets")
+    roots = (DOCS / "official-documents", DOCS / "records" / "agenda-packets", DOCS / "minutes")
     return sorted(path for root in roots for path in root.rglob("*.pdf"))
 
 
@@ -81,14 +81,20 @@ def main() -> None:
             record["path"]: record for record in existing.get("documents", [])
         }
 
+    minutes_register = ROOT / "data/council/minutes-register.json"
+    minute_keys = {r['localPath']: r['archivePath'] for r in json.loads(minutes_register.read_text(encoding='utf-8'))['documents']} if minutes_register.exists() else {}
+    def archive_key(path):
+        local = path.relative_to(DOCS).as_posix()
+        return minute_keys.get(local, local)
+
     local_pdfs = pdf_files()
     if args.meeting:
         local_pdfs = [
             path for path in local_pdfs
-            if any(f"/{date}/" in f"/{path.relative_to(DOCS).as_posix()}" for date in args.meeting)
+            if any(f"/{date}/" in f"/{archive_key(path)}" for date in args.meeting)
         ]
     for index, path in enumerate(local_pdfs, start=1):
-        key = path.relative_to(DOCS).as_posix()
+        key = archive_key(path)
         checksum = sha256(path)
         remote = None
         try:
