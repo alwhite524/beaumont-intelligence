@@ -7,6 +7,8 @@ from datetime import datetime
 from pathlib import Path
 from urllib.parse import quote
 
+from minutes_selection import preferred_minutes
+
 ROOT = Path(__file__).resolve().parents[1]
 DOCS = ROOT / "docs"
 
@@ -38,21 +40,17 @@ def meeting_records() -> list[dict[str, str | None]]:
         preferred = sorted(documents, key=lambda item: ("records/agenda-packets" not in item["path"], item["path"]))[0]
         meetings.setdefault(date, {"date": date, "video": None, "packet": None})["packet"] = preferred["url"]
 
-    # Include standalone agendas and minutes without calling them full packets.
+    # Include standalone agendas without calling them full packets. Minutes are
+    # selected from the minutes register below so alternate formats do not create
+    # duplicate links.
     for document in manifest['documents']:
         if document.get('publication_status') == 'pending-upload':
             continue
-        match = re.fullmatch(r'official-documents/(\d{4}-\d{2}-\d{2})/(agenda|special-meeting-minutes|council-minutes|workshop-minutes)\.pdf', document['path'])
+        match = re.fullmatch(r'official-documents/(\d{4}-\d{2}-\d{2})/(agenda)\.pdf', document['path'])
         if match:
             date, kind = match.groups()
             record = meetings.setdefault(date, {'date': date, 'video': None, 'packet': None})
-            if kind == 'agenda':
-                record['agenda'] = document['url']
-            elif kind == 'council-minutes':
-                record['minutes'] = document['url']
-            else:
-                title = 'Special meeting minutes' if kind == 'special-meeting-minutes' else 'Workshop minutes'
-                record.setdefault('documents', []).append({'title': title, 'url': document['url']})
+            record['agenda'] = document['url']
     register = json.loads((ROOT / 'data/budget/source-register.json').read_text(encoding='utf-8'))
     for source in register['sources']:
         date = source.get('councilMeetingDate')
@@ -62,8 +60,6 @@ def meeting_records() -> list[dict[str, str | None]]:
         url = source.get('archivePath') or source.get('officialUrl')
         if source['documentType'] == 'Council Agenda' and not record.get('packet'):
             record.setdefault('agenda', url)
-        if source['documentType'] == 'Council Minutes' and url not in [d['url'] for d in record.get('documents', [])]:
-            record.setdefault('minutes', url)
         if source['documentType'] not in ('Council Agenda', 'Council Minutes') and url:
             existing = [document['url'] for document in record.get('documents', [])]
             if url not in existing:
@@ -71,7 +67,7 @@ def meeting_records() -> list[dict[str, str | None]]:
 
     # Dates in this catalog describe the meeting recorded, not the approving agenda.
     minutes = json.loads((ROOT / 'data/council/minutes-register.json').read_text(encoding='utf-8'))['documents']
-    for minute in minutes:
+    for minute in preferred_minutes(minutes):
         date = minute['date']
         if not date:
             continue
@@ -79,10 +75,14 @@ def meeting_records() -> list[dict[str, str | None]]:
         existing = [d['url'] for d in record.get('documents', [])] + [record.get('minutes')]
         if minute['url'] in existing:
             continue
-        if minute['kind'] == 'regular' and not minute['url'].lower().endswith('.docx') and not record.get('minutes'):
+        is_pdf = minute['url'].lower().endswith('.pdf')
+        if minute['kind'] == 'regular' and is_pdf:
             record['minutes'] = minute['url']
         else:
-            record.setdefault('documents', []).append({'title': minute['title'], 'url': minute['url']})
+            title = minute['title']
+            if is_pdf:
+                title = 'Special meeting minutes PDF' if minute['kind'] == 'special' else 'Workshop minutes PDF'
+            record.setdefault('documents', []).append({'title': title, 'url': minute['url']})
 
     legacy = meetings.setdefault('2015-11-03', {'date': '2015-11-03', 'video': None, 'packet': None})
     legacy['video'] = legacy.get('video') or 'https://www.youtube.com/watch?v=mokmwjT4ujs'

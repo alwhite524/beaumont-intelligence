@@ -6,10 +6,11 @@ with the repository's other public records. The tracked catalog is
 `data/council/minutes-register.json`; it includes local locations, stable archive
 URLs, checksums, meeting dates and extracted searchable text.
 
-Word originals are archived without conversion, indexed from their paragraph text,
-and linked as downloads rather than passed to the PDF viewer. Their cached text
-is not paginated. Different file versions for the same meeting are retained;
-they do not represent separate Council actions. Use `--path` with the sync script
+Word originals are archived without conversion. When both PDF and Word versions
+exist for the same meeting and session type, the public meeting list and Research
+Library show one preferred PDF. A Word link is shown only when no PDF is available.
+Its cached text is not paginated. Different archived versions for the same meeting
+are retained; they do not represent separate Council actions. Use `--path` with the sync script
 to limit uploads to exact archive keys listed in an intake record.
 
 For future intake:

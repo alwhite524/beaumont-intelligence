@@ -1,8 +1,8 @@
 {
   "bucket": "beaumont-intelligence-documents",
   "public_base_url": "https://documents.beaumontintelligence.com",
-  "document_count": 2093,
-  "total_bytes": 13738541961,
+  "document_count": 2076,
+  "total_bytes": 13737734277,
   "documents": [
     {
       "path": "official-documents/2008-01-15/council-minutes.pdf",
@@ -4181,12 +4181,6 @@
       "sha256": "02b3564f7712480d4367f8f4ba29c698769d2de3b6aec41a460025f2c2576ae0"
     },
     {
-      "path": "official-documents/2025-12-16/council-minutes.docx",
-      "url": "https://documents.beaumontintelligence.com/official-documents/2025-12-16/council-minutes.docx",
-      "bytes": 56104,
-      "sha256": "910ac386d90b6076fe6883ddcfa642864da9ffae4231e97f5f94a5eb03e2f78b"
-    },
-    {
       "path": "official-documents/2025-12-16/g-1-11-21-2025-warrants.pdf",
       "url": "https://documents.beaumontintelligence.com/official-documents/2025-12-16/g-1-11-21-2025-warrants.pdf",
       "bytes": 766279,
@@ -4919,28 +4913,10 @@
       "sha256": "4c7fa44a40d137c45d876f8d34c4cf53db0e55dc41af42aaea784272495bc567"
     },
     {
-      "path": "official-documents/2026-01-06/council-minutes.docx",
-      "url": "https://documents.beaumontintelligence.com/official-documents/2026-01-06/council-minutes.docx",
-      "bytes": 39613,
-      "sha256": "714b13d8ffe4746d2c5473f37cb85d37785d4fdbe1296e5e88fa30b774194fdb"
-    },
-    {
-      "path": "official-documents/2026-01-13/council-minutes.docx",
-      "url": "https://documents.beaumontintelligence.com/official-documents/2026-01-13/council-minutes.docx",
-      "bytes": 40627,
-      "sha256": "a06c031f29fd0510941b292c50c5ed1ea17b80907d03d46c3be786703f456795"
-    },
-    {
       "path": "official-documents/2026-01-20/agenda.pdf",
       "url": "https://documents.beaumontintelligence.com/official-documents/2026-01-20/agenda.pdf",
       "bytes": 85237,
       "sha256": "084b448a436963c8d051201da7c521b600d83eb3a781c30090daa076c49c5f76"
-    },
-    {
-      "path": "official-documents/2026-01-20/council-minutes.docx",
-      "url": "https://documents.beaumontintelligence.com/official-documents/2026-01-20/council-minutes.docx",
-      "bytes": 47249,
-      "sha256": "ab3ddc00ad2e43e93aefe0a854d69609ece7c6042647b2bff85ba6df33d833ee"
     },
     {
       "path": "official-documents/2026-01-20/g-1-01-02-2026-warrants.pdf",
@@ -5489,12 +5465,6 @@
       "sha256": "b69e6461839323cf7ead616db611cdefa0d6c4659889719c8b5eb3a15f3cc651"
     },
     {
-      "path": "official-documents/2026-02-03/council-minutes.docx",
-      "url": "https://documents.beaumontintelligence.com/official-documents/2026-02-03/council-minutes.docx",
-      "bytes": 45059,
-      "sha256": "3c5f6f182e3132d718b490c4a0385ab5438e6835f5b3a0df9b825e9029f35a09"
-    },
-    {
       "path": "official-documents/2026-02-03/e-2-county-of-riverside-cert-of-recognition-pw.pdf",
       "url": "https://documents.beaumontintelligence.com/official-documents/2026-02-03/e-2-county-of-riverside-cert-of-recognition-pw.pdf",
       "bytes": 103845,
@@ -5793,12 +5763,6 @@
       "url": "https://documents.beaumontintelligence.com/official-documents/2026-02-17/agenda.pdf",
       "bytes": 84467,
       "sha256": "9954f77c2d423469c4ebf9b3703aefa082bf97fbce8180a0f6fed4abaef691ae"
-    },
-    {
-      "path": "official-documents/2026-02-17/council-minutes.docx",
-      "url": "https://documents.beaumontintelligence.com/official-documents/2026-02-17/council-minutes.docx",
-      "bytes": 47437,
-      "sha256": "d5af600ba1e33c79f1fc2f26e7311570fe84ce823fcfd8e772c6cdd3b01d0591"
     },
     {
       "path": "official-documents/2026-02-17/g-1-january-23-2026.pdf",
@@ -6155,12 +6119,6 @@
       "sha256": "9992cfd3ae4b2453de164ca483889e951c7ab799648f726ee9d5325cd8ea0e71"
     },
     {
-      "path": "official-documents/2026-02-23/council-minutes.docx",
-      "url": "https://documents.beaumontintelligence.com/official-documents/2026-02-23/council-minutes.docx",
-      "bytes": 39152,
-      "sha256": "dba149c6486f1428b0e2189438650c7c474af272bd71d37918ac02c14ce1769a"
-    },
-    {
       "path": "official-documents/2026-02-23/g-1-january-23-2026.pdf",
       "url": "https://documents.beaumontintelligence.com/official-documents/2026-02-23/g-1-january-23-2026.pdf",
       "bytes": 687581,
@@ -6501,12 +6459,6 @@
       "url": "https://documents.beaumontintelligence.com/official-documents/2026-03-03/agenda.pdf",
       "bytes": 84923,
       "sha256": "90d266d6bbd4d8f9509551adb95decfb64c67ca9eadb2057d4d5717df9176c85"
-    },
-    {
-      "path": "official-documents/2026-03-03/council-minutes.docx",
-      "url": "https://documents.beaumontintelligence.com/official-documents/2026-03-03/council-minutes.docx",
-      "bytes": 47126,
-      "sha256": "97e713b1167fde6a4e16e52c0c675a3cf7d98abc98dcf7d9de4335b662c2ca44"
     },
     {
       "path": "official-documents/2026-03-03/g-1-february-6-2026.pdf",
@@ -6977,12 +6929,6 @@
       "sha256": "447e62435af8a8b11f0d554d7e3e8bc5b36a505d119df3448961a00ed7b0eef6"
     },
     {
-      "path": "official-documents/2026-03-17/council-minutes.docx",
-      "url": "https://documents.beaumontintelligence.com/official-documents/2026-03-17/council-minutes.docx",
-      "bytes": 47564,
-      "sha256": "4379097e429fe4a70d6f3011e343363de28b55a2859b0c607ce81c5fb0b5b61b"
-    },
-    {
       "path": "official-documents/2026-03-17/e-3-proclamation-government-finance-professionals-week.pdf",
       "url": "https://documents.beaumontintelligence.com/official-documents/2026-03-17/e-3-proclamation-government-finance-professionals-week.pdf",
       "bytes": 95990,
@@ -7299,12 +7245,6 @@
       "url": "https://documents.beaumontintelligence.com/official-documents/2026-04-07/agenda.pdf",
       "bytes": 90032,
       "sha256": "b26718d3a2f3aa196865e330117cdf16b53b97eb44e2f646d13ee913c3760a79"
-    },
-    {
-      "path": "official-documents/2026-04-07/council-minutes.docx",
-      "url": "https://documents.beaumontintelligence.com/official-documents/2026-04-07/council-minutes.docx",
-      "bytes": 49433,
-      "sha256": "bfd78aee241541c627049ef432ab7f1f5a407ac807a65e2f19ceaf711ae7a190"
     },
     {
       "path": "official-documents/2026-04-07/e-1-proclamation-riverside-county-innovation-month.pdf",
@@ -7835,12 +7775,6 @@
       "sha256": "85d1a568de44d323d1958a71bee088ed974806657d74b05e22933db7ce3a95f8"
     },
     {
-      "path": "official-documents/2026-04-21/council-minutes.docx",
-      "url": "https://documents.beaumontintelligence.com/official-documents/2026-04-21/council-minutes.docx",
-      "bytes": 47292,
-      "sha256": "c68e20078f0ba09b09e2cd99d09df00da8509ec2ca30c8205cb8af5cd9b4fa43"
-    },
-    {
       "path": "official-documents/2026-04-21/g-1-03-27-2026-warrants.pdf",
       "url": "https://documents.beaumontintelligence.com/official-documents/2026-04-21/g-1-03-27-2026-warrants.pdf",
       "bytes": 920562,
@@ -8217,12 +8151,6 @@
       "url": "https://documents.beaumontintelligence.com/official-documents/2026-05-05/agenda.pdf",
       "bytes": 89473,
       "sha256": "e2f45deb52ebdb33d7fdf2956096cd04baa6191b4098c11796c8ec7b3fc67942"
-    },
-    {
-      "path": "official-documents/2026-05-05/council-minutes.docx",
-      "url": "https://documents.beaumontintelligence.com/official-documents/2026-05-05/council-minutes.docx",
-      "bytes": 48975,
-      "sha256": "3a4666150ad2cc38e308ffb095ce923c0ba250b7b9805820fe536524318fdd87"
     },
     {
       "path": "official-documents/2026-05-05/e-1-proclamation-provider-appreciation-day.pdf",
@@ -8843,12 +8771,6 @@
       "sha256": "35e680565bb71e5112b3caee78c4529c138917a91644ec3bde77f93b4cd64191"
     },
     {
-      "path": "official-documents/2026-06-02/council-minutes.docx",
-      "url": "https://documents.beaumontintelligence.com/official-documents/2026-06-02/council-minutes.docx",
-      "bytes": 49181,
-      "sha256": "4f294d3bb47809384bf6409bf8cf16ce7dae432bb885df596f2573dd880bd092"
-    },
-    {
       "path": "official-documents/2026-06-02/g-1-april-24-2026-warrants.pdf",
       "url": "https://documents.beaumontintelligence.com/official-documents/2026-06-02/g-1-april-24-2026-warrants.pdf",
       "bytes": 701005,
@@ -9431,12 +9353,6 @@
       "sha256": "056e4c4b02c3357b640a354e80b28d42cd04004e1a7b759480cf38afb53766b1"
     },
     {
-      "path": "official-documents/2026-06-16/council-minutes.docx",
-      "url": "https://documents.beaumontintelligence.com/official-documents/2026-06-16/council-minutes.docx",
-      "bytes": 48894,
-      "sha256": "682e176db7d9e2751a57a8b6d0eacb46c05678b1733aa02f69e19a5ef5a92de7"
-    },
-    {
       "path": "official-documents/2026-06-16/e-1-proclamation-parks-and-recreation-month.pdf",
       "url": "https://documents.beaumontintelligence.com/official-documents/2026-06-16/e-1-proclamation-parks-and-recreation-month.pdf",
       "bytes": 143256,
@@ -9981,12 +9897,6 @@
       "url": "https://documents.beaumontintelligence.com/official-documents/2026-07-21/agenda.pdf",
       "bytes": 82745,
       "sha256": "69eabeac2526912bfd934c85f9070cf83ecce2e22f5a2d99839ef7523c70ba04"
-    },
-    {
-      "path": "official-documents/2026-07-21/council-minutes.docx",
-      "url": "https://documents.beaumontintelligence.com/official-documents/2026-07-21/council-minutes.docx",
-      "bytes": 49629,
-      "sha256": "d5bbf0e1ae8c093e882c40f9ed24148884df1c2bad36c05c4f61dc62d1645731"
     },
     {
       "path": "official-documents/2026-07-21/g-1-july-3-2026-warrants.pdf",
@@ -10679,12 +10589,6 @@
       "sha256": "74aa9c212c562f0ab727fcdb59ec07ce4ae4dd2708357d1a290a2cb38426a928"
     },
     {
-      "path": "official-documents/2026-08-04/council-minutes.docx",
-      "url": "https://documents.beaumontintelligence.com/official-documents/2026-08-04/council-minutes.docx",
-      "bytes": 53343,
-      "sha256": "536cdc161fdeee91c7e3083841de7640f4f111f5803e38fee8a7d4bc4f045918"
-    },
-    {
       "path": "official-documents/2026-08-04/g-1-july-10-2026-warrants.pdf",
       "url": "https://documents.beaumontintelligence.com/official-documents/2026-08-04/g-1-july-10-2026-warrants.pdf",
       "bytes": 1199283,
@@ -11109,12 +11013,6 @@
       "url": "https://documents.beaumontintelligence.com/official-documents/2026-08-18/agenda.pdf",
       "bytes": 102757,
       "sha256": "11a7990a760bc92ab06bec7d245b927f0ec65e90b6259aa41c47f0f0a0ac334f"
-    },
-    {
-      "path": "official-documents/2026-08-18/council-minutes.docx",
-      "url": "https://documents.beaumontintelligence.com/official-documents/2026-08-18/council-minutes.docx",
-      "bytes": 51006,
-      "sha256": "f44ece11b298d0e6b0ced0c9cb30475bb6892d6ccfef0b79602207f86f8e27b4"
     },
     {
       "path": "official-documents/2026-08-18/g-1-july-24-2026-warrants.pdf",

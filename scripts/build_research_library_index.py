@@ -5,6 +5,8 @@ import json
 import re
 from pathlib import Path
 
+from minutes_selection import preferred_minutes
+
 ROOT = Path(__file__).resolve().parents[1]
 DOCS = ROOT / "docs"
 
@@ -75,7 +77,7 @@ for item in historical['items']:
                         'item': item['item'], 'topic': topic_for(doc['title']),
                         'type': 'Official City document', 'body': doc['title'] + ' ' + item['notes']})
 
-for minute in minutes:
+for minute in preferred_minutes(minutes):
     records.append({"title": minute['title'], "url": minute['url'], "date": minute['date'],
                     "item": "", "topic": "council", "type": "Meeting minutes",
                     "body": "\n".join(minute['textPages']) or "Text unavailable; open the scanned minutes to read.",

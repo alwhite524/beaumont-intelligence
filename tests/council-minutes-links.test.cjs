@@ -11,7 +11,7 @@ assert.match(get('2020-03-17').minutes,/council-minutes/);
 assert.ok(get('2020-03-17').documents.some(d=>d.url.includes('special-meeting-minutes')));
 assert.equal(new Set(records.map(r=>r.date)).size,records.length);
 assert.equal(context.window.BI_COUNCIL_MINUTES_COMPILATIONS.length,5);
-assert.ok(get('2025-10-21').documents.some(d => d.url.includes('2025-11-04/g-2-cc-minutes-10-21-2025')));
+assert.ok(!get('2025-10-21').documents?.some(d => /Regular Council minutes|Word original/i.test(d.title)));
 assert.ok(get('2025-04-29').documents.some(d => d.url.endsWith('special-meeting-minutes.docx') && d.title.includes('Word original')));
 assert.match(get('2022-05-03').minutes, /council-minutes.pdf$/);
 assert.ok(get('2022-05-03').documents.some(d => d.url.endsWith('special-meeting-minutes.pdf')));
@@ -32,4 +32,7 @@ assert.equal(get('2017-06-20').video, 'https://www.youtube.com/watch?v=mvOn4a3Ir
 assert.equal(get('2017-07-18').video, 'https://www.youtube.com/watch?v=XkKF7N5xJJ4');
 assert.equal(get('2021-05-18').video, 'https://www.youtube.com/watch?v=XTyNP7tv33Q');
 assert.match(get('2021-05-18').minutes, /2021-05-18\/council-minutes\.pdf$/);
+assert.match(get('2026-08-04').minutes, /g-2-cc-minutes-08-04-2026\.pdf$/);
+assert.ok(!get('2026-08-04').documents?.some(d => /minutes|Word original/i.test(d.title)));
+assert.ok(records.every(record => !record.minutes || !(record.documents || []).some(d => /Regular Council minutes|Word original/i.test(d.title))));
 console.log('Meeting dates, regular/special minutes and annual links passed.');
