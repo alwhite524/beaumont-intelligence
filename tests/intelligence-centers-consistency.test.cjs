@@ -32,4 +32,7 @@ const wrcog = fs.readFileSync('docs/wrcog-restitution.html', 'utf8');
 assert.match(wrcog, /intelligence-centers\.html#finance-government/);
 assert.match(wrcog, /class="project-nav center-nav"/);
 assert.match(wrcog, /href="wrcog-restitution-evidence\.html">Evidence<\/a>/);
+assert.match(wrcog, /class="status-layout"/);
+assert.match(wrcog, /class="snapshot-card"/);
+assert.ok((wrcog.match(/class="story-card"/g) || []).length >= 5);
 console.log('Intelligence Center hierarchy and shared page structure passed.');
