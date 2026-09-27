@@ -41,6 +41,15 @@ overview = '''<p>This Center documents the WRCOG litigation and settlement, crim
 milestones = json.loads((ROOT / 'data/council/2017-minutes-intake.json').read_text(encoding='utf-8'))
 timeline = ''.join(f'<li><strong>{escape(event["date"])}</strong> — {escape(event["finding"])} <a href="wrcog-restitution-evidence.html#{milestones["sourceIds"][0]}">Minutes, PDF page {event["pdfPage"]}</a></li>' for event in milestones['findings'])
 overview += f'<section id="council-actions"><h2>Documented Council actions</h2><p>The supplied minutes support these actions. Approval does not itself establish execution, dismissal, or payment.</p><ol>{timeline}</ol><p><a href="council-meeting-sources.html">Browse Council videos, agendas and minutes</a></p></section>'
+precursor_actions = [
+    ('May 3, 2016', 'Council records place a tolling agreement with former City auditor Moss Levy & Hartzheim on the consent calendar; the minutes record approval.', 'SRC-0041'),
+    ('June 21, 2016', 'Council records place tolling agreements with Norton Rose Fulbright, MUFG Union Bank, and McFarlin & Anderson on the consent calendar; the minutes record approval.', 'SRC-0042'),
+]
+precursor_timeline = ''.join(
+    f'<li><strong>{escape(date)}</strong> — {escape(finding)} <a href="wrcog-restitution-evidence.html#{source_id}">View evidence</a></li>'
+    for date, finding, source_id in precursor_actions
+)
+overview += f'<section id="third-party-claim-preservation"><h2>Third-party claim preservation</h2><p>These 2016 records show steps taken to preserve potential claims while the WRCOG litigation remained pending. A tolling agreement is not proof of liability, a later settlement, money received, or a WRCOG allocation.</p><ol>{precursor_timeline}</ol></section>'
 terms = json.loads((ROOT / 'data/wrcog-restitution/settlement-terms.json').read_text(encoding='utf-8'))
 source_link = f'wrcog-restitution-evidence.html#{terms["sourceId"]}'
 rows = ''.join(f'<tr><th scope="row">{escape(t["range"])}</th><td>{t["wrcogPercent"]}%</td><td>{t["beaumontPercent"]}%</td></tr>' for t in terms['allocation']['tiers'])
@@ -64,6 +73,7 @@ evidence = '<p>This view uses the existing financial Source Register and its per
 (DOCS / (CENTER + '.html')).write_text(page('WRCOG & Restitution Intelligence Center', overview), encoding='utf-8')
 (DOCS / (CENTER + '-evidence.html')).write_text(page('WRCOG & Restitution Source Register', evidence), encoding='utf-8')
 search.append({'title': 'WRCOG settlement and membership Council actions', 'url': 'wrcog-restitution.html#council-actions', 'category': 'Timeline Event', 'description': '2017 settlement approval, WRCOG membership and TUMF actions documented in Council minutes.', 'text': 'April 4 May 16 June 20 July 18 September 5 2017 WRCOG', 'aliases': []})
+search.append({'title': '2016 third-party claim-preservation actions', 'url': 'wrcog-restitution.html#third-party-claim-preservation', 'category': 'Timeline Event', 'description': 'Council records for tolling agreements involving Moss Levy & Hartzheim, Norton Rose Fulbright, MUFG Union Bank, and McFarlin & Anderson.', 'text': 'May 3 June 21 2016 tolling agreement auditor bond counsel trustee professional liability', 'aliases': []})
 search.append({'title': 'WRCOG & Restitution Source Register', 'url': CENTER + '-evidence.html', 'category': 'Intelligence Center', 'description': 'Shared financial Source Register with Council records and settlement approval materials.', 'text': 'WRCOG restitution source documents evidence My Story', 'aliases': []})
 search.append({'title': 'November 3, 2015 Interactive Council Agenda', 'url': 'briefings/2015-11-03-sources.html', 'category': 'Council Intelligence', 'description': 'Official agenda, supporting records and meeting video. Outcomes and timestamps pending.', 'text': 'WRCOG RIC 536164 Urban Futures financial report quiet zones Interwest wastewater fire IT services climate plan', 'aliases': []})
 (DOCS / 'evidence-search-index.js').write_text('window.BI_EVIDENCE_SEARCH_INDEX=' + json.dumps(search, ensure_ascii=False) + ';\n', encoding='utf-8')

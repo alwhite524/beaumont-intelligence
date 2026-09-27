@@ -1,0 +1,23 @@
+{
+  "description": "Verified public City Council video links supplied for meeting-source integration.",
+  "videos": [
+    {
+      "date": "2016-05-03",
+      "url": "https://www.youtube.com/watch?v=6LkeGBCOFto",
+      "title": "City of Beaumont - City Council Meeting (May 3, 2016)",
+      "verificationStatus": "verified-youtube-metadata"
+    },
+    {
+      "date": "2016-06-21",
+      "url": "https://www.youtube.com/watch?v=riGeL0bsumw",
+      "title": "City of Beaumont - City Council Meeting (June 21, 2016)",
+      "verificationStatus": "verified-youtube-metadata"
+    },
+    {
+      "date": "2017-06-20",
+      "url": "https://www.youtube.com/watch?v=mvOn4a3IrsI",
+      "title": "City of Beaumont - City Council Meeting (June 20, 2017)",
+      "verificationStatus": "verified-youtube-metadata"
+    }
+  ]
+}

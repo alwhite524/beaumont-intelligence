@@ -1,0 +1,54 @@
+{
+  "providedArchives": [
+    "ExportedContents (7).Zip",
+    "ExportedContents (8).Zip"
+  ],
+  "duplicateNote": "ExportedContents (7).Zip duplicates the June 21 folder in ExportedContents (8).Zip; imported once from (8).",
+  "documents": [
+    {
+      "originalFilename": "May 3, 2016 City Council Agenda/City Council Agenda May 3, 2016.pdf",
+      "path": "official-documents/2016-05-03/agenda.pdf",
+      "bytes": 3819521,
+      "sha256": "90a4735d740cd45170c3eca522c0c6060bb0a2cb431674f03d7a808f86528ad1"
+    },
+    {
+      "originalFilename": "May 3, 2016 City Council Agenda/Item 3G - Tolling Agreement Moss Levy Hartzheim.pdf",
+      "path": "official-documents/2016-05-03/item-3g-moss-levy-hartzheim-tolling-agreement.pdf",
+      "bytes": 1606807,
+      "sha256": "3c73bfbce2198ef383ba3be05cc88638b31d56905c344c0366a3ec4cbe11a480"
+    },
+    {
+      "originalFilename": "June 21, 2016 City Council Agenda/Agenda City Council Meeting June 21, 2016.pdf",
+      "path": "official-documents/2016-06-21/agenda.pdf",
+      "bytes": 3344334,
+      "sha256": "ddc681d5bdd7fc63d86f33c478ce0228b10994afddf725655ecf5feada9bb84c"
+    },
+    {
+      "originalFilename": "June 21, 2016 City Council Agenda/Item 8e Tolling Agreement - Norton Rose Fullbright US LLP.pdf",
+      "path": "official-documents/2016-06-21/item-8e-norton-rose-fulbright-tolling-agreement.pdf",
+      "bytes": 2761924,
+      "sha256": "b63548f747d2d077c13ce200cb9868ca61c306732bdaf942848999ef6fcb333e"
+    },
+    {
+      "originalFilename": "June 21, 2016 City Council Agenda/Item 8f - Tolling Agreement - MUFG Union Bank.pdf",
+      "path": "official-documents/2016-06-21/item-8f-mufg-union-bank-tolling-agreement.pdf",
+      "bytes": 3213768,
+      "sha256": "99e6d9cfc0a1e916801b92acf24d82ff063b901fc4048d2bcda61f0058118459"
+    },
+    {
+      "originalFilename": "June 21, 2016 City Council Agenda/Item 8g - Tolling Agreement - McFarlin and Anderson LLP.pdf",
+      "path": "official-documents/2016-06-21/item-8g-mcfarlin-anderson-tolling-agreement.pdf",
+      "bytes": 2891481,
+      "sha256": "2fe44bb36b7d3d45d6c7bef23b6501f1d9625a03bbb4a584e3a8e7c2f86a3119"
+    }
+  ],
+  "reviewStatus": "Relevant agendas and tolling agreements reviewed; original files preserved byte-for-byte.",
+  "sourceIds": [
+    "SRC-0040",
+    "SRC-0041",
+    "SRC-0042",
+    "SRC-0043",
+    "SRC-0044",
+    "SRC-0045"
+  ]
+}

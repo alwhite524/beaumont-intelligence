@@ -64,8 +64,10 @@ def meeting_records() -> list[dict[str, str | None]]:
             record.setdefault('agenda', url)
         if source['documentType'] == 'Council Minutes' and url not in [d['url'] for d in record.get('documents', [])]:
             record.setdefault('minutes', url)
-        if source['sourceId'] in ('SRC-0035', 'SRC-0036'):
-            record.setdefault('documents', []).append({'title': 'Settlement agreement and attachments', 'url': url})
+        if source['documentType'] not in ('Council Agenda', 'Council Minutes') and url:
+            existing = [document['url'] for document in record.get('documents', [])]
+            if url not in existing:
+                record.setdefault('documents', []).append({'title': source['title'], 'url': url})
 
     # Dates in this catalog describe the meeting recorded, not the approving agenda.
     minutes = json.loads((ROOT / 'data/council/minutes-register.json').read_text(encoding='utf-8'))['documents']
@@ -82,7 +84,13 @@ def meeting_records() -> list[dict[str, str | None]]:
         else:
             record.setdefault('documents', []).append({'title': minute['title'], 'url': minute['url']})
 
-    meetings.setdefault('2015-11-03', {'date': '2015-11-03', 'video': 'https://www.youtube.com/watch?v=mokmwjT4ujs', 'packet': None})
+    legacy = meetings.setdefault('2015-11-03', {'date': '2015-11-03', 'video': None, 'packet': None})
+    legacy['video'] = legacy.get('video') or 'https://www.youtube.com/watch?v=mokmwjT4ujs'
+    video_registry = ROOT / 'data/council/video-links.json'
+    if video_registry.exists():
+        for video in json.loads(video_registry.read_text(encoding='utf-8'))['videos']:
+            record = meetings.setdefault(video['date'], {'date': video['date'], 'video': None, 'packet': None})
+            record['video'] = video['url']
     return sorted(meetings.values(), key=lambda item: item["date"], reverse=True)
 
 

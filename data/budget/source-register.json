@@ -342,46 +342,422 @@
       "notes": "Replace this parent record with individual official source records during Phase 2 inventory."
     },
     {
-      "sourceId": "SRC-0011", "title": "FY 2025-26 Fourth-Quarter Budget and Financial Status", "documentType": "Financial Status Report", "fiscalYear": "2025-26", "documentDate": "2026-08-04", "councilMeetingDate": "2026-08-04", "agendaItem": "G.13", "resolutionNumber": null, "department": "Finance", "publisher": "City of Beaumont", "officialUrl": null, "archivePath": "https://documents.beaumontintelligence.com/official-documents/2026-08-04/g-13-staff-report-fourth-quarter-budget-and-financial-status.pdf", "retrievedDate": "2026-08-04", "verificationStatus": "Archived", "confidence": "High", "evidenceLevel": "A", "relatedTopics": ["Budget Reporting", "Revenue", "Expenditures", "Cash and Investments"], "relatedProjects": [], "crossLinks": ["budget.html", "budget-evidence.html", "briefings/2026-08-04.html#budget"], "summary": "Year-end financial status report as of June 30, 2026, before final closing and audit adjustments.", "notes": "Receive-and-file reporting is not a new spending authorization."
+      "sourceId": "SRC-0011",
+      "title": "FY 2025-26 Fourth-Quarter Budget and Financial Status",
+      "documentType": "Financial Status Report",
+      "fiscalYear": "2025-26",
+      "documentDate": "2026-08-04",
+      "councilMeetingDate": "2026-08-04",
+      "agendaItem": "G.13",
+      "resolutionNumber": null,
+      "department": "Finance",
+      "publisher": "City of Beaumont",
+      "officialUrl": null,
+      "archivePath": "https://documents.beaumontintelligence.com/official-documents/2026-08-04/g-13-staff-report-fourth-quarter-budget-and-financial-status.pdf",
+      "retrievedDate": "2026-08-04",
+      "verificationStatus": "Archived",
+      "confidence": "High",
+      "evidenceLevel": "A",
+      "relatedTopics": [
+        "Budget Reporting",
+        "Revenue",
+        "Expenditures",
+        "Cash and Investments"
+      ],
+      "relatedProjects": [],
+      "crossLinks": [
+        "budget.html",
+        "budget-evidence.html",
+        "briefings/2026-08-04.html#budget"
+      ],
+      "summary": "Year-end financial status report as of June 30, 2026, before final closing and audit adjustments.",
+      "notes": "Receive-and-file reporting is not a new spending authorization."
     },
     {
-      "sourceId": "SRC-0012", "title": "Fourth-Quarter Budget Adjustment Form", "documentType": "Budget Adjustment", "fiscalYear": "2025-26", "documentDate": "2026-08-04", "councilMeetingDate": "2026-08-04", "agendaItem": "G.13", "resolutionNumber": null, "department": "Finance", "publisher": "City of Beaumont", "officialUrl": null, "archivePath": "https://documents.beaumontintelligence.com/official-documents/2026-08-04/g-13-attachment-budget-adjustment-form.pdf", "retrievedDate": "2026-08-04", "verificationStatus": "Archived", "confidence": "High", "evidenceLevel": "A", "relatedTopics": ["Budget Amendments", "Budget Reporting"], "relatedProjects": [], "crossLinks": ["budget.html", "budget-evidence.html"], "summary": "Supporting budget adjustment form archived with the fourth-quarter financial-status agenda item.", "notes": null
+      "sourceId": "SRC-0012",
+      "title": "Fourth-Quarter Budget Adjustment Form",
+      "documentType": "Budget Adjustment",
+      "fiscalYear": "2025-26",
+      "documentDate": "2026-08-04",
+      "councilMeetingDate": "2026-08-04",
+      "agendaItem": "G.13",
+      "resolutionNumber": null,
+      "department": "Finance",
+      "publisher": "City of Beaumont",
+      "officialUrl": null,
+      "archivePath": "https://documents.beaumontintelligence.com/official-documents/2026-08-04/g-13-attachment-budget-adjustment-form.pdf",
+      "retrievedDate": "2026-08-04",
+      "verificationStatus": "Archived",
+      "confidence": "High",
+      "evidenceLevel": "A",
+      "relatedTopics": [
+        "Budget Amendments",
+        "Budget Reporting"
+      ],
+      "relatedProjects": [],
+      "crossLinks": [
+        "budget.html",
+        "budget-evidence.html"
+      ],
+      "summary": "Supporting budget adjustment form archived with the fourth-quarter financial-status agenda item.",
+      "notes": null
     },
     {
-      "sourceId": "SRC-0013", "title": "First Amendment to the FY 2027-2031 Capital Improvement Plan Staff Report", "documentType": "Staff Report", "fiscalYear": "2026-27", "documentDate": "2026-07-21", "councilMeetingDate": "2026-07-21", "agendaItem": "I.3", "resolutionNumber": null, "department": "City of Beaumont", "publisher": "City of Beaumont", "officialUrl": null, "archivePath": "https://documents.beaumontintelligence.com/official-documents/2026-07-21/i-3-staff-report-fy-27-cip-amendment-1.pdf", "retrievedDate": "2026-07-21", "verificationStatus": "Archived", "confidence": "High", "evidenceLevel": "A", "relatedTopics": ["Capital Improvement Program", "Budget Amendments", "Capital Projects"], "relatedProjects": [], "crossLinks": ["budget.html", "budget-evidence.html", "briefings/2026-07-21.html"], "summary": "Staff report supporting the first amendment to the FY 2027-2031 Capital Improvement Plan.", "notes": null
+      "sourceId": "SRC-0013",
+      "title": "First Amendment to the FY 2027-2031 Capital Improvement Plan Staff Report",
+      "documentType": "Staff Report",
+      "fiscalYear": "2026-27",
+      "documentDate": "2026-07-21",
+      "councilMeetingDate": "2026-07-21",
+      "agendaItem": "I.3",
+      "resolutionNumber": null,
+      "department": "City of Beaumont",
+      "publisher": "City of Beaumont",
+      "officialUrl": null,
+      "archivePath": "https://documents.beaumontintelligence.com/official-documents/2026-07-21/i-3-staff-report-fy-27-cip-amendment-1.pdf",
+      "retrievedDate": "2026-07-21",
+      "verificationStatus": "Archived",
+      "confidence": "High",
+      "evidenceLevel": "A",
+      "relatedTopics": [
+        "Capital Improvement Program",
+        "Budget Amendments",
+        "Capital Projects"
+      ],
+      "relatedProjects": [],
+      "crossLinks": [
+        "budget.html",
+        "budget-evidence.html",
+        "briefings/2026-07-21.html"
+      ],
+      "summary": "Staff report supporting the first amendment to the FY 2027-2031 Capital Improvement Plan.",
+      "notes": null
     },
     {
-      "sourceId": "SRC-0014", "title": "FY 2027-2031 CIP Project List", "documentType": "Capital Project List", "fiscalYear": "2026-27", "documentDate": "2026-07-21", "councilMeetingDate": "2026-07-21", "agendaItem": "I.3", "resolutionNumber": null, "department": "City of Beaumont", "publisher": "City of Beaumont", "officialUrl": null, "archivePath": "https://documents.beaumontintelligence.com/official-documents/2026-07-21/i-3-exhibit-b-cip-project-list.pdf", "retrievedDate": "2026-07-21", "verificationStatus": "Archived", "confidence": "High", "evidenceLevel": "A", "relatedTopics": ["Capital Improvement Program", "Capital Projects"], "relatedProjects": [], "crossLinks": ["budget-evidence.html"], "summary": "Project-level list accompanying the first FY 2027-2031 CIP amendment.", "notes": null
+      "sourceId": "SRC-0014",
+      "title": "FY 2027-2031 CIP Project List",
+      "documentType": "Capital Project List",
+      "fiscalYear": "2026-27",
+      "documentDate": "2026-07-21",
+      "councilMeetingDate": "2026-07-21",
+      "agendaItem": "I.3",
+      "resolutionNumber": null,
+      "department": "City of Beaumont",
+      "publisher": "City of Beaumont",
+      "officialUrl": null,
+      "archivePath": "https://documents.beaumontintelligence.com/official-documents/2026-07-21/i-3-exhibit-b-cip-project-list.pdf",
+      "retrievedDate": "2026-07-21",
+      "verificationStatus": "Archived",
+      "confidence": "High",
+      "evidenceLevel": "A",
+      "relatedTopics": [
+        "Capital Improvement Program",
+        "Capital Projects"
+      ],
+      "relatedProjects": [],
+      "crossLinks": [
+        "budget-evidence.html"
+      ],
+      "summary": "Project-level list accompanying the first FY 2027-2031 CIP amendment.",
+      "notes": null
     },
     {
-      "sourceId": "SRC-0015", "title": "FY 2027-2031 CIP Changelog", "documentType": "Changelog", "fiscalYear": "2026-27", "documentDate": "2026-07-21", "councilMeetingDate": "2026-07-21", "agendaItem": "I.3", "resolutionNumber": null, "department": "City of Beaumont", "publisher": "City of Beaumont", "officialUrl": null, "archivePath": "https://documents.beaumontintelligence.com/official-documents/2026-07-21/i-3-exhibit-c-cip-changelog.pdf", "retrievedDate": "2026-07-21", "verificationStatus": "Archived", "confidence": "High", "evidenceLevel": "A", "relatedTopics": ["Capital Improvement Program", "Budget Amendments"], "relatedProjects": [], "crossLinks": ["budget-evidence.html"], "summary": "Record of project changes included with the first Capital Improvement Plan amendment.", "notes": null
+      "sourceId": "SRC-0015",
+      "title": "FY 2027-2031 CIP Changelog",
+      "documentType": "Changelog",
+      "fiscalYear": "2026-27",
+      "documentDate": "2026-07-21",
+      "councilMeetingDate": "2026-07-21",
+      "agendaItem": "I.3",
+      "resolutionNumber": null,
+      "department": "City of Beaumont",
+      "publisher": "City of Beaumont",
+      "officialUrl": null,
+      "archivePath": "https://documents.beaumontintelligence.com/official-documents/2026-07-21/i-3-exhibit-c-cip-changelog.pdf",
+      "retrievedDate": "2026-07-21",
+      "verificationStatus": "Archived",
+      "confidence": "High",
+      "evidenceLevel": "A",
+      "relatedTopics": [
+        "Capital Improvement Program",
+        "Budget Amendments"
+      ],
+      "relatedProjects": [],
+      "crossLinks": [
+        "budget-evidence.html"
+      ],
+      "summary": "Record of project changes included with the first Capital Improvement Plan amendment.",
+      "notes": null
     },
     {
-      "sourceId": "SRC-0016", "title": "FY 2027-2031 CIP Budget Adjustment Form", "documentType": "Budget Adjustment", "fiscalYear": "2026-27", "documentDate": "2026-07-21", "councilMeetingDate": "2026-07-21", "agendaItem": "I.3", "resolutionNumber": null, "department": "City of Beaumont", "publisher": "City of Beaumont", "officialUrl": null, "archivePath": "https://documents.beaumontintelligence.com/official-documents/2026-07-21/i-3-exhibit-e-budget-adjustment-form.pdf", "retrievedDate": "2026-07-21", "verificationStatus": "Archived", "confidence": "High", "evidenceLevel": "A", "relatedTopics": ["Capital Improvement Program", "Budget Amendments"], "relatedProjects": [], "crossLinks": ["budget-evidence.html"], "summary": "Budget adjustment associated with the adopted first CIP amendment.", "notes": null
+      "sourceId": "SRC-0016",
+      "title": "FY 2027-2031 CIP Budget Adjustment Form",
+      "documentType": "Budget Adjustment",
+      "fiscalYear": "2026-27",
+      "documentDate": "2026-07-21",
+      "councilMeetingDate": "2026-07-21",
+      "agendaItem": "I.3",
+      "resolutionNumber": null,
+      "department": "City of Beaumont",
+      "publisher": "City of Beaumont",
+      "officialUrl": null,
+      "archivePath": "https://documents.beaumontintelligence.com/official-documents/2026-07-21/i-3-exhibit-e-budget-adjustment-form.pdf",
+      "retrievedDate": "2026-07-21",
+      "verificationStatus": "Archived",
+      "confidence": "High",
+      "evidenceLevel": "A",
+      "relatedTopics": [
+        "Capital Improvement Program",
+        "Budget Amendments"
+      ],
+      "relatedProjects": [],
+      "crossLinks": [
+        "budget-evidence.html"
+      ],
+      "summary": "Budget adjustment associated with the adopted first CIP amendment.",
+      "notes": null
     },
     {
-      "sourceId": "SRC-0017", "title": "2026 CFD Bond Refunding Staff Report", "documentType": "Staff Report", "fiscalYear": "2026-27", "documentDate": "2026-07-21", "councilMeetingDate": "2026-07-21", "agendaItem": "J.1", "resolutionNumber": null, "department": "Finance", "publisher": "City of Beaumont", "officialUrl": null, "archivePath": "https://documents.beaumontintelligence.com/official-documents/2026-07-21/j-1-staff-report-2026-cfd-refunding.pdf", "retrievedDate": "2026-07-21", "verificationStatus": "Archived", "confidence": "High", "evidenceLevel": "A", "relatedTopics": ["Community Facilities Districts", "Debt", "Bond Refunding"], "relatedProjects": [], "crossLinks": ["budget.html", "budget-evidence.html", "briefings/2026-07-21.html"], "summary": "Staff report supporting four related refunding authorizations and Council savings thresholds.", "notes": "Authorization does not by itself confirm final transaction terms or savings."
+      "sourceId": "SRC-0017",
+      "title": "2026 CFD Bond Refunding Staff Report",
+      "documentType": "Staff Report",
+      "fiscalYear": "2026-27",
+      "documentDate": "2026-07-21",
+      "councilMeetingDate": "2026-07-21",
+      "agendaItem": "J.1",
+      "resolutionNumber": null,
+      "department": "Finance",
+      "publisher": "City of Beaumont",
+      "officialUrl": null,
+      "archivePath": "https://documents.beaumontintelligence.com/official-documents/2026-07-21/j-1-staff-report-2026-cfd-refunding.pdf",
+      "retrievedDate": "2026-07-21",
+      "verificationStatus": "Archived",
+      "confidence": "High",
+      "evidenceLevel": "A",
+      "relatedTopics": [
+        "Community Facilities Districts",
+        "Debt",
+        "Bond Refunding"
+      ],
+      "relatedProjects": [],
+      "crossLinks": [
+        "budget.html",
+        "budget-evidence.html",
+        "briefings/2026-07-21.html"
+      ],
+      "summary": "Staff report supporting four related refunding authorizations and Council savings thresholds.",
+      "notes": "Authorization does not by itself confirm final transaction terms or savings."
     },
     {
-      "sourceId": "SRC-0018", "title": "CFD Refunding Good-Faith Estimates", "documentType": "Financial Estimate", "fiscalYear": "2026-27", "documentDate": "2026-07-21", "councilMeetingDate": "2026-07-21", "agendaItem": "J.1", "resolutionNumber": null, "department": "Finance", "publisher": "City of Beaumont", "officialUrl": null, "archivePath": "https://documents.beaumontintelligence.com/official-documents/2026-07-21/j-1-attachment-a-good-faith-estimates.pdf", "retrievedDate": "2026-07-21", "verificationStatus": "Archived", "confidence": "High", "evidenceLevel": "A", "relatedTopics": ["Community Facilities Districts", "Debt", "Bond Refunding"], "relatedProjects": [], "crossLinks": ["budget-evidence.html"], "summary": "Supporting good-faith estimates for the proposed CFD refunding transactions.", "notes": "Estimates are not final transaction results."
+      "sourceId": "SRC-0018",
+      "title": "CFD Refunding Good-Faith Estimates",
+      "documentType": "Financial Estimate",
+      "fiscalYear": "2026-27",
+      "documentDate": "2026-07-21",
+      "councilMeetingDate": "2026-07-21",
+      "agendaItem": "J.1",
+      "resolutionNumber": null,
+      "department": "Finance",
+      "publisher": "City of Beaumont",
+      "officialUrl": null,
+      "archivePath": "https://documents.beaumontintelligence.com/official-documents/2026-07-21/j-1-attachment-a-good-faith-estimates.pdf",
+      "retrievedDate": "2026-07-21",
+      "verificationStatus": "Archived",
+      "confidence": "High",
+      "evidenceLevel": "A",
+      "relatedTopics": [
+        "Community Facilities Districts",
+        "Debt",
+        "Bond Refunding"
+      ],
+      "relatedProjects": [],
+      "crossLinks": [
+        "budget-evidence.html"
+      ],
+      "summary": "Supporting good-faith estimates for the proposed CFD refunding transactions.",
+      "notes": "Estimates are not final transaction results."
     },
     {
-      "sourceId": "SRC-0019", "title": "FY 2025-26 Adopted Budget", "documentType": "Adopted Budget", "fiscalYear": "2025-26", "documentDate": "2025-06-30", "councilMeetingDate": null, "agendaItem": null, "resolutionNumber": null, "department": "Finance", "publisher": "City of Beaumont", "officialUrl": "https://www.beaumontca.gov/DocumentCenter/View/40162", "archivePath": null, "retrievedDate": "2026-08-10", "verificationStatus": "Verified", "confidence": "High", "evidenceLevel": "A", "relatedTopics": ["Adopted Budget", "Revenue", "Expenditures"], "relatedProjects": [], "crossLinks": ["budget.html", "budget-evidence.html"], "summary": "The City's current published annual spending plan for all funds.", "notes": "Budgeted amounts are spending authority and plans, not actual financial results."
+      "sourceId": "SRC-0019",
+      "title": "FY 2025-26 Adopted Budget",
+      "documentType": "Adopted Budget",
+      "fiscalYear": "2025-26",
+      "documentDate": "2025-06-30",
+      "councilMeetingDate": null,
+      "agendaItem": null,
+      "resolutionNumber": null,
+      "department": "Finance",
+      "publisher": "City of Beaumont",
+      "officialUrl": "https://www.beaumontca.gov/DocumentCenter/View/40162",
+      "archivePath": null,
+      "retrievedDate": "2026-08-10",
+      "verificationStatus": "Verified",
+      "confidence": "High",
+      "evidenceLevel": "A",
+      "relatedTopics": [
+        "Adopted Budget",
+        "Revenue",
+        "Expenditures"
+      ],
+      "relatedProjects": [],
+      "crossLinks": [
+        "budget.html",
+        "budget-evidence.html"
+      ],
+      "summary": "The City's current published annual spending plan for all funds.",
+      "notes": "Budgeted amounts are spending authority and plans, not actual financial results."
     },
     {
-      "sourceId": "SRC-0020", "title": "FY 2025-26 Budget in Brief", "documentType": "Budget Summary", "fiscalYear": "2025-26", "documentDate": "2025-06-30", "councilMeetingDate": null, "agendaItem": null, "resolutionNumber": null, "department": "Finance", "publisher": "City of Beaumont", "officialUrl": "https://www.beaumontca.gov/DocumentCenter/View/39925", "archivePath": null, "retrievedDate": "2026-08-10", "verificationStatus": "Verified", "confidence": "High", "evidenceLevel": "B", "relatedTopics": ["Adopted Budget", "Budget Summary", "Revenue", "Expenditures"], "relatedProjects": [], "crossLinks": ["budget.html", "budget-evidence.html"], "summary": "Reader-friendly summary of the FY 2025-26 adopted annual budget.", "notes": "The summary reports budgeted all-fund revenue and expense amounts; these are not actual results."
+      "sourceId": "SRC-0020",
+      "title": "FY 2025-26 Budget in Brief",
+      "documentType": "Budget Summary",
+      "fiscalYear": "2025-26",
+      "documentDate": "2025-06-30",
+      "councilMeetingDate": null,
+      "agendaItem": null,
+      "resolutionNumber": null,
+      "department": "Finance",
+      "publisher": "City of Beaumont",
+      "officialUrl": "https://www.beaumontca.gov/DocumentCenter/View/39925",
+      "archivePath": null,
+      "retrievedDate": "2026-08-10",
+      "verificationStatus": "Verified",
+      "confidence": "High",
+      "evidenceLevel": "B",
+      "relatedTopics": [
+        "Adopted Budget",
+        "Budget Summary",
+        "Revenue",
+        "Expenditures"
+      ],
+      "relatedProjects": [],
+      "crossLinks": [
+        "budget.html",
+        "budget-evidence.html"
+      ],
+      "summary": "Reader-friendly summary of the FY 2025-26 adopted annual budget.",
+      "notes": "The summary reports budgeted all-fund revenue and expense amounts; these are not actual results."
     },
     {
-      "sourceId": "SRC-0021", "title": "FY 2024-25 Annual Comprehensive Financial Report", "documentType": "Annual Comprehensive Financial Report", "fiscalYear": "2024-25", "documentDate": "2025-06-30", "councilMeetingDate": null, "agendaItem": null, "resolutionNumber": null, "department": "Finance", "publisher": "City of Beaumont", "officialUrl": "https://www.beaumontca.gov/DocumentCenter/View/40205/Final-Financial-Statements---Beaumont", "archivePath": null, "retrievedDate": "2026-08-10", "verificationStatus": "Verified", "confidence": "High", "evidenceLevel": "A", "relatedTopics": ["Audited Financial Statements", "Actual Results", "Financial Position"], "relatedProjects": [], "crossLinks": ["budget.html", "budget-evidence.html"], "summary": "Audited GAAP-based financial statements for the year ended June 30, 2025.", "notes": null
+      "sourceId": "SRC-0021",
+      "title": "FY 2024-25 Annual Comprehensive Financial Report",
+      "documentType": "Annual Comprehensive Financial Report",
+      "fiscalYear": "2024-25",
+      "documentDate": "2025-06-30",
+      "councilMeetingDate": null,
+      "agendaItem": null,
+      "resolutionNumber": null,
+      "department": "Finance",
+      "publisher": "City of Beaumont",
+      "officialUrl": "https://www.beaumontca.gov/DocumentCenter/View/40205/Final-Financial-Statements---Beaumont",
+      "archivePath": null,
+      "retrievedDate": "2026-08-10",
+      "verificationStatus": "Verified",
+      "confidence": "High",
+      "evidenceLevel": "A",
+      "relatedTopics": [
+        "Audited Financial Statements",
+        "Actual Results",
+        "Financial Position"
+      ],
+      "relatedProjects": [],
+      "crossLinks": [
+        "budget.html",
+        "budget-evidence.html"
+      ],
+      "summary": "Audited GAAP-based financial statements for the year ended June 30, 2025.",
+      "notes": null
     },
     {
-      "sourceId": "SRC-0022", "title": "FY 2024-25 Popular Annual Financial Report", "documentType": "Popular Annual Financial Report", "fiscalYear": "2024-25", "documentDate": "2025-06-30", "councilMeetingDate": null, "agendaItem": null, "resolutionNumber": null, "department": "Finance", "publisher": "City of Beaumont", "officialUrl": "https://www.beaumontca.gov/DocumentCenter/View/40203/FY-2025-PAFR", "archivePath": null, "retrievedDate": "2026-08-10", "verificationStatus": "Verified", "confidence": "High", "evidenceLevel": "B", "relatedTopics": ["Financial Summary", "Actual Results", "Financial Position"], "relatedProjects": [], "crossLinks": ["budget.html", "budget-evidence.html"], "summary": "Reader-friendly summary based on the FY 2024-25 ACFR.", "notes": "The report states that it is unaudited and presented on a non-GAAP basis; use the ACFR for audited detail."
+      "sourceId": "SRC-0022",
+      "title": "FY 2024-25 Popular Annual Financial Report",
+      "documentType": "Popular Annual Financial Report",
+      "fiscalYear": "2024-25",
+      "documentDate": "2025-06-30",
+      "councilMeetingDate": null,
+      "agendaItem": null,
+      "resolutionNumber": null,
+      "department": "Finance",
+      "publisher": "City of Beaumont",
+      "officialUrl": "https://www.beaumontca.gov/DocumentCenter/View/40203/FY-2025-PAFR",
+      "archivePath": null,
+      "retrievedDate": "2026-08-10",
+      "verificationStatus": "Verified",
+      "confidence": "High",
+      "evidenceLevel": "B",
+      "relatedTopics": [
+        "Financial Summary",
+        "Actual Results",
+        "Financial Position"
+      ],
+      "relatedProjects": [],
+      "crossLinks": [
+        "budget.html",
+        "budget-evidence.html"
+      ],
+      "summary": "Reader-friendly summary based on the FY 2024-25 ACFR.",
+      "notes": "The report states that it is unaudited and presented on a non-GAAP basis; use the ACFR for audited detail."
     },
     {
-      "sourceId": "SRC-0023", "title": "FY 2027-2031 Five-Year Capital Improvement Plan", "documentType": "Capital Improvement Plan", "fiscalYear": "2026-27", "documentDate": "2026-06-16", "councilMeetingDate": "2026-06-16", "agendaItem": null, "resolutionNumber": null, "department": "City of Beaumont", "publisher": "City of Beaumont", "officialUrl": "https://www.beaumontca.gov/DocumentCenter/View/40558/Capital-Improvement-Plan-for-Fiscal-Years-2027-2031-June2026?bidId=", "archivePath": null, "retrievedDate": "2026-08-10", "verificationStatus": "Verified", "confidence": "High", "evidenceLevel": "A", "relatedTopics": ["Capital Improvement Program", "Capital Projects"], "relatedProjects": [], "crossLinks": ["budget.html", "budget-evidence.html"], "summary": "The base project-level five-year capital plan presented for the June 16, 2026 Council date.", "notes": "The official PDF is labeled draft; subsequent adopted amendments should be read with the base plan."
+      "sourceId": "SRC-0023",
+      "title": "FY 2027-2031 Five-Year Capital Improvement Plan",
+      "documentType": "Capital Improvement Plan",
+      "fiscalYear": "2026-27",
+      "documentDate": "2026-06-16",
+      "councilMeetingDate": "2026-06-16",
+      "agendaItem": null,
+      "resolutionNumber": null,
+      "department": "City of Beaumont",
+      "publisher": "City of Beaumont",
+      "officialUrl": "https://www.beaumontca.gov/DocumentCenter/View/40558/Capital-Improvement-Plan-for-Fiscal-Years-2027-2031-June2026?bidId=",
+      "archivePath": null,
+      "retrievedDate": "2026-08-10",
+      "verificationStatus": "Verified",
+      "confidence": "High",
+      "evidenceLevel": "A",
+      "relatedTopics": [
+        "Capital Improvement Program",
+        "Capital Projects"
+      ],
+      "relatedProjects": [],
+      "crossLinks": [
+        "budget.html",
+        "budget-evidence.html"
+      ],
+      "summary": "The base project-level five-year capital plan presented for the June 16, 2026 Council date.",
+      "notes": "The official PDF is labeled draft; subsequent adopted amendments should be read with the base plan."
     },
     {
-      "sourceId": "SRC-0024", "title": "FY 2026-27 Budget Adoption Meeting Record", "documentType": "Council Meeting Transcript", "fiscalYear": "2026-27", "documentDate": "2026-06-16", "councilMeetingDate": "2026-06-16", "agendaItem": "I.1", "resolutionNumber": null, "department": "Finance", "publisher": "City of Beaumont", "officialUrl": "https://www.youtube.com/watch?v=GQRUR33qyiY", "archivePath": "docs/transcripts/2026-06-16-city-council-transcript.txt", "retrievedDate": "2026-08-24", "verificationStatus": "Archived", "confidence": "High", "evidenceLevel": "A", "relatedTopics": ["Adopted Budget", "Appropriation Limit", "Capital Improvement Program", "Council Actions"], "relatedProjects": [], "crossLinks": ["budget.html", "budget-council-actions.html", "budget-evidence.html"], "summary": "Transcript-verified 5-0 adoption of the FY 2026-27 appropriation limit, operating budget, five-year CIP, related prior-year project list, and requisition list.", "notes": "The bounded discussion runs from 1:33:05 through 1:44:18, ending 30 seconds after the completed vote. The separate budget book, staff report, resolutions, and public summary remain to be archived."
+      "sourceId": "SRC-0024",
+      "title": "FY 2026-27 Budget Adoption Meeting Record",
+      "documentType": "Council Meeting Transcript",
+      "fiscalYear": "2026-27",
+      "documentDate": "2026-06-16",
+      "councilMeetingDate": "2026-06-16",
+      "agendaItem": "I.1",
+      "resolutionNumber": null,
+      "department": "Finance",
+      "publisher": "City of Beaumont",
+      "officialUrl": "https://www.youtube.com/watch?v=GQRUR33qyiY",
+      "archivePath": "docs/transcripts/2026-06-16-city-council-transcript.txt",
+      "retrievedDate": "2026-08-24",
+      "verificationStatus": "Archived",
+      "confidence": "High",
+      "evidenceLevel": "A",
+      "relatedTopics": [
+        "Adopted Budget",
+        "Appropriation Limit",
+        "Capital Improvement Program",
+        "Council Actions"
+      ],
+      "relatedProjects": [],
+      "crossLinks": [
+        "budget.html",
+        "budget-council-actions.html",
+        "budget-evidence.html"
+      ],
+      "summary": "Transcript-verified 5-0 adoption of the FY 2026-27 appropriation limit, operating budget, five-year CIP, related prior-year project list, and requisition list.",
+      "notes": "The bounded discussion runs from 1:33:05 through 1:44:18, ending 30 seconds after the completed vote. The separate budget book, staff report, resolutions, and public summary remain to be archived."
     },
     {
       "sourceId": "SRC-0025",
@@ -854,6 +1230,192 @@
       "crossLinks": [],
       "summary": "Council unanimously added a late closed-session item identified as WRCOG v. AIG, case 5:20-CV-02164, on a motion by White seconded by Lara. A separate motion by White, seconded by Santos, unanimously authorized a lawsuit to be filed. This establishes Council authorization, not actual filing, disposition, insurance coverage, or money received.",
       "notes": "User-supplied ExportedContents (3).Zip. Page 1 visually reviewed. Case names and numbers retained as printed; not independently reconciled with court dockets. Minutes adoption date not separately established. No qualifying WRCOG recovery credit or payment inferred."
+    },
+    {
+      "sourceId": "SRC-0040",
+      "title": "May 3, 2016 City Council agenda — Moss Levy & Hartzheim tolling agreement",
+      "documentType": "Council Agenda",
+      "documentDate": "2016-05-03",
+      "councilMeetingDate": "2016-05-03",
+      "publisher": "City of Beaumont",
+      "officialUrl": null,
+      "archivePath": "https://documents.beaumontintelligence.com/official-documents/2016-05-03/agenda.pdf",
+      "verificationStatus": "Verified",
+      "confidence": "High",
+      "evidenceLevel": "A",
+      "relatedCenters": [
+        "wrcog-restitution"
+      ],
+      "relatedTopics": [
+        "Third-party claims",
+        "Moss Levy & Hartzheim",
+        "Tolling agreement"
+      ],
+      "relatedProjects": [
+        "WRCOG & Restitution"
+      ],
+      "crossLinks": [],
+      "pageReferences": [
+        "PDF pages 1 and 4, consent item 3.g"
+      ],
+      "summary": "The agenda asks Council to approve a tolling agreement with the City's former auditor, Moss Levy & Hartzheim, LLP, and authorize the Mayor to execute it. The agenda item identifies a proposed claims-preservation step; it does not establish execution, liability, settlement, or recovery.",
+      "notes": "User-supplied agenda package preserved byte-for-byte. Cited pages visually reviewed. Approval is separately supported by the 2016 minutes compilation. No qualifying WRCOG recovery credit or payment inferred."
+    },
+    {
+      "sourceId": "SRC-0041",
+      "title": "Moss Levy & Hartzheim tolling agreement — May 3, 2016 approval copy",
+      "documentType": "Tolling Agreement",
+      "documentDate": "2016-05-03",
+      "councilMeetingDate": "2016-05-03",
+      "publisher": "City of Beaumont",
+      "officialUrl": null,
+      "archivePath": "https://documents.beaumontintelligence.com/official-documents/2016-05-03/item-3g-moss-levy-hartzheim-tolling-agreement.pdf",
+      "verificationStatus": "Verified",
+      "confidence": "High",
+      "evidenceLevel": "A",
+      "relatedCenters": [
+        "wrcog-restitution"
+      ],
+      "relatedTopics": [
+        "Third-party claims",
+        "Moss Levy & Hartzheim",
+        "Professional liability",
+        "Tolling agreement"
+      ],
+      "relatedProjects": [
+        "WRCOG & Restitution"
+      ],
+      "crossLinks": [],
+      "pageReferences": [
+        "PDF pages 1–5"
+      ],
+      "summary": "The approval copy states an effective date of April 1, 2016 and tolls potential claims concerning auditing and related services through March 31, 2017 while preserving evidence and the City's right to sue. It contains no admission of liability.",
+      "notes": "User-supplied agenda attachment preserved byte-for-byte. Signature lines are blank in this copy, so execution is not established. The agreement is a claims-preservation record, not evidence of a settlement, recovery, receipt, or WRCOG allocation."
+    },
+    {
+      "sourceId": "SRC-0042",
+      "title": "June 21, 2016 City Council agenda — WRCOG litigation and three tolling agreements",
+      "documentType": "Council Agenda",
+      "documentDate": "2016-06-21",
+      "councilMeetingDate": "2016-06-21",
+      "publisher": "City of Beaumont",
+      "officialUrl": null,
+      "archivePath": "https://documents.beaumontintelligence.com/official-documents/2016-06-21/agenda.pdf",
+      "verificationStatus": "Verified",
+      "confidence": "High",
+      "evidenceLevel": "A",
+      "relatedCenters": [
+        "wrcog-restitution"
+      ],
+      "relatedTopics": [
+        "WRCOG litigation",
+        "Third-party claims",
+        "Norton Rose Fulbright",
+        "MUFG Union Bank",
+        "McFarlin & Anderson"
+      ],
+      "relatedProjects": [
+        "WRCOG & Restitution"
+      ],
+      "crossLinks": [],
+      "pageReferences": [
+        "PDF pages 2, 5 and 6; closed session and consent items 8.e–8.g"
+      ],
+      "summary": "The agenda lists WRCOG v. City of Beaumont, RIC 536164, in closed session and places tolling agreements with Norton Rose Fulbright US LLP, MUFG Union Bank, and McFarlin & Anderson LLP on the consent calendar.",
+      "notes": "User-supplied agenda package preserved byte-for-byte. Cited pages visually reviewed. Approval is separately supported by the 2016 minutes compilation. The agenda establishes the matters presented, not confidential discussion, execution, liability, settlement, recovery, or payment."
+    },
+    {
+      "sourceId": "SRC-0043",
+      "title": "Norton Rose Fulbright tolling agreement — June 21, 2016 approval copy",
+      "documentType": "Tolling Agreement",
+      "documentDate": "2016-06-21",
+      "councilMeetingDate": "2016-06-21",
+      "publisher": "City of Beaumont",
+      "officialUrl": null,
+      "archivePath": "https://documents.beaumontintelligence.com/official-documents/2016-06-21/item-8e-norton-rose-fulbright-tolling-agreement.pdf",
+      "verificationStatus": "Verified",
+      "confidence": "High",
+      "evidenceLevel": "A",
+      "relatedCenters": [
+        "wrcog-restitution"
+      ],
+      "relatedTopics": [
+        "Third-party claims",
+        "Norton Rose Fulbright",
+        "Professional liability",
+        "Tolling agreement"
+      ],
+      "relatedProjects": [
+        "WRCOG & Restitution"
+      ],
+      "crossLinks": [],
+      "pageReferences": [
+        "PDF pages 1–6"
+      ],
+      "summary": "The approval copy states an effective date of June 10, 2016 and tolls possible City claims concerning bond and securities legal services through June 10, 2017. It preserves investigation, negotiation, and litigation rights without admitting liability.",
+      "notes": "User-supplied agenda attachment preserved byte-for-byte. Signature lines are blank in this copy, so execution is not established. No settlement, recovery, receipt, or WRCOG credit is established."
+    },
+    {
+      "sourceId": "SRC-0044",
+      "title": "MUFG Union Bank tolling agreement — June 21, 2016 approval copy",
+      "documentType": "Tolling Agreement",
+      "documentDate": "2016-06-21",
+      "councilMeetingDate": "2016-06-21",
+      "publisher": "City of Beaumont",
+      "officialUrl": null,
+      "archivePath": "https://documents.beaumontintelligence.com/official-documents/2016-06-21/item-8f-mufg-union-bank-tolling-agreement.pdf",
+      "verificationStatus": "Verified",
+      "confidence": "High",
+      "evidenceLevel": "A",
+      "relatedCenters": [
+        "wrcog-restitution"
+      ],
+      "relatedTopics": [
+        "Third-party claims",
+        "MUFG Union Bank",
+        "Bond trustee",
+        "Tolling agreement"
+      ],
+      "relatedProjects": [
+        "WRCOG & Restitution"
+      ],
+      "crossLinks": [],
+      "pageReferences": [
+        "PDF pages 1–7"
+      ],
+      "summary": "The approval copy concerns possible civil claims arising from Union Bank's bond-trustee services and expressly excludes criminal matters. The printed expiration terms conflict: page 2 refers to December 9, 2016, while page 3 refers to June 10, 2017.",
+      "notes": "User-supplied agenda attachment preserved byte-for-byte. The internal date inconsistency is reported without attempting to resolve it. Signature lines are blank, so execution is not established. No liability, settlement, recovery, receipt, or WRCOG credit is inferred."
+    },
+    {
+      "sourceId": "SRC-0045",
+      "title": "McFarlin & Anderson tolling agreement — June 21, 2016 approval copy",
+      "documentType": "Tolling Agreement",
+      "documentDate": "2016-06-21",
+      "councilMeetingDate": "2016-06-21",
+      "publisher": "City of Beaumont",
+      "officialUrl": null,
+      "archivePath": "https://documents.beaumontintelligence.com/official-documents/2016-06-21/item-8g-mcfarlin-anderson-tolling-agreement.pdf",
+      "verificationStatus": "Verified",
+      "confidence": "High",
+      "evidenceLevel": "A",
+      "relatedCenters": [
+        "wrcog-restitution"
+      ],
+      "relatedTopics": [
+        "Third-party claims",
+        "McFarlin & Anderson",
+        "Professional liability",
+        "Tolling agreement"
+      ],
+      "relatedProjects": [
+        "WRCOG & Restitution"
+      ],
+      "crossLinks": [],
+      "pageReferences": [
+        "PDF pages 1–6"
+      ],
+      "summary": "The approval copy tolls possible City claims concerning bond-counsel and public-finance legal services through December 7, 2016. It preserves the City's right to take legal action and states that it is not an admission or revival of an expired claim.",
+      "notes": "User-supplied agenda attachment preserved byte-for-byte. Signature lines are blank in this copy, so execution is not established. No liability, settlement, recovery, receipt, or WRCOG credit is established."
     }
   ]
 }

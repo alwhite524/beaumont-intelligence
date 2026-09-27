@@ -20,4 +20,13 @@ assert.ok(get('2023-04-18').documents.some(d => d.url.endsWith('workshop-minutes
 assert.match(get('2023-12-05').minutes, /council-minutes.pdf$/);
 assert.ok(get('2023-12-05').documents.some(d => d.url.endsWith('special-meeting-minutes.pdf')));
 assert.ok(get('2023-12-07').documents.some(d => d.url.endsWith('workshop-minutes.pdf')));
+assert.equal(get('2016-05-03').video, 'https://www.youtube.com/watch?v=6LkeGBCOFto');
+assert.match(get('2016-05-03').agenda, /2016-05-03\/agenda\.pdf$/);
+assert.ok(get('2016-05-03').documents.some(d => d.url.includes('moss-levy-hartzheim')));
+assert.equal(get('2016-06-21').video, 'https://www.youtube.com/watch?v=riGeL0bsumw');
+assert.match(get('2016-06-21').agenda, /2016-06-21\/agenda\.pdf$/);
+assert.ok(get('2016-06-21').documents.some(d => d.url.includes('norton-rose-fulbright')));
+assert.ok(get('2016-06-21').documents.some(d => d.url.includes('mufg-union-bank')));
+assert.ok(get('2016-06-21').documents.some(d => d.url.includes('mcfarlin-anderson')));
+assert.equal(get('2017-06-20').video, 'https://www.youtube.com/watch?v=mvOn4a3IrsI');
 console.log('Meeting dates, regular/special minutes and annual links passed.');
