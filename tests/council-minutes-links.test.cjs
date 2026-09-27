@@ -21,6 +21,7 @@ assert.match(get('2023-12-05').minutes, /council-minutes.pdf$/);
 assert.ok(get('2023-12-05').documents.some(d => d.url.endsWith('special-meeting-minutes.pdf')));
 assert.ok(get('2023-12-07').documents.some(d => d.url.endsWith('workshop-minutes.pdf')));
 assert.equal(get('2016-05-03').video, 'https://www.youtube.com/watch?v=6LkeGBCOFto');
+assert.equal(get('2016-05-17').video, 'https://www.youtube.com/watch?v=DhjjTmQbasc');
 assert.match(get('2016-05-03').agenda, /2016-05-03\/agenda\.pdf$/);
 assert.ok(get('2016-05-03').documents.some(d => d.url.includes('moss-levy-hartzheim')));
 assert.equal(get('2016-06-21').video, 'https://www.youtube.com/watch?v=riGeL0bsumw');

@@ -53,6 +53,7 @@ timeline = ''.join(f'<li><strong>{escape(event["date"])}</strong> — {escape(ev
 overview += f'<section class="section compact alt" id="council-actions"><div class="wrap"><div class="section-heading"><div><div class="eyebrow">Decision history</div><h2>Documented Council actions</h2></div><p>Approval does not itself establish execution, dismissal, or payment.</p></div><ol>{timeline}</ol><p><a class="text-link" href="council-meeting-sources.html">Browse Council videos, agendas and minutes →</a></p></div></section>'
 precursor_actions = [
     ('May 3, 2016', 'Council records place a tolling agreement with former City auditor Moss Levy & Hartzheim on the consent calendar; the minutes record approval.', 'SRC-0041'),
+    ('May 17, 2016', 'The closed-session report records a unanimous vote to deny a claim submitted by Urban Logic Consultants.', 'SRC-0047'),
     ('June 21, 2016', 'Council records place tolling agreements with Norton Rose Fulbright, MUFG Union Bank, and McFarlin & Anderson on the consent calendar; the minutes record approval.', 'SRC-0042'),
 ]
 precursor_timeline = ''.join(
