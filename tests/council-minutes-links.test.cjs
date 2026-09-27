@@ -29,4 +29,7 @@ assert.ok(get('2016-06-21').documents.some(d => d.url.includes('norton-rose-fulb
 assert.ok(get('2016-06-21').documents.some(d => d.url.includes('mufg-union-bank')));
 assert.ok(get('2016-06-21').documents.some(d => d.url.includes('mcfarlin-anderson')));
 assert.equal(get('2017-06-20').video, 'https://www.youtube.com/watch?v=mvOn4a3IrsI');
+assert.equal(get('2017-07-18').video, 'https://www.youtube.com/watch?v=XkKF7N5xJJ4');
+assert.equal(get('2021-05-18').video, 'https://www.youtube.com/watch?v=XTyNP7tv33Q');
+assert.match(get('2021-05-18').minutes, /2021-05-18\/council-minutes\.pdf$/);
 console.log('Meeting dates, regular/special minutes and annual links passed.');
