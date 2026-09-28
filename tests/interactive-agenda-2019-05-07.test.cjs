@@ -1,0 +1,13 @@
+const assert = require('node:assert/strict');
+const fs = require('node:fs');
+const data = JSON.parse(fs.readFileSync('data/council/2019-05-07-interactive-agenda.json', 'utf8'));
+const page = fs.readFileSync('docs/briefings/2019-05-07-sources.html', 'utf8');
+assert.equal(data.items.length, 37);
+assert.equal(data.transcriptStatus, 'unavailable');
+assert.ok(data.items.some(item => item.item === '3' && /Urban Logic/.test(item.title) && /No reportable action/.test(item.outcome)));
+assert.ok(data.items.some(item => item.item === '16' && item.timestampSeconds === 8160));
+assert.match(page, /YouTube reports that captions and a transcript are unavailable/);
+assert.match(page, /View minutes page 71/);
+assert.match(page, /c9LrT--e3iY/);
+assert.match(page, /Urban Logic/);
+console.log('May 7, 2019 interactive agenda passed.');
