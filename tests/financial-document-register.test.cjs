@@ -20,4 +20,15 @@ const librarySource = fs.readFileSync('docs/documents/library-index.js', 'utf8')
 assert.match(librarySource, /Annual Comprehensive Financial Report for the Year Ended June 30, 2022/);
 assert.match(librarySource, /City of Beaumont FY2024 Budget Book/);
 
-console.log('Financial document register and eight preserved PDFs passed.');
+const archivePage = fs.readFileSync('docs/budgets-audits.html', 'utf8');
+for (const document of register.documents) {
+  const publicPath = document.localPath.replace(/^docs\//, '');
+  assert.ok(archivePage.includes(publicPath), `Archive page does not link ${publicPath}`);
+}
+
+const homePage = fs.readFileSync('docs/index.html', 'utf8');
+const budgetCenter = fs.readFileSync('docs/budget.html', 'utf8');
+assert.match(homePage, /href="budgets-audits\.html"/);
+assert.match(budgetCenter, /href="budgets-audits\.html"/);
+
+console.log('Financial document register, archive page, and eight preserved PDFs passed.');
