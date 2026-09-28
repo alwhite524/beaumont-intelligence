@@ -51,6 +51,19 @@ for doc in manifest["documents"]:
     records.append({"title": title, "url": doc["url"], "date": date, "item": agenda_item(path),
                     "topic": topic_for(title), "type": "Archived document", "body": title})
 
+financial_register = json.loads((ROOT / "data" / "financial-document-register.json").read_text(encoding="utf-8"))
+for document in financial_register["documents"]:
+    local_path = ROOT / document["localPath"]
+    records.append({
+        "title": document["title"],
+        "url": "../" + local_path.relative_to(DOCS).as_posix(),
+        "date": "",
+        "item": "",
+        "topic": "money",
+        "type": "Financial audit" if document["type"] == "audit" else "Adopted budget",
+        "body": f'{document["title"]} fiscal year {document["fiscalYear"]}',
+    })
+
 if not any(record["date"] == "2026-09-01" and record["type"] == "Archived document" for record in records):
     source_text = (DOCS / "briefings" / "2026-09-01-sources.js").read_text(encoding="utf-8")
     for item, section, title, doc_id in re.findall(r"\['([^']+)','([^']+)','([^']+)',(\d+)\]", source_text):

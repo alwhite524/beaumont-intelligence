@@ -1,0 +1,85 @@
+{
+  "description": "Local repository register for City of Beaumont adopted budgets and audited annual financial reports.",
+  "documents": [
+    {
+      "type": "audit",
+      "fiscalYear": "2019-20",
+      "title": "Annual Financial Report and Independent Auditor's Report for the Year Ended June 30, 2020",
+      "officialUrl": "https://www.beaumontca.gov/DocumentCenter/View/36920",
+      "localPath": "docs/audits/city-of-beaumont-fy2019-20-audited-financial-statements.pdf",
+      "pages": 140,
+      "bytes": 903885,
+      "sha256": "F2542EA4E1D4C54B5DB60E242A93CC91DF8B198197EAF697882A122B7982A43C"
+    },
+    {
+      "type": "audit",
+      "fiscalYear": "2020-21",
+      "title": "Annual Comprehensive Financial Report for the Year Ended June 30, 2021",
+      "officialUrl": "https://www.beaumontca.gov/DocumentCenter/View/37348",
+      "localPath": "docs/audits/city-of-beaumont-fy2020-21-audited-financial-statements.pdf",
+      "pages": 196,
+      "bytes": 1295850,
+      "sha256": "180FBE7BB1C14276A80C6D9CB185976EFE8CB0A79757078065D741892631C86D"
+    },
+    {
+      "type": "audit",
+      "fiscalYear": "2021-22",
+      "title": "Annual Comprehensive Financial Report for the Year Ended June 30, 2022",
+      "officialUrl": "https://www.beaumontca.gov/DocumentCenter/View/38099",
+      "localPath": "docs/audits/city-of-beaumont-fy2021-22-audited-financial-statements.pdf",
+      "pages": 195,
+      "bytes": 1319359,
+      "sha256": "001ED844F01EF7C3F0A9EA3E8407541D34CE3E28105E5F4CBAE5D0DA9848835F"
+    },
+    {
+      "type": "audit",
+      "fiscalYear": "2022-23",
+      "title": "Annual Comprehensive Financial Report for the Year Ended June 30, 2023",
+      "officialUrl": "https://www.beaumontca.gov/DocumentCenter/View/38637",
+      "localPath": "docs/audits/city-of-beaumont-fy2022-23-audited-financial-statements.pdf",
+      "pages": 188,
+      "bytes": 1445755,
+      "sha256": "9D04B2B58C9DA10A6795BFD0D9E6987DD9A8F109F63796E9BC0981D2995F5230"
+    },
+    {
+      "type": "budget",
+      "fiscalYear": "2020-21",
+      "title": "City of Beaumont Annual Budget FY2020/21",
+      "officialUrl": "https://www.beaumontca.gov/DocumentCenter/View/36792",
+      "localPath": "docs/budgets/city-of-beaumont-fy2020-21-adopted-budget.pdf",
+      "pages": 86,
+      "bytes": 2714194,
+      "sha256": "21433CDA02A1196384DF0D2F69BA32D9F97C1F9217626F1563CC918F87707DB2"
+    },
+    {
+      "type": "budget",
+      "fiscalYear": "2021-22",
+      "title": "City of Beaumont FY2022 Budget Book — Adopted Version",
+      "officialUrl": "https://www.beaumontca.gov/DocumentCenter/View/40167",
+      "localPath": "docs/budgets/city-of-beaumont-fy2021-22-adopted-budget.pdf",
+      "pages": 318,
+      "bytes": 33133339,
+      "sha256": "E95879864E642BF44B25231F0E99F4ACF8C6FB231AD16B24256711C5B726794B"
+    },
+    {
+      "type": "budget",
+      "fiscalYear": "2022-23",
+      "title": "City of Beaumont FY2023 Budget Book — Adopted Version",
+      "officialUrl": "https://www.beaumontca.gov/DocumentCenter/View/40165",
+      "localPath": "docs/budgets/city-of-beaumont-fy2022-23-adopted-budget.pdf",
+      "pages": 394,
+      "bytes": 14579172,
+      "sha256": "9B66D3120594203BC50C3A5D2CDC5432E28585E2F87EBBE46CD7C26E06ECE592"
+    },
+    {
+      "type": "budget",
+      "fiscalYear": "2023-24",
+      "title": "City of Beaumont FY2024 Budget Book — Adopted Version",
+      "officialUrl": "https://www.beaumontca.gov/DocumentCenter/View/40164",
+      "localPath": "docs/budgets/city-of-beaumont-fy2023-24-adopted-budget.pdf",
+      "pages": 554,
+      "bytes": 18457510,
+      "sha256": "CBEE522BD93696668E095FE06ED62B4B31E5CCED95F79D7765D2C23FA24AC39C"
+    }
+  ]
+}
