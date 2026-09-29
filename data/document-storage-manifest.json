@@ -11,6 +11,18 @@
       "sha256": "b6283acdbdfba9e574cc4c67c28f9771feae15040da3a3b5391efd5439cc52b7"
     },
     {
+      "path": "official-documents/2009/2009-council-minutes.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2009/2009-council-minutes.pdf",
+      "bytes": 8886500,
+      "sha256": "b3dff0c7c51c78187f20f17a4d03e57cf40e6131a3460baa96abd61846adb795"
+    },
+    {
+      "path": "official-documents/2010/2010-council-minutes.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2010/2010-council-minutes.pdf",
+      "bytes": 7009639,
+      "sha256": "1eb862e101420712b64938080001d7544aa9776b17d1eaae02586e15734ca6a9"
+    },
+    {
       "path": "official-documents/2015-03-03/agenda.pdf",
       "url": "https://documents.beaumontintelligence.com/official-documents/2015-03-03/agenda.pdf",
       "bytes": 2338395,

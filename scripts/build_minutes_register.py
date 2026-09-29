@@ -20,11 +20,15 @@ def annual_page_dates(pages: list[str], year: str) -> list[str]:
     """Associate each compilation page with the meeting date printed in its header."""
     current = ''
     dates = []
-    pattern = re.compile(rf'\b({MONTHS})\s*(\d{{1,2}}),?\s*({year})\b', re.I)
+    weekdays = 'Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday'
+    pattern = re.compile(
+        rf'\b(?:{weekdays})\s*,?\s+({MONTHS})\s*(\d{{1,2}}),?\s*({year})\b',
+        re.I,
+    )
     for page in pages:
-        # Limit the scan to the heading so an agenda-item date does not relabel
-        # subsequent pages from the same meeting.
-        match = pattern.search(re.sub(r'\s+', ' ', page[:1200]))
+        # A weekday plus the date distinguishes the meeting heading from dates
+        # mentioned in calendar items or the body of the minutes.
+        match = pattern.search(re.sub(r'\s+', ' ', page[:700]))
         if match:
             current = datetime.strptime(
                 f'{match.group(1)} {match.group(2)} {match.group(3)}', '%B %d %Y'
