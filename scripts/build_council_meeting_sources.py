@@ -15,7 +15,7 @@ DOCS = ROOT / "docs"
 
 def meeting_records() -> list[dict[str, str | None]]:
     meetings: dict[str, dict[str, str | None]] = {}
-    for transcript in sorted((DOCS / "transcripts").glob("*-city-council-transcript.txt")):
+    for transcript in sorted((DOCS / "transcripts").glob("*-city-council*transcript.txt")):
         date = transcript.name[:10]
         try:
             datetime.strptime(date, "%Y-%m-%d")

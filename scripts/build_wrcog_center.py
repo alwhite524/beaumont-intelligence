@@ -3,6 +3,7 @@ import json
 from html import escape
 from pathlib import Path
 from urllib.parse import quote
+from build_recent_center_findings import render_findings
 
 ROOT = Path(__file__).resolve().parents[1]
 DOCS = ROOT / 'docs'
@@ -13,6 +14,8 @@ ids = [s['sourceId'] for s in register['sources']]
 assert len(ids) == len(set(ids)), 'Duplicate Source IDs'
 
 def page(title, body, *, evidence=False):
+    if not evidence:
+        body += render_findings('wrcog-restitution.html')
     active_overview = '' if evidence else ' class="active" aria-current="page"'
     active_evidence = ' class="active" aria-current="page"' if evidence else ''
     current = 'Evidence' if evidence else 'WRCOG &amp; Restitution'

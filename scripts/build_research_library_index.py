@@ -71,7 +71,7 @@ if not any(record["date"] == "2026-09-01" and record["type"] == "Archived docume
                         "date": "2026-09-01", "item": item, "topic": topic_for(title),
                         "type": "Official City document", "body": f"{item} {section} {title}"})
 
-for transcript in sorted((DOCS / "transcripts").glob("*-city-council-transcript.txt"), reverse=True):
+for transcript in sorted((DOCS / "transcripts").glob("*-city-council*transcript.txt"), reverse=True):
     date = transcript.name[:10]
     body = transcript.read_text(encoding="utf-8", errors="replace")
     video_match = re.search(r"https://www\.youtube\.com/watch\?v=[A-Za-z0-9_-]+", body[:1000])
@@ -98,6 +98,13 @@ for minute in preferred_minutes(minutes):
                     "annualCompilation": minute['kind'] == 'annual',
                     "textPages": minute['textPages'] if minute['kind'] == 'annual' else [],
                     "pageDates": minute.get('pageDates', [])})
+
+findings = json.loads((ROOT / 'data/council/recent-center-findings.json').read_text(encoding='utf-8'))['records']
+for finding in findings:
+    records.append({'title': finding['title'], 'url': '../' + finding['page'] + '#' + finding['id'],
+                    'date': finding['date'], 'item': finding['item'], 'topic': topic_for(finding['title']),
+                    'type': 'Council evidence summary', 'videoUrl': finding['videoUrl'],
+                    'body': finding['center'] + ' ' + finding['summary'] + ' ' + finding['limits']})
 
 output = "window.BI_RESEARCH_LIBRARY=" + json.dumps(records, ensure_ascii=False, separators=(",", ":")) + ";\n"
 (DOCS / "documents" / "library-index.js").write_text(output, encoding="utf-8")
