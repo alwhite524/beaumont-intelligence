@@ -1,8 +1,8 @@
 {
   "bucket": "beaumont-intelligence-documents",
   "public_base_url": "https://documents.beaumontintelligence.com",
-  "document_count": 2076,
-  "total_bytes": 13737734277,
+  "document_count": 2079,
+  "total_bytes": 13755294089,
   "documents": [
     {
       "path": "official-documents/2008-01-15/council-minutes.pdf",
@@ -12435,6 +12435,12 @@
       "url": "https://documents.beaumontintelligence.com/records/agenda-packets/2026-05-05/2026-05-05-city-council-agenda-package.pdf",
       "bytes": 308244289,
       "sha256": "78d5844137f9ab3ae883480e40f45bd707bcffe970434ffa44495efe3cf42e09"
+    },
+    {
+      "path": "records/agenda-packets/2026-05-21/2026-05-21-city-council-workshop-agenda-package.pdf",
+      "url": "https://documents.beaumontintelligence.com/records/agenda-packets/2026-05-21/2026-05-21-city-council-workshop-agenda-package.pdf",
+      "bytes": 1663673,
+      "sha256": "3e481bfab802183740eeff254eb145302b5180389f94344dd0b6cabb2926d51d"
     },
     {
       "path": "records/agenda-packets/2026-06-02/2026-06-02-city-council-agenda-package.pdf",
