@@ -80,6 +80,19 @@ for transcript in sorted((DOCS / "transcripts").glob("*-city-council*transcript.
                     "topic": "council", "type": "Meeting transcript", "body": body})
 
 historical = json.loads((ROOT / 'data/council/2015-11-03.json').read_text(encoding='utf-8'))
+for agenda_path in sorted((ROOT / 'data/council').glob('*-agenda.json')):
+    agenda = json.loads(agenda_path.read_text(encoding='utf-8'))
+    for doc in agenda.get('documents', []):
+        url = doc.get('archiveUrl') or doc['officialUrl']
+        existing = next((record for record in records if record['url'] == url), None)
+        if existing:
+            existing.update(title=doc['title'], body=doc['title'] + ' ' + doc.get('itemTitle', ''), officialUrl=doc['officialUrl'])
+            continue
+        records.append({'title': doc['title'], 'url': url, 'officialUrl': doc['officialUrl'],
+                        'date': agenda['date'], 'item': doc['item'],
+                        'topic': topic_for(doc['title']), 'type': 'Official City document',
+                        'body': doc['title']})
+
 seen = {record['url'] for record in records}
 for item in historical['items']:
     for doc in item['documents']:

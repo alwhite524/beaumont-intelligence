@@ -1,0 +1,715 @@
+{
+  "date": "2026-10-06",
+  "officialAgendaUrl": "https://pub-beaumont.escribemeetings.com/Meeting.aspx?Id=5932ffbd-ba02-474b-99c0-2f9532cad6f6&Agenda=Agenda&lang=English",
+  "officialPdfUrl": "https://pub-beaumont.escribemeetings.com/FileStream.ashx?DocumentId=11209",
+  "audit": {
+    "checkedOn": "2026-10-03",
+    "expectedDocuments": 70,
+    "linkedDocuments": 70,
+    "votingItems": 20,
+    "basis": "City HTML agenda attachment inventory matched item by item to supplied 1803-page packet bookmarks. Copies archived in Cloudflare R2; original City URLs retained."
+  },
+  "documents": [
+    {
+      "item": "G.1",
+      "section": "Consent",
+      "title": "August 21, 2026 Warrants",
+      "packet_page_start": 6,
+      "packet_page_end": 26,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-10-06/g-1-august-21-2026-warrants.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11133",
+      "itemTitle": "Ratification of warrants"
+    },
+    {
+      "item": "G.1",
+      "section": "Consent",
+      "title": "August 28, 2026 Warrants",
+      "packet_page_start": 27,
+      "packet_page_end": 42,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-10-06/g-1-august-28-2026-warrants.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11134",
+      "itemTitle": "Ratification of warrants"
+    },
+    {
+      "item": "G.1",
+      "section": "Consent",
+      "title": "September 4, 2026 Warrants",
+      "packet_page_start": 43,
+      "packet_page_end": 58,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-10-06/g-1-september-4-2026-warrants.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11135",
+      "itemTitle": "Ratification of warrants"
+    },
+    {
+      "item": "G.2",
+      "section": "Consent",
+      "title": "CC Minutes 09.15.2026",
+      "packet_page_start": 59,
+      "packet_page_end": 67,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-10-06/g-2-cc-minutes-09-15-2026.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11194",
+      "itemTitle": "Approval of minutes"
+    },
+    {
+      "item": "G.3",
+      "section": "Consent",
+      "title": "Staff Report - Notice of Completion - Manhole Replacement (CIP WW-06)",
+      "packet_page_start": 68,
+      "packet_page_end": 70,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-10-06/g-3-staff-report-notice-of-completion-manhole-replacement-cip-ww-06.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11169",
+      "itemTitle": "Manhole replacement project"
+    },
+    {
+      "item": "G.3",
+      "section": "Consent",
+      "title": "Attachment A - Project Site Map",
+      "packet_page_start": 71,
+      "packet_page_end": 71,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-10-06/g-3-attachment-a-project-site-map.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11170",
+      "itemTitle": "Manhole replacement project"
+    },
+    {
+      "item": "G.3",
+      "section": "Consent",
+      "title": "Attachment B - Notice of Completion - Gentry General Eng",
+      "packet_page_start": 72,
+      "packet_page_end": 72,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-10-06/g-3-attachment-b-notice-of-completion-gentry-general-eng.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11171",
+      "itemTitle": "Manhole replacement project"
+    },
+    {
+      "item": "G.4",
+      "section": "Consent",
+      "title": "Staff Report - WQMP Covenant and Agreement - Beaumont Village",
+      "packet_page_start": 73,
+      "packet_page_end": 75,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-10-06/g-4-staff-report-wqmp-covenant-and-agreement-beaumont-village.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11149",
+      "itemTitle": "Beaumont Village stormwater agreement"
+    },
+    {
+      "item": "G.4",
+      "section": "Consent",
+      "title": "Attachment A - PW2025-0269 WQMP Covenant and Agreement Package – Beaumont Village",
+      "packet_page_start": 76,
+      "packet_page_end": 408,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-10-06/g-4-attachment-a-pw2025-0269-wqmp-covenant-and-agreement-package-beaumont-village-new.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11150",
+      "itemTitle": "Beaumont Village stormwater agreement"
+    },
+    {
+      "item": "G.5",
+      "section": "Consent",
+      "title": "Staff Report - LCTOP Resolution ",
+      "packet_page_start": 409,
+      "packet_page_end": 410,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-10-06/g-5-staff-report-lctop-resolution.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11145",
+      "itemTitle": "Discounted transit fares"
+    },
+    {
+      "item": "G.5",
+      "section": "Consent",
+      "title": "Attachment A - LCTOP Resolution",
+      "packet_page_start": 411,
+      "packet_page_end": 412,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-10-06/g-5-attachment-a-lctop-resolution.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11146",
+      "itemTitle": "Discounted transit fares"
+    },
+    {
+      "item": "G.5",
+      "section": "Consent",
+      "title": "Attachment B - Authorized Agent Form",
+      "packet_page_start": 413,
+      "packet_page_end": 413,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-10-06/g-5-attachment-b-authorized-agent-form.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11147",
+      "itemTitle": "Discounted transit fares"
+    },
+    {
+      "item": "G.5",
+      "section": "Consent",
+      "title": "Attachment C - Certifications and Assurances",
+      "packet_page_start": 414,
+      "packet_page_end": 417,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-10-06/g-5-attachment-c-certifications-and-assurances.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11148",
+      "itemTitle": "Discounted transit fares"
+    },
+    {
+      "item": "G.6",
+      "section": "Consent",
+      "title": "Staff Report - First Amendment to General Services Agreement C25-129 with Dekra-Lite",
+      "packet_page_start": 418,
+      "packet_page_end": 420,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-10-06/g-6-staff-report-first-amendment-to-general-services-agreement-c25-129-with-dekra-lite.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11181",
+      "itemTitle": "Holiday decorations contract"
+    },
+    {
+      "item": "G.6",
+      "section": "Consent",
+      "title": "Attachment A - C25-129.1 Dekra-Lite Ind. Inc. (vendor signature)",
+      "packet_page_start": 421,
+      "packet_page_end": 423,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-10-06/g-6-attachment-a-c25-129-1-dekra-lite-ind-inc-vendor-signature.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11182",
+      "itemTitle": "Holiday decorations contract"
+    },
+    {
+      "item": "G.6",
+      "section": "Consent",
+      "title": "Attachment B - C25-129 Dekra-Lite Ind. Inc",
+      "packet_page_start": 424,
+      "packet_page_end": 496,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-10-06/g-6-attachment-b-c25-129-dekra-lite-ind-inc.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11183",
+      "itemTitle": "Holiday decorations contract"
+    },
+    {
+      "item": "G.7",
+      "section": "Consent",
+      "title": "Staff Report - First Amendment to Contract C26-10 with LSL, LLP",
+      "packet_page_start": 497,
+      "packet_page_end": 498,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-10-06/g-7-staff-report-first-amendment-to-contract-c26-10-with-lsl-llp.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11195",
+      "itemTitle": "Temporary accounting staff"
+    },
+    {
+      "item": "G.7",
+      "section": "Consent",
+      "title": "Attachment A. Proposed First Amendment to Contract NO. C26-10",
+      "packet_page_start": 499,
+      "packet_page_end": 501,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-10-06/g-7-attachment-a-proposed-first-amendment-to-contract-no-c26-10.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11196",
+      "itemTitle": "Temporary accounting staff"
+    },
+    {
+      "item": "G.7",
+      "section": "Consent",
+      "title": "Attachment B. Original Contract with LSL, LLP Signed 9.24.26",
+      "packet_page_start": 502,
+      "packet_page_end": 550,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-10-06/g-7-attachment-b-original-contract-with-lsl-llp-signed-9-24-26.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11197",
+      "itemTitle": "Temporary accounting staff"
+    },
+    {
+      "item": "G.8",
+      "section": "Consent",
+      "title": "Staff Report - Accept Parcel and Revised Easement for Crossroads Lift Station",
+      "packet_page_start": 551,
+      "packet_page_end": 553,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-10-06/g-8-staff-report-accept-parcel-and-revised-easement-for-crossroads-lift-station.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11151",
+      "itemTitle": "Crossroads Lift Station property interests"
+    },
+    {
+      "item": "G.8",
+      "section": "Consent",
+      "title": "Attachment A - Crossroads Lift Station - Location Map",
+      "packet_page_start": 554,
+      "packet_page_end": 554,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-10-06/g-8-attachment-a-crossroads-lift-station-location-map.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11152",
+      "itemTitle": "Crossroads Lift Station property interests"
+    },
+    {
+      "item": "G.8",
+      "section": "Consent",
+      "title": "Attachment B - Original Easement- Recorded Doc (12-15-21)",
+      "packet_page_start": 555,
+      "packet_page_end": 560,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-10-06/g-8-attachment-b-original-easement-recorded-doc-12-15-21.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11153",
+      "itemTitle": "Crossroads Lift Station property interests"
+    },
+    {
+      "item": "G.8",
+      "section": "Consent",
+      "title": "Attachment C - Quit Claim of Original Easement",
+      "packet_page_start": 561,
+      "packet_page_end": 562,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-10-06/g-8-attachment-c-quit-claim-of-original-easement.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11154",
+      "itemTitle": "Crossroads Lift Station property interests"
+    },
+    {
+      "item": "G.8",
+      "section": "Consent",
+      "title": "Attachment D - Offer of Dedication of Site - Crossroads Lift Station",
+      "packet_page_start": 563,
+      "packet_page_end": 568,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-10-06/g-8-attachment-d-offer-of-dedication-of-site-crossroads-lift-station.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11155",
+      "itemTitle": "Crossroads Lift Station property interests"
+    },
+    {
+      "item": "G.8",
+      "section": "Consent",
+      "title": "Attachment E - Offer of Dedication of Revised Easement - Crossroads Lift Station",
+      "packet_page_start": 569,
+      "packet_page_end": 577,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-10-06/g-8-attachment-e-offer-of-dedication-of-revised-easement-crossroads-lift-station.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11156",
+      "itemTitle": "Crossroads Lift Station property interests"
+    },
+    {
+      "item": "G.8",
+      "section": "Consent",
+      "title": "Attachment F - Reso Quit Claim; Parcel and Revised Easement Acceptance",
+      "packet_page_start": 578,
+      "packet_page_end": 580,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-10-06/g-8-attachment-f-reso-quit-claim-parcel-and-revised-easement-acceptance.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11157",
+      "itemTitle": "Crossroads Lift Station property interests"
+    },
+    {
+      "item": "G.8",
+      "section": "Consent",
+      "title": "Attachment G - Certificate of Acceptance of Dedication of Parcel and Revised Easement - Crossroad Lift Station",
+      "packet_page_start": 581,
+      "packet_page_end": 581,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-10-06/g-8-attachment-g-certificate-of-acceptance-of-dedication-of-parcel-and-revised-easement-crossroad-lift-station.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11158",
+      "itemTitle": "Crossroads Lift Station property interests"
+    },
+    {
+      "item": "G.9",
+      "section": "Consent",
+      "title": "Staff Report - Amendment to PSA with SKM Engineering for Mesa Lift Station",
+      "packet_page_start": 582,
+      "packet_page_end": 585,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-10-06/g-9-staff-report-amendment-to-psa-with-skm-engineering-for-mesa-lift-station.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11164",
+      "itemTitle": "Mesa Lift Station: SKM Engineering"
+    },
+    {
+      "item": "G.9",
+      "section": "Consent",
+      "title": "Attachment A - CIP WW-11 Project Vicinity Map(1)",
+      "packet_page_start": 586,
+      "packet_page_end": 586,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-10-06/g-9-attachment-a-cip-ww-11-project-vicinity-map-1.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11165",
+      "itemTitle": "Mesa Lift Station: SKM Engineering"
+    },
+    {
+      "item": "G.9",
+      "section": "Consent",
+      "title": "Attachment B - Beaumont Mesa LS Integration - Additional Services Proposal",
+      "packet_page_start": 587,
+      "packet_page_end": 588,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-10-06/g-9-attachment-b-beaumont-mesa-ls-integration-additional-services-proposal.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11166",
+      "itemTitle": "Mesa Lift Station: SKM Engineering"
+    },
+    {
+      "item": "G.9",
+      "section": "Consent",
+      "title": "Attachment C - Amendment No 1 SKM C24-111.1",
+      "packet_page_start": 589,
+      "packet_page_end": 616,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-10-06/g-9-attachment-c-amendment-no-1-skm-c24-111-1.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11167",
+      "itemTitle": "Mesa Lift Station: SKM Engineering"
+    },
+    {
+      "item": "G.9",
+      "section": "Consent",
+      "title": "Attachment D - SKM COI 26-27",
+      "packet_page_start": 617,
+      "packet_page_end": 625,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-10-06/g-9-attachment-d-skm-coi-26-27.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11168",
+      "itemTitle": "Mesa Lift Station: SKM Engineering"
+    },
+    {
+      "item": "G.10",
+      "section": "Consent",
+      "title": "Staff Report - Amendment to PSA with Webb Associates for Mesa Lift Station",
+      "packet_page_start": 626,
+      "packet_page_end": 628,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-10-06/g-10-staff-report-amendment-to-psa-with-webb-associates-for-mesa-lift-station.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11159",
+      "itemTitle": "Mesa Lift Station: Webb Associates"
+    },
+    {
+      "item": "G.10",
+      "section": "Consent",
+      "title": "Attachment A - CIP WW-11 Project Vicinity Map",
+      "packet_page_start": 629,
+      "packet_page_end": 629,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-10-06/g-10-attachment-a-cip-ww-11-project-vicinity-map.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11160",
+      "itemTitle": "Mesa Lift Station: Webb Associates"
+    },
+    {
+      "item": "G.10",
+      "section": "Consent",
+      "title": "Attachment B - Cost Proposal Webb Associates   CO1_2026-09-15",
+      "packet_page_start": 630,
+      "packet_page_end": 630,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-10-06/g-10-attachment-b-cost-proposal-webb-associates-co1-2026-09-15.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11161",
+      "itemTitle": "Mesa Lift Station: Webb Associates"
+    },
+    {
+      "item": "G.10",
+      "section": "Consent",
+      "title": "Attachment C - C24-112.2 Amendment No. 2 - Webb Associates",
+      "packet_page_start": 631,
+      "packet_page_end": 633,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-10-06/g-10-attachment-c-c24-112-2-amendment-no-2-webb-associates.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11162",
+      "itemTitle": "Mesa Lift Station: Webb Associates"
+    },
+    {
+      "item": "G.10",
+      "section": "Consent",
+      "title": "Attachment D - Webb Associated 26-27 COI  ",
+      "packet_page_start": 634,
+      "packet_page_end": 649,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-10-06/g-10-attachment-d-webb-associated-26-27-coi.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11163",
+      "itemTitle": "Mesa Lift Station: Webb Associates"
+    },
+    {
+      "item": "G.11",
+      "section": "Consent",
+      "title": "Staff Report - Bond Exonerations - Performance (Virtue at Tournament Hills Storm Drain Structures)",
+      "packet_page_start": 650,
+      "packet_page_end": 652,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-10-06/g-11-staff-report-bond-exonerations-performance-virtue-at-tournament-hills-storm-drain-structures.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11142",
+      "itemTitle": "Virtue at Tournament Hills storm drains"
+    },
+    {
+      "item": "G.11",
+      "section": "Consent",
+      "title": "Attachment A - PW2026-0093 - TR 36307 Bond-x Package",
+      "packet_page_start": 653,
+      "packet_page_end": 719,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-10-06/g-11-attachment-a-pw2026-0093-tr-36307-bond-x-package.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11143",
+      "itemTitle": "Virtue at Tournament Hills storm drains"
+    },
+    {
+      "item": "G.11",
+      "section": "Consent",
+      "title": "Attachment B - Notice of Completion(1)",
+      "packet_page_start": 720,
+      "packet_page_end": 721,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-10-06/g-11-attachment-b-notice-of-completion-1.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11144",
+      "itemTitle": "Virtue at Tournament Hills storm drains"
+    },
+    {
+      "item": "G.12",
+      "section": "Consent",
+      "title": "Staff Report - Bond Exonerations - Maintenance (Sundance Corporate Traffic Signal)",
+      "packet_page_start": 722,
+      "packet_page_end": 726,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-10-06/g-12-staff-report-bond-exonerations-maintenance-sundance-corporate-traffic-signal.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11139",
+      "itemTitle": "Sundance Corporate Center traffic signals"
+    },
+    {
+      "item": "G.12",
+      "section": "Consent",
+      "title": "Attachment A - PW2026-0083 - Sundance Corporate Center Bond-x Package",
+      "packet_page_start": 727,
+      "packet_page_end": 739,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-10-06/g-12-attachment-a-pw2026-0083-sundance-corporate-center-bond-x-package.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11140",
+      "itemTitle": "Sundance Corporate Center traffic signals"
+    },
+    {
+      "item": "G.12",
+      "section": "Consent",
+      "title": "Attachment B - Notice of Completion",
+      "packet_page_start": 740,
+      "packet_page_end": 741,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-10-06/g-12-attachment-b-notice-of-completion.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11141",
+      "itemTitle": "Sundance Corporate Center traffic signals"
+    },
+    {
+      "item": "G.13",
+      "section": "Consent",
+      "title": "Staff Report - 2026 Speed Survey",
+      "packet_page_start": 742,
+      "packet_page_end": 745,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-10-06/g-13-staff-report-2026-speed-survey.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11136",
+      "itemTitle": "Citywide speed limits"
+    },
+    {
+      "item": "G.13",
+      "section": "Consent",
+      "title": "Attachment A - 2026 Engineering and Traffic Study Final",
+      "packet_page_start": 746,
+      "packet_page_end": 938,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-10-06/g-13-attachment-a-2026-engineering-and-traffic-study-final.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11137",
+      "itemTitle": "Citywide speed limits"
+    },
+    {
+      "item": "G.13",
+      "section": "Consent",
+      "title": "Attachment B - Resolution Speed Limit",
+      "packet_page_start": 939,
+      "packet_page_end": 942,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-10-06/g-13-attachment-b-resolution-speed-limit.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11138",
+      "itemTitle": "Citywide speed limits"
+    },
+    {
+      "item": "G.14",
+      "section": "Consent",
+      "title": "Staff Report - August 2026 Financial Reports",
+      "packet_page_start": 943,
+      "packet_page_end": 944,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-10-06/g-14-staff-report-august-2026-financial-reports.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11199",
+      "itemTitle": "August financial reports"
+    },
+    {
+      "item": "G.14",
+      "section": "Consent",
+      "title": "FY27 Financial Reports receipts, disbursements and balances Proprietary Funds - August",
+      "packet_page_start": 945,
+      "packet_page_end": 945,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-10-06/g-14-fy27-financial-reports-receipts-disbursements-and-balances-proprietary-funds-august.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11200",
+      "itemTitle": "August financial reports"
+    },
+    {
+      "item": "G.14",
+      "section": "Consent",
+      "title": "FY27 Financial Reports receipts, disbursements and balances Governmental Funds - August",
+      "packet_page_start": 946,
+      "packet_page_end": 946,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-10-06/g-14-fy27-financial-reports-receipts-disbursements-and-balances-governmental-funds-august.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11201",
+      "itemTitle": "August financial reports"
+    },
+    {
+      "item": "G.14",
+      "section": "Consent",
+      "title": "FY27 Financial Reports receipts, disbursements and balances Fiduciary Funds - August",
+      "packet_page_start": 947,
+      "packet_page_end": 947,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-10-06/g-14-fy27-financial-reports-receipts-disbursements-and-balances-fiduciary-funds-august.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11202",
+      "itemTitle": "August financial reports"
+    },
+    {
+      "item": "I.1",
+      "section": "Public Hearing",
+      "title": "Staff Report - Continuation of Public Hearing - Short-Term Rental Regulations and Associated Fees",
+      "packet_page_start": 948,
+      "packet_page_end": 949,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-10-06/i-1-staff-report-continuation-of-public-hearing-short-term-rental-regulations-and-associated-fees.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11198",
+      "itemTitle": "Short-term rental regulations and fees"
+    },
+    {
+      "item": "J.1",
+      "section": "Action",
+      "title": "Staff Report - 2026 Legislative Session Recap",
+      "packet_page_start": 950,
+      "packet_page_end": 951,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-10-06/j-1-staff-report-2026-legislative-session-recap.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11175",
+      "itemTitle": "2026 legislative session recap"
+    },
+    {
+      "item": "J.1",
+      "section": "Action",
+      "title": "Attachment A - Beaumont Legislative Update_CPPG_10.06.2026",
+      "packet_page_start": 952,
+      "packet_page_end": 967,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-10-06/j-1-attachment-a-beaumont-legislative-update-cppg-10-06-2026.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11176",
+      "itemTitle": "2026 legislative session recap"
+    },
+    {
+      "item": "J.2",
+      "section": "Action",
+      "title": "Staff Report - Redlands Bicycle Classic and Beaumont Bike Event",
+      "packet_page_start": 968,
+      "packet_page_end": 970,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-10-06/j-2-staff-report-redlands-bicycle-classic-and-beaumont-bike-event.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11172",
+      "itemTitle": "Redlands Bicycle Classic and Beaumont Bicycle Day"
+    },
+    {
+      "item": "J.2",
+      "section": "Action",
+      "title": "Attachment A - Beaumont Letter",
+      "packet_page_start": 971,
+      "packet_page_end": 971,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-10-06/j-2-attachment-a-beaumont-letter.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11173",
+      "itemTitle": "Redlands Bicycle Classic and Beaumont Bicycle Day"
+    },
+    {
+      "item": "J.2",
+      "section": "Action",
+      "title": "Attachment B - Race Maps",
+      "packet_page_start": 972,
+      "packet_page_end": 973,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-10-06/j-2-attachment-b-race-maps.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11174",
+      "itemTitle": "Redlands Bicycle Classic and Beaumont Bicycle Day"
+    },
+    {
+      "item": "J.3",
+      "section": "Action",
+      "title": "Staff Report - PWA Award- Smart Technology Highland Springs",
+      "packet_page_start": 974,
+      "packet_page_end": 978,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-10-06/j-3-staff-report-pwa-award-smart-technology-highland-springs.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11177",
+      "itemTitle": "Highland Springs traffic-signal smart technology"
+    },
+    {
+      "item": "J.3",
+      "section": "Action",
+      "title": "Attachment A - Bid Tabulation",
+      "packet_page_start": 979,
+      "packet_page_end": 985,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-10-06/j-3-attachment-a-bid-tabulation.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11178",
+      "itemTitle": "Highland Springs traffic-signal smart technology"
+    },
+    {
+      "item": "J.3",
+      "section": "Action",
+      "title": "Attachment B - Bid - California Professional Engineering. Inc",
+      "packet_page_start": 986,
+      "packet_page_end": 1016,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-10-06/j-3-attachment-b-bid-california-professional-engineering-inc.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11179",
+      "itemTitle": "Highland Springs traffic-signal smart technology"
+    },
+    {
+      "item": "J.3",
+      "section": "Action",
+      "title": "Attachment C - Beamont Agreement Signed_CPE 9.29",
+      "packet_page_start": 1017,
+      "packet_page_end": 1128,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-10-06/j-3-attachment-c-beamont-agreement-signed-cpe-9-29.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11180",
+      "itemTitle": "Highland Springs traffic-signal smart technology"
+    },
+    {
+      "item": "J.4",
+      "section": "Action",
+      "title": "Staff Report - Purchase of Playground and Field Lighting Equipment",
+      "packet_page_start": 1129,
+      "packet_page_end": 1134,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-10-06/j-4-staff-report-purchase-of-playground-and-field-lighting-equipment.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11184",
+      "itemTitle": "Playgrounds and sports field lighting"
+    },
+    {
+      "item": "J.4",
+      "section": "Action",
+      "title": "Attachment A - Sports Park Playground Design and Quote",
+      "packet_page_start": 1135,
+      "packet_page_end": 1143,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-10-06/j-4-attachment-a-sports-park-playground-design-and-quote.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11185",
+      "itemTitle": "Playgrounds and sports field lighting"
+    },
+    {
+      "item": "J.4",
+      "section": "Action",
+      "title": "Attachment B - Sports Park LED Field Lighting Retrofit Equipment Quote",
+      "packet_page_start": 1144,
+      "packet_page_end": 1145,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-10-06/j-4-attachment-b-sports-park-led-field-lighting-retrofit-equipment-quote.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11186",
+      "itemTitle": "Playgrounds and sports field lighting"
+    },
+    {
+      "item": "J.4",
+      "section": "Action",
+      "title": "Attachment C - Wildflower Park Playground Design and Quote",
+      "packet_page_start": 1146,
+      "packet_page_end": 1176,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-10-06/j-4-attachment-c-wildflower-park-playground-design-and-quote.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11187",
+      "itemTitle": "Playgrounds and sports field lighting"
+    },
+    {
+      "item": "J.4",
+      "section": "Action",
+      "title": "Attachment D - Sports Park CPRS Program Documents",
+      "packet_page_start": 1177,
+      "packet_page_end": 1183,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-10-06/j-4-attachment-d-sports-park-cprs-program-documents.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11188",
+      "itemTitle": "Playgrounds and sports field lighting"
+    },
+    {
+      "item": "J.4",
+      "section": "Action",
+      "title": "Attachment E - Wildflower Park CPRS Program Documents",
+      "packet_page_start": 1184,
+      "packet_page_end": 1190,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-10-06/j-4-attachment-e-wildflower-park-cprs-program-documents.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11189",
+      "itemTitle": "Playgrounds and sports field lighting"
+    },
+    {
+      "item": "J.4",
+      "section": "Action",
+      "title": "Attachment F - Musco Lights Sourcewell Agreement and Related Documents",
+      "packet_page_start": 1191,
+      "packet_page_end": 1273,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-10-06/j-4-attachment-f-musco-lights-sourcewell-agreement-and-related-documents.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11190",
+      "itemTitle": "Playgrounds and sports field lighting"
+    },
+    {
+      "item": "J.4",
+      "section": "Action",
+      "title": "Attachment G - Gametime Omnia Agreement and Related Documents",
+      "packet_page_start": 1274,
+      "packet_page_end": 1793,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-10-06/j-4-attachment-g-gametime-omnia-agreement-and-related-documents.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11191",
+      "itemTitle": "Playgrounds and sports field lighting"
+    },
+    {
+      "item": "J.5",
+      "section": "Action",
+      "title": "Staff Report - Trevino Park Skate Amenities ",
+      "packet_page_start": 1794,
+      "packet_page_end": 1796,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-10-06/j-5-staff-report-trevino-park-skate-amenities.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11192",
+      "itemTitle": "Temporary skate amenities at Trevino Park"
+    },
+    {
+      "item": "J.5",
+      "section": "Action",
+      "title": "Attachment A - American Ramp Proposal",
+      "packet_page_start": 1797,
+      "packet_page_end": 1803,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-10-06/j-5-attachment-a-american-ramp-proposal.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11193",
+      "itemTitle": "Temporary skate amenities at Trevino Park"
+    }
+  ],
+  "packetArchiveUrl": "https://documents.beaumontintelligence.com/records/agenda-packets/2026-10-06/2026-10-06-city-council-agenda-package.pdf"
+}

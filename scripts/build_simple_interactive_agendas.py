@@ -1,9 +1,11 @@
 """Build searchable interactive-agenda pages for archived packets."""
 import argparse
+import json
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 MEETINGS = {
+    "2026-10-06": ("October 6, 2026", "BI_OCTOBER_6_SOURCES"),
     "2025-09-02": ("September 2, 2025", "BI_SEPTEMBER_2_2025_SOURCES"),
     "2025-09-16": ("September 16, 2025", "BI_SEPTEMBER_16_2025_SOURCES"),
     "2025-10-07": ("October 7, 2025", "BI_OCTOBER_7_2025_SOURCES"),
@@ -34,7 +36,17 @@ selected = set(args.meeting or MEETINGS)
 for date, (label, variable) in MEETINGS.items():
     if date not in selected:
         continue
-    (ROOT / "docs" / "briefings" / f"{date}-sources.html").write_text(
-        PAGE.format(date=date, label=label, variable=variable), encoding="utf-8"
-    )
+    page = PAGE.format(date=date, label=label, variable=variable)
+    if date == '2026-10-06':
+        agenda = json.loads((ROOT / 'data/council/2026-10-06-agenda.json').read_text(encoding='utf-8'))
+        (ROOT / 'docs/briefings/2026-10-06-sources.js').write_text(
+            'window.BI_OCTOBER_6_SOURCES=' + json.dumps(agenda['documents'], ensure_ascii=False) + ';\n', encoding='utf-8')
+        page = page.replace('Archived interactive agenda', 'Upcoming interactive agenda')
+        page = page.replace('return staff.title.replace', 'return files[0].itemTitle||staff.title.replace')
+        page = page.replace('${x.item} ${x.title}', '${x.item} ${x.itemTitle} ${x.title}')
+        packet_link = f'<a class="btn secondary" href="{agenda["packetArchiveUrl"]}" target="_blank" rel="noopener">Full agenda packet ↗</a>'
+        page = page.replace(packet_link, f'<button class="btn secondary" id="view-packet" type="button">View full agenda packet</button>')
+        page = page.replace('render()})();', 'document.querySelector("#view-packet").addEventListener("click",()=>openViewer(' + json.dumps(agenda['packetArchiveUrl']) + ',"October 6 agenda packet"));render()})();')
+        page = page.replace('<div class="agenda-toolbar">', '<p class="source-note">October 6: closed session 5:00 PM; regular meeting 6:00 PM. Proposals are pending Council action. Source audit: 70 of 70 City-listed documents linked across 20 voting items. Consent is displayed last for browsing; the official meeting order places it before the public hearing and action items.</p><div class="agenda-toolbar">')
+    (ROOT / "docs" / "briefings" / f"{date}-sources.html").write_text(page, encoding="utf-8")
     print(f"Built {date} interactive agenda")
