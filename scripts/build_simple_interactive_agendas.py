@@ -41,12 +41,14 @@ for date, (label, variable) in MEETINGS.items():
         agenda = json.loads((ROOT / 'data/council/2026-10-06-agenda.json').read_text(encoding='utf-8'))
         (ROOT / 'docs/briefings/2026-10-06-sources.js').write_text(
             'window.BI_OCTOBER_6_SOURCES=' + json.dumps(agenda['documents'], ensure_ascii=False) + ';\n', encoding='utf-8')
-        page = page.replace('Archived interactive agenda', 'Upcoming interactive agenda')
+        page = page.replace('Archived interactive agenda', 'Meeting agenda and source documents' if agenda.get('meetingStatus') == 'held' else 'Upcoming interactive agenda')
         page = page.replace('return staff.title.replace', 'return files[0].itemTitle||staff.title.replace')
         page = page.replace('${x.item} ${x.title}', '${x.item} ${x.itemTitle} ${x.title}')
         packet_link = f'<a class="btn secondary" href="{agenda["packetArchiveUrl"]}" target="_blank" rel="noopener">Full agenda packet ↗</a>'
         page = page.replace(packet_link, f'<button class="btn secondary" id="view-packet" type="button">View full agenda packet</button>')
         page = page.replace('render()})();', 'document.querySelector("#view-packet").addEventListener("click",()=>openViewer(' + json.dumps(agenda['packetArchiveUrl']) + ',"October 6 agenda packet"));render()})();')
         page = page.replace('<div class="agenda-toolbar">', '<p class="source-note">October 6: closed session 5:00 PM; regular meeting 6:00 PM. Proposals are pending Council action. Source audit: 70 of 70 City-listed documents linked across 20 voting items. Consent is displayed last for browsing; the official meeting order places it before the public hearing and action items.</p><div class="agenda-toolbar">')
+        if agenda.get('meetingStatus') == 'held':
+            page = page.replace('Proposals are pending Council action.', 'This page preserves the published agenda. See the meeting record for video and outcome-review status.')
     (ROOT / "docs" / "briefings" / f"{date}-sources.html").write_text(page, encoding="utf-8")
     print(f"Built {date} interactive agenda")
