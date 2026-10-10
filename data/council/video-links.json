@@ -50,12 +50,6 @@
       "verificationStatus": "verified-youtube-metadata"
     },
     {
-      "date": "2025-06-17",
-      "url": "https://www.youtube.com/watch?v=Bvp-vUbOYmc",
-      "title": "City Council Meeting | June 17, 2025 | City of Beaumont",
-      "verificationStatus": "verified-youtube-metadata"
-    },
-    {
       "date": "2025-08-26",
       "url": "https://www.youtube.com/watch?v=LTh-X-TNfIE",
       "title": "City Council Workshop  | August 26, 2025 | City of Beaumont",
@@ -118,6 +112,38 @@
       "title": "City Council Meeting | March 15, 2022",
       "durationSeconds": 20515,
       "verificationStatus": "verified-youtube-metadata-and-opening-captions"
+    },
+    {
+      "date": "2025-06-03",
+      "url": "https://www.youtube.com/watch?v=LRk0mLMR_vs",
+      "title": "City Council Meeting June 3, 2025 | City of Beaumont",
+      "durationSeconds": 18785,
+      "verificationStatus": "verified-youtube-metadata",
+      "transcriptStatus": "Complete YouTube automatic-caption track retrieved"
+    },
+    {
+      "date": "2025-06-17",
+      "url": "https://www.youtube.com/watch?v=Bvp-vUbOYmc",
+      "title": "City Council Meeting | June 17, 2025 | City of Beaumont",
+      "durationSeconds": 24018,
+      "verificationStatus": "verified-youtube-metadata",
+      "transcriptStatus": "Complete YouTube automatic-caption track retrieved"
+    },
+    {
+      "date": "2025-07-15",
+      "url": "https://www.youtube.com/watch?v=puxzG5lIgRc",
+      "title": "City Council Meeting | July 15, 2025 | City of Beaumont",
+      "durationSeconds": 15527,
+      "verificationStatus": "verified-youtube-metadata",
+      "transcriptStatus": "Existing AI transcript retained; no downloadable caption track available"
+    },
+    {
+      "date": "2025-08-19",
+      "url": "https://www.youtube.com/watch?v=p706MLiL9KU",
+      "title": "City Council Meeting | August 19, 2025 | City of Beaumont",
+      "durationSeconds": 19990,
+      "verificationStatus": "verified-youtube-metadata",
+      "transcriptStatus": "Complete YouTube automatic-caption track retrieved"
     }
   ]
 }

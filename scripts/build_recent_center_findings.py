@@ -33,7 +33,7 @@ def render_findings(page):
             links += f' · <a href="{escape(r["agendaUrl"], quote=True)}">Agenda and supporting documents</a>'
         if r['transcript']:
             transcript_label = 'Transcript' if r.get('agendaUrl') else 'Supplied transcript'
-            transcript_url = ('transcripts/reader.html?date=' + r['date']) if r.get('agendaUrl') and r['date'].startswith('2022-') else 'transcripts/' + r['transcript']
+            transcript_url = ('transcripts/reader.html?date=' + r['date']) if r.get('agendaUrl') else 'transcripts/' + r['transcript']
             links += f' · <a href="{escape(transcript_url, quote=True)}">{transcript_label}</a>'
         cards.append(f'<article class="story-card" id="{r["id"]}"><div class="eyebrow">{r["date"]} · Item {escape(r["item"])}</div><h3>{escape(r["title"])}</h3><p>{escape(r["summary"])}</p><p><strong>Evidence limit:</strong> {escape(r["limits"])}</p><p>{links}</p></article>')
     return START + '\n<section class="section compact alt" id="recent-council-findings"><div class="wrap"><div class="section-heading"><div><div class="eyebrow">Additional Council evidence</div><h2>Decisions and planning discussions</h2></div></div><p class="source-note">These dated findings use the linked minutes and, where available, supplied transcripts. Transcript timestamps are navigation aids; automatic transcription can misidentify names and numbers. Video playback has not been independently checked. Proposals and forecasts remain distinct from adopted budgets, payments and completed work.</p><div class="story-grid">' + '\n'.join(cards) + '</div></div></section>\n' + END

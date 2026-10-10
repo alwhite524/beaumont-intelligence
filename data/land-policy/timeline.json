@@ -1,0 +1,63 @@
+{
+  "title": "Land Policy Intelligence Center",
+  "reviewedThrough": "2026-10-10",
+  "policyUrl": "https://www.beaumontca.gov/DocumentCenter/View/39562/PLUS-Policy",
+  "policyVersion": "2025-03-04",
+  "events": [
+    {
+      "date": "2022-01-18", "item": "19", "title": "Logistics impacts and a land-use committee discussed", "status": "Background and staff direction",
+      "summary": "During the Development Impact Fee discussion, Mayor White proposed an ad hoc committee with Martinez and Fenn to examine logistics growth, traffic impacts and mitigation. The recorded unanimous motion directed preparation of impact-fee nexus-study RFPs, budget inclusion and a future DIF agenda item.",
+      "limit": "The committee discussion is documented in the transcript. The minutes' motion concerns the DIF program; this was not adoption of PLUS or a logistics fee.",
+      "minutes": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/council-minutes.pdf",
+      "agenda": "briefings/2022-01-18-sources.html#item-19",
+      "transcript": "transcripts/2022-01-18-city-council-transcript.txt", "timestamp": "05:08:52",
+      "video": "https://www.youtube.com/watch?v=WQQgg6Y-Idw&t=18532s"
+    },
+    {
+      "date": "2022-04-05", "item": "Council reports", "title": "Land-use mitigation committee reports outreach", "status": "Committee report",
+      "summary": "Fenn reported that he and Martinez had met with development-industry representatives, discussed future warehouse projects and emphasized the City's General Plan. He described an invitation to discuss project ideas before developers committed time and money.",
+      "limit": "This is a Council report in the supplied transcript, not a policy adoption, entitlement approval or waiver of development review.",
+      "agenda": "briefings/2022-04-05-sources.html",
+      "transcript": "transcripts/2022-04-05-city-council-transcript.txt", "timestamp": "04:50:58",
+      "video": "https://www.youtube.com/watch?v=jsKvsxMHhzM&t=17458s"
+    },
+    {
+      "date": "2022-09-06", "item": "13", "title": "Council establishes and names PLUS", "status": "Adopted · unanimous motions",
+      "summary": "Council unanimously accepted redlines to the draft land-use policy for logistics, warehouse, distribution and similar industrial development with a 1,000-foot setback stipulation. Fenn moved and Martinez seconded. A separate unanimous motion by Lara, seconded by White, named the policy PLUS.",
+      "limit": "The October clarification identifies September 6 as the adoption date. These minutes establish the motions; the original adopted policy is still needed for a complete version comparison.",
+      "minutes": "https://documents.beaumontintelligence.com/official-documents/2022-09-06/council-minutes.pdf"
+    },
+    {
+      "date": "2022-10-04", "item": "11", "title": "Applicability clarified after adoption", "status": "Clarification adopted · unanimous",
+      "summary": "On Lara's motion, seconded by Martinez, Council unanimously clarified the policy's applicability concerning formal entitlement and pre-applications before the September 6, 2022 adoption date.",
+      "limit": "The minutes use the wording 'applicable upon formal entitlement, not including pre-applications prior to adoption date.' Project-specific applicability requires the policy version and the application record.",
+      "minutes": "https://documents.beaumontintelligence.com/official-documents/2022-10-04/council-minutes.pdf"
+    },
+    {
+      "date": "2023-12-19", "item": "J.7", "title": "Community Benefit Fee language sent for amendment", "status": "Staff direction",
+      "summary": "Council directed staff to amend PLUS language as presented following discussion of formalizing the Community Benefit Fee.",
+      "limit": "The minutes record direction to staff, not adoption of the later amended policy, a fee collection or an expenditure.",
+      "minutes": "https://documents.beaumontintelligence.com/official-documents/2023-12-19/council-minutes.pdf"
+    },
+    {
+      "date": "2024-02-06", "item": "J.3", "title": "Community-benefit and project requirements amended", "status": "Amendments adopted · unanimous",
+      "summary": "Council unanimously adopted the updated PLUS as presented on White's motion, seconded by Fenn. The item described formalizing the Community Benefit Fee and updating Siting and Design, Operations and Construction Phase requirements.",
+      "limit": "Adoption does not establish the amount collected, the balance available or how community-benefit funds were spent.",
+      "minutes": "https://documents.beaumontintelligence.com/official-documents/2024-02-06/council-minutes.pdf"
+    },
+    {
+      "date": "2024-05-21", "item": "J.3", "title": "Further PLUS revisions adopted", "status": "Amendments adopted · unanimous",
+      "summary": "Council unanimously adopted amended PLUS as proposed on White's motion, seconded by Voigt. The item described Community Benefit Fee provisions and changes to Analysis, Construction Phase, Siting and Design, and Operations.",
+      "limit": "The policy amendment is distinct from Beaumont Pointe entitlements considered at the same meeting. Project-specific benefit terms should not be treated as a universal PLUS fee schedule.",
+      "minutes": "https://documents.beaumontintelligence.com/official-documents/2024-05-21/council-minutes.pdf",
+      "officialAgenda": "https://pub-beaumont.escribemeetings.com/Meeting.aspx?Id=0afc1bb3-41b3-4da3-b696-4ee0854e36eb"
+    },
+    {
+      "date": "2025-03-04", "item": "G.9", "title": "AB 98 revisions adopted", "status": "Amendments adopted · unanimous",
+      "summary": "Council unanimously adopted PLAN2024-0134, the amended PLUS presented for compliance with Assembly Bill 98, on Lara's motion, seconded by White. The policy linked from the City's Planning page carries this date.",
+      "limit": "This is the latest policy version located for this center. It does not by itself establish subsequent enforcement, project compliance or the current status of state law.",
+      "minutes": "https://documents.beaumontintelligence.com/official-documents/2025-03-04/council-minutes.pdf",
+      "policy": "https://www.beaumontca.gov/DocumentCenter/View/39562/PLUS-Policy"
+    }
+  ]
+}

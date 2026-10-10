@@ -2,6 +2,11 @@ const assert = require('node:assert/strict');
 const fs = require('node:fs');
 
 const centerPages = [
+  'land-policy.html',
+  'land-policy-history.html',
+  'land-policy-council-actions.html',
+  'land-policy-questions.html',
+  'land-policy-evidence.html',
   'potrero-interchange.html',
   'pennsylvania-grade-separation.html',
   'police.html',

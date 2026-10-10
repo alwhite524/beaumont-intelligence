@@ -1,5 +1,25 @@
 (() => {
   const supplementalIndex = [{
+    title: 'Land Policy Intelligence Center', url: 'land-policy.html', category: 'Intelligence Center',
+    description: "The establishment and evolution of Beaumont's Policy on Land Use and Sensitive Receptors (PLUS).",
+    text: 'land policy PLUS sensitive receptors logistics warehouse distribution mitigation community benefit fee AB 98 adoption September 2022', aliases: ['PLUS', 'land use policy', 'warehouse policy']
+  }, {
+    title: 'Land Policy Timeline', url: 'land-policy-history.html', category: 'Intelligence Center',
+    description: 'Source-linked milestones from early 2022 mitigation discussions through PLUS adoption and later amendments.',
+    text: 'PLUS history timeline Fenn Martinez White Lara land use committee 2022 2023 2024 2025', aliases: ['PLUS timeline', 'PLUS history']
+  }, {
+    title: 'Land Policy Council Actions', url: 'land-policy-council-actions.html', category: 'Intelligence Center',
+    description: 'Motions, outcomes and evidence limits for PLUS adoption, applicability and community-benefit amendments.',
+    text: 'PLUS land policy Council votes adoption amendments community benefit fee AB98', aliases: ['PLUS votes']
+  }, {
+    title: 'Land Policy Questions', url: 'land-policy-questions.html', category: 'Intelligence Center',
+    description: 'Answers and open research questions about the establishment and implementation of PLUS.',
+    text: 'PLUS land policy questions applicability environmental review CEQA compliance enforcement', aliases: ['PLUS questions']
+  }, {
+    title: 'Land Policy Evidence', url: 'land-policy-evidence.html', category: 'Intelligence Center',
+    description: 'Official PLUS policy, Council minutes, supplied transcripts and open evidence gaps.',
+    text: 'PLUS policy document sources minutes transcript land use sensitive receptors March 4 2025', aliases: ['PLUS document', 'PLUS sources']
+  }, {
     title: 'Billboards: Policy and Decisions', url: 'dossiers/billboards.html', category: 'Research Record',
     description: 'Documented history of billboard advertising, regulation, relocation agreements, and digital conversion decisions.',
     text: 'billboards digital signs electronic signs Lamar AMG relocation agreement replacement ratio survey advertising Council history', aliases: ['digital billboard', 'electronic billboard', 'sign policy']
