@@ -1,0 +1,746 @@
+{
+  "date": "2022-01-18",
+  "sourceFilename": "Agenda Packet 01.18.2022.pdf",
+  "packetPages": 806,
+  "packetArchiveUrl": "https://documents.beaumontintelligence.com/records/agenda-packets/2022-01-18/2022-01-18-city-council-agenda-package.pdf",
+  "agendaUrl": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/agenda.pdf",
+  "agendaPageCount": 7,
+  "meetingStatus": "held",
+  "audit": {
+    "basis": "Supplied PDF bookmarks; historical City HTML agenda not independently audited",
+    "packetDocuments": 58,
+    "linkedDocuments": 58,
+    "officialHtmlAuditComplete": false
+  },
+  "items": [
+    {
+      "item": "1",
+      "section": "Consent",
+      "title": "Approval of Minutes",
+      "recommendation": "Approve Minutes dated: December 21, 2021, and January 4, 2022.",
+      "outcomeStatus": "See 2022-q1-meeting-review.json"
+    },
+    {
+      "item": "2",
+      "section": "Consent",
+      "title": "Ratification of Warrants",
+      "recommendation": "Ratify Warrants dated: December 22, 2021, and December 30, 2021.",
+      "outcomeStatus": "See 2022-q1-meeting-review.json"
+    },
+    {
+      "item": "3",
+      "section": "Consent",
+      "title": "Quarterly Status of City Council Travel and Training Reimbursements",
+      "recommendation": "Receive and file.",
+      "outcomeStatus": "See 2022-q1-meeting-review.json"
+    },
+    {
+      "item": "4",
+      "section": "Consent",
+      "title": "Approval of Corrected Gann Limit for FY2021 and FY2022",
+      "recommendation": "Waive the full reading and adopt by title only a “Resolution of the City Council of the City of Beaumont, approving the Appropriation Limit for the 2020-21 and 2021-22 Fiscal Years.”",
+      "outcomeStatus": "See 2022-q1-meeting-review.json"
+    },
+    {
+      "item": "5",
+      "section": "Consent",
+      "title": "Accept Security Agreement and Performance and Payment Bond No. CMS0346632 for Street Improvements Associated with Tract Map No. 27971-9 and Accept Security Agreement and Performance and Payment Bond No. 30128141 for Street Improvements Associated with Tract Map No. 36307",
+      "recommendation": "Accept Security Agreement and Performance and Payment Bond No. CMS0346632 for street improvements associated with Tract Map No. 27971-9, and Accept Security Agreement and Performance and Payment Bond No. 30128141 for street improvements associated with Tract Map No. 36307.",
+      "outcomeStatus": "See 2022-q1-meeting-review.json"
+    },
+    {
+      "item": "6",
+      "section": "Consent",
+      "title": "FY2022 General Fund and Wastewater Budget to Actual through December 2021, and Second Quarter Investment Report and Certification",
+      "recommendation": "Receive and file the attached reports.",
+      "outcomeStatus": "See 2022-q1-meeting-review.json"
+    },
+    {
+      "item": "7",
+      "section": "Consent",
+      "title": "Consider Adopting a Resolution Waiving the Facility Use and Staff Fees at the Albert A. Chatigny Sr. Community Recreation Center (CRC) for Boy Scout Troop 322",
+      "recommendation": "Waive the full reading and adopt by title only, “A Resolution of the City of Beaumont Authorizing the Waiver of a One-Time Facility Use Fee at the Albert A. Chatigny Sr. Community Recreation Center (CRC) for Boy Scout Troop 322.”",
+      "outcomeStatus": "See 2022-q1-meeting-review.json"
+    },
+    {
+      "item": "8",
+      "section": "Action",
+      "title": "FY2021 Annual Comprehensive Financial Report and Report of Internal Control Over Financial Reporting",
+      "recommendation": "Receive and file the FY2021 Annual Comprehensive Report and associated reports.",
+      "outcomeStatus": "See 2022-q1-meeting-review.json"
+    },
+    {
+      "item": "9",
+      "section": "Action",
+      "title": "FY2022 Mid-Year Budget Amendment 3/CIP/Wastewater/General Fund and Ratification of Emergency Wastewater Vehicle Purchase",
+      "recommendation": "Approve the Capital Improvement Plan budget adjustments as outlined in Attachment A, Approve the budget adjustments as outlined in Attachment B, Approve the budget adjustments as outlines in Attachment C, and Ratify the cost of emergency vehicle purchase paid to Fritts Ford in the amount of $41,943.78.",
+      "outcomeStatus": "See 2022-q1-meeting-review.json"
+    },
+    {
+      "item": "10",
+      "section": "Action",
+      "title": "Pension Funding Policy and Investment Strategy for PARS 115 Trust",
+      "recommendation": "Approve Example 2 of the pension funding policy with an active moderate investment strategy for the PARS 115 Trust.",
+      "outcomeStatus": "See 2022-q1-meeting-review.json"
+    },
+    {
+      "item": "11",
+      "section": "Action",
+      "title": "Traffic Signal Update for the First Street and Highway 79 Intersection, and the Sixth Street and Beaumont Avenue Intersection",
+      "recommendation": "Receive and File the Traffic Signal Update for the First Street and Highway 79 Intersection, and the Sixth Street and Beaumont Avenue Intersection Project.",
+      "outcomeStatus": "See 2022-q1-meeting-review.json"
+    },
+    {
+      "item": "12",
+      "section": "Action",
+      "title": "Capital Improvement Drainage Projects Update",
+      "recommendation": "Receive and file the Capital Improvement Drainage Projects Update.",
+      "outcomeStatus": "See 2022-q1-meeting-review.json"
+    },
+    {
+      "item": "13",
+      "section": "Action",
+      "title": "Community Development Department Update",
+      "recommendation": "Receive and file.",
+      "outcomeStatus": "See 2022-q1-meeting-review.json"
+    },
+    {
+      "item": "14",
+      "section": "Action",
+      "title": "Adoption of a Resolution Authorizing the City Manager to Accept the Offer of Dedication for Park Purposes and Approve a Park Dedication Agreement between the City of Beaumont and SDC Fairway Canyon, LLC, for Mickelson Park (APN 413-801-012)",
+      "recommendation": "Waive the full reading and adopt by title only, “A Resolution of the City of Beaumont Authorizing the City Manager to Accept the Offers of Dedication for Park Purposes,” Authorize City staff to record the certificate of acceptance of an interest in real property by the City of Beaumont, and Authorize a Park Dedication Agreement between the City of Beaumont and SDC Fairway Canyon, LLC, for Mickelson Park (APN 413-801-012) and authorize the City Manager to execute the agreement on behalf of the City of Beaumont.",
+      "outcomeStatus": "See 2022-q1-meeting-review.json"
+    },
+    {
+      "item": "15",
+      "section": "Action",
+      "title": "Homeless Outreach Approach for Beaumont",
+      "recommendation": "Receive and file.",
+      "outcomeStatus": "See 2022-q1-meeting-review.json"
+    },
+    {
+      "item": "16",
+      "section": "Action",
+      "title": "Request City Council to Approve the Memorandum of Understanding between the City of Beaumont and Managers/Professional/Technical as Individuals",
+      "recommendation": "Approve the Memorandum of Understanding between the City of Beaumont and Managers/Professional/Technical as Individuals and authorize the City Manager to execute the agreement.",
+      "outcomeStatus": "See 2022-q1-meeting-review.json"
+    },
+    {
+      "item": "17",
+      "section": "Action",
+      "title": "Approve the Draft Request for Proposal for Landscape Architecture and Engineering Design Services and Construction Documents for Stewart Park Improvement Project",
+      "recommendation": "Approve the draft Request for Proposals for Landscape Architecture and Engineering Design Services and Construction Documents for Stewart Park Improvement Project and direct City staff to publish the document on PublicPurchase.com.",
+      "outcomeStatus": "See 2022-q1-meeting-review.json"
+    },
+    {
+      "item": "18",
+      "section": "Action",
+      "title": "Rangel Park Update",
+      "recommendation": "Receive and provide direction to City staff.",
+      "outcomeStatus": "See 2022-q1-meeting-review.json"
+    },
+    {
+      "item": "19",
+      "section": "Action",
+      "title": "Discussion and Direction to City Staff Regarding Updates to the City of Beaumont Development Impact Fee (DIF) Program",
+      "recommendation": "Direct City staff to begin preparing requests for proposals (RFPs) for the impact fee nexus studies; Direct City staff to include updates to the DIF nexus studies and the DIF program in the FY2022-2023 budget; and Add an item on the next City Council agenda to discuss updates to the City’s DIF program.",
+      "outcomeStatus": "See 2022-q1-meeting-review.json"
+    },
+    {
+      "item": "20",
+      "section": "Action",
+      "title": "Review of Local Emergency Declaration Established via the Adoption of City of Beaumont Resolution No. 2020-07 Adopted on March 17, 2020",
+      "recommendation": "City staff recommends that there be no change regarding the local emergency declaration. This is due to the fact that there have been no significant changes in the original conditions, a State emergency declaration remains in effect and local emergency declaration helps to ensure that Beaumont remains eligible for federal and state emergency aid.",
+      "outcomeStatus": "See 2022-q1-meeting-review.json"
+    },
+    {
+      "item": "21",
+      "section": "Action",
+      "title": "Approval of City Attorney Invoices for the Month of December 2021",
+      "recommendation": "Approve invoices in the amount of $135,795.98.",
+      "outcomeStatus": "See 2022-q1-meeting-review.json"
+    }
+  ],
+  "documents": [
+    {
+      "item": "1",
+      "section": "Consent",
+      "title": "CC Minutes 12.21.2022",
+      "itemTitle": "Approval of Minutes",
+      "packet_page_start": 8,
+      "packet_page_end": 18,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-1-01.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "1",
+      "section": "Consent",
+      "title": "CC Minutes 01.04.2022",
+      "itemTitle": "Approval of Minutes",
+      "packet_page_start": 19,
+      "packet_page_end": 23,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-1-02.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "2",
+      "section": "Consent",
+      "title": "20211222 warrants",
+      "itemTitle": "Ratification of Warrants",
+      "packet_page_start": 24,
+      "packet_page_end": 31,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-2-01.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "2",
+      "section": "Consent",
+      "title": "20211230 warrants",
+      "itemTitle": "Ratification of Warrants",
+      "packet_page_start": 32,
+      "packet_page_end": 40,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-2-02.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "3",
+      "section": "Consent",
+      "title": "Staff Report - Quarterly Council Reimb Status Report",
+      "itemTitle": "Quarterly Status of City Council Travel and Training Reimbursements",
+      "packet_page_start": 41,
+      "packet_page_end": 41,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-3-01.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "3",
+      "section": "Consent",
+      "title": "Oct - Dec Council Travel Reimb Report",
+      "itemTitle": "Quarterly Status of City Council Travel and Training Reimbursements",
+      "packet_page_start": 42,
+      "packet_page_end": 42,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-3-02.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "4",
+      "section": "Consent",
+      "title": "Staff Report Revised GANN Limits for FY21 and FY22",
+      "itemTitle": "Approval of Corrected Gann Limit for FY2021 and FY2022",
+      "packet_page_start": 43,
+      "packet_page_end": 44,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-4-01.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "4",
+      "section": "Consent",
+      "title": "Attachment A - GANN worksheet 2021 Revised",
+      "itemTitle": "Approval of Corrected Gann Limit for FY2021 and FY2022",
+      "packet_page_start": 45,
+      "packet_page_end": 45,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-4-02.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "4",
+      "section": "Consent",
+      "title": "Attachment B - GANN worksheet 2022 Revised",
+      "itemTitle": "Approval of Corrected Gann Limit for FY2021 and FY2022",
+      "packet_page_start": 46,
+      "packet_page_end": 46,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-4-03.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "4",
+      "section": "Consent",
+      "title": "Attachment C - Reso - Adopting the Gann Limit template",
+      "itemTitle": "Approval of Corrected Gann Limit for FY2021 and FY2022",
+      "packet_page_start": 47,
+      "packet_page_end": 47,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-4-04.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "5",
+      "section": "Consent",
+      "title": "Staff Report - PW17-4291 & PW2021-0634 Bond Acceptance",
+      "itemTitle": "Accept Security Agreement and Performance and Payment Bond No. CMS0346632 for Street Improvements Associated with Tract Map No. 27971-9 and Accept Security Agreement and Performance and Payment Bond No. 30128141 for Street Improvements Associated with Tract Map No. 36307",
+      "packet_page_start": 48,
+      "packet_page_end": 51,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-5-01.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "5",
+      "section": "Consent",
+      "title": "Att A 17-4291 BOND #CMS0346632 with Approved Plans and CE",
+      "itemTitle": "Accept Security Agreement and Performance and Payment Bond No. CMS0346632 for Street Improvements Associated with Tract Map No. 27971-9 and Accept Security Agreement and Performance and Payment Bond No. 30128141 for Street Improvements Associated with Tract Map No. 36307",
+      "packet_page_start": 52,
+      "packet_page_end": 82,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-5-02.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "5",
+      "section": "Consent",
+      "title": "Att B PW2021-0634 Bond 30128141 with Approved Sewer Plans and CE (002)",
+      "itemTitle": "Accept Security Agreement and Performance and Payment Bond No. CMS0346632 for Street Improvements Associated with Tract Map No. 27971-9 and Accept Security Agreement and Performance and Payment Bond No. 30128141 for Street Improvements Associated with Tract Map No. 36307",
+      "packet_page_start": 83,
+      "packet_page_end": 112,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-5-03.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "6",
+      "section": "Consent",
+      "title": "Staff Report Budget to Actual through December 2021 and 2nd Quarter Investment Report",
+      "itemTitle": "FY2022 General Fund and Wastewater Budget to Actual through December 2021, and Second Quarter Investment Report and Certification",
+      "packet_page_start": 113,
+      "packet_page_end": 115,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-6-01.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "6",
+      "section": "Consent",
+      "title": "General Fund Budget to Actual through December 2021",
+      "itemTitle": "FY2022 General Fund and Wastewater Budget to Actual through December 2021, and Second Quarter Investment Report and Certification",
+      "packet_page_start": 116,
+      "packet_page_end": 118,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-6-02.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "6",
+      "section": "Consent",
+      "title": "Wastewater Budget to Actual through December 2021",
+      "itemTitle": "FY2022 General Fund and Wastewater Budget to Actual through December 2021, and Second Quarter Investment Report and Certification",
+      "packet_page_start": 119,
+      "packet_page_end": 120,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-6-03.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "6",
+      "section": "Consent",
+      "title": "Pooled Cash Investment Holdings Report as of 12.31.21",
+      "itemTitle": "FY2022 General Fund and Wastewater Budget to Actual through December 2021, and Second Quarter Investment Report and Certification",
+      "packet_page_start": 121,
+      "packet_page_end": 121,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-6-04.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "6",
+      "section": "Consent",
+      "title": "Pooled Cash Investment Report as of 12.31.21",
+      "itemTitle": "FY2022 General Fund and Wastewater Budget to Actual through December 2021, and Second Quarter Investment Report and Certification",
+      "packet_page_start": 122,
+      "packet_page_end": 124,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-6-05.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "6",
+      "section": "Consent",
+      "title": "Investment Certification",
+      "itemTitle": "FY2022 General Fund and Wastewater Budget to Actual through December 2021, and Second Quarter Investment Report and Certification",
+      "packet_page_start": 125,
+      "packet_page_end": 125,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-6-06.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "6",
+      "section": "Consent",
+      "title": "Wilmington Trust Holdings Report as of 12.31.21 (46)",
+      "itemTitle": "FY2022 General Fund and Wastewater Budget to Actual through December 2021, and Second Quarter Investment Report and Certification",
+      "packet_page_start": 126,
+      "packet_page_end": 157,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-6-07.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "6",
+      "section": "Consent",
+      "title": "Public Trust Investment Report as of December 31",
+      "itemTitle": "FY2022 General Fund and Wastewater Budget to Actual through December 2021, and Second Quarter Investment Report and Certification",
+      "packet_page_start": 158,
+      "packet_page_end": 174,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-6-08.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "7",
+      "section": "Consent",
+      "title": "Staff Report - Scouts waiver",
+      "itemTitle": "Consider Adopting a Resolution Waiving the Facility Use and Staff Fees at the Albert A. Chatigny Sr. Community Recreation Center (CRC) for Boy Scout Troop 322",
+      "packet_page_start": 175,
+      "packet_page_end": 176,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-7-01.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "7",
+      "section": "Consent",
+      "title": "Attachment A - Resolution",
+      "itemTitle": "Consider Adopting a Resolution Waiving the Facility Use and Staff Fees at the Albert A. Chatigny Sr. Community Recreation Center (CRC) for Boy Scout Troop 322",
+      "packet_page_start": 177,
+      "packet_page_end": 178,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-7-02.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "7",
+      "section": "Consent",
+      "title": "Attachment B - Facility Use Application",
+      "itemTitle": "Consider Adopting a Resolution Waiving the Facility Use and Staff Fees at the Albert A. Chatigny Sr. Community Recreation Center (CRC) for Boy Scout Troop 322",
+      "packet_page_start": 179,
+      "packet_page_end": 181,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-7-03.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "7",
+      "section": "Consent",
+      "title": "Attachment C - Troop 322 City Council Letter",
+      "itemTitle": "Consider Adopting a Resolution Waiving the Facility Use and Staff Fees at the Albert A. Chatigny Sr. Community Recreation Center (CRC) for Boy Scout Troop 322",
+      "packet_page_start": 182,
+      "packet_page_end": 182,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-7-04.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "8",
+      "section": "Action",
+      "title": "Staff Report FY2021 Comprehensive Annual Financial Report and Report on Internal Controls Over Financial Reporting",
+      "itemTitle": "FY2021 Annual Comprehensive Financial Report and Report of Internal Control Over Financial Reporting",
+      "packet_page_start": 183,
+      "packet_page_end": 185,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-8-01.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "8",
+      "section": "Action",
+      "title": "Attachment A - 2021 Final Report",
+      "itemTitle": "FY2021 Annual Comprehensive Financial Report and Report of Internal Control Over Financial Reporting",
+      "packet_page_start": 186,
+      "packet_page_end": 381,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-8-02.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "8",
+      "section": "Action",
+      "title": "Attachment B - 2021 Final SAS114 Letter",
+      "itemTitle": "FY2021 Annual Comprehensive Financial Report and Report of Internal Control Over Financial Reporting",
+      "packet_page_start": 382,
+      "packet_page_end": 392,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-8-03.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "8",
+      "section": "Action",
+      "title": "Attachment C - 2021 Final GAGAS Report",
+      "itemTitle": "FY2021 Annual Comprehensive Financial Report and Report of Internal Control Over Financial Reporting",
+      "packet_page_start": 393,
+      "packet_page_end": 398,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-8-04.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "8",
+      "section": "Action",
+      "title": "Attachment D - Audit Presentation FY21",
+      "itemTitle": "FY2021 Annual Comprehensive Financial Report and Report of Internal Control Over Financial Reporting",
+      "packet_page_start": 399,
+      "packet_page_end": 405,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-8-05.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "9",
+      "section": "Action",
+      "title": "Staff Report Budget Amendment 3",
+      "itemTitle": "FY2022 Mid-Year Budget Amendment 3/CIP/Wastewater/General Fund and Ratification of Emergency Wastewater Vehicle Purchase",
+      "packet_page_start": 406,
+      "packet_page_end": 408,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-9-01.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "9",
+      "section": "Action",
+      "title": "Attachment A - CIP budget adjustments 1.18.2022",
+      "itemTitle": "FY2022 Mid-Year Budget Amendment 3/CIP/Wastewater/General Fund and Ratification of Emergency Wastewater Vehicle Purchase",
+      "packet_page_start": 409,
+      "packet_page_end": 409,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-9-02.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "9",
+      "section": "Action",
+      "title": "Attachment B - WW budget adjustments 1.18.2022",
+      "itemTitle": "FY2022 Mid-Year Budget Amendment 3/CIP/Wastewater/General Fund and Ratification of Emergency Wastewater Vehicle Purchase",
+      "packet_page_start": 410,
+      "packet_page_end": 410,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-9-03.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "9",
+      "section": "Action",
+      "title": "Attachment C -GF budget adjustments 1.18.2022",
+      "itemTitle": "FY2022 Mid-Year Budget Amendment 3/CIP/Wastewater/General Fund and Ratification of Emergency Wastewater Vehicle Purchase",
+      "packet_page_start": 411,
+      "packet_page_end": 411,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-9-04.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "9",
+      "section": "Action",
+      "title": "Invoice_20220111_0001",
+      "itemTitle": "FY2022 Mid-Year Budget Amendment 3/CIP/Wastewater/General Fund and Ratification of Emergency Wastewater Vehicle Purchase",
+      "packet_page_start": 412,
+      "packet_page_end": 412,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-9-05.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "10",
+      "section": "Action",
+      "title": "Staff Report Pension Funding Policy and Investment Strategy for PARS 115 Trust",
+      "itemTitle": "Pension Funding Policy and Investment Strategy for PARS 115 Trust",
+      "packet_page_start": 413,
+      "packet_page_end": 416,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-10-01.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "10",
+      "section": "Action",
+      "title": "Funding Policy Matrix and charts",
+      "itemTitle": "Pension Funding Policy and Investment Strategy for PARS 115 Trust",
+      "packet_page_start": 417,
+      "packet_page_end": 418,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-10-02.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "10",
+      "section": "Action",
+      "title": "HighMark Portfolio Performance Reports as of September 30, 2021",
+      "itemTitle": "Pension Funding Policy and Investment Strategy for PARS 115 Trust",
+      "packet_page_start": 419,
+      "packet_page_end": 424,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-10-03.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "11",
+      "section": "Action",
+      "title": "Traffic Signal Update",
+      "itemTitle": "Traffic Signal Update for the First Street and Highway 79 Intersection, and the Sixth Street and Beaumont Avenue Intersection",
+      "packet_page_start": 425,
+      "packet_page_end": 427,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-11-01.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "12",
+      "section": "Action",
+      "title": "Drainage Project Update",
+      "itemTitle": "Capital Improvement Drainage Projects Update",
+      "packet_page_start": 428,
+      "packet_page_end": 430,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-12-01.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "13",
+      "section": "Action",
+      "title": "Janaury 2022 Com Dev Dept Update",
+      "itemTitle": "Community Development Department Update",
+      "packet_page_start": 431,
+      "packet_page_end": 437,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-13-01.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "14",
+      "section": "Action",
+      "title": "Staff Report - Mickleson Park Acceptance",
+      "itemTitle": "Adoption of a Resolution Authorizing the City Manager to Accept the Offer of Dedication for Park Purposes and Approve a Park Dedication Agreement between the City of Beaumont and SDC Fairway Canyon, LLC, for Mickelson Park (APN 413-801-012)",
+      "packet_page_start": 438,
+      "packet_page_end": 440,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-14-01.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "14",
+      "section": "Action",
+      "title": "Attachment A - Resolution",
+      "itemTitle": "Adoption of a Resolution Authorizing the City Manager to Accept the Offer of Dedication for Park Purposes and Approve a Park Dedication Agreement between the City of Beaumont and SDC Fairway Canyon, LLC, for Mickelson Park (APN 413-801-012)",
+      "packet_page_start": 441,
+      "packet_page_end": 442,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-14-02.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "14",
+      "section": "Action",
+      "title": "Attachment B - Park Dedication Agreement",
+      "itemTitle": "Adoption of a Resolution Authorizing the City Manager to Accept the Offer of Dedication for Park Purposes and Approve a Park Dedication Agreement between the City of Beaumont and SDC Fairway Canyon, LLC, for Mickelson Park (APN 413-801-012)",
+      "packet_page_start": 443,
+      "packet_page_end": 451,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-14-03.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "14",
+      "section": "Action",
+      "title": "Attachment C - Certificate of Acceptance Offer of Dedication",
+      "itemTitle": "Adoption of a Resolution Authorizing the City Manager to Accept the Offer of Dedication for Park Purposes and Approve a Park Dedication Agreement between the City of Beaumont and SDC Fairway Canyon, LLC, for Mickelson Park (APN 413-801-012)",
+      "packet_page_start": 452,
+      "packet_page_end": 452,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-14-04.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "14",
+      "section": "Action",
+      "title": "HOA Exempt Letter",
+      "itemTitle": "Adoption of a Resolution Authorizing the City Manager to Accept the Offer of Dedication for Park Purposes and Approve a Park Dedication Agreement between the City of Beaumont and SDC Fairway Canyon, LLC, for Mickelson Park (APN 413-801-012)",
+      "packet_page_start": 453,
+      "packet_page_end": 454,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-14-05.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "15",
+      "section": "Action",
+      "title": "Staff Report - Homeless Outreach",
+      "itemTitle": "Homeless Outreach Approach for Beaumont",
+      "packet_page_start": 455,
+      "packet_page_end": 458,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-15-01.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "16",
+      "section": "Action",
+      "title": "Staff Report - Mgr MOU 2022",
+      "itemTitle": "Request City Council to Approve the Memorandum of Understanding between the City of Beaumont and Managers/Professional/Technical as Individuals",
+      "packet_page_start": 459,
+      "packet_page_end": 460,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-16-01.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "16",
+      "section": "Action",
+      "title": "Attachment A - Mgr Prof Tech Final Draft",
+      "itemTitle": "Request City Council to Approve the Memorandum of Understanding between the City of Beaumont and Managers/Professional/Technical as Individuals",
+      "packet_page_start": 461,
+      "packet_page_end": 478,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-16-02.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "17",
+      "section": "Action",
+      "title": "Staff Report RFP Stewart Park",
+      "itemTitle": "Approve the Draft Request for Proposal for Landscape Architecture and Engineering Design Services and Construction Documents for Stewart Park Improvement Project",
+      "packet_page_start": 479,
+      "packet_page_end": 481,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-17-01.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "17",
+      "section": "Action",
+      "title": "Attachment A - RFP Stewart Park",
+      "itemTitle": "Approve the Draft Request for Proposal for Landscape Architecture and Engineering Design Services and Construction Documents for Stewart Park Improvement Project",
+      "packet_page_start": 482,
+      "packet_page_end": 501,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-17-02.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "18",
+      "section": "Action",
+      "title": "Staff Report - Rangel Park Update",
+      "itemTitle": "Rangel Park Update",
+      "packet_page_start": 502,
+      "packet_page_end": 502,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-18-01.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "18",
+      "section": "Action",
+      "title": "Rangel Park Presentation",
+      "itemTitle": "Rangel Park Update",
+      "packet_page_start": 503,
+      "packet_page_end": 511,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-18-02.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "19",
+      "section": "Action",
+      "title": "Staff Report - DIF Update",
+      "itemTitle": "Discussion and Direction to City Staff Regarding Updates to the City of Beaumont Development Impact Fee (DIF) Program",
+      "packet_page_start": 512,
+      "packet_page_end": 514,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-19-01.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "19",
+      "section": "Action",
+      "title": "Logistics_Nexus_Study-2019",
+      "itemTitle": "Discussion and Direction to City Staff Regarding Updates to the City of Beaumont Development Impact Fee (DIF) Program",
+      "packet_page_start": 515,
+      "packet_page_end": 786,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-19-02.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "20",
+      "section": "Action",
+      "title": "Staff Report - Review of Emergency Reso",
+      "itemTitle": "Review of Local Emergency Declaration Established via the Adoption of City of Beaumont Resolution No. 2020-07 Adopted on March 17, 2020",
+      "packet_page_start": 787,
+      "packet_page_end": 788,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-20-01.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "20",
+      "section": "Action",
+      "title": "Reso 2020-07",
+      "itemTitle": "Review of Local Emergency Declaration Established via the Adoption of City of Beaumont Resolution No. 2020-07 Adopted on March 17, 2020",
+      "packet_page_start": 789,
+      "packet_page_end": 792,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-20-02.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "21",
+      "section": "Action",
+      "title": "SBEMP Dec 2021",
+      "itemTitle": "Approval of City Attorney Invoices for the Month of December 2021",
+      "packet_page_start": 793,
+      "packet_page_end": 806,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-21-01.pdf",
+      "officialUrl": null
+    }
+  ]
+}

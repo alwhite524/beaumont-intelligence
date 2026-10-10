@@ -53,7 +53,9 @@
     return searchable.includes(query) || compact(searchable).includes(compact(query));
   };
   const destinationFor = record => record.type === transcriptType
-    ? null
+    ? (record.url.includes('reader.html?date=') ? { href: record.url, label: 'Read transcript' } : null)
+    : record.type === 'Agenda item' || record.type === 'Council evidence summary'
+    ? { href: record.url, label: record.type === 'Agenda item' ? 'Open agenda item' : 'Read evidence summary' }
     : /\.docx$/i.test(record.url)
     ? { href: record.url, label: 'Download Word original' }
     : record.url.startsWith('https://portal.laserfiche.com/')

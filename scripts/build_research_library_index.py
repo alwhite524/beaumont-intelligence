@@ -75,7 +75,8 @@ for transcript in sorted((DOCS / "transcripts").glob("*-city-council*transcript.
     date = transcript.name[:10]
     body = transcript.read_text(encoding="utf-8", errors="replace")
     video_match = re.search(r"https://www\.youtube\.com/watch\?v=[A-Za-z0-9_-]+", body[:1000])
-    records.append({"title": f"{date} City Council transcript", "url": f"../transcripts/{transcript.name}",
+    transcript_url = f'../transcripts/reader.html?date={date}' if date in {'2022-01-18', '2022-02-01', '2022-02-15', '2022-03-01'} else f'../transcripts/{transcript.name}'
+    records.append({"title": f"{date} City Council transcript", "url": transcript_url,
                     "videoUrl": video_match.group(0) if video_match else "", "date": date, "item": "",
                     "topic": "council", "type": "Meeting transcript", "body": body})
 
@@ -86,12 +87,23 @@ for agenda_path in sorted((ROOT / 'data/council').glob('*-agenda.json')):
         url = doc.get('archiveUrl') or doc['officialUrl']
         existing = next((record for record in records if record['url'] == url), None)
         if existing:
-            existing.update(title=doc['title'], body=doc['title'] + ' ' + doc.get('itemTitle', ''), officialUrl=doc['officialUrl'])
+            existing.update(title=doc['title'], item=doc['item'], body=doc['title'] + ' ' + doc.get('itemTitle', ''), officialUrl=doc['officialUrl'])
             continue
         records.append({'title': doc['title'], 'url': url, 'officialUrl': doc['officialUrl'],
                         'date': agenda['date'], 'item': doc['item'],
                         'topic': topic_for(doc['title']), 'type': 'Official City document',
                         'body': doc['title']})
+
+quarter_review_path = ROOT / 'data/council/2022-q1-meeting-review.json'
+if quarter_review_path.exists():
+    quarter_review = json.loads(quarter_review_path.read_text(encoding='utf-8'))
+    for date, review in quarter_review.items():
+        agenda = json.loads((ROOT / f'data/council/{date}-agenda.json').read_text(encoding='utf-8'))
+        for item in agenda['items']:
+            outcome = review['items'].get(item['item'], {})
+            records.append({'title': item['title'], 'url': f'../briefings/{date}-sources.html#item-{item["item"]}',
+                            'date': date, 'item': item['item'], 'topic': topic_for(item['title']),
+                            'type': 'Agenda item', 'body': item['title'] + ' Published recommendation: ' + item['recommendation'] + ' Minutes record: ' + outcome.get('minutesRecord', '')})
 
 seen = {record['url'] for record in records}
 for item in historical['items']:

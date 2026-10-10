@@ -1,8 +1,8 @@
 {
   "bucket": "beaumont-intelligence-documents",
   "public_base_url": "https://documents.beaumontintelligence.com",
-  "document_count": 2152,
-  "total_bytes": 14370630382,
+  "document_count": 2422,
+  "total_bytes": 15414051866,
   "documents": [
     {
       "path": "official-documents/2008-01-15/council-minutes.pdf",
@@ -827,10 +827,178 @@
       "sha256": "6dcd31b52b06fe2414ade7afcbabf7aab135b4939d7f21abf6b37dc224e8615d"
     },
     {
+      "path": "official-documents/2022-01-04/agenda.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-01-04/agenda.pdf",
+      "bytes": 1220289,
+      "sha256": "9cf3574493eb7a9ee58f6438caf0dfc8cf5c6358060ad079f675d03493c54dc4"
+    },
+    {
       "path": "official-documents/2022-01-04/council-minutes.pdf",
       "url": "https://documents.beaumontintelligence.com/official-documents/2022-01-04/council-minutes.pdf",
       "bytes": 2788585,
       "sha256": "c66f18462827891d17a49ade2808dfeeec7de5420d253ba4f9967ca892015e73"
+    },
+    {
+      "path": "official-documents/2022-01-04/item-1-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-01-04/item-1-01.pdf",
+      "bytes": 831511,
+      "sha256": "0342fb1459fe2058fb75b700ab1f188fa3743cc3a494834f2e20a611138ae3e3"
+    },
+    {
+      "path": "official-documents/2022-01-04/item-1-02.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-01-04/item-1-02.pdf",
+      "bytes": 342521,
+      "sha256": "287e36382bc567258bc4caa6c91275c3e9edd03dd1b31164186439187b5eebb8"
+    },
+    {
+      "path": "official-documents/2022-01-04/item-2-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-01-04/item-2-01.pdf",
+      "bytes": 30941,
+      "sha256": "86bdaaacc7a051810cb3f94156790eda0991069828495e50cdf685ef64266195"
+    },
+    {
+      "path": "official-documents/2022-01-04/item-2-02.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-01-04/item-2-02.pdf",
+      "bytes": 148357,
+      "sha256": "1b56bbc9e7de685df498343e53770e0be25dff7781c44aef9cf2497770983c33"
+    },
+    {
+      "path": "official-documents/2022-01-04/item-2-03.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-01-04/item-2-03.pdf",
+      "bytes": 133866,
+      "sha256": "714a934690b62b5d6e6ffa106df41d47de6af238ea7420ea201110c29fcbd746"
+    },
+    {
+      "path": "official-documents/2022-01-04/item-3-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-01-04/item-3-01.pdf",
+      "bytes": 132261,
+      "sha256": "27f98804e975d2e035380511166de69cd524e86ea1bd2bafab1de86e62bc8bd4"
+    },
+    {
+      "path": "official-documents/2022-01-04/item-3-02.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-01-04/item-3-02.pdf",
+      "bytes": 226865,
+      "sha256": "dee1efa2efcc59558cd36bdba8749b7d05609965d72bf17bcc56220251633bc3"
+    },
+    {
+      "path": "official-documents/2022-01-04/item-4-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-01-04/item-4-01.pdf",
+      "bytes": 117820,
+      "sha256": "589f6aa56048275682109941fcb61d1950ef818fc4b12c878b2db17b1bc9a985"
+    },
+    {
+      "path": "official-documents/2022-01-04/item-4-02.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-01-04/item-4-02.pdf",
+      "bytes": 112574,
+      "sha256": "6379ce35d15d411cc0b3bce70e69e7aa940841cbc31ec0a95dc3267bd46ea984"
+    },
+    {
+      "path": "official-documents/2022-01-04/item-4-03.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-01-04/item-4-03.pdf",
+      "bytes": 275970,
+      "sha256": "cad62a0438d9df3026f5c5c280e091ac787299e732cc7528bc468e50f8e59e26"
+    },
+    {
+      "path": "official-documents/2022-01-04/item-4-04.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-01-04/item-4-04.pdf",
+      "bytes": 2040218,
+      "sha256": "d39ef14432a847b247fef9b58375c06eca889e65bba73cbcdebf38ea0883d549"
+    },
+    {
+      "path": "official-documents/2022-01-04/item-5-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-01-04/item-5-01.pdf",
+      "bytes": 109005,
+      "sha256": "d69eed224437dc47ffbe0f08faf2f74c8df745ab61fb399b6eacbef89d77ab70"
+    },
+    {
+      "path": "official-documents/2022-01-04/item-5-02.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-01-04/item-5-02.pdf",
+      "bytes": 108616,
+      "sha256": "20c5bda7c2b35878351e235229735410dcf0293686f44bd3391843fb05e3b4ed"
+    },
+    {
+      "path": "official-documents/2022-01-04/item-6-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-01-04/item-6-01.pdf",
+      "bytes": 17878,
+      "sha256": "5cb640a2ee441e145fc93ce797497522982a1075e824fb53169827284ff473b3"
+    },
+    {
+      "path": "official-documents/2022-01-04/item-6-02.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-01-04/item-6-02.pdf",
+      "bytes": 941677,
+      "sha256": "caab070020c6612bf1d7935fd3c532c29df84bc7550d979832d6943b8bd39c57"
+    },
+    {
+      "path": "official-documents/2022-01-04/item-6-03.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-01-04/item-6-03.pdf",
+      "bytes": 6939779,
+      "sha256": "6dc2584fd900833da48d2ff76385a313a8891bc018d758fac0f516adaceb6c89"
+    },
+    {
+      "path": "official-documents/2022-01-04/item-7-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-01-04/item-7-01.pdf",
+      "bytes": 117689,
+      "sha256": "3b2b90f310cfcf6d0247221eb06f9d6de481ae68ea07ef63fcbc42e2f6c87621"
+    },
+    {
+      "path": "official-documents/2022-01-04/item-8-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-01-04/item-8-01.pdf",
+      "bytes": 116086,
+      "sha256": "c9a31b2cb71b9910b1fb933fe9b80e7dea2fd8b8e1de3a1ba3114758a0a9d8d0"
+    },
+    {
+      "path": "official-documents/2022-01-04/item-8-02.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-01-04/item-8-02.pdf",
+      "bytes": 7554888,
+      "sha256": "1cea262b70fdfb046d44036f0aac8d8337f961c4c1e25a82f4c5164be8d175d0"
+    },
+    {
+      "path": "official-documents/2022-01-04/item-8-03.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-01-04/item-8-03.pdf",
+      "bytes": 5008904,
+      "sha256": "e9ce7d286db184033577d86e92fd128f76f494de8905dd5719af32f3e781c1f9"
+    },
+    {
+      "path": "official-documents/2022-01-04/item-9-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-01-04/item-9-01.pdf",
+      "bytes": 120521,
+      "sha256": "966d7dbf1ff262bfc0709b6d94c3d0ef29f3fd06823226fc1417bcc131b42229"
+    },
+    {
+      "path": "official-documents/2022-01-04/item-9-02.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-01-04/item-9-02.pdf",
+      "bytes": 259240,
+      "sha256": "4f98f149faa14da8b27ae1ae0124138a4eb0ee442c4e9602666405889cd7a612"
+    },
+    {
+      "path": "official-documents/2022-01-04/item-9-03.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-01-04/item-9-03.pdf",
+      "bytes": 355412,
+      "sha256": "9675aad48d019f5311eacbc05674bc1056f4c026c6b9633228c78d9bb7272210"
+    },
+    {
+      "path": "official-documents/2022-01-04/item-9-04.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-01-04/item-9-04.pdf",
+      "bytes": 18412328,
+      "sha256": "8fb92fe442168fdca2257b871bc2e1ebf81c57d58a5a898e5e82ac52688f4277"
+    },
+    {
+      "path": "official-documents/2022-01-04/item-9-05.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-01-04/item-9-05.pdf",
+      "bytes": 2447443,
+      "sha256": "5cf51d568f6ac55cbb88100287dcca30745c63ecf61ebb0189093c21e70b8cfc"
+    },
+    {
+      "path": "official-documents/2022-01-04/item-9-06.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-01-04/item-9-06.pdf",
+      "bytes": 2451399,
+      "sha256": "2326874d3685cf8297b860cca93e34e6476fe9d2a6375ac066a5fcb4fb3f5e0f"
+    },
+    {
+      "path": "official-documents/2022-01-18/agenda.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/agenda.pdf",
+      "bytes": 2091167,
+      "sha256": "842b322f9dbef0a052390850135b1f9a03d014e6cfeddfa54ee27a78401e742c"
     },
     {
       "path": "official-documents/2022-01-18/council-minutes.pdf",
@@ -839,10 +1007,574 @@
       "sha256": "214b660c4d5eae559e98a23527f2872a3c7129b4dcd63c1e80d2aa7aedaf1a2b"
     },
     {
+      "path": "official-documents/2022-01-18/item-1-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-1-01.pdf",
+      "bytes": 310737,
+      "sha256": "ccb684cceb0ecf7f57d2d905a26b35a513bf920aedadf34148711249dabe337a"
+    },
+    {
+      "path": "official-documents/2022-01-18/item-1-02.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-1-02.pdf",
+      "bytes": 206203,
+      "sha256": "385ce2ed9ceb92e4792032b67be9a366803861781e822dcdbd7943a679f38563"
+    },
+    {
+      "path": "official-documents/2022-01-18/item-10-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-10-01.pdf",
+      "bytes": 355932,
+      "sha256": "6472f55b6fee20601aecde86c124652f821e833424f2ca607d51091e4f5eaa49"
+    },
+    {
+      "path": "official-documents/2022-01-18/item-10-02.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-10-02.pdf",
+      "bytes": 67434,
+      "sha256": "009646ccb399aba3ca22844715ed406bb44bafdfa5a9339606502cd247db7b62"
+    },
+    {
+      "path": "official-documents/2022-01-18/item-10-03.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-10-03.pdf",
+      "bytes": 219702,
+      "sha256": "4d509e485c7731b947a71860dbb505ce00c3ef6a7a8a3d7ac78fda448de2590f"
+    },
+    {
+      "path": "official-documents/2022-01-18/item-11-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-11-01.pdf",
+      "bytes": 235338,
+      "sha256": "b7e3000b950c7051b294b9b1cebc3aac4e8778e95971fc0efae3ee131dde55ff"
+    },
+    {
+      "path": "official-documents/2022-01-18/item-12-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-12-01.pdf",
+      "bytes": 403615,
+      "sha256": "70ca1a4e6ab9ed4151cca37e3e927d6c891f4a77de6210b2c00afbb007ed13ba"
+    },
+    {
+      "path": "official-documents/2022-01-18/item-13-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-13-01.pdf",
+      "bytes": 1107833,
+      "sha256": "f3f54ca4bd8fe788d06e7bdec5a5d6036f8320b786bfbc697439709132dcf434"
+    },
+    {
+      "path": "official-documents/2022-01-18/item-14-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-14-01.pdf",
+      "bytes": 126309,
+      "sha256": "ae41c23115ec9997cddd914ce84a09e6c7a20aa0c01a77117ecc8c73960fd2b9"
+    },
+    {
+      "path": "official-documents/2022-01-18/item-14-02.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-14-02.pdf",
+      "bytes": 92754,
+      "sha256": "753d180d36f79174a2bc7edb360539c4099f916747ae8effb4ad412245ae6929"
+    },
+    {
+      "path": "official-documents/2022-01-18/item-14-03.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-14-03.pdf",
+      "bytes": 242369,
+      "sha256": "22b4e96591bf1a21ccbf076774b2ee605cb59e1efdc72217ca33d5d9698d0e68"
+    },
+    {
+      "path": "official-documents/2022-01-18/item-14-04.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-14-04.pdf",
+      "bytes": 88104,
+      "sha256": "9c899768d1eb310086ff67348ed5ba611238f808a5a29317bfd077c4e1346fac"
+    },
+    {
+      "path": "official-documents/2022-01-18/item-14-05.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-14-05.pdf",
+      "bytes": 107794,
+      "sha256": "ac2e7e68f66805a3560b226d823433eed33e34a0a264883ff9f4c9f938ef4301"
+    },
+    {
+      "path": "official-documents/2022-01-18/item-15-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-15-01.pdf",
+      "bytes": 187683,
+      "sha256": "af2d59ac2d67385d002f3edba6a3c5033a537a8d190378b9c7281a3ae9eb7de9"
+    },
+    {
+      "path": "official-documents/2022-01-18/item-16-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-16-01.pdf",
+      "bytes": 117780,
+      "sha256": "36aa845724c8fbe8a8e898c93e483432058248f427e69c3172573a55cb1afb41"
+    },
+    {
+      "path": "official-documents/2022-01-18/item-16-02.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-16-02.pdf",
+      "bytes": 696626,
+      "sha256": "eb96f909b7c218b4ca5191007edd6a48094984e09bab62911f80b75c95eda901"
+    },
+    {
+      "path": "official-documents/2022-01-18/item-17-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-17-01.pdf",
+      "bytes": 137442,
+      "sha256": "984cd36631e5291fc44bddd4b932e97e15539d26ac1e828ba19d611f3441d625"
+    },
+    {
+      "path": "official-documents/2022-01-18/item-17-02.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-17-02.pdf",
+      "bytes": 299495,
+      "sha256": "572b62d62e11de8ce10ced7b8ea941da6bd35231cdf066fb6f18bab1fd1c636e"
+    },
+    {
+      "path": "official-documents/2022-01-18/item-18-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-18-01.pdf",
+      "bytes": 11857,
+      "sha256": "dee67d9cdaa341e72fa9adca7f8d3e8b03ad6f8fd014e6ca3b371de7f4271ee5"
+    },
+    {
+      "path": "official-documents/2022-01-18/item-18-02.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-18-02.pdf",
+      "bytes": 2847602,
+      "sha256": "da9a1617f9b82acc8ad10b5b24e1690196e4c743f6464f638db01e7e5b957d16"
+    },
+    {
+      "path": "official-documents/2022-01-18/item-19-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-19-01.pdf",
+      "bytes": 124216,
+      "sha256": "0337d453cfc9197d29b14b5b307914007e3e62e2139b374fc8dbd0db505b7dae"
+    },
+    {
+      "path": "official-documents/2022-01-18/item-19-02.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-19-02.pdf",
+      "bytes": 12676822,
+      "sha256": "3e13de37c2c3fcda6c48e1b331f4f2fe91570dbdeaec6169e14edc6cf7107ec3"
+    },
+    {
+      "path": "official-documents/2022-01-18/item-2-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-2-01.pdf",
+      "bytes": 530672,
+      "sha256": "daf62f6843f0e4c497ecc050c32b9ab19d172885ef11f163c907ce72dbf86dbe"
+    },
+    {
+      "path": "official-documents/2022-01-18/item-2-02.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-2-02.pdf",
+      "bytes": 684676,
+      "sha256": "efc676de063a444041401e246aa9182a9c3bcbac859bf01c3af61c3ac6edd347"
+    },
+    {
+      "path": "official-documents/2022-01-18/item-20-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-20-01.pdf",
+      "bytes": 122650,
+      "sha256": "d034075f1b613e0a7a58682da263b06e3dd9395b49d5613d1bf27578f559a88c"
+    },
+    {
+      "path": "official-documents/2022-01-18/item-20-02.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-20-02.pdf",
+      "bytes": 191881,
+      "sha256": "e13996c2909854fc44ea06a5abf3fe5b4d38bf141f92249ce8fe275a387f0c6d"
+    },
+    {
+      "path": "official-documents/2022-01-18/item-21-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-21-01.pdf",
+      "bytes": 588884,
+      "sha256": "18070e50cdaf2c37f7cb84cb2c12d58bc85c51d4453f69bd6ed0cedc5ef9b32a"
+    },
+    {
+      "path": "official-documents/2022-01-18/item-3-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-3-01.pdf",
+      "bytes": 12015,
+      "sha256": "6fe00722e3818391db6028a21b3c61154f39c8ea7a78c4e8d4fb8617cc5747a8"
+    },
+    {
+      "path": "official-documents/2022-01-18/item-3-02.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-3-02.pdf",
+      "bytes": 308754,
+      "sha256": "3476447fa9679bd9ce5274ed3fb8aee00ff173ae1ff2f02a0e923405fcae6ea6"
+    },
+    {
+      "path": "official-documents/2022-01-18/item-4-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-4-01.pdf",
+      "bytes": 117917,
+      "sha256": "2603b868cb02ffcb04fd1f0194e6de17c4d96b080f135f3e9f7d73f004e9b853"
+    },
+    {
+      "path": "official-documents/2022-01-18/item-4-02.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-4-02.pdf",
+      "bytes": 4956,
+      "sha256": "ba773bcc91b010852d3060ce53a7442d51eeeea3f35f01716677f41566a67c5a"
+    },
+    {
+      "path": "official-documents/2022-01-18/item-4-03.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-4-03.pdf",
+      "bytes": 4965,
+      "sha256": "ac22d1852a42468df725f39ae200bd6e97475136dc011096b4eecc1409b70a72"
+    },
+    {
+      "path": "official-documents/2022-01-18/item-4-04.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-4-04.pdf",
+      "bytes": 116583,
+      "sha256": "217bf2f5549c9e83c7fe8472475b8eba8e1de2a0a34894a36420d66e8b13a5aa"
+    },
+    {
+      "path": "official-documents/2022-01-18/item-5-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-5-01.pdf",
+      "bytes": 171891,
+      "sha256": "7f2f79d034c4f212065e94bcd9ef7b7d8e2af9d55ecc1f65981141ca97a5d29b"
+    },
+    {
+      "path": "official-documents/2022-01-18/item-5-02.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-5-02.pdf",
+      "bytes": 8219416,
+      "sha256": "d442b0e5cfed9088fbc0dcd464b4a2a54deee3142a82561ea77fff6fd7ba9629"
+    },
+    {
+      "path": "official-documents/2022-01-18/item-5-03.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-5-03.pdf",
+      "bytes": 10761462,
+      "sha256": "8aaa7b6fa06ee258cc66d35fd28c69ead31ac29f4508f1cea3d3d8ceaaf65275"
+    },
+    {
+      "path": "official-documents/2022-01-18/item-6-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-6-01.pdf",
+      "bytes": 138421,
+      "sha256": "66b8b3d2d5094a1d349af96dca3b75f621ec7730478beb2c7b5fecfafe3d8e6a"
+    },
+    {
+      "path": "official-documents/2022-01-18/item-6-02.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-6-02.pdf",
+      "bytes": 174092,
+      "sha256": "bffa779772ba5f3b79fdbc683a9885a533607faa7a06cd23e9843146105db811"
+    },
+    {
+      "path": "official-documents/2022-01-18/item-6-03.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-6-03.pdf",
+      "bytes": 132154,
+      "sha256": "4390a3b7678e19b7ae9357959ef59794d6f5609e9e6b8d13313f99096c5cbf26"
+    },
+    {
+      "path": "official-documents/2022-01-18/item-6-04.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-6-04.pdf",
+      "bytes": 116155,
+      "sha256": "10f023524cae026e47e2aa71b5669b043251421be112843c67c374d8979b86fc"
+    },
+    {
+      "path": "official-documents/2022-01-18/item-6-05.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-6-05.pdf",
+      "bytes": 117182,
+      "sha256": "68c68913d0c2754c1d33383faa31899d109447e6d1567d65d8a1e73f469a28a3"
+    },
+    {
+      "path": "official-documents/2022-01-18/item-6-06.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-6-06.pdf",
+      "bytes": 20969,
+      "sha256": "8beb93f410e11d3d7fc21f3f2c43f848b39aefcbe4e47cc6168a72a4a943d443"
+    },
+    {
+      "path": "official-documents/2022-01-18/item-6-07.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-6-07.pdf",
+      "bytes": 184054,
+      "sha256": "08a8c2a8ddcf1f149624f87cb563a98db23046a0b78d65af668fc52874bb8427"
+    },
+    {
+      "path": "official-documents/2022-01-18/item-6-08.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-6-08.pdf",
+      "bytes": 1970805,
+      "sha256": "6fb0960293174d8861d1bc726fc0d971ee61de64037aa96d0d3df5648f549452"
+    },
+    {
+      "path": "official-documents/2022-01-18/item-7-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-7-01.pdf",
+      "bytes": 117302,
+      "sha256": "ea7e9110719441c95ec38086f08f57fb3dd70efa5bcb88b1d6bf64aa884cbf8f"
+    },
+    {
+      "path": "official-documents/2022-01-18/item-7-02.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-7-02.pdf",
+      "bytes": 119649,
+      "sha256": "46adb28254cc315f86b07e383c2ba953ed0d897d3fd92f6fc8f52183ccfa1061"
+    },
+    {
+      "path": "official-documents/2022-01-18/item-7-03.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-7-03.pdf",
+      "bytes": 1481519,
+      "sha256": "4c1a1af1942288f6369a2ba79b7ad9907fb4fa4f57536f0af2934da440abec9b"
+    },
+    {
+      "path": "official-documents/2022-01-18/item-7-04.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-7-04.pdf",
+      "bytes": 101533,
+      "sha256": "675ddcdc385094d41daa715bce6d53a3239f5ba2b7619de3e0a88447d13d59dd"
+    },
+    {
+      "path": "official-documents/2022-01-18/item-8-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-8-01.pdf",
+      "bytes": 222242,
+      "sha256": "c2788a649e1be207144fd30be8d77388b1a5784a380bfe8719e7284ad3cdc421"
+    },
+    {
+      "path": "official-documents/2022-01-18/item-8-02.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-8-02.pdf",
+      "bytes": 1560497,
+      "sha256": "6409380f7b9a3cf0219f207dfbe45c14e7dad0ffed4d04b81390a068f1e59af3"
+    },
+    {
+      "path": "official-documents/2022-01-18/item-8-03.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-8-03.pdf",
+      "bytes": 1632994,
+      "sha256": "1cbb275a16c88db3905dee0a13e27987b09c1dc121d71d78ba6ec7668ae759ce"
+    },
+    {
+      "path": "official-documents/2022-01-18/item-8-04.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-8-04.pdf",
+      "bytes": 316835,
+      "sha256": "e4013b50f39bf0261102b89c3595a143ea998d315894a23f46adce53ebc74429"
+    },
+    {
+      "path": "official-documents/2022-01-18/item-8-05.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-8-05.pdf",
+      "bytes": 150782,
+      "sha256": "3450dea2963594d15b2b7bbec1d0827c367abde53f057ed40191334c7c7f3735"
+    },
+    {
+      "path": "official-documents/2022-01-18/item-9-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-9-01.pdf",
+      "bytes": 127473,
+      "sha256": "5dd6496a42a9f93692660adbe3e4feaab8d3450d4445daba6d7b9a1a86e7bb96"
+    },
+    {
+      "path": "official-documents/2022-01-18/item-9-02.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-9-02.pdf",
+      "bytes": 67287,
+      "sha256": "ca03ea619827d6cee6d1f6bd77e804c24f0c3f6f74d125b1f7422fc2e770e7c9"
+    },
+    {
+      "path": "official-documents/2022-01-18/item-9-03.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-9-03.pdf",
+      "bytes": 68826,
+      "sha256": "d82e70f0805f5ca37ec274a8b44f9a781c7f1bbc9776fca8f5f26502c55ac5b9"
+    },
+    {
+      "path": "official-documents/2022-01-18/item-9-04.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-9-04.pdf",
+      "bytes": 68176,
+      "sha256": "196a7307f8010d269029198809d6b2606faf9b9513cfacafcca8af41870e8e6d"
+    },
+    {
+      "path": "official-documents/2022-01-18/item-9-05.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-01-18/item-9-05.pdf",
+      "bytes": 1195179,
+      "sha256": "ed6337d2921e9bc4f904b2eeb0fd234bf897922f8d24ade6fb8bef5e6e98ef51"
+    },
+    {
+      "path": "official-documents/2022-02-01/agenda.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-02-01/agenda.pdf",
+      "bytes": 1921874,
+      "sha256": "dfeddfebb72038b31c166731477506753e2d714f8d7db2dd336f36f40da3250e"
+    },
+    {
       "path": "official-documents/2022-02-01/council-minutes.pdf",
       "url": "https://documents.beaumontintelligence.com/official-documents/2022-02-01/council-minutes.pdf",
       "bytes": 3814431,
       "sha256": "c572a02be132968e6e2403fea28032dafb089e51d4efc518577134529f0c3c94"
+    },
+    {
+      "path": "official-documents/2022-02-01/item-1-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-02-01/item-1-01.pdf",
+      "bytes": 220426,
+      "sha256": "7d13ba44d0c5f4c2d4989f074e4871fdc0c4ba288ab02819868396dc646c7ccd"
+    },
+    {
+      "path": "official-documents/2022-02-01/item-10-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-02-01/item-10-01.pdf",
+      "bytes": 22935,
+      "sha256": "327387b6393e36326a86f6f81d1ebc6b1e00b7d1439a43b4e56ef35f0a858f83"
+    },
+    {
+      "path": "official-documents/2022-02-01/item-11-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-02-01/item-11-01.pdf",
+      "bytes": 15929,
+      "sha256": "4eb3eabf887c6e12caa1a0773e52d5390d473679f6c84a59fe5b4536999d1d9e"
+    },
+    {
+      "path": "official-documents/2022-02-01/item-12-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-02-01/item-12-01.pdf",
+      "bytes": 880319,
+      "sha256": "c7abdf8f9b64b487cefe7722d45e613eef50f68e357aa72e88b71c93a47be5e3"
+    },
+    {
+      "path": "official-documents/2022-02-01/item-13-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-02-01/item-13-01.pdf",
+      "bytes": 120698,
+      "sha256": "bbdd5eec5a5c64830e06df94fb959071c2071bd36432697a9f0ab5e7be48abdb"
+    },
+    {
+      "path": "official-documents/2022-02-01/item-13-02.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-02-01/item-13-02.pdf",
+      "bytes": 174159,
+      "sha256": "1ce6d96a70f813c01b981d09ab75ff7869382e6490d46baaed4dbc888ad3daf7"
+    },
+    {
+      "path": "official-documents/2022-02-01/item-13-03.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-02-01/item-13-03.pdf",
+      "bytes": 120488,
+      "sha256": "35252c53d1c79f9fc9ff3fd17a97a740caec6aa9344db435e0530af15b2aa8ce"
+    },
+    {
+      "path": "official-documents/2022-02-01/item-13-04.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-02-01/item-13-04.pdf",
+      "bytes": 418292,
+      "sha256": "02254236e92d1cb628119ca42a899d54f1cec95135b4314d5125bc85685cc69c"
+    },
+    {
+      "path": "official-documents/2022-02-01/item-13-05.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-02-01/item-13-05.pdf",
+      "bytes": 397514,
+      "sha256": "50a723dfcf48fb444cd440be256401ce79ef699a7c2290c18d4ad6c73a1e26c4"
+    },
+    {
+      "path": "official-documents/2022-02-01/item-14-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-02-01/item-14-01.pdf",
+      "bytes": 207223,
+      "sha256": "9cfb2b2d38217eeda43e1a709c3ab440283b96def8890f63fd4a248ab545537d"
+    },
+    {
+      "path": "official-documents/2022-02-01/item-14-02.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-02-01/item-14-02.pdf",
+      "bytes": 296554,
+      "sha256": "3b9594dfc2ad840d1d588a4fd03596f560dc44ccb221b357fe8c53ed3b400619"
+    },
+    {
+      "path": "official-documents/2022-02-01/item-15-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-02-01/item-15-01.pdf",
+      "bytes": 12388,
+      "sha256": "a3ffd09f5a212f148f45c49e1e7d87a93a572641ee8c935c41a423be6242b275"
+    },
+    {
+      "path": "official-documents/2022-02-01/item-15-02.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-02-01/item-15-02.pdf",
+      "bytes": 198321,
+      "sha256": "223585e1ec4345c6b052879a2396226e36bfb919a3b8786740162f1743c171f5"
+    },
+    {
+      "path": "official-documents/2022-02-01/item-16-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-02-01/item-16-01.pdf",
+      "bytes": 931047,
+      "sha256": "cf8a4483bd06d3abd5b108bdb4d35a9cc12992196a829f4dd9c5aff6187ccd00"
+    },
+    {
+      "path": "official-documents/2022-02-01/item-2-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-02-01/item-2-01.pdf",
+      "bytes": 469146,
+      "sha256": "66a99ac98b5f3b3352adeb8fc3a6896bf6727ccf85348873154ad20296e6621b"
+    },
+    {
+      "path": "official-documents/2022-02-01/item-2-02.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-02-01/item-2-02.pdf",
+      "bytes": 350909,
+      "sha256": "39c77d47e6ef0a352c9963578fb69d0b1f60885fc22b2ffcf5a14f9c0d03def1"
+    },
+    {
+      "path": "official-documents/2022-02-01/item-2-03.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-02-01/item-2-03.pdf",
+      "bytes": 322856,
+      "sha256": "5fb405b6514ec97ae0d007f82b789010f09cae452977d2d729d7f0ead7f55c6d"
+    },
+    {
+      "path": "official-documents/2022-02-01/item-3-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-02-01/item-3-01.pdf",
+      "bytes": 132120,
+      "sha256": "2051d2cb1a9523b2486c595ccec5848a1f8484d21084d7810d14cfd94939a912"
+    },
+    {
+      "path": "official-documents/2022-02-01/item-3-02.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-02-01/item-3-02.pdf",
+      "bytes": 226327,
+      "sha256": "99f005ce433d6fb7fd7169b36b1a4438de49d5859ae0eaa286496761930abe8d"
+    },
+    {
+      "path": "official-documents/2022-02-01/item-4-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-02-01/item-4-01.pdf",
+      "bytes": 132047,
+      "sha256": "d4c4b4b2fec75d154b72707a8cdb4e65953661abceeeecfa4ef0b5e6608cac13"
+    },
+    {
+      "path": "official-documents/2022-02-01/item-4-02.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-02-01/item-4-02.pdf",
+      "bytes": 3221049,
+      "sha256": "c8bc8c76c57e9831e7ce713366553d9b6250cb718665478fa339a7177e54e9c9"
+    },
+    {
+      "path": "official-documents/2022-02-01/item-4-03.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-02-01/item-4-03.pdf",
+      "bytes": 7523,
+      "sha256": "86f39c2afc5010ed06fbaeecc8b1a1ad112ec8f1cffdf9252afd4cb0c44fec82"
+    },
+    {
+      "path": "official-documents/2022-02-01/item-4-04.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-02-01/item-4-04.pdf",
+      "bytes": 202866080,
+      "sha256": "2e79561747f346cf7b3357b8f2d43665b6502ebf8e7cb1eb8d5efeb1bbbb05b9"
+    },
+    {
+      "path": "official-documents/2022-02-01/item-5-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-02-01/item-5-01.pdf",
+      "bytes": 114423,
+      "sha256": "8946383d53d9c446ac796bd9b4a33ceb00c7960824c30f5247614536db94b292"
+    },
+    {
+      "path": "official-documents/2022-02-01/item-5-02.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-02-01/item-5-02.pdf",
+      "bytes": 7701331,
+      "sha256": "6a49f25c25a6a150af4f87eda0abdc126d56e1031f38ac244a426b8d1c5e5ebf"
+    },
+    {
+      "path": "official-documents/2022-02-01/item-5-03.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-02-01/item-5-03.pdf",
+      "bytes": 485045,
+      "sha256": "3be524a35ea3a3f06c1e07af81bd473a944844c67baee525393bde6a1a3e176d"
+    },
+    {
+      "path": "official-documents/2022-02-01/item-5-04.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-02-01/item-5-04.pdf",
+      "bytes": 97180,
+      "sha256": "6ea382044492c27f43951325daf57fa6e0d640996460d2a72d1306d2074dd95c"
+    },
+    {
+      "path": "official-documents/2022-02-01/item-6-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-02-01/item-6-01.pdf",
+      "bytes": 109076,
+      "sha256": "6953f51e15a478ee33b71708162491a30cf66d66b77a1868d0f34171f3be8b54"
+    },
+    {
+      "path": "official-documents/2022-02-01/item-6-02.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-02-01/item-6-02.pdf",
+      "bytes": 6475513,
+      "sha256": "a8a25061e93e39d939c9a5de18c31a9398ebdcbe70f7005b7806936312c7019d"
+    },
+    {
+      "path": "official-documents/2022-02-01/item-7-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-02-01/item-7-01.pdf",
+      "bytes": 21577,
+      "sha256": "97b04ee6c22a741e97176747b63ecf727331980717b448848ec13a228a170298"
+    },
+    {
+      "path": "official-documents/2022-02-01/item-7-02.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-02-01/item-7-02.pdf",
+      "bytes": 7715532,
+      "sha256": "0c169939a91d8fe8b9621f52c562dd272c1259114e81c61dc7bcd73ad20089c8"
+    },
+    {
+      "path": "official-documents/2022-02-01/item-8-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-02-01/item-8-01.pdf",
+      "bytes": 13150,
+      "sha256": "45d5e43aa6cf804ee3f9dd9789401c5afd67ab975bd08f32aca62bf9c368a05d"
+    },
+    {
+      "path": "official-documents/2022-02-01/item-8-02.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-02-01/item-8-02.pdf",
+      "bytes": 1178587,
+      "sha256": "b3f5e5dbe4dd27d27f23f09bb3fcf039841cb6e66b90fd768812505747f9a222"
+    },
+    {
+      "path": "official-documents/2022-02-01/item-9-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-02-01/item-9-01.pdf",
+      "bytes": 130775,
+      "sha256": "82bc5ce690bbb3041474f7cb63e9a4181246a4ae9f5c6907886bd748aee44214"
+    },
+    {
+      "path": "official-documents/2022-02-15/agenda.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-02-15/agenda.pdf",
+      "bytes": 2968295,
+      "sha256": "921dea5e9f656445d69e13acf72fce91852e746f6f7c5eac45bc2d29761e08de"
     },
     {
       "path": "official-documents/2022-02-15/council-minutes.pdf",
@@ -851,16 +1583,868 @@
       "sha256": "3f05a1f5902546d185feb336552418be144cc240998ed6ddff14b2ab367e9375"
     },
     {
+      "path": "official-documents/2022-02-15/item-10-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-02-15/item-10-01.pdf",
+      "bytes": 216833,
+      "sha256": "f3e34ad67c7e2212500fe7662dd8237c786ae63d3492e02826f019b3838e69d7"
+    },
+    {
+      "path": "official-documents/2022-02-15/item-10-02.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-02-15/item-10-02.pdf",
+      "bytes": 483144,
+      "sha256": "aca366c67319656d162a77779c09639c3be804cef42a6c4f1ec19b40d026e9a2"
+    },
+    {
+      "path": "official-documents/2022-02-15/item-11-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-02-15/item-11-01.pdf",
+      "bytes": 147021,
+      "sha256": "1e4afac27709ae6cfa31259de5defef89ce8906a37c755e0cb759d9af3183f22"
+    },
+    {
+      "path": "official-documents/2022-02-15/item-11-02.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-02-15/item-11-02.pdf",
+      "bytes": 270568,
+      "sha256": "72316650a3736a0736f39e3579d5d30cbc0da52e642e204db0c2ee2013ade378"
+    },
+    {
+      "path": "official-documents/2022-02-15/item-11-03.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-02-15/item-11-03.pdf",
+      "bytes": 10319074,
+      "sha256": "39b3466325032cf3eeac10ad4147ee2c26f9ff993a809be8e2ae1549fbba19f8"
+    },
+    {
+      "path": "official-documents/2022-02-15/item-12-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-02-15/item-12-01.pdf",
+      "bytes": 125600,
+      "sha256": "cc7d429f200c4313521519fd0db4f5cb7fc9ad3f7c1e258ea9ab51e2c232f369"
+    },
+    {
+      "path": "official-documents/2022-02-15/item-12-02.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-02-15/item-12-02.pdf",
+      "bytes": 1122324,
+      "sha256": "bd9db6eee8cbbf2a2b831830b6762f8040f9bb9219bc4547d58e82b0b20605ac"
+    },
+    {
+      "path": "official-documents/2022-02-15/item-12-03.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-02-15/item-12-03.pdf",
+      "bytes": 490306,
+      "sha256": "d0b27111466fa197e29f5eacc4292e400f69aab3f2619a7f70f551865df2ad09"
+    },
+    {
+      "path": "official-documents/2022-02-15/item-12-04.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-02-15/item-12-04.pdf",
+      "bytes": 209111,
+      "sha256": "ea61d013e9e8353ccbf9998429cadbfeb9689c6c4a85122fd27635d9204a8424"
+    },
+    {
+      "path": "official-documents/2022-02-15/item-13-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-02-15/item-13-01.pdf",
+      "bytes": 16822,
+      "sha256": "b46ea1cb93a4cdb8b5188d65b258c753c6831bd1a6b1c50b32380a837bb88b59"
+    },
+    {
+      "path": "official-documents/2022-02-15/item-13-02.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-02-15/item-13-02.pdf",
+      "bytes": 498386,
+      "sha256": "0c14136b22263e80f21e3a30b3f34cbe45e9b7a8a3fc5990557232e7a5b764e1"
+    },
+    {
+      "path": "official-documents/2022-02-15/item-13-03.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-02-15/item-13-03.pdf",
+      "bytes": 948264,
+      "sha256": "826fa6a1d1411c54773bdcdabb79e5827ab9736975e2a77bcc22ef5ac655594b"
+    },
+    {
+      "path": "official-documents/2022-02-15/item-14-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-02-15/item-14-01.pdf",
+      "bytes": 12227,
+      "sha256": "b2f326c52e246a53ed4420f287b8e381c1cd1537034f6e0d4efb024cc619f21f"
+    },
+    {
+      "path": "official-documents/2022-02-15/item-14-02.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-02-15/item-14-02.pdf",
+      "bytes": 578239,
+      "sha256": "034950e404fcb382775b78a4484cb6361b7e6d14694fc5f790896b284629e702"
+    },
+    {
+      "path": "official-documents/2022-02-15/item-15-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-02-15/item-15-01.pdf",
+      "bytes": 177762,
+      "sha256": "161ee7e960e7b88b8989e30820c4e4e2ce6c61cbc6edf2113996e156357acb12"
+    },
+    {
+      "path": "official-documents/2022-02-15/item-15-02.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-02-15/item-15-02.pdf",
+      "bytes": 621325,
+      "sha256": "e4840adfa64a4781f907125b68b20dfae4fba5c7e7d5feb69a83c7e51f2ab1e7"
+    },
+    {
+      "path": "official-documents/2022-02-15/item-15-03.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-02-15/item-15-03.pdf",
+      "bytes": 1766369,
+      "sha256": "bef8e398aa5ada8372f7977aa5141ace74d309f79941ebf220c450cf75889ae1"
+    },
+    {
+      "path": "official-documents/2022-02-15/item-16-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-02-15/item-16-01.pdf",
+      "bytes": 125341,
+      "sha256": "d25e29d94f177c0c95aae5264c5269e64c14868d6e4cf68f2ffd1d57990a6946"
+    },
+    {
+      "path": "official-documents/2022-02-15/item-16-02.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-02-15/item-16-02.pdf",
+      "bytes": 148897,
+      "sha256": "8eb167e4253690d817b32bac9f2f13ac778407289fc819750e07418267eff04a"
+    },
+    {
+      "path": "official-documents/2022-02-15/item-17-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-02-15/item-17-01.pdf",
+      "bytes": 117714,
+      "sha256": "059b94d98ceeab57eb6488a28a1a02d7c16dd2fae1a4689997c37cfa602fa13b"
+    },
+    {
+      "path": "official-documents/2022-02-15/item-17-02.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-02-15/item-17-02.pdf",
+      "bytes": 528336,
+      "sha256": "8d6f94fc4eb70baa19a5e26d773e14fc18a661ded60f503a1f1004e7cea7f005"
+    },
+    {
+      "path": "official-documents/2022-02-15/item-18-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-02-15/item-18-01.pdf",
+      "bytes": 116506,
+      "sha256": "e1684dbd39b3398b358bda9943f8206dc60a3a157e6d8419eb23ea07fee0431d"
+    },
+    {
+      "path": "official-documents/2022-02-15/item-18-02.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-02-15/item-18-02.pdf",
+      "bytes": 278226,
+      "sha256": "151f2b8e6fcba8a7f188019da13769765e7b60a010588182b184b4be1a379bbd"
+    },
+    {
+      "path": "official-documents/2022-02-15/item-18-03.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-02-15/item-18-03.pdf",
+      "bytes": 75298,
+      "sha256": "be23c73e1292cff2f7e65e83d42c8fff9a1fa5335cd8b57fd4d493558c944693"
+    },
+    {
+      "path": "official-documents/2022-02-15/item-18-04.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-02-15/item-18-04.pdf",
+      "bytes": 774898,
+      "sha256": "b5058276b02e643e09bcc26396f7940fc4427a99aa5deffed4f2fc89f248fe51"
+    },
+    {
+      "path": "official-documents/2022-02-15/item-19-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-02-15/item-19-01.pdf",
+      "bytes": 504525,
+      "sha256": "6e0527ca6093d8428dcda722c39a2f92c7d40e99ad147526dd2b76806776d78b"
+    },
+    {
+      "path": "official-documents/2022-02-15/item-2-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-02-15/item-2-01.pdf",
+      "bytes": 239375,
+      "sha256": "b7461c4db122517df3f1352da85ba648bfce9b11923e122d9db69955b668c548"
+    },
+    {
+      "path": "official-documents/2022-02-15/item-20-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-02-15/item-20-01.pdf",
+      "bytes": 476542,
+      "sha256": "860310164809742bc1c0e370c0dc1ecb7e9dffe8148761573a37e28150d70165"
+    },
+    {
+      "path": "official-documents/2022-02-15/item-21-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-02-15/item-21-01.pdf",
+      "bytes": 1176635,
+      "sha256": "de7076f43a05d8f6a8bab8a31740a5baf08dff976efaccbb281fcd9fd8b1a057"
+    },
+    {
+      "path": "official-documents/2022-02-15/item-3-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-02-15/item-3-01.pdf",
+      "bytes": 1300012,
+      "sha256": "10d3b04204afc68c027a4ba9bbbc47ac3b5405ed441894fb4f23495d1f415ce0"
+    },
+    {
+      "path": "official-documents/2022-02-15/item-3-02.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-02-15/item-3-02.pdf",
+      "bytes": 1497493,
+      "sha256": "19c6f8dc1b916e620eab4404922522c12a4842e507549e7499f50baa7b1287fd"
+    },
+    {
+      "path": "official-documents/2022-02-15/item-4-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-02-15/item-4-01.pdf",
+      "bytes": 294573,
+      "sha256": "ee9c5fe78c9750a00a6529ed9f2bbf2167feeef029e5631c8d85581ae4baf5af"
+    },
+    {
+      "path": "official-documents/2022-02-15/item-4-02.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-02-15/item-4-02.pdf",
+      "bytes": 8519617,
+      "sha256": "8b40181effe9f37b8bba012fba180362f59d0a2e29b1f3c4062bfa45bc4545d8"
+    },
+    {
+      "path": "official-documents/2022-02-15/item-5-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-02-15/item-5-01.pdf",
+      "bytes": 180679,
+      "sha256": "4032e57e99135f6466f0b99d40fd549f467a8c7f3d2089b217c06356866c6a0f"
+    },
+    {
+      "path": "official-documents/2022-02-15/item-5-02.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-02-15/item-5-02.pdf",
+      "bytes": 342287,
+      "sha256": "12b99159299b4d3bd33f4411b231430093a9a738b0b95bcf80108840f2be6e9e"
+    },
+    {
+      "path": "official-documents/2022-02-15/item-5-03.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-02-15/item-5-03.pdf",
+      "bytes": 16700,
+      "sha256": "bfc8871e51015e1bea60ed1bdaf2e9c118b2acdc54eee3131bac3057ed90091a"
+    },
+    {
+      "path": "official-documents/2022-02-15/item-6-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-02-15/item-6-01.pdf",
+      "bytes": 207842,
+      "sha256": "d02368b462d5d60212b5ea9d84dfa1c6b129c6965ba1040d062bd64c6333f177"
+    },
+    {
+      "path": "official-documents/2022-02-15/item-6-02.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-02-15/item-6-02.pdf",
+      "bytes": 219058,
+      "sha256": "3689528029ddfe5af4c5a39e48fc40da0f054b28e6ab33cbc64ee907bca56b79"
+    },
+    {
+      "path": "official-documents/2022-02-15/item-6-03.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-02-15/item-6-03.pdf",
+      "bytes": 45294,
+      "sha256": "66d710f86e1b8e2ac810f5357b50124803e13b318f784d1deae8cc16a75256e9"
+    },
+    {
+      "path": "official-documents/2022-02-15/item-6-04.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-02-15/item-6-04.pdf",
+      "bytes": 278527,
+      "sha256": "ba9a88a5be6401e4d0bcfa18d307c2fb5420bf9e73f4ed160a512d2688753716"
+    },
+    {
+      "path": "official-documents/2022-02-15/item-7-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-02-15/item-7-01.pdf",
+      "bytes": 113379,
+      "sha256": "b1ecd41984cf9eedc9686010745c55b3c7ea7087905042093091f09fde239d86"
+    },
+    {
+      "path": "official-documents/2022-02-15/item-8-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-02-15/item-8-01.pdf",
+      "bytes": 114385,
+      "sha256": "52b650b9d6b76f0ede728263ce581004115f15078096482c4cc2ebbc56a536af"
+    },
+    {
+      "path": "official-documents/2022-02-15/item-8-02.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-02-15/item-8-02.pdf",
+      "bytes": 124724,
+      "sha256": "edf5715a4494f9ed0a48118a608791b64d9920c16a00c6ae5a39f70e65e7bcbe"
+    },
+    {
+      "path": "official-documents/2022-02-15/item-9-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-02-15/item-9-01.pdf",
+      "bytes": 119724,
+      "sha256": "427fde08427f18bf57135ec67e62248b6553d2708f19e1ad108d49c98295f2a1"
+    },
+    {
+      "path": "official-documents/2022-02-15/item-9-02.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-02-15/item-9-02.pdf",
+      "bytes": 1262839,
+      "sha256": "984a5fd31e07557859d792979777c22797499827279912842852f2d6d6029af8"
+    },
+    {
+      "path": "official-documents/2022-02-15/item-9-03.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-02-15/item-9-03.pdf",
+      "bytes": 207322,
+      "sha256": "3c578d107c36972950aebfc61f5121c7854308d3d791d9bcb9bd2143aa3b6db3"
+    },
+    {
+      "path": "official-documents/2022-03-01/agenda.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/agenda.pdf",
+      "bytes": 3590616,
+      "sha256": "4f8fd3ae66e3f1adb64a0d0033d9d0a08074df54a7d6631d1ff87aac4c4bbad5"
+    },
+    {
       "path": "official-documents/2022-03-01/council-minutes.pdf",
       "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/council-minutes.pdf",
       "bytes": 4134635,
       "sha256": "a71254032908291fe21032e1f499de185d99e330c80617005aacb6d5e714cc1b"
     },
     {
+      "path": "official-documents/2022-03-01/item-1-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-1-01.pdf",
+      "bytes": 266691,
+      "sha256": "782638cdcdc166ea7db81f7d67e8c04ff96689e158862edb7b51d1fb78a480f2"
+    },
+    {
+      "path": "official-documents/2022-03-01/item-10-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-10-01.pdf",
+      "bytes": 123130,
+      "sha256": "821a40842ff56a580e43bf7c80df35b950e3f31b6d2c972e297e1a366dd0a331"
+    },
+    {
+      "path": "official-documents/2022-03-01/item-10-02.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-10-02.pdf",
+      "bytes": 1907281,
+      "sha256": "b286870d1e9a9550d6cafcd92662a8bbdcf776cf677a0331dd790499806c38c0"
+    },
+    {
+      "path": "official-documents/2022-03-01/item-11-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-11-01.pdf",
+      "bytes": 15202,
+      "sha256": "633693af37538d5be13fe63121ce263bfaf53f5c0c2473cfc6644180e02636e4"
+    },
+    {
+      "path": "official-documents/2022-03-01/item-11-02.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-11-02.pdf",
+      "bytes": 273493,
+      "sha256": "999e98413993594d0bc40f58197ebff84ca418b92a60c7b641effaff7eaa9e34"
+    },
+    {
+      "path": "official-documents/2022-03-01/item-11-03.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-11-03.pdf",
+      "bytes": 240612,
+      "sha256": "92e276eb0dd9d99a2beff105815fa7fea6f57911f442cef08ff11f71973fe0d9"
+    },
+    {
+      "path": "official-documents/2022-03-01/item-12-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-12-01.pdf",
+      "bytes": 127190,
+      "sha256": "28d51cdb6de6547f5428ffa1c9ad8ab9c469d69348d39c341de236d8919c2409"
+    },
+    {
+      "path": "official-documents/2022-03-01/item-12-02.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-12-02.pdf",
+      "bytes": 344003,
+      "sha256": "a2c5fd80835a732f09768d6eee1292b5ba7fba3f8dcd9c29320a3782fdb29fc8"
+    },
+    {
+      "path": "official-documents/2022-03-01/item-13-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-13-01.pdf",
+      "bytes": 178571,
+      "sha256": "1642869f4385a61a75b36e6e24cfc463e95bfdb0156ca126f0364f4160c010c9"
+    },
+    {
+      "path": "official-documents/2022-03-01/item-13-02.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-13-02.pdf",
+      "bytes": 536623,
+      "sha256": "f0a8d8adf95d692d55d21b02082a9d0be9ff72265ef4b05467e8482985c293b6"
+    },
+    {
+      "path": "official-documents/2022-03-01/item-13-03.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-13-03.pdf",
+      "bytes": 5981317,
+      "sha256": "d26587a96ea2e3649594886052b155d6666f3a7833291e1f69789fecdb638956"
+    },
+    {
+      "path": "official-documents/2022-03-01/item-13-04.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-13-04.pdf",
+      "bytes": 53271,
+      "sha256": "675a9539f7add60079a64f896e9dda47eb4b629a804dbc879faeca08f93b54a9"
+    },
+    {
+      "path": "official-documents/2022-03-01/item-14-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-14-01.pdf",
+      "bytes": 11530,
+      "sha256": "3b3822cb5345ab721b75cc9e8ea09963456515bcb68a3712bfcc7fde9c96b1b3"
+    },
+    {
+      "path": "official-documents/2022-03-01/item-15-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-15-01.pdf",
+      "bytes": 441539,
+      "sha256": "f3c0c924d8726ae6a754083585b695dfc238514bb43f82018b05fb58ed00fa13"
+    },
+    {
+      "path": "official-documents/2022-03-01/item-16-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-16-01.pdf",
+      "bytes": 115262,
+      "sha256": "7b02a4c19d52f9767559eeaafcee881dafc32445e38dba1c9e2940c0d095b388"
+    },
+    {
+      "path": "official-documents/2022-03-01/item-16-02.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-16-02.pdf",
+      "bytes": 185513,
+      "sha256": "971ea654c58d0f085ed892458d1086931c17c532ef7e412ca1b140d101acf102"
+    },
+    {
+      "path": "official-documents/2022-03-01/item-16-03.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-16-03.pdf",
+      "bytes": 267949,
+      "sha256": "0ede9c4a1d3e6fd67868b2df2448fd0c1bb4984a4dbf56741ffaa082497216a5"
+    },
+    {
+      "path": "official-documents/2022-03-01/item-16-04.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-16-04.pdf",
+      "bytes": 110235,
+      "sha256": "39ad749845af58f0b97c168c9b4aff5bd822cb3a59cf5cb05414e75d4923efa4"
+    },
+    {
+      "path": "official-documents/2022-03-01/item-16-05.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-16-05.pdf",
+      "bytes": 164251,
+      "sha256": "c2d29b14384d8441d15004c95b6ad2a246d2919796e2bead0ac4ffec58b99ff5"
+    },
+    {
+      "path": "official-documents/2022-03-01/item-16-06.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-16-06.pdf",
+      "bytes": 129592,
+      "sha256": "63a93a36cead54b4209410ed97414bbf620f20734163cefb9abd29b4599a6c24"
+    },
+    {
+      "path": "official-documents/2022-03-01/item-17-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-17-01.pdf",
+      "bytes": 114225,
+      "sha256": "28799dc27fff576783c66fbe31b002fd054387b58ff1aef161f4ab4cba1fc3b0"
+    },
+    {
+      "path": "official-documents/2022-03-01/item-17-02.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-17-02.pdf",
+      "bytes": 148367,
+      "sha256": "771a5cdf6edabf63319720a7dcf2f62451e2a2d0f05346ae5984858c2bd20f2a"
+    },
+    {
+      "path": "official-documents/2022-03-01/item-18-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-18-01.pdf",
+      "bytes": 110325,
+      "sha256": "543e3ee44a8c7191ac2eb0122a9a5622d28f5366dbe71a1fd3654c0e308f3498"
+    },
+    {
+      "path": "official-documents/2022-03-01/item-18-02.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-18-02.pdf",
+      "bytes": 70405,
+      "sha256": "e68b3d9c479838f41483b62c12c873cd41e4f9ef25b16b8b7be6bdc0f45b3fa6"
+    },
+    {
+      "path": "official-documents/2022-03-01/item-2-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-2-01.pdf",
+      "bytes": 2845180,
+      "sha256": "82b3e69542865420dff295b2f78151fd460c1de8ffced59c4d1b96209dca8bf6"
+    },
+    {
+      "path": "official-documents/2022-03-01/item-2-02.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-2-02.pdf",
+      "bytes": 2648937,
+      "sha256": "7746b48c5f863a6df25100ca53d9673c94cf085bc4047ca40c154f87298265b6"
+    },
+    {
+      "path": "official-documents/2022-03-01/item-3-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-3-01.pdf",
+      "bytes": 132023,
+      "sha256": "c0a9219c0e3170dac3b3dbda6b50dff1406ea0d783aaab9f96ce5f5c8a6a8be6"
+    },
+    {
+      "path": "official-documents/2022-03-01/item-3-02.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-3-02.pdf",
+      "bytes": 226320,
+      "sha256": "4ccdeed96cc14d4c268f664bef08c6a15e8c0587db7f9e0217dedd273919870b"
+    },
+    {
+      "path": "official-documents/2022-03-01/item-4-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-4-01.pdf",
+      "bytes": 206067,
+      "sha256": "2d5a58721f862ffb2bc4c6c17d81b9e75d5060c6356f33779bdb6f98638935f5"
+    },
+    {
+      "path": "official-documents/2022-03-01/item-4-02.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-4-02.pdf",
+      "bytes": 22639897,
+      "sha256": "546c54ca09a90154ddbd4369566e83f43ad532232f4bee7d1464e18d534cc644"
+    },
+    {
+      "path": "official-documents/2022-03-01/item-5-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-5-01.pdf",
+      "bytes": 204672,
+      "sha256": "3896e5b4b137757c3e3934fd9417388bbe699a5ff4b9d930e4d042551b4af11a"
+    },
+    {
+      "path": "official-documents/2022-03-01/item-5-02.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-5-02.pdf",
+      "bytes": 219825,
+      "sha256": "d0e1f7ba72fdd873ea89b9f72e6c55ac7d0417c45b1752add32f9e2d0faffa68"
+    },
+    {
+      "path": "official-documents/2022-03-01/item-5-03.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-5-03.pdf",
+      "bytes": 45294,
+      "sha256": "ea996e0f5f83865d621bfe80cbc2fe2c1a1c49aaa7e65215cb2e662e1ff22a90"
+    },
+    {
+      "path": "official-documents/2022-03-01/item-6-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-6-01.pdf",
+      "bytes": 123214,
+      "sha256": "23bffcf978449b2802e97dc560e74fc4aa854937e41d905063fe3e37c1c25675"
+    },
+    {
+      "path": "official-documents/2022-03-01/item-6-02.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-6-02.pdf",
+      "bytes": 121923,
+      "sha256": "c2f14bcbc21957ad52f5fc7b7d0d483fbbd484f2c6e9060b3b79ad31a1be5e63"
+    },
+    {
+      "path": "official-documents/2022-03-01/item-6-03.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-6-03.pdf",
+      "bytes": 1734052,
+      "sha256": "d6205cb1f17bb3ac203d7fe5eda1285d9920bf0f000e5abb11d190e9088f93ef"
+    },
+    {
+      "path": "official-documents/2022-03-01/item-7-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-7-01.pdf",
+      "bytes": 125437,
+      "sha256": "3a251d422bfd8d1e6a1159f76fa455d429e221e97744a994e83903f65fcaa167"
+    },
+    {
+      "path": "official-documents/2022-03-01/item-7-02.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-7-02.pdf",
+      "bytes": 127878,
+      "sha256": "87fc7789664eeaf7e02fabb7ebff3e8478d1fb4bedd3a92ca5ef5210e17eae27"
+    },
+    {
+      "path": "official-documents/2022-03-01/item-7-03.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-7-03.pdf",
+      "bytes": 343890,
+      "sha256": "279402d51d62d859550b7c0c5d48cd7f983ca990e73b76540e5dddaa1b042e4e"
+    },
+    {
+      "path": "official-documents/2022-03-01/item-7-04.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-7-04.pdf",
+      "bytes": 225391,
+      "sha256": "86d165c901357a5f86755fca0357d0c1c554675530d146e2de9be022ef5a8fe2"
+    },
+    {
+      "path": "official-documents/2022-03-01/item-8-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-8-01.pdf",
+      "bytes": 280335,
+      "sha256": "80289a28257899a368bebb1aa138091ed4704b713efbb92b68ac976026f52c68"
+    },
+    {
+      "path": "official-documents/2022-03-01/item-8-02.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-8-02.pdf",
+      "bytes": 50754375,
+      "sha256": "5dc77a94944ccf6aa8ebb5ec9ce0408497f63c5f44b24c6af558ba40337c40ae"
+    },
+    {
+      "path": "official-documents/2022-03-01/item-8-03.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-8-03.pdf",
+      "bytes": 891897,
+      "sha256": "d4f66c55d31e32c04f0a1d8a201a6c06a8723c548ed8caa7c6d0dc833bccfe2d"
+    },
+    {
+      "path": "official-documents/2022-03-01/item-8-04.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-8-04.pdf",
+      "bytes": 691471,
+      "sha256": "0a61bf630c7abea8516b6b271204a155a4a15a599983e26746da310d21107725"
+    },
+    {
+      "path": "official-documents/2022-03-01/item-8-05.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-8-05.pdf",
+      "bytes": 695069,
+      "sha256": "eb8d6829475c26d8070564edd538a3e513a050665a761fcc2f7d116d7b309d2b"
+    },
+    {
+      "path": "official-documents/2022-03-01/item-8-06.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-8-06.pdf",
+      "bytes": 655287,
+      "sha256": "a9cbe910ffd6d0fb6879bf630af3add947aa513c127fd0a835eef7dcc4ec6b96"
+    },
+    {
+      "path": "official-documents/2022-03-01/item-8-07.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-8-07.pdf",
+      "bytes": 577930,
+      "sha256": "b10b5d36973e9f914ea554e154e6025904cde36a6edeb91d218eb151b36e9f6a"
+    },
+    {
+      "path": "official-documents/2022-03-01/item-9-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-9-01.pdf",
+      "bytes": 122780,
+      "sha256": "d7eadb385892d0b47d70cc22fc4360158aadac06106401079f237ce249065b5c"
+    },
+    {
+      "path": "official-documents/2022-03-01/item-9-02.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-9-02.pdf",
+      "bytes": 278221,
+      "sha256": "2e7c26cd07b3d39dabc20dcdbb2b1757270b63fc36630c42de4865609be12d51"
+    },
+    {
+      "path": "official-documents/2022-03-01/item-9-03.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-9-03.pdf",
+      "bytes": 75291,
+      "sha256": "57fcf8fdd3f745fcdecbbfbd6dd3c057cdc059afe2eb2837894de1dae6c829ec"
+    },
+    {
+      "path": "official-documents/2022-03-01/item-9-04.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-9-04.pdf",
+      "bytes": 774736,
+      "sha256": "4783e65ebcf589abc704d1d71a9c2fb707129b4fe6172ab66f9a6a1a4d71d3ef"
+    },
+    {
+      "path": "official-documents/2022-03-01/item-9-05.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-9-05.pdf",
+      "bytes": 289914,
+      "sha256": "c5f4f2138fa6529718cbfddc4c756861f318dcfc9c75f01c061178c6f51285f4"
+    },
+    {
+      "path": "official-documents/2022-03-01/item-9-06.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-9-06.pdf",
+      "bytes": 269090,
+      "sha256": "b74202431a75b75b519f76fdd50ddd47ce003c92fa0cf84f81ad5ee6afab5fdc"
+    },
+    {
+      "path": "official-documents/2022-03-15/agenda.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-15/agenda.pdf",
+      "bytes": 2956902,
+      "sha256": "c5a09295568db7068649a35f7fb312f1e6dcc5e65dbfb1294bea26a3c31f69a1"
+    },
+    {
       "path": "official-documents/2022-03-15/council-minutes.pdf",
       "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-15/council-minutes.pdf",
       "bytes": 4023634,
       "sha256": "b3699f75225c140caa20cbd043d3bd40c5b1e9351d6ad841997f30e99793605b"
+    },
+    {
+      "path": "official-documents/2022-03-15/item-1-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-15/item-1-01.pdf",
+      "bytes": 423056,
+      "sha256": "c3c23b17378795c4e839d85905155b05ba0f419de701c8669afaf3a120a5ff44"
+    },
+    {
+      "path": "official-documents/2022-03-15/item-10-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-15/item-10-01.pdf",
+      "bytes": 115773,
+      "sha256": "333f5cb55ae4ccc34a58bd516bc7e1ac5f8dc6b2739ff0d1ae85e3c57b190f7d"
+    },
+    {
+      "path": "official-documents/2022-03-15/item-10-02.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-15/item-10-02.pdf",
+      "bytes": 4077563,
+      "sha256": "5886af5a16853bca04761d619d947e1bcae8836f6a81a29d03acf77eb2f20108"
+    },
+    {
+      "path": "official-documents/2022-03-15/item-10-03.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-15/item-10-03.pdf",
+      "bytes": 215370,
+      "sha256": "06ad067d0c85e3f005f2d6186388fb153a4b6c524aa5911eb5f64886cd54d5cb"
+    },
+    {
+      "path": "official-documents/2022-03-15/item-10-04.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-15/item-10-04.pdf",
+      "bytes": 2685566,
+      "sha256": "fead4247f93a65f30d8425be87c0e5ff703d116b802991aecee403c1a1a1dec0"
+    },
+    {
+      "path": "official-documents/2022-03-15/item-11-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-15/item-11-01.pdf",
+      "bytes": 192094,
+      "sha256": "9da03741d83e7fa545245ae6ccacd0066a74fc2257027f7c1572d8c9db2e1bf0"
+    },
+    {
+      "path": "official-documents/2022-03-15/item-11-02.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-15/item-11-02.pdf",
+      "bytes": 389080,
+      "sha256": "fb24589287ee3cafbb2f8e3e58ad1d4708576373630cdfd0b08062115d8cb491"
+    },
+    {
+      "path": "official-documents/2022-03-15/item-12-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-15/item-12-01.pdf",
+      "bytes": 302641,
+      "sha256": "8bb3e2f6af453d6e957177f123ffe5253eacd453c275cada8fdec076898f1057"
+    },
+    {
+      "path": "official-documents/2022-03-15/item-12-02.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-15/item-12-02.pdf",
+      "bytes": 15488202,
+      "sha256": "f65c2cb8861cbdda023b3a8e7aa5cb47dafe1835971d5a9864d258eb23e9be55"
+    },
+    {
+      "path": "official-documents/2022-03-15/item-12-03.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-15/item-12-03.pdf",
+      "bytes": 2475686,
+      "sha256": "1145448967e40814750cd53c9b50cdabb6e975218e59b26e6e62cb55ae0d8347"
+    },
+    {
+      "path": "official-documents/2022-03-15/item-13-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-15/item-13-01.pdf",
+      "bytes": 12042,
+      "sha256": "2a4b6e31cd2ec815941f484df781675b5300707d3e91c124a40ae62e51bb8397"
+    },
+    {
+      "path": "official-documents/2022-03-15/item-14-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-15/item-14-01.pdf",
+      "bytes": 108912,
+      "sha256": "7e7299dd12fe60106bbc7effa558746245c0f5b170345e82efa3ffbf051f43a7"
+    },
+    {
+      "path": "official-documents/2022-03-15/item-14-02.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-15/item-14-02.pdf",
+      "bytes": 70429,
+      "sha256": "753448ed3dd379a3cd08de25d4fa43fa1bbc132d88442f2c31f2f94951ef1996"
+    },
+    {
+      "path": "official-documents/2022-03-15/item-15-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-15/item-15-01.pdf",
+      "bytes": 122867,
+      "sha256": "63f3b5377ac81550cfc392148ec9b2a861deba113184647bbca2433dffaa46a8"
+    },
+    {
+      "path": "official-documents/2022-03-15/item-15-02.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-15/item-15-02.pdf",
+      "bytes": 4008770,
+      "sha256": "a2d5d554ae7cb7c526f314e3fcb30e00ff929c13caf928469875e5c4b74e6d6b"
+    },
+    {
+      "path": "official-documents/2022-03-15/item-15-03.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-15/item-15-03.pdf",
+      "bytes": 191879,
+      "sha256": "b84026ec6f2a233110731f4cc914e1599043e3ff9e7e3a9cd19cf032ee3e7bf5"
+    },
+    {
+      "path": "official-documents/2022-03-15/item-16-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-15/item-16-01.pdf",
+      "bytes": 431430,
+      "sha256": "2abbd70601c5121fea93ebaab86a8da553d536ced85a93ee6f9ee724df091944"
+    },
+    {
+      "path": "official-documents/2022-03-15/item-17-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-15/item-17-01.pdf",
+      "bytes": 475468,
+      "sha256": "dd1ead615ac0de9a11a06268da2d248365d27925ffe1fc908f760b70b08880c7"
+    },
+    {
+      "path": "official-documents/2022-03-15/item-18-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-15/item-18-01.pdf",
+      "bytes": 864281,
+      "sha256": "e0cda9493f5ba2edc40c67547fba0cb71cccedb51f269dbae8ced99e826b5047"
+    },
+    {
+      "path": "official-documents/2022-03-15/item-2-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-15/item-2-01.pdf",
+      "bytes": 232867,
+      "sha256": "6b4ecb91ef47f9f2b80a699bfb08fd7d79466689a6e6a5b99fa67d3d719ba66c"
+    },
+    {
+      "path": "official-documents/2022-03-15/item-3-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-15/item-3-01.pdf",
+      "bytes": 1998054,
+      "sha256": "0a62e7bb566d822d9553725e757046338d6498f6a8f46e4342cbe71558e5b0d5"
+    },
+    {
+      "path": "official-documents/2022-03-15/item-3-02.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-15/item-3-02.pdf",
+      "bytes": 1240575,
+      "sha256": "4d6281bb11633bd983d7df2011c7c39a87c68f41739225067fb7175f2c26d928"
+    },
+    {
+      "path": "official-documents/2022-03-15/item-4-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-15/item-4-01.pdf",
+      "bytes": 125237,
+      "sha256": "2b99bb8a229ec1abe1152845780aa1959ba25f2e3cd131e503cfc6ad6b4fce83"
+    },
+    {
+      "path": "official-documents/2022-03-15/item-4-02.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-15/item-4-02.pdf",
+      "bytes": 71189,
+      "sha256": "fa0fc09575f1f24d46a97d6b60de8ebf0fee0a5a91e9407aaa7f3ae28977df6f"
+    },
+    {
+      "path": "official-documents/2022-03-15/item-4-03.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-15/item-4-03.pdf",
+      "bytes": 255998,
+      "sha256": "86f8cc12bac417b72be369e12c44c95e4dcd793a7c871f76e4f02c1916609793"
+    },
+    {
+      "path": "official-documents/2022-03-15/item-5-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-15/item-5-01.pdf",
+      "bytes": 30518,
+      "sha256": "b9a6ecdbc4ab744acc6c0cef9666011ff17c4e01d8732e14f6dc4eca0d838ac7"
+    },
+    {
+      "path": "official-documents/2022-03-15/item-5-02.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-15/item-5-02.pdf",
+      "bytes": 142829,
+      "sha256": "4d4ebc3ed1dc29d548d307d0afcb0c7081646b844a739bac565ff8b329a7d07b"
+    },
+    {
+      "path": "official-documents/2022-03-15/item-5-03.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-15/item-5-03.pdf",
+      "bytes": 133138,
+      "sha256": "c9ad9bbf71cfb0b29290eb0c26979a70fdaf508564f50dbea000b78848b789da"
+    },
+    {
+      "path": "official-documents/2022-03-15/item-6-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-15/item-6-01.pdf",
+      "bytes": 116450,
+      "sha256": "e273a0be563d1c7821ca99e5419bc856f31a911a5033f42005c9afd212292f81"
+    },
+    {
+      "path": "official-documents/2022-03-15/item-6-02.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-15/item-6-02.pdf",
+      "bytes": 115031,
+      "sha256": "e91a6e19c77aecdac160a12961d2dbb1135655e8ee557810e09f234b6b1a1db7"
+    },
+    {
+      "path": "official-documents/2022-03-15/item-7-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-15/item-7-01.pdf",
+      "bytes": 11607,
+      "sha256": "d30cc4f14ee9da3ee2e55318b38c459dca199e3a0bc59ffb3be2802e844c0c72"
+    },
+    {
+      "path": "official-documents/2022-03-15/item-8-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-15/item-8-01.pdf",
+      "bytes": 30383,
+      "sha256": "7cfe8f69203b9d16c4e626e7ba34fff06ef14af9ccae1d218b6ff88b4c1326bc"
+    },
+    {
+      "path": "official-documents/2022-03-15/item-8-02.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-15/item-8-02.pdf",
+      "bytes": 381077,
+      "sha256": "74a08aec0f2e0aeb1b586694a8c090e902b488bab67abd13767811a3266b0f66"
+    },
+    {
+      "path": "official-documents/2022-03-15/item-8-03.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-15/item-8-03.pdf",
+      "bytes": 168091,
+      "sha256": "cfcbc8a9a46bffd036e9cff422fcb079693298588f3f028f1b2b9d231a4ac210"
+    },
+    {
+      "path": "official-documents/2022-03-15/item-8-04.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-15/item-8-04.pdf",
+      "bytes": 329027,
+      "sha256": "39dd5841ee193510c41e495767433a262632bb80ee344de34c9e3fec76d0b80c"
+    },
+    {
+      "path": "official-documents/2022-03-15/item-8-05.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-15/item-8-05.pdf",
+      "bytes": 180437,
+      "sha256": "4a9771fe51849b78352985124c0dbc25ef7d8b72c0897179aab54d9336f708f3"
+    },
+    {
+      "path": "official-documents/2022-03-15/item-9-01.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-15/item-9-01.pdf",
+      "bytes": 259817,
+      "sha256": "33f61382b9cc8767d753e97aa0773a69aa5af846ec1acd1a7d930d463d63ced8"
+    },
+    {
+      "path": "official-documents/2022-03-15/item-9-02.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-15/item-9-02.pdf",
+      "bytes": 256927,
+      "sha256": "f5ab30ad78f2fd932732f7d6889c2cbeacd65a3abbd388edcffe464b2d905ea7"
+    },
+    {
+      "path": "official-documents/2022-03-15/item-9-03.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-15/item-9-03.pdf",
+      "bytes": 643024,
+      "sha256": "ee964ee0ec6a4727898307a615ed84a5fdbd5039373674b13cef823c564bdc9d"
+    },
+    {
+      "path": "official-documents/2022-03-15/item-9-04.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-15/item-9-04.pdf",
+      "bytes": 160810,
+      "sha256": "b545a95fe6be3816de8b4866ce269597c0e31ebef5735b894a1b1c8817d372d9"
+    },
+    {
+      "path": "official-documents/2022-03-15/item-9-05.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2022-03-15/item-9-05.pdf",
+      "bytes": 788288,
+      "sha256": "151f058899a29cde15bc88932ee94ee85ce30fa8470b65c699c5f95f7308032d"
     },
     {
       "path": "official-documents/2022-04-05/council-minutes.pdf",
@@ -12759,6 +14343,42 @@
       "url": "https://documents.beaumontintelligence.com/records/agenda-packets/2021/2021-12-07_City-Council_Agenda-Packet.pdf",
       "bytes": 78951442,
       "sha256": "f7a27f948be6b0b19cafbbd058e120fd6bc64329155110bb29762f8f4c1f5c7a"
+    },
+    {
+      "path": "records/agenda-packets/2022-01-04/2022-01-04-city-council-agenda-package.pdf",
+      "url": "https://documents.beaumontintelligence.com/records/agenda-packets/2022-01-04/2022-01-04-city-council-agenda-package.pdf",
+      "bytes": 49386923,
+      "sha256": "7c7b21394f391a94b089d6402c114af277942bbc82542fa14c2bbd8ff90fac8c"
+    },
+    {
+      "path": "records/agenda-packets/2022-01-18/2022-01-18-city-council-agenda-package.pdf",
+      "url": "https://documents.beaumontintelligence.com/records/agenda-packets/2022-01-18/2022-01-18-city-council-agenda-package.pdf",
+      "bytes": 49218250,
+      "sha256": "1530c0bb2f238e2af815991cd2e574f39f4170d898c6509ef3a5c56a51c90edc"
+    },
+    {
+      "path": "records/agenda-packets/2022-02-01/2022-02-01-city-council-agenda-package.pdf",
+      "url": "https://documents.beaumontintelligence.com/records/agenda-packets/2022-02-01/2022-02-01-city-council-agenda-package.pdf",
+      "bytes": 234911196,
+      "sha256": "16182d1e04d0f13ae958f2fa6f1de1895abaffa90c68331dfb4fea9277cb0a1e"
+    },
+    {
+      "path": "records/agenda-packets/2022-02-15/2022-02-15-city-council-agenda-package.pdf",
+      "url": "https://documents.beaumontintelligence.com/records/agenda-packets/2022-02-15/2022-02-15-city-council-agenda-package.pdf",
+      "bytes": 38118476,
+      "sha256": "ac698c63c133891d78b66baa83012d8fe288ad52944efacb0c119dedec96e392"
+    },
+    {
+      "path": "records/agenda-packets/2022-03-01/2022-03-01-city-council-agenda-package.pdf",
+      "url": "https://documents.beaumontintelligence.com/records/agenda-packets/2022-03-01/2022-03-01-city-council-agenda-package.pdf",
+      "bytes": 100893217,
+      "sha256": "77abab8c9ca43636205609c13d4d91572a8bf4b2a400b5827346db31d421dc4b"
+    },
+    {
+      "path": "records/agenda-packets/2022-03-15/2022-03-15-city-council-agenda-package.pdf",
+      "url": "https://documents.beaumontintelligence.com/records/agenda-packets/2022-03-15/2022-03-15-city-council-agenda-package.pdf",
+      "bytes": 40443897,
+      "sha256": "6dbb2cd350eeaaaf69699243d73bd9feaf88f2c2bfc357e6859fc15ece159262"
     },
     {
       "path": "records/agenda-packets/2025-08-26/2025-08-26-city-council-workshop-agenda-package.pdf",

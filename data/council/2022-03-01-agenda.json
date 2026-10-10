@@ -1,0 +1,675 @@
+{
+  "date": "2022-03-01",
+  "sourceFilename": "Agenda Packet 03.01.2022.pdf",
+  "packetPages": 721,
+  "packetArchiveUrl": "https://documents.beaumontintelligence.com/records/agenda-packets/2022-03-01/2022-03-01-city-council-agenda-package.pdf",
+  "agendaUrl": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/agenda.pdf",
+  "agendaPageCount": 6,
+  "meetingStatus": "held",
+  "audit": {
+    "basis": "Supplied PDF bookmarks; historical City HTML agenda not independently audited",
+    "packetDocuments": 53,
+    "linkedDocuments": 53,
+    "officialHtmlAuditComplete": false
+  },
+  "items": [
+    {
+      "item": "1",
+      "section": "Consent",
+      "title": "Approval of Minutes",
+      "recommendation": "Approve Minutes dated February 15, 2022.",
+      "outcomeStatus": "See 2022-q1-meeting-review.json"
+    },
+    {
+      "item": "2",
+      "section": "Consent",
+      "title": "Ratification of Warrants",
+      "recommendation": "Ratify Warrants dated: February 10, 2022, and February 17, 2022.",
+      "outcomeStatus": "See 2022-q1-meeting-review.json"
+    },
+    {
+      "item": "3",
+      "section": "Consent",
+      "title": "Re-Ratification of Local Emergency and Re-Authorizing the Use of Teleconferencing to Conduct Public Meetings",
+      "recommendation": "Waive the full reading and adopt by title only, “A Resolution of the City Council of the City of Beaumont Proclaiming a Local Emergency Persists, Re-Ratifying the Proclamation of a State of Emergency by Executive Order N-09-21, and Re- Authorizing Remote Teleconference Meetings of the Legislative Bodies of the City of Beaumont for the Period of March 1, 2022, through April 5, 2022, Pursuant to Provisions of the Ralph M. Brown Act.”",
+      "outcomeStatus": "See 2022-q1-meeting-review.json"
+    },
+    {
+      "item": "4",
+      "section": "Consent",
+      "title": "Request for City Council to Accept the Street and Sewer Improvements Associated with Parcel Map No. 34209 into the Publicly Maintained System and Exonerate Maintenance Bond No. 107174931",
+      "recommendation": "Accept the Street Improvements associated with Parcel Map No. 34209, Authorize the Mayor to Sign the Certificate of Acceptance, and Authorize City staff to issue a Bond Exoneration Letter for Maintenance Bond No. 107174931.",
+      "outcomeStatus": "See 2022-q1-meeting-review.json"
+    },
+    {
+      "item": "5",
+      "section": "Consent",
+      "title": "Second Reading to Approve an Addition to Municipal Code Section 1.16 “General Penalty” Adding Penalties for the Possession and Use of Illegal Fireworks",
+      "recommendation": "Waive the second full reading and adopt by title only, “An Ordinance of the City Council of the City of Beaumont, Amending the Beaumont Municipal Code to Amend Chapter 1.16 Entitled ‘General Penalty’ and Making Findings Pursuant to the California Environmental Quality Act”",
+      "outcomeStatus": "See 2022-q1-meeting-review.json"
+    },
+    {
+      "item": "6",
+      "section": "Public Hearing",
+      "title": "Public Hearing and Consideration of a Resolution Establishing a Solid Waste SB 1383 Organics Waiver Application Fee",
+      "recommendation": "Hold a public hearing, and Waive the full reading and approve by title only, “Resolution Establishing an Organics Waste Service Waiver Application Fee for Commercial Premises in Accordance with City of Beaumont Municipal Code Section 8.12.180.”",
+      "outcomeStatus": "See 2022-q1-meeting-review.json"
+    },
+    {
+      "item": "7",
+      "section": "Public Hearing",
+      "title": "Public Hearing and First Reading of An Ordinance to Adopt an Amendment to the Four Seasons Specific Plan (SP2022-0007)",
+      "recommendation": "Hold a public hearing, and Waive the first full reading and approve by title only, “An Ordinance of the City Council of Beaumont, California, Adopting an Amendment to the Four Seasons Specific Plan (SP2022-0007).”",
+      "outcomeStatus": "See 2022-q1-meeting-review.json"
+    },
+    {
+      "item": "8",
+      "section": "Public Hearing",
+      "title": "Public Hearing to Adopt California Environmental Quality Act (CEQA) Initial Study/Mitigated Negative Declaration and Mitigation and Monitoring Reporting Program for the West Side Fire Station Located on the East Side of Potrero Boulevard, North of SR 60 Freeway and South of San Timoteo Canyon Road",
+      "recommendation": "Hold a public hearing, Adopt a Mitigated Negative Declaration and Mitigation and Monitoring Reporting Program for the West Side Fire Station project, and Direct staff to prepare a Notice of Determination to be filed with the Riverside County Clerk Recorder.",
+      "outcomeStatus": "See 2022-q1-meeting-review.json"
+    },
+    {
+      "item": "9",
+      "section": "Action",
+      "title": "Approval of Compensation Plan and Salary Table",
+      "recommendation": "Approval of the Compensation Plan and Salary Table.",
+      "outcomeStatus": "See 2022-q1-meeting-review.json"
+    },
+    {
+      "item": "10",
+      "section": "Action",
+      "title": "Rangel Park Update",
+      "recommendation": "Receive and provide direction to City staff.",
+      "outcomeStatus": "See 2022-q1-meeting-review.json"
+    },
+    {
+      "item": "11",
+      "section": "Action",
+      "title": "Request to Authorize Grant Writing Assistance to Townsend Public Affairs, Inc. in the Amount of $15,000",
+      "recommendation": "Approve a one-time request for grant writing assistance with Townsend Public Affairs, Inc. in the amount of $15,000 and authorize the City Manager to execute the agreement.",
+      "outcomeStatus": "See 2022-q1-meeting-review.json"
+    },
+    {
+      "item": "12",
+      "section": "Action",
+      "title": "PARS 115 Trust Investment Policy",
+      "recommendation": "Approve PARS 115 Trust Investment Policy.",
+      "outcomeStatus": "See 2022-q1-meeting-review.json"
+    },
+    {
+      "item": "13",
+      "section": "Action",
+      "title": "Award a Professional Services Agreement to Dudek, Inc., for Groundwater and Surface Water Monitoring Services Related to the Maximum Benefit Monitoring Program",
+      "recommendation": "Award a Professional Services Agreement to Dudek, Inc., for groundwater and surface water monitoring services for three years in the amount not to exceed $52,330 in year one, $53,900 in year two, and $55,500 in year three.",
+      "outcomeStatus": "See 2022-q1-meeting-review.json"
+    },
+    {
+      "item": "14",
+      "section": "Action",
+      "title": "Set Time, Date and Place for Special Workshop",
+      "recommendation": "Establish a time, date and place for a special workshop.",
+      "outcomeStatus": "See 2022-q1-meeting-review.json"
+    },
+    {
+      "item": "15",
+      "section": "Action",
+      "title": "Assign and Approve a Designated City Council Member to Participate in the Review and Recommendation of Proposals for Landscape Architecture and Engineering Design Services for the Stewart Park Improvement Project",
+      "recommendation": "Assign and approve a designated City Council Member to participate in the review and recommendation of proposals for landscape architecture and engineering design services for the Stewart Park Improvement Project.",
+      "outcomeStatus": "See 2022-q1-meeting-review.json"
+    },
+    {
+      "item": "16",
+      "section": "Action",
+      "title": "Consider a Resolution to Oppose Initiative 21-0042A1",
+      "recommendation": "It is recommended that the City Council consider this resolution and take action as it deems appropriate.",
+      "outcomeStatus": "See 2022-q1-meeting-review.json"
+    },
+    {
+      "item": "17",
+      "section": "Action",
+      "title": "Discussion of Assembly Bill 571 and Campaign Contribution Limits",
+      "recommendation": "Discussion and direction to City staff.",
+      "outcomeStatus": "See 2022-q1-meeting-review.json"
+    },
+    {
+      "item": "18",
+      "section": "Action",
+      "title": "Economic Development Committee Vacancy of Community Member Seat",
+      "recommendation": "Direct City staff to notice the partial-term vacancy on the Economic Development Committee for the “Non-Business Community Member” and “Alternate” seats.",
+      "outcomeStatus": "See 2022-q1-meeting-review.json"
+    }
+  ],
+  "documents": [
+    {
+      "item": "1",
+      "section": "Consent",
+      "title": "CC Minutes 02.15.2022",
+      "itemTitle": "Approval of Minutes",
+      "packet_page_start": 7,
+      "packet_page_end": 14,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-1-01.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "2",
+      "section": "Consent",
+      "title": "20220210 warrants",
+      "itemTitle": "Ratification of Warrants",
+      "packet_page_start": 15,
+      "packet_page_end": 30,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-2-01.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "2",
+      "section": "Consent",
+      "title": "20220217 warrants",
+      "itemTitle": "Ratification of Warrants",
+      "packet_page_start": 31,
+      "packet_page_end": 44,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-2-02.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "3",
+      "section": "Consent",
+      "title": "Staff Report - Re-Ratifying Remote Teleconference Meetings",
+      "itemTitle": "Re-Ratification of Local Emergency and Re-Authorizing the Use of Teleconferencing to Conduct Public Meetings",
+      "packet_page_start": 45,
+      "packet_page_end": 48,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-3-01.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "3",
+      "section": "Consent",
+      "title": "Resolution Re AB 361 - Subsequent Adoption",
+      "itemTitle": "Re-Ratification of Local Emergency and Re-Authorizing the Use of Teleconferencing to Conduct Public Meetings",
+      "packet_page_start": 49,
+      "packet_page_end": 51,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-3-02.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "4",
+      "section": "Consent",
+      "title": "Staff Report - Bond Exoneration PW2021-0800",
+      "itemTitle": "Request for City Council to Accept the Street and Sewer Improvements Associated with Parcel Map No. 34209 into the Publicly Maintained System and Exonerate Maintenance Bond No. 107174931",
+      "packet_page_start": 52,
+      "packet_page_end": 54,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-4-01.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "4",
+      "section": "Consent",
+      "title": "Att A PW2021-0800 - Maintenance Bond Exo Packet with Completed Punchlist",
+      "itemTitle": "Request for City Council to Accept the Street and Sewer Improvements Associated with Parcel Map No. 34209 into the Publicly Maintained System and Exonerate Maintenance Bond No. 107174931",
+      "packet_page_start": 55,
+      "packet_page_end": 96,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-4-02.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "5",
+      "section": "Consent",
+      "title": "Staff Report Fireworks Ordinance Second Reading",
+      "itemTitle": "Second Reading to Approve an Addition to Municipal Code Section 1.16 “General Penalty” Adding Penalties for the Possession and Use of Illegal Fireworks",
+      "packet_page_start": 97,
+      "packet_page_end": 98,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-5-01.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "5",
+      "section": "Consent",
+      "title": "Attachment A - Ordinance Re Penalties Re Fireworks",
+      "itemTitle": "Second Reading to Approve an Addition to Municipal Code Section 1.16 “General Penalty” Adding Penalties for the Possession and Use of Illegal Fireworks",
+      "packet_page_start": 99,
+      "packet_page_end": 100,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-5-02.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "5",
+      "section": "Consent",
+      "title": "Attachment B - Exhibit A to Ordinance",
+      "itemTitle": "Second Reading to Approve an Addition to Municipal Code Section 1.16 “General Penalty” Adding Penalties for the Possession and Use of Illegal Fireworks",
+      "packet_page_start": 101,
+      "packet_page_end": 102,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-5-03.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "6",
+      "section": "Public Hearing",
+      "title": "Staff Report - SB1383 Fee Waiver",
+      "itemTitle": "Public Hearing and Consideration of a Resolution Establishing a Solid Waste SB 1383 Organics Waiver Application Fee",
+      "packet_page_start": 103,
+      "packet_page_end": 104,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-6-01.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "6",
+      "section": "Public Hearing",
+      "title": "Attachment A - Resolution Establishing Waiver Application Fee for Organic Waste Service",
+      "itemTitle": "Public Hearing and Consideration of a Resolution Establishing a Solid Waste SB 1383 Organics Waiver Application Fee",
+      "packet_page_start": 105,
+      "packet_page_end": 106,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-6-02.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "6",
+      "section": "Public Hearing",
+      "title": "Attachment B - Ord 1143",
+      "itemTitle": "Public Hearing and Consideration of a Resolution Establishing a Solid Waste SB 1383 Organics Waiver Application Fee",
+      "packet_page_start": 107,
+      "packet_page_end": 134,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-6-03.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "7",
+      "section": "Public Hearing",
+      "title": "Staff Report - Four Seasons Specific Plan Amendment",
+      "itemTitle": "Public Hearing and First Reading of An Ordinance to Adopt an Amendment to the Four Seasons Specific Plan (SP2022-0007)",
+      "packet_page_start": 135,
+      "packet_page_end": 137,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-7-01.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "7",
+      "section": "Public Hearing",
+      "title": "Attachment A - Four Seasons Specific Plan Pg IV-66 redline",
+      "itemTitle": "Public Hearing and First Reading of An Ordinance to Adopt an Amendment to the Four Seasons Specific Plan (SP2022-0007)",
+      "packet_page_start": 138,
+      "packet_page_end": 138,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-7-02.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "7",
+      "section": "Public Hearing",
+      "title": "Attachment B - Ordinance",
+      "itemTitle": "Public Hearing and First Reading of An Ordinance to Adopt an Amendment to the Four Seasons Specific Plan (SP2022-0007)",
+      "packet_page_start": 139,
+      "packet_page_end": 140,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-7-03.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "7",
+      "section": "Public Hearing",
+      "title": "Attachment C - Legal Ad Combo",
+      "itemTitle": "Public Hearing and First Reading of An Ordinance to Adopt an Amendment to the Four Seasons Specific Plan (SP2022-0007)",
+      "packet_page_start": 141,
+      "packet_page_end": 141,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-7-04.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "8",
+      "section": "Public Hearing",
+      "title": "Staff Report - West Side Fire Station CEQA",
+      "itemTitle": "Public Hearing to Adopt California Environmental Quality Act (CEQA) Initial Study/Mitigated Negative Declaration and Mitigation and Monitoring Reporting Program for the West Side Fire Station Located on the East Side of Potrero Boulevard, North of SR 60 Freeway and South of San Timoteo Canyon Road",
+      "packet_page_start": 142,
+      "packet_page_end": 146,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-8-01.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "8",
+      "section": "Public Hearing",
+      "title": "Attachment A - Initial Study/Mitigated Negative Declaration and Mitigation and Monitoring Reporting Program",
+      "itemTitle": "Public Hearing to Adopt California Environmental Quality Act (CEQA) Initial Study/Mitigated Negative Declaration and Mitigation and Monitoring Reporting Program for the West Side Fire Station Located on the East Side of Potrero Boulevard, North of SR 60 Freeway and South of San Timoteo Canyon Road",
+      "packet_page_start": 147,
+      "packet_page_end": 487,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-8-02.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "8",
+      "section": "Public Hearing",
+      "title": "Attachment B - Site Plan",
+      "itemTitle": "Public Hearing to Adopt California Environmental Quality Act (CEQA) Initial Study/Mitigated Negative Declaration and Mitigation and Monitoring Reporting Program for the West Side Fire Station Located on the East Side of Potrero Boulevard, North of SR 60 Freeway and South of San Timoteo Canyon Road",
+      "packet_page_start": 488,
+      "packet_page_end": 488,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-8-03.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "8",
+      "section": "Public Hearing",
+      "title": "Attachment C - General Plan Land Use Designation Map",
+      "itemTitle": "Public Hearing to Adopt California Environmental Quality Act (CEQA) Initial Study/Mitigated Negative Declaration and Mitigation and Monitoring Reporting Program for the West Side Fire Station Located on the East Side of Potrero Boulevard, North of SR 60 Freeway and South of San Timoteo Canyon Road",
+      "packet_page_start": 489,
+      "packet_page_end": 489,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-8-04.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "8",
+      "section": "Public Hearing",
+      "title": "Attachment D - Zoning Map",
+      "itemTitle": "Public Hearing to Adopt California Environmental Quality Act (CEQA) Initial Study/Mitigated Negative Declaration and Mitigation and Monitoring Reporting Program for the West Side Fire Station Located on the East Side of Potrero Boulevard, North of SR 60 Freeway and South of San Timoteo Canyon Road",
+      "packet_page_start": 490,
+      "packet_page_end": 490,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-8-05.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "8",
+      "section": "Public Hearing",
+      "title": "Attachment E - Aerial Photograph",
+      "itemTitle": "Public Hearing to Adopt California Environmental Quality Act (CEQA) Initial Study/Mitigated Negative Declaration and Mitigation and Monitoring Reporting Program for the West Side Fire Station Located on the East Side of Potrero Boulevard, North of SR 60 Freeway and South of San Timoteo Canyon Road",
+      "packet_page_start": 491,
+      "packet_page_end": 492,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-8-06.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "8",
+      "section": "Public Hearing",
+      "title": "Attachment F - Proof of Publication",
+      "itemTitle": "Public Hearing to Adopt California Environmental Quality Act (CEQA) Initial Study/Mitigated Negative Declaration and Mitigation and Monitoring Reporting Program for the West Side Fire Station Located on the East Side of Potrero Boulevard, North of SR 60 Freeway and South of San Timoteo Canyon Road",
+      "packet_page_start": 493,
+      "packet_page_end": 493,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-8-07.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "9",
+      "section": "Action",
+      "title": "Staff Report - Compensation Plan 030122",
+      "itemTitle": "Approval of Compensation Plan and Salary Table",
+      "packet_page_start": 494,
+      "packet_page_end": 495,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-9-01.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "9",
+      "section": "Action",
+      "title": "Compensation Plan -Proposed",
+      "itemTitle": "Approval of Compensation Plan and Salary Table",
+      "packet_page_start": 496,
+      "packet_page_end": 497,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-9-02.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "9",
+      "section": "Action",
+      "title": "Salary Table",
+      "itemTitle": "Approval of Compensation Plan and Salary Table",
+      "packet_page_start": 498,
+      "packet_page_end": 502,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-9-03.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "9",
+      "section": "Action",
+      "title": "Beaumont Total Comp Survey",
+      "itemTitle": "Approval of Compensation Plan and Salary Table",
+      "packet_page_start": 503,
+      "packet_page_end": 614,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-9-04.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "9",
+      "section": "Action",
+      "title": "Compensation Concept",
+      "itemTitle": "Approval of Compensation Plan and Salary Table",
+      "packet_page_start": 615,
+      "packet_page_end": 615,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-9-05.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "9",
+      "section": "Action",
+      "title": "Org Charts",
+      "itemTitle": "Approval of Compensation Plan and Salary Table",
+      "packet_page_start": 616,
+      "packet_page_end": 624,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-9-06.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "10",
+      "section": "Action",
+      "title": "Staff Report - Rangel Park Update",
+      "itemTitle": "Rangel Park Update",
+      "packet_page_start": 625,
+      "packet_page_end": 626,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-10-01.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "10",
+      "section": "Action",
+      "title": "Rangel Park Smaller Court-2",
+      "itemTitle": "Rangel Park Update",
+      "packet_page_start": 627,
+      "packet_page_end": 627,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-10-02.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "11",
+      "section": "Action",
+      "title": "Staff Report - Grant Writing Assistance",
+      "itemTitle": "Request to Authorize Grant Writing Assistance to Townsend Public Affairs, Inc. in the Amount of $15,000",
+      "packet_page_start": 628,
+      "packet_page_end": 629,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-11-01.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "11",
+      "section": "Action",
+      "title": "Attachment A - 2022 Grant Assistance TPA Proposal",
+      "itemTitle": "Request to Authorize Grant Writing Assistance to Townsend Public Affairs, Inc. in the Amount of $15,000",
+      "packet_page_start": 630,
+      "packet_page_end": 632,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-11-02.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "11",
+      "section": "Action",
+      "title": "Attachment B - Active Transportation Program (ATP) _ CTC",
+      "itemTitle": "Request to Authorize Grant Writing Assistance to Townsend Public Affairs, Inc. in the Amount of $15,000",
+      "packet_page_start": 633,
+      "packet_page_end": 634,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-11-03.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "12",
+      "section": "Action",
+      "title": "Staff Report - PARS Investment Policy 2",
+      "itemTitle": "PARS 115 Trust Investment Policy",
+      "packet_page_start": 635,
+      "packet_page_end": 636,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-12-01.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "12",
+      "section": "Action",
+      "title": "DRAFT City of Beaumont IGD Moderate January 2022-1",
+      "itemTitle": "PARS 115 Trust Investment Policy",
+      "packet_page_start": 637,
+      "packet_page_end": 643,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-12-02.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "13",
+      "section": "Action",
+      "title": "Staff Report - Ground and Surface Monitoring RFP Dudek",
+      "itemTitle": "Award a Professional Services Agreement to Dudek, Inc., for Groundwater and Surface Water Monitoring Services Related to the Maximum Benefit Monitoring Program",
+      "packet_page_start": 644,
+      "packet_page_end": 645,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-13-01.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "13",
+      "section": "Action",
+      "title": "Attachment A - PSA - City of Beaumont Dudek Partially Executed",
+      "itemTitle": "Award a Professional Services Agreement to Dudek, Inc., for Groundwater and Surface Water Monitoring Services Related to the Maximum Benefit Monitoring Program",
+      "packet_page_start": 646,
+      "packet_page_end": 655,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-13-02.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "13",
+      "section": "Action",
+      "title": "Attachment B - Dudek - Groundwater & Surface Water Monitoring Services",
+      "itemTitle": "Award a Professional Services Agreement to Dudek, Inc., for Groundwater and Surface Water Monitoring Services Related to the Maximum Benefit Monitoring Program",
+      "packet_page_start": 656,
+      "packet_page_end": 693,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-13-03.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "13",
+      "section": "Action",
+      "title": "Attachment C - Fees for Services Provided 2022 to 2026 Max Benefit Monitoring for City of Beaumont",
+      "itemTitle": "Award a Professional Services Agreement to Dudek, Inc., for Groundwater and Surface Water Monitoring Services Related to the Maximum Benefit Monitoring Program",
+      "packet_page_start": 694,
+      "packet_page_end": 694,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-13-04.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "14",
+      "section": "Action",
+      "title": "Set Time, Date and Place for Special Workshop",
+      "itemTitle": "Set Time, Date and Place for Special Workshop",
+      "packet_page_start": 695,
+      "packet_page_end": 695,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-14-01.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "15",
+      "section": "Action",
+      "title": "Staff Report - City Council Rep for Stewart Park RFP",
+      "itemTitle": "Assign and Approve a Designated City Council Member to Participate in the Review and Recommendation of Proposals for Landscape Architecture and Engineering Design Services for the Stewart Park Improvement Project",
+      "packet_page_start": 696,
+      "packet_page_end": 698,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-15-01.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "16",
+      "section": "Action",
+      "title": "Staff Report - Initiative 21-0042A1",
+      "itemTitle": "Consider a Resolution to Oppose Initiative 21-0042A1",
+      "packet_page_start": 699,
+      "packet_page_end": 700,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-16-01.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "16",
+      "section": "Action",
+      "title": "Attachment A - SAMPLE Oppose City Resolution_2.3.22",
+      "itemTitle": "Consider a Resolution to Oppose Initiative 21-0042A1",
+      "packet_page_start": 701,
+      "packet_page_end": 701,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-16-02.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "16",
+      "section": "Action",
+      "title": "Attachment B - Broad Coalition Opposes CBRT Measure",
+      "itemTitle": "Consider a Resolution to Oppose Initiative 21-0042A1",
+      "packet_page_start": 702,
+      "packet_page_end": 704,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-16-03.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "16",
+      "section": "Action",
+      "title": "Attachment C - Legal Analysis",
+      "itemTitle": "Consider a Resolution to Oppose Initiative 21-0042A1",
+      "packet_page_start": 705,
+      "packet_page_end": 706,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-16-04.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "16",
+      "section": "Action",
+      "title": "Attachment D - CBRT Fiscal Analysis",
+      "itemTitle": "Consider a Resolution to Oppose Initiative 21-0042A1",
+      "packet_page_start": 707,
+      "packet_page_end": 710,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-16-05.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "16",
+      "section": "Action",
+      "title": "Attachment E - CBRT Measure Opposition Fact Sheet",
+      "itemTitle": "Consider a Resolution to Oppose Initiative 21-0042A1",
+      "packet_page_start": 711,
+      "packet_page_end": 712,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-16-06.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "17",
+      "section": "Action",
+      "title": "Staff Report - Campaign Contribution Limits",
+      "itemTitle": "Discussion of Assembly Bill 571 and Campaign Contribution Limits",
+      "packet_page_start": 713,
+      "packet_page_end": 714,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-17-01.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "17",
+      "section": "Action",
+      "title": "AB571 Language",
+      "itemTitle": "Discussion of Assembly Bill 571 and Campaign Contribution Limits",
+      "packet_page_start": 715,
+      "packet_page_end": 719,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-17-02.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "18",
+      "section": "Action",
+      "title": "Staff Report - EDC Vacancies",
+      "itemTitle": "Economic Development Committee Vacancy of Community Member Seat",
+      "packet_page_start": 720,
+      "packet_page_end": 720,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-18-01.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "18",
+      "section": "Action",
+      "title": "EDC Policies and Procedures",
+      "itemTitle": "Economic Development Committee Vacancy of Community Member Seat",
+      "packet_page_start": 721,
+      "packet_page_end": 721,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-03-01/item-18-02.pdf",
+      "officialUrl": null
+    }
+  ]
+}

@@ -79,6 +79,31 @@
       "title": "City Council 10/6/26 | City of Beaumont",
       "verificationStatus": "verified-youtube-metadata",
       "durationSeconds": 11497
+    },
+    {
+      "date": "2022-01-18",
+      "url": "https://www.youtube.com/watch?v=WQQgg6Y-Idw",
+      "title": "City Council Meeting January 18, 2022",
+      "verificationStatus": "verified-youtube-metadata"
+    },
+    {
+      "date": "2022-02-01",
+      "url": "https://www.youtube.com/watch?v=KqzikDSwHGw",
+      "title": "City Council Meeting February 2, 2022",
+      "verificationStatus": "verified-youtube-metadata-and-opening-captions",
+      "dateNote": "YouTube title says February 2; opening captions at 2:08 and 2:30 identify Tuesday, February 1, matching the supplied agenda and archived minutes."
+    },
+    {
+      "date": "2022-02-15",
+      "url": "https://www.youtube.com/watch?v=X2YV91fwPOw",
+      "title": "City Council Meeting | February 15, 2022",
+      "verificationStatus": "verified-youtube-metadata"
+    },
+    {
+      "date": "2022-03-01",
+      "url": "https://www.youtube.com/watch?v=JlzlPmUnCp4",
+      "title": "City Council Meeting | March 1, 2022",
+      "verificationStatus": "verified-youtube-metadata"
     }
   ]
 }

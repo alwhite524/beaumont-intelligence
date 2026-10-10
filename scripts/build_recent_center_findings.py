@@ -24,9 +24,14 @@ def render_findings(page):
         if url.endswith('.pdf'):
             url = 'viewer.html?url=' + quote(url, safe='')
         label = 'Minutes (Word)' if minute['url'].endswith('.docx') else 'Minutes'
-        links = f'<a href="{escape(url, quote=True)}">{label}</a> · <a href="{escape(r["videoUrl"], quote=True)}" target="_blank" rel="noopener">' + ('Video at discussion' if '&t=' in r['videoUrl'] else 'Full meeting video') + '</a>'
+        links = f'<a href="{escape(url, quote=True)}">{label}</a>'
+        if r.get('videoUrl'):
+            links += f' · <a href="{escape(r["videoUrl"], quote=True)}" target="_blank" rel="noopener">' + ('Video at discussion' if '&t=' in r['videoUrl'] else 'Full meeting video') + '</a>'
+        if r.get('agendaUrl'):
+            links += f' · <a href="{escape(r["agendaUrl"], quote=True)}">Agenda and supporting documents</a>'
         if r['transcript']:
-            links += f' · <a href="transcripts/{escape(r["transcript"], quote=True)}">Supplied transcript</a>'
+            transcript_label = 'Transcript' if r.get('agendaUrl') else 'Supplied transcript'
+            links += f' · <a href="transcripts/{escape(r["transcript"], quote=True)}">{transcript_label}</a>'
         cards.append(f'<article class="story-card" id="{r["id"]}"><div class="eyebrow">{r["date"]} · Item {escape(r["item"])}</div><h3>{escape(r["title"])}</h3><p>{escape(r["summary"])}</p><p><strong>Evidence limit:</strong> {escape(r["limits"])}</p><p>{links}</p></article>')
     return START + '\n<section class="section compact alt" id="recent-council-findings"><div class="wrap"><div class="section-heading"><div><div class="eyebrow">Additional Council evidence</div><h2>Decisions and planning discussions</h2></div></div><p class="source-note">These dated findings use the linked minutes and, where available, supplied transcripts. Transcript timestamps are navigation aids; automatic transcription can misidentify names and numbers. Video playback has not been independently checked. Proposals and forecasts remain distinct from adopted budgets, payments and completed work.</p><div class="story-grid">' + '\n'.join(cards) + '</div></div></section>\n' + END
 

@@ -1,0 +1,471 @@
+{
+  "date": "2022-02-01",
+  "sourceFilename": "Agenda Packet 02.01.2022.pdf",
+  "packetPages": 842,
+  "packetArchiveUrl": "https://documents.beaumontintelligence.com/records/agenda-packets/2022-02-01/2022-02-01-city-council-agenda-package.pdf",
+  "agendaUrl": "https://documents.beaumontintelligence.com/official-documents/2022-02-01/agenda.pdf",
+  "agendaPageCount": 6,
+  "meetingStatus": "held",
+  "audit": {
+    "basis": "Supplied PDF bookmarks; historical City HTML agenda not independently audited",
+    "packetDocuments": 34,
+    "linkedDocuments": 34,
+    "officialHtmlAuditComplete": false
+  },
+  "items": [
+    {
+      "item": "1",
+      "section": "Consent",
+      "title": "Approval of Minutes",
+      "recommendation": "Approve Minutes dated January 18, 2022",
+      "outcomeStatus": "See 2022-q1-meeting-review.json"
+    },
+    {
+      "item": "2",
+      "section": "Consent",
+      "title": "Ratification of Warrants",
+      "recommendation": "Ratify Warrants dated: January 7, 2022, January 13, 2022, and January 20, 2022.",
+      "outcomeStatus": "See 2022-q1-meeting-review.json"
+    },
+    {
+      "item": "3",
+      "section": "Consent",
+      "title": "Re-Ratification of Local Emergency and Re-Authorizing the Use of Teleconferencing to Conduct Public Meetings",
+      "recommendation": "Waive the full reading and adopt by title only, “A Resolution of the City Council of the City of Beaumont Proclaiming a Local Emergency Persists, Re-Ratifying the Proclamation of a State of Emergency by Executive Order N-09-21, and Re- Authorizing Remote Teleconference Meetings of the Legislative Bodies of the City of Beaumont for the Period of February 1, 2022, through March 1, 2022, Pursuant to Provisions of the Ralph M. Brown Act.”",
+      "outcomeStatus": "See 2022-q1-meeting-review.json"
+    },
+    {
+      "item": "4",
+      "section": "Consent",
+      "title": "Resolution Approving the City of Beaumont Wastewater Master Plan",
+      "recommendation": "Waive the full reading and adopt by title only, “A Resolution of the City Council of the City of Beaumont Adoption of the Wastewater Master Plan.”",
+      "outcomeStatus": "See 2022-q1-meeting-review.json"
+    },
+    {
+      "item": "5",
+      "section": "Action",
+      "title": "Contract Amendment with Webb Municipal Finance, LLC for Annual Community Facilities District (CFD) Administration Services, Special Tax Consultant Services and Annual CFD Financial Reporting Services",
+      "recommendation": "Approve the Second Amendment to the contract with Webb Municipal Finance, LLC.",
+      "outcomeStatus": "See 2022-q1-meeting-review.json"
+    },
+    {
+      "item": "6",
+      "section": "Action",
+      "title": "Appointment to the Beaumont Planning Commission",
+      "recommendation": "Conduct interviews and a nomination process for selection of a Planning Commissioner for the partial term through December 2022.",
+      "outcomeStatus": "See 2022-q1-meeting-review.json"
+    },
+    {
+      "item": "7",
+      "section": "Action",
+      "title": "Presentation/Update of the Police Station Feasibility Study and Direction from City Council",
+      "recommendation": "Approval of the Draft Space Needs Assessment.",
+      "outcomeStatus": "See 2022-q1-meeting-review.json"
+    },
+    {
+      "item": "8",
+      "section": "Action",
+      "title": "Approve the Purchase and Installation of Mobile View Camera System on 18 Public Transportation Buses, Not to Exceed $110,000",
+      "recommendation": "Approve the purchase of a Mobile View camera system in an amount not to exceed $110,000 as part of capital improvement project CIP T-08 and authorize City staff to issue a purchase order for the procurement and installation of camera systems on 18 Beaumont Transit buses.",
+      "outcomeStatus": "See 2022-q1-meeting-review.json"
+    },
+    {
+      "item": "9",
+      "section": "Action",
+      "title": "Transit Capital Improvement Project Update",
+      "recommendation": "Receive and file the Transit Capital Improvement update.",
+      "outcomeStatus": "See 2022-q1-meeting-review.json"
+    },
+    {
+      "item": "10",
+      "section": "Action",
+      "title": "Update of the Department of Building and Safety",
+      "recommendation": "Receive and file.",
+      "outcomeStatus": "See 2022-q1-meeting-review.json"
+    },
+    {
+      "item": "11",
+      "section": "Action",
+      "title": "City Hall Renovation Update",
+      "recommendation": "Receive and file the Capital Improvement City Hall Update.",
+      "outcomeStatus": "See 2022-q1-meeting-review.json"
+    },
+    {
+      "item": "12",
+      "section": "Action",
+      "title": "Collections System CIP Project Update",
+      "recommendation": "Receive and file the Collection System CIP Project Update.",
+      "outcomeStatus": "See 2022-q1-meeting-review.json"
+    },
+    {
+      "item": "13",
+      "section": "Action",
+      "title": "First Amendment of an Agreement to Extend the Contract for Professional Services with Burrtec Waste Industries, Inc., to Provide Sludge Hauling Services for the Wastewater Treatment Plant",
+      "recommendation": "Approve the first amendment of an agreement to extend the existing contract for professional services with Burrtec Waste Industries, Inc., to provide sludge hauling services for the WWTP through April 30, 2023.",
+      "outcomeStatus": "See 2022-q1-meeting-review.json"
+    },
+    {
+      "item": "14",
+      "section": "Action",
+      "title": "Authorize Preliminary Discussions with the Beaumont – Cherry Valley Recreation & Park Improvement Corporation (Corporation) on a Collaborative Effort to Develop a Park Facility on 123 Acres on the North Side of Cherry Valley Boulevard and Formerly Known as the Danny Thomas Ranch",
+      "recommendation": "It is recommended that the City Council: Agree to begin preliminary discussions with the Beaumont – Cherry Valley Recreation and Park Improvement Corporation (Corporation) to explore how a future park facility at the Danny Thomas Ranch (DTR) site might mutually benefit both agencies, Appoint two City Council members to a 2 by 2 committee to meet with representatives of the Corporation, and Provide a report to the City Council when the City/District discussions have yielded tangible results.",
+      "outcomeStatus": "See 2022-q1-meeting-review.json"
+    },
+    {
+      "item": "15",
+      "section": "Action",
+      "title": "Authorize Fifth Amendment to the City Manager Employment Agreement",
+      "recommendation": "Authorize the Mayor to execute the Fifth Amendment to the City Manager Employment Agreement.",
+      "outcomeStatus": "See 2022-q1-meeting-review.json"
+    },
+    {
+      "item": "16",
+      "section": "Reports",
+      "title": "December 2021 Department Project Updates",
+      "recommendation": "",
+      "outcomeStatus": "See 2022-q1-meeting-review.json"
+    }
+  ],
+  "documents": [
+    {
+      "item": "1",
+      "section": "Consent",
+      "title": "CC Minutes 01.18.2022",
+      "itemTitle": "Approval of Minutes",
+      "packet_page_start": 7,
+      "packet_page_end": 14,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-02-01/item-1-01.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "2",
+      "section": "Consent",
+      "title": "Warrants 01.07.22",
+      "itemTitle": "Ratification of Warrants",
+      "packet_page_start": 15,
+      "packet_page_end": 27,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-02-01/item-2-01.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "2",
+      "section": "Consent",
+      "title": "Warrants 01.13.22",
+      "itemTitle": "Ratification of Warrants",
+      "packet_page_start": 28,
+      "packet_page_end": 37,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-02-01/item-2-02.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "2",
+      "section": "Consent",
+      "title": "Warrants 01.20.22",
+      "itemTitle": "Ratification of Warrants",
+      "packet_page_start": 38,
+      "packet_page_end": 46,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-02-01/item-2-03.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "3",
+      "section": "Consent",
+      "title": "Staff Report - Re-Ratifying Remote Teleconference Meetings",
+      "itemTitle": "Re-Ratification of Local Emergency and Re-Authorizing the Use of Teleconferencing to Conduct Public Meetings",
+      "packet_page_start": 47,
+      "packet_page_end": 50,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-02-01/item-3-01.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "3",
+      "section": "Consent",
+      "title": "Resolution Re AB 361 - Subsequent Adoption",
+      "itemTitle": "Re-Ratification of Local Emergency and Re-Authorizing the Use of Teleconferencing to Conduct Public Meetings",
+      "packet_page_start": 51,
+      "packet_page_end": 53,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-02-01/item-3-02.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "4",
+      "section": "Consent",
+      "title": "Staff Report - WWMP adoption",
+      "itemTitle": "Resolution Approving the City of Beaumont Wastewater Master Plan",
+      "packet_page_start": 54,
+      "packet_page_end": 55,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-02-01/item-4-01.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "4",
+      "section": "Consent",
+      "title": "Attachment A - WWMP Presentation",
+      "itemTitle": "Resolution Approving the City of Beaumont Wastewater Master Plan",
+      "packet_page_start": 56,
+      "packet_page_end": 104,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-02-01/item-4-02.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "4",
+      "section": "Consent",
+      "title": "Attachment B - Resolution Adopting WWMP",
+      "itemTitle": "Resolution Approving the City of Beaumont Wastewater Master Plan",
+      "packet_page_start": 105,
+      "packet_page_end": 105,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-02-01/item-4-03.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "4",
+      "section": "Consent",
+      "title": "Attachment C - Beaumont Draft WWMP Report",
+      "itemTitle": "Resolution Approving the City of Beaumont Wastewater Master Plan",
+      "packet_page_start": 106,
+      "packet_page_end": 627,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-02-01/item-4-04.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "5",
+      "section": "Action",
+      "title": "Staff Report - Webb Municipal Finance LLC Contract Extension HS",
+      "itemTitle": "Contract Amendment with Webb Municipal Finance, LLC for Annual Community Facilities District (CFD) Administration Services, Special Tax Consultant Services and Annual CFD Financial Reporting Services",
+      "packet_page_start": 628,
+      "packet_page_end": 629,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-02-01/item-5-01.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "5",
+      "section": "Action",
+      "title": "Attachment A - Webb Contract 03.01.18 Beaumont - Executed",
+      "itemTitle": "Contract Amendment with Webb Municipal Finance, LLC for Annual Community Facilities District (CFD) Administration Services, Special Tax Consultant Services and Annual CFD Financial Reporting Services",
+      "packet_page_start": 630,
+      "packet_page_end": 638,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-02-01/item-5-02.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "5",
+      "section": "Action",
+      "title": "Attachment B - Prof Services Amendment Agreement",
+      "itemTitle": "Contract Amendment with Webb Municipal Finance, LLC for Annual Community Facilities District (CFD) Administration Services, Special Tax Consultant Services and Annual CFD Financial Reporting Services",
+      "packet_page_start": 639,
+      "packet_page_end": 640,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-02-01/item-5-03.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "5",
+      "section": "Action",
+      "title": "Attachment C - Beaumont Annual Admin FY 2022-23",
+      "itemTitle": "Contract Amendment with Webb Municipal Finance, LLC for Annual Community Facilities District (CFD) Administration Services, Special Tax Consultant Services and Annual CFD Financial Reporting Services",
+      "packet_page_start": 641,
+      "packet_page_end": 642,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-02-01/item-5-04.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "6",
+      "section": "Action",
+      "title": "Staff Report - Planning Commission Appointment",
+      "itemTitle": "Appointment to the Beaumont Planning Commission",
+      "packet_page_start": 643,
+      "packet_page_end": 643,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-02-01/item-6-01.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "6",
+      "section": "Action",
+      "title": "Attachment A - Planning Comm Apps - Redacted",
+      "itemTitle": "Appointment to the Beaumont Planning Commission",
+      "packet_page_start": 644,
+      "packet_page_end": 674,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-02-01/item-6-02.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "7",
+      "section": "Action",
+      "title": "Staff Report - PD Feasibility",
+      "itemTitle": "Presentation/Update of the Police Station Feasibility Study and Direction from City Council",
+      "packet_page_start": 675,
+      "packet_page_end": 677,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-02-01/item-7-01.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "7",
+      "section": "Action",
+      "title": "Attachment A - PD Space Needs Assessment",
+      "itemTitle": "Presentation/Update of the Police Station Feasibility Study and Direction from City Council",
+      "packet_page_start": 678,
+      "packet_page_end": 758,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-02-01/item-7-02.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "8",
+      "section": "Action",
+      "title": "Staff Report - Transit Camera System",
+      "itemTitle": "Approve the Purchase and Installation of Mobile View Camera System on 18 Public Transportation Buses, Not to Exceed $110,000",
+      "packet_page_start": 759,
+      "packet_page_end": 759,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-02-01/item-8-01.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "8",
+      "section": "Action",
+      "title": "Attachment A - Quote",
+      "itemTitle": "Approve the Purchase and Installation of Mobile View Camera System on 18 Public Transportation Buses, Not to Exceed $110,000",
+      "packet_page_start": 760,
+      "packet_page_end": 766,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-02-01/item-8-02.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "9",
+      "section": "Action",
+      "title": "Staff Report - Transit CIP Project Updates",
+      "itemTitle": "Transit Capital Improvement Project Update",
+      "packet_page_start": 767,
+      "packet_page_end": 770,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-02-01/item-9-01.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "10",
+      "section": "Action",
+      "title": "Staff Report - Update of the Department of Building and Safety",
+      "itemTitle": "Update of the Department of Building and Safety",
+      "packet_page_start": 771,
+      "packet_page_end": 773,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-02-01/item-10-01.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "11",
+      "section": "Action",
+      "title": "Staff Report - City Hall Reno Update",
+      "itemTitle": "City Hall Renovation Update",
+      "packet_page_start": 774,
+      "packet_page_end": 775,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-02-01/item-11-01.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "12",
+      "section": "Action",
+      "title": "Staff Report - Collections CIP",
+      "itemTitle": "Collections System CIP Project Update",
+      "packet_page_start": 776,
+      "packet_page_end": 780,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-02-01/item-12-01.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "13",
+      "section": "Action",
+      "title": "Staff Report - Burrtec Extension of Service",
+      "itemTitle": "First Amendment of an Agreement to Extend the Contract for Professional Services with Burrtec Waste Industries, Inc., to Provide Sludge Hauling Services for the Wastewater Treatment Plant",
+      "packet_page_start": 781,
+      "packet_page_end": 782,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-02-01/item-13-01.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "13",
+      "section": "Action",
+      "title": "Attachment A - Professional Services Agreement - Burrtec - 04-16-19",
+      "itemTitle": "First Amendment of an Agreement to Extend the Contract for Professional Services with Burrtec Waste Industries, Inc., to Provide Sludge Hauling Services for the Wastewater Treatment Plant",
+      "packet_page_start": 783,
+      "packet_page_end": 793,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-02-01/item-13-02.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "13",
+      "section": "Action",
+      "title": "Attachment B - Letter Agreement and Waiver of Escalator Rate",
+      "itemTitle": "First Amendment of an Agreement to Extend the Contract for Professional Services with Burrtec Waste Industries, Inc., to Provide Sludge Hauling Services for the Wastewater Treatment Plant",
+      "packet_page_start": 794,
+      "packet_page_end": 795,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-02-01/item-13-03.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "13",
+      "section": "Action",
+      "title": "Attachment C - Extension Letter 12 02 21",
+      "itemTitle": "First Amendment of an Agreement to Extend the Contract for Professional Services with Burrtec Waste Industries, Inc., to Provide Sludge Hauling Services for the Wastewater Treatment Plant",
+      "packet_page_start": 796,
+      "packet_page_end": 796,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-02-01/item-13-04.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "13",
+      "section": "Action",
+      "title": "Attachment D - First Amendment to Professional Services Agreement (Burrtec)",
+      "itemTitle": "First Amendment of an Agreement to Extend the Contract for Professional Services with Burrtec Waste Industries, Inc., to Provide Sludge Hauling Services for the Wastewater Treatment Plant",
+      "packet_page_start": 797,
+      "packet_page_end": 798,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-02-01/item-13-05.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "14",
+      "section": "Action",
+      "title": "Staff Report - DTR Discussions",
+      "itemTitle": "Authorize Preliminary Discussions with the Beaumont – Cherry Valley Recreation & Park Improvement Corporation (Corporation) on a Collaborative Effort to Develop a Park Facility on 123 Acres on the North Side of Cherry Valley Boulevard and Formerly Known as the Danny Thomas Ranch",
+      "packet_page_start": 799,
+      "packet_page_end": 800,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-02-01/item-14-01.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "14",
+      "section": "Action",
+      "title": "Attachment A - BCVRPIC Letter - January 12 2022",
+      "itemTitle": "Authorize Preliminary Discussions with the Beaumont – Cherry Valley Recreation & Park Improvement Corporation (Corporation) on a Collaborative Effort to Develop a Park Facility on 123 Acres on the North Side of Cherry Valley Boulevard and Formerly Known as the Danny Thomas Ranch",
+      "packet_page_start": 801,
+      "packet_page_end": 801,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-02-01/item-14-02.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "15",
+      "section": "Action",
+      "title": "Staff Report - 5th Amendment CM Employment Agreement",
+      "itemTitle": "Authorize Fifth Amendment to the City Manager Employment Agreement",
+      "packet_page_start": 802,
+      "packet_page_end": 802,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-02-01/item-15-01.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "15",
+      "section": "Action",
+      "title": "Attachment A - Fifth Amendment to Agreement",
+      "itemTitle": "Authorize Fifth Amendment to the City Manager Employment Agreement",
+      "packet_page_start": 803,
+      "packet_page_end": 804,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-02-01/item-15-02.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "16",
+      "section": "Reports",
+      "title": "Dec 2021 Project Updates",
+      "itemTitle": "December 2021 Department Project Updates",
+      "packet_page_start": 805,
+      "packet_page_end": 842,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-02-01/item-16-01.pdf",
+      "officialUrl": null
+    }
+  ]
+}

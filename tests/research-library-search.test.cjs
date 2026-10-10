@@ -43,6 +43,9 @@ const records = [
 records.push({ title: '2020 Council minutes', url: 'https://documents.beaumontintelligence.com/minutes.pdf', date: '2020-11-03', topic: 'council', type: 'Meeting minutes', body: 'WRCOG lawsuit authorization' });
 records.push({ title: 'Workshop Word original', url: 'https://documents.beaumontintelligence.com/workshop-minutes.docx', date: '2025-04-22', topic: 'council', type: 'Meeting minutes', body: 'workshop budget' });
 records.push({ title: '2016 Council minutes compilation', url: 'https://documents.beaumontintelligence.com/2016-minutes.pdf', date: '', topic: 'council', type: 'Meeting minutes', body: 'Norton Rose legal matter', annualCompilation: true, textPages: ['unrelated page', 'Norton Rose legal matter'], pageDates: ['2016-06-07', '2016-06-21'] });
+records.push({title: 'Stewart RFP', url: '../briefings/2022-01-18-sources.html#item-17', date: '2022-01-18', topic: 'parks', type: 'Agenda item', body: 'Stewart solicitation'});
+records.push({title: 'Council evidence', url: '../stewart-park-council-actions.html#q1', date: '2022-01-18', topic: 'parks', type: 'Council evidence summary', body: 'Stewart evidence'});
+records.push({title: 'January transcript', url: '../transcripts/reader.html?date=2022-01-18', date: '2022-01-18', topic: 'council', type: 'Meeting transcript', body: '(04:52:53) Stewart solicitation'});
 const context = vm.createContext({ window: { BI_RESEARCH_LIBRARY: records }, document, URL, console });
 vm.runInContext(fs.readFileSync('docs/documents/library-search.js', 'utf8'), context);
 
@@ -94,4 +97,12 @@ assert.match(topics.results.innerHTML, /page=2/);
 assert.doesNotMatch(topics.results.innerHTML, /June 7, 2016/);
 search.value = 'absent phrase'; search.listeners.input();
 assert.match(topics.results.innerHTML, /No minutes/);
+modes[2].checked = false; modes[0].checked = true; search.value = 'Stewart'; modes[0].listeners.change();
+assert.match(topics.results.innerHTML, /Open agenda item/);
+assert.match(topics.results.innerHTML, /Read evidence summary/);
+assert.match(topics.results.innerHTML, /href="..\/briefings\/2022-01-18-sources.html#item-17"/);
+assert.doesNotMatch(topics.results.innerHTML, /viewer.html/);
+modes[0].checked = false; modes[1].checked = true; modes[1].listeners.change();
+assert.match(topics.results.innerHTML, /Read transcript/);
+assert.match(topics.results.innerHTML, /href="..\/transcripts\/reader.html\?date=2022-01-18"/);
 console.log('Research Library documents, transcripts and minutes behavior passed.');

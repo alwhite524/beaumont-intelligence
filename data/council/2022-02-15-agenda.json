@@ -1,0 +1,626 @@
+{
+  "date": "2022-02-15",
+  "sourceFilename": "Agenda Packet 02.15.2022.pdf",
+  "packetPages": 470,
+  "packetArchiveUrl": "https://documents.beaumontintelligence.com/records/agenda-packets/2022-02-15/2022-02-15-city-council-agenda-package.pdf",
+  "agendaUrl": "https://documents.beaumontintelligence.com/official-documents/2022-02-15/agenda.pdf",
+  "agendaPageCount": 7,
+  "meetingStatus": "held",
+  "audit": {
+    "basis": "Supplied PDF bookmarks; historical City HTML agenda not independently audited",
+    "packetDocuments": 46,
+    "linkedDocuments": 46,
+    "officialHtmlAuditComplete": false
+  },
+  "items": [
+    {
+      "item": "1",
+      "section": "Presentation",
+      "title": "Retirement Recognition of Building Official Pedro Rico",
+      "recommendation": "",
+      "outcomeStatus": "See 2022-q1-meeting-review.json"
+    },
+    {
+      "item": "2",
+      "section": "Consent",
+      "title": "Approval of Minutes",
+      "recommendation": "Approve Minutes dated February 1, 2022.",
+      "outcomeStatus": "See 2022-q1-meeting-review.json"
+    },
+    {
+      "item": "3",
+      "section": "Consent",
+      "title": "Ratification of Warrants",
+      "recommendation": "Ratify Warrants dated: January 27, 2022, and February 4, 2022.",
+      "outcomeStatus": "See 2022-q1-meeting-review.json"
+    },
+    {
+      "item": "4",
+      "section": "Consent",
+      "title": "Authorize Staff to Issue a Bond Exoneration Letter for Performance and Payment Bond No. 30120819 for Street Improvements and Accept Maintenance Bond No. 30120819-M",
+      "recommendation": "Authorize City staff to issue a Bond Exoneration Letter for Performance and Payment Bonds No. 30120819 for Street Improvements and Accept Maintenance Bond No. 30120819-M.",
+      "outcomeStatus": "See 2022-q1-meeting-review.json"
+    },
+    {
+      "item": "5",
+      "section": "Public Hearing",
+      "title": "Tax Equity and Fiscal Responsibility Act (TEFRA) Hearing for Noble Creek Apartments",
+      "recommendation": "Conduct a Tax Equity and Fiscal Responsibility Act Hearing in consideration of the issuance of tax-exempt bond financing by the California Statewide Communities Development Authority for the benefit of HPD Noble Creek II LP, to provide financing for the acquisition, rehabilitation, improvement, and equipping of a 108-unit multifamily rental housing project generally known as Noble Creek Apartments; and Waive the full reading and adopt by title only, A Resolution of the City Council of the City of Beaumont Approving the Issuance by the California Statewide Communities Development Authority of Multi-Family Housing Revenue Bonds for the Noble Creek Apartments.”",
+      "outcomeStatus": "See 2022-q1-meeting-review.json"
+    },
+    {
+      "item": "6",
+      "section": "Public Hearing",
+      "title": "Public Hearing and First Reading to Approve an Addition to Municipal Code Section 1.16 “General Penalty” Adding Penalties for the Possession and Use of Illegal Fireworks",
+      "recommendation": "Hold a public hearing, and Waive the full first reading and approve by title only, “An Ordinance of the City of Beaumont Amending the Beaumont Municipal Code Chapter 1.16 Entitled ‘General Penalty’ and Making Findings Pursuant to the California Environmental Quality Act.”",
+      "outcomeStatus": "See 2022-q1-meeting-review.json"
+    },
+    {
+      "item": "7",
+      "section": "Action",
+      "title": "Approve the Sponsorship of the 2022 Beaumont Cherry Festival and Allocate $100,000 from Recreation Programs Account No. 100-1550-7040-0000",
+      "recommendation": "Approve the sponsorship of the 2022 Beaumont Cherry Festival and allocate $100,000 from the Recreation Programs Account No. 100-1550-7040-0000.",
+      "outcomeStatus": "See 2022-q1-meeting-review.json"
+    },
+    {
+      "item": "8",
+      "section": "Action",
+      "title": "Consider Non-Binding Memorandum of Understanding Between the City of Beaumont and the Beaumont-Cherry Valley Recreation & Park Corporation (Corporation) to Collaborate on Development of a Regional Park at the Danny Thomas Ranch",
+      "recommendation": "It is recommended that the City Council approve the non-binding memorandum of understanding between the City of Beaumont and the Beaumont – Cherry Valley Recreation & Park Corporation to collaborate on development of a regional park at the Danny Thomas Ranch.",
+      "outcomeStatus": "See 2022-q1-meeting-review.json"
+    },
+    {
+      "item": "9",
+      "section": "Action",
+      "title": "Subscription Renewal Amendment for Dossier Systems Vehicle Repair Order Program",
+      "recommendation": "Approve the renewal and additional enhancements of Dossier in an amount not to exceed $34,787.06, Authorize the City Manager to execute the Dossier On-Demand Order Form, and Authorize City staff to execute a purchase order in an amount not to exceed $34,787.06.",
+      "outcomeStatus": "See 2022-q1-meeting-review.json"
+    },
+    {
+      "item": "10",
+      "section": "Action",
+      "title": "Consider Resolution Adopting a Policy Statement to Encourage but Not Mandate or Require Contractors to “Hire Locally” and Use a “Skilled and Trained Workforce” within the Meaning of Public Contract Code Section 2601(d) for Any Construction Activities Related to an “Apprenticeable Occupation” Pursuant to Public Contract Code Section 2601(a) for Projects 30,000 Square Feet or Larger",
+      "recommendation": "The following options are provided for City Council’s consideration: 1. Waive the full reading and adopt the resolution by title only, “A Resolution of the City Council of the City of Beaumont, California, Adopting a Policy Statement to Encourage but Not Mandate or Require Contractors to “Hire Locally” and Use a “Skilled and Trained Workforce” within the Meaning of Public Contract Code Section 2601(d) for Any Construction Activities Related to an “Apprenticeable Occupation” Pursuant to Public Contract Code Section 2601(a) for Projects 30,000 Square Feet or Larger,” or 2. Do not approve resolution and provide staff with further direction.",
+      "outcomeStatus": "See 2022-q1-meeting-review.json"
+    },
+    {
+      "item": "11",
+      "section": "Action",
+      "title": "Award a Professional Services Agreement to Albert A. Webb Associates to Provide Engineering and Design Services for the Beaumont Mesa Lift Station and Force Main Project in an Amount Not to Exceed $536,785",
+      "recommendation": "Award a Professional Services Agreement to Albert A. Webb Associates to provide engineering and design services for the Beaumont Mesa Lift Station and Force Main Project in an amount not to exceed $536,785.",
+      "outcomeStatus": "See 2022-q1-meeting-review.json"
+    },
+    {
+      "item": "12",
+      "section": "Action",
+      "title": "Approval of the First Amendment to the Professional Services Agreement with Chambers Group, Inc., for Environmental Documentation Services for the West Side Fire Station Project in the Amount of $34,613, with the Total Contract Amount Not to Exceed $59,506",
+      "recommendation": "Approve the First Amendment to the Professional Services Agreement with Chambers Group, Inc., for environmental documentation services for the West Side Fire Station Project in the amount of $34,613, with the total contract amount not to exceed $59,506.",
+      "outcomeStatus": "See 2022-q1-meeting-review.json"
+    },
+    {
+      "item": "13",
+      "section": "Action",
+      "title": "Authorize the Purchase of Trimble S7 Survey Equipment with California Surveying and Drafting Supply in an Amount Not to Exceed $44,031.88",
+      "recommendation": "Approve and authorize the issuance of a purchase order to California Surveying Drafting Supply for Trimble S7 Survey Equipment in the amount of $44,031.88.",
+      "outcomeStatus": "See 2022-q1-meeting-review.json"
+    },
+    {
+      "item": "14",
+      "section": "Action",
+      "title": "Procedure for Addressing Public Requests for Traffic Related Safety Concerns",
+      "recommendation": "Approve the procedure for addressing public requests for traffic related safety concerns.",
+      "outcomeStatus": "See 2022-q1-meeting-review.json"
+    },
+    {
+      "item": "15",
+      "section": "Action",
+      "title": "Food Trucks and Motorized, Mobile Food Vendor Standards",
+      "recommendation": "Hold discussion and provide direction to staff on preparing an ordinance for the regulation of food trucks.",
+      "outcomeStatus": "See 2022-q1-meeting-review.json"
+    },
+    {
+      "item": "16",
+      "section": "Action",
+      "title": "Review and Approve the City of Beaumont 2022 Legislative Platform",
+      "recommendation": "Hold discussion and approve the 2022 Legislative Platform.",
+      "outcomeStatus": "See 2022-q1-meeting-review.json"
+    },
+    {
+      "item": "17",
+      "section": "Action",
+      "title": "Request City Council to Approve the Memorandum of Understanding between the City of Beaumont and Police Managers as Individuals",
+      "recommendation": "Approve the Memorandum of Understanding between the City of Beaumont and Police Managers as Individuals and authorize the City Manager to execute the agreement.",
+      "outcomeStatus": "See 2022-q1-meeting-review.json"
+    },
+    {
+      "item": "18",
+      "section": "Action",
+      "title": "Approval of Compensation Plan and Salary Table",
+      "recommendation": "Approval of the Compensation Plan and Salary Table.",
+      "outcomeStatus": "See 2022-q1-meeting-review.json"
+    },
+    {
+      "item": "19",
+      "section": "Action",
+      "title": "Approval of City Attorney Invoices for the Month of January 2022",
+      "recommendation": "Approve invoices in the amount of $149,284.06.",
+      "outcomeStatus": "See 2022-q1-meeting-review.json"
+    },
+    {
+      "item": "20",
+      "section": "Reports",
+      "title": "Current Pending Litigation",
+      "recommendation": "",
+      "outcomeStatus": "See 2022-q1-meeting-review.json"
+    },
+    {
+      "item": "21",
+      "section": "Reports",
+      "title": "Department Project Schedule Updates - January 2022",
+      "recommendation": "",
+      "outcomeStatus": "See 2022-q1-meeting-review.json"
+    }
+  ],
+  "documents": [
+    {
+      "item": "2",
+      "section": "Consent",
+      "title": "CC Minutes 02.01.2022",
+      "itemTitle": "Approval of Minutes",
+      "packet_page_start": 8,
+      "packet_page_end": 14,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-02-15/item-2-01.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "3",
+      "section": "Consent",
+      "title": "20220127 warrants",
+      "itemTitle": "Ratification of Warrants",
+      "packet_page_start": 15,
+      "packet_page_end": 27,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-02-15/item-3-01.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "3",
+      "section": "Consent",
+      "title": "20220204 warrants",
+      "itemTitle": "Ratification of Warrants",
+      "packet_page_start": 28,
+      "packet_page_end": 41,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-02-15/item-3-02.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "4",
+      "section": "Consent",
+      "title": "Staff Report - Bond-x PW2021-0737",
+      "itemTitle": "Authorize Staff to Issue a Bond Exoneration Letter for Performance and Payment Bond No. 30120819 for Street Improvements and Accept Maintenance Bond No. 30120819-M",
+      "packet_page_start": 42,
+      "packet_page_end": 44,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-02-15/item-4-01.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "4",
+      "section": "Consent",
+      "title": "Att A - Maintenance Bond 30120819-M, Approved Punchlist and Bond Exo App PW2021-0737",
+      "itemTitle": "Authorize Staff to Issue a Bond Exoneration Letter for Performance and Payment Bond No. 30120819 for Street Improvements and Accept Maintenance Bond No. 30120819-M",
+      "packet_page_start": 45,
+      "packet_page_end": 79,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-02-15/item-4-02.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "5",
+      "section": "Public Hearing",
+      "title": "Staff Report - TEFRA Hearing Noble Creek Apts",
+      "itemTitle": "Tax Equity and Fiscal Responsibility Act (TEFRA) Hearing for Noble Creek Apartments",
+      "packet_page_start": 80,
+      "packet_page_end": 82,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-02-15/item-5-01.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "5",
+      "section": "Public Hearing",
+      "title": "Attachment A - Notice of Public Hearing",
+      "itemTitle": "Tax Equity and Fiscal Responsibility Act (TEFRA) Hearing for Noble Creek Apartments",
+      "packet_page_start": 83,
+      "packet_page_end": 83,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-02-15/item-5-02.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "5",
+      "section": "Public Hearing",
+      "title": "Attachment B - Resolution",
+      "itemTitle": "Tax Equity and Fiscal Responsibility Act (TEFRA) Hearing for Noble Creek Apartments",
+      "packet_page_start": 84,
+      "packet_page_end": 86,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-02-15/item-5-03.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "6",
+      "section": "Public Hearing",
+      "title": "Staff Report Fireworks Ordinance",
+      "itemTitle": "Public Hearing and First Reading to Approve an Addition to Municipal Code Section 1.16 “General Penalty” Adding Penalties for the Possession and Use of Illegal Fireworks",
+      "packet_page_start": 87,
+      "packet_page_end": 88,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-02-15/item-6-01.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "6",
+      "section": "Public Hearing",
+      "title": "Attachment A - Ordinance Re Penalties Re Fireworks",
+      "itemTitle": "Public Hearing and First Reading to Approve an Addition to Municipal Code Section 1.16 “General Penalty” Adding Penalties for the Possession and Use of Illegal Fireworks",
+      "packet_page_start": 89,
+      "packet_page_end": 90,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-02-15/item-6-02.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "6",
+      "section": "Public Hearing",
+      "title": "Attachment B - Exhibit A to Ordinance",
+      "itemTitle": "Public Hearing and First Reading to Approve an Addition to Municipal Code Section 1.16 “General Penalty” Adding Penalties for the Possession and Use of Illegal Fireworks",
+      "packet_page_start": 91,
+      "packet_page_end": 92,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-02-15/item-6-03.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "6",
+      "section": "Public Hearing",
+      "title": "Attachment C - Media Public Notice",
+      "itemTitle": "Public Hearing and First Reading to Approve an Addition to Municipal Code Section 1.16 “General Penalty” Adding Penalties for the Possession and Use of Illegal Fireworks",
+      "packet_page_start": 93,
+      "packet_page_end": 93,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-02-15/item-6-04.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "7",
+      "section": "Action",
+      "title": "Staff Report - Cherry Festival Sponsorship",
+      "itemTitle": "Approve the Sponsorship of the 2022 Beaumont Cherry Festival and Allocate $100,000 from Recreation Programs Account No. 100-1550-7040-0000",
+      "packet_page_start": 94,
+      "packet_page_end": 94,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-02-15/item-7-01.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "8",
+      "section": "Action",
+      "title": "Staff Report - DTR MOU",
+      "itemTitle": "Consider Non-Binding Memorandum of Understanding Between the City of Beaumont and the Beaumont-Cherry Valley Recreation & Park Corporation (Corporation) to Collaborate on Development of a Regional Park at the Danny Thomas Ranch",
+      "packet_page_start": 95,
+      "packet_page_end": 96,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-02-15/item-8-01.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "8",
+      "section": "Action",
+      "title": "Draft Non-Binding MOU DTR 2-11-2022",
+      "itemTitle": "Consider Non-Binding Memorandum of Understanding Between the City of Beaumont and the Beaumont-Cherry Valley Recreation & Park Corporation (Corporation) to Collaborate on Development of a Regional Park at the Danny Thomas Ranch",
+      "packet_page_start": 97,
+      "packet_page_end": 99,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-02-15/item-8-02.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "9",
+      "section": "Action",
+      "title": "Staff Report - Dossier Subscription Renewal",
+      "itemTitle": "Subscription Renewal Amendment for Dossier Systems Vehicle Repair Order Program",
+      "packet_page_start": 100,
+      "packet_page_end": 101,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-02-15/item-9-01.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "9",
+      "section": "Action",
+      "title": "Attachment A - Original Agreement",
+      "itemTitle": "Subscription Renewal Amendment for Dossier Systems Vehicle Repair Order Program",
+      "packet_page_start": 102,
+      "packet_page_end": 122,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-02-15/item-9-02.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "9",
+      "section": "Action",
+      "title": "Attachment B- On Demand Order Form",
+      "itemTitle": "Subscription Renewal Amendment for Dossier Systems Vehicle Repair Order Program",
+      "packet_page_start": 123,
+      "packet_page_end": 123,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-02-15/item-9-03.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "10",
+      "section": "Action",
+      "title": "Staff Report - Carpenters Union Resolution",
+      "itemTitle": "Consider Resolution Adopting a Policy Statement to Encourage but Not Mandate or Require Contractors to “Hire Locally” and Use a “Skilled and Trained Workforce” within the Meaning of Public Contract Code Section 2601(d) for Any Construction Activities Related to an “Apprenticeable Occupation” Pursuant to Public Contract Code Section 2601(a) for Projects 30,000 Square Feet or Larger",
+      "packet_page_start": 124,
+      "packet_page_end": 126,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-02-15/item-10-01.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "10",
+      "section": "Action",
+      "title": "Resolution",
+      "itemTitle": "Consider Resolution Adopting a Policy Statement to Encourage but Not Mandate or Require Contractors to “Hire Locally” and Use a “Skilled and Trained Workforce” within the Meaning of Public Contract Code Section 2601(d) for Any Construction Activities Related to an “Apprenticeable Occupation” Pursuant to Public Contract Code Section 2601(a) for Projects 30,000 Square Feet or Larger",
+      "packet_page_start": 127,
+      "packet_page_end": 130,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-02-15/item-10-02.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "11",
+      "section": "Action",
+      "title": "Staff Report - Mesa Lift Station Design Award R1",
+      "itemTitle": "Award a Professional Services Agreement to Albert A. Webb Associates to Provide Engineering and Design Services for the Beaumont Mesa Lift Station and Force Main Project in an Amount Not to Exceed $536,785",
+      "packet_page_start": 131,
+      "packet_page_end": 134,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-02-15/item-11-01.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "11",
+      "section": "Action",
+      "title": "Attachment A - WEBB Professional Services Agreement",
+      "itemTitle": "Award a Professional Services Agreement to Albert A. Webb Associates to Provide Engineering and Design Services for the Beaumont Mesa Lift Station and Force Main Project in an Amount Not to Exceed $536,785",
+      "packet_page_start": 135,
+      "packet_page_end": 144,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-02-15/item-11-02.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "11",
+      "section": "Action",
+      "title": "Attachment B - WEBB Proposal",
+      "itemTitle": "Award a Professional Services Agreement to Albert A. Webb Associates to Provide Engineering and Design Services for the Beaumont Mesa Lift Station and Force Main Project in an Amount Not to Exceed $536,785",
+      "packet_page_start": 145,
+      "packet_page_end": 200,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-02-15/item-11-03.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "12",
+      "section": "Action",
+      "title": "Staff Report - Chambers Contract Amendment",
+      "itemTitle": "Approval of the First Amendment to the Professional Services Agreement with Chambers Group, Inc., for Environmental Documentation Services for the West Side Fire Station Project in the Amount of $34,613, with the Total Contract Amount Not to Exceed $59,506",
+      "packet_page_start": 201,
+      "packet_page_end": 203,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-02-15/item-12-01.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "12",
+      "section": "Action",
+      "title": "Chambers West Side Fire Environmental Contract",
+      "itemTitle": "Approval of the First Amendment to the Professional Services Agreement with Chambers Group, Inc., for Environmental Documentation Services for the West Side Fire Station Project in the Amount of $34,613, with the Total Contract Amount Not to Exceed $59,506",
+      "packet_page_start": 204,
+      "packet_page_end": 219,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-02-15/item-12-02.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "12",
+      "section": "Action",
+      "title": "1st Amendment to Chamber PSA West Side Fire Station",
+      "itemTitle": "Approval of the First Amendment to the Professional Services Agreement with Chambers Group, Inc., for Environmental Documentation Services for the West Side Fire Station Project in the Amount of $34,613, with the Total Contract Amount Not to Exceed $59,506",
+      "packet_page_start": 220,
+      "packet_page_end": 222,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-02-15/item-12-03.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "12",
+      "section": "Action",
+      "title": "63757 Fire Station Project_CO_01-27-22",
+      "itemTitle": "Approval of the First Amendment to the Professional Services Agreement with Chambers Group, Inc., for Environmental Documentation Services for the West Side Fire Station Project in the Amount of $34,613, with the Total Contract Amount Not to Exceed $59,506",
+      "packet_page_start": 223,
+      "packet_page_end": 224,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-02-15/item-12-04.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "13",
+      "section": "Action",
+      "title": "Staff Report - Survey Equipment",
+      "itemTitle": "Authorize the Purchase of Trimble S7 Survey Equipment with California Surveying and Drafting Supply in an Amount Not to Exceed $44,031.88",
+      "packet_page_start": 225,
+      "packet_page_end": 226,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-02-15/item-13-01.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "13",
+      "section": "Action",
+      "title": "Att A - CSDS Quote",
+      "itemTitle": "Authorize the Purchase of Trimble S7 Survey Equipment with California Surveying and Drafting Supply in an Amount Not to Exceed $44,031.88",
+      "packet_page_start": 227,
+      "packet_page_end": 230,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-02-15/item-13-02.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "13",
+      "section": "Action",
+      "title": "Att B - State Contract 1-21-66-03",
+      "itemTitle": "Authorize the Purchase of Trimble S7 Survey Equipment with California Surveying and Drafting Supply in an Amount Not to Exceed $44,031.88",
+      "packet_page_start": 231,
+      "packet_page_end": 248,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-02-15/item-13-03.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "14",
+      "section": "Action",
+      "title": "Staff Report - Traffic Request Procedure",
+      "itemTitle": "Procedure for Addressing Public Requests for Traffic Related Safety Concerns",
+      "packet_page_start": 249,
+      "packet_page_end": 249,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-02-15/item-14-01.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "14",
+      "section": "Action",
+      "title": "Traffic Control Request Process",
+      "itemTitle": "Procedure for Addressing Public Requests for Traffic Related Safety Concerns",
+      "packet_page_start": 250,
+      "packet_page_end": 253,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-02-15/item-14-02.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "15",
+      "section": "Action",
+      "title": "Staff Report - Food Truck and Mobile Food Vendor Operations",
+      "itemTitle": "Food Trucks and Motorized, Mobile Food Vendor Standards",
+      "packet_page_start": 254,
+      "packet_page_end": 256,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-02-15/item-15-01.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "15",
+      "section": "Action",
+      "title": "Attachment A - DRAFT Language",
+      "itemTitle": "Food Trucks and Motorized, Mobile Food Vendor Standards",
+      "packet_page_start": 257,
+      "packet_page_end": 263,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-02-15/item-15-02.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "15",
+      "section": "Action",
+      "title": "Attachment B - Special Event Application",
+      "itemTitle": "Food Trucks and Motorized, Mobile Food Vendor Standards",
+      "packet_page_start": 264,
+      "packet_page_end": 270,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-02-15/item-15-03.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "16",
+      "section": "Action",
+      "title": "CC 2.15.22 DRAFT 2022 Legislative Platform",
+      "itemTitle": "Review and Approve the City of Beaumont 2022 Legislative Platform",
+      "packet_page_start": 271,
+      "packet_page_end": 273,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-02-15/item-16-01.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "16",
+      "section": "Action",
+      "title": "2022 DRAFT Legislative Platform",
+      "itemTitle": "Review and Approve the City of Beaumont 2022 Legislative Platform",
+      "packet_page_start": 274,
+      "packet_page_end": 279,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-02-15/item-16-02.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "17",
+      "section": "Action",
+      "title": "Staff Report - PD Managers MOU",
+      "itemTitle": "Request City Council to Approve the Memorandum of Understanding between the City of Beaumont and Police Managers as Individuals",
+      "packet_page_start": 280,
+      "packet_page_end": 281,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-02-15/item-17-01.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "17",
+      "section": "Action",
+      "title": "021122 PD Mgmt MOU Proposal - Draft 4",
+      "itemTitle": "Request City Council to Approve the Memorandum of Understanding between the City of Beaumont and Police Managers as Individuals",
+      "packet_page_start": 282,
+      "packet_page_end": 301,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-02-15/item-17-02.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "18",
+      "section": "Action",
+      "title": "Staff Report - Compensation Plan",
+      "itemTitle": "Approval of Compensation Plan and Salary Table",
+      "packet_page_start": 302,
+      "packet_page_end": 303,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-02-15/item-18-01.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "18",
+      "section": "Action",
+      "title": "Compensation Plan -Proposed",
+      "itemTitle": "Approval of Compensation Plan and Salary Table",
+      "packet_page_start": 304,
+      "packet_page_end": 305,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-02-15/item-18-02.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "18",
+      "section": "Action",
+      "title": "Salary Table",
+      "itemTitle": "Approval of Compensation Plan and Salary Table",
+      "packet_page_start": 306,
+      "packet_page_end": 310,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-02-15/item-18-03.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "18",
+      "section": "Action",
+      "title": "Beaumont Total Comp Survey",
+      "itemTitle": "Approval of Compensation Plan and Salary Table",
+      "packet_page_start": 311,
+      "packet_page_end": 422,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-02-15/item-18-04.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "19",
+      "section": "Action",
+      "title": "SBEMP Invoices - Jan 2022",
+      "itemTitle": "Approval of City Attorney Invoices for the Month of January 2022",
+      "packet_page_start": 423,
+      "packet_page_end": 434,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-02-15/item-19-01.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "20",
+      "section": "Reports",
+      "title": "2021.02.08 City of Beaumont Lit List",
+      "itemTitle": "Current Pending Litigation",
+      "packet_page_start": 435,
+      "packet_page_end": 435,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-02-15/item-20-01.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "21",
+      "section": "Reports",
+      "title": "Project Updates Jan. 2022",
+      "itemTitle": "Department Project Schedule Updates - January 2022",
+      "packet_page_start": 436,
+      "packet_page_end": 470,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-02-15/item-21-01.pdf",
+      "officialUrl": null
+    }
+  ]
+}

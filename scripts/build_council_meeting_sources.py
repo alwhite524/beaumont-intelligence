@@ -91,6 +91,14 @@ def meeting_records() -> list[dict[str, str | None]]:
         for video in json.loads(video_registry.read_text(encoding='utf-8'))['videos']:
             record = meetings.setdefault(video['date'], {'date': video['date'], 'video': None, 'packet': None})
             record['video'] = video['url']
+    for agenda in sorted((DOCS / 'briefings').glob('????-??-??-sources.html')):
+        date = agenda.name[:10]
+        record = meetings.setdefault(date, {'date': date, 'video': None, 'packet': None})
+        record['interactiveAgenda'] = 'briefings/' + agenda.name
+    for transcript in sorted((DOCS / 'transcripts').glob('2022-0[123]-*-city-council-transcript.txt')):
+        date = transcript.name[:10]
+        record = meetings.setdefault(date, {'date': date, 'video': None, 'packet': None})
+        record['transcript'] = 'transcripts/reader.html?date=' + date
     return sorted(meetings.values(), key=lambda item: item["date"], reverse=True)
 
 
