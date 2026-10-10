@@ -9,10 +9,11 @@ scripts = [
     "refresh_search_index.py",
     "build_2022_interactive_agendas.py",
     "build_council_meeting_sources.py",
-    "build_research_library_index.py",
     "build_wrcog_center.py",
     "build_recent_center_findings.py",
+    "build_center_archive_updates.py",
     "build_2015_11_03_agenda.py",
+    "build_research_library_index.py",
     "validate_database.py",
 ]
 for script in scripts:

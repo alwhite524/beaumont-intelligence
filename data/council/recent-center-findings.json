@@ -406,6 +406,76 @@
       "transcript": "",
       "agendaUrl": "briefings/2022-03-15-sources.html#item-14",
       "verification": "Archived minutes reviewed. Caption timestamps are approximate; audiovisual playback not independently checked."
+    },
+    {
+      "date": "2022-01-04",
+      "item": "6",
+      "center": "budget",
+      "page": "budget-council-actions.html",
+      "id": "q1-2022-01-04-6-budget",
+      "title": "Grant policies approved",
+      "summary": "Council unanimously approved the City grant policies and procedures.",
+      "limits": "Policy approval does not establish that a particular grant was awarded or spent.",
+      "videoUrl": "",
+      "transcript": null,
+      "agendaUrl": "briefings/2022-01-04-sources.html#item-6",
+      "verification": "Published agenda and reviewed minutes; automatic-caption timestamps are approximate and audiovisual playback has not been independently checked."
+    },
+    {
+      "date": "2022-03-01",
+      "item": "11",
+      "center": "budget",
+      "page": "budget-council-actions.html",
+      "id": "q1-2022-03-01-11-budget",
+      "title": "Grant-writing assistance authorized",
+      "summary": "Council unanimously approved a one-time $15,000 request for grant-writing assistance with Townsend Public Affairs and authorized execution of the agreement.",
+      "limits": "This is a service authorization, not a grant award or evidence of payment.",
+      "videoUrl": "https://www.youtube.com/watch?v=JlzlPmUnCp4&t=13831s",
+      "transcript": "2022-03-01-city-council-transcript.txt",
+      "agendaUrl": "briefings/2022-03-01-sources.html#item-11",
+      "verification": "Published agenda and reviewed minutes; automatic-caption timestamps are approximate and audiovisual playback has not been independently checked."
+    },
+    {
+      "date": "2022-03-01",
+      "item": "12",
+      "center": "budget",
+      "page": "budget-council-actions.html",
+      "id": "q1-2022-03-01-12-budget",
+      "title": "PARS 115 Trust investment policy approved",
+      "summary": "Council unanimously approved the PARS 115 Trust Investment Policy, following the January pension-policy decision.",
+      "limits": "Approval of an investment policy does not establish investment performance or subsequent contributions.",
+      "videoUrl": "https://www.youtube.com/watch?v=JlzlPmUnCp4&t=14037s",
+      "transcript": "2022-03-01-city-council-transcript.txt",
+      "agendaUrl": "briefings/2022-03-01-sources.html#item-12",
+      "verification": "Published agenda and reviewed minutes; automatic-caption timestamps are approximate and audiovisual playback has not been independently checked."
+    },
+    {
+      "date": "2022-03-01",
+      "item": "5",
+      "center": "police",
+      "page": "police-operations.html",
+      "id": "q1-2022-03-01-5-police",
+      "title": "Fireworks ordinance second reading adopted",
+      "summary": "Council approved the consent calendar, which included the second reading and adoption of the ordinance adding penalties for possession and use of illegal fireworks.",
+      "limits": "This historical adoption does not establish current fine amounts or enforcement results.",
+      "videoUrl": "https://www.youtube.com/watch?v=JlzlPmUnCp4&t=10768s",
+      "transcript": "2022-03-01-city-council-transcript.txt",
+      "agendaUrl": "briefings/2022-03-01-sources.html#item-5",
+      "verification": "Published agenda and reviewed minutes; automatic-caption timestamps are approximate and audiovisual playback has not been independently checked."
+    },
+    {
+      "date": "2022-03-15",
+      "item": "9",
+      "center": "downtown",
+      "page": "downtown-revitalization-council-actions.html",
+      "id": "q1-2022-03-15-9-downtown",
+      "title": "Food-truck ordinance first reading approved",
+      "summary": "Council unanimously approved the first reading of an ordinance adding Municipal Code Chapter 5.72, Food Trucks, following the February discussion.",
+      "limits": "This was a citywide proposal relevant to business activity; first-reading approval is not final adoption or evidence of a downtown-only rule.",
+      "videoUrl": "",
+      "transcript": null,
+      "agendaUrl": "briefings/2022-03-15-sources.html#item-9",
+      "verification": "Published agenda and reviewed minutes; automatic-caption timestamps are approximate and audiovisual playback has not been independently checked."
     }
   ]
 }
