@@ -1,6 +1,7 @@
 """Build the Council meeting video and agenda-packet source index."""
 from __future__ import annotations
 
+import hashlib
 import json
 import re
 from datetime import datetime
@@ -113,6 +114,17 @@ def main() -> None:
     compilations = [d for d in json.loads((ROOT / 'data/document-storage-manifest.json').read_text())['documents'] if re.fullmatch(r'official-documents/20\d{2}/20\d{2}-council-minutes\.pdf', d['path'])]
     with output.open('a', encoding='utf-8') as stream:
         stream.write('window.BI_COUNCIL_MINUTES_COMPILATIONS=' + json.dumps([{'year': d['path'].split('/')[1], 'url': d['url']} for d in compilations]) + ';\n')
+    # Change the asset URL with the catalog so returning visitors fetch updates.
+    version = hashlib.sha256(output.read_bytes()).hexdigest()[:12]
+    page = DOCS / 'council-meeting-sources.html'
+    html = page.read_text(encoding='utf-8')
+    html, replacements = re.subn(
+        r'council-meeting-sources\.js(?:\?v=[^"\s]*)?',
+        f'council-meeting-sources.js?v={version}', html,
+    )
+    if replacements != 1:
+        raise ValueError('Expected one meeting catalog script reference')
+    page.write_text(html, encoding='utf-8', newline='\n')
     print(f"Council meeting sources: {len(records)} meetings")
 
 
