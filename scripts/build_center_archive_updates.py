@@ -3,6 +3,7 @@ import json
 import re
 from html import escape
 from pathlib import Path
+from historical_meeting_reviews import load_reviews
 
 ROOT = Path(__file__).resolve().parents[1]
 DOCS = ROOT / 'docs'
@@ -27,9 +28,9 @@ def main():
             if r['center'] != center or not r['date'].startswith('2022-'):
                 continue
             cards.append(f'<article class="story-card"><div class="eyebrow">{r["date"]} · Item {escape(r["item"])}</div><h3>{escape(r["title"])}</h3><p>{escape(r["summary"])}</p><p><strong>Evidence limit:</strong> {escape(r["limits"])}</p><a href="{r["page"]}#{r["id"]}">Review decision and evidence →</a></article>')
-        publish(page, '<section class="section compact alt" id="early-2022-evidence"><div class="wrap"><h2>From the archive: January–March 2022</h2><p>Newly added historical evidence. These decisions describe the record at the time, not current project status.</p><div class="story-grid">' + ''.join(cards) + '</div></div></section>')
+        publish(page, '<section class="section compact alt" id="early-2022-evidence"><div class="wrap"><h2>From the archive: January–April 2022</h2><p>Newly added historical evidence. These decisions describe the record at the time, not current project status.</p><div class="story-grid">' + ''.join(cards) + '</div></div></section>')
 
-    review = json.loads((ROOT / 'data/council/2022-q1-meeting-review.json').read_text(encoding='utf-8'))
+    review = load_reviews()
     groups = {}
     for date, meeting in sorted(review.items()):
         agenda = json.loads((ROOT / f'data/council/{date}-agenda.json').read_text(encoding='utf-8'))
@@ -40,7 +41,7 @@ def main():
     sections = []
     for key, group in groups.items():
         sections.append(f'<details id="archive-{key}"><summary>{escape(group["label"])} · {len(group["links"])} agenda entries</summary><ul>' + ''.join(group['links']) + '</ul></details>')
-    publish('intelligence-centers.html', '<section class="section compact alt" id="early-2022-evidence"><div class="wrap"><h2>Explore the January–March 2022 Council archive</h2><p>Six newly added agendas organized by service area. Open an item for its published recommendation, separately recorded outcome, supporting documents in the BI viewer, and available transcript or video. Items can relate to more than one area; a listing does not imply approval.</p>' + ''.join(sections) + '</div></section>')
+    publish('intelligence-centers.html', '<section class="section compact alt" id="early-2022-evidence"><div class="wrap"><h2>Explore the January–April 2022 Council archive</h2><p>Seven collected agendas organized by service area. Open an item for its published recommendation, separately recorded outcome, supporting documents in the BI viewer, and available transcript or video. Items can relate to more than one area; a listing does not imply approval.</p>' + ''.join(sections) + '</div></section>')
     print(f'Updated four center landing pages and {len(groups)} service-area evidence groups.')
 
 

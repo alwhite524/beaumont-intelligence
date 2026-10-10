@@ -96,7 +96,7 @@ def meeting_records() -> list[dict[str, str | None]]:
         date = agenda.name[:10]
         record = meetings.setdefault(date, {'date': date, 'video': None, 'packet': None})
         record['interactiveAgenda'] = 'briefings/' + agenda.name
-    for transcript in sorted((DOCS / 'transcripts').glob('2022-0[123]-*-city-council-transcript.txt')):
+    for transcript in sorted((DOCS / 'transcripts').glob('2022-*-city-council-transcript.txt')):
         date = transcript.name[:10]
         record = meetings.setdefault(date, {'date': date, 'video': None, 'packet': None})
         record['transcript'] = 'transcripts/reader.html?date=' + date

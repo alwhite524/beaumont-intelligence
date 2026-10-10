@@ -1,4 +1,5 @@
 """Import the six supplied January-March 2022 bookmarked Council packets."""
+import argparse
 import json
 import re
 import shutil
@@ -13,9 +14,14 @@ def clean(text):
     return re.sub(r'\s+', ' ', text).strip()
 
 def main():
-    for date in DATES:
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--date', choices=DATES + ['2022-04-05'])
+    args = parser.parse_args()
+    for date in ([args.date] if args.date else DATES):
         token = date[5:7] + '.' + date[8:10]
         source = Path.home() / 'Downloads' / f'Agenda Packet {token}.2022.pdf'
+        if date == '2022-04-05':
+            source = Path.home() / 'Downloads' / 'CC 04 05 2022.pdf'
         reader = PdfReader(source)
         def walk(entries, depth=1):
             rows = []
@@ -50,7 +56,7 @@ def main():
             title, _, recommendation = body.partition('Recommended Action:')
             section = next((name for pos, name in sorted(sections, reverse=True) if pos < start), 'Presentation')
             items.append({'item': str(number), 'section': section, 'title': clean(title),
-                          'recommendation': clean(recommendation), 'outcomeStatus': 'See 2022-q1-meeting-review.json'})
+                          'recommendation': clean(recommendation), 'outcomeStatus': 'See 2022-04-meeting-review.json' if date == '2022-04-05' else 'See 2022-q1-meeting-review.json'})
         known = {x['item']: x for x in items}
         packet_key = f'records/agenda-packets/{date}/{date}-city-council-agenda-package.pdf'
         packet = ROOT / 'docs' / packet_key

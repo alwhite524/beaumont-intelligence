@@ -888,7 +888,8 @@
             "id": "finance-government",
             "label": "Finance & City Government"
           }
-        ]
+        ],
+        "timestampSeconds": 10058
       },
       "3": {
         "minutesRecord": "Consent calendar: motion by Lara, second by Fenn, to approve. Unanimous.",
@@ -897,7 +898,8 @@
             "id": "finance-government",
             "label": "Finance & City Government"
           }
-        ]
+        ],
+        "timestampSeconds": 10058
       },
       "4": {
         "minutesRecord": "Consent calendar: motion by Lara, second by Fenn, to approve. Unanimous.",
@@ -906,7 +908,8 @@
             "id": "growth-community-development",
             "label": "Growth & Community Development"
           }
-        ]
+        ],
+        "timestampSeconds": 10058
       },
       "5": {
         "minutesRecord": "Consent calendar: motion by Lara, second by Fenn, to approve. Unanimous.",
@@ -919,7 +922,8 @@
             "id": "utilities-environment",
             "label": "Utilities & Environment"
           }
-        ]
+        ],
+        "timestampSeconds": 10058
       },
       "6": {
         "minutesRecord": "Consent calendar: motion by Lara, second by Fenn, to approve. Unanimous.",
@@ -928,7 +932,8 @@
             "id": "finance-government",
             "label": "Finance & City Government"
           }
-        ]
+        ],
+        "timestampSeconds": 10058
       },
       "7": {
         "minutesRecord": "Consent calendar: motion by Lara, second by Fenn, to approve. Unanimous.",
@@ -937,7 +942,8 @@
             "id": "finance-government",
             "label": "Finance & City Government"
           }
-        ]
+        ],
+        "timestampSeconds": 10058
       },
       "8": {
         "minutesRecord": "Consent calendar: motion by Lara, second by Fenn, to approve. Unanimous.",
@@ -946,7 +952,8 @@
             "id": "finance-government",
             "label": "Finance & City Government"
           }
-        ]
+        ],
+        "timestampSeconds": 10058
       },
       "9": {
         "minutesRecord": "Motion by Mayor Pro Tem Martinez Second by Council Member Lara To waive the first full reading and approve by title only, “ An Ordinance of the City Council of the City of Beaumont adding Chapter 5.72 “ Food Trucks” to the Beaumont Municipal Code.” Approved by a unanimous vote.",
@@ -955,7 +962,8 @@
             "id": "economic-development",
             "label": "Economic Development"
           }
-        ]
+        ],
+        "timestampSeconds": 10105
       },
       "10": {
         "minutesRecord": "Motion by Mayor White Second by Council Member Lara To accept this report, select Option 3 as the City’ s preferred option, and authorize the City Council’ s representatives to initiate a 2 x 2 meeting with the Beaumont Cherry Valley Water District. Approved by a unanimous vote.",
@@ -964,7 +972,8 @@
             "id": "utilities-environment",
             "label": "Utilities & Environment"
           }
-        ]
+        ],
+        "timestampSeconds": 12488
       },
       "12": {
         "minutesRecord": "Motion by Mayor White Second by Council Member Fenn To speak with CVAN and the Pass Water Agency on the idea to move forward with a traffic study and re-evaluate amending conditions after the traffic study with a threshold of a level service C on the traffic impact. 27.c. The City shall not issue any final inspections or certificates of occupancy for the Project until compliance with the improvements contemplated by the Specific Plan set forth in the mitigation measures and approved by the City for the Project to the following streets and intersections: have been completed: the intersections of Beaumont Avenue and Oak Valley Parkway, Beaumont Avenue and Cougar Way, Beaumont Avenue and Brookside Avenue and Beaumont Avenue and Cherry Valley Boulevard. Specifically, the improvements will result in compliance with the level of service required in the mitigation measures approved by the City for the Project. Where the mitigation measures permit fair share fees in lieu of construction of improvements, payment of fair share fees shall constitute full compliance with the mitigation measures. Approved by a unanimous vote.",
@@ -977,7 +986,8 @@
             "id": "public-works-mobility",
             "label": "Public Works & Mobility"
           }
-        ]
+        ],
+        "timestampSeconds": 15048
       },
       "11": {
         "minutesRecord": "Motion by Mayor White Second by Council Member Fenn To receive and file presentation. Approved by a unanimous vote.",
@@ -986,7 +996,8 @@
             "id": "finance-government",
             "label": "Finance & City Government"
           }
-        ]
+        ],
+        "timestampSeconds": 17503
       },
       "13": {
         "minutesRecord": "Consensus to set the date for workshop of April 27, at 5:00 p.m.",
@@ -995,7 +1006,8 @@
             "id": "finance-government",
             "label": "Finance & City Government"
           }
-        ]
+        ],
+        "timestampSeconds": 17946
       },
       "14": {
         "minutesRecord": "Direction by Council to advertise for an industry expert in redevelopment of downtown, planning or engineering that have been part of developing a downtown.",
@@ -1004,7 +1016,8 @@
             "id": "economic-development",
             "label": "Economic Development"
           }
-        ]
+        ],
+        "timestampSeconds": 18114
       },
       "15": {
         "minutesRecord": "No action.",
@@ -1013,7 +1026,8 @@
             "id": "finance-government",
             "label": "Finance & City Government"
           }
-        ]
+        ],
+        "timestampSeconds": 18492
       },
       "16": {
         "minutesRecord": "Motion by Council Member Fenn Second by Council Member Santos To approve invoices in the amount of $154,376.60. Approved by a unanimous vote.",
@@ -1031,7 +1045,8 @@
             "id": "finance-government",
             "label": "Finance & City Government"
           }
-        ]
+        ],
+        "timestampSeconds": 19833
       },
       "18": {
         "minutesRecord": "No separate action recorded for this item in the minutes."
@@ -1046,6 +1061,7 @@
         ]
       }
     },
-    "note": "The minutes swap the numbering of Nvoicepay and Noble Creek Vistas (11 and 12); these outcomes are matched by subject to the published agenda numbers."
+    "note": "The minutes swap the numbering of Nvoicepay and Noble Creek Vistas (11 and 12); these outcomes are matched by subject to the published agenda numbers.",
+    "timestampNote": "Approximate video timestamps come from automatic captions. Item 12 was heard before item 11; timestamps retain the published agenda numbering. Audiovisual playback has not been independently checked."
   }
 }

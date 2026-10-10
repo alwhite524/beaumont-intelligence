@@ -3,6 +3,7 @@ import json
 from datetime import date
 from html import escape as esc
 from pathlib import Path
+from historical_meeting_reviews import load_reviews
 
 ROOT = Path(__file__).resolve().parents[1]
 DATES = ['2022-01-04','2022-01-18','2022-02-01','2022-02-15','2022-03-01','2022-03-15']
@@ -12,8 +13,8 @@ def button(url, title):
 
 def main():
     videos = {v['date']: v for v in json.loads((ROOT/'data/council/video-links.json').read_text(encoding='utf-8'))['videos']}
-    reviews = json.loads((ROOT/'data/council/2022-q1-meeting-review.json').read_text(encoding='utf-8'))
-    for day in DATES:
+    reviews = load_reviews()
+    for day in sorted(reviews):
         data = json.loads((ROOT/f'data/council/{day}-agenda.json').read_text(encoding='utf-8'))
         review = reviews[day]
         label = date.fromisoformat(day).strftime('%B %d, %Y').replace(' 0',' ')

@@ -104,6 +104,20 @@
       "url": "https://www.youtube.com/watch?v=JlzlPmUnCp4",
       "title": "City Council Meeting | March 1, 2022",
       "verificationStatus": "verified-youtube-metadata"
+    },
+    {
+      "date": "2022-04-05",
+      "url": "https://www.youtube.com/watch?v=jsKvsxMHhzM",
+      "title": "City Council Meeting | April 5, 2022",
+      "durationSeconds": 18844,
+      "verificationStatus": "verified-youtube-metadata-and-opening-captions"
+    },
+    {
+      "date": "2022-03-15",
+      "url": "https://www.youtube.com/watch?v=MGNpcNTADag",
+      "title": "City Council Meeting | March 15, 2022",
+      "durationSeconds": 20515,
+      "verificationStatus": "verified-youtube-metadata-and-opening-captions"
     }
   ]
 }

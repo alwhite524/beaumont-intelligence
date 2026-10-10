@@ -1,0 +1,619 @@
+{
+  "date": "2022-04-05",
+  "sourceFilename": "CC 04 05 2022.pdf",
+  "packetPages": 857,
+  "packetArchiveUrl": "https://documents.beaumontintelligence.com/records/agenda-packets/2022-04-05/2022-04-05-city-council-agenda-package.pdf",
+  "agendaUrl": "https://documents.beaumontintelligence.com/official-documents/2022-04-05/agenda.pdf",
+  "agendaPageCount": 6,
+  "meetingStatus": "held",
+  "audit": {
+    "basis": "Supplied PDF bookmarks; historical City HTML agenda not independently audited",
+    "packetDocuments": 50,
+    "linkedDocuments": 50,
+    "officialHtmlAuditComplete": false,
+    "officialMeetingUrl": "https://beaumont-ca.municodemeetings.com/citycouncil/page/city-council-closed-regular-session-76",
+    "auditAttempt": "Official directory identifies the meeting, but its detail page failed retrieval on 2026-10-10. Individual official attachment URLs remain unverified."
+  },
+  "items": [
+    {
+      "item": "1",
+      "section": "Presentation",
+      "title": "Autism Awareness Month Proclamation",
+      "recommendation": "",
+      "outcomeStatus": "See 2022-04-meeting-review.json"
+    },
+    {
+      "item": "2",
+      "section": "Consent",
+      "title": "Approval of Minutes",
+      "recommendation": "Approve Minutes dated March 15, 2022.",
+      "outcomeStatus": "See 2022-04-meeting-review.json"
+    },
+    {
+      "item": "3",
+      "section": "Consent",
+      "title": "Ratification of Warrants",
+      "recommendation": "Ratify Warrants dated: March 10, 2022, and March 17, 2022",
+      "outcomeStatus": "See 2022-04-meeting-review.json"
+    },
+    {
+      "item": "4",
+      "section": "Consent",
+      "title": "Second Reading of an Ordinance Amending the Beaumont Municipal Code Adding Chapter 5.72 “Food Trucks”",
+      "recommendation": "Waive the second reading and adopt by title only “An Ordinance of the City Council of the City of Beaumont adding Chapter 5.72 ‘Food Trucks’ to the Beaumont Municipal Code.”",
+      "outcomeStatus": "See 2022-04-meeting-review.json"
+    },
+    {
+      "item": "5",
+      "section": "Consent",
+      "title": "Accept Security Agreement and Performance and Payment Bond No. 30148213 for Street Improvements Associated with Tract Map No. 31462-20, Accept Security Agreement and Performance and Payment Bond No. 30148212 for Street Improvements Associated with Tract Map No. 31462-23, Accept Security Agreement and Performance and Payment Bond No. 30148214 for Street Improvements Associated with Tract Map No. 31462-24, Accept Security Agreement and Performance and Payment Bond No. 30148215 for Street Improvements Associated with Tract Map No. 31462-25, Accept Security Agreement and Performance and Payment Bond No. 30148219 for Sewer Improvements Associated with Tract Map No. 31462-25, Accept Security Agreement and Performance and Payment Bond No. 30148223 for Storm Drain Improvements Associated with Tract Map No. 31462-25, Accept Security Agreement and Performance and Payment Bond No. 30151552 for Street Improvements Associated with Tract Map No. 36307, Accept Security Agreement and Performance and Payment Bond No. 30151559 for Street Improvements Associated with Tract Map No. 36307-1",
+      "recommendation": "Accept Security Agreement and Performance and Payment Bond No. 30148213 for Street Improvements Associated with Tract Map No. 31462-20, Accept Security Agreement and Performance and Payment Bond No. 30148212 for Street Improvements Associated with Tract Map No. 31462-23, Accept Security Agreement and Performance and Payment Bond No. 30148214 for Street Improvements Associated with Tract Map No. 31462-24, Accept Security Agreement and Performance and Payment Bond No. 30148215 for Street Improvements Associated with Tract Map No. 31462-25, Accept Security Agreement and Performance and Payment Bond No. 30148219 for Sewer Improvements Associated with Tract Map No. 31462-25, Accept Security Agreement and Performance and Payment Bond No. 30148223 for Storm Drain Improvements Associated with Tract Map No. 31462-25, Accept Security Agreement and Performance and Payment Bond No. 30151552 for Street Improvements Associated with Tract Map No. 36307, and Accept Security Agreement and Performance and Payment Bond No. 30151559 for Street Improvements Associated with Tract Map No. 36307-1.",
+      "outcomeStatus": "See 2022-04-meeting-review.json"
+    },
+    {
+      "item": "6",
+      "section": "Action",
+      "title": "Award a Professional Services Agreement to PlaceWorks to provide Landscape Architecture and Engineering Design Services for the Stewart Park Improvement Project in an Amount Not to Exceed $647,971",
+      "recommendation": "Award a Professional Services Agreement to PlaceWorks to provide landscape architecture and engineering design services for the Stewart Park improvement project in an amount not to exceed $647,971.",
+      "outcomeStatus": "See 2022-04-meeting-review.json"
+    },
+    {
+      "item": "7",
+      "section": "Action",
+      "title": "Economic Development Committee Appointments",
+      "recommendation": "Upon completion of applicant interviews, Council Members may nominate applicants to be appointed to the board or commission. Once all nominations are received, a vote will be taken for each nomination beginning with the first applicant nominated.",
+      "outcomeStatus": "See 2022-04-meeting-review.json"
+    },
+    {
+      "item": "8",
+      "section": "Action",
+      "title": "Fiscal Year 22/23 Short Range Transit Plan-First Draft",
+      "recommendation": "Provide direction regarding Fiscal Year 2022-2023 Transit Services budget.",
+      "outcomeStatus": "See 2022-04-meeting-review.json"
+    },
+    {
+      "item": "9",
+      "section": "Action",
+      "title": "A Resolution of the City Council of the City of Beaumont for the Authorization for the Execution of the Certifications and Assurances and Authorized Agent Forms for the Low Carbon Transit Operations Program (LCTOP) for the Following Project: Free Fare Promotion, $102,000",
+      "recommendation": "Waive the full reading and adopt by title only, “A Resolution of the City Council of the City of Beaumont for the Authorization for the Execution of the Certifications and Assurances and Authorized Agent Forms for the Low Carbon Transit Operations Program (LCTOP) for the Following Project: Free Fare Program Promotion, $102,000;” Authorize the execution of the Certificates and Assurances; and Authorize the execution of the Authorized Agent Form.",
+      "outcomeStatus": "See 2022-04-meeting-review.json"
+    },
+    {
+      "item": "10",
+      "section": "Action",
+      "title": "Street Selection for the Annual Citywide Street Rehabilitation and Maintenance FY21/22 Capital Improvement Program Project R-08 and R-09",
+      "recommendation": "Approve the Street Selection for the Annual Citywide Street Rehabilitation and Maintenance FY21/22 Project CIP R-08 and R-09, and Authorize the Public Works Director to Finalize the Bid Package and Solicit Bids for the Project.",
+      "outcomeStatus": "See 2022-04-meeting-review.json"
+    },
+    {
+      "item": "11",
+      "section": "Action",
+      "title": "Rehabilitation and Maintenance of Sundance Community Trail",
+      "recommendation": "Provide staff direction on proceeding with the rehabilitation and maintenance of Sundance Community Trail.",
+      "outcomeStatus": "See 2022-04-meeting-review.json"
+    },
+    {
+      "item": "12",
+      "section": "Action",
+      "title": "Consideration of Re-Ratification of Local Emergency and Re-Authorizing the Use of Teleconferencing to Conduct Public Meetings",
+      "recommendation": "Waive the full reading and adopt by title only, “A Resolution of the City Council of the City of Beaumont Proclaiming a Local Emergency Persists, Re-Ratifying the Proclamation of a State of Emergency by Executive Order N-09-21, and Re- Authorizing Remote Teleconference Meetings of the Legislative Bodies of the City of Beaumont for the Period of April 6, 2022, through April 5, 2022, Pursuant to Provisions of the Ralph M. Brown Act.” Or take no action, resulting in the discontinuation of teleconferenced meetings exemptions under Assembly Bill 361.",
+      "outcomeStatus": "See 2022-04-meeting-review.json"
+    },
+    {
+      "item": "13",
+      "section": "Action",
+      "title": "BEAUMONT SUCCESSOR AGENCY Resolution of the Beaumont Successor Agency: Declaring Property as Exempt Surplus Land",
+      "recommendation": "Waive the full reading and adopt by title only, “A Resolution of the Beaumont Successor Agency Declaring Property as Exempt Surplus Land.” Adjourn the meeting of the Beaumont Successor Agency and reconvene the regular meeting of the Beaumont City Council.",
+      "outcomeStatus": "See 2022-04-meeting-review.json"
+    },
+    {
+      "item": "14",
+      "section": "Reports",
+      "title": "List of Pending Litigation",
+      "recommendation": "",
+      "outcomeStatus": "See 2022-04-meeting-review.json"
+    }
+  ],
+  "documents": [
+    {
+      "item": "1",
+      "section": "Presentation",
+      "title": "Proclamation - Autism Awareness Month",
+      "itemTitle": "Autism Awareness Month Proclamation",
+      "packet_page_start": 7,
+      "packet_page_end": 7,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-04-05/item-1-01.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "2",
+      "section": "Consent",
+      "title": "CC Minutes 03.15.2022",
+      "itemTitle": "Approval of Minutes",
+      "packet_page_start": 8,
+      "packet_page_end": 14,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-04-05/item-2-01.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "3",
+      "section": "Consent",
+      "title": "20220310 warrants",
+      "itemTitle": "Ratification of Warrants",
+      "packet_page_start": 15,
+      "packet_page_end": 35,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-04-05/item-3-01.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "3",
+      "section": "Consent",
+      "title": "20220317 warrants",
+      "itemTitle": "Ratification of Warrants",
+      "packet_page_start": 36,
+      "packet_page_end": 57,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-04-05/item-3-02.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "4",
+      "section": "Consent",
+      "title": "Staff Report CC 4.5.22",
+      "itemTitle": "Second Reading of an Ordinance Amending the Beaumont Municipal Code Adding Chapter 5.72 “Food Trucks”",
+      "packet_page_start": 58,
+      "packet_page_end": 59,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-04-05/item-4-01.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "4",
+      "section": "Consent",
+      "title": "Ordinance 4.5.22",
+      "itemTitle": "Second Reading of an Ordinance Amending the Beaumont Municipal Code Adding Chapter 5.72 “Food Trucks”",
+      "packet_page_start": 60,
+      "packet_page_end": 61,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-04-05/item-4-02.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "4",
+      "section": "Consent",
+      "title": "Draft BMC 5.72 Food Trucks 4.5.22",
+      "itemTitle": "Second Reading of an Ordinance Amending the Beaumont Municipal Code Adding Chapter 5.72 “Food Trucks”",
+      "packet_page_start": 62,
+      "packet_page_end": 68,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-04-05/item-4-03.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "4",
+      "section": "Consent",
+      "title": "Food Truck Permit Application 4.5.22",
+      "itemTitle": "Second Reading of an Ordinance Amending the Beaumont Municipal Code Adding Chapter 5.72 “Food Trucks”",
+      "packet_page_start": 69,
+      "packet_page_end": 73,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-04-05/item-4-04.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "5",
+      "section": "Consent",
+      "title": "Staff Report - Bond Acceptance Meritage and Tri Pointe",
+      "itemTitle": "Accept Security Agreement and Performance and Payment Bond No. 30148213 for Street Improvements Associated with Tract Map No. 31462-20, Accept Security Agreement and Performance and Payment Bond No. 30148212 for Street Improvements Associated with Tract Map No. 31462-23, Accept Security Agreement and Performance and Payment Bond No. 30148214 for Street Improvements Associated with Tract Map No. 31462-24, Accept Security Agreement and Performance and Payment Bond No. 30148215 for Street Improvements Associated with Tract Map No. 31462-25, Accept Security Agreement and Performance and Payment Bond No. 30148219 for Sewer Improvements Associated with Tract Map No. 31462-25, Accept Security Agreement and Performance and Payment Bond No. 30148223 for Storm Drain Improvements Associated with Tract Map No. 31462-25, Accept Security Agreement and Performance and Payment Bond No. 30151552 for Street Improvements Associated with Tract Map No. 36307, Accept Security Agreement and Performance and Payment Bond No. 30151559 for Street Improvements Associated with Tract Map No. 36307-1",
+      "packet_page_start": 74,
+      "packet_page_end": 78,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-04-05/item-5-01.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "5",
+      "section": "Consent",
+      "title": "Att A - PW2021-0699 - TR31462-20 Street Imp Bond 30148213 with Approved Plans and CE",
+      "itemTitle": "Accept Security Agreement and Performance and Payment Bond No. 30148213 for Street Improvements Associated with Tract Map No. 31462-20, Accept Security Agreement and Performance and Payment Bond No. 30148212 for Street Improvements Associated with Tract Map No. 31462-23, Accept Security Agreement and Performance and Payment Bond No. 30148214 for Street Improvements Associated with Tract Map No. 31462-24, Accept Security Agreement and Performance and Payment Bond No. 30148215 for Street Improvements Associated with Tract Map No. 31462-25, Accept Security Agreement and Performance and Payment Bond No. 30148219 for Sewer Improvements Associated with Tract Map No. 31462-25, Accept Security Agreement and Performance and Payment Bond No. 30148223 for Storm Drain Improvements Associated with Tract Map No. 31462-25, Accept Security Agreement and Performance and Payment Bond No. 30151552 for Street Improvements Associated with Tract Map No. 36307, Accept Security Agreement and Performance and Payment Bond No. 30151559 for Street Improvements Associated with Tract Map No. 36307-1",
+      "packet_page_start": 79,
+      "packet_page_end": 124,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-04-05/item-5-02.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "5",
+      "section": "Consent",
+      "title": "Att B - PW2021-0702 - TR31462-23 Street Imp Bond 30148212 with Approved Plans and CE",
+      "itemTitle": "Accept Security Agreement and Performance and Payment Bond No. 30148213 for Street Improvements Associated with Tract Map No. 31462-20, Accept Security Agreement and Performance and Payment Bond No. 30148212 for Street Improvements Associated with Tract Map No. 31462-23, Accept Security Agreement and Performance and Payment Bond No. 30148214 for Street Improvements Associated with Tract Map No. 31462-24, Accept Security Agreement and Performance and Payment Bond No. 30148215 for Street Improvements Associated with Tract Map No. 31462-25, Accept Security Agreement and Performance and Payment Bond No. 30148219 for Sewer Improvements Associated with Tract Map No. 31462-25, Accept Security Agreement and Performance and Payment Bond No. 30148223 for Storm Drain Improvements Associated with Tract Map No. 31462-25, Accept Security Agreement and Performance and Payment Bond No. 30151552 for Street Improvements Associated with Tract Map No. 36307, Accept Security Agreement and Performance and Payment Bond No. 30151559 for Street Improvements Associated with Tract Map No. 36307-1",
+      "packet_page_start": 125,
+      "packet_page_end": 168,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-04-05/item-5-03.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "5",
+      "section": "Consent",
+      "title": "Att C - PW2021-0705 - TR31462-24 Street Imp Bond 30148214 with Approved Plans and CE",
+      "itemTitle": "Accept Security Agreement and Performance and Payment Bond No. 30148213 for Street Improvements Associated with Tract Map No. 31462-20, Accept Security Agreement and Performance and Payment Bond No. 30148212 for Street Improvements Associated with Tract Map No. 31462-23, Accept Security Agreement and Performance and Payment Bond No. 30148214 for Street Improvements Associated with Tract Map No. 31462-24, Accept Security Agreement and Performance and Payment Bond No. 30148215 for Street Improvements Associated with Tract Map No. 31462-25, Accept Security Agreement and Performance and Payment Bond No. 30148219 for Sewer Improvements Associated with Tract Map No. 31462-25, Accept Security Agreement and Performance and Payment Bond No. 30148223 for Storm Drain Improvements Associated with Tract Map No. 31462-25, Accept Security Agreement and Performance and Payment Bond No. 30151552 for Street Improvements Associated with Tract Map No. 36307, Accept Security Agreement and Performance and Payment Bond No. 30151559 for Street Improvements Associated with Tract Map No. 36307-1",
+      "packet_page_start": 169,
+      "packet_page_end": 212,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-04-05/item-5-04.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "5",
+      "section": "Consent",
+      "title": "Att D - PW2021-0708 - TR31462-25 Street Imp Bond 30148215 with Approved Plans and CE",
+      "itemTitle": "Accept Security Agreement and Performance and Payment Bond No. 30148213 for Street Improvements Associated with Tract Map No. 31462-20, Accept Security Agreement and Performance and Payment Bond No. 30148212 for Street Improvements Associated with Tract Map No. 31462-23, Accept Security Agreement and Performance and Payment Bond No. 30148214 for Street Improvements Associated with Tract Map No. 31462-24, Accept Security Agreement and Performance and Payment Bond No. 30148215 for Street Improvements Associated with Tract Map No. 31462-25, Accept Security Agreement and Performance and Payment Bond No. 30148219 for Sewer Improvements Associated with Tract Map No. 31462-25, Accept Security Agreement and Performance and Payment Bond No. 30148223 for Storm Drain Improvements Associated with Tract Map No. 31462-25, Accept Security Agreement and Performance and Payment Bond No. 30151552 for Street Improvements Associated with Tract Map No. 36307, Accept Security Agreement and Performance and Payment Bond No. 30151559 for Street Improvements Associated with Tract Map No. 36307-1",
+      "packet_page_start": 213,
+      "packet_page_end": 257,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-04-05/item-5-05.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "5",
+      "section": "Consent",
+      "title": "Att E - PW2021-0709 - TR31462-25 Sewer Imp Bond 30148219 with Approved Plans and CE",
+      "itemTitle": "Accept Security Agreement and Performance and Payment Bond No. 30148213 for Street Improvements Associated with Tract Map No. 31462-20, Accept Security Agreement and Performance and Payment Bond No. 30148212 for Street Improvements Associated with Tract Map No. 31462-23, Accept Security Agreement and Performance and Payment Bond No. 30148214 for Street Improvements Associated with Tract Map No. 31462-24, Accept Security Agreement and Performance and Payment Bond No. 30148215 for Street Improvements Associated with Tract Map No. 31462-25, Accept Security Agreement and Performance and Payment Bond No. 30148219 for Sewer Improvements Associated with Tract Map No. 31462-25, Accept Security Agreement and Performance and Payment Bond No. 30148223 for Storm Drain Improvements Associated with Tract Map No. 31462-25, Accept Security Agreement and Performance and Payment Bond No. 30151552 for Street Improvements Associated with Tract Map No. 36307, Accept Security Agreement and Performance and Payment Bond No. 30151559 for Street Improvements Associated with Tract Map No. 36307-1",
+      "packet_page_start": 258,
+      "packet_page_end": 301,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-04-05/item-5-06.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "5",
+      "section": "Consent",
+      "title": "Att F - PW2021-0710 - TR31462-25 SD Bond 30148223 with Approved Plans and CE",
+      "itemTitle": "Accept Security Agreement and Performance and Payment Bond No. 30148213 for Street Improvements Associated with Tract Map No. 31462-20, Accept Security Agreement and Performance and Payment Bond No. 30148212 for Street Improvements Associated with Tract Map No. 31462-23, Accept Security Agreement and Performance and Payment Bond No. 30148214 for Street Improvements Associated with Tract Map No. 31462-24, Accept Security Agreement and Performance and Payment Bond No. 30148215 for Street Improvements Associated with Tract Map No. 31462-25, Accept Security Agreement and Performance and Payment Bond No. 30148219 for Sewer Improvements Associated with Tract Map No. 31462-25, Accept Security Agreement and Performance and Payment Bond No. 30148223 for Storm Drain Improvements Associated with Tract Map No. 31462-25, Accept Security Agreement and Performance and Payment Bond No. 30151552 for Street Improvements Associated with Tract Map No. 36307, Accept Security Agreement and Performance and Payment Bond No. 30151559 for Street Improvements Associated with Tract Map No. 36307-1",
+      "packet_page_start": 302,
+      "packet_page_end": 343,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-04-05/item-5-07.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "5",
+      "section": "Consent",
+      "title": "Att G - PW2021-0637 - Street Imp Bond 30151552 with Approved CE and Plans",
+      "itemTitle": "Accept Security Agreement and Performance and Payment Bond No. 30148213 for Street Improvements Associated with Tract Map No. 31462-20, Accept Security Agreement and Performance and Payment Bond No. 30148212 for Street Improvements Associated with Tract Map No. 31462-23, Accept Security Agreement and Performance and Payment Bond No. 30148214 for Street Improvements Associated with Tract Map No. 31462-24, Accept Security Agreement and Performance and Payment Bond No. 30148215 for Street Improvements Associated with Tract Map No. 31462-25, Accept Security Agreement and Performance and Payment Bond No. 30148219 for Sewer Improvements Associated with Tract Map No. 31462-25, Accept Security Agreement and Performance and Payment Bond No. 30148223 for Storm Drain Improvements Associated with Tract Map No. 31462-25, Accept Security Agreement and Performance and Payment Bond No. 30151552 for Street Improvements Associated with Tract Map No. 36307, Accept Security Agreement and Performance and Payment Bond No. 30151559 for Street Improvements Associated with Tract Map No. 36307-1",
+      "packet_page_start": 344,
+      "packet_page_end": 390,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-04-05/item-5-08.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "5",
+      "section": "Consent",
+      "title": "Att H - PW2021-0636 - Street Imp Bond 30151559 with Approved CE and Plans",
+      "itemTitle": "Accept Security Agreement and Performance and Payment Bond No. 30148213 for Street Improvements Associated with Tract Map No. 31462-20, Accept Security Agreement and Performance and Payment Bond No. 30148212 for Street Improvements Associated with Tract Map No. 31462-23, Accept Security Agreement and Performance and Payment Bond No. 30148214 for Street Improvements Associated with Tract Map No. 31462-24, Accept Security Agreement and Performance and Payment Bond No. 30148215 for Street Improvements Associated with Tract Map No. 31462-25, Accept Security Agreement and Performance and Payment Bond No. 30148219 for Sewer Improvements Associated with Tract Map No. 31462-25, Accept Security Agreement and Performance and Payment Bond No. 30148223 for Storm Drain Improvements Associated with Tract Map No. 31462-25, Accept Security Agreement and Performance and Payment Bond No. 30151552 for Street Improvements Associated with Tract Map No. 36307, Accept Security Agreement and Performance and Payment Bond No. 30151559 for Street Improvements Associated with Tract Map No. 36307-1",
+      "packet_page_start": 391,
+      "packet_page_end": 440,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-04-05/item-5-09.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "6",
+      "section": "Action",
+      "title": "Staff Report - Stewart Park Design Award",
+      "itemTitle": "Award a Professional Services Agreement to PlaceWorks to provide Landscape Architecture and Engineering Design Services for the Stewart Park Improvement Project in an Amount Not to Exceed $647,971",
+      "packet_page_start": 441,
+      "packet_page_end": 444,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-04-05/item-6-01.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "6",
+      "section": "Action",
+      "title": "Proposal Evaluation Summary (1)",
+      "itemTitle": "Award a Professional Services Agreement to PlaceWorks to provide Landscape Architecture and Engineering Design Services for the Stewart Park Improvement Project in an Amount Not to Exceed $647,971",
+      "packet_page_start": 445,
+      "packet_page_end": 445,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-04-05/item-6-02.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "6",
+      "section": "Action",
+      "title": "Interview Evaluation Summary",
+      "itemTitle": "Award a Professional Services Agreement to PlaceWorks to provide Landscape Architecture and Engineering Design Services for the Stewart Park Improvement Project in an Amount Not to Exceed $647,971",
+      "packet_page_start": 446,
+      "packet_page_end": 446,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-04-05/item-6-03.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "6",
+      "section": "Action",
+      "title": "Placeworks Proposal",
+      "itemTitle": "Award a Professional Services Agreement to PlaceWorks to provide Landscape Architecture and Engineering Design Services for the Stewart Park Improvement Project in an Amount Not to Exceed $647,971",
+      "packet_page_start": 447,
+      "packet_page_end": 534,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-04-05/item-6-04.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "6",
+      "section": "Action",
+      "title": "Placeworks Fee Estimate",
+      "itemTitle": "Award a Professional Services Agreement to PlaceWorks to provide Landscape Architecture and Engineering Design Services for the Stewart Park Improvement Project in an Amount Not to Exceed $647,971",
+      "packet_page_start": 535,
+      "packet_page_end": 552,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-04-05/item-6-05.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "6",
+      "section": "Action",
+      "title": "WEBB Proposal",
+      "itemTitle": "Award a Professional Services Agreement to PlaceWorks to provide Landscape Architecture and Engineering Design Services for the Stewart Park Improvement Project in an Amount Not to Exceed $647,971",
+      "packet_page_start": 553,
+      "packet_page_end": 593,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-04-05/item-6-06.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "6",
+      "section": "Action",
+      "title": "WEBB Fee Estimate",
+      "itemTitle": "Award a Professional Services Agreement to PlaceWorks to provide Landscape Architecture and Engineering Design Services for the Stewart Park Improvement Project in an Amount Not to Exceed $647,971",
+      "packet_page_start": 594,
+      "packet_page_end": 595,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-04-05/item-6-07.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "6",
+      "section": "Action",
+      "title": "IN-SITE Proposal",
+      "itemTitle": "Award a Professional Services Agreement to PlaceWorks to provide Landscape Architecture and Engineering Design Services for the Stewart Park Improvement Project in an Amount Not to Exceed $647,971",
+      "packet_page_start": 596,
+      "packet_page_end": 688,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-04-05/item-6-08.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "6",
+      "section": "Action",
+      "title": "IN-SITE Fee Estimate",
+      "itemTitle": "Award a Professional Services Agreement to PlaceWorks to provide Landscape Architecture and Engineering Design Services for the Stewart Park Improvement Project in an Amount Not to Exceed $647,971",
+      "packet_page_start": 689,
+      "packet_page_end": 711,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-04-05/item-6-09.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "6",
+      "section": "Action",
+      "title": "RJM Proposal",
+      "itemTitle": "Award a Professional Services Agreement to PlaceWorks to provide Landscape Architecture and Engineering Design Services for the Stewart Park Improvement Project in an Amount Not to Exceed $647,971",
+      "packet_page_start": 712,
+      "packet_page_end": 754,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-04-05/item-6-10.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "6",
+      "section": "Action",
+      "title": "RJM Fee Estimate",
+      "itemTitle": "Award a Professional Services Agreement to PlaceWorks to provide Landscape Architecture and Engineering Design Services for the Stewart Park Improvement Project in an Amount Not to Exceed $647,971",
+      "packet_page_start": 755,
+      "packet_page_end": 761,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-04-05/item-6-11.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "6",
+      "section": "Action",
+      "title": "PSA PlaceWorks",
+      "itemTitle": "Award a Professional Services Agreement to PlaceWorks to provide Landscape Architecture and Engineering Design Services for the Stewart Park Improvement Project in an Amount Not to Exceed $647,971",
+      "packet_page_start": 762,
+      "packet_page_end": 771,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-04-05/item-6-12.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "7",
+      "section": "Action",
+      "title": "Staff Report - EDC Appointments",
+      "itemTitle": "Economic Development Committee Appointments",
+      "packet_page_start": 772,
+      "packet_page_end": 772,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-04-05/item-7-01.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "7",
+      "section": "Action",
+      "title": "EDC Non-Business Member Apps",
+      "itemTitle": "Economic Development Committee Appointments",
+      "packet_page_start": 773,
+      "packet_page_end": 799,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-04-05/item-7-02.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "8",
+      "section": "Action",
+      "title": "Staff Report- 2022-23 SRTP First Draft",
+      "itemTitle": "Fiscal Year 22/23 Short Range Transit Plan-First Draft",
+      "packet_page_start": 800,
+      "packet_page_end": 802,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-04-05/item-8-01.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "8",
+      "section": "Action",
+      "title": "Attachment A- Table 4 10% farebox",
+      "itemTitle": "Fiscal Year 22/23 Short Range Transit Plan-First Draft",
+      "packet_page_start": 803,
+      "packet_page_end": 803,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-04-05/item-8-02.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "8",
+      "section": "Action",
+      "title": "Attachment B- Table 4 20% farebox",
+      "itemTitle": "Fiscal Year 22/23 Short Range Transit Plan-First Draft",
+      "packet_page_start": 804,
+      "packet_page_end": 804,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-04-05/item-8-03.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "8",
+      "section": "Action",
+      "title": "Beaumont Transit Presentation March 2022- Pre-SRTP",
+      "itemTitle": "Fiscal Year 22/23 Short Range Transit Plan-First Draft",
+      "packet_page_start": 805,
+      "packet_page_end": 820,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-04-05/item-8-04.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "9",
+      "section": "Action",
+      "title": "Staff Report- LCTOP 21_22 Free Fare",
+      "itemTitle": "A Resolution of the City Council of the City of Beaumont for the Authorization for the Execution of the Certifications and Assurances and Authorized Agent Forms for the Low Carbon Transit Operations Program (LCTOP) for the Following Project: Free Fare Promotion, $102,000",
+      "packet_page_start": 821,
+      "packet_page_end": 822,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-04-05/item-9-01.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "9",
+      "section": "Action",
+      "title": "Attachment A- Resolution",
+      "itemTitle": "A Resolution of the City Council of the City of Beaumont for the Authorization for the Execution of the Certifications and Assurances and Authorized Agent Forms for the Low Carbon Transit Operations Program (LCTOP) for the Following Project: Free Fare Promotion, $102,000",
+      "packet_page_start": 823,
+      "packet_page_end": 824,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-04-05/item-9-02.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "9",
+      "section": "Action",
+      "title": "Attachment B- Certifications and Assurances",
+      "itemTitle": "A Resolution of the City Council of the City of Beaumont for the Authorization for the Execution of the Certifications and Assurances and Authorized Agent Forms for the Low Carbon Transit Operations Program (LCTOP) for the Following Project: Free Fare Promotion, $102,000",
+      "packet_page_start": 825,
+      "packet_page_end": 828,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-04-05/item-9-03.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "9",
+      "section": "Action",
+      "title": "Attachment C- Authorized Agent (1)",
+      "itemTitle": "A Resolution of the City Council of the City of Beaumont for the Authorization for the Execution of the Certifications and Assurances and Authorized Agent Forms for the Low Carbon Transit Operations Program (LCTOP) for the Following Project: Free Fare Promotion, $102,000",
+      "packet_page_start": 829,
+      "packet_page_end": 829,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-04-05/item-9-04.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "10",
+      "section": "Action",
+      "title": "Staff Report - 21_22 Street Project",
+      "itemTitle": "Street Selection for the Annual Citywide Street Rehabilitation and Maintenance FY21/22 Capital Improvement Program Project R-08 and R-09",
+      "packet_page_start": 830,
+      "packet_page_end": 834,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-04-05/item-10-01.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "10",
+      "section": "Action",
+      "title": "Att A - 21_22 Preliminary Street Project",
+      "itemTitle": "Street Selection for the Annual Citywide Street Rehabilitation and Maintenance FY21/22 Capital Improvement Program Project R-08 and R-09",
+      "packet_page_start": 835,
+      "packet_page_end": 838,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-04-05/item-10-02.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "11",
+      "section": "Action",
+      "title": "Staff Report Sundance Trail",
+      "itemTitle": "Rehabilitation and Maintenance of Sundance Community Trail",
+      "packet_page_start": 839,
+      "packet_page_end": 841,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-04-05/item-11-01.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "11",
+      "section": "Action",
+      "title": "Att A Sundance Trail-Basin",
+      "itemTitle": "Rehabilitation and Maintenance of Sundance Community Trail",
+      "packet_page_start": 842,
+      "packet_page_end": 842,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-04-05/item-11-02.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "11",
+      "section": "Action",
+      "title": "Att B Sundance Trail-Channel",
+      "itemTitle": "Rehabilitation and Maintenance of Sundance Community Trail",
+      "packet_page_start": 843,
+      "packet_page_end": 843,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-04-05/item-11-03.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "11",
+      "section": "Action",
+      "title": "Att C Sundance Trail-Concrete full replacement",
+      "itemTitle": "Rehabilitation and Maintenance of Sundance Community Trail",
+      "packet_page_start": 844,
+      "packet_page_end": 845,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-04-05/item-11-04.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "12",
+      "section": "Action",
+      "title": "Staff Report - Re-Ratifying Remote Teleconference Meetings",
+      "itemTitle": "Consideration of Re-Ratification of Local Emergency and Re-Authorizing the Use of Teleconferencing to Conduct Public Meetings",
+      "packet_page_start": 846,
+      "packet_page_end": 849,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-04-05/item-12-01.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "12",
+      "section": "Action",
+      "title": "Resolution Re AB 361 - Subsequent Adoption",
+      "itemTitle": "Consideration of Re-Ratification of Local Emergency and Re-Authorizing the Use of Teleconferencing to Conduct Public Meetings",
+      "packet_page_start": 850,
+      "packet_page_end": 852,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-04-05/item-12-02.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "13",
+      "section": "Action",
+      "title": "Staff Report - Succesor Agency - 52 Acre SLA Reso",
+      "itemTitle": "BEAUMONT SUCCESSOR AGENCY Resolution of the Beaumont Successor Agency: Declaring Property as Exempt Surplus Land",
+      "packet_page_start": 853,
+      "packet_page_end": 854,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-04-05/item-13-01.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "13",
+      "section": "Action",
+      "title": "SA Resolution - 52 Acres - exempt surplus land",
+      "itemTitle": "BEAUMONT SUCCESSOR AGENCY Resolution of the Beaumont Successor Agency: Declaring Property as Exempt Surplus Land",
+      "packet_page_start": 855,
+      "packet_page_end": 856,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-04-05/item-13-02.pdf",
+      "officialUrl": null
+    },
+    {
+      "item": "14",
+      "section": "Reports",
+      "title": "2021.03.30 City of Beaumont Lit List",
+      "itemTitle": "List of Pending Litigation",
+      "packet_page_start": 857,
+      "packet_page_end": 857,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2022-04-05/item-14-01.pdf",
+      "officialUrl": null
+    }
+  ]
+}
