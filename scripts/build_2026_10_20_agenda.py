@@ -76,6 +76,8 @@ def build():
         agenda['audit'].update(archiveComplete=True, basis='All 78 City-listed supporting documents matched by item and sequence to the supplied 706-page packet bookmarks. Page ranges retained; archived copies verified by checksum and size during upload. Original City URLs retained as provenance.')
     if review:
         agenda['review'] = dict(reviewedOn=review['reviewedOn'], scope=review['scope'])
+        if review.get('attachmentReview'):
+            agenda['review']['attachmentReview'] = review['attachmentReview']
     (ROOT / f'data/council/{DATE}-agenda.json').write_text(json.dumps(agenda, indent=2, ensure_ascii=False)+'\n', encoding='utf-8')
     # Reuse the established searchable agenda and in-page document viewer.
     tree = ast.parse((ROOT / 'scripts/build_simple_interactive_agendas.py').read_text(encoding='utf-8'))
@@ -89,14 +91,34 @@ def build():
         page = page.replace('Documents use original City URLs.', 'Documents open from the Beaumont Intelligence archive, extracted from the supplied 706-page packet. Original City URLs are retained in the source register.')
         page = page.replace(f'<a class="btn secondary" href="{packet_url}" target="_blank" rel="noopener">Full agenda packet ↗</a>', '<button class="btn secondary" id="view-packet" type="button">View full agenda packet</button>')
         page = page.replace('render()})();', 'document.querySelector("#view-packet").addEventListener("click",()=>openViewer('+json.dumps(packet_url)+',"October 20 agenda packet"));render()})();')
+    if review and any(check.get('attention') for item in items for check in item.get('checks', [])):
+        page = page.replace('<div class="agenda-toolbar">', f'<p><strong>Attachment review:</strong> Some staff reports and draft documents differ. <a href="{DATE}.html#document-checks">Read the document comparisons and open questions</a> before relying on a proposed amount or rule.</p><div class="agenda-toolbar">')
     (DOCS / f'briefings/{DATE}-sources.html').write_text(page, encoding='utf-8')
     (DOCS / f'briefings/{DATE}-sources.js').write_text('window.BI_OCTOBER_20_SOURCES='+json.dumps(documents,ensure_ascii=False)+';\n',encoding='utf-8')
     previous = (DOCS / 'briefings/2026-10-06.html').read_text(encoding='utf-8')
     head = previous[:previous.index('<main id="main">')].replace('October 6','October 20').replace('2026-10-06','2026-10-20').replace('Council Meeting Record','Council Agenda Briefing').replace('Meeting video available · Outcome review in progress','Upcoming meeting · Proposed actions').replace('Council meeting record','Council agenda briefing')
-    head = head[:head.index('<nav class="briefing-tools"')] + '<nav class="briefing-tools" aria-label="Briefing sections"><div class="wrap"><a href="#overview">Overview</a><a href="#hearings">Hearings</a><a href="#actions">Action items</a><a href="#consent">Consent</a></div></nav>'
+    head = head.replace('</style>', '.attachment-check-content{display:block;padding:0 15px 15px}.attachment-check-content h4{margin:20px 0 8px}.attachment-check-content p{margin:8px 0 14px}</style>')
+    head = head[:head.index('<nav class="briefing-tools"')] + '<nav class="briefing-tools" aria-label="Briefing sections"><div class="wrap"><a href="#overview">Overview</a><a href="#document-checks">Document checks</a><a href="#hearings">Hearings</a><a href="#actions">Action items</a><a href="#consent">Consent</a></div></nav>'
     body = '<main id="main"><section class="section compact"><div class="wrap narrow" id="overview"><div class="eyebrow">Pre-meeting briefing</div><h1>October 20, 2026 City Council meeting</h1><p class="lead-copy">Short-term rentals, a new police station services agreement, downtown improvements, an $80,000 golf sponsorship request, and a proposed $978,037.43 technology renewal.</p><span class="pill pending">Upcoming · Council action pending</span><p><strong>Tuesday, October 20, 2026</strong><br>Closed session: 5:00 PM · Regular meeting: 6:00 PM<br>550 E. Sixth Street, Beaumont, CA</p>'
     body += f'<div class="status-actions"><a class="btn" href="{DATE}-sources.html">Open interactive agenda</a><a class="btn secondary" href="{escape(OFFICIAL)}">Official City agenda</a><a class="btn secondary" href="../documents/viewer.html?url={quote(packet_url,safe="")}&amp;title=October%2020%20agenda%20packet">View full agenda packet</a></div>'
     body += '<p class="source-note">Prepared October 16 from the supplied five-page agenda and the City’s HTML agenda. All actions and amounts are proposals, not approvals. The interactive agenda links all 78 City-listed supporting documents across 23 items. Document-link inventory is complete; archived copies and a substantive review of every attachment are not complete.</p><h2>Attend and comment</h2><p>Attend in person or watch the <a href="https://beaumont-ca.municodemeetings.com/livestream">City livestream</a>. Email <a href="mailto:nicolew@beaumontca.gov">nicolew@beaumontca.gov</a> with “Public Comment” in the subject before or during the meeting, up to the end of the corresponding item; call <a href="tel:9519224845">(951) 922-4845</a> before the item; or submit an in-person Request to Speak form. Comments generally have a three-minute limit. For accessibility assistance, contact the Clerk at (951) 572-3196; the notice requests 48 hours’ advance notification.</p><details class="card"><summary>Closed session, presentation, and reports</summary><p>B.1–B.4 list existing litigation, one potential case, Police Officers Association labor negotiations, and price and terms for a potential purchase of Oak Valley property from Beaumont Unified School District. E.1 introduces Grant Analyst Jenny Espinosa. The agenda also includes public comment, Youth Council, legislative updates, City Manager and Council reports, and future agenda items.</p></details>'
+    flagged = [(item, check) for item in items for check in item.get('checks', []) if check.get('attention')]
+    flagged.sort(key=lambda pair: ['Public Hearing', 'Action', 'Consent'].index(pair[0]['section']))
+    if flagged:
+        body += '<section class="card" id="document-checks"><h2>Documents needing clarification</h2><p>The supplied packet contains differences between staff reports and proposed documents, plus financial-report presentation questions. The comparisons below identify the versions and page references; they do not establish what Council will approve.</p><ul>'
+        for item, check in flagged:
+            anchor = item['item'].lower().replace('.', '-')
+            body += f'<li><a href="#{anchor}">{item["item"]} · {escape(check["title"])}</a></li>'
+        body += '</ul><p>Expand “Attachment checks” under each item to read the evidence and open the relevant packet pages.</p></section>'
+
+    def packet_page_link(page):
+        source = next((d for d in documents if d.get('packet_page_start', 0) <= page <= d.get('packet_page_end', 0)), None)
+        if source is None:
+            raise ValueError(f'No source document for reviewed packet page {page}')
+        url = source.get('archiveUrl') or source['officialUrl']
+        local_page = page - source['packet_page_start'] + 1
+        return f'<a href="../documents/viewer.html?url={quote(url,safe="")}&amp;page={local_page}&amp;title={quote(source["title"],safe="")}">Packet p. {page}</a>'
+
     for section, anchor, heading in [('Public Hearing','hearings','Public hearings'),('Action','actions','Action items'),('Consent','consent','Consent calendar')]:
         body += f'<section class="agenda-section" id="{anchor}"><h2>{heading}</h2>'
         for item in items:
@@ -108,6 +130,11 @@ def build():
                 extra += f'<p><strong>Funding and fiscal context:</strong> {escape(item["funding"])}</p>'
             if item.get('question'):
                 extra += f'<p><strong>Question for consideration:</strong> {escape(item["question"])}</p>'
+            if item.get('checks'):
+                extra += f'<details class="item-documents"><summary>Attachment checks ({len(item["checks"])})</summary><div class="attachment-check-content">'
+                for check in item['checks']:
+                    extra += f'<h4>{escape(check["title"])}</h4><p>{escape(check["text"])}</p><p class="source-note">' + ' · '.join(packet_page_link(page) for page in check['packetPages']) + '</p>'
+                extra += '</div></details>'
             source = next((d for d in refs if 'staff report' in d['title'].lower()), None)
             if source:
                 url = source.get('archiveUrl') or source['officialUrl']
@@ -118,7 +145,8 @@ def build():
     if packet_map.exists():
         body = body.replace('the supplied five-page agenda and the City’s HTML agenda', 'the supplied 706-page agenda packet, with supporting documents matched to the City agenda inventory').replace('Document-link inventory is complete; archived copies and a substantive review of every attachment are not complete.', 'All 78 supporting documents and the full packet are available from the Beaumont Intelligence archive. Page ranges and original City source URLs are retained. A substantive review of every attachment is not complete.')
     if review:
-        body = body.replace('A substantive review of every attachment is not complete.', escape(review['scope']) + ' Questions below are editorial prompts, not findings of wrongdoing or Council decisions.')
+        body = body.replace('All actions and amounts are proposals, not approvals.', 'Council actions described here are proposed; financial-statement and invoice figures are reported amounts.')
+        body = body.replace('A substantive review of every attachment is not complete.', escape(review['scope']) + ' Questions below identify points for staff clarification; Council decisions will be recorded separately after the meeting.')
     (DOCS / f'briefings/{DATE}.html').write_text(head+body, encoding='utf-8')
     deck = 'Short-term rentals, the new police station, downtown revitalization, Highland Springs improvements, golf sponsorship, and City technology services.'
     actions = '<div class="status-actions"><a class="btn" href="briefings/2026-10-20.html">Read October 20 briefing</a><a class="text-link" href="briefings/2026-10-20-sources.html">Open interactive agenda →</a></div>'
