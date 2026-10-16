@@ -1,0 +1,703 @@
+{
+  "date": "2026-10-20",
+  "officialAgendaUrl": "https://pub-beaumont.escribemeetings.com/Meeting.aspx?Id=8ce94024-faf5-4cb0-89f8-5a598025048d&Agenda=Agenda&lang=English",
+  "officialPdfUrl": "https://pub-beaumont.escribemeetings.com/FileStream.ashx?DocumentId=11352",
+  "meetingStatus": "upcoming",
+  "audit": {
+    "checkedOn": "2026-10-16",
+    "expectedDocuments": 78,
+    "linkedDocuments": 78,
+    "votingItems": 23,
+    "officialHtmlAuditComplete": true,
+    "archiveComplete": false,
+    "basis": "All 78 unique supporting-document URLs inventoried item by item from the official City HTML agenda. Links use City-hosted originals; archive copies have not been verified."
+  },
+  "items": [
+    {
+      "item": "G.1",
+      "title": "Ratification of warrants",
+      "section": "Consent",
+      "summary": "Consider the listed consent-calendar item; consult the supporting documents for the proposed action and details."
+    },
+    {
+      "item": "G.2",
+      "title": "Approval of minutes",
+      "section": "Consent",
+      "summary": "Consider the listed consent-calendar item; consult the supporting documents for the proposed action and details."
+    },
+    {
+      "item": "G.3",
+      "title": "September City Attorney invoices",
+      "section": "Consent",
+      "summary": "Consider the listed consent-calendar item; consult the supporting documents for the proposed action and details."
+    },
+    {
+      "item": "G.4",
+      "title": "Conflict of interest code update",
+      "section": "Consent",
+      "summary": "Consider the listed consent-calendar item; consult the supporting documents for the proposed action and details."
+    },
+    {
+      "item": "G.5",
+      "title": "Omnitrans coordinated transit services agreement",
+      "section": "Consent",
+      "summary": "Consider the listed consent-calendar item; consult the supporting documents for the proposed action and details."
+    },
+    {
+      "item": "G.6",
+      "title": "HCN Bank Trunk or Treat deposit and fee waiver",
+      "section": "Consent",
+      "summary": "Consider the listed consent-calendar item; consult the supporting documents for the proposed action and details."
+    },
+    {
+      "item": "G.7",
+      "title": "Beaumont Library storm drain performance bond release",
+      "section": "Consent",
+      "summary": "Consider the listed consent-calendar item; consult the supporting documents for the proposed action and details."
+    },
+    {
+      "item": "G.8",
+      "title": "Executive employment agreement amendments",
+      "section": "Consent",
+      "summary": "Consider executive contract amendments intended to standardize employee benefits following labor negotiations."
+    },
+    {
+      "item": "G.9",
+      "title": "Public Works Principal Engineer position",
+      "section": "Consent",
+      "summary": "Consider replacing the Senior Engineer position allocation with a Principal Engineer position."
+    },
+    {
+      "item": "G.10",
+      "title": "Fehr and Peers citywide traffic analysis",
+      "section": "Consent",
+      "summary": "Consider an on-call task order for the citywide traffic study, CIP R27-06."
+    },
+    {
+      "item": "G.11",
+      "title": "Matich street rehabilitation construction contingency increase",
+      "section": "Consent",
+      "summary": "Consider an increase in construction contingency for Matich Corporation’s FY26 annual street rehabilitation project, CIP R26-01."
+    },
+    {
+      "item": "G.12",
+      "title": "Fairways storm drain performance bond releases",
+      "section": "Consent",
+      "summary": "Consider the listed consent-calendar item; consult the supporting documents for the proposed action and details."
+    },
+    {
+      "item": "G.13",
+      "title": "September financial reports",
+      "section": "Consent",
+      "summary": "Consider the listed consent-calendar item; consult the supporting documents for the proposed action and details."
+    },
+    {
+      "item": "G.14",
+      "title": "FY27 Quarter 1 purchases and contract awards",
+      "section": "Consent",
+      "summary": "Consider the listed consent-calendar item; consult the supporting documents for the proposed action and details."
+    },
+    {
+      "item": "G.15",
+      "title": "October 14 Planning Commission action report",
+      "section": "Consent",
+      "summary": "Consider the listed consent-calendar item; consult the supporting documents for the proposed action and details."
+    },
+    {
+      "item": "I.1",
+      "title": "Religious facility revenue bonds at 1780 Orchard Heights Avenue",
+      "section": "Public Hearing",
+      "summary": "Consider approval of tax-exempt religious facility revenue bonds for the borrower. The agenda states that the City would have no responsibility or liability for the bonds."
+    },
+    {
+      "item": "I.2",
+      "title": "Continued hearing on short-term rentals and fees",
+      "section": "Public Hearing",
+      "summary": "Hold the continued public hearing and consider a short-term rental ordinance and a resolution establishing program fees."
+    },
+    {
+      "item": "I.3",
+      "title": "Municipal Code provisions for City committees",
+      "section": "Public Hearing",
+      "summary": "Introduce ordinances for Parks and Recreation, Economic Development, and Public Works Advisory committees, and amend the Financial and Audit Committee chapter."
+    },
+    {
+      "item": "J.1",
+      "title": "Tilden-Coil services for the new police station",
+      "section": "Action",
+      "summary": "Consider a professional services agreement with Tilden-Coil Constructors for project program management and owner’s representative services for CIP PS-07, the new police station."
+    },
+    {
+      "item": "J.2",
+      "title": "$80,000 sponsorship request for the 2027 IOA Championship",
+      "section": "Action",
+      "summary": "Consider FGTA, Inc. / Epson Tour’s request for an $80,000 City sponsorship of the IOA Championship, April 19–25, 2027, at Morongo Golf Club at Tukwet Canyon."
+    },
+    {
+      "item": "J.3",
+      "title": "Downtown Revitalization Phase I",
+      "section": "Action",
+      "summary": "Discuss implementation of Phase I of the City’s Downtown Revitalization Plan."
+    },
+    {
+      "item": "J.4",
+      "title": "Banning agreement for Highland Springs Avenue improvements",
+      "section": "Action",
+      "summary": "Consider a cooperative agreement establishing Beaumont’s and Banning’s roles and responsibilities for Highland Springs Avenue street improvements."
+    },
+    {
+      "item": "J.5",
+      "title": "Tyler Technologies three-year enterprise renewal",
+      "section": "Action",
+      "summary": "Consider a three-year amendment for FY2026–27 through FY2028–29: $631,892.93 in contract services plus $346,144.50 in estimated wastewater billing usage, totaling $978,037.43."
+    }
+  ],
+  "documents": [
+    {
+      "item": "G.1",
+      "itemTitle": "Ratification of warrants",
+      "section": "Consent",
+      "title": "September 11 warrants",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11271"
+    },
+    {
+      "item": "G.1",
+      "itemTitle": "Ratification of warrants",
+      "section": "Consent",
+      "title": "September 18 warrants",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11272"
+    },
+    {
+      "item": "G.1",
+      "itemTitle": "Ratification of warrants",
+      "section": "Consent",
+      "title": "September 25 warrants",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11273"
+    },
+    {
+      "item": "G.2",
+      "itemTitle": "Approval of minutes",
+      "section": "Consent",
+      "title": "October 6 Council minutes",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11339"
+    },
+    {
+      "item": "G.3",
+      "itemTitle": "September City Attorney invoices",
+      "section": "Consent",
+      "title": "SBEMP September 2026 invoices",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11274"
+    },
+    {
+      "item": "G.4",
+      "itemTitle": "Conflict of interest code update",
+      "section": "Consent",
+      "title": "Staff report",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11275"
+    },
+    {
+      "item": "G.4",
+      "itemTitle": "Conflict of interest code update",
+      "section": "Consent",
+      "title": "Resolution amending conflict of interest code",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11276"
+    },
+    {
+      "item": "G.5",
+      "itemTitle": "Omnitrans coordinated transit services agreement",
+      "section": "Consent",
+      "title": "Staff report",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11298"
+    },
+    {
+      "item": "G.5",
+      "itemTitle": "Omnitrans coordinated transit services agreement",
+      "section": "Consent",
+      "title": "Omnitrans and Beaumont Transit agreement",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11299"
+    },
+    {
+      "item": "G.6",
+      "itemTitle": "HCN Bank Trunk or Treat deposit and fee waiver",
+      "section": "Consent",
+      "title": "Staff report",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11300"
+    },
+    {
+      "item": "G.6",
+      "itemTitle": "HCN Bank Trunk or Treat deposit and fee waiver",
+      "section": "Consent",
+      "title": "Deposit waiver resolution",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11301"
+    },
+    {
+      "item": "G.6",
+      "itemTitle": "HCN Bank Trunk or Treat deposit and fee waiver",
+      "section": "Consent",
+      "title": "Special event fee waiver policy",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11302"
+    },
+    {
+      "item": "G.6",
+      "itemTitle": "HCN Bank Trunk or Treat deposit and fee waiver",
+      "section": "Consent",
+      "title": "Special event application",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11303"
+    },
+    {
+      "item": "G.6",
+      "itemTitle": "HCN Bank Trunk or Treat deposit and fee waiver",
+      "section": "Consent",
+      "title": "Conditions of approval",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11304"
+    },
+    {
+      "item": "G.6",
+      "itemTitle": "HCN Bank Trunk or Treat deposit and fee waiver",
+      "section": "Consent",
+      "title": "Fee waiver request",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11305"
+    },
+    {
+      "item": "G.6",
+      "itemTitle": "HCN Bank Trunk or Treat deposit and fee waiver",
+      "section": "Consent",
+      "title": "Levine Act statement",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11306"
+    },
+    {
+      "item": "G.7",
+      "itemTitle": "Beaumont Library storm drain performance bond release",
+      "section": "Consent",
+      "title": "Staff report",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11289"
+    },
+    {
+      "item": "G.7",
+      "itemTitle": "Beaumont Library storm drain performance bond release",
+      "section": "Consent",
+      "title": "Library expansion bond release package",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11290"
+    },
+    {
+      "item": "G.7",
+      "itemTitle": "Beaumont Library storm drain performance bond release",
+      "section": "Consent",
+      "title": "Notice of completion",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11291"
+    },
+    {
+      "item": "G.8",
+      "itemTitle": "Executive employment agreement amendments",
+      "section": "Consent",
+      "title": "Staff report",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11314"
+    },
+    {
+      "item": "G.8",
+      "itemTitle": "Executive employment agreement amendments",
+      "section": "Consent",
+      "title": "City Engineer and Public Works Director amendment",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11315"
+    },
+    {
+      "item": "G.8",
+      "itemTitle": "Executive employment agreement amendments",
+      "section": "Consent",
+      "title": "Community Development Director amendment",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11316"
+    },
+    {
+      "item": "G.8",
+      "itemTitle": "Executive employment agreement amendments",
+      "section": "Consent",
+      "title": "Community Services Director amendment",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11317"
+    },
+    {
+      "item": "G.8",
+      "itemTitle": "Executive employment agreement amendments",
+      "section": "Consent",
+      "title": "Director of Water Reclamation amendment",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11318"
+    },
+    {
+      "item": "G.8",
+      "itemTitle": "Executive employment agreement amendments",
+      "section": "Consent",
+      "title": "Chief of Police amendment",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11319"
+    },
+    {
+      "item": "G.9",
+      "itemTitle": "Public Works Principal Engineer position",
+      "section": "Consent",
+      "title": "Staff report",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11340"
+    },
+    {
+      "item": "G.9",
+      "itemTitle": "Public Works Principal Engineer position",
+      "section": "Consent",
+      "title": "Existing organizational chart",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11341"
+    },
+    {
+      "item": "G.9",
+      "itemTitle": "Public Works Principal Engineer position",
+      "section": "Consent",
+      "title": "Proposed organizational chart",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11342"
+    },
+    {
+      "item": "G.10",
+      "itemTitle": "Fehr and Peers citywide traffic analysis",
+      "section": "Consent",
+      "title": "Staff report",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11292"
+    },
+    {
+      "item": "G.10",
+      "itemTitle": "Fehr and Peers citywide traffic analysis",
+      "section": "Consent",
+      "title": "Signed Fehr and Peers agreement",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11293"
+    },
+    {
+      "item": "G.10",
+      "itemTitle": "Fehr and Peers citywide traffic analysis",
+      "section": "Consent",
+      "title": "First amendment",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11294"
+    },
+    {
+      "item": "G.10",
+      "itemTitle": "Fehr and Peers citywide traffic analysis",
+      "section": "Consent",
+      "title": "Fehr and Peers proposal",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11295"
+    },
+    {
+      "item": "G.11",
+      "itemTitle": "Matich street rehabilitation construction contingency increase",
+      "section": "Consent",
+      "title": "Staff report",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11307"
+    },
+    {
+      "item": "G.11",
+      "itemTitle": "Matich street rehabilitation construction contingency increase",
+      "section": "Consent",
+      "title": "Contract C26-102",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11308"
+    },
+    {
+      "item": "G.12",
+      "itemTitle": "Fairways storm drain performance bond releases",
+      "section": "Consent",
+      "title": "Staff report",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11280"
+    },
+    {
+      "item": "G.12",
+      "itemTitle": "Fairways storm drain performance bond releases",
+      "section": "Consent",
+      "title": "Tract 37697 bond release package",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11281"
+    },
+    {
+      "item": "G.12",
+      "itemTitle": "Fairways storm drain performance bond releases",
+      "section": "Consent",
+      "title": "Tract 37698 bond release package",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11282"
+    },
+    {
+      "item": "G.12",
+      "itemTitle": "Fairways storm drain performance bond releases",
+      "section": "Consent",
+      "title": "Notice of completion",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11283"
+    },
+    {
+      "item": "G.13",
+      "itemTitle": "September financial reports",
+      "section": "Consent",
+      "title": "Staff report",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11331"
+    },
+    {
+      "item": "G.13",
+      "itemTitle": "September financial reports",
+      "section": "Consent",
+      "title": "Governmental funds",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11332"
+    },
+    {
+      "item": "G.13",
+      "itemTitle": "September financial reports",
+      "section": "Consent",
+      "title": "Proprietary funds",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11333"
+    },
+    {
+      "item": "G.13",
+      "itemTitle": "September financial reports",
+      "section": "Consent",
+      "title": "Fiduciary funds",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11334"
+    },
+    {
+      "item": "G.14",
+      "itemTitle": "FY27 Quarter 1 purchases and contract awards",
+      "section": "Consent",
+      "title": "Staff report",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11335"
+    },
+    {
+      "item": "G.14",
+      "itemTitle": "FY27 Quarter 1 purchases and contract awards",
+      "section": "Consent",
+      "title": "Purchase orders for goods",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11336"
+    },
+    {
+      "item": "G.14",
+      "itemTitle": "FY27 Quarter 1 purchases and contract awards",
+      "section": "Consent",
+      "title": "Purchase orders for Public Works",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11337"
+    },
+    {
+      "item": "G.14",
+      "itemTitle": "FY27 Quarter 1 purchases and contract awards",
+      "section": "Consent",
+      "title": "Purchase orders for professional and general services",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11338"
+    },
+    {
+      "item": "G.15",
+      "itemTitle": "October 14 Planning Commission action report",
+      "section": "Consent",
+      "title": "Staff report",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11348"
+    },
+    {
+      "item": "I.1",
+      "itemTitle": "Religious facility revenue bonds at 1780 Orchard Heights Avenue",
+      "section": "Public Hearing",
+      "title": "Staff report - Calvary Chapel TEFRA hearing",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11277"
+    },
+    {
+      "item": "I.1",
+      "itemTitle": "Religious facility revenue bonds at 1780 Orchard Heights Avenue",
+      "section": "Public Hearing",
+      "title": "Calvary resolution",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11278"
+    },
+    {
+      "item": "I.1",
+      "itemTitle": "Religious facility revenue bonds at 1780 Orchard Heights Avenue",
+      "section": "Public Hearing",
+      "title": "TEFRA public notice",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11279"
+    },
+    {
+      "item": "I.2",
+      "itemTitle": "Continued hearing on short-term rentals and fees",
+      "section": "Public Hearing",
+      "title": "Staff report",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11284"
+    },
+    {
+      "item": "I.2",
+      "itemTitle": "Continued hearing on short-term rentals and fees",
+      "section": "Public Hearing",
+      "title": "Short-term rental ordinance",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11285"
+    },
+    {
+      "item": "I.2",
+      "itemTitle": "Continued hearing on short-term rentals and fees",
+      "section": "Public Hearing",
+      "title": "Exhibit A to ordinance",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11286"
+    },
+    {
+      "item": "I.2",
+      "itemTitle": "Continued hearing on short-term rentals and fees",
+      "section": "Public Hearing",
+      "title": "Draft fee resolution",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11287"
+    },
+    {
+      "item": "I.2",
+      "itemTitle": "Continued hearing on short-term rentals and fees",
+      "section": "Public Hearing",
+      "title": "Short-term rental presentation",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11288"
+    },
+    {
+      "item": "I.3",
+      "itemTitle": "Municipal Code provisions for City committees",
+      "section": "Public Hearing",
+      "title": "Staff report",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11343"
+    },
+    {
+      "item": "I.3",
+      "itemTitle": "Municipal Code provisions for City committees",
+      "section": "Public Hearing",
+      "title": "Public Works Advisory Committee ordinance",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11344"
+    },
+    {
+      "item": "I.3",
+      "itemTitle": "Municipal Code provisions for City committees",
+      "section": "Public Hearing",
+      "title": "Economic Development Committee chapter",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11345"
+    },
+    {
+      "item": "I.3",
+      "itemTitle": "Municipal Code provisions for City committees",
+      "section": "Public Hearing",
+      "title": "Parks and Recreation Committee chapter",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11346"
+    },
+    {
+      "item": "I.3",
+      "itemTitle": "Municipal Code provisions for City committees",
+      "section": "Public Hearing",
+      "title": "Financial and Audit Committee amendment",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11347"
+    },
+    {
+      "item": "J.1",
+      "itemTitle": "Tilden-Coil services for the new police station",
+      "section": "Action",
+      "title": "Staff report",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11309"
+    },
+    {
+      "item": "J.1",
+      "itemTitle": "Tilden-Coil services for the new police station",
+      "section": "Action",
+      "title": "Professional services agreement",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11310"
+    },
+    {
+      "item": "J.1",
+      "itemTitle": "Tilden-Coil services for the new police station",
+      "section": "Action",
+      "title": "Tilden-Coil Levine Act statement",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11311"
+    },
+    {
+      "item": "J.1",
+      "itemTitle": "Tilden-Coil services for the new police station",
+      "section": "Action",
+      "title": "Proposal",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11312"
+    },
+    {
+      "item": "J.1",
+      "itemTitle": "Tilden-Coil services for the new police station",
+      "section": "Action",
+      "title": "Cost proposal",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11313"
+    },
+    {
+      "item": "J.2",
+      "itemTitle": "$80,000 sponsorship request for the 2027 IOA Championship",
+      "section": "Action",
+      "title": "Staff report",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11327"
+    },
+    {
+      "item": "J.2",
+      "itemTitle": "$80,000 sponsorship request for the 2027 IOA Championship",
+      "section": "Action",
+      "title": "IOA Classic media plan",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11328"
+    },
+    {
+      "item": "J.2",
+      "itemTitle": "$80,000 sponsorship request for the 2027 IOA Championship",
+      "section": "Action",
+      "title": "2027 proposal",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11329"
+    },
+    {
+      "item": "J.2",
+      "itemTitle": "$80,000 sponsorship request for the 2027 IOA Championship",
+      "section": "Action",
+      "title": "Sponsorship application",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11330"
+    },
+    {
+      "item": "J.3",
+      "itemTitle": "Downtown Revitalization Phase I",
+      "section": "Action",
+      "title": "Staff report",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11323"
+    },
+    {
+      "item": "J.3",
+      "itemTitle": "Downtown Revitalization Phase I",
+      "section": "Action",
+      "title": "Downtown tree layout",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11324"
+    },
+    {
+      "item": "J.3",
+      "itemTitle": "Downtown Revitalization Phase I",
+      "section": "Action",
+      "title": "Beaumont downtown study",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11325"
+    },
+    {
+      "item": "J.3",
+      "itemTitle": "Downtown Revitalization Phase I",
+      "section": "Action",
+      "title": "STB proposal",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11326"
+    },
+    {
+      "item": "J.4",
+      "itemTitle": "Banning agreement for Highland Springs Avenue improvements",
+      "section": "Action",
+      "title": "Staff report",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11296"
+    },
+    {
+      "item": "J.4",
+      "itemTitle": "Banning agreement for Highland Springs Avenue improvements",
+      "section": "Action",
+      "title": "City of Banning cooperative agreement",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11297"
+    },
+    {
+      "item": "J.5",
+      "itemTitle": "Tyler Technologies three-year enterprise renewal",
+      "section": "Action",
+      "title": "Staff report",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11320"
+    },
+    {
+      "item": "J.5",
+      "itemTitle": "Tyler Technologies three-year enterprise renewal",
+      "section": "Action",
+      "title": "Signed Tyler amendment",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11321"
+    },
+    {
+      "item": "J.5",
+      "itemTitle": "Tyler Technologies three-year enterprise renewal",
+      "section": "Action",
+      "title": "Sole source justification",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11322"
+    }
+  ]
+}
