@@ -17,139 +17,155 @@
       "item": "G.1",
       "title": "Ratification of warrants",
       "section": "Consent",
-      "summary": "Consider the listed consent-calendar item; consult the supporting documents for the proposed action and details."
+      "summary": "Consider ratification of the September 11, 18, and 25 warrant registers. The registers are linked in the interactive agenda; this review has not reconciled individual payments."
     },
     {
       "item": "G.2",
       "title": "Approval of minutes",
       "section": "Consent",
-      "summary": "Consider the listed consent-calendar item; consult the supporting documents for the proposed action and details."
+      "summary": "Consider approval of the October 6 Council minutes. This is approval of the meeting record, separate from the proposed October 20 actions."
     },
     {
       "item": "G.3",
       "title": "September City Attorney invoices",
       "section": "Consent",
-      "summary": "Consider the listed consent-calendar item; consult the supporting documents for the proposed action and details."
+      "summary": "Consider September 2026 SBEMP City Attorney invoices. Invoice-level charges have not been reconciled in this review."
     },
     {
       "item": "G.4",
       "title": "Conflict of interest code update",
       "section": "Consent",
-      "summary": "Consider the listed consent-calendar item; consult the supporting documents for the proposed action and details."
+      "summary": "Consider the biennial amendment of the City’s conflict of interest disclosure code. Staff reports no fiscal impact."
     },
     {
       "item": "G.5",
       "title": "Omnitrans coordinated transit services agreement",
       "section": "Consent",
-      "summary": "Consider the listed consent-calendar item; consult the supporting documents for the proposed action and details."
+      "summary": "Approve the Omnitrans interagency service agreement. Each agency would retain fares it collects, with no revenue settlement or reimbursement between them. The $1 Omnitrans fare-media discount on Commuter Link would be absorbed within existing Transit Fund operations."
     },
     {
       "item": "G.6",
       "title": "HCN Bank Trunk or Treat deposit and fee waiver",
       "section": "Consent",
-      "summary": "Consider the listed consent-calendar item; consult the supporting documents for the proposed action and details."
+      "summary": "Consider deposit and fee waivers for HCN Bank’s sixth annual Trunk or Treat event. Staff estimates up to $200 in permit-processing staff time and approximately $100 to prepare the report."
     },
     {
       "item": "G.7",
       "title": "Beaumont Library storm drain performance bond release",
       "section": "Consent",
-      "summary": "Consider the listed consent-calendar item; consult the supporting documents for the proposed action and details."
+      "summary": "Record the notice of completion and accept the Beaumont Library expansion storm drain improvements into the publicly maintained system. Staff values the accepted assets at approximately $15,504; ongoing maintenance would use the Public Works operating budget."
     },
     {
       "item": "G.8",
       "title": "Executive employment agreement amendments",
       "section": "Consent",
-      "summary": "Consider executive contract amendments intended to standardize employee benefits following labor negotiations."
+      "summary": "Authorize amendments for five executive employment agreements to align cost-of-living adjustments with other employee groups and standardize administrative leave, adding 20 hours of leave. The report provides no total dollar estimate; costs would be captured in the mid-year and future budgets."
     },
     {
       "item": "G.9",
       "title": "Public Works Principal Engineer position",
       "section": "Consent",
-      "summary": "Consider replacing the Senior Engineer position allocation with a Principal Engineer position."
+      "summary": "Eliminate one Senior Engineer allocation and add one Principal Engineer allocation. Staff identifies a $10,000 increase to the Public Works salary account."
     },
     {
       "item": "G.10",
       "title": "Fehr and Peers citywide traffic analysis",
       "section": "Consent",
-      "summary": "Consider an on-call task order for the citywide traffic study, CIP R27-06."
+      "summary": "Authorize a $212,940 revised purchase order to Fehr and Peers for CIP R27-06 citywide traffic analysis, within a $300,000 project budget funded by traffic-signal development impact fees. The fiscal section identifies FY2027–28 funding; availability for the proposed October 2026 authorization warrants clarification."
     },
     {
       "item": "G.11",
       "title": "Matich street rehabilitation construction contingency increase",
       "section": "Consent",
-      "summary": "Consider an increase in construction contingency for Matich Corporation’s FY26 annual street rehabilitation project, CIP R26-01."
+      "summary": "Increase Matich’s street-project contingency from $342,855 to $598,990, a $256,135 increase, for a construction ceiling of $4,027,538. Staff says this fits within the existing $4,384,761 CIP R26-01 budget and requires no additional appropriation. This is the same street project referenced by J.4."
     },
     {
       "item": "G.12",
       "title": "Fairways storm drain performance bond releases",
       "section": "Consent",
-      "summary": "Consider the listed consent-calendar item; consult the supporting documents for the proposed action and details."
+      "summary": "Record notices of completion and accept storm drains for Fairways Tracts 37697 and 37698 into the publicly maintained system. Staff values the accepted assets at approximately $768,000; maintenance would use the Public Works operating budget."
     },
     {
       "item": "G.13",
       "title": "September financial reports",
       "section": "Consent",
-      "summary": "Consider the listed consent-calendar item; consult the supporting documents for the proposed action and details."
+      "summary": "Receive and file September governmental, proprietary, and fiduciary fund reports. Receiving the reports does not authorize expenditures or adjust the budget."
     },
     {
       "item": "G.14",
       "title": "FY27 Quarter 1 purchases and contract awards",
       "section": "Consent",
-      "summary": "Consider the listed consent-calendar item; consult the supporting documents for the proposed action and details."
+      "summary": "Receive and file the FY27 first-quarter purchases and contract-awards report. This action does not authorize additional spending or adjust the budget."
     },
     {
       "item": "G.15",
       "title": "October 14 Planning Commission action report",
       "section": "Consent",
-      "summary": "Consider the listed consent-calendar item; consult the supporting documents for the proposed action and details."
+      "summary": "Receive and file the October 14 Planning Commission report, including its Golden Triangle annexation recommendations, Shake Shack drive-through approval, and Maya Plaza sign-program amendment. Receiving this report does not itself approve the annexation; that requires later Council consideration and LAFCO review."
     },
     {
       "item": "I.1",
       "title": "Religious facility revenue bonds at 1780 Orchard Heights Avenue",
       "section": "Public Hearing",
-      "summary": "Consider approval of tax-exempt religious facility revenue bonds for the borrower. The agenda states that the City would have no responsibility or liability for the bonds."
+      "summary": "Hold a TEFRA hearing and consider a resolution approving up to $10 million in tax-exempt religious facility revenue bonds for Calvary Chapel at 1780 Orchard Heights Avenue. The staff report describes this as the required local approval for the borrower’s financing; it states that the City would bear no responsibility or liability for the bonds and that this action does not approve development.",
+      "funding": "Borrower financing; the report identifies no City financial responsibility.",
+      "question": "Does the final resolution preserve the stated absence of City repayment obligations?"
     },
     {
       "item": "I.2",
       "title": "Continued hearing on short-term rentals and fees",
       "section": "Public Hearing",
-      "summary": "Hold the continued public hearing and consider a short-term rental ordinance and a resolution establishing program fees."
+      "summary": "Introduce the revised short-term rental ordinance and adopt a fee resolution. Proposed fees include a $250 annual license, $100 inspection or reinspection, $100 late renewal processing, $2,000 appeal, and $10 replacement license. The report describes daily fines of up to $500 for initial unlicensed operation, escalating to $1,000 and $2,000 after the specified 15-day periods. The total overnight occupancy limit would be twice the number of approved bedrooms. The ordinance would return for a second reading and take effect 30 days after final passage.",
+      "funding": "Community Development would administer the program. Fees are intended to recover costs; fee and transient occupancy tax revenue are not yet estimated.",
+      "question": "What staffing, inspection capacity, and public-notification schedule will support implementation, and how will the $2,000 appeal fee affect access to review?"
     },
     {
       "item": "I.3",
       "title": "Municipal Code provisions for City committees",
       "section": "Public Hearing",
-      "summary": "Introduce ordinances for Parks and Recreation, Economic Development, and Public Works Advisory committees, and amend the Financial and Audit Committee chapter."
+      "summary": "Approve first readings for four committee ordinances, including creation of a Public Works Advisory Committee. Each committee would have seven voting members. Financial and Audit would include five residents and two Council members; Economic Development would include six residents or business owners and one Chamber member. Existing terms and natural attrition would guide the transition. Adoption would return at a later meeting.",
+      "funding": "Staff reports no fiscal impact.",
+      "question": "How will vacancies, current terms, and member qualifications be tracked during the transition?"
     },
     {
       "item": "J.1",
       "title": "Tilden-Coil services for the new police station",
       "section": "Action",
-      "summary": "Consider a professional services agreement with Tilden-Coil Constructors for project program management and owner’s representative services for CIP PS-07, the new police station."
+      "summary": "Award a Tilden-Coil program-management and owner’s representative agreement with a proposed overall ceiling of $5,437,851, while authorizing only Phase I now: $219,752 in services plus $21,975 contingency, totaling $241,727. Later phases would require funding and further Council authorization. The report estimates about two years to reach ready-to-list status. The cost proposal treats later-phase fees as preliminary and excludes certain construction general-condition expenses.",
+      "funding": "CIP PS-07 lists an estimated total project budget of $88,475,000 against $8,462,372 in current funding, leaving $80,012,628 unfunded. Current sources are police development impact fees, CFD funds, and General Fund money. Staff anticipates Phase I is funded; future phases currently are not.",
+      "question": "What funding milestones must be met before later phases are authorized, and how will excluded costs and future fee adjustments be controlled?"
     },
     {
       "item": "J.2",
       "title": "$80,000 sponsorship request for the 2027 IOA Championship",
       "section": "Action",
-      "summary": "Consider FGTA, Inc. / Epson Tour’s request for an $80,000 City sponsorship of the IOA Championship, April 19–25, 2027, at Morongo Golf Club at Tukwet Canyon."
+      "summary": "Consider up to $80,000 for the April 19–25, 2027 IOA Championship at Tukwet Canyon, compared with $40,000 for the 2026 tournament. Council would also be asked to make the policy’s public-benefit finding. Proposed benefits include 15 pro-am teams, City branding, and a $10,000 media plan. Staff says attendance, resident participation, and media projections have not been independently verified; direct economic impacts are not quantified.",
+      "funding": "The report identifies $222,313 available in the sponsorship account before this request and $142,313 remaining if the full $80,000 is approved. Costs of requested City promotional support have not been calculated.",
+      "question": "What measurable deliverables, participant-selection criteria, reporting requirements, and limits on additional City support should be included in the agreement?"
     },
     {
       "item": "J.3",
       "title": "Downtown Revitalization Phase I",
       "section": "Action",
-      "summary": "Discuss implementation of Phase I of the City’s Downtown Revitalization Plan."
+      "summary": "Direct the next phase of downtown streetscape design for street trees, gateway features, and furnishings along Beaumont Avenue, Sixth Street, and Grace Avenue. The STB proposal adds $53,400 to an existing $15,800 purchase order, bringing it to $69,200. Staff estimates construction at $2–3 million, depending on amenities and methods; a construction funding plan would return later. The concept includes potential conversion of selected parking areas to planting areas and preservation of emergency access at Grace Avenue.",
+      "funding": "Professional services would use the Public Works operating budget. No construction CIP has been established; a future CIP and funding plan are still needed.",
+      "question": "Before final design, how many parking spaces would change, what would ongoing maintenance cost, and what construction funding and accessibility requirements must be resolved?"
     },
     {
       "item": "J.4",
       "title": "Banning agreement for Highland Springs Avenue improvements",
       "section": "Action",
-      "summary": "Consider a cooperative agreement establishing Beaumont’s and Banning’s roles and responsibilities for Highland Springs Avenue street improvements."
+      "summary": "Approve the Banning cooperative agreement for Highland Springs Avenue and Ramsey–Sixth Street improvements. Beaumont would serve as lead agency, initially fund applicable expenditures, and invoice Banning for actual costs attributable to its jurisdiction. Banning’s estimated share is $369,580, including 15% contingency.",
+      "funding": "The work is part of CIP R26-01, with a $4,384,761 project budget supported by CFD, Gas Tax, Measure A, and SB1 RMRA funds. Banning reimbursement is a share of this coordinated work, not a separate project to add to the full CIP total.",
+      "question": "How will reimbursement timing, cost overruns, and jurisdictional cost allocation be documented and enforced?"
     },
     {
       "item": "J.5",
       "title": "Tyler Technologies three-year enterprise renewal",
       "section": "Action",
-      "summary": "Consider a three-year amendment for FY2026–27 through FY2028–29: $631,892.93 in contract services plus $346,144.50 in estimated wastewater billing usage, totaling $978,037.43."
+      "summary": "Approve a three-year Tyler Technologies renewal for FY2026–27 through FY2028–29. The stated total is $978,037.43: $631,892.93 in IT services and $346,144.50 in estimated wastewater billing and transaction costs. The schedule includes 5% annual increases. Wastewater credit-card charges are usage-based estimates; staff also requests authority for the City Manager to approve usage overages.",
+      "funding": "IT Internal Services Fund and the Wastewater Enterprise account. Staff says the costs are budgeted and requests no additional appropriation.",
+      "question": "What dollar limit and reporting requirement would apply to wastewater transaction-fee overages?"
     }
   ],
   "documents": [
@@ -935,5 +951,9 @@
     }
   ],
   "packetPages": 706,
-  "packetArchiveUrl": "https://documents.beaumontintelligence.com/records/agenda-packets/2026-10-20/2026-10-20-city-council-agenda-package.pdf"
+  "packetArchiveUrl": "https://documents.beaumontintelligence.com/records/agenda-packets/2026-10-20/2026-10-20-city-council-agenda-package.pdf",
+  "review": {
+    "reviewedOn": "2026-10-16",
+    "scope": "Staff-report review of all 20 items with staff reports, plus the J.1 cost proposal. G.1–G.3 contain warrants, minutes, and invoices rather than staff reports. Other attachments remain available for further review."
+  }
 }

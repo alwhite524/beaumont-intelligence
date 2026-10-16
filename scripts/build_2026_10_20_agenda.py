@@ -60,6 +60,11 @@ def build():
             ident, label = ref.split(':', 1)
             documents.append(dict(item=item, itemTitle=title, section=section, title=label, officialUrl=f'https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId={ident}'))
     assert len(items) == 23 and len(documents) == 78
+    review_path = ROOT / f'data/council/{DATE}-review.json'
+    review = json.loads(review_path.read_text(encoding='utf-8')) if review_path.exists() else None
+    if review:
+        for item in items:
+            item.update(review['items'][item['item']])
     agenda = dict(date=DATE, officialAgendaUrl=OFFICIAL, officialPdfUrl=PACKET, meetingStatus='upcoming', audit=dict(checkedOn='2026-10-16', expectedDocuments=78, linkedDocuments=78, votingItems=23, officialHtmlAuditComplete=True, archiveComplete=False, basis='All 78 unique supporting-document URLs inventoried item by item from the official City HTML agenda. Links use City-hosted originals; archive copies have not been verified.'), items=items, documents=documents)
     packet_map = ROOT / f'data/council/{DATE}-packet-map.json'
     packet_url = PACKET
@@ -69,6 +74,8 @@ def build():
         agenda.update(archived)
         packet_url = archived['packetArchiveUrl']
         agenda['audit'].update(archiveComplete=True, basis='All 78 City-listed supporting documents matched by item and sequence to the supplied 706-page packet bookmarks. Page ranges retained; archived copies verified by checksum and size during upload. Original City URLs retained as provenance.')
+    if review:
+        agenda['review'] = dict(reviewedOn=review['reviewedOn'], scope=review['scope'])
     (ROOT / f'data/council/{DATE}-agenda.json').write_text(json.dumps(agenda, indent=2, ensure_ascii=False)+'\n', encoding='utf-8')
     # Reuse the established searchable agenda and in-page document viewer.
     tree = ast.parse((ROOT / 'scripts/build_simple_interactive_agendas.py').read_text(encoding='utf-8'))
@@ -96,10 +103,22 @@ def build():
             if item['section'] != section: continue
             refs = [d for d in documents if d['item']==item['item']]
             body += f'<article class="card" id="{item["item"].lower().replace(".","-")}"><h3>{item["item"]} · {escape(item["title"])}</h3><p>{escape(item["summary"])}</p><p><a href="{DATE}-sources.html">Open interactive agenda and supporting documents ({len(refs)})</a></p></article>'
+            extra = ''
+            if item.get('funding'):
+                extra += f'<p><strong>Funding and fiscal context:</strong> {escape(item["funding"])}</p>'
+            if item.get('question'):
+                extra += f'<p><strong>Question for consideration:</strong> {escape(item["question"])}</p>'
+            source = next((d for d in refs if 'staff report' in d['title'].lower()), None)
+            if source:
+                url = source.get('archiveUrl') or source['officialUrl']
+                extra += f'<p class="source-note"><a href="../documents/viewer.html?url={quote(url,safe="")}&amp;title={quote(source["title"],safe="")}">Read the staff report</a> · Packet pages {source.get("packet_page_start", "") }–{source.get("packet_page_end", "")}</p>'
+            body = body.removesuffix('</article>') + extra + '</article>'
         body += '</section>'
     body += '<p class="source-note">The next regular meeting listed in this agenda is Tuesday, November 17, 2026, at 6:00 PM, unless otherwise posted.</p><p><a href="../council-intelligence.html">Return to Council Intelligence</a></p></div></section></main></body></html>'
     if packet_map.exists():
         body = body.replace('the supplied five-page agenda and the City’s HTML agenda', 'the supplied 706-page agenda packet, with supporting documents matched to the City agenda inventory').replace('Document-link inventory is complete; archived copies and a substantive review of every attachment are not complete.', 'All 78 supporting documents and the full packet are available from the Beaumont Intelligence archive. Page ranges and original City source URLs are retained. A substantive review of every attachment is not complete.')
+    if review:
+        body = body.replace('A substantive review of every attachment is not complete.', escape(review['scope']) + ' Questions below are editorial prompts, not findings of wrongdoing or Council decisions.')
     (DOCS / f'briefings/{DATE}.html').write_text(head+body, encoding='utf-8')
     deck = 'Short-term rentals, the new police station, downtown revitalization, Highland Springs improvements, golf sponsorship, and City technology services.'
     actions = '<div class="status-actions"><a class="btn" href="briefings/2026-10-20.html">Read October 20 briefing</a><a class="text-link" href="briefings/2026-10-20-sources.html">Open interactive agenda →</a></div>'
