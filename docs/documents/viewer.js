@@ -29,13 +29,6 @@
     viewerBackLink.href = "index.html";
   }
 
-  viewerBackLink.addEventListener("click", (event) => {
-    if (!returnUrl && document.referrer && window.history.length > 1) {
-      event.preventDefault();
-      window.history.back();
-    }
-  });
-
   const clearPdf = () => window.BIPdfReader.clear(pdfViewer);
   const renderPageImages = (images, documentTitle) => {
     clearPdf();
@@ -299,23 +292,70 @@
   attachments.addEventListener("click", handleAttachmentClick);
   viewerAttachments.addEventListener("click", handleAttachmentClick);
 
-  pdfClose.addEventListener("click", () => {
-    pdfPanel.hidden = true;
-    clearPdf();
-
-    const lastOpenedCard = [...attachments.querySelectorAll("[data-document-id]")]
-      .find((link) => link.dataset.documentId === lastOpenedDocumentId);
-
-    const standaloneLink = attachments.querySelector("[data-standalone-url]");
-
-    if (lastOpenedCard) {
-      lastOpenedCard.scrollIntoView({ behavior: "smooth", block: "center" });
-      lastOpenedCard.focus({ preventScroll: true });
-    } else if (standaloneLink) {
-      standaloneLink.scrollIntoView({ behavior: "smooth", block: "center" });
-      standaloneLink.focus({ preventScroll: true });
+  let hostDialog;
+  try {
+    hostDialog = window.frameElement?.closest('dialog');
+    if (hostDialog) {
+      const originalDialogStyle = hostDialog.style.cssText;
+      const originalFrameStyle = window.frameElement.style.cssText;
+      const hiddenChildren = [];
+      hostDialog.style.cssText = 'position:fixed;inset:0;width:100vw;height:100dvh;max-width:none;max-height:none;margin:0;padding:0;border:0;border-radius:0;overflow:hidden';
+      const frame = window.frameElement;
+      for (const child of hostDialog.children) {
+        if (child !== frame && !child.contains(frame)) {
+          hiddenChildren.push({ child, hidden: child.hidden, display: child.style.display });
+          child.hidden = true;
+          child.style.display = 'none';
+        }
+      }
+      frame.style.cssText = 'display:block;width:100%;height:100%;border:0';
+      hostDialog.addEventListener('close', () => {
+        clearPdf();
+        hostDialog.style.cssText = originalDialogStyle;
+        frame.style.cssText = originalFrameStyle;
+        hiddenChildren.forEach(({ child, hidden, display }) => {
+          child.hidden = hidden;
+          child.style.display = display;
+        });
+      }, { once: true });
     }
+  } catch { /* Standalone viewers use their own navigation. */ }
+  const backToAgenda = () => {
+    if (hostDialog) hostDialog.close();
+    else viewerBackLink.click();
+  };
+  document.querySelector('#pdf-back').addEventListener('click', backToAgenda);
+  pdfClose.addEventListener('click', backToAgenda);
+  document.addEventListener('keydown', event => {
+    if (event.key === 'Escape') { event.preventDefault(); backToAgenda(); }
   });
+
+  const updateAttachmentArrows = () => {
+    const strip = viewerAttachments.querySelector('.viewer-attachment-strip');
+    if (!strip) return;
+    viewerAttachments.querySelector('[data-direction="left"]').hidden = strip.scrollLeft <= 1;
+    viewerAttachments.querySelector('[data-direction="right"]').hidden = strip.scrollLeft + strip.clientWidth >= strip.scrollWidth - 1;
+  };
+  let stripObserver;
+  new MutationObserver(() => {
+    if (viewerAttachments.querySelector('.viewer-attachment-strip') || !viewerAttachments.querySelector('a')) return;
+    stripObserver?.disconnect();
+    const strip = document.createElement('div');
+    strip.className = 'viewer-attachment-strip';
+    strip.append(...viewerAttachments.querySelectorAll('a'));
+    const arrow = (direction, symbol) => {
+      const button = document.createElement('button');
+      button.type = 'button'; button.dataset.direction = direction; button.textContent = symbol;
+      button.setAttribute('aria-label', 'Scroll attachments ' + direction);
+      button.addEventListener('click', () => strip.scrollBy({ left: (direction === 'left' ? -1 : 1) * strip.clientWidth * 0.8, behavior: 'smooth' }));
+      return button;
+    };
+    viewerAttachments.append(arrow('left', '←'), strip, arrow('right', '→'));
+    strip.addEventListener('scroll', updateAttachmentArrows, { passive: true });
+    stripObserver = new ResizeObserver(updateAttachmentArrows);
+    stripObserver.observe(strip);
+    requestAnimationFrame(updateAttachmentArrows);
+  }).observe(viewerAttachments, { childList: true });
 
   window.addEventListener("popstate", () => {
     const historyParams = new URLSearchParams(window.location.search);
@@ -327,7 +367,7 @@
     const historyRecord = historyPdf
       ? documentLibrary.find((item) => item.pdf.endsWith(`/official-documents/${historyPdf}`))
       : null;
-    renderDocument(historyParams.get("id") || historyRecord?.id);
+    renderDocument(historyParams.get("id") || historyRecord?.id, false, true);
   });
 
   const requestedPdf = params.get("pdf");
@@ -340,6 +380,6 @@
   else renderDocument(
     params.get("id") || requestedRecord?.id,
     false,
-    Boolean(requestedPdf && requestedRecord)
+    true
   );
 })();

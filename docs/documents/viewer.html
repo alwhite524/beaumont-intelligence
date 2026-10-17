@@ -8,7 +8,7 @@
 
 <title>Official Document Viewer | Beaumont Intelligence</title>
 
-<link rel="stylesheet" href="../styles.css?v=20260917-reader5">
+<link rel="stylesheet" href="../styles.css?v=20261017-viewer">
 
 </head>
 
@@ -42,8 +42,9 @@ Loading document summary...
 
 <section class="inline-pdf-panel" aria-labelledby="pdf-heading" hidden>
   <div class="inline-pdf-heading">
+    <button class="inline-pdf-close" id="pdf-back" type="button" aria-label="Back to interactive agenda" title="Back to interactive agenda">←</button>
     <div><h2 id="pdf-heading">Loading document…</h2></div>
-    <button class="inline-pdf-close" id="pdf-close" type="button" aria-label="Close document viewer"><span>Close</span><strong aria-hidden="true">×</strong></button>
+    <button class="inline-pdf-close" id="pdf-close" type="button" aria-label="Close document viewer"><strong aria-hidden="true">×</strong></button>
   </div>
   <div id="pdf-viewer" class="pdf-page-stack" role="document" aria-label="Official document PDF"></div>
   <nav id="viewer-attachments" class="viewer-attachments" aria-label="Other attachments" hidden></nav>
@@ -60,8 +61,8 @@ No documents available.
 </main>
 
 <script src="document-data.js?v=20260829a"></script>
-<script src="pdf-reader.js?v=20260925-page-links1"></script>
-<script src="viewer.js?v=20260925-page-links1"></script>
+<script src="pdf-reader.js?v=20261017-viewer"></script>
+<script src="viewer.js?v=20261017-viewer"></script>
 
 </body>
 
