@@ -8,7 +8,7 @@
 
 <title>Official Document Viewer | Beaumont Intelligence</title>
 
-<link rel="stylesheet" href="../styles.css?v=20261017-icons4">
+<link rel="stylesheet" href="../styles.css?v=20261017-title5">
 
 </head>
 
@@ -42,11 +42,9 @@ Loading document summary...
 
 <section class="inline-pdf-panel" aria-labelledby="pdf-heading" hidden>
   <div class="inline-pdf-heading">
+    <button class="inline-pdf-close" id="pdf-back" type="button" aria-label="Back to interactive agenda" title="Back to interactive agenda"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="m11 8-4 4 4 4M7 12h10"/></svg></button>
     <div><h2 id="pdf-heading">Loading document…</h2></div>
-    <nav class="viewer-title-controls" aria-label="Viewer navigation">
-      <button class="inline-pdf-close" id="pdf-back" type="button" aria-label="Back to interactive agenda" title="Back to interactive agenda">←</button>
-      <button class="inline-pdf-close" id="pdf-close" type="button" aria-label="Close document viewer" title="Close document viewer"><strong aria-hidden="true">×</strong></button>
-    </nav>
+    <button class="inline-pdf-close" id="pdf-close" type="button" aria-label="Close document viewer" title="Close document viewer"><strong aria-hidden="true">×</strong></button>
   </div>
   <div id="pdf-viewer" class="pdf-page-stack" role="document" aria-label="Official document PDF"></div>
   <nav id="viewer-attachments" class="viewer-attachments" aria-label="Other attachments" hidden></nav>
@@ -63,8 +61,8 @@ No documents available.
 </main>
 
 <script src="document-data.js?v=20260829a"></script>
-<script src="pdf-reader.js?v=20261017-icons4"></script>
-<script src="viewer.js?v=20261017-icons4"></script>
+<script src="pdf-reader.js?v=20261017-title5"></script>
+<script src="viewer.js?v=20261017-title5"></script>
 
 </body>
 
