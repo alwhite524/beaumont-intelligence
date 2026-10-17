@@ -44,6 +44,12 @@
     pdfViewer, url, documentTitle, { startPage: requestedPage }
   );
 
+  const resetAttachmentFooter = () => {
+    const label = document.createElement('strong');
+    label.textContent = 'No Other Attachments';
+    viewerAttachments.replaceChildren(label);
+  };
+
   const renderDocument = (documentId, updateHistory = false, openPdf = false) => {
     activeStandaloneUrl = null;
     const record = documentLibrary.find(
@@ -100,12 +106,11 @@
         item.agendaItem === record.agendaItem
     );
     const otherDocuments = documentCollection.filter(item => item.id !== record.id);
-    viewerAttachments.replaceChildren();
-    viewerAttachments.hidden = !openPdf || !otherDocuments.length;
+    resetAttachmentFooter();
+    viewerAttachments.hidden = !openPdf;
     if (openPdf && otherDocuments.length) {
-      const label = document.createElement("strong");
-      label.textContent = "Other attachments";
-      viewerAttachments.append(label);
+      const label = viewerAttachments.querySelector("strong");
+      label.textContent = "Other Attachments";
       otherDocuments.forEach(item => {
         const link = document.createElement("a");
         link.href = `viewer.html?id=${encodeURIComponent(item.id)}`;
@@ -236,20 +241,19 @@
     downloadLink.textContent = "Download PDF →";
     actionsParagraph.appendChild(downloadLink);
     attachments.appendChild(actionsParagraph);
-    viewerAttachments.replaceChildren();
-    viewerAttachments.hidden = true;
+    resetAttachmentFooter();
+    viewerAttachments.hidden = false;
     pdfPanel.hidden = false;
     pdfHeading.textContent = filename;
     pdfViewer.setAttribute("aria-label", `${filename} PDF`);
     renderPdf(url, filename);
     relatedSources(url).then(otherDocuments => {
       if (activeStandaloneUrl !== url) return;
-      viewerAttachments.replaceChildren();
-      viewerAttachments.hidden = !otherDocuments.length;
+      resetAttachmentFooter();
+      viewerAttachments.hidden = false;
       if (!otherDocuments.length) return;
-      const label = document.createElement("strong");
-      label.textContent = "Other attachments";
-      viewerAttachments.append(label);
+      const label = viewerAttachments.querySelector("strong");
+      label.textContent = "Other Attachments";
       otherDocuments.forEach(item => {
         const link = document.createElement("a");
         link.href = `viewer.html?url=${encodeURIComponent(item.archiveUrl)}&title=${encodeURIComponent(item.title)}`;
@@ -338,8 +342,16 @@
   };
   let stripObserver;
   new MutationObserver(() => {
-    if (viewerAttachments.querySelector('.viewer-attachment-strip') || !viewerAttachments.querySelector('a')) return;
+    if (viewerAttachments.querySelector('.viewer-attachment-strip')) return;
     stripObserver?.disconnect();
+    if (!viewerAttachments.querySelector('a')) {
+      if (!viewerAttachments.querySelector('strong')) {
+        const label = document.createElement('strong');
+        label.textContent = 'No Other Attachments';
+        viewerAttachments.append(label);
+      }
+      return;
+    }
     const strip = document.createElement('div');
     strip.className = 'viewer-attachment-strip';
     strip.append(...viewerAttachments.querySelectorAll('a'));
@@ -350,7 +362,10 @@
       button.addEventListener('click', () => strip.scrollBy({ left: (direction === 'left' ? -1 : 1) * strip.clientWidth * 0.8, behavior: 'smooth' }));
       return button;
     };
-    viewerAttachments.append(arrow('left', '←'), strip, arrow('right', '→'));
+    const row = document.createElement('div');
+    row.className = 'viewer-attachment-row';
+    row.append(arrow('left', '←'), strip, arrow('right', '→'));
+    viewerAttachments.append(row);
     strip.addEventListener('scroll', updateAttachmentArrows, { passive: true });
     stripObserver = new ResizeObserver(updateAttachmentArrows);
     stripObserver.observe(strip);

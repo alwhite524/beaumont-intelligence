@@ -580,7 +580,9 @@ body[data-page="document-viewer"] .inline-pdf-heading>div{flex:1;min-width:0}
 body[data-page="document-viewer"] .inline-pdf-heading h2{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:1rem}
 body[data-page="document-viewer"] .inline-pdf-close{display:flex;align-items:center;justify-content:center;flex:0 0 44px;width:44px;height:44px;min-height:44px;padding:0;font-size:1.75rem}
 body[data-page="document-viewer"] .pdf-page-stack{flex:1 1 auto;min-height:0;height:auto;box-sizing:border-box}
-.viewer-attachments{flex-wrap:nowrap;max-height:none;overflow:hidden}
+.viewer-attachments{flex-direction:column;align-items:stretch;flex-wrap:nowrap;max-height:none;overflow:hidden}
+.viewer-attachments>strong{display:block;width:100%;text-align:center}
+.viewer-attachment-row{display:flex;align-items:center;gap:8px;width:100%;min-width:0}
 .viewer-attachment-strip{display:flex;align-items:center;gap:8px;flex:1;min-width:0;overflow-x:auto;overflow-y:hidden;overscroll-behavior-x:contain}
 .viewer-attachment-strip a{flex:0 0 auto;white-space:nowrap}
 .viewer-attachments button{flex:0 0 36px;width:36px;height:36px;border:1px solid var(--line);border-radius:5px;background:#fff;color:var(--navy);font:inherit;cursor:pointer}
