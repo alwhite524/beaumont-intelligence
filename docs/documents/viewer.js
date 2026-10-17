@@ -10,7 +10,6 @@
   const pdfPanel = document.querySelector(".inline-pdf-panel");
   const pdfHeading = document.querySelector("#pdf-heading");
   const pdfViewer = document.querySelector("#pdf-viewer");
-  const pdfClose = document.querySelector("#pdf-close");
   let lastOpenedDocumentId = null;
   let activeStandaloneUrl = null;
   const sourceLists = new Map();
@@ -329,7 +328,6 @@
     else viewerBackLink.click();
   };
   document.querySelector('#pdf-back').addEventListener('click', backToAgenda);
-  pdfClose.addEventListener('click', backToAgenda);
   document.addEventListener('keydown', event => {
     if (event.key === 'Escape') { event.preventDefault(); backToAgenda(); }
   });
