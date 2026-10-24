@@ -1,5 +1,16 @@
 # Animal Control Budget and Staffing
 
+<!-- shelter-transition-note:start -->
+## August 18, 2026 shelter transition — updated October 24
+
+Council approved 5–0 a one-year Haven Pet Center interim agreement (up to 50 animals per month; $246,000 including up to $36,000 veterinary expenses) and $71,800 for Higginson Architects to design a 24-kennel City shelter in Building E at 550 E. Sixth Street. Combined authority with 10% contingencies is $349,580. Construction, equipment, staffing, operating costs and the transition plan remain follow-up items; design authorization does not establish an open City shelter.
+
+The October 20 shelter-bid discussion is a transcript-based forecast, not an award or new appropriation. Earlier descriptions of contracted sheltering below describe the operating model preceding completion of the planned City facility.
+
+Sources: [August 18 outcome and agreements](../briefings/2026-08-18.html#animal-shelter), [agenda documents](../briefings/2026-08-18-sources.html), [October 20 outcomes](../briefings/2026-10-20.html#meeting-outcomes).
+
+<!-- shelter-transition-note:end -->
+
 ## Overview
 
 Beaumont Animal Control operates within the Beaumont Police Department and is supported through City funding, program revenues, and historically, revenue from regional service agreements.
