@@ -17,6 +17,7 @@ scripts = [
     "build_center_archive_updates.py",
     "build_police_station_status.py",
     "build_downtown_stewart_updates.py",
+    "build_service_area_actions.py",
     "build_2015_11_03_agenda.py",
     "build_research_library_index.py",
     "validate_database.py",

@@ -1,0 +1,204 @@
+{
+  "reviewedOn": "2026-10-24",
+  "scope": "Nine selected August–October 2026 actions; not a complete Council or service inventory.",
+  "criteria": {
+    "scope": "Dated action and service-area scope recorded",
+    "sources": "Decision record and supporting-document route linked",
+    "minutes": "Disposition checked against reviewed City minutes",
+    "finance": "Financial authority distinguished from estimates and expenditure",
+    "instruments": "Final instruments and material discrepancies reconciled"
+  },
+  "records": [
+    {
+      "id": "short-term-rentals",
+      "date": "2026-10-20",
+      "areas": [
+        "growth-community-development"
+      ],
+      "title": "Short-term rental ordinance introduced; fees approved",
+      "summary": "Council voted to introduce the short-term rental ordinance and adopt the fee resolution. Staff presented a revised ordinance with $500/$1,000/$2,000 fine tiers and a 15-day correction interval; the occupancy discussion clarified that three bedrooms allow six occupants. Staff targeted January 2027 implementation and described a later second reading.",
+      "limit": "Introduction is not final ordinance adoption. Revised ordinance text and the executed fee resolution were not collected; archived packet discrepancies remain documented below. The captioned nine-person example was corrected to six during discussion.",
+      "evidence": "Transcript-based; approved October 20 minutes not collected",
+      "recordUrl": "briefings/2026-10-20.html#outcome-I.2",
+      "documentsUrl": "briefings/2026-10-20-sources.html",
+      "nextStep": "Collect the final ordinance, second-reading disposition and executed fee resolution.",
+      "checks": {
+        "scope": true,
+        "sources": true,
+        "minutes": false,
+        "finance": true,
+        "instruments": false
+      }
+    },
+    {
+      "id": "committee-ordinances",
+      "date": "2026-10-20",
+      "areas": [
+        "finance-government"
+      ],
+      "title": "Committee ordinances advanced at first reading",
+      "summary": "Council approved first readings of the Public Works Advisory, Parks and Recreation, Economic Development, and Financial and Audit committee ordinances. Staff reported typographical corrections, transition through attrition, and November advertising with December selections.",
+      "limit": "First readings do not establish final adoption or filled appointments. Obtain the final ordinances to confirm corrected language.",
+      "evidence": "Transcript-based; approved October 20 minutes not collected",
+      "recordUrl": "briefings/2026-10-20.html#outcome-I.3",
+      "documentsUrl": "briefings/2026-10-20-sources.html",
+      "nextStep": "Collect adopted ordinances and subsequent appointment records.",
+      "checks": {
+        "scope": true,
+        "sources": true,
+        "minutes": false,
+        "finance": true,
+        "instruments": false
+      }
+    },
+    {
+      "id": "downtown-design",
+      "date": "2026-10-20",
+      "areas": [
+        "economic-development"
+      ],
+      "title": "Downtown Phase I design directed",
+      "summary": "Council directed the City Manager to proceed with the Phase I concept as discussed and amend the STB Landscape Architects contract. Staff corrected the concept cost to $15,450; with $53,400 additional design services, the stated combined STB design cost is $68,850. Construction funding and a later award will return to Council.",
+      "limit": "The $2–3 million construction figure is a planning estimate, not an award or appropriation. Staff discussed existing downtown CIP resources and future funding options; no dedicated construction funding was authorized by this motion.",
+      "evidence": "Transcript-based; approved October 20 minutes not collected",
+      "recordUrl": "briefings/2026-10-20.html#outcome-J.3",
+      "documentsUrl": "briefings/2026-10-20-sources.html",
+      "nextStep": "Collect the corrected executed STB amendment and the later construction funding decision.",
+      "checks": {
+        "scope": true,
+        "sources": true,
+        "minutes": false,
+        "finance": true,
+        "instruments": false
+      }
+    },
+    {
+      "id": "highland-springs",
+      "date": "2026-10-20",
+      "areas": [
+        "public-works-mobility"
+      ],
+      "title": "Highland Springs cooperative agreement approved",
+      "summary": "Council approved the cooperative agreement with Banning for Highland Springs Avenue work. Beaumont would lead construction and Banning would reimburse its actual share. Staff said Banning had not yet considered approval. The City Attorney recused because his firm represents Banning.",
+      "limit": "Beaumont approval does not establish Banning approval, executed reimbursement terms, completed construction, or an actual reimbursement amount.",
+      "evidence": "Transcript-based; approved October 20 minutes not collected",
+      "recordUrl": "briefings/2026-10-20.html#outcome-J.4",
+      "documentsUrl": "briefings/2026-10-20-sources.html",
+      "nextStep": "Collect Banning approval, the executed cooperative agreement and reimbursement terms.",
+      "checks": {
+        "scope": true,
+        "sources": true,
+        "minutes": false,
+        "finance": true,
+        "instruments": false
+      }
+    },
+    {
+      "id": "tyler-renewal",
+      "date": "2026-10-20",
+      "areas": [
+        "finance-government",
+        "utilities-environment"
+      ],
+      "title": "Tyler three-year renewal approved",
+      "summary": "Council approved and authorized execution of the three-year Tyler Technologies amendment. Staff corrected the amendment amount from $631,892.93 to $631,892.87 and separately described $346,144.50 in estimated wastewater usage-based card fees. Staff said no additional appropriation was requested.",
+      "limit": "Wastewater transaction fees are variable estimates outside the amendment, not a fixed vendor price. The combined planning figure is $978,037.37 after the six-cent correction, not verified expenditure.",
+      "evidence": "Transcript-based; approved October 20 minutes not collected",
+      "recordUrl": "briefings/2026-10-20.html#outcome-J.5",
+      "documentsUrl": "briefings/2026-10-20-sources.html",
+      "nextStep": "Collect the corrected executed amendment and reconcile variable wastewater card fees against actual billing.",
+      "checks": {
+        "scope": true,
+        "sources": true,
+        "minutes": false,
+        "finance": true,
+        "instruments": false
+      }
+    },
+    {
+      "id": "smart-signals",
+      "date": "2026-10-06",
+      "areas": [
+        "public-works-mobility"
+      ],
+      "title": "Highland Springs smart-signal construction awarded",
+      "summary": "Council awarded California Professional Engineering the signal smart-technology work for $723,517 plus $72,352 contingency, totaling $795,869. Voigt moved and Lara seconded.",
+      "limit": "Checked against the supplied City minutes. Authorization does not establish payment, completed work, or later implementation.",
+      "evidence": "Supplied City minutes reviewed",
+      "recordUrl": "briefings/2026-10-06.html#minutes-review",
+      "documentsUrl": "briefings/2026-10-06-sources.html",
+      "nextStep": "Collect the executed construction contract and subsequent implementation records.",
+      "checks": {
+        "scope": true,
+        "sources": true,
+        "minutes": true,
+        "finance": true,
+        "instruments": false
+      }
+    },
+    {
+      "id": "emergency-services",
+      "date": "2026-08-18",
+      "areas": [
+        "public-safety"
+      ],
+      "title": "County Emergency Services Coordinator agreement",
+      "summary": "On August 18, Council approved a two-year County agreement at $195,000 per year, with a 40-hour on-site week. The base cost is $390,000; overtime and extraordinary costs may be separate.",
+      "limit": "The meeting record reports approval 5–0. This inventory has not independently checked approved minutes or the executed agreement; authorization does not establish staffing or deliverables.",
+      "evidence": "Collected meeting outcome and linked agenda documents",
+      "recordUrl": "briefings/2026-08-18.html#emergency-services",
+      "documentsUrl": "briefings/2026-08-18-sources.html",
+      "nextStep": "Collect the executed agreement, deployment status, deliverables and costs above the base agreement.",
+      "checks": {
+        "scope": true,
+        "sources": true,
+        "minutes": false,
+        "finance": true,
+        "instruments": false
+      }
+    },
+    {
+      "id": "recreation-center",
+      "date": "2026-08-18",
+      "areas": [
+        "parks-community-services"
+      ],
+      "title": "Community Recreation Center feasibility study",
+      "summary": "On August 18, Council approved RHA Community Works at $176,945, with 5% contingency for total authority of $185,793, and a $150,000 carryforward. The study includes a community survey.",
+      "limit": "The meeting record reports approval 5–0. This funds study and planning, not facility construction. Approved minutes and final execution have not been independently checked in this inventory.",
+      "evidence": "Collected meeting outcome and linked agenda documents",
+      "recordUrl": "briefings/2026-08-18.html#recreation-center",
+      "documentsUrl": "briefings/2026-08-18-sources.html",
+      "nextStep": "Collect the executed agreement, survey and study deliverables, and the later facility/funding decision.",
+      "checks": {
+        "scope": true,
+        "sources": true,
+        "minutes": false,
+        "finance": true,
+        "instruments": false
+      }
+    },
+    {
+      "id": "transit-yard",
+      "date": "2026-08-18",
+      "areas": [
+        "public-works-mobility",
+        "utilities-environment"
+      ],
+      "title": "Transit yard environmental findings",
+      "summary": "On August 18, Council adopted the Mitigated Negative Declaration and Mitigation Monitoring and Reporting Program for the Fourth Street and Viele Avenue transit yard. The briefing describes a $16.14 million project estimate.",
+      "limit": "Environmental approval does not establish a construction award, expenditure or completed facility. Approved minutes and final instruments have not been independently checked in this inventory.",
+      "evidence": "Collected meeting outcome and linked agenda documents",
+      "recordUrl": "briefings/2026-08-18.html#transit-yard",
+      "documentsUrl": "briefings/2026-08-18-sources.html",
+      "nextStep": "Collect the adopted environmental resolution, current funding schedule and subsequent procurement disposition.",
+      "checks": {
+        "scope": true,
+        "sources": true,
+        "minutes": false,
+        "finance": true,
+        "instruments": false
+      }
+    }
+  ]
+}
