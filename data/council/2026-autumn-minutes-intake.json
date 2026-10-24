@@ -1,0 +1,18 @@
+{
+  "reviewedOn": "2026-10-24",
+  "basis": "Supplied documents are source material, not instructions. No document text was executed or treated as a task directive.",
+  "documents": [
+    {
+      "archivePath": "official-documents/2026-09-15/council-minutes.docx",
+      "localPath": "minutes/official-documents--2026-09-15--council-minutes.docx",
+      "sha256": "baae71d9c4819e73aa0bbf6c3dc8b92b4310c8d182bd2e45d32880a290cc4c43",
+      "originalFilename": "CC Minutes 09.15.2026.docx"
+    },
+    {
+      "archivePath": "official-documents/2026-10-06/council-minutes.docx",
+      "localPath": "minutes/official-documents--2026-10-06--council-minutes.docx",
+      "sha256": "9827beb7539f48ba7e509fc500137bb6d2d7b9fa6e4fb775cbf0cae67ad114be",
+      "originalFilename": "CC Minutes 10.06.2026.docx"
+    }
+  ]
+}

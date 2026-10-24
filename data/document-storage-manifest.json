@@ -1,8 +1,8 @@
 {
   "bucket": "beaumont-intelligence-documents",
   "public_base_url": "https://documents.beaumontintelligence.com",
-  "document_count": 3015,
-  "total_bytes": 19819462313,
+  "document_count": 3017,
+  "total_bytes": 19819555190,
   "documents": [
     {
       "path": "official-documents/2008-01-15/council-minutes.pdf",
@@ -16451,6 +16451,12 @@
       "sha256": "b3069cc17098c1503d566d9dda57ddf958e717ea3c573b9470a8f1e94bbce230"
     },
     {
+      "path": "official-documents/2026-09-15/council-minutes.docx",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-09-15/council-minutes.docx",
+      "bytes": 46793,
+      "sha256": "baae71d9c4819e73aa0bbf6c3dc8b92b4310c8d182bd2e45d32880a290cc4c43"
+    },
+    {
       "path": "official-documents/2026-09-15/g-1-cc-minutes-09-01-2026.pdf",
       "url": "https://documents.beaumontintelligence.com/official-documents/2026-09-15/g-1-cc-minutes-09-01-2026.pdf",
       "bytes": 229785,
@@ -16899,6 +16905,12 @@
       "url": "https://documents.beaumontintelligence.com/official-documents/2026-10-06/agenda.pdf",
       "bytes": 104930,
       "sha256": "67cfdb2ad56b91d50db4f365d8cc16eee9da627b486c14c0686ac913a47a2f9d"
+    },
+    {
+      "path": "official-documents/2026-10-06/council-minutes.docx",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-10-06/council-minutes.docx",
+      "bytes": 46084,
+      "sha256": "9827beb7539f48ba7e509fc500137bb6d2d7b9fa6e4fb775cbf0cae67ad114be"
     },
     {
       "path": "official-documents/2026-10-06/g-1-august-21-2026-warrants.pdf",
