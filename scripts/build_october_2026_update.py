@@ -91,6 +91,10 @@ def build():
     deck = 'The next regular meeting is November 17. Agenda materials and the briefing will be added when published. There is no regular meeting on November 3.'
     path = DOCS / 'index.html'
     page = path.read_text(encoding='utf-8')
+    # The older Council Briefings feature has its own latest-meeting label/link.
+    page = re.sub(r'Latest meeting · [^<]+', 'Latest meeting · October 20, 2026', page)
+    page = re.sub(r'href="briefings/\d{4}-\d{2}-\d{2}\.html">Open [^<]+ meeting record →',
+                  'href="briefings/2026-10-20.html">Open October 20 meeting record →', page)
     page = re.sub(r'<section aria-labelledby="latest-council-title".*?</section>',
                   '<section aria-labelledby="latest-council-title" class="council-feature" data-home-meeting-mode="upcoming" data-next-regular-date="2026-11-17"><div class="wrap"><article class="council-feature-card"><div class="council-feature-copy"><div class="eyebrow">Upcoming Council meeting</div><h2 id="latest-council-title">November 17 City Council meeting</h2><p class="council-deck">' + deck + '</p>' + actions + '</div><aside aria-label="Meeting schedule" class="council-feature-meta"><span class="pill pending">Agenda pending</span><p><strong>November 17, 2026</strong></p><p>Regular meeting · 6:00 PM</p><p class="meeting-schedule-note">550 E. Sixth Street, Beaumont, CA. Closed-session time unconfirmed; details remain subject to the City notice.</p></aside></article></div></section>', page, count=1, flags=re.S)
     page = page.replace('<!-- Regular Council meetings are scheduled for the first and third Tuesdays. Keep this card on the next scheduled date; add briefing and agenda links when those records are published. -->', '<!-- Use the next meeting named in the official agenda; November 3 is canceled. Add agenda links when published. -->')
