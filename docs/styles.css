@@ -594,3 +594,8 @@ body[data-page="document-viewer"] .pdf-reader-controls a{margin-left:auto}
 .viewer-attachments button{flex:0 0 36px;width:36px;height:36px;border:1px solid var(--line);border-radius:5px;background:#fff;color:var(--navy);font:inherit;cursor:pointer}
 .viewer-attachments button[hidden]{display:none}
 @media(max-width:600px){.viewer-attachments{gap:4px;padding:6px}.viewer-attachments strong{font-size:.7rem}.viewer-attachments button{flex-basis:30px;width:30px}}
+/* Recent center actions need readable columns and bounded source filters. */
+.center-action-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+.center-action-grid>.story-card:only-child{grid-column:1/-1}
+#primary-source-filter{min-width:0;max-width:100%}
+@media(max-width:760px){.center-action-grid{grid-template-columns:minmax(0,1fr)}}

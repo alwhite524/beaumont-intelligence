@@ -154,5 +154,53 @@
     "status": "verified",
     "summary": "Official P-10 phase estimates and programmed-funding snapshot for Stewart Park.",
     "topics": "Phase I; Phase II; Project Cost; Programmed Funding; Funding Gap"
+  },
+  {
+    "archive_code": "SP-RELATED-TREVINO",
+    "title": "Temporary Trevino skate amenities authorized for competitive bidding",
+    "date": "2026-10-06",
+    "type": "Supplied City minutes",
+    "url": "https://documents.beaumontintelligence.com/official-documents/2026-10-06/council-minutes.docx",
+    "publisher": "City of Beaumont",
+    "evidence": "A",
+    "status": "reviewed",
+    "summary": "Council authorized competitive bidding, agreements and a purchase order up to $120,000. Funding is $72,609.98 in savings ($67,462.16 from P-09 and $5,147.82 from P-20) plus $47,390.02 from P27-01. The motion requires staff to bring back a budget adjustment reallocating the funding source. Voigt moved and White seconded. This is procurement authority, not a direct award to American Ramp or proof that a contract, installation, or funding-source adjustment has been completed.",
+    "topics": "Related temporary skate amenities; Schedule; Evidence limits"
+  },
+  {
+    "archive_code": "SP-RELATED-TREVINO-DOC-1",
+    "title": "Staff Report - Trevino Park Skate Amenities",
+    "date": "2026-10-06",
+    "type": "Agenda proposal",
+    "url": "https://documents.beaumontintelligence.com/official-documents/2026-10-06/j-5-staff-report-trevino-park-skate-amenities.pdf",
+    "publisher": "City of Beaumont",
+    "evidence": "A",
+    "status": "reviewed",
+    "summary": "Related Trevino project; separate from Stewart P-10. The American Ramp proposal is not evidence of an award.",
+    "topics": "Related temporary skate amenities; Procurement"
+  },
+  {
+    "archive_code": "SP-RELATED-TREVINO-DOC-2",
+    "title": "Attachment A - American Ramp Proposal",
+    "date": "2026-10-06",
+    "type": "Agenda proposal",
+    "url": "https://documents.beaumontintelligence.com/official-documents/2026-10-06/j-5-attachment-a-american-ramp-proposal.pdf",
+    "publisher": "City of Beaumont",
+    "evidence": "A",
+    "status": "reviewed",
+    "summary": "Related Trevino project; separate from Stewart P-10. The American Ramp proposal is not evidence of an award.",
+    "topics": "Related temporary skate amenities; Procurement"
+  },
+  {
+    "archive_code": "SP-FORECAST-2026-1020",
+    "title": "Later Stewart Park bid forecast",
+    "date": "2026-10-20",
+    "type": "Automatic captions at 3:05:43–3:06:01; audiovisual playback not independently checked",
+    "url": "https://www.youtube.com/watch?v=UVsGQHIcdkA&t=11143s",
+    "publisher": "City of Beaumont",
+    "evidence": "C",
+    "status": "reviewed",
+    "summary": "During the Downtown discussion, staff forecast a Stewart Park bid going out by the end of 2026 and returning early in 2027. This is later than July’s anticipated late-September Phase II advertising. Transcript-based staff forecast, not a Council approval, issued solicitation or award. The remark does not expressly identify the phase or package; obtain the bid documents before treating it as a revised formal Phase II schedule. July’s Phase I March 2027 completion forecast is not independently refreshed by this remark.",
+    "topics": "Related temporary skate amenities; Schedule; Evidence limits"
   }
 ]

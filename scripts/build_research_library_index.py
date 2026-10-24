@@ -132,6 +132,15 @@ for finding in findings:
                     'type': 'Council evidence summary', 'videoUrl': finding['videoUrl'],
                     'body': finding['center'] + ' ' + finding['summary'] + ' ' + finding['limits']})
 
+center_actions = ROOT / 'data/center-recent-actions.json'
+if center_actions.exists():
+    for action in json.loads(center_actions.read_text(encoding='utf-8'))['records']:
+        records.append({'title': action['title'],
+                        'url': '../' + action['center'] + '-evidence.html#sync-' + action['id'],
+                        'date': action['date'], 'item': action['item'],
+                        'topic': topic_for(action['title']), 'type': 'Council evidence summary',
+                        'body': action['summary'] + ' ' + action['evidence'] + ' ' + action['limit']})
+
 output = "window.BI_RESEARCH_LIBRARY=" + json.dumps(records, ensure_ascii=False, separators=(",", ":")) + ";\n"
 (DOCS / "documents" / "library-index.js").write_text(output, encoding="utf-8")
 import hashlib

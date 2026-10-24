@@ -1,0 +1,93 @@
+{
+  "reviewedOn": "2026-10-24",
+  "records": [
+    {
+      "item": "J.1",
+      "title": "Cluck and Moo loan approved",
+      "summary": "Council approved a $25,000 forgivable loan for application ED2026-0005, with a public-purpose finding. Voigt moved and Lara seconded.",
+      "vote": "Unanimous",
+      "limit": "Loan forgiveness, disbursement, operating milestones, and contract corrections require their own evidence.",
+      "date": "2026-09-15",
+      "center": "downtown-revitalization",
+      "id": "cluck-and-moo",
+      "evidence": "Supplied City minutes",
+      "sourceUrl": "https://documents.beaumontintelligence.com/official-documents/2026-09-15/council-minutes.docx",
+      "recordUrl": "briefings/2026-09-15.html#minutes-review"
+    },
+    {
+      "item": "J.5",
+      "title": "Temporary Trevino skate amenities authorized for competitive bidding",
+      "summary": "Council authorized competitive bidding, agreements and a purchase order up to $120,000. Funding is $72,609.98 in savings ($67,462.16 from P-09 and $5,147.82 from P-20) plus $47,390.02 from P27-01. The motion requires staff to bring back a budget adjustment reallocating the funding source. Voigt moved and White seconded.",
+      "vote": "4–0",
+      "limit": "This is procurement authority, not a direct award to American Ramp or proof that a contract, installation, or funding-source adjustment has been completed.",
+      "date": "2026-10-06",
+      "center": "stewart-park",
+      "id": "trevino-skate",
+      "evidence": "Supplied City minutes",
+      "sourceUrl": "https://documents.beaumontintelligence.com/official-documents/2026-10-06/council-minutes.docx",
+      "recordUrl": "briefings/2026-10-06.html#minutes-review",
+      "documents": [
+        {
+          "title": "Staff Report - Trevino Park Skate Amenities",
+          "url": "https://documents.beaumontintelligence.com/official-documents/2026-10-06/j-5-staff-report-trevino-park-skate-amenities.pdf",
+          "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11192"
+        },
+        {
+          "title": "Attachment A - American Ramp Proposal",
+          "url": "https://documents.beaumontintelligence.com/official-documents/2026-10-06/j-5-attachment-a-american-ramp-proposal.pdf",
+          "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11193"
+        }
+      ]
+    },
+    {
+      "item": "J.3",
+      "title": "Downtown Phase I design directed",
+      "videoSeconds": 9810,
+      "summary": "Council directed the City Manager to proceed with the Phase I concept as discussed and amend the STB Landscape Architects contract. Staff corrected the concept cost to $15,450; with $53,400 additional design services, the stated combined STB design cost is $68,850. Construction funding and a later award will return to Council.",
+      "vote": "5–0",
+      "evidenceLimit": "The $2–3 million construction figure is a planning estimate, not an award or appropriation. Staff discussed existing downtown CIP resources and future funding options; no dedicated construction funding was authorized by this motion.",
+      "date": "2026-10-20",
+      "center": "downtown-revitalization",
+      "id": "phase-i-design",
+      "evidence": "Transcript-based outcome; approved October 20 minutes not collected",
+      "limit": "The $2–3 million construction figure is a planning estimate, not an award or appropriation. Staff discussed existing downtown CIP resources and future funding options; no dedicated construction funding was authorized by this motion. Corrected executed STB amendment and final design deliverables not collected.",
+      "sourceUrl": "transcripts/reader.html?date=2026-10-20",
+      "recordUrl": "briefings/2026-10-20.html#outcome-J.3",
+      "documents": [
+        {
+          "title": "Staff Report - Downtown Revitalization Phase 1",
+          "url": "https://documents.beaumontintelligence.com/official-documents/2026-10-20/j-3-staff-report-downtown-revitalization-phase-1.pdf",
+          "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11323"
+        },
+        {
+          "title": "Attachment A - DOWNTOWN TREE LAYOUT-9-30-26",
+          "url": "https://documents.beaumontintelligence.com/official-documents/2026-10-20/j-3-attachment-a-downtown-tree-layout-9-30-26.pdf",
+          "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11324"
+        },
+        {
+          "title": "Attachment B - BEAUMONT DOWNTOWN STUDY-9-30-26",
+          "url": "https://documents.beaumontintelligence.com/official-documents/2026-10-20/j-3-attachment-b-beaumont-downtown-study-9-30-26.pdf",
+          "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11325"
+        },
+        {
+          "title": "Attachment C - STB PROPOSAL-9-25-26",
+          "url": "https://documents.beaumontintelligence.com/official-documents/2026-10-20/j-3-attachment-c-stb-proposal-9-25-26.pdf",
+          "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=11326"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-20",
+      "item": "J.3 discussion",
+      "center": "stewart-park",
+      "id": "bid-forecast",
+      "title": "Later Stewart Park bid forecast",
+      "vote": null,
+      "summary": "During the Downtown discussion, staff forecast a Stewart Park bid going out by the end of 2026 and returning early in 2027. This is later than July’s anticipated late-September Phase II advertising.",
+      "limit": "Transcript-based staff forecast, not a Council approval, issued solicitation or award. The remark does not expressly identify the phase or package; obtain the bid documents before treating it as a revised formal Phase II schedule. July’s Phase I March 2027 completion forecast is not independently refreshed by this remark.",
+      "evidence": "Automatic captions at 3:05:43–3:06:01; audiovisual playback not independently checked",
+      "sourceUrl": "https://www.youtube.com/watch?v=UVsGQHIcdkA&t=11143s",
+      "recordUrl": "transcripts/reader.html?date=2026-10-20"
+    }
+  ]
+}
