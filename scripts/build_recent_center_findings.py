@@ -26,7 +26,7 @@ def render_findings(page):
         if minute:
             url = minute['url']
             if url.endswith('.pdf'):
-                url = 'viewer.html?url=' + quote(url, safe='')
+                url = 'documents/viewer.html?url=' + quote(url, safe='')
             label = 'Minutes (Word)' if minute['url'].endswith('.docx') else 'Minutes'
             links = f'<a href="{escape(url, quote=True)}">{label}</a>'
         elif r.get('meetingRecordUrl'):
