@@ -5,7 +5,8 @@ const crypto = require('node:crypto');
 
 const catalog = fs.readFileSync('docs/council-meeting-sources.js');
 const page = fs.readFileSync('docs/council-meeting-sources.html', 'utf8');
-const version = crypto.createHash('sha256').update(catalog).digest('hex').slice(0, 12);
+// The builder writes LF; Windows Git checkouts can materialize CRLF locally.
+const version = crypto.createHash('sha256').update(catalog.toString().replace(/\r\n/g, '\n')).digest('hex').slice(0, 12);
 assert.ok(page.includes(`council-meeting-sources.js?v=${version}`), 'Page must request the current catalog version');
 
 const elements = Object.fromEntries(['#meeting-source-list', '#meeting-source-count', '#minutes-compilations'].map(id => [id, {}]));

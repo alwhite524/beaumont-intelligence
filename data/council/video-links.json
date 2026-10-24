@@ -2,6 +2,14 @@
   "description": "Verified public City Council video links supplied for meeting-source integration.",
   "videos": [
     {
+      "date": "2026-10-20",
+      "url": "https://www.youtube.com/watch?v=UVsGQHIcdkA",
+      "title": "City Council Meeting 10/20/26 | City of Beaumont",
+      "durationSeconds": 12668,
+      "verificationStatus": "verified-youtube-metadata-and-opening-captions",
+      "transcriptStatus": "Complete YouTube automatic English caption track retrieved and reviewed; not official minutes"
+    },
+    {
       "date": "2016-05-03",
       "url": "https://www.youtube.com/watch?v=6LkeGBCOFto",
       "title": "City of Beaumont - City Council Meeting (May 3, 2016)",

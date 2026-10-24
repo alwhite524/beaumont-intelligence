@@ -2,7 +2,7 @@
   "date": "2026-10-20",
   "officialAgendaUrl": "https://pub-beaumont.escribemeetings.com/Meeting.aspx?Id=8ce94024-faf5-4cb0-89f8-5a598025048d&Agenda=Agenda&lang=English",
   "officialPdfUrl": "https://pub-beaumont.escribemeetings.com/FileStream.ashx?DocumentId=11352",
-  "meetingStatus": "upcoming",
+  "meetingStatus": "held",
   "audit": {
     "checkedOn": "2026-10-16",
     "expectedDocuments": 78,
@@ -1163,5 +1163,7 @@
       "method": "Text extraction followed by visual checks of the STR fine and adoption pages, police Phase I cap, governmental-fund statement, all five purchase-order schedule pages, and media-plan table. Invoice balances and report-summary arithmetic checked separately.",
       "limits": "No independent confirmation of services performed, bank reconciliation, borrower obligations, engineering quantities, insurance sufficiency, or final execution documents."
     }
-  }
+  },
+  "outcomeSource": "data/council/2026-10-20-outcomes.json",
+  "transcriptReviewedOn": "2026-10-24"
 }

@@ -98,7 +98,7 @@ def meeting_records() -> list[dict[str, str | None]]:
         record = meetings.setdefault(date, {'date': date, 'video': None, 'packet': None})
         record['interactiveAgenda'] = 'briefings/' + agenda.name
     for transcript in sorted((DOCS / 'transcripts').glob('*-city-council-transcript.txt')):
-        if transcript.name[:10] not in load_reviews():
+        if transcript.name[:10] not in load_reviews() and not (ROOT / f'data/council/{transcript.name[:10]}-outcomes.json').exists():
             continue
         date = transcript.name[:10]
         record = meetings.setdefault(date, {'date': date, 'video': None, 'packet': None})
@@ -115,7 +115,7 @@ def main() -> None:
         newline="\n",
     )
     compilations = [d for d in json.loads((ROOT / 'data/document-storage-manifest.json').read_text())['documents'] if re.fullmatch(r'official-documents/20\d{2}/20\d{2}-council-minutes\.pdf', d['path'])]
-    with output.open('a', encoding='utf-8') as stream:
+    with output.open('a', encoding='utf-8', newline='\n') as stream:
         stream.write('window.BI_COUNCIL_MINUTES_COMPILATIONS=' + json.dumps([{'year': d['path'].split('/')[1], 'url': d['url']} for d in compilations]) + ';\n')
     # Change the asset URL with the catalog so returning visitors fetch updates.
     version = hashlib.sha256(output.read_bytes()).hexdigest()[:12]

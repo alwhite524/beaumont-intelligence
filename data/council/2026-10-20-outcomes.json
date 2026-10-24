@@ -1,0 +1,187 @@
+{
+  "date": "2026-10-20",
+  "reviewedOn": "2026-10-24",
+  "videoUrl": "https://www.youtube.com/watch?v=UVsGQHIcdkA",
+  "videoTitle": "City Council Meeting 10/20/26 | City of Beaumont",
+  "durationSeconds": 12668,
+  "evidence": "Complete YouTube automatic English caption track reviewed against the published agenda and pre-meeting document review. Roll-call results are transcript-based; audiovisual playback and approved October 20 minutes have not been independently checked. Captions can misidentify names and numbers. Original pre-meeting recommendations remain preserved.",
+  "nextMeeting": {
+    "date": "2026-11-17",
+    "label": "November 17, 2026",
+    "time": "6:00 PM",
+    "location": "550 E. Sixth Street, Beaumont, CA",
+    "agendaStatus": "Not yet collected",
+    "scheduleSource": "https://pub-beaumont.escribemeetings.com/Meeting.aspx?Id=8ce94024-faf5-4cb0-89f8-5a598025048d&Agenda=Agenda&lang=English",
+    "note": "The October 20 official agenda names November 17 as the next regular meeting. At adjournment the Mayor also states there is no November 3 meeting. Date and time remain subject to a later City notice."
+  },
+  "items": [
+    {
+      "item": "G.2–G.15",
+      "title": "Consent calendar approved together",
+      "videoSeconds": 5654,
+      "summary": "Council approved G.2 through G.15 together after pulling G.1. This includes the October 6 minutes, attorney invoices, conflict-of-interest code update, transit agreement, event waiver, bond releases, executive agreement amendments, engineering position, traffic analysis, street contingency, financial reports, purchase-order report, and Planning Commission report.",
+      "vote": "5–0",
+      "evidenceLimit": "This was a grouped consent vote. Receipt of financial reports does not independently verify transactions or establish that authorized funds were spent."
+    },
+    {
+      "item": "G.1",
+      "title": "Warrants approved separately",
+      "videoSeconds": 5705,
+      "summary": "Council discussed missing Treasurer signatures. The City Attorney said this should not prevent payment and described possible retroactive ratification by the future Treasurer. Council then approved G.1 separately.",
+      "vote": "5–0",
+      "evidenceLimit": "The transcript does not establish that later Treasurer ratification occurred or independently reconcile the warrant payments."
+    },
+    {
+      "item": "I.1",
+      "title": "Calvary Chapel TEFRA approval",
+      "videoSeconds": 5809,
+      "summary": "Council approved the recommended resolution following the hearing. Staff and counsel described the City role as facilitating the hearing and approval, with no City repayment obligation. Staff reported removal of a typographical paragraph from the draft resolution.",
+      "vote": "5–0",
+      "evidenceLimit": "This is borrower financing, not City borrowing or development approval. Obtain the final resolution before relying on the archived draft wording."
+    },
+    {
+      "item": "I.2",
+      "title": "Short-term rental ordinance introduced; fees approved",
+      "videoSeconds": 5969,
+      "summary": "Council voted to introduce the short-term rental ordinance and adopt the fee resolution. Staff presented a revised ordinance with $500/$1,000/$2,000 fine tiers and a 15-day correction interval; the occupancy discussion clarified that three bedrooms allow six occupants. Staff targeted January 2027 implementation and described a later second reading.",
+      "vote": "5–0",
+      "evidenceLimit": "Introduction is not final ordinance adoption. Revised ordinance text and the executed fee resolution were not collected; archived packet discrepancies remain documented below. The captioned nine-person example was corrected to six during discussion."
+    },
+    {
+      "item": "I.3",
+      "title": "Committee ordinances advanced at first reading",
+      "videoSeconds": 6405,
+      "summary": "Council approved first readings of the Public Works Advisory, Parks and Recreation, Economic Development, and Financial and Audit committee ordinances. Staff reported typographical corrections, transition through attrition, and November advertising with December selections.",
+      "vote": "5–0",
+      "evidenceLimit": "First readings do not establish final adoption or filled appointments. Obtain the final ordinances to confirm corrected language."
+    },
+    {
+      "item": "J.1",
+      "title": "Police station: Phase I services authorized",
+      "videoSeconds": 6636,
+      "summary": "Council approved the Tilden-Coil agreement with a $5,437,851 overall ceiling subject to phase funding and authorization. The present authorization is $219,752 plus $21,975 contingency, totaling $241,727 for Phase I. Staff excluded the optional $18,000 modeling service from this award and said a corrected agreement would be used. Later phases require Council authorization.",
+      "vote": "5–0",
+      "evidenceLimit": "The roughly $88.5 million project estimate is not fully funded: staff described about $8.5 million available and about $80 million unfunded. This action is not a construction award or proof of expenditure; an architect award will return separately."
+    },
+    {
+      "item": "J.2",
+      "title": "IOA Championship sponsorship approved",
+      "videoSeconds": 8169,
+      "summary": "Council approved sponsorship of the 2027 IOA Championship up to $80,000 and authorized a sponsorship agreement, with a public-purpose finding. Lara voted no; Fenn, Martinez, White, and Voigt voted yes. Discussion covered youth and senior pro-am participation, promotion, deliverables, and post-event reporting.",
+      "vote": "4–1",
+      "evidenceLimit": "This is an authorization ceiling, not a verified payment or measured economic return. Staff time and promotional support are additional matters to track in the agreement and event report."
+    },
+    {
+      "item": "J.3",
+      "title": "Downtown Phase I design directed",
+      "videoSeconds": 9810,
+      "summary": "Council directed the City Manager to proceed with the Phase I concept as discussed and amend the STB Landscape Architects contract. Staff corrected the concept cost to $15,450; with $53,400 additional design services, the stated combined STB design cost is $68,850. Construction funding and a later award will return to Council.",
+      "vote": "5–0",
+      "evidenceLimit": "The $2–3 million construction figure is a planning estimate, not an award or appropriation. Staff discussed existing downtown CIP resources and future funding options; no dedicated construction funding was authorized by this motion."
+    },
+    {
+      "item": "J.4",
+      "title": "Highland Springs cooperative agreement approved",
+      "videoSeconds": 11539,
+      "summary": "Council approved the cooperative agreement with Banning for Highland Springs Avenue work. Beaumont would lead construction and Banning would reimburse its actual share. Staff said Banning had not yet considered approval. The City Attorney recused because his firm represents Banning.",
+      "vote": "5–0",
+      "evidenceLimit": "Beaumont approval does not establish Banning approval, executed reimbursement terms, completed construction, or an actual reimbursement amount."
+    },
+    {
+      "item": "J.5",
+      "title": "Tyler three-year renewal approved",
+      "videoSeconds": 11777,
+      "summary": "Council approved and authorized execution of the three-year Tyler Technologies amendment. Staff corrected the amendment amount from $631,892.93 to $631,892.87 and separately described $346,144.50 in estimated wastewater usage-based card fees. Staff said no additional appropriation was requested.",
+      "vote": "5–0",
+      "evidenceLimit": "Wastewater transaction fees are variable estimates outside the amendment, not a fixed vendor price. The combined planning figure is $978,037.37 after the six-cent correction, not verified expenditure."
+    },
+    {
+      "item": "M",
+      "title": "Transportation reports and next meeting",
+      "videoSeconds": 12324,
+      "summary": "In Council reports, Mayor Pro Tem White described RCTC direction to coordinate I-10/SR-79 and I-10/SR-60 interchange planning and defer the current ramp-metering approach. The Mayor described returning Pennsylvania grade-separation grant funding because the schedule could not be met and seeking a future award. At adjournment she confirmed no November 3 meeting.",
+      "vote": null,
+      "evidenceLimit": "These are reports of other agencies and future plans, not new City Council project approvals. RCTC and California Transportation Commission records remain necessary to confirm agency actions and grant status."
+    }
+  ],
+  "serviceAreaReview": [
+    {
+      "area": "Public Works & Mobility",
+      "items": [
+        "G.5",
+        "G.7",
+        "G.9",
+        "G.10",
+        "G.11",
+        "G.12",
+        "J.4",
+        "M"
+      ],
+      "note": "Street, transit, engineering, drainage and regional-transportation discussion reviewed. No new Potrero-specific finding."
+    },
+    {
+      "area": "Public Safety",
+      "items": [
+        "G.8",
+        "J.1",
+        "J.3"
+      ],
+      "note": "Police facility authorization and executive amendments reviewed. Animal shelter references in J.3 are budget-planning forecasts, not new shelter awards."
+    },
+    {
+      "area": "Growth & Community Development",
+      "items": [
+        "G.15",
+        "I.2",
+        "I.3"
+      ],
+      "note": "Short-term rentals, committee first readings and Planning Commission receipt reviewed. No substantive PLUS/land-policy amendment found."
+    },
+    {
+      "area": "Economic Development",
+      "items": [
+        "J.2",
+        "J.3",
+        "I.3"
+      ],
+      "note": "Golf sponsorship, downtown design and Economic Development Committee first reading reviewed."
+    },
+    {
+      "area": "Parks & Community Services",
+      "items": [
+        "G.6",
+        "I.3",
+        "J.2",
+        "J.3"
+      ],
+      "note": "Event waiver, committee first reading, sponsorship and Stewart Park procurement forecast reviewed; no new Stewart Park construction award."
+    },
+    {
+      "area": "Finance & City Government",
+      "items": [
+        "G.1",
+        "G.3",
+        "G.4",
+        "G.8",
+        "G.13",
+        "G.14",
+        "I.1",
+        "I.3",
+        "J.1",
+        "J.2",
+        "J.3",
+        "J.5"
+      ],
+      "note": "Warrants, invoices, reports, staffing, fee action and service authorizations reviewed. No substantive WRCOG restitution action found."
+    },
+    {
+      "area": "Utilities & Environment",
+      "items": [
+        "G.7",
+        "G.12",
+        "J.5"
+      ],
+      "note": "Drainage bond releases and wastewater billing fees reviewed; no new utility construction award identified."
+    }
+  ]
+}

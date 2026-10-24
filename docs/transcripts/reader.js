@@ -5,7 +5,7 @@
   try {
     const response = await fetch(`${date}-city-council-transcript.txt`);
     if (!response.ok) throw new Error('Transcript unavailable');
-    const text = await response.text();
+    const text = (await response.text()).replace(/\r\n?/g, '\n');
     const video = text.match(/https:\/\/www\.youtube\.com\/watch\?v=[\w-]+/)?.[0];
     document.querySelector('#transcript-title').textContent = `${date} Council transcript`;
     document.querySelector('#agenda-link').href = `../briefings/${date}-sources.html`;

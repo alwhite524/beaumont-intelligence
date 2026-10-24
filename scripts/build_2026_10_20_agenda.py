@@ -166,6 +166,9 @@ def build():
         text = text.replace('<div class="story-grid">', '<div class="story-grid"><article class="story-card"><div class="pill pending">Upcoming · Agenda available</div><h3>October 20, 2026</h3><p>Closed session 5:00 PM · Regular meeting 6:00 PM</p><p>'+deck+'</p>'+actions+'</article>', 1)
     archive.write_text(text, encoding='utf-8')
     print('Built October 20 briefing, interactive agenda, and 78-document inventory')
+    if (ROOT / f'data/council/{DATE}-outcomes.json').exists():
+        from build_october_2026_update import build as publish_outcomes
+        publish_outcomes()
 
 if __name__ == '__main__':
     build()

@@ -76,7 +76,8 @@ for transcript in sorted((DOCS / "transcripts").glob("*-city-council*transcript.
     date = transcript.name[:10]
     body = transcript.read_text(encoding="utf-8", errors="replace")
     video_match = re.search(r"https://www\.youtube\.com/watch\?v=[A-Za-z0-9_-]+", body[:1000])
-    transcript_url = f'../transcripts/reader.html?date={date}' if date in load_reviews() and transcript.name == f'{date}-city-council-transcript.txt' else f'../transcripts/{transcript.name}'
+    reviewed = date in load_reviews() or (ROOT / f'data/council/{date}-outcomes.json').exists()
+    transcript_url = f'../transcripts/reader.html?date={date}' if reviewed and transcript.name == f'{date}-city-council-transcript.txt' else f'../transcripts/{transcript.name}'
     records.append({"title": f"{date} City Council transcript", "url": transcript_url,
                     "videoUrl": video_match.group(0) if video_match else "", "date": date, "item": "",
                     "topic": "council", "type": "Meeting transcript", "body": body})
