@@ -1,0 +1,90 @@
+[
+  {
+    "id": "ctc-march-baseline",
+    "source_url": "https://catc.ca.gov/-/media/ctc-media/documents/programs/shopp/baseline-agreements/2026-03/pennsylvania-avenue-grade-separation-project.pdf",
+    "retrieved_on": "2026-10-24",
+    "resolved_url": "https://catc.ca.gov/-/media/ctc-media/documents/programs/shopp/baseline-agreements/2026-03/pennsylvania-avenue-grade-separation-project.pdf",
+    "status": "retrieved",
+    "path": "docs/official-documents/pennsylvania-reconciliation-2026-10-24/ctc-march-baseline.pdf",
+    "bytes": 21243590,
+    "sha256": "2b94bc2add09c39ce7199f5e3d231516631fd0ca6b4bf27abdabbff7dc8197ab",
+    "pages": 96
+  },
+  {
+    "id": "ctc-march-agency-change",
+    "source_url": "https://catc.ca.gov/-/media/ctc-media/documents/ctc-meetings/2026/2026-03/96-4-22-a11y.pdf",
+    "retrieved_on": "2026-10-24",
+    "resolved_url": "https://catc.ca.gov/-/media/ctc-media/documents/ctc-meetings/2026/2026-03/96-4-22-a11y.pdf",
+    "status": "retrieved",
+    "path": "docs/official-documents/pennsylvania-reconciliation-2026-10-24/ctc-march-agency-change.pdf",
+    "bytes": 81476,
+    "sha256": "944c28830c610accd744b382f01615ee46a5731da60cc4e3ac46a30365680480",
+    "pages": 7
+  },
+  {
+    "id": "ctc-may-extension-request",
+    "source_url": "https://catc.ca.gov/-/media/ctc-media/documents/ctc-meetings/2026/2026-05/123-2-8a9-a11y.pdf",
+    "retrieved_on": "2026-10-24",
+    "resolved_url": "https://catc.ca.gov/-/media/ctc-media/documents/ctc-meetings/2026/2026-05/123-2-8a9-a11y.pdf",
+    "status": "retrieved",
+    "path": "docs/official-documents/pennsylvania-reconciliation-2026-10-24/ctc-may-extension-request.pdf",
+    "bytes": 169840,
+    "sha256": "ee725e0ebfa356bba720d65bbd87a264463f09fa674e159b30f92688f241494d",
+    "pages": 8
+  },
+  {
+    "id": "rctc-january-western-riverside",
+    "source_url": "https://www.rctc.org/wp-content/uploads/2026/01/WRC-January-Agenda.pdf",
+    "retrieved_on": "2026-10-24",
+    "resolved_url": "https://www.rctc.org/wp-content/uploads/2026/01/WRC-January-Agenda.pdf",
+    "status": "retrieved",
+    "path": "docs/official-documents/pennsylvania-reconciliation-2026-10-24/rctc-january-western-riverside.pdf",
+    "bytes": 5080121,
+    "sha256": "a1f2c779213e39788f3122d3a5e3aee915938c2f528245d385ba5a1bfa1f0bb4",
+    "pages": 111
+  },
+  {
+    "id": "rctc-february-commission",
+    "source_url": "https://www.rctc.org/wp-content/uploads/2026/02/February-Commission-Agenda.pdf",
+    "retrieved_on": "2026-10-24",
+    "resolved_url": "https://www.rctc.org/wp-content/uploads/2026/02/February-Commission-Agenda.pdf",
+    "status": "retrieved",
+    "path": "docs/official-documents/pennsylvania-reconciliation-2026-10-24/rctc-february-commission.pdf",
+    "bytes": 9811903,
+    "sha256": "b56c445a0a4f677694e3c7f1fdeb5b0e4a28e34d8045ffb0fb6587cd7f4929aa",
+    "pages": 219
+  },
+  {
+    "id": "city-august-staff-report",
+    "source_url": "https://documents.beaumontintelligence.com/official-documents/2026-08-04/j-2-staff-report-pennsylvania-ave-grade-separation-funding-strategy.pdf",
+    "retrieved_on": "2026-10-24",
+    "resolved_url": "https://documents.beaumontintelligence.com/official-documents/2026-08-04/j-2-staff-report-pennsylvania-ave-grade-separation-funding-strategy.pdf",
+    "status": "retrieved",
+    "path": "docs/official-documents/pennsylvania-reconciliation-2026-10-24/city-august-staff-report.pdf",
+    "bytes": 234079,
+    "sha256": "568b057874f1ab8429cedd3a0a4a7da2c660177b16943aa2b68e9a0cbfeb7e5e",
+    "pages": 6
+  },
+  {
+    "id": "city-august-rctc-presentation",
+    "source_url": "https://documents.beaumontintelligence.com/official-documents/2026-08-04/j-2-attachment-rctc-project-update-presentation.pdf",
+    "retrieved_on": "2026-10-24",
+    "resolved_url": "https://documents.beaumontintelligence.com/official-documents/2026-08-04/j-2-attachment-rctc-project-update-presentation.pdf",
+    "status": "retrieved",
+    "path": "docs/official-documents/pennsylvania-reconciliation-2026-10-24/city-august-rctc-presentation.pdf",
+    "bytes": 2213591,
+    "sha256": "bb07fe221decc837fd5d23cb63e5079e9fd5c5653a689b2f980a3afff492bc18",
+    "pages": 32
+  },
+  {
+    "id": "city-august-timeline",
+    "source_url": "https://documents.beaumontintelligence.com/official-documents/2026-08-04/j-2-a-project-timeline.pdf",
+    "retrieved_on": "2026-10-24",
+    "resolved_url": "https://documents.beaumontintelligence.com/official-documents/2026-08-04/j-2-a-project-timeline.pdf",
+    "status": "retrieved",
+    "path": "docs/official-documents/pennsylvania-reconciliation-2026-10-24/city-august-timeline.pdf",
+    "bytes": 159741,
+    "sha256": "0b0a28f9cb73e50d719da09147a337cc4bfdf3cfab5515e634cd77e68c55a5e6",
+    "pages": 2
+  }
+]
