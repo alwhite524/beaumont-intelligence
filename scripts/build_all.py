@@ -20,8 +20,6 @@ scripts = [
     "build_service_area_actions.py",
     "build_2015_11_03_agenda.py",
     "build_research_library_index.py",
-    "build_budget_answers.py",
-    "install_budget_question_interface.py",
     "validate_database.py",
 ]
 for script in scripts:
