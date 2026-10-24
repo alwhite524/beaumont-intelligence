@@ -1,4 +1,8 @@
 .r2.local.json
+wrangler.budget.toml
+.dev.vars
+.dev.vars.*
+.wrangler/
 tmp/
 __pycache__/
 *.pyc

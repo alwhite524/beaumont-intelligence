@@ -1,4 +1,5 @@
-import {localAnswer, safeLink} from './budget-answer-core.mjs';
+import {safeLink} from './budget-answer-core.mjs';
+import {askBudget} from './budget-transport.mjs';
 const host=document.querySelector('#ask-budget');
 if (host) {
   const form=host.querySelector('form'), input=host.querySelector('textarea'), button=form.querySelector('button'), status=host.querySelector('[role="status"]'), output=host.querySelector('.budget-answer');
@@ -9,7 +10,8 @@ if (host) {
   function render(answer) {
     output.replaceChildren();output.hidden=false;
     element('h3',answer.status==='clarify'?'Choose the scope':answer.status==='insufficient'?'What the records establish':answer.status==='out_of_scope'?'Ask a budget question':'Answer from collected records',output);
-    element('p',answer.mode==='reviewed'?'Reviewed record summary · browser-only preview':'Records search · browser-only preview',output);
+    element('p',answer.mode==='ai'?'AI answer · grounded in collected records':answer.mode==='reviewed'?'Reviewed record summary · local fallback':'Records search · local fallback',output);
+    if(answer.serviceNote)element('p',answer.serviceNote,output);
     const sources=Array.isArray(answer.sources)?answer.sources:[];
     for(const p of answer.paragraphs||[]) {
       const para=element('p',p.text,output);
@@ -29,11 +31,11 @@ if (host) {
     element('p',`Evidence snapshot: ${answer.reviewedOn}. Answers cover collected records; they are not an audit or a complete transaction search.`,output);
   }
   form.addEventListener('submit',async e=>{
-    e.preventDefault();const question=input.value.trim();if(!question)return;
+    e.preventDefault();const question=input.value.trim();if(!question||button.disabled)return;
     button.disabled=true;output.hidden=true;status.textContent='Checking collected budget records…';
     try {
-      const data=await corpus();const answer=localAnswer(question,data);
-      render(answer);status.textContent=answer.mode==='reviewed'?'Reviewed summary ready.':'Related records ready.';
+      const data=await corpus();const answer=await askBudget(question,data);
+      render(answer);status.textContent=answer.mode==='ai'?'AI answer ready.':answer.mode==='reviewed'?'Reviewed summary ready.':'Related records ready.';
     }catch(error){status.textContent=error.busy?'The question limit has been reached. Please try again later.':'Could not load the budget records. Please try again.';}
     finally{button.disabled=false;}
   });
