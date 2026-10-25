@@ -31,7 +31,7 @@ def build():
                      f' · <a href="{transcript}">Search the transcript</a></p></article>')
     section = (START + '<section id="meeting-outcomes" aria-labelledby="outcomes-title"><h2 id="outcomes-title">After the meeting: transcript-based outcomes</h2>'
                f'<p class="source-note">Reviewed October 24, 2026. {escape(review["evidence"])}</p>'
-               f'<div class="status-actions"><a class="btn" href="{escape(video, quote=True)}" target="_blank" rel="noopener">Watch the October 20 meeting</a>'
+               '<div class="status-actions">'
                f'<a class="btn secondary" href="{transcript}">Read and search the transcript</a></div>'
                '<iframe style="display:block;width:100%;aspect-ratio:16/9;border:0" src="https://www.youtube-nocookie.com/embed/UVsGQHIcdkA" '
                'title="October 20, 2026 Beaumont City Council meeting" loading="lazy" allow="accelerometer; autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>'
