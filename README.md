@@ -61,6 +61,12 @@ The Research Library indexes both archived documents and official City-hosted so
 
 ## Web preview
 
+For the local, access-controlled agenda review dashboard, run
+`.\scripts\start_agenda_workspace.ps1` and open `http://127.0.0.1:8765`.
+Enter the access code printed in the terminal. Private notes save outside the
+published site in a Git-ignored workspace. See
+[`private-dashboard/README.md`](private-dashboard/README.md).
+
 Open `docs/index.html` or run:
 
 ```bash
