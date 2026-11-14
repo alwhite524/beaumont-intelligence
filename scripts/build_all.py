@@ -10,6 +10,7 @@ scripts = [
     "build_2022_interactive_agendas.py",
     "build_october_2026_update.py",
     "build_autumn_2026_minutes_update.py",
+    "build_video_interactive_agendas.py",
     "build_council_meeting_sources.py",
     "build_wrcog_center.py",
     "build_land_policy_center.py",

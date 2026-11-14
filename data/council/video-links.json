@@ -152,6 +152,30 @@
       "durationSeconds": 19990,
       "verificationStatus": "verified-youtube-metadata",
       "transcriptStatus": "Complete YouTube automatic-caption track retrieved"
+    },
+    {
+      "date": "2025-03-18",
+      "url": "https://www.youtube.com/watch?v=UdHDF5Q8o3U",
+      "title": "City Council Meeting | March 18th, 2025 | City of Beaumont, CA",
+      "durationSeconds": 9388,
+      "verificationStatus": "verified-youtube-oembed-player-metadata-and-official-minutes-date",
+      "transcriptStatus": "Automatic English captions advertised; retrieval unsuccessful; no verified item video timestamps"
+    },
+    {
+      "date": "2024-04-02",
+      "url": "https://www.youtube.com/watch?v=mJsVkhQDrVo",
+      "title": "City Council Meeting | April 2, 2024",
+      "durationSeconds": 13599,
+      "verificationStatus": "verified-youtube-oembed-player-metadata-and-official-minutes-date",
+      "transcriptStatus": "Automatic English captions advertised; retrieval unsuccessful; no verified item video timestamps"
+    },
+    {
+      "date": "2024-06-04",
+      "url": "https://www.youtube.com/watch?v=bwWuHfdi07k",
+      "title": "City Council Meeting | 6 4, 2024",
+      "durationSeconds": 7640,
+      "verificationStatus": "verified-youtube-oembed-player-metadata-and-official-minutes-date",
+      "transcriptStatus": "Automatic English captions advertised; retrieval unsuccessful; no verified item video timestamps"
     }
   ]
 }

@@ -1,0 +1,233 @@
+{
+  "date": "2024-06-04",
+  "label": "June 4, 2024",
+  "videoUrl": "https://www.youtube.com/watch?v=bwWuHfdi07k",
+  "videoTitle": "City Council Meeting | 6 4, 2024",
+  "durationSeconds": 7640,
+  "minutesUrl": "https://documents.beaumontintelligence.com/official-documents/2024-06-04/council-minutes.pdf",
+  "minutesPageCount": 7,
+  "minutesSha256": "5a38b6df6e20e717cdcc140e2642b188c97635579acbdebf25b860d75b0a1c68",
+  "officialAgendaUrl": null,
+  "reviewedOn": "2026-11-13",
+  "transcriptStatus": "advertised-but-not-retrieved",
+  "timestampBasis": "No item video offsets verified. Clock times in official minutes are not video offsets.",
+  "sourceCoverage": "Agenda navigation reconstructed from official minutes and verified YouTube titles. Complete agenda packets and item attachments are not inventoried. Minutes outcomes are distinct from proposals; listed motions are not proof of payment or delivery.",
+  "items": [
+    {
+      "item": "B.1",
+      "section": "Closed Session",
+      "page": 1,
+      "title": "Anticipated litigation — potential initiation of one case",
+      "outcome": "No reportable action reported.",
+      "timestampSeconds": null
+    },
+    {
+      "item": "D",
+      "section": "Reports",
+      "page": 1,
+      "title": "Regular-session opening and attendance",
+      "outcome": "Regular session called to order at 6:25 p.m.; all five Council members listed present. This is a clock time, not a video offset.",
+      "timestampSeconds": null
+    },
+    {
+      "item": "F",
+      "section": "Reports",
+      "page": 2,
+      "title": "Public comment — sidewalks and fire station",
+      "outcome": "J. Hopkins asked about sidewalk improvements; Fire Chief T. Hopkins thanked Council/staff for the new fire station. Public comments are not Council action.",
+      "timestampSeconds": null
+    },
+    {
+      "item": "G.1",
+      "section": "Consent",
+      "page": 2,
+      "title": "Warrants dated May 9 and May 17, 2024",
+      "outcome": "Included in Lara/Voigt's motion to approve G.1–G.8 and G.10–G.11. The minutes do not print a separate vote tally for that consent block.",
+      "timestampSeconds": null
+    },
+    {
+      "item": "G.2",
+      "section": "Consent",
+      "page": 2,
+      "title": "May 21, 2024 minutes",
+      "outcome": "Included in the consent-block approval motion; no separate tally printed.",
+      "timestampSeconds": null
+    },
+    {
+      "item": "G.3",
+      "section": "Consent",
+      "page": 2,
+      "title": "Eighth Street Apartments storm-water covenant",
+      "outcome": "City Manager approval of the WQMP/BMP facilities covenant for PP2023-0557 included in the consent motion. Identifiers in the source include an inconsistent plot-plan reference.",
+      "timestampSeconds": null
+    },
+    {
+      "item": "G.4",
+      "section": "Consent",
+      "page": 2,
+      "title": "November 5, 2024 municipal election resolution",
+      "outcome": "Election call/notice and County election-conduct request included in the consent motion; resolution wording continues on minutes page 3.",
+      "timestampSeconds": null
+    },
+    {
+      "item": "G.5",
+      "section": "Consent",
+      "page": 3,
+      "title": "SAWPA brine-line capacity lease",
+      "outcome": "Four-year lease for 0.030 MGD at $2,400 monthly included in the consent motion. Authorization is not proof of all future payments.",
+      "timestampSeconds": null
+    },
+    {
+      "item": "G.6",
+      "section": "Consent",
+      "page": 3,
+      "title": "Polydyne chemical purchase-order increase — $62,700",
+      "outcome": "Increase included in the consent motion; no separate vote tally printed.",
+      "timestampSeconds": null
+    },
+    {
+      "item": "G.7",
+      "section": "Consent",
+      "page": 3,
+      "title": "First Street/Beaumont Avenue signal contingency — $15,000",
+      "outcome": "Additional contingency within existing project funding included in the consent motion; no separate vote tally printed.",
+      "timestampSeconds": null
+    },
+    {
+      "item": "G.8",
+      "section": "Consent",
+      "page": 3,
+      "title": "ICSC 2024 report-out",
+      "outcome": "Receive-and-file item included in the consent motion.",
+      "timestampSeconds": null
+    },
+    {
+      "item": "G.9",
+      "section": "Consent",
+      "page": 4,
+      "title": "Beaumont Pointe entitlements and development agreement",
+      "outcome": "Considered separately after the consent block. EIR certification/related findings, annexation/service-plan resolution and second reading of the development agreement approved unanimously; motion White, second Voigt. See minutes pages 4–5; this vote does not itself establish LAFCO completion or project construction.",
+      "timestampSeconds": null
+    },
+    {
+      "item": "G.10",
+      "section": "Consent",
+      "page": 3,
+      "title": "City Personnel Manual amendments",
+      "outcome": "Manual approval included in the consent motion; no separate vote tally printed.",
+      "timestampSeconds": null
+    },
+    {
+      "item": "G.11",
+      "section": "Consent",
+      "page": 3,
+      "title": "Franklin Mechanical improvement deferral agreement",
+      "outcome": "Mayor execution of the offsite-improvement deferral agreement for the warehouse addition included in the consent motion; description/motion continue on page 4.",
+      "timestampSeconds": null
+    },
+    {
+      "item": "H",
+      "section": "Reports",
+      "page": 5,
+      "title": "Youth Council recruitment",
+      "outcome": "Recruitment period for the next group reported open.",
+      "timestampSeconds": null
+    },
+    {
+      "item": "I.1",
+      "section": "Public Hearing",
+      "page": 5,
+      "title": "FY2024–25 budget, Gann limit and FY2025–29 CIP",
+      "outcome": "Hearing held 6:44–6:45 p.m., no speakers. Budget, Gann-limit and five-year CIP resolutions approved unanimously; motion Voigt, second Lara. The Gann-limit fiscal-year wording in the extracted minutes differs from the item heading and requires checking against the signed resolution before quoting the limit.",
+      "timestampSeconds": null
+    },
+    {
+      "item": "J.1",
+      "section": "Action",
+      "page": 6,
+      "title": "Cherry Channel environmental consulting — Chambers Group",
+      "outcome": "Professional services agreement approved unanimously, not to exceed $164,566; motion Lara, second White.",
+      "timestampSeconds": null
+    },
+    {
+      "item": "J.2",
+      "section": "Action",
+      "page": 6,
+      "title": "I-10/Oak Valley Parkway PA/ED engineering — Dokken",
+      "outcome": "Agreement approved unanimously for $1,989,526 plus $199,000 contingency, total ceiling $2,188,526; motion Martinez, second White. This authorizes the project-approval/environmental-document phase, not interchange construction.",
+      "timestampSeconds": null
+    },
+    {
+      "item": "K",
+      "section": "Reports",
+      "page": 6,
+      "title": "Legislative updates",
+      "outcome": "Heading listed without a substantive action summary.",
+      "timestampSeconds": null
+    },
+    {
+      "item": "L",
+      "section": "Reports",
+      "page": 6,
+      "title": "Economic Development Committee report",
+      "outcome": "Report-out/direction heading listed; no separate motion summarized.",
+      "timestampSeconds": null
+    },
+    {
+      "item": "M",
+      "section": "Reports",
+      "page": 7,
+      "title": "Finance and Audit Committee report",
+      "outcome": "Report-out/direction heading listed; no separate motion summarized.",
+      "timestampSeconds": null
+    },
+    {
+      "item": "N",
+      "section": "Reports",
+      "page": 7,
+      "title": "City Clerk report",
+      "outcome": "Heading listed without a substantive action summary.",
+      "timestampSeconds": null
+    },
+    {
+      "item": "O",
+      "section": "Reports",
+      "page": 7,
+      "title": "City Attorney report",
+      "outcome": "Heading listed without a substantive action summary.",
+      "timestampSeconds": null
+    },
+    {
+      "item": "P",
+      "section": "Reports",
+      "page": 7,
+      "title": "City Manager report",
+      "outcome": "Heading listed without a substantive action summary.",
+      "timestampSeconds": null
+    },
+    {
+      "item": "Q",
+      "section": "Reports",
+      "page": 7,
+      "title": "Future agenda items",
+      "outcome": "Community-center needs, County annexation agreement, an arborist presentation and business-incentive review listed for later consideration.",
+      "timestampSeconds": null
+    },
+    {
+      "item": "R",
+      "section": "Reports",
+      "page": 7,
+      "title": "Council reports",
+      "outcome": "Regional-agency and community-event report-outs; White recorded no report. Cherry Festival/parade and fire-station participation mentioned.",
+      "timestampSeconds": null
+    },
+    {
+      "item": "S",
+      "section": "Reports",
+      "page": 7,
+      "title": "Adjournment and next meeting",
+      "outcome": "Minutes state adjournment at 7:37 p.m.; next meeting June 18, 2024 at 6:00 p.m. These are clock times, not video offsets.",
+      "timestampSeconds": null
+    }
+  ]
+}

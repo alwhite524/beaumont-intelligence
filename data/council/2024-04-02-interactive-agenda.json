@@ -1,0 +1,257 @@
+{
+  "date": "2024-04-02",
+  "label": "April 2, 2024",
+  "videoUrl": "https://www.youtube.com/watch?v=mJsVkhQDrVo",
+  "videoTitle": "City Council Meeting | April 2, 2024",
+  "durationSeconds": 13599,
+  "minutesUrl": "https://documents.beaumontintelligence.com/official-documents/2024-04-02/council-minutes.pdf",
+  "minutesPageCount": 7,
+  "minutesSha256": "1bf90d04840dc78c4a9bf4653ce43f7de434ea362ac1548fb8c7c51fd525ba17",
+  "officialAgendaUrl": "https://pub-beaumont.escribemeetings.com/FileStream.ashx?DocumentId=3946",
+  "reviewedOn": "2026-11-13",
+  "transcriptStatus": "advertised-but-not-retrieved",
+  "timestampBasis": "No item video offsets verified. Clock times in official minutes are not video offsets.",
+  "sourceCoverage": "Agenda navigation reconstructed from official minutes and verified YouTube titles. Complete agenda packets and item attachments are not inventoried. Minutes outcomes are distinct from proposals; listed motions are not proof of payment or delivery.",
+  "items": [
+    {
+      "item": "B.1",
+      "section": "Closed Session",
+      "page": 1,
+      "title": "City Manager performance evaluation",
+      "outcome": "No reportable action reported.",
+      "timestampSeconds": null
+    },
+    {
+      "item": "B.2",
+      "section": "Closed Session",
+      "page": 1,
+      "title": "City Manager labor negotiations",
+      "outcome": "No reportable action reported. Agency representatives listed as Fenn and Voigt.",
+      "timestampSeconds": null
+    },
+    {
+      "item": "B.3",
+      "section": "Closed Session",
+      "page": 1,
+      "title": "Workers compensation matter — 4A2302WFRNF-0001",
+      "outcome": "No reportable action reported; report-out continues on minutes page 2.",
+      "timestampSeconds": null
+    },
+    {
+      "item": "B.4",
+      "section": "Closed Session",
+      "page": 2,
+      "title": "Workers compensation matter — 4A2208Q9L56-0001t",
+      "outcome": "No reportable action reported. Case identifier is retained as printed in the minutes.",
+      "timestampSeconds": null
+    },
+    {
+      "item": "B.5",
+      "section": "Closed Session",
+      "page": 2,
+      "title": "Real property negotiations with JRT BP 1, LLC",
+      "outcome": "No reportable action reported for the listed APNs; potential purchase price and terms discussed.",
+      "timestampSeconds": null
+    },
+    {
+      "item": "D",
+      "section": "Reports",
+      "page": 2,
+      "title": "Regular-session opening and attendance",
+      "outcome": "Regular session called to order at 6:58 p.m.; all five Council members listed. This clock time is not a video offset.",
+      "timestampSeconds": null
+    },
+    {
+      "item": "E.1",
+      "section": "Presentation",
+      "page": 2,
+      "title": "Community calendar presentation",
+      "outcome": "Presentation listed; no separate action recorded.",
+      "timestampSeconds": null
+    },
+    {
+      "item": "F",
+      "section": "Reports",
+      "page": 3,
+      "title": "Public comment — Potrero Interchange",
+      "outcome": "R. Roy requested a funding breakdown and suggested designs. Public comment is not a Council decision.",
+      "timestampSeconds": null
+    },
+    {
+      "item": "G.1",
+      "section": "Consent",
+      "page": 3,
+      "title": "Warrants dated March 15 and March 22, 2024",
+      "outcome": "Approved unanimously in the G.1–G.4 consent block; motion Voigt, second Fenn.",
+      "timestampSeconds": null
+    },
+    {
+      "item": "G.2",
+      "section": "Consent",
+      "page": 3,
+      "title": "March 19 and March 20, 2024 minutes",
+      "outcome": "Approved unanimously in the G.1–G.4 consent block.",
+      "timestampSeconds": null
+    },
+    {
+      "item": "G.3",
+      "section": "Consent",
+      "page": 3,
+      "title": "Public-water dedication — W. Fourth Street and Prosperity Way",
+      "outcome": "Resolution, certificate of acceptance and recordation approved unanimously in the G.1–G.4 consent block.",
+      "timestampSeconds": null
+    },
+    {
+      "item": "G.4",
+      "section": "Consent",
+      "page": 3,
+      "title": "Sewer and storm-drain performance/payment bond releases",
+      "outcome": "Tract 31469-1 sewer and Tract 34862 drainage bond releases and maintenance-bond acceptance approved unanimously in the G.1–G.4 block; source detail continues on page 4.",
+      "timestampSeconds": null
+    },
+    {
+      "item": "G.5",
+      "section": "Consent",
+      "page": 4,
+      "title": "Martinez SCAG General Assembly travel expenses",
+      "outcome": "Travel request approved 4–0, with Martinez abstaining. The minutes place the motion/direction text after the tally; no dollar amount is recorded here.",
+      "timestampSeconds": null
+    },
+    {
+      "item": "H",
+      "section": "Reports",
+      "page": 4,
+      "title": "Youth Council report",
+      "outcome": "Next meeting identified as April 9, 2024.",
+      "timestampSeconds": null
+    },
+    {
+      "item": "J.1",
+      "section": "Action",
+      "page": 4,
+      "title": "Updated 2023–2026 Strategic Communication Plan",
+      "outcome": "Plan adopted unanimously with recommended changes; motion Fenn, second Martinez.",
+      "timestampSeconds": null
+    },
+    {
+      "item": "J.2",
+      "section": "Action",
+      "page": 4,
+      "title": "Synagro wastewater sludge-hauling contract",
+      "outcome": "Three-year agreement with a two-year extension option at $63.37 per ton plus annual CPI approved unanimously; motion White, second Voigt. The motion continues on minutes page 5.",
+      "timestampSeconds": null
+    },
+    {
+      "item": "J.3",
+      "section": "Action",
+      "page": 5,
+      "title": "Travel Expense and Reimbursement Policy",
+      "outcome": "Policy approved unanimously with recommended changes; motion Lara, second White.",
+      "timestampSeconds": null
+    },
+    {
+      "item": "J.4",
+      "section": "Action",
+      "page": 5,
+      "title": "Four special-counsel agreements",
+      "outcome": "City Manager authorized unanimously to execute agreements with Burke, Williams & Sorensen, Liebert Cassidy Whitmore, Manning & Kass, and Somach Simmons & Dunn; motion White, second Lara.",
+      "timestampSeconds": null
+    },
+    {
+      "item": "J.5",
+      "section": "Action",
+      "page": 5,
+      "title": "FY2024/25–FY2026/27 Short Range Transit Plan Table 4 drafts",
+      "outcome": "Council reviewed and provided direction; minutes do not record a separate roll-call tally. R. Roy suggested a desert commuter link.",
+      "timestampSeconds": null
+    },
+    {
+      "item": "J.6",
+      "section": "Action",
+      "page": 6,
+      "title": "Zoning code update and design standards — CIP CD-04",
+      "outcome": "Discussion and direction to draft an interim policy with the Planning Commission. The minutes do not state final adoption of design standards.",
+      "timestampSeconds": null
+    },
+    {
+      "item": "J.7",
+      "section": "Action",
+      "page": 6,
+      "title": "ICSC annual conference attendance",
+      "outcome": "Mayor appointed Council Members White and Voigt to attend.",
+      "timestampSeconds": null
+    },
+    {
+      "item": "K",
+      "section": "Reports",
+      "page": 6,
+      "title": "Legislative updates",
+      "outcome": "Heading listed without a substantive action summary.",
+      "timestampSeconds": null
+    },
+    {
+      "item": "L",
+      "section": "Reports",
+      "page": 6,
+      "title": "Economic Development update",
+      "outcome": "Next committee meeting identified as April 10, 2024.",
+      "timestampSeconds": null
+    },
+    {
+      "item": "M",
+      "section": "Reports",
+      "page": 6,
+      "title": "City Treasurer report",
+      "outcome": "No report recorded.",
+      "timestampSeconds": null
+    },
+    {
+      "item": "N",
+      "section": "Reports",
+      "page": 6,
+      "title": "City Clerk report",
+      "outcome": "No report recorded.",
+      "timestampSeconds": null
+    },
+    {
+      "item": "O",
+      "section": "Reports",
+      "page": 6,
+      "title": "City Attorney report",
+      "outcome": "Update on current litigation recorded; no separate decision stated.",
+      "timestampSeconds": null
+    },
+    {
+      "item": "P",
+      "section": "Reports",
+      "page": 6,
+      "title": "City Manager report",
+      "outcome": "Heading listed without a substantive action summary.",
+      "timestampSeconds": null
+    },
+    {
+      "item": "Q",
+      "section": "Reports",
+      "page": 7,
+      "title": "Future agenda items",
+      "outcome": "Additional community-center needs and the County annexation agreement listed for future consideration.",
+      "timestampSeconds": null
+    },
+    {
+      "item": "R",
+      "section": "Reports",
+      "page": 7,
+      "title": "Council reports",
+      "outcome": "Committee/agency attendance, Baker to Vegas thanks, Sports Park maintenance and community events recorded.",
+      "timestampSeconds": null
+    },
+    {
+      "item": "S",
+      "section": "Reports",
+      "page": 7,
+      "title": "Adjournment and next meeting",
+      "outcome": "Minutes state adjournment at 8:39 p.m.; next regular meeting April 16, 2024 at 6:00 p.m. These are clock times, not video offsets.",
+      "timestampSeconds": null
+    }
+  ]
+}

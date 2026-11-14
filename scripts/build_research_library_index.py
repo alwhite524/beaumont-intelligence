@@ -96,6 +96,18 @@ for agenda_path in sorted((ROOT / 'data/council').glob('*-agenda.json')):
                         'topic': topic_for(doc['title']), 'type': 'Official City document',
                         'body': doc['title']})
 
+for date in ['2025-03-18', '2024-04-02', '2024-06-04']:
+    source = ROOT / f'data/council/{date}-interactive-agenda.json'
+    if not source.exists():
+        continue
+    agenda = json.loads(source.read_text(encoding='utf-8'))
+    for item in agenda['items']:
+        anchor = 'item-' + item['item'].lower().replace('.', '-')
+        records.append({'title': item['title'], 'url': f'../briefings/{date}-sources.html#{anchor}',
+                        'date': date, 'item': item['item'], 'topic': topic_for(item['title']),
+                        'type': 'Agenda item', 'videoUrl': agenda['videoUrl'],
+                        'body': item['title'] + ' Official minutes record: ' + item['outcome']})
+
 quarter_review = load_reviews()
 if quarter_review:
     for date, review in quarter_review.items():

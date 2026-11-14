@@ -1,0 +1,305 @@
+{
+  "date": "2025-03-18",
+  "label": "March 18, 2025",
+  "videoUrl": "https://www.youtube.com/watch?v=UdHDF5Q8o3U",
+  "videoTitle": "City Council Meeting | March 18th, 2025 | City of Beaumont, CA",
+  "durationSeconds": 9388,
+  "minutesUrl": "https://documents.beaumontintelligence.com/official-documents/2025-03-18/council-minutes.pdf",
+  "minutesPageCount": 10,
+  "minutesSha256": "dca7500d2a8850e496dcbb8f32fe516de327a25e3ca4e844aeae5a1c972a917c",
+  "officialAgendaUrl": "https://pub-beaumont.escribemeetings.com/FileStream.ashx?DocumentId=6388",
+  "reviewedOn": "2026-11-13",
+  "transcriptStatus": "advertised-but-not-retrieved",
+  "timestampBasis": "No item video offsets verified. Clock times in official minutes are not video offsets.",
+  "sourceCoverage": "Agenda navigation reconstructed from official minutes and verified YouTube titles. Complete agenda packets and item attachments are not inventoried. Minutes outcomes are distinct from proposals; listed motions are not proof of payment or delivery.",
+  "items": [
+    {
+      "item": "B.1",
+      "section": "Closed Session",
+      "page": 1,
+      "title": "City Manager performance evaluation",
+      "outcome": "Deferred until after regular session; the later report-out states no reportable action (minutes pages 9–10).",
+      "timestampSeconds": null
+    },
+    {
+      "item": "B.2",
+      "section": "Closed Session",
+      "page": 1,
+      "title": "City Manager labor negotiations",
+      "outcome": "Deferred until after regular session; the later report-out states no reportable action (minutes pages 9–10).",
+      "timestampSeconds": null
+    },
+    {
+      "item": "B.3",
+      "section": "Closed Session",
+      "page": 1,
+      "title": "Real property negotiations — APN 424-010-007",
+      "outcome": "No reportable action reported. The matter describes approximately 6.26 acres near West 4th Street and SR 60 and negotiations with Lassen Development Partners.",
+      "timestampSeconds": null
+    },
+    {
+      "item": "D",
+      "section": "Reports",
+      "page": 2,
+      "title": "Regular-session opening and attendance",
+      "outcome": "Called to order at 6:41 p.m. All five Council members listed present. This is a clock time in the minutes, not a video offset.",
+      "timestampSeconds": null
+    },
+    {
+      "item": "E.1",
+      "section": "Presentation",
+      "page": 2,
+      "title": "Introduction of Interim Police Chief George Walter",
+      "outcome": "Introduction listed in the minutes; no separate motion recorded.",
+      "timestampSeconds": null
+    },
+    {
+      "item": "E.2",
+      "section": "Presentation",
+      "page": 2,
+      "title": "CSMFO Volunteer of the Year — Jennifer Ustation",
+      "outcome": "Award recognition listed in the minutes; no separate motion recorded.",
+      "timestampSeconds": null
+    },
+    {
+      "item": "F",
+      "section": "Reports",
+      "page": 2,
+      "title": "Public comment on matters not on the agenda",
+      "outcome": "The minutes record no comments.",
+      "timestampSeconds": null
+    },
+    {
+      "item": "G.1",
+      "section": "Consent",
+      "page": 3,
+      "title": "Warrants dated February 28 and March 14, 2025",
+      "outcome": "Ratified with the consent calendar by unanimous vote; motion Fenn, second Martinez.",
+      "timestampSeconds": null
+    },
+    {
+      "item": "G.2",
+      "section": "Consent",
+      "page": 3,
+      "title": "March 4, 2025 minutes",
+      "outcome": "Approved with the consent calendar by unanimous vote.",
+      "timestampSeconds": null
+    },
+    {
+      "item": "G.3",
+      "section": "Consent",
+      "page": 3,
+      "title": "February City Attorney invoices — $68,343.87",
+      "outcome": "Approved with the consent calendar by unanimous vote. Approval is not proof of payment.",
+      "timestampSeconds": null
+    },
+    {
+      "item": "G.4",
+      "section": "Consent",
+      "page": 3,
+      "title": "Corrected FY2024 Gann-limit language",
+      "outcome": "Resolution correcting growth-factor language to non-residential adopted with the consent calendar by unanimous vote.",
+      "timestampSeconds": null
+    },
+    {
+      "item": "G.5",
+      "section": "Consent",
+      "page": 3,
+      "title": "Tri Pointe bond exonerations and reductions",
+      "outcome": "Consent approval covers listed public improvements, six maintenance-bond exonerations, 41 performance-bond reductions, and improvement agreements/security for the SCE easement trail, Planning Area 14 basin and Cherry Avenue street lights.",
+      "timestampSeconds": null
+    },
+    {
+      "item": "G.6",
+      "section": "Consent",
+      "page": 3,
+      "title": "Easement recordation — APN 424-010-007",
+      "outcome": "Public and private easement recordation across the 6.26-acre City-owned parcel approved with the consent calendar by unanimous vote.",
+      "timestampSeconds": null
+    },
+    {
+      "item": "H",
+      "section": "Reports",
+      "page": 4,
+      "title": "Youth Council report",
+      "outcome": "Report-out by Youth Council Members Campos and Ivanov.",
+      "timestampSeconds": null
+    },
+    {
+      "item": "I.1",
+      "section": "Public Hearing",
+      "page": 4,
+      "title": "Lift-station and force-main sewer code standards",
+      "outcome": "Hearing opened and closed at 6:50 p.m. with no comments. First reading approved unanimously; motion Voigt, second Fenn. Introduction is not final ordinance adoption.",
+      "timestampSeconds": null
+    },
+    {
+      "item": "J.1",
+      "section": "Action",
+      "page": 4,
+      "title": "Economic Development Director employment agreement",
+      "outcome": "Kirk Pelser employment agreement approved unanimously and City Manager authorized to sign; motion Voigt, second Lara.",
+      "timestampSeconds": null
+    },
+    {
+      "item": "J.2",
+      "section": "Action",
+      "page": 4,
+      "title": "Proposed CFD bond refunding criteria",
+      "outcome": "Consensus directed staff and the financing team on savings criteria and to return for ultimate approval. The minutes' phrase “3% savings 200 savings in year 2” is unclear; the per-parcel criterion requires verification against the recording. No specific refunding issuance is established by this direction.",
+      "timestampSeconds": null
+    },
+    {
+      "item": "J.3",
+      "section": "Action",
+      "page": 5,
+      "title": "CFD 2016-3 Series 2025 bonds and acquisition amendment",
+      "outcome": "Resolutions approving an acquisition-agreement amendment and authorizing bonds up to $7.5 million adopted unanimously; motion Voigt, second Fenn. Authorization is not proof of actual issuance.",
+      "timestampSeconds": null
+    },
+    {
+      "item": "J.4",
+      "section": "Action",
+      "page": 5,
+      "title": "Sales-tax allocation and fiscal sustainability planning",
+      "outcome": "Consensus to draft a letter to Cal Cities, copy other cities with Amazon/e-commerce, and move forward with Phase 1 as presented. The minutes do not provide a standalone spending amount here.",
+      "timestampSeconds": null
+    },
+    {
+      "item": "J.5",
+      "section": "Action",
+      "page": 6,
+      "title": "2025 Cherry Festival sponsorship request",
+      "outcome": "The request was $350,000. Council unanimously approved the budgeted $100,000 by paying the entertainment-invoice balance, directed an agency meeting on further contributions, and requested return April 1; motion White, second Fenn. Do not label the full $350,000 request approved.",
+      "timestampSeconds": null
+    },
+    {
+      "item": "J.6",
+      "section": "Action",
+      "page": 6,
+      "title": "City hosting of the 2025 Cherry Festival Parade",
+      "outcome": "City hosting approved unanimously; motion Fenn, second Martinez.",
+      "timestampSeconds": null
+    },
+    {
+      "item": "J.7",
+      "section": "Action",
+      "page": 6,
+      "title": "Projects for 2025 Congressional appropriations requests",
+      "outcome": "Proposed project list and submission of funding requests approved unanimously; motion White, second Fenn. Submission does not establish a grant award.",
+      "timestampSeconds": null
+    },
+    {
+      "item": "J.8",
+      "section": "Action",
+      "page": 6,
+      "title": "CalSIP stream-gage grant — $108,000",
+      "outcome": "Resolution authorizing the funding request, acceptance and execution adopted unanimously; motion Fenn, second Voigt. Grant amount and acceptance do not establish receipt or expenditure.",
+      "timestampSeconds": null
+    },
+    {
+      "item": "J.9",
+      "section": "Action",
+      "page": 7,
+      "title": "Five-year RAMS financial-audit contract — $337,125",
+      "outcome": "Five-year Rogers, Anderson, Malody and Scott agreement and annual engagement letters approved unanimously; motion White, second Martinez.",
+      "timestampSeconds": null
+    },
+    {
+      "item": "J.10",
+      "section": "Action",
+      "page": 7,
+      "title": "Enterprise Fleet Management agreements",
+      "outcome": "Fleet procurement, leasing, outfitting and vehicle-disposal agreements approved 4–0; Fenn recused/abstained. Motion White, second Voigt. The vote continues on minutes page 8.",
+      "timestampSeconds": null
+    },
+    {
+      "item": "J.11",
+      "section": "Action",
+      "page": 8,
+      "title": "Wastewater plant improvements WW24-01 — reject bids and rebid",
+      "outcome": "Staff authorized unanimously to reject all bids, revise bidding documents and re-advertise; motion Voigt, second White. This was not a construction award.",
+      "timestampSeconds": null
+    },
+    {
+      "item": "J.12",
+      "section": "Action",
+      "page": 8,
+      "title": "Fairway Canyon sewer-failure emergency follow-up",
+      "outcome": "Consensus directed a return at the next meeting with response efforts, expenditures and timeline updates. No completion or final cost is established here.",
+      "timestampSeconds": null
+    },
+    {
+      "item": "K",
+      "section": "Reports",
+      "page": 8,
+      "title": "Legislative updates",
+      "outcome": "No update recorded.",
+      "timestampSeconds": null
+    },
+    {
+      "item": "L",
+      "section": "Reports",
+      "page": 8,
+      "title": "Economic Development update",
+      "outcome": "No update recorded.",
+      "timestampSeconds": null
+    },
+    {
+      "item": "M.1",
+      "section": "Reports",
+      "page": 8,
+      "title": "City Treasurer reports",
+      "outcome": "Report heading listed; minutes do not summarize a separate action.",
+      "timestampSeconds": null
+    },
+    {
+      "item": "N",
+      "section": "Reports",
+      "page": 9,
+      "title": "City Clerk report",
+      "outcome": "No report recorded.",
+      "timestampSeconds": null
+    },
+    {
+      "item": "O",
+      "section": "Reports",
+      "page": 9,
+      "title": "City Attorney report",
+      "outcome": "No report recorded.",
+      "timestampSeconds": null
+    },
+    {
+      "item": "P",
+      "section": "Reports",
+      "page": 9,
+      "title": "City Manager report",
+      "outcome": "Upcoming events shared.",
+      "timestampSeconds": null
+    },
+    {
+      "item": "Q",
+      "section": "Reports",
+      "page": 9,
+      "title": "Future agenda items",
+      "outcome": "Community-center needs, County annexation agreement, sanctuary-city clarification, credit agreements, CRC parking, Financial and Audit Committee ordinance, and development-agreement review listed for later consideration.",
+      "timestampSeconds": null
+    },
+    {
+      "item": "R",
+      "section": "Reports",
+      "page": 9,
+      "title": "Council reports",
+      "outcome": "Regional-agency and community-meeting report-outs recorded for Fenn, Martinez, White, Voigt and Lara.",
+      "timestampSeconds": null
+    },
+    {
+      "item": "S",
+      "section": "Reports",
+      "page": 10,
+      "title": "Adjournment and next meeting",
+      "outcome": "Minutes state adjournment at 11:30 p.m. and April 1, 2025 as the next regular meeting. Clock times are not converted to video timestamps; the recording's full coverage has not been independently verified.",
+      "timestampSeconds": null
+    }
+  ]
+}
