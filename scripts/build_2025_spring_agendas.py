@@ -40,6 +40,8 @@ def viewer(url,title):
 
 def build_page(date, source_namespace='BI_SPRING'):
     packet=load_packet(date);review=load_review(date);items=merged_items(packet,review)
+    center_review=ROOT/'data/council/2024-autumn-center-review.json'
+    center_findings=json.loads(center_review.read_text(encoding='utf-8'))['findings'] if center_review.exists() else []
     label=label_for(date)
     manifest=json.loads((ROOT/'data/document-storage-manifest.json').read_text(encoding='utf-8'))
     verified={r['url'] for r in manifest['documents'] if r.get('sha256') and r.get('publication_status')!='pending-upload'}
@@ -67,7 +69,12 @@ def build_page(date, source_namespace='BI_SPRING'):
                 body+='<p><strong>Minutes record:</strong> '+escape(item['outcome'])+'</p><p class="source-note">Official minutes · PDF page '+str(item['page'])+'. Item video timestamp not verified.</p>'
                 body+=f'<button class="btn small secondary" data-minutes-page="{item["page"]}" data-title="{escape(label+" minutes · "+key,quote=True)}">View minutes page {item["page"]}</button>'
             elif minute:
-                body+='<p class="source-note">Official minutes are available above; an item-specific outcome review is not included here. A recommendation is not a Council decision.</p>'
+                related=[r for r in center_findings if r['date']==date and key in r['items']]
+                if related:
+                    links=' · '.join(f'<a href="../autumn-2024-center-review.html#{r["id"]}">{escape(r["title"])}</a>' for r in related)
+                    body+='<p class="source-note">Minutes-based center findings: '+links+'. Published recommendations remain separate from the recorded disposition and evidence limits.</p>'
+                else:
+                    body+='<p class="source-note">Official minutes are available above; an item-specific outcome review is not included here. A recommendation is not a Council decision.</p>'
             if video:body+=f'<p><a class="text-link" href="{escape(video,quote=True)}" target="_blank" rel="noopener">Open meeting video ↗</a> · Item video timestamp not verified.</p>'
             if docs:
                 body+=f'<h3>Staff reports and attachments ({len(docs)})</h3><div class="packet-documents">'

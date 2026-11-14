@@ -1,0 +1,1775 @@
+{
+  "reviewedOn": "2026-11-13",
+  "dates": [
+    "2024-10-01",
+    "2024-10-15",
+    "2024-11-19",
+    "2024-12-03",
+    "2024-12-17"
+  ],
+  "scope": "Five newly imported October-December 2024 packets. Historical findings; no claim of present project status or full attachment audit.",
+  "findings": [
+    {
+      "id": "autumn-2024-pennsylvania-design",
+      "date": "2024-10-01",
+      "items": [
+        "J.2"
+      ],
+      "title": "Pennsylvania design agreement: new scope and remaining authority",
+      "status": "Approved unanimously",
+      "summary": "Council awarded IDC an amended and restated agreement not to exceed $1,884,482. The staff report separates $1,209,191 of additional scope from $675,291 remaining on the prior contract; the cumulative agreement history totals $3,134,124. These are different accounting measures, not three new awards.",
+      "limit": "The report targeted Ready to List in September 2025 and reported bridge design at 60%, track at 25% and civil at 50%. These are October 2024 statements, not verified current progress or a construction start. Executed agreement, later schedule and payments remain separate checks.",
+      "pages": [
+        "pennsylvania-grade-separation.html",
+        "pennsylvania-grade-separation-council-actions.html",
+        "pennsylvania-grade-separation-funding.html",
+        "pennsylvania-grade-separation-design.html",
+        "pennsylvania-grade-separation-schedule.html",
+        "pennsylvania-grade-separation-evidence.html",
+        "budget.html",
+        "budget-council-actions.html",
+        "budget-funding.html",
+        "budget-evidence.html"
+      ],
+      "areas": [
+        "public-works-mobility",
+        "finance-government"
+      ],
+      "minutesPages": [
+        6
+      ]
+    },
+    {
+      "id": "autumn-2024-pennsylvania-environment",
+      "date": "2024-10-01",
+      "items": [
+        "J.3"
+      ],
+      "title": "Pennsylvania environmental agreement has conflicting amounts",
+      "status": "Approved in the combined J.2/J.3 motion",
+      "summary": "The minutes and recommended action specify $86,698 for Moffatt & Nichol. The staff report fiscal section instead states $86,989 and says no additional funds were requested. The report describes NEPA technical studies as 80% complete, with permitting to follow approval.",
+      "limit": "The $291 difference remains unresolved; do not silently substitute one amount for the other or count the restated balance as entirely new spending. Obtain the executed agreement and payment ledger. The reported study percentage is dated October 2024.",
+      "pages": [
+        "pennsylvania-grade-separation.html",
+        "pennsylvania-grade-separation-council-actions.html",
+        "pennsylvania-grade-separation-funding.html",
+        "pennsylvania-grade-separation-design.html",
+        "pennsylvania-grade-separation-schedule.html",
+        "pennsylvania-grade-separation-evidence.html",
+        "budget.html",
+        "budget-council-actions.html",
+        "budget-funding.html",
+        "budget-evidence.html"
+      ],
+      "areas": [
+        "public-works-mobility",
+        "finance-government"
+      ],
+      "minutesPages": [
+        6
+      ]
+    },
+    {
+      "id": "autumn-2024-dif-continuance",
+      "date": "2024-10-01",
+      "items": [
+        "I.1"
+      ],
+      "title": "Development impact fees were continued on October 1",
+      "status": "Continued 4-1; Lara opposed",
+      "summary": "Council continued the development impact fee nexus study and fee schedule to November 5, 2024. The published recommendation to adopt maximum justified fees, with storm-drain fees at 50%, was not adopted at this meeting.",
+      "limit": "The December 3 staff report later describes a November 5 study approval. Check that later decision and adopted schedule before stating effective fees; this October item establishes only the continuance.",
+      "pages": [
+        "budget.html",
+        "budget-council-actions.html",
+        "budget-funding.html",
+        "budget-evidence.html",
+        "land-policy.html",
+        "land-policy-council-actions.html",
+        "land-policy-evidence.html"
+      ],
+      "areas": [
+        "finance-government",
+        "growth-community-development"
+      ],
+      "minutesPages": [
+        5
+      ]
+    },
+    {
+      "id": "autumn-2024-truck-route-ad-hoc",
+      "date": "2024-10-01",
+      "items": [
+        "G.7"
+      ],
+      "title": "Banning and Calimesa truck-route coordination",
+      "status": "Consent calendar approved unanimously",
+      "summary": "Council confirmed Lara and Voigt as representatives and directed staff to contact Banning and Calimesa for a 2x2x2 ad hoc meeting on truck routes.",
+      "limit": "This establishes coordination authority, not a new truck-route ordinance, road standard or intercity agreement.",
+      "pages": [
+        "land-policy.html",
+        "land-policy-council-actions.html",
+        "land-policy-evidence.html"
+      ],
+      "areas": [
+        "public-works-mobility",
+        "growth-community-development"
+      ],
+      "minutesPages": [
+        3,
+        4
+      ]
+    },
+    {
+      "id": "autumn-2024-business-incentives",
+      "date": "2024-10-01",
+      "items": [
+        "J.1"
+      ],
+      "title": "Job creation and retention incentive program authorized",
+      "status": "Approved unanimously",
+      "summary": "Council authorized the City Manager to develop and implement the Job Creation and Retention Incentive Program.",
+      "limit": "This does not establish individual business awards, disbursements, job counts or compliance with incentive conditions. Those require executed agreements and performance records.",
+      "pages": [
+        "downtown-revitalization.html",
+        "downtown-revitalization-business.html",
+        "downtown-revitalization-council-actions.html",
+        "downtown-revitalization-funding.html",
+        "downtown-revitalization-evidence.html",
+        "budget.html",
+        "budget-council-actions.html",
+        "budget-funding.html",
+        "budget-evidence.html"
+      ],
+      "areas": [
+        "economic-development",
+        "finance-government"
+      ],
+      "minutesPages": [
+        6
+      ]
+    },
+    {
+      "id": "autumn-2024-city-properties",
+      "date": "2024-10-01",
+      "items": [
+        "J.5"
+      ],
+      "title": "City-owned property discussion received",
+      "status": "Presentation received",
+      "summary": "The minutes record a presentation about City-owned properties and their use.",
+      "limit": "No sale, lease, redevelopment award or approved property-use decision is recorded under this item. Check later public actions before describing an agreement.",
+      "pages": [
+        "downtown-revitalization.html",
+        "downtown-revitalization-business.html",
+        "downtown-revitalization-council-actions.html",
+        "downtown-revitalization-funding.html",
+        "downtown-revitalization-evidence.html"
+      ],
+      "areas": [
+        "economic-development",
+        "growth-community-development"
+      ],
+      "minutesPages": [
+        7
+      ]
+    },
+    {
+      "id": "autumn-2024-pennsylvania-sb125",
+      "date": "2024-10-15",
+      "items": [
+        "F.1"
+      ],
+      "title": "Pennsylvania budget increased with SB 125 funding",
+      "status": "CIP amendment and Attachment E approved unanimously",
+      "summary": "The approved second FY2025-2029 CIP amendment includes a $5 million SB 125 grant increase for Pennsylvania grade separation, taking its project budget from $8,678,556 to $13,678,556. This follows the lower budget in the October 1 reports.",
+      "limit": "The increase updates the budget snapshot; it is not evidence of cash received, full construction funding or a revised total project estimate. Reconcile with grant terms and subsequent CIP changes.",
+      "pages": [
+        "pennsylvania-grade-separation.html",
+        "pennsylvania-grade-separation-council-actions.html",
+        "pennsylvania-grade-separation-funding.html",
+        "pennsylvania-grade-separation-design.html",
+        "pennsylvania-grade-separation-schedule.html",
+        "pennsylvania-grade-separation-evidence.html",
+        "budget.html",
+        "budget-council-actions.html",
+        "budget-funding.html",
+        "budget-evidence.html"
+      ],
+      "areas": [
+        "public-works-mobility",
+        "finance-government"
+      ],
+      "minutesPages": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "autumn-2024-police-cip",
+      "date": "2024-10-15",
+      "items": [
+        "F.1"
+      ],
+      "title": "Police station design and construction combined in PS-07",
+      "status": "CIP amendment approved unanimously",
+      "summary": "The amendment closes PS-09 and combines it with PS-07. The staff report shows $3,597,372 existing budget, $3,865,000 in General Fund additions and a $1 million PS-09 transfer, yielding $8,462,372 for PS-07.",
+      "limit": "The transfer is not an additional $1 million on top of the stated new budget. This is a historical budget reorganization, not a final station cost, construction award or completion finding.",
+      "pages": [
+        "police.html",
+        "police-facilities.html",
+        "police-evidence.html",
+        "budget.html",
+        "budget-council-actions.html",
+        "budget-funding.html",
+        "budget-evidence.html"
+      ],
+      "areas": [
+        "public-safety",
+        "finance-government"
+      ],
+      "minutesPages": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "autumn-2024-citywide-cip",
+      "date": "2024-10-15",
+      "items": [
+        "F.1"
+      ],
+      "title": "CIP amendment adds streetlights, signals and park funding",
+      "status": "Approved unanimously",
+      "summary": "The amendment includes a $112,000 LED streetlight project, three future-location traffic signals at $600,000 each and a $2 million citywide signal-system upgrade. P-20 playgrounds with shade increases from $250,000 to $290,000; Sports Park lighting increases from $350,000 to $410,000.",
+      "limit": "The report calls the signal locations tentative. These are dated CIP budgets, not completed installations. Citywide playground and Sports Park allocations do not establish a Stewart Park-specific award.",
+      "pages": [
+        "budget.html",
+        "budget-council-actions.html",
+        "budget-funding.html",
+        "budget-evidence.html"
+      ],
+      "areas": [
+        "public-works-mobility",
+        "parks-community-services",
+        "finance-government"
+      ],
+      "minutesPages": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "autumn-2024-ia17d-bonds",
+      "date": "2024-10-15",
+      "items": [
+        "G.1"
+      ],
+      "title": "IA 17D special-tax bond issuance authorized",
+      "status": "Approved 4-1; White opposed",
+      "summary": "Council authorized Improvement Area 17D Series 2024 special-tax bonds up to $10.5 million. The minutes describe approximately $9.4 million par and a final maturity of September 1, 2054.",
+      "limit": "The authorization ceiling and anticipated par are distinct. Confirm closing documents for actual issuance, proceeds, rates and debt service; the resolution is not evidence of expenditure.",
+      "pages": [
+        "budget.html",
+        "budget-council-actions.html",
+        "budget-funding.html",
+        "budget-evidence.html"
+      ],
+      "areas": [
+        "finance-government"
+      ],
+      "minutesPages": [
+        3
+      ]
+    },
+    {
+      "id": "autumn-2024-requisition-2",
+      "date": "2024-10-15",
+      "items": [
+        "G.2"
+      ],
+      "title": "Requisition 2 for $8.25 million approved",
+      "status": "Approved unanimously",
+      "summary": "Council authorized the City Manager to sign Requisition 2 for release of $8,250,000 in 2016-3 bond proceeds to reimburse Tri Pointe project costs under the February 7, 2017 settlement.",
+      "limit": "Approval to request trustee disbursement does not itself establish the payment date, bank transfer or final cost eligibility.",
+      "pages": [
+        "budget.html",
+        "budget-council-actions.html",
+        "budget-funding.html",
+        "budget-evidence.html"
+      ],
+      "areas": [
+        "finance-government"
+      ],
+      "minutesPages": [
+        3,
+        4
+      ]
+    },
+    {
+      "id": "autumn-2024-mesa-lift",
+      "date": "2024-10-15",
+      "items": [
+        "G.3",
+        "G.4",
+        "G.5"
+      ],
+      "title": "Mesa Lift Station construction and support awards",
+      "status": "Combined motion approved unanimously",
+      "summary": "Council awarded Borden construction authority of $6,805,797 plus $680,580 in change orders, capped at $7,486,377. Separate awards were $17,510 for Converse materials testing and $92,275 for Webb engineering support.",
+      "limit": "The construction ceiling already includes its contingency. The testing and engineering awards are separate; authorization does not establish actual expenditure or project completion.",
+      "pages": [
+        "budget.html",
+        "budget-council-actions.html",
+        "budget-funding.html",
+        "budget-evidence.html"
+      ],
+      "areas": [
+        "utilities-environment",
+        "finance-government"
+      ],
+      "minutesPages": [
+        4
+      ]
+    },
+    {
+      "id": "autumn-2024-wrcog-fellowship",
+      "date": "2024-10-15",
+      "items": [
+        "G.7"
+      ],
+      "title": "WRCOG Fellowship Program participation",
+      "status": "Approved unanimously",
+      "summary": "Council approved participation in the FY2024-25 WRCOG Fellowship Program and authorized agreements subject to legal review with non-substantive changes.",
+      "limit": "This is a program participation action, not a WRCOG settlement, restitution receipt or debt payment. No change to the restitution balance is inferred.",
+      "pages": [],
+      "areas": [
+        "finance-government"
+      ],
+      "minutesPages": [
+        5
+      ]
+    },
+    {
+      "id": "autumn-2024-quarterly-budget",
+      "date": "2024-11-19",
+      "items": [
+        "G.4"
+      ],
+      "title": "First-quarter budget amendments approved",
+      "status": "Consent calendar approved 4-0; Lara absent",
+      "summary": "Council received the September 30, 2024 financial-status report and approved attached amendments. The staff report states additional spending authority of $158,394 General Fund, $6,300 PEG Fund and $14,999 Other Special Revenue Fund.",
+      "limit": "Spending authority is not actual expenditure. The staff report identifies the $14,999 as moved from the General Fund, so interfund changes should not be added as wholly independent net City spending.",
+      "pages": [
+        "budget.html",
+        "budget-council-actions.html",
+        "budget-funding.html",
+        "budget-evidence.html"
+      ],
+      "areas": [
+        "finance-government"
+      ],
+      "minutesPages": [
+        3
+      ]
+    },
+    {
+      "id": "autumn-2024-investment-pension",
+      "date": "2024-11-19",
+      "items": [
+        "G.5",
+        "G.6"
+      ],
+      "title": "Cash, investments and pension funding reports received",
+      "status": "Consent calendar approved 4-0; Lara absent",
+      "summary": "Council received the first-quarter cash and investment report and CalPERS funding update. The pension staff report cites preliminary CalPERS investment returns of 9.3% and an estimated funded status of 79%.",
+      "limit": "Those figures are attributed estimates in the pension update, not a verified Beaumont plan-specific funded ratio or a new pension appropriation. Read the actuarial and GovInvest records for plan-specific liabilities.",
+      "pages": [
+        "budget.html",
+        "budget-council-actions.html",
+        "budget-funding.html",
+        "budget-evidence.html"
+      ],
+      "areas": [
+        "finance-government"
+      ],
+      "minutesPages": [
+        3,
+        4
+      ]
+    },
+    {
+      "id": "autumn-2024-police-benefits",
+      "date": "2024-11-19",
+      "items": [
+        "G.7"
+      ],
+      "title": "Police manager and technical-unit benefit side letters",
+      "status": "Consent calendar approved 4-0; Lara absent",
+      "summary": "Council authorized Side Letter 4 increasing the cafeteria plan for Police Managers and the Manager Professional Technical Unit.",
+      "limit": "The authorization does not establish additional sworn staffing, deployment, realized benefit costs or delivery of service. Executed side letters and payroll records are separate evidence.",
+      "pages": [
+        "police.html",
+        "police-staffing.html",
+        "police-evidence.html",
+        "budget.html",
+        "budget-council-actions.html",
+        "budget-funding.html",
+        "budget-evidence.html"
+      ],
+      "areas": [
+        "public-safety",
+        "finance-government"
+      ],
+      "minutesPages": [
+        3,
+        4
+      ]
+    },
+    {
+      "id": "autumn-2024-facade-960",
+      "date": "2024-11-19",
+      "items": [
+        "G.8"
+      ],
+      "title": "960 Beaumont Avenue facade agreement revised",
+      "status": "Consent calendar approved 4-0; Lara absent",
+      "summary": "The revised ED2023-0004 agreement supports two phases. The staff report states a maximum City reimbursement of $40,242.35: $19,418.85 after Phase One and $20,823.50 after Phase Two, against $80,484.69 in project costs.",
+      "limit": "The program reimburses eligible completed work. Agreement approval is not proof of either phase being completed or reimbursed; collect inspections, reimbursement requests and payments.",
+      "pages": [
+        "downtown-revitalization.html",
+        "downtown-revitalization-business.html",
+        "downtown-revitalization-council-actions.html",
+        "downtown-revitalization-funding.html",
+        "downtown-revitalization-evidence.html",
+        "budget.html",
+        "budget-council-actions.html",
+        "budget-funding.html",
+        "budget-evidence.html"
+      ],
+      "areas": [
+        "economic-development",
+        "finance-government"
+      ],
+      "minutesPages": [
+        3,
+        4
+      ]
+    },
+    {
+      "id": "autumn-2024-cdbg-applications",
+      "date": "2024-11-19",
+      "items": [
+        "I.1"
+      ],
+      "title": "CDBG applications authorized with adjustable funding",
+      "status": "Approved 4-0; Lara absent",
+      "summary": "Council authorized a $128,350 pedestrian-project application, $10,000 for Voices for Children and the remaining available funding for Boys & Girls Club, subject to CDBG conditions. The City Manager could adjust project funding to the final available allocation.",
+      "limit": "These are application authorizations, not final grant awards or expenditures. Preserve the final-allocation condition when comparing later funding agreements.",
+      "pages": [
+        "budget.html",
+        "budget-council-actions.html",
+        "budget-funding.html",
+        "budget-evidence.html"
+      ],
+      "areas": [
+        "public-works-mobility",
+        "parks-community-services",
+        "finance-government"
+      ],
+      "minutesPages": [
+        4,
+        5
+      ]
+    },
+    {
+      "id": "autumn-2024-director-positions",
+      "date": "2024-11-19",
+      "items": [
+        "J.2"
+      ],
+      "title": "Director position changes and budget adjustments",
+      "status": "Approved 4-0; Lara absent",
+      "summary": "Council approved $31,157 for department 1350, addition of an Economic Development Director, and $147,185 for department 1235.",
+      "limit": "This establishes position and budget authority. Hiring, executed employment terms and actual compensation require subsequent records.",
+      "pages": [
+        "budget.html",
+        "budget-council-actions.html",
+        "budget-funding.html",
+        "budget-evidence.html",
+        "downtown-revitalization.html",
+        "downtown-revitalization-business.html",
+        "downtown-revitalization-council-actions.html",
+        "downtown-revitalization-funding.html",
+        "downtown-revitalization-evidence.html"
+      ],
+      "areas": [
+        "finance-government",
+        "economic-development",
+        "growth-community-development"
+      ],
+      "minutesPages": [
+        6
+      ]
+    },
+    {
+      "id": "autumn-2024-land-donation",
+      "date": "2024-11-19",
+      "items": [
+        "J.3"
+      ],
+      "title": "6.26-acre donation agreement authorized",
+      "status": "Approved 4-0; Lara absent",
+      "summary": "Council authorized a donation agreement with Lassen Development Partners for 6.26 acres identified as APN 424-010-007.",
+      "limit": "The motion authorizes an agreement; it does not prove recorded conveyance, accepted title or a future development approval. No PLUS policy amendment is inferred.",
+      "pages": [],
+      "areas": [
+        "growth-community-development"
+      ],
+      "minutesPages": [
+        6
+      ]
+    },
+    {
+      "id": "autumn-2024-permit-tracking",
+      "date": "2024-11-19",
+      "items": [
+        "J.4"
+      ],
+      "title": "Permit tracking: communication improvements directed",
+      "status": "Staff presentation and Council direction",
+      "summary": "The minutes record direction to implement communication aspects of planning-project and building-permit tracking.",
+      "limit": "The record does not establish that a new tracking system was delivered or that processing times improved. Collect implementation records and measured results; this did not amend PLUS.",
+      "pages": [
+        "land-policy.html",
+        "land-policy-council-actions.html",
+        "land-policy-evidence.html"
+      ],
+      "areas": [
+        "growth-community-development"
+      ],
+      "minutesPages": [
+        6
+      ]
+    },
+    {
+      "id": "autumn-2024-financial-policies",
+      "date": "2024-12-03",
+      "items": [
+        "G.5",
+        "G.6",
+        "G.7"
+      ],
+      "title": "Financial, development-fee and sponsorship policies presented",
+      "status": "Consent motion recorded; result not stated",
+      "summary": "The packet seeks approval of GASB 87/96 accounting policies, a financial-management update and a sponsorship/donation policy. The financial-management staff report proposes a development-impact-fee study every five years and cites a November 5, 2024 study approval.",
+      "limit": "The collected December 3 minutes record a consent motion and list these actions, but omit an explicit carried result or vote tally. Confirm adopted policies and resolutions before treating the packet drafts as executed policy or current requirements.",
+      "pages": [
+        "budget.html",
+        "budget-council-actions.html",
+        "budget-funding.html",
+        "budget-evidence.html"
+      ],
+      "areas": [
+        "finance-government"
+      ],
+      "minutesPages": [
+        3,
+        4
+      ]
+    },
+    {
+      "id": "autumn-2024-cdbg-supplement",
+      "date": "2024-12-03",
+      "items": [
+        "G.8"
+      ],
+      "title": "FY2024-25 CDBG supplemental agreement",
+      "status": "Consent motion recorded; result not stated",
+      "summary": "The collected minutes list the supplemental agreement supporting Pedestrian Sidewalk Safety Improvement Project Phase II and local nonprofit activities, with authority requested for City Manager execution.",
+      "limit": "The minutes omit an explicit consent-motion result. Collect the executed supplemental agreement and funding allocations; this prior-year program is separate from the November applications for FY2025-26.",
+      "pages": [
+        "budget.html",
+        "budget-council-actions.html",
+        "budget-funding.html",
+        "budget-evidence.html"
+      ],
+      "areas": [
+        "public-works-mobility",
+        "parks-community-services",
+        "finance-government"
+      ],
+      "minutesPages": [
+        3,
+        4
+      ]
+    },
+    {
+      "id": "autumn-2024-truck-viability",
+      "date": "2024-12-03",
+      "items": [
+        "J.1"
+      ],
+      "title": "Truck-route road viability report received",
+      "status": "Received and filed unanimously",
+      "summary": "Council received the report on existing roads along designated truck routes.",
+      "limit": "Receipt of a road-condition analysis is not adoption of revised truck routes, a road-strength guarantee or a construction award. Later design, funding and route actions require their own records.",
+      "pages": [
+        "land-policy.html",
+        "land-policy-council-actions.html",
+        "land-policy-evidence.html"
+      ],
+      "areas": [
+        "public-works-mobility",
+        "growth-community-development"
+      ],
+      "minutesPages": [
+        5
+      ]
+    },
+    {
+      "id": "autumn-2024-potrero-benefit",
+      "date": "2024-12-03",
+      "items": [
+        "J.2"
+      ],
+      "title": "Potrero benefit-area planning: studies before funding decisions",
+      "status": "Consensus to receive and file",
+      "summary": "Staff described a Fehr & Peers focused nexus and infrastructure-delivery study and a sewer study being advertised, to coordinate roads, sewers and lift stations serving future development. Future facility-funding options were to return to Council.",
+      "limit": "This item did not approve the listed developments, annexations, a final benefit-area fee or construction funding. Keep this extension-area planning separate from interchange Phase II delivery.",
+      "pages": [
+        "potrero-interchange.html",
+        "potrero-interchange-council-actions.html",
+        "potrero-interchange-funding.html",
+        "potrero-interchange-design.html",
+        "potrero-interchange-evidence.html",
+        "land-policy.html",
+        "land-policy-council-actions.html",
+        "land-policy-evidence.html"
+      ],
+      "areas": [
+        "public-works-mobility",
+        "growth-community-development",
+        "utilities-environment"
+      ],
+      "minutesPages": [
+        5
+      ]
+    },
+    {
+      "id": "autumn-2024-potrero-indemnity",
+      "date": "2024-12-03",
+      "items": [
+        "J.3"
+      ],
+      "title": "Fourth Street/Potrero indemnification agreement",
+      "status": "Approved unanimously",
+      "summary": "Council authorized the Mayor to execute an indemnification agreement with Riverside County for right-of-way dedications near Potrero Boulevard and Fourth Street.",
+      "limit": "The authorization is not proof of agreement execution, recorded dedications, construction commencement or interchange completion.",
+      "pages": [
+        "potrero-interchange.html",
+        "potrero-interchange-council-actions.html",
+        "potrero-interchange-funding.html",
+        "potrero-interchange-design.html",
+        "potrero-interchange-evidence.html"
+      ],
+      "areas": [
+        "public-works-mobility"
+      ],
+      "minutesPages": [
+        5,
+        6
+      ]
+    },
+    {
+      "id": "autumn-2024-requisition-3",
+      "date": "2024-12-03",
+      "items": [
+        "J.4",
+        "J.5"
+      ],
+      "title": "IA 17D reimbursement approvals kept separate",
+      "status": "Combined motion approved unanimously",
+      "summary": "Council approved Requisition 003 for $8,863,651.89 and a separate $214,799.45 PayGo request for TUMF fees. The minutes break the requisition into $7,452,415.96 of improvements and $1,411,235.93 of development impact fees.",
+      "limit": "The two requests use different funding streams. Do not count their components twice or infer trustee disbursement, City cash receipt or a WRCOG restitution credit from these approvals.",
+      "pages": [
+        "budget.html",
+        "budget-council-actions.html",
+        "budget-funding.html",
+        "budget-evidence.html"
+      ],
+      "areas": [
+        "finance-government"
+      ],
+      "minutesPages": [
+        6
+      ]
+    },
+    {
+      "id": "autumn-2024-plot-plan-withdrawn",
+      "date": "2024-12-03",
+      "items": [
+        "I.2"
+      ],
+      "title": "Tract 32850 plot-plan item removed",
+      "status": "Removed at applicant request",
+      "summary": "The minutes state that the applicant rescinded the application and item I.2 was removed without discussion. This differs from the published recommendation to continue it to December 17.",
+      "limit": "This meeting does not establish approval of the proposed 95 residential lots and park site.",
+      "pages": [],
+      "areas": [
+        "growth-community-development"
+      ],
+      "minutesPages": [
+        2,
+        5
+      ]
+    },
+    {
+      "id": "autumn-2024-fy2024-audit",
+      "date": "2024-12-17",
+      "items": [
+        "G.4",
+        "G.5"
+      ],
+      "title": "FY2024 financial reports and audit sources",
+      "status": "Consent motion recorded; result not stated",
+      "summary": "The packet includes the Popular Annual Financial Report, ACFR and internal-control report. The staff report describes an unmodified financial-statement opinion and no significant deficiencies or material weaknesses identified in the audit.",
+      "limit": "These statements are attributed to the staff report; a clean financial-statement opinion does not certify every transaction or service result. The collected minutes omit an explicit consent-motion result. Use the audit attachments for the underlying opinions and scope.",
+      "pages": [
+        "budget.html",
+        "budget-council-actions.html",
+        "budget-funding.html",
+        "budget-evidence.html"
+      ],
+      "areas": [
+        "finance-government"
+      ],
+      "minutesPages": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "autumn-2024-budget-timeline",
+      "date": "2024-12-17",
+      "items": [
+        "G.6"
+      ],
+      "title": "FY2025-26 budget development timeline",
+      "status": "Receive-and-file recommendation under consent motion",
+      "summary": "The December packet supplies the proposed FY2025-26 budget calendar for review and direction.",
+      "limit": "This is a process calendar, not adoption of the FY2025-26 budget. The minutes omit an explicit consent-motion result; later hearings and adopted budget documents establish final authority.",
+      "pages": [
+        "budget.html",
+        "budget-council-actions.html",
+        "budget-funding.html",
+        "budget-evidence.html"
+      ],
+      "areas": [
+        "finance-government"
+      ],
+      "minutesPages": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "autumn-2024-tumf-update",
+      "date": "2024-12-17",
+      "items": [
+        "I.1"
+      ],
+      "title": "TUMF ordinance and fee-schedule action",
+      "status": "Motion approved unanimously",
+      "summary": "Council approved the motion addressing the ordinance updating TUMF participation and the resolution amending applicable TUMF fees. The staff report ties the proposal to WRCOG's 2024 nexus study.",
+      "limit": "The minutes do not establish the later second-reading record or every fee's effective date. Collect final instruments and subsequent action before applying the packet schedule as current law. This is not evidence of a settlement payoff or restitution receipt.",
+      "pages": [
+        "budget.html",
+        "budget-council-actions.html",
+        "budget-funding.html",
+        "budget-evidence.html",
+        "land-policy.html",
+        "land-policy-council-actions.html",
+        "land-policy-evidence.html",
+        "wrcog-restitution.html",
+        "wrcog-restitution-evidence.html"
+      ],
+      "areas": [
+        "public-works-mobility",
+        "growth-community-development",
+        "finance-government"
+      ],
+      "minutesPages": [
+        3,
+        4
+      ]
+    },
+    {
+      "id": "autumn-2024-welcome-billboard",
+      "date": "2024-12-17",
+      "items": [
+        "J.2"
+      ],
+      "title": "Welcome to Beaumont billboard relocation approved",
+      "status": "Approved unanimously",
+      "summary": "Council approved PLAN2024-0108 to relocate and replace the Welcome to Beaumont electronic billboard at 1691 East Sixth Street.",
+      "limit": "Permit approval is not evidence of installation, advertising revenue, contract execution or a completed replacement.",
+      "pages": [
+        "dossiers/billboards.html"
+      ],
+      "areas": [
+        "economic-development",
+        "growth-community-development"
+      ],
+      "minutesPages": [
+        6
+      ]
+    },
+    {
+      "id": "autumn-2024-downtown-assessments",
+      "date": "2024-12-17",
+      "items": [
+        "J.3"
+      ],
+      "title": "Grace Avenue and Sixth Street condition assessments",
+      "status": "Approved unanimously",
+      "summary": "Council awarded one-year IMEG facility-condition assessment agreements for 500 Grace Avenue and 105 Sixth Street. The staff report lists fixed fees of $54,894 and $40,776, respectively, funded from CD-03.",
+      "limit": "These fund assessments of conditions and potential food/beverage use upgrades, not a construction award, tenant lease or completed redevelopment. Collect executed agreements and assessment deliverables.",
+      "pages": [
+        "downtown-revitalization.html",
+        "downtown-revitalization-business.html",
+        "downtown-revitalization-council-actions.html",
+        "downtown-revitalization-funding.html",
+        "downtown-revitalization-evidence.html",
+        "budget.html",
+        "budget-council-actions.html",
+        "budget-funding.html",
+        "budget-evidence.html"
+      ],
+      "areas": [
+        "economic-development",
+        "finance-government"
+      ],
+      "minutesPages": [
+        6
+      ]
+    },
+    {
+      "id": "autumn-2024-wastewater-scada",
+      "date": "2024-12-17",
+      "items": [
+        "J.4"
+      ],
+      "title": "Wastewater SCADA integration services",
+      "status": "Approved unanimously",
+      "summary": "Council awarded SKM Engineering SCADA programming and wastewater system-integration services not to exceed $75,000.",
+      "limit": "The service award does not establish commissioning, cybersecurity outcomes, final payment or facility completion.",
+      "pages": [
+        "budget.html",
+        "budget-council-actions.html",
+        "budget-funding.html",
+        "budget-evidence.html"
+      ],
+      "areas": [
+        "utilities-environment",
+        "finance-government"
+      ],
+      "minutesPages": [
+        6,
+        7
+      ]
+    },
+    {
+      "id": "autumn-2024-second-street-grant",
+      "date": "2024-12-17",
+      "items": [
+        "J.6"
+      ],
+      "title": "Second Street Extension federal grant agreement",
+      "status": "Approved unanimously",
+      "summary": "Council approved HUD grant agreement B-24-CP-CA-0317 and execution authority. The minutes identify $1 million of federal Community Project Funding for the Second Street Extension.",
+      "limit": "This is the same $1 million funding source included in the October 15 CIP amendment, not an additional grant to add again. Grant execution, reimbursement and construction completion remain separate checks.",
+      "pages": [
+        "budget.html",
+        "budget-council-actions.html",
+        "budget-funding.html",
+        "budget-evidence.html"
+      ],
+      "areas": [
+        "public-works-mobility",
+        "finance-government"
+      ],
+      "minutesPages": [
+        7
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "date": "2024-10-01",
+      "item": "B.1",
+      "title": "Conference with Legal Counsel Regarding Existing Litigation Pursuant to Government Code Section 54956.9(d)(1):",
+      "section": "Closed Session",
+      "findings": [],
+      "review": "Screened; retained in interactive agenda without a new center-specific claim"
+    },
+    {
+      "date": "2024-10-01",
+      "item": "B.2",
+      "title": "Conference with Labor Negotiators Pursuant to Government Code Section 54957.6.",
+      "section": "Closed Session",
+      "findings": [],
+      "review": "Screened; retained in interactive agenda without a new center-specific claim"
+    },
+    {
+      "date": "2024-10-01",
+      "item": "B.3",
+      "title": "Conference with Real Property Negotiators Pursuant to Government Code Section 54956.8",
+      "section": "Closed Session",
+      "findings": [],
+      "review": "Screened; retained in interactive agenda without a new center-specific claim"
+    },
+    {
+      "date": "2024-10-01",
+      "item": "B.4",
+      "title": "Conference with Legal Counsel Regarding Potential Initiation of litigation Pursuant to Government Code Section 54956.9(d)(4)",
+      "section": "Closed Session",
+      "findings": [],
+      "review": "Screened; retained in interactive agenda without a new center-specific claim"
+    },
+    {
+      "date": "2024-10-01",
+      "item": "B.5",
+      "title": "Conference with Real Property Negotiators Pursuant to Government Code Section 54956.8",
+      "section": "Closed Session",
+      "findings": [],
+      "review": "Screened; retained in interactive agenda without a new center-specific claim"
+    },
+    {
+      "date": "2024-10-01",
+      "item": "E.1",
+      "title": "Breast Cancer Awareness Proclamation",
+      "section": "Presentation",
+      "findings": [],
+      "review": "Screened; retained in interactive agenda without a new center-specific claim"
+    },
+    {
+      "date": "2024-10-01",
+      "item": "G.1",
+      "title": "Ratification of Warrants",
+      "section": "Consent",
+      "findings": [],
+      "review": "Screened; retained in interactive agenda without a new center-specific claim"
+    },
+    {
+      "date": "2024-10-01",
+      "item": "G.2",
+      "title": "Approval of Minutes",
+      "section": "Consent",
+      "findings": [],
+      "review": "Screened; retained in interactive agenda without a new center-specific claim"
+    },
+    {
+      "date": "2024-10-01",
+      "item": "G.3",
+      "title": "Performance Bond Exoneration and Survey Monuments",
+      "section": "Consent",
+      "findings": [],
+      "review": "Screened; retained in interactive agenda without a new center-specific claim"
+    },
+    {
+      "date": "2024-10-01",
+      "item": "G.4",
+      "title": "Resolution Amending Conflict of Interest Code",
+      "section": "Consent",
+      "findings": [],
+      "review": "Screened; retained in interactive agenda without a new center-specific claim"
+    },
+    {
+      "date": "2024-10-01",
+      "item": "G.5",
+      "title": "Storm Water Management Facilities Covenant and Agreement",
+      "section": "Consent",
+      "findings": [],
+      "review": "Screened; retained in interactive agenda without a new center-specific claim"
+    },
+    {
+      "date": "2024-10-01",
+      "item": "G.6",
+      "title": "Second Reading of Vector Control Ordinance (PLAN2024-0100)",
+      "section": "Consent",
+      "findings": [],
+      "review": "Screened; retained in interactive agenda without a new center-specific claim"
+    },
+    {
+      "date": "2024-10-01",
+      "item": "G.7",
+      "title": "Establishment of a 2x2x2 Ad Hoc Meeting with the Cities of Banning and Calimesa",
+      "section": "Consent",
+      "findings": [
+        "autumn-2024-truck-route-ad-hoc"
+      ],
+      "review": "Selected finding"
+    },
+    {
+      "date": "2024-10-01",
+      "item": "I.1",
+      "title": "Adoption of Development Impact Fee Nexus Study and Development Impact Fee Schedule",
+      "section": "Public Hearing",
+      "findings": [
+        "autumn-2024-dif-continuance"
+      ],
+      "review": "Selected finding"
+    },
+    {
+      "date": "2024-10-01",
+      "item": "I.2",
+      "title": "Continue a Public Hearing of Request to Appeal Notice of Finding Under Development Agreement",
+      "section": "Public Hearing",
+      "findings": [],
+      "review": "Screened; retained in interactive agenda without a new center-specific claim"
+    },
+    {
+      "date": "2024-10-01",
+      "item": "J.1",
+      "title": "Business Incentive Program Update",
+      "section": "Action",
+      "findings": [
+        "autumn-2024-business-incentives"
+      ],
+      "review": "Selected finding"
+    },
+    {
+      "date": "2024-10-01",
+      "item": "J.2",
+      "title": "Amended and Restated Agreement with IDC Consulting Engineers, Inc. for the Pennsylvania Avenue Grade Separation Project (CIP 2017-012)",
+      "section": "Action",
+      "findings": [
+        "autumn-2024-pennsylvania-design"
+      ],
+      "review": "Selected finding"
+    },
+    {
+      "date": "2024-10-01",
+      "item": "J.3",
+      "title": "Amended and Restated Agreement with Moffatt Nichol for the Pennsylvania Avenue Grade Separation Project (CIP 2017-012)",
+      "section": "Action",
+      "findings": [
+        "autumn-2024-pennsylvania-environment"
+      ],
+      "review": "Selected finding"
+    },
+    {
+      "date": "2024-10-01",
+      "item": "J.4",
+      "title": "Intent to Vacate a Portion of Euclid Avenue and a Portion of Third Street",
+      "section": "Action",
+      "findings": [],
+      "review": "Screened; retained in interactive agenda without a new center-specific claim"
+    },
+    {
+      "date": "2024-10-01",
+      "item": "J.5",
+      "title": "Presentation and Discussion of City-owned Properties",
+      "section": "Action",
+      "findings": [
+        "autumn-2024-city-properties"
+      ],
+      "review": "Selected finding"
+    },
+    {
+      "date": "2024-10-01",
+      "item": "M",
+      "title": "CITY TREASURER REPORT",
+      "section": "Reports",
+      "findings": [],
+      "review": "Screened; retained in interactive agenda without a new center-specific claim"
+    },
+    {
+      "date": "2024-10-15",
+      "item": "B.1",
+      "title": "Catholic Daughters of America Proclamation",
+      "section": "Presentation",
+      "findings": [],
+      "review": "Screened; retained in interactive agenda without a new center-specific claim"
+    },
+    {
+      "date": "2024-10-15",
+      "item": "D.1",
+      "title": "Ratification of Warrants",
+      "section": "Consent",
+      "findings": [],
+      "review": "Screened; retained in interactive agenda without a new center-specific claim"
+    },
+    {
+      "date": "2024-10-15",
+      "item": "D.2",
+      "title": "Approval of Minutes",
+      "section": "Consent",
+      "findings": [],
+      "review": "Screened; retained in interactive agenda without a new center-specific claim"
+    },
+    {
+      "date": "2024-10-15",
+      "item": "D.3",
+      "title": "SB 1205 State Mandated Fire Inspection Reporting",
+      "section": "Consent",
+      "findings": [],
+      "review": "Screened; retained in interactive agenda without a new center-specific claim"
+    },
+    {
+      "date": "2024-10-15",
+      "item": "F.1",
+      "title": "Public Hearing and Consideration of a Resolution for the Second Amendment to the City’s Fiscal Year 2025-2029 Capital Improvement Plan",
+      "section": "Public Hearing",
+      "findings": [
+        "autumn-2024-pennsylvania-sb125",
+        "autumn-2024-police-cip",
+        "autumn-2024-citywide-cip"
+      ],
+      "review": "Selected finding"
+    },
+    {
+      "date": "2024-10-15",
+      "item": "G.1",
+      "title": "Approval of Acquisition Agreement for Community Facilities District No. 93-1(Improvement Area 17D) and Authorizing the Issuance of its Special Tax Bonds, Series 2024",
+      "section": "Action",
+      "findings": [
+        "autumn-2024-ia17d-bonds"
+      ],
+      "review": "Selected finding"
+    },
+    {
+      "date": "2024-10-15",
+      "item": "G.2",
+      "title": "Approval of Requisition No. 2 for Reimbursement of Bond Proceeds in the Amount of $8,250,000",
+      "section": "Action",
+      "findings": [
+        "autumn-2024-requisition-2"
+      ],
+      "review": "Selected finding"
+    },
+    {
+      "date": "2024-10-15",
+      "item": "G.3",
+      "title": "Award a Public Works Agreement to Borden Excavating, Inc. for Construction of the Mesa Lift Station Upgrade Project (CIP WW-11)",
+      "section": "Action",
+      "findings": [
+        "autumn-2024-mesa-lift"
+      ],
+      "review": "Selected finding"
+    },
+    {
+      "date": "2024-10-15",
+      "item": "G.4",
+      "title": "Award a Professional Services Agreement to Converse Consultants for materials testing services during Construction of the Mesa Lift Station Upgrade Project (CIP WW-11)",
+      "section": "Action",
+      "findings": [
+        "autumn-2024-mesa-lift"
+      ],
+      "review": "Selected finding"
+    },
+    {
+      "date": "2024-10-15",
+      "item": "G.5",
+      "title": "Award a Professional Services Agreement to Albert A. Webb Associates for Engineering Support Services during Construction of the Mesa Lift Station Upgrade Project (CIP WW-11)",
+      "section": "Action",
+      "findings": [
+        "autumn-2024-mesa-lift"
+      ],
+      "review": "Selected finding"
+    },
+    {
+      "date": "2024-10-15",
+      "item": "G.6",
+      "title": "Authorize Changes to the Uniform Compensation Plan",
+      "section": "Action",
+      "findings": [],
+      "review": "Screened; retained in interactive agenda without a new center-specific claim"
+    },
+    {
+      "date": "2024-10-15",
+      "item": "G.7",
+      "title": "Participation in the Western Regional Council of Governments Fellowship Program",
+      "section": "Action",
+      "findings": [
+        "autumn-2024-wrcog-fellowship"
+      ],
+      "review": "Selected finding"
+    },
+    {
+      "date": "2024-10-15",
+      "item": "G.8",
+      "title": "Approval of City Attorney Invoices for the Month of September 2024",
+      "section": "Action",
+      "findings": [],
+      "review": "Screened; retained in interactive agenda without a new center-specific claim"
+    },
+    {
+      "date": "2024-10-15",
+      "item": "J",
+      "title": "CITY TREASURER REPORT",
+      "section": "Reports",
+      "findings": [],
+      "review": "Screened; retained in interactive agenda without a new center-specific claim"
+    },
+    {
+      "date": "2024-11-19",
+      "item": "B.1",
+      "title": "Conference with Real Property Negotiators Pursuant to Government Code Section 54956.8",
+      "section": "Closed Session",
+      "findings": [],
+      "review": "Screened; retained in interactive agenda without a new center-specific claim"
+    },
+    {
+      "date": "2024-11-19",
+      "item": "B.2",
+      "title": "Conference with Legal Counsel – Anticipated Litigation – Potential Initiation of litigation pursuant to Government Code Section 54956.9(d)(4):",
+      "section": "Closed Session",
+      "findings": [],
+      "review": "Screened; retained in interactive agenda without a new center-specific claim"
+    },
+    {
+      "date": "2024-11-19",
+      "item": "E.1",
+      "title": "National Apprenticeship Week",
+      "section": "Presentation",
+      "findings": [],
+      "review": "Screened; retained in interactive agenda without a new center-specific claim"
+    },
+    {
+      "date": "2024-11-19",
+      "item": "E.2",
+      "title": "Popular Annual Financial Reporting and Annual Comprehensive Financial Report Awards",
+      "section": "Presentation",
+      "findings": [],
+      "review": "Screened; retained in interactive agenda without a new center-specific claim"
+    },
+    {
+      "date": "2024-11-19",
+      "item": "E.3",
+      "title": "Western Riverside Council of Governments Vehicle Miles Traveled Presentation",
+      "section": "Presentation",
+      "findings": [],
+      "review": "Screened; retained in interactive agenda without a new center-specific claim"
+    },
+    {
+      "date": "2024-11-19",
+      "item": "G.1",
+      "title": "Ratification of Warrants",
+      "section": "Consent",
+      "findings": [],
+      "review": "Screened; retained in interactive agenda without a new center-specific claim"
+    },
+    {
+      "date": "2024-11-19",
+      "item": "G.2",
+      "title": "Approval of Minutes",
+      "section": "Consent",
+      "findings": [],
+      "review": "Screened; retained in interactive agenda without a new center-specific claim"
+    },
+    {
+      "date": "2024-11-19",
+      "item": "G.3",
+      "title": "Performance Bond Exoneration",
+      "section": "Consent",
+      "findings": [],
+      "review": "Screened; retained in interactive agenda without a new center-specific claim"
+    },
+    {
+      "date": "2024-11-19",
+      "item": "G.4",
+      "title": "FY2024-2025 1st Quarter Budget Update and Financial Status Report",
+      "section": "Consent",
+      "findings": [
+        "autumn-2024-quarterly-budget"
+      ],
+      "review": "Selected finding"
+    },
+    {
+      "date": "2024-11-19",
+      "item": "G.5",
+      "title": "FY2024-2025 1st Quarter Cash and Investment Report",
+      "section": "Consent",
+      "findings": [
+        "autumn-2024-investment-pension"
+      ],
+      "review": "Selected finding"
+    },
+    {
+      "date": "2024-11-19",
+      "item": "G.6",
+      "title": "CalPERS Pension Funding Update",
+      "section": "Consent",
+      "findings": [
+        "autumn-2024-investment-pension"
+      ],
+      "review": "Selected finding"
+    },
+    {
+      "date": "2024-11-19",
+      "item": "G.7",
+      "title": "Side Letters Increasing the Cafeteria Plan for Police Managers and the Manager Professional Technical Unit",
+      "section": "Consent",
+      "findings": [
+        "autumn-2024-police-benefits"
+      ],
+      "review": "Selected finding"
+    },
+    {
+      "date": "2024-11-19",
+      "item": "G.8",
+      "title": "Downtown Façade Improvement Program – Funding Agreement Update – 960 Beaumont Avenue",
+      "section": "Consent",
+      "findings": [
+        "autumn-2024-facade-960"
+      ],
+      "review": "Selected finding"
+    },
+    {
+      "date": "2024-11-19",
+      "item": "I.1",
+      "title": "Public Hearing to Award of Fiscal Year 2025-26 Community Development Block Grant (CDBG) Funds",
+      "section": "Public Hearing",
+      "findings": [
+        "autumn-2024-cdbg-applications"
+      ],
+      "review": "Selected finding"
+    },
+    {
+      "date": "2024-11-19",
+      "item": "J.1",
+      "title": "Special Event Fee Waiver",
+      "section": "Action",
+      "findings": [],
+      "review": "Screened; retained in interactive agenda without a new center-specific claim"
+    },
+    {
+      "date": "2024-11-19",
+      "item": "J.2",
+      "title": "Authorize a Budget Adjustment, Changes to Position Allocation and Changes to Uniform Compensation Plan",
+      "section": "Action",
+      "findings": [
+        "autumn-2024-director-positions"
+      ],
+      "review": "Selected finding"
+    },
+    {
+      "date": "2024-11-19",
+      "item": "J.3",
+      "title": "Donation Agreement for 6.26 Acres of Real Property",
+      "section": "Action",
+      "findings": [
+        "autumn-2024-land-donation"
+      ],
+      "review": "Selected finding"
+    },
+    {
+      "date": "2024-11-19",
+      "item": "J.4",
+      "title": "Planning Project and Building Permit Tracking",
+      "section": "Action",
+      "findings": [
+        "autumn-2024-permit-tracking"
+      ],
+      "review": "Selected finding"
+    },
+    {
+      "date": "2024-11-19",
+      "item": "J.5",
+      "title": "City Council Meeting Dates for 2025",
+      "section": "Action",
+      "findings": [],
+      "review": "Screened; retained in interactive agenda without a new center-specific claim"
+    },
+    {
+      "date": "2024-11-19",
+      "item": "J.6",
+      "title": "Approval of City Attorney Invoices for the Month of October 2024",
+      "section": "Action",
+      "findings": [],
+      "review": "Screened; retained in interactive agenda without a new center-specific claim"
+    },
+    {
+      "date": "2024-11-19",
+      "item": "L.1",
+      "title": "Billboard Contract Update",
+      "section": "Reports",
+      "findings": [],
+      "review": "Screened; retained in interactive agenda without a new center-specific claim"
+    },
+    {
+      "date": "2024-12-03",
+      "item": "B.1",
+      "title": "Conference with Real Property Negotiators Pursuant to Government Code Section 54956.8",
+      "section": "Closed Session",
+      "findings": [],
+      "review": "Screened; retained in interactive agenda without a new center-specific claim"
+    },
+    {
+      "date": "2024-12-03",
+      "item": "B.2",
+      "title": "Conference with Real Property Negotiator Pursuant to Government Code Section 54956.8",
+      "section": "Closed Session",
+      "findings": [],
+      "review": "Screened; retained in interactive agenda without a new center-specific claim"
+    },
+    {
+      "date": "2024-12-03",
+      "item": "B.3",
+      "title": "Conference with Legal Counsel – Anticipated Litigation – Potential Initiation of litigation pursuant to Government Code Section 54956.9(d)(4):",
+      "section": "Closed Session",
+      "findings": [],
+      "review": "Screened; retained in interactive agenda without a new center-specific claim"
+    },
+    {
+      "date": "2024-12-03",
+      "item": "G.1",
+      "title": "Ratification of Warrants",
+      "section": "Consent",
+      "findings": [],
+      "review": "Screened; retained in interactive agenda without a new center-specific claim"
+    },
+    {
+      "date": "2024-12-03",
+      "item": "G.2",
+      "title": "Approval of Minutes",
+      "section": "Consent",
+      "findings": [],
+      "review": "Screened; retained in interactive agenda without a new center-specific claim"
+    },
+    {
+      "date": "2024-12-03",
+      "item": "G.3",
+      "title": "Freeway Agreement for State Highway Route 60",
+      "section": "Consent",
+      "findings": [],
+      "review": "Screened; retained in interactive agenda without a new center-specific claim"
+    },
+    {
+      "date": "2024-12-03",
+      "item": "G.4",
+      "title": "A Resolution of the City Council of the City of Beaumont Accepting the Offer of Dedication For Lots 2, 6 and 7 of Tract Map 34862-1",
+      "section": "Consent",
+      "findings": [],
+      "review": "Screened; retained in interactive agenda without a new center-specific claim"
+    },
+    {
+      "date": "2024-12-03",
+      "item": "G.5",
+      "title": "2024 City of Beaumont Financial Policies for GASB 87 and 96",
+      "section": "Consent",
+      "findings": [
+        "autumn-2024-financial-policies"
+      ],
+      "review": "Selected finding"
+    },
+    {
+      "date": "2024-12-03",
+      "item": "G.6",
+      "title": "Update to the City of Beaumont Financial Management Policy",
+      "section": "Consent",
+      "findings": [
+        "autumn-2024-financial-policies"
+      ],
+      "review": "Selected finding"
+    },
+    {
+      "date": "2024-12-03",
+      "item": "G.7",
+      "title": "City of Beaumont Sponsorship and Donation Policy",
+      "section": "Consent",
+      "findings": [
+        "autumn-2024-financial-policies"
+      ],
+      "review": "Selected finding"
+    },
+    {
+      "date": "2024-12-03",
+      "item": "G.8",
+      "title": "Approval of Supplemental Agreement for 2024-2025 Community Development Block Grant (CDBG) Program",
+      "section": "Consent",
+      "findings": [
+        "autumn-2024-cdbg-supplement"
+      ],
+      "review": "Selected finding"
+    },
+    {
+      "date": "2024-12-03",
+      "item": "I.1",
+      "title": "Continuation of a Public Hearing of Request to Appeal Notice of Finding Under Development Agreement",
+      "section": "Public Hearing",
+      "findings": [],
+      "review": "Screened; retained in interactive agenda without a new center-specific claim"
+    },
+    {
+      "date": "2024-12-03",
+      "item": "I.2",
+      "title": "Minor Plot Plan PP2024-0048 Plotting, Architecture and Floors Plan for Tract Map No. 32850 (APN:421-110-014)",
+      "section": "Public Hearing",
+      "findings": [
+        "autumn-2024-plot-plan-withdrawn"
+      ],
+      "review": "Selected finding"
+    },
+    {
+      "date": "2024-12-03",
+      "item": "J.1",
+      "title": "Truck Route Viability",
+      "section": "Action",
+      "findings": [
+        "autumn-2024-truck-viability"
+      ],
+      "review": "Selected finding"
+    },
+    {
+      "date": "2024-12-03",
+      "item": "J.2",
+      "title": "Potrero Extension Benefit Area",
+      "section": "Action",
+      "findings": [
+        "autumn-2024-potrero-benefit"
+      ],
+      "review": "Selected finding"
+    },
+    {
+      "date": "2024-12-03",
+      "item": "J.3",
+      "title": "Indemnification Agreement for Fourth Street and Potrero Boulevard",
+      "section": "Action",
+      "findings": [
+        "autumn-2024-potrero-indemnity"
+      ],
+      "review": "Selected finding"
+    },
+    {
+      "date": "2024-12-03",
+      "item": "J.4",
+      "title": "Approval of Trustee Requisition 003 for Reimbursement of Bond Proceeds in the Amount of $8,863,651.89",
+      "section": "Action",
+      "findings": [
+        "autumn-2024-requisition-3"
+      ],
+      "review": "Selected finding"
+    },
+    {
+      "date": "2024-12-03",
+      "item": "J.5",
+      "title": "Approval of Tri Pointe Homes Community Facilities District 93-1 Improvement Area 17D PayGo Funds Reimbursement Request",
+      "section": "Action",
+      "findings": [
+        "autumn-2024-requisition-3"
+      ],
+      "review": "Selected finding"
+    },
+    {
+      "date": "2024-12-03",
+      "item": "M.1",
+      "title": "Treasurer Reports",
+      "section": "Reports",
+      "findings": [],
+      "review": "Screened; retained in interactive agenda without a new center-specific claim"
+    },
+    {
+      "date": "2024-12-17",
+      "item": "B.1",
+      "title": "Public Employee Performance Evaluation Pursuant to Government Code Section 54957. Title: City Manager",
+      "section": "Closed Session",
+      "findings": [],
+      "review": "Screened; retained in interactive agenda without a new center-specific claim"
+    },
+    {
+      "date": "2024-12-17",
+      "item": "B.2",
+      "title": "Conference with Legal Counsel – Anticipated Litigation – Potential Initiation of litigation pursuant to Government Code Section 54956.9(d)(4):",
+      "section": "Closed Session",
+      "findings": [],
+      "review": "Screened; retained in interactive agenda without a new center-specific claim"
+    },
+    {
+      "date": "2024-12-17",
+      "item": "E.1",
+      "title": "California Public Policy Group - Update on Past Legislative Session",
+      "section": "Presentation",
+      "findings": [],
+      "review": "Screened; retained in interactive agenda without a new center-specific claim"
+    },
+    {
+      "date": "2024-12-17",
+      "item": "G.1",
+      "title": "Ratification of Warrants",
+      "section": "Consent",
+      "findings": [],
+      "review": "Screened; retained in interactive agenda without a new center-specific claim"
+    },
+    {
+      "date": "2024-12-17",
+      "item": "G.2",
+      "title": "Approval of Minutes",
+      "section": "Consent",
+      "findings": [],
+      "review": "Screened; retained in interactive agenda without a new center-specific claim"
+    },
+    {
+      "date": "2024-12-17",
+      "item": "G.3",
+      "title": "Accept Public Improvements and Exonerate Maintenance Bond",
+      "section": "Consent",
+      "findings": [],
+      "review": "Screened; retained in interactive agenda without a new center-specific claim"
+    },
+    {
+      "date": "2024-12-17",
+      "item": "G.4",
+      "title": "FY 2024 Popular Annual Financial Report",
+      "section": "Consent",
+      "findings": [
+        "autumn-2024-fy2024-audit"
+      ],
+      "review": "Selected finding"
+    },
+    {
+      "date": "2024-12-17",
+      "item": "G.5",
+      "title": "Fiscal Year 2024 Annual Comprehensive Financial Report and Report of Internal Control Over Financial Reporting",
+      "section": "Consent",
+      "findings": [
+        "autumn-2024-fy2024-audit"
+      ],
+      "review": "Selected finding"
+    },
+    {
+      "date": "2024-12-17",
+      "item": "G.6",
+      "title": "FY 2025-2026 Budget Timeline",
+      "section": "Consent",
+      "findings": [
+        "autumn-2024-budget-timeline"
+      ],
+      "review": "Selected finding"
+    },
+    {
+      "date": "2024-12-17",
+      "item": "I.1",
+      "title": "Proposed Ordinance to Update Participation in the TUMF Program; Resolution Adopting A TUMF Schedule",
+      "section": "Public Hearing",
+      "findings": [
+        "autumn-2024-tumf-update"
+      ],
+      "review": "Selected finding"
+    },
+    {
+      "date": "2024-12-17",
+      "item": "I.2",
+      "title": "Consideration of PLAN2024-0130 for an Automobile for Hire Operation Permit for an ambulance service at 875 West Fourth Street located within the City of Beaumont",
+      "section": "Public Hearing",
+      "findings": [],
+      "review": "Screened; retained in interactive agenda without a new center-specific claim"
+    },
+    {
+      "date": "2024-12-17",
+      "item": "I.3",
+      "title": "Continuation of a Public Hearing of Request to Appeal Notice of Finding Under Development Agreement",
+      "section": "Public Hearing",
+      "findings": [],
+      "review": "Screened; retained in interactive agenda without a new center-specific claim"
+    },
+    {
+      "date": "2024-12-17",
+      "item": "J.1",
+      "title": "Appointments to City Commission, Committees and Board",
+      "section": "Action",
+      "findings": [],
+      "review": "Screened; retained in interactive agenda without a new center-specific claim"
+    },
+    {
+      "date": "2024-12-17",
+      "item": "J.2",
+      "title": "Relocation and Replacement of the Welcome to Beaumont Electronic Billboard Sign Located at 1691 East Sixth Street (APN: 419-180-025) in the Local Commercial (LC) Zone",
+      "section": "Action",
+      "findings": [
+        "autumn-2024-welcome-billboard"
+      ],
+      "review": "Selected finding"
+    },
+    {
+      "date": "2024-12-17",
+      "item": "J.3",
+      "title": "Award Professional Services Agreements with IMEG to Provide Facility Condition Assessments for 500 Grace Avenue and 105 Sixth Street – Capital Improvement Project CD-03",
+      "section": "Action",
+      "findings": [
+        "autumn-2024-downtown-assessments"
+      ],
+      "review": "Selected finding"
+    },
+    {
+      "date": "2024-12-17",
+      "item": "J.4",
+      "title": "Award a Professional Services Agreement to SKM Engineering LLC for SCADA Programming and System Integration Services for Wastewater Facilities",
+      "section": "Action",
+      "findings": [
+        "autumn-2024-wastewater-scada"
+      ],
+      "review": "Selected finding"
+    },
+    {
+      "date": "2024-12-17",
+      "item": "J.5",
+      "title": "Riverside County Superintendent of Schools Special Education Vocational Education Program",
+      "section": "Action",
+      "findings": [],
+      "review": "Screened; retained in interactive agenda without a new center-specific claim"
+    },
+    {
+      "date": "2024-12-17",
+      "item": "J.6",
+      "title": "Approval of Grant Agreement for the Second Street Extension",
+      "section": "Action",
+      "findings": [
+        "autumn-2024-second-street-grant"
+      ],
+      "review": "Selected finding"
+    },
+    {
+      "date": "2024-12-17",
+      "item": "J.7",
+      "title": "Right-of-way Acceptance for Veile Avenue",
+      "section": "Action",
+      "findings": [],
+      "review": "Screened; retained in interactive agenda without a new center-specific claim"
+    },
+    {
+      "date": "2024-12-17",
+      "item": "J.8",
+      "title": "Mayoral Appointments to Various Boards, Commissions and Committees",
+      "section": "Action",
+      "findings": [],
+      "review": "Screened; retained in interactive agenda without a new center-specific claim"
+    },
+    {
+      "date": "2024-12-17",
+      "item": "J.9",
+      "title": "Approval of City Attorney Invoices for the Month of November 2024",
+      "section": "Action",
+      "findings": [],
+      "review": "Screened; retained in interactive agenda without a new center-specific claim"
+    },
+    {
+      "date": "2024-12-17",
+      "item": "M.1",
+      "title": "Treasurer Reports - November 2024",
+      "section": "Reports",
+      "findings": [],
+      "review": "Screened; retained in interactive agenda without a new center-specific claim"
+    },
+    {
+      "date": "2024-12-17",
+      "item": "P.1",
+      "title": "2024-2025 Strategic Plan Update",
+      "section": "Reports",
+      "findings": [],
+      "review": "Screened; retained in interactive agenda without a new center-specific claim"
+    }
+  ]
+}

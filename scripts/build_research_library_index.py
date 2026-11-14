@@ -154,6 +154,15 @@ for finding in findings:
                     'type': 'Council evidence summary', 'videoUrl': finding['videoUrl'],
                     'body': finding['center'] + ' ' + finding['summary'] + ' ' + finding['limits']})
 
+autumn_review = ROOT / 'data/council/2024-autumn-center-review.json'
+if autumn_review.exists():
+    for finding in json.loads(autumn_review.read_text(encoding='utf-8'))['findings']:
+        records.append({'title': finding['title'],
+                        'url': '../autumn-2024-center-review.html#' + finding['id'],
+                        'date': finding['date'], 'item': ', '.join(finding['items']),
+                        'topic': topic_for(finding['title']), 'type': 'Council evidence summary',
+                        'body': finding['status'] + ' ' + finding['summary'] + ' ' + finding['limit']})
+
 center_actions = ROOT / 'data/center-recent-actions.json'
 if center_actions.exists():
     for action in json.loads(center_actions.read_text(encoding='utf-8'))['records']:
