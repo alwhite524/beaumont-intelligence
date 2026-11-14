@@ -23,7 +23,7 @@ def publish(page, content):
 def main():
     findings = json.loads((ROOT / 'data/council/recent-center-findings.json').read_text(encoding='utf-8'))['records']
     review = load_reviews()
-    centers = [('budget', 'budget.html'), ('police', 'police.html'), ('stewart-park', 'stewart-park.html'), ('downtown', 'downtown-revitalization.html'), ('animal-control', 'animal-control.html'), ('potrero-interchange', 'potrero-interchange.html'), ('pennsylvania-grade-separation', 'pennsylvania-grade-separation.html')]
+    centers = [('budget', 'budget-records.html'), ('police', 'police.html'), ('stewart-park', 'stewart-park.html'), ('downtown', 'downtown-revitalization.html'), ('animal-control', 'animal-control.html'), ('potrero-interchange', 'potrero-interchange.html'), ('pennsylvania-grade-separation', 'pennsylvania-grade-separation.html')]
     for center, page in centers:
         cards = []
         for r in sorted(findings, key=lambda r: (r['date'], r['item']), reverse=True):

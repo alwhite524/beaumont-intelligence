@@ -60,7 +60,7 @@ def main():
     update_notes()
     for name in ['animal-control.html', 'animal-control-sheltering.html', 'animal-control-contracts.html', 'animal-control-budget-staffing.html', 'animal-control-operations.html', 'animal-control-evidence.html']:
         update(name, 'shelter-transition', 'Interim sheltering and the planned City facility', ANIMAL)
-    for name in ['budget.html', 'budget-funding.html', 'budget-council-actions.html', 'budget-evidence.html', 'budget-questions.html']:
+    for name in ['budget-records.html', 'budget-funding.html', 'budget-council-actions.html', 'budget-evidence.html', 'budget-questions.html']:
         update(name, 'recent-authorizations', 'Recent spending and contract authorizations', BUDGET)
     path = DOCS / 'animal-control.html'
     text = path.read_text(encoding='utf-8')

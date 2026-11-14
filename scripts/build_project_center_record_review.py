@@ -102,7 +102,8 @@ def main():
    body+=f'<p><a class="text-link" href="{PAGE}#center-{center}">Explore this center across collected agendas and minutes →</a> · {n} matched entries and {m} minutes records. Matches can include procedural mentions and do not establish a project action.</p>'
   if not selected: body+='<p>No additional project-specific outcome from the four spring packets is asserted here. The source inventory links the wider record for follow-up.</p>'
   body+=f'<p><a href="{PAGE}">Review all new findings and nine-packet coverage →</a></p>'
-  publish(DOCS/page,section('Additional project records reviewed',body),near_top=overview)
+  target='budget-records.html' if page=='budget.html' else page
+  publish(DOCS/target,section('Additional project records reviewed',body),near_top=overview)
  # One central source route per center, including older agenda records and minutes.
  groups=''
  directory=intro+'<div class="feature-grid">'
@@ -132,7 +133,7 @@ def main():
    p=json.loads((ROOT/f'data/council/{day}-agenda.json').read_text(encoding='utf-8'))
    table+=f'<tr><td><a href="briefings/{day}-sources.html">{day}</a></td><td>{len(p["items"])}</td><td>{len(p["documents"])}</td><td>{"Previously reviewed" if batch is prior else "Newly reviewed"}</td></tr>'
  table+='</tbody></table>'
- header=(DOCS/'budget.html').read_text(encoding='utf-8')
+ header=(DOCS/'budget-records.html').read_text(encoding='utf-8')
  header=header[header.index('<header'):header.index('</header>')+len('</header>')]
  body='<section class="section compact"><div class="wrap"><div class="eyebrow">Project evidence · November 13, 2026</div><h1>Project centers: review across collected Council records</h1>'+intro+coverage+'<h2>All nine recently added packets</h2>'+table+'<p>The March 4 late-added sewer emergency is reviewed from the minutes as an additional item outside the published packet. Later comparisons include November 17 proposals and draft October 20 minutes; neither is treated as a future meeting outcome.</p><nav aria-label="Project centers">'+' · '.join(f'<a href="#center-{c}">{esc(label)}</a>' for c,(label,_) in CENTERS.items())+'</nav></div></section>'
  body+=groups+section('New findings and primary records',grid+''.join(card(r,packets) for r in rows)+'</div>','new-findings')

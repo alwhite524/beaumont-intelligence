@@ -11,7 +11,7 @@ DATA = ROOT / 'data/council/2024-autumn-center-review.json'
 KEY = 'autumn-2024-center-review'
 PAGE = 'autumn-2024-center-review.html'
 FEATURED = {
-    'budget.html': ['quarterly-budget', 'fy2024-audit', 'financial-policies', 'ia17d-bonds'],
+    'budget-records.html': ['quarterly-budget', 'fy2024-audit', 'financial-policies', 'ia17d-bonds'],
     'land-policy.html': ['dif-continuance', 'truck-viability', 'potrero-benefit', 'tumf-update'],
     'downtown-revitalization.html': ['business-incentives', 'facade-960', 'downtown-assessments', 'director-positions'],
 }
@@ -104,7 +104,7 @@ def main():
     replace(DOCS/'intelligence-centers.html', section('Newly reviewed 2024 Council records', directory))
     # Keep one full finding per stable anchor; area routes cross-reference it.
     groups += section('Findings and primary evidence', '<div class="story-grid archive-review-grid">' + ''.join(card(r, packets) for r in rows) + '</div>', 'findings')
-    template = (DOCS/'budget.html').read_text(encoding='utf-8')
+    template = (DOCS/'budget-records.html').read_text(encoding='utf-8')
     header = template[template.index('<header'):template.index('</header>')+len('</header>')]
     body = '<section class="section compact"><div class="wrap"><div class="eyebrow">Historical Council review</div><h1>October–December 2024: findings by service area</h1>' + intro + coverage + table + '<nav aria-label="Service areas">' + ' · '.join(f'<a href="#{a}">{esc(label)}</a>' for a,label in AREAS.items()) + '</nav></div></section>'
     html = '<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Dated findings from five 2024 Council agendas, with decisions, source records and evidence limits by service area."><title>October–December 2024 Council Findings | Beaumont Intelligence</title><link rel="stylesheet" href="styles.css"><link rel="icon" href="favicon.png"></head><body><a class="skip-link" href="#main">Skip to content</a>' + header + '<main id="main">' + body + groups + '</main><footer class="footer"><div class="wrap"><a href="intelligence-centers.html">Intelligence Centers</a> · <a href="council-intelligence.html#autumn-2024-agendas">All five interactive agendas</a></div></footer><script src="app.js"></script></body></html>\n'
