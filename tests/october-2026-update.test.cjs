@@ -10,10 +10,11 @@ test('next-meeting cards use the official November 17 date, not the canceled Nov
   const council = read('docs/council-intelligence.html');
   assert.match(home, /data-next-regular-date="2026-11-17"/);
   assert.match(home, /briefings\/2026-11-17\.html/);
-  assert.match(council, /Upcoming meeting · Agenda pending/);
-  const placeholder = read('docs/briefings/2026-11-17.html');
-  assert.match(placeholder, /closed-session time has not been confirmed/i);
-  assert.match(placeholder, /No November 17 agenda topics, proposed awards, or votes are represented as confirmed/);
+  assert.match(council, /Upcoming meeting · Agenda available/);
+  const november = read('docs/briefings/2026-11-17.html');
+  assert.match(november, /Closed session 5:00 PM/);
+  assert.match(november, /2026-11-17-sources\.html/);
+  assert.doesNotMatch(november, /This is a placeholder/);
   assert.equal(outcomes.nextMeeting.date, '2026-11-17');
 });
 

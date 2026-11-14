@@ -65,6 +65,11 @@ def build():
     page = page.replace('Proposed actions await Council decisions.', 'Meeting held October 20. <a href="2026-10-20.html#meeting-outcomes">Read transcript-based outcomes</a> · <a href="../transcripts/reader.html?date=2026-10-20">Search the meeting transcript</a>. The archived agenda and packet retain the original proposals.')
     path.write_text(page, encoding='utf-8')
 
+    if (ROOT / 'data/council/2026-11-17-packet-map.json').exists():
+        from build_2026_11_17_agenda import build as publish_november_agenda
+        publish_november_agenda()
+        return
+
     placeholder = ('<div class="eyebrow">Upcoming Council meeting · Agenda pending</div><h1>November 17, 2026 City Council meeting</h1>'
                    '<p class="lead-copy">This is a placeholder for the next regular meeting. A briefing and interactive agenda will be added after the City publishes the meeting materials.</p>'
                    '<span class="pill pending">Agenda and supporting documents not yet collected</span>'

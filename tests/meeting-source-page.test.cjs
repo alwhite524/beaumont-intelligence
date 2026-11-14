@@ -19,8 +19,11 @@ for (const date of ['2022-01-04', '2022-01-18', '2022-02-01', '2022-02-15', '202
   assert.ok(row, `${date} interactive agenda must appear`);
   assert.ok(row.includes('documents/viewer.html?url='), `${date} PDFs must use the viewer`);
   if (date !== '2022-01-04') {
-    assert.ok(row.includes(`transcripts/reader.html?date=${date}`));
+    assert.ok(!row.includes(`transcripts/reader.html?date=${date}`), 'Available sources keeps transcript-search links removed');
     assert.ok(row.includes('Full YouTube video'));
   }
 }
-console.log('Meeting page renders eleven agendas, ten transcripts, and viewer links with a current catalog version.');
+const november = rows.find(row => row.includes('briefings/2026-11-17-sources.html'));
+assert.ok(november, 'November 17 interactive agenda appears in meeting sources');
+assert.ok(november.includes('2026-11-17-city-council-agenda-package.pdf'), 'November 17 full packet is available');
+console.log('Meeting page renders historical agendas and November 17 with viewer links and a current catalog version.');

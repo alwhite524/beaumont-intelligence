@@ -1,8 +1,8 @@
 {
   "bucket": "beaumont-intelligence-documents",
   "public_base_url": "https://documents.beaumontintelligence.com",
-  "document_count": 3017,
-  "total_bytes": 19819555190,
+  "document_count": 3106,
+  "total_bytes": 20921599280,
   "documents": [
     {
       "path": "official-documents/2008-01-15/council-minutes.pdf",
@@ -17807,6 +17807,534 @@
       "sha256": "541af8563eeac68ada21db8d67e84a7fc2052f869b21f335feaa3790653835f6"
     },
     {
+      "path": "official-documents/2026-11-17/agenda.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-11-17/agenda.pdf",
+      "bytes": 106211,
+      "sha256": "d1fb1377d00875364cd1fed46975b4cbe495da92d2606d8c021656500b3f118d"
+    },
+    {
+      "path": "official-documents/2026-11-17/g-1-cc-minutes-10-20-2026.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-11-17/g-1-cc-minutes-10-20-2026.pdf",
+      "bytes": 237983,
+      "sha256": "c62877bf022c76725bb23b9f92073fb6efebdeac1912ff4776419a17c065aa9f"
+    },
+    {
+      "path": "official-documents/2026-11-17/g-10-attachment-a-axon-bwc.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-11-17/g-10-attachment-a-axon-bwc.pdf",
+      "bytes": 74476,
+      "sha256": "f6b444617e89dfb9f23aa6d5f83f3ae155a932ae74df2cab1cb26363d2dec096"
+    },
+    {
+      "path": "official-documents/2026-11-17/g-10-staff-report-approve-the-purchase-of-additional-body-worn-cameras-and-licenses.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-11-17/g-10-staff-report-approve-the-purchase-of-additional-body-worn-cameras-and-licenses.pdf",
+      "bytes": 98192,
+      "sha256": "81c0adcd1314e536a408cbe71fa6d677f4891b2d79d683e09754e4f45869a34f"
+    },
+    {
+      "path": "official-documents/2026-11-17/g-11-attachment-a-agreement.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-11-17/g-11-attachment-a-agreement.pdf",
+      "bytes": 92655,
+      "sha256": "e7045b98fd553e2c847683b390ddd14ac87b680323c7b679a3100496b8403daf"
+    },
+    {
+      "path": "official-documents/2026-11-17/g-11-attachment-b-resolution.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-11-17/g-11-attachment-b-resolution.pdf",
+      "bytes": 26568,
+      "sha256": "b1e40785d0e64c41572948a37c6a1406646518e558e16d51c9fd2bd9ffb25d3d"
+    },
+    {
+      "path": "official-documents/2026-11-17/g-11-staff-report-acceptance-and-authorization-of-the-office-of-traffic-safety-abc-grant.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-11-17/g-11-staff-report-acceptance-and-authorization-of-the-office-of-traffic-safety-abc-grant.pdf",
+      "bytes": 98938,
+      "sha256": "ba29d2c8e11d835d9f5b8d61cb738e3561593f40cb34066684630cbc171eab5e"
+    },
+    {
+      "path": "official-documents/2026-11-17/g-12-attachment-a-third-amendment-to-agreement.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-11-17/g-12-attachment-a-third-amendment-to-agreement.pdf",
+      "bytes": 763252,
+      "sha256": "1776e4eb350ee8aeb6040943a00bcb3236cc7b7eb942218b70d490703034a6ce"
+    },
+    {
+      "path": "official-documents/2026-11-17/g-12-staff-report-reinstatement-and-third-amendment-to-communications-site-lease-agreement-with-t-mobile-west-llc.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-11-17/g-12-staff-report-reinstatement-and-third-amendment-to-communications-site-lease-agreement-with-t-mobile-west-llc.pdf",
+      "bytes": 99743,
+      "sha256": "eb09439cdc09ffc31be831390bfac87577619f5ea60edf374483c2347bab0f75"
+    },
+    {
+      "path": "official-documents/2026-11-17/g-13-attachment-a-ord-public-works-advisory-committee-rlv.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-11-17/g-13-attachment-a-ord-public-works-advisory-committee-rlv.pdf",
+      "bytes": 251317,
+      "sha256": "72c70f838e618c5c7d506a54c0c176f5fccf7645fc7b5abf4aca29cab273fc2e"
+    },
+    {
+      "path": "official-documents/2026-11-17/g-13-attachment-b-chapter-2-33-parks-and-recreation-committee.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-11-17/g-13-attachment-b-chapter-2-33-parks-and-recreation-committee.pdf",
+      "bytes": 172141,
+      "sha256": "9402cb15652bc9cf184df84a424a7e9853514fc7e028a186a0d2a2df97eb86c7"
+    },
+    {
+      "path": "official-documents/2026-11-17/g-13-attachment-c-chapter-2-34-economic-development-committee-v2.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-11-17/g-13-attachment-c-chapter-2-34-economic-development-committee-v2.pdf",
+      "bytes": 171447,
+      "sha256": "39a47518439db23904a64bb4b48289af308acd2341133ddc24acd3e78e4501b3"
+    },
+    {
+      "path": "official-documents/2026-11-17/g-13-attachment-d-ord-amending-2-35-financial-and-audit-committee.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-11-17/g-13-attachment-d-ord-amending-2-35-financial-and-audit-committee.pdf",
+      "bytes": 169031,
+      "sha256": "6f4da39055a603105beed9aa6123df9b0cf48c5577b0d8c194d1d98772c1f349"
+    },
+    {
+      "path": "official-documents/2026-11-17/g-13-staff-report-second-reading-committee-ordinances.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-11-17/g-13-staff-report-second-reading-committee-ordinances.pdf",
+      "bytes": 101465,
+      "sha256": "70282ad9d65e117b28ab4d6ac007f1ea38d18c495b2bb0b0c75ffac0faf7b574"
+    },
+    {
+      "path": "official-documents/2026-11-17/g-14-attachment-a-ordinance.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-11-17/g-14-attachment-a-ordinance.pdf",
+      "bytes": 154422,
+      "sha256": "40565eb780f41b92ed529f819b70d8164522cef7639fb9c2fcb4b876fb37402e"
+    },
+    {
+      "path": "official-documents/2026-11-17/g-14-attachment-b-ordinance-language.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-11-17/g-14-attachment-b-ordinance-language.pdf",
+      "bytes": 269074,
+      "sha256": "572d6ee8117d879fbe267d48d94c43124b7b816ed60f82c3aaa2b3fb1468ba9b"
+    },
+    {
+      "path": "official-documents/2026-11-17/g-14-attachment-c-resolution.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-11-17/g-14-attachment-c-resolution.pdf",
+      "bytes": 101504,
+      "sha256": "8e26e2e6c981530453f2bfab952a25a37fd2e781dfbb7198361c1fe35616e230"
+    },
+    {
+      "path": "official-documents/2026-11-17/g-14-staff-report-second-reading-short-term-rental-ordinance.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-11-17/g-14-staff-report-second-reading-short-term-rental-ordinance.pdf",
+      "bytes": 98441,
+      "sha256": "aadbe0ec5bc706d895520e5b35842cc3628ed98aba6f2ce803bc5416f722a9fb"
+    },
+    {
+      "path": "official-documents/2026-11-17/g-15-attachment-a-pooled-cash-investment-holding-report-as-of-september-30-2026.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-11-17/g-15-attachment-a-pooled-cash-investment-holding-report-as-of-september-30-2026.pdf",
+      "bytes": 97465,
+      "sha256": "791407122c74791fca22d955842787dc6761ae7e93ef88dc0e7802c466faf6d8"
+    },
+    {
+      "path": "official-documents/2026-11-17/g-15-attachment-b-pooled-cash-report-as-of-september-30-2026.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-11-17/g-15-attachment-b-pooled-cash-report-as-of-september-30-2026.pdf",
+      "bytes": 322456,
+      "sha256": "8068c2bdcb27b1e886ac93c4124472a40257d4a91d77e2e8f4a4153879a659c6"
+    },
+    {
+      "path": "official-documents/2026-11-17/g-15-attachment-c-investment-certification-for-quarter-ending-september-30-2026.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-11-17/g-15-attachment-c-investment-certification-for-quarter-ending-september-30-2026.pdf",
+      "bytes": 41769,
+      "sha256": "ee631b8affe7be8305dc9a38c17d299a97e81b0056e50c56902dc856bf0569fc"
+    },
+    {
+      "path": "official-documents/2026-11-17/g-15-attachment-d-zions-bank-security-listings-september-30-2026.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-11-17/g-15-attachment-d-zions-bank-security-listings-september-30-2026.pdf",
+      "bytes": 163597,
+      "sha256": "71996fe9a76dbc2fba44c4ba6a85e99077e0ba99910f3026728ed858c0786ac2"
+    },
+    {
+      "path": "official-documents/2026-11-17/g-15-attachment-e-chandler-asset-management-investment-report-for-period-ending-september-30-2026.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-11-17/g-15-attachment-e-chandler-asset-management-investment-report-for-period-ending-september-30-2026.pdf",
+      "bytes": 573945,
+      "sha256": "16d4a4e18718117567f506f98b11856acf5faf4a9bd2ba537bc62034abd811a6"
+    },
+    {
+      "path": "official-documents/2026-11-17/g-15-attachment-f-pars-statement-for-september-30-2026.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-11-17/g-15-attachment-f-pars-statement-for-september-30-2026.pdf",
+      "bytes": 56626,
+      "sha256": "85bdf1e48f82f00e0ccaa3680ca02d98fd3594377e04dfec7a6f6e3e89c68081"
+    },
+    {
+      "path": "official-documents/2026-11-17/g-15-staff-report-1st-qtr-fy27-investment-report.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-11-17/g-15-staff-report-1st-qtr-fy27-investment-report.pdf",
+      "bytes": 291413,
+      "sha256": "4fdb3f9c1d9d8a2334a908ad685634e3a680c73ae5840bb669ff12c0a74df697"
+    },
+    {
+      "path": "official-documents/2026-11-17/g-16-attachment-a-budget-adjustment-1st-qtr.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-11-17/g-16-attachment-a-budget-adjustment-1st-qtr.pdf",
+      "bytes": 62167,
+      "sha256": "717c4021fb017809f0702320f16e5c8554c44be2fb2c5fdfe3956874d6510a0e"
+    },
+    {
+      "path": "official-documents/2026-11-17/g-16-staff-report-1st-quarter-fy27-budget-vs-actuals.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-11-17/g-16-staff-report-1st-quarter-fy27-budget-vs-actuals.pdf",
+      "bytes": 271468,
+      "sha256": "4f66710585c55b0d42de865df94a648067664281ef885b072bfc74aab86de380"
+    },
+    {
+      "path": "official-documents/2026-11-17/g-17-attachment-a-fy27-financial-reports-receipts-disbursements-and-balances-governmental-funds-october.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-11-17/g-17-attachment-a-fy27-financial-reports-receipts-disbursements-and-balances-governmental-funds-october.pdf",
+      "bytes": 85534,
+      "sha256": "0f12a2765e755c73cf65cc36819bc1155455cf5f128b45b0eb7cc4aa4d99db07"
+    },
+    {
+      "path": "official-documents/2026-11-17/g-17-attachment-b-fy27-treasurers-reports-receipts-disbursements-and-balances-fiduciary-funds-october.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-11-17/g-17-attachment-b-fy27-treasurers-reports-receipts-disbursements-and-balances-fiduciary-funds-october.pdf",
+      "bytes": 76197,
+      "sha256": "9620ba8d7a917554c77d41b98e8ddafb8712159d75b64ba3d9d2d1ecc4444461"
+    },
+    {
+      "path": "official-documents/2026-11-17/g-17-attachment-c-fy27-treasurers-reports-receipts-disbursements-and-balances-prop-funds-october.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-11-17/g-17-attachment-c-fy27-treasurers-reports-receipts-disbursements-and-balances-prop-funds-october.pdf",
+      "bytes": 80422,
+      "sha256": "94a465834a83b52989bf54e6a5ec9c189f8bb5f98fa432166a21967e55ee9d7a"
+    },
+    {
+      "path": "official-documents/2026-11-17/g-17-staff-report-october-finance-reports.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-11-17/g-17-staff-report-october-finance-reports.pdf",
+      "bytes": 90814,
+      "sha256": "892e9223de2e517ce92c860a51233e524b6ac510c10588c713d94ff074e5076e"
+    },
+    {
+      "path": "official-documents/2026-11-17/g-18-attachment-a-424010007-resolution-sla.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-11-17/g-18-attachment-a-424010007-resolution-sla.pdf",
+      "bytes": 104222,
+      "sha256": "1d77eed54f98fb9dcebcd08383c0baf9d78031dbf81037f00c527ad6a8cfa4d2"
+    },
+    {
+      "path": "official-documents/2026-11-17/g-18-attachment-b-424010007-notice-of-availability-cover-letter.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-11-17/g-18-attachment-b-424010007-notice-of-availability-cover-letter.pdf",
+      "bytes": 187772,
+      "sha256": "7a607dc0e5940867e1fa38ac1a8f45eb3274f7ab077385f8d748afcb501c639e"
+    },
+    {
+      "path": "official-documents/2026-11-17/g-18-staff-report-declaration-of-surplus-land-424010007.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-11-17/g-18-staff-report-declaration-of-surplus-land-424010007.pdf",
+      "bytes": 277787,
+      "sha256": "44aa3265a957523f68308971bdca527636ebe71daed9c7842af08e388e615626"
+    },
+    {
+      "path": "official-documents/2026-11-17/g-19-attachment-a-bws-2026-2029-legal-services-agreement.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-11-17/g-19-attachment-a-bws-2026-2029-legal-services-agreement.pdf",
+      "bytes": 442708,
+      "sha256": "e7348d5a4cf2d0aa5967e6d56f914c93a95408a2c611dd5437aa88c53c5f4924"
+    },
+    {
+      "path": "official-documents/2026-11-17/g-19-attachment-b-lcw-city-of-beaumont-agreement-2026-29.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-11-17/g-19-attachment-b-lcw-city-of-beaumont-agreement-2026-29.pdf",
+      "bytes": 51164,
+      "sha256": "aad34e6b1a57c01f6ac447570a2debd6b3f4fcd37547cbe3a764c7b753d423b2"
+    },
+    {
+      "path": "official-documents/2026-11-17/g-19-staff-report-contract-extension-for-special-counsel-services.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-11-17/g-19-staff-report-contract-extension-for-special-counsel-services.pdf",
+      "bytes": 96963,
+      "sha256": "af3e42fc10f0df3d6f594556f5e1c872f63c6fa003de0ef3cdd7dcd6b6af5253"
+    },
+    {
+      "path": "official-documents/2026-11-17/g-2-sbemp-october-2026.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-11-17/g-2-sbemp-october-2026.pdf",
+      "bytes": 297460,
+      "sha256": "aa3cf127bd8a50767ab0e9109cdb92cdcddedaff34bcc8628794f9e0ea92acb4"
+    },
+    {
+      "path": "official-documents/2026-11-17/g-3-attachment-a-beaumont-investment-policy-chandler-redline-07-16-2026.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-11-17/g-3-attachment-a-beaumont-investment-policy-chandler-redline-07-16-2026.pdf",
+      "bytes": 510998,
+      "sha256": "eb021697e04df4f0a2476020862190b0fe6c19e4e7684e4031e7a4b4940eefde"
+    },
+    {
+      "path": "official-documents/2026-11-17/g-3-staff-report-investment-policy-update.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-11-17/g-3-staff-report-investment-policy-update.pdf",
+      "bytes": 101021,
+      "sha256": "d666be36c97af505b1eef42f57ce0f518fba906f43a9d7d7471a5b56ad84128e"
+    },
+    {
+      "path": "official-documents/2026-11-17/g-4-attachment-a-pw2021-0640-starlight-ave-bond-x-package.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-11-17/g-4-attachment-a-pw2021-0640-starlight-ave-bond-x-package.pdf",
+      "bytes": 14082008,
+      "sha256": "0babe2827ad6dccc48584525d9d66edbf80e8fca273320f512c3d959888bca41"
+    },
+    {
+      "path": "official-documents/2026-11-17/g-4-attachment-b-pw2023-0998-tr-31469-7-bond-x-package.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-11-17/g-4-attachment-b-pw2023-0998-tr-31469-7-bond-x-package.pdf",
+      "bytes": 14363058,
+      "sha256": "571104e2d05a73508f9d75c4dc1fa8808f2f6dc3c3b8ac9fea1eed733d9954c6"
+    },
+    {
+      "path": "official-documents/2026-11-17/g-4-attachment-c-pw2023-1002-tr-31469-9-bond-x-package.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-11-17/g-4-attachment-c-pw2023-1002-tr-31469-9-bond-x-package.pdf",
+      "bytes": 11533923,
+      "sha256": "bba10484f6e8040a562f7cb24818237aa3d0daa4b7fe7445beb1fb04266b47cc"
+    },
+    {
+      "path": "official-documents/2026-11-17/g-4-attachment-d-notice-of-completion-1.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-11-17/g-4-attachment-d-notice-of-completion-1.pdf",
+      "bytes": 99470,
+      "sha256": "f93ab3fac080eb5e6b5ab8e6b93715e9a9e77e08c60fbf5822a893b91ebca23d"
+    },
+    {
+      "path": "official-documents/2026-11-17/g-4-staff-report-bond-exonerations-performance-sundance-streets.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-11-17/g-4-staff-report-bond-exonerations-performance-sundance-streets.pdf",
+      "bytes": 619040,
+      "sha256": "ed1425f75add2f3ba1f6e091bdd4ad959d768387c85b755dde86bb7c286aa7fe"
+    },
+    {
+      "path": "official-documents/2026-11-17/g-5-attachment-a-pw2026-0104-tr-37697-bond-x-package.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-11-17/g-5-attachment-a-pw2026-0104-tr-37697-bond-x-package.pdf",
+      "bytes": 11497941,
+      "sha256": "45537b684326941a8514fd355b56cccf01ff82e304eee5d7b9ee5a308b38a39e"
+    },
+    {
+      "path": "official-documents/2026-11-17/g-5-attachment-b-pw2026-0108-tr-37698-bond-x-package.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-11-17/g-5-attachment-b-pw2026-0108-tr-37698-bond-x-package.pdf",
+      "bytes": 12120494,
+      "sha256": "5885ccbc0780468da6770e5f087bb3db7d01d9d9dc9232ca985be3bba1c1fe8a"
+    },
+    {
+      "path": "official-documents/2026-11-17/g-5-attachment-c-pw2026-0115-tr-36783-bond-x-package.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-11-17/g-5-attachment-c-pw2026-0115-tr-36783-bond-x-package.pdf",
+      "bytes": 5823987,
+      "sha256": "9ade9078aadb41b21b3ddb79d6a7331a91806379584f0dab2e941267cbe349b8"
+    },
+    {
+      "path": "official-documents/2026-11-17/g-5-attachment-d-notice-of-completion.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-11-17/g-5-attachment-d-notice-of-completion.pdf",
+      "bytes": 99409,
+      "sha256": "0c10e3181bee14796b33be750e8ae04401df6ff4cc2c87522acc4b873856cf79"
+    },
+    {
+      "path": "official-documents/2026-11-17/g-5-staff-report-bond-exonerations-performance-big-canyon-ridge-view-and-pinehurst.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-11-17/g-5-staff-report-bond-exonerations-performance-big-canyon-ridge-view-and-pinehurst.pdf",
+      "bytes": 389898,
+      "sha256": "39afedf28c559c1fa80045f91e0763ea679b79af30e1ae442028425458699a0d"
+    },
+    {
+      "path": "official-documents/2026-11-17/g-6-attachment-a-pw2026-0079-tr-31462-bond-x-package.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-11-17/g-6-attachment-a-pw2026-0079-tr-31462-bond-x-package.pdf",
+      "bytes": 36575265,
+      "sha256": "1df0c667f689035fc221a93f8f716a8b5b5f4a32f60f7eea8687b4c2499057bd"
+    },
+    {
+      "path": "official-documents/2026-11-17/g-6-attachment-b-notice-of-completion-1.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-11-17/g-6-attachment-b-notice-of-completion-1.pdf",
+      "bytes": 99134,
+      "sha256": "48b53fffb6d54db6e0aae698e6d96c97e079df02a299c12d58103751aec1b072"
+    },
+    {
+      "path": "official-documents/2026-11-17/g-6-staff-report-bond-exonerations-performance-fairway-canyon-middle-oak-lift-station.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-11-17/g-6-staff-report-bond-exonerations-performance-fairway-canyon-middle-oak-lift-station.pdf",
+      "bytes": 274744,
+      "sha256": "3096467ab1d6f4923bda34cbd08c84430b52dd90b87d62443fc6f0e40e0d0a20"
+    },
+    {
+      "path": "official-documents/2026-11-17/g-7-attachment-a-pw2021-0760-tr-27971-bond-x-package.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-11-17/g-7-attachment-a-pw2021-0760-tr-27971-bond-x-package.pdf",
+      "bytes": 16729033,
+      "sha256": "1d542ea8ce8fde255ded8ec276039b919c0d9fd0a87c35fd790985ff114d431e"
+    },
+    {
+      "path": "official-documents/2026-11-17/g-7-attachment-b-notice-of-completion.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-11-17/g-7-attachment-b-notice-of-completion.pdf",
+      "bytes": 99257,
+      "sha256": "25ea077e396b3f8faa38647401a72075af1849d47e9af600eecfe24a8492136f"
+    },
+    {
+      "path": "official-documents/2026-11-17/g-7-staff-report-bond-exonerations-performance-olivewood-streets.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-11-17/g-7-staff-report-bond-exonerations-performance-olivewood-streets.pdf",
+      "bytes": 396582,
+      "sha256": "40da929ff3ca2196ffa4543ed63e4c11cb70ac3430f08983d254637eb3d4be29"
+    },
+    {
+      "path": "official-documents/2026-11-17/g-8-attachment-a-pw2026-0114-tr-27971-bond-x-package.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-11-17/g-8-attachment-a-pw2026-0114-tr-27971-bond-x-package.pdf",
+      "bytes": 12607749,
+      "sha256": "2610321720f79ba421cc40fddd30402db72420215063ff3fe742387fab8a6231"
+    },
+    {
+      "path": "official-documents/2026-11-17/g-8-attachment-b-pw2026-0073-tr-27971-7-bond-x-package.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-11-17/g-8-attachment-b-pw2026-0073-tr-27971-7-bond-x-package.pdf",
+      "bytes": 15698042,
+      "sha256": "3a14d6feeb5747dfbe9034ffd45819861bda9007f10d7e77f556450750da4c7d"
+    },
+    {
+      "path": "official-documents/2026-11-17/g-8-attachment-c-notice-of-completion.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-11-17/g-8-attachment-c-notice-of-completion.pdf",
+      "bytes": 99490,
+      "sha256": "dd3782dcf3d4cce89ec2a06cf48006ba1702d893f520c2b293e5d67e5721567e"
+    },
+    {
+      "path": "official-documents/2026-11-17/g-8-staff-report-bond-exonerations-maintenance-olivewood-sewer-and-streets.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-11-17/g-8-staff-report-bond-exonerations-maintenance-olivewood-sewer-and-streets.pdf",
+      "bytes": 393446,
+      "sha256": "6099247fd121ab6903eff42e3138753ce63dc900e9b1ad56903d9f240aadd52a"
+    },
+    {
+      "path": "official-documents/2026-11-17/g-9-attachment-a-c26-178-cdce-incorporated-agreement.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-11-17/g-9-attachment-a-c26-178-cdce-incorporated-agreement.pdf",
+      "bytes": 1371190,
+      "sha256": "a7cbda92ecaf9a6d8020cbf5fbe609346355831c6cbf369fd0f4738cb5472bc9"
+    },
+    {
+      "path": "official-documents/2026-11-17/g-9-staff-report-police-vehicles-network-device-upgrade.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-11-17/g-9-staff-report-police-vehicles-network-device-upgrade.pdf",
+      "bytes": 99393,
+      "sha256": "e22f13cd5328af080ec5fc7abc564a6d7e491bf4e74c4b7a24657f01fcdee716"
+    },
+    {
+      "path": "official-documents/2026-11-17/j-1-attachment-a-resolution-proclaiming-local-emergency.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-11-17/j-1-attachment-a-resolution-proclaiming-local-emergency.pdf",
+      "bytes": 184486,
+      "sha256": "f679f663a2422b31ee39018af25399e44f6c8d3f6008e24628e99a7192b500b3"
+    },
+    {
+      "path": "official-documents/2026-11-17/j-1-staff-report-proclaim-the-existence-of-a-local-emergency.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-11-17/j-1-staff-report-proclaim-the-existence-of-a-local-emergency.pdf",
+      "bytes": 97827,
+      "sha256": "0df07b5c2d9b755c37786f27cb4ba404a596f95f5034624bd8b6e90642a71a54"
+    },
+    {
+      "path": "official-documents/2026-11-17/j-2-attachment-a-rfp-and-addendum-sewer-vac-021726.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-11-17/j-2-attachment-a-rfp-and-addendum-sewer-vac-021726.pdf",
+      "bytes": 319918,
+      "sha256": "bb8cba21890638b2ab26e4bfb228128d1dc4a9c757ae1d9b3697772e01b6a60e"
+    },
+    {
+      "path": "official-documents/2026-11-17/j-2-attachment-b-vactor-contract-021726.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-11-17/j-2-attachment-b-vactor-contract-021726.pdf",
+      "bytes": 502482,
+      "sha256": "6cfbcd179eb4fe0d1b6c01e703d052ad719f1ed50d74f00e7d2f6325635771d1"
+    },
+    {
+      "path": "official-documents/2026-11-17/j-2-attachment-c-beaumont-city-of-sw-diesel-2115-18-fl114sd-10-15-26-quote-1.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-11-17/j-2-attachment-c-beaumont-city-of-sw-diesel-2115-18-fl114sd-10-15-26-quote-1.pdf",
+      "bytes": 141175,
+      "sha256": "9526a833ebe2316854bbd089c5a208a84a04b0fe8c7df03eede88a18f5f79894"
+    },
+    {
+      "path": "official-documents/2026-11-17/j-2-attachment-d-city-of-beaumont-mc1510-10-5-26.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-11-17/j-2-attachment-d-city-of-beaumont-mc1510-10-5-26.pdf",
+      "bytes": 1227472,
+      "sha256": "0d9bf83a8527ce76d63bc6b0f500e4b04d3ce6b9bc87be389d67afb77c067e98"
+    },
+    {
+      "path": "official-documents/2026-11-17/j-2-staff-report-vacuum-truck-purchase.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-11-17/j-2-staff-report-vacuum-truck-purchase.pdf",
+      "bytes": 104719,
+      "sha256": "a5eb18d7bad03b81999e24176b5e4604b861d41136dec2d834dabd77a0b128f8"
+    },
+    {
+      "path": "official-documents/2026-11-17/j-3-attachment-a-01-ifb.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-11-17/j-3-attachment-a-01-ifb.pdf",
+      "bytes": 663536,
+      "sha256": "97f04e82e08eab18c4a30bc8d3f110ff034320737cabfa66adf024d56bb995df"
+    },
+    {
+      "path": "official-documents/2026-11-17/j-3-attachment-b-02-general-conditions.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-11-17/j-3-attachment-b-02-general-conditions.pdf",
+      "bytes": 656294,
+      "sha256": "7f0bf01d45d9a6096785e6bd91bdbd67666b676dc5a059e218898685eead75a9"
+    },
+    {
+      "path": "official-documents/2026-11-17/j-3-attachment-c-03-special-federal-requirements.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-11-17/j-3-attachment-c-03-special-federal-requirements.pdf",
+      "bytes": 276562,
+      "sha256": "82e35890f7b2ede1f26ea07df6f29ed8030623f112a926a4115c9662bd6b431d"
+    },
+    {
+      "path": "official-documents/2026-11-17/j-3-attachment-d-04-special-conditions.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-11-17/j-3-attachment-d-04-special-conditions.pdf",
+      "bytes": 278905,
+      "sha256": "379bba8cda19660200fd72a7d2e73a223e5c8f75c077a796a33412c7ba9de4f7"
+    },
+    {
+      "path": "official-documents/2026-11-17/j-3-attachment-e-05-technical-spec.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-11-17/j-3-attachment-e-05-technical-spec.pdf",
+      "bytes": 6745707,
+      "sha256": "9c0af03e7adebfff88d8fb6df081894a8139796c2c40414596971a6987484a22"
+    },
+    {
+      "path": "official-documents/2026-11-17/j-3-attachment-f-06-contract-drawings.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-11-17/j-3-attachment-f-06-contract-drawings.pdf",
+      "bytes": 131732,
+      "sha256": "dbce16d9d79393ad4591d6f12223bf66b7de780d61d2763f7fa9c0c88cc26a20"
+    },
+    {
+      "path": "official-documents/2026-11-17/j-3-attachment-g-07-public-works-agreement.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-11-17/j-3-attachment-g-07-public-works-agreement.pdf",
+      "bytes": 301624,
+      "sha256": "1ed073a9f881fc20bb360bdf6d14edd28e6c92a4e074bbd49b2458758fc30df4"
+    },
+    {
+      "path": "official-documents/2026-11-17/j-3-attachment-h-08-appendices.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-11-17/j-3-attachment-h-08-appendices.pdf",
+      "bytes": 233629,
+      "sha256": "191078e2c3763310313db142ae3ec4d2f2d5d14847d9aa0a6d2f6b5c621e47a7"
+    },
+    {
+      "path": "official-documents/2026-11-17/j-3-attachment-i-09-bid-plans.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-11-17/j-3-attachment-i-09-bid-plans.pdf",
+      "bytes": 117887554,
+      "sha256": "d03c0285747b4fb0aba1dac93d5acb7aea2e64cb0577616ceb66086c6c80b403"
+    },
+    {
+      "path": "official-documents/2026-11-17/j-3-attachment-j-phase-1-plans.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-11-17/j-3-attachment-j-phase-1-plans.pdf",
+      "bytes": 190680073,
+      "sha256": "cd576b84e7c924ea6f1b5855281ea141a4b7459f0021e4cb186715dd8d32d057"
+    },
+    {
+      "path": "official-documents/2026-11-17/j-3-attachment-k-geotechnical-report.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-11-17/j-3-attachment-k-geotechnical-report.pdf",
+      "bytes": 7263226,
+      "sha256": "b203bfe253ed3adf0990a46a924ffe07d66bf5fbfec3af8361fee414de0007f3"
+    },
+    {
+      "path": "official-documents/2026-11-17/j-3-attachment-l-hydrology-report.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-11-17/j-3-attachment-l-hydrology-report.pdf",
+      "bytes": 52135990,
+      "sha256": "a3984a872add2088fc9e04dda56e7e3fea9fb127d4f6e4e74d4b73104fbdfcd5"
+    },
+    {
+      "path": "official-documents/2026-11-17/j-3-attachment-m-wqmp.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-11-17/j-3-attachment-m-wqmp.pdf",
+      "bytes": 20342558,
+      "sha256": "053329a2c3dd70ba7fe3d42a7bad65527637a4ec3513ebc378046df4631666e1"
+    },
+    {
+      "path": "official-documents/2026-11-17/j-3-attachment-n-construction-environmental-commitment.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-11-17/j-3-attachment-n-construction-environmental-commitment.pdf",
+      "bytes": 171031,
+      "sha256": "a5f1d08f9fa84c93826e858e357a6565f1e373ceb87468b6e5efc2c485f7ce0e"
+    },
+    {
+      "path": "official-documents/2026-11-17/j-3-attachment-o-sams-verification.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-11-17/j-3-attachment-o-sams-verification.pdf",
+      "bytes": 99259,
+      "sha256": "e63f2a78a23939251e4796826b8c274842ec8d0d56a5ac6d93cc12a62dd17e28"
+    },
+    {
+      "path": "official-documents/2026-11-17/j-3-attachment-p-lobbying-standard-form.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-11-17/j-3-attachment-p-lobbying-standard-form.pdf",
+      "bytes": 37866,
+      "sha256": "0bbc7a1ebf2f3a6d227535713beb609a6f124425fc98ff53e9ce186ce875e378"
+    },
+    {
+      "path": "official-documents/2026-11-17/j-3-attachment-q-economic-sanctions-form.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-11-17/j-3-attachment-q-economic-sanctions-form.pdf",
+      "bytes": 187806,
+      "sha256": "6f0e9751ef3c4bad1e4037caace868c35746b80271ab25a4dc0612d922d2c9ce"
+    },
+    {
+      "path": "official-documents/2026-11-17/j-3-attachment-r-project-sign-sample.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-11-17/j-3-attachment-r-project-sign-sample.pdf",
+      "bytes": 270582,
+      "sha256": "dba82540741f4ec1513c2b01d70c3a6bad3ae6d94e4a09cd4049287bd8825ee2"
+    },
+    {
+      "path": "official-documents/2026-11-17/j-3-staff-report-stewart-park-phase-2-plans-and-specifications.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-11-17/j-3-staff-report-stewart-park-phase-2-plans-and-specifications.pdf",
+      "bytes": 407067,
+      "sha256": "ba8d99c1a730d35bb0ee02e3ce2391569f4c44aa7a3566c88b239791225e0227"
+    },
+    {
       "path": "official-documents/stewart-park/2024-06-18-act-1-construction-award-staff-report.pdf",
       "url": "https://documents.beaumontintelligence.com/official-documents/stewart-park/2024-06-18-act-1-construction-award-staff-report.pdf",
       "bytes": 266703,
@@ -18105,6 +18633,12 @@
       "url": "https://documents.beaumontintelligence.com/records/agenda-packets/2026-10-20/2026-10-20-city-council-agenda-package.pdf",
       "bytes": 139180858,
       "sha256": "9d6e267acffe421b1d18a4e1095dad95bf1c05a64978eedc44db41a4f313bf8f"
+    },
+    {
+      "path": "records/agenda-packets/2026-11-17/2026-11-17-city-council-agenda-package.pdf",
+      "url": "https://documents.beaumontintelligence.com/records/agenda-packets/2026-11-17/2026-11-17-city-council-agenda-package.pdf",
+      "bytes": 538251629,
+      "sha256": "84ff33565a9c15d238a616c7d081d4a1e5b326579991585d90eac2448f0ddfdd"
     }
   ]
 }
