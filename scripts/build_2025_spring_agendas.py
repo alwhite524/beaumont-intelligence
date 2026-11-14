@@ -1,4 +1,4 @@
-"""Publish four source-audited spring packets without overwriting reviewed outcomes."""
+"""Build source-audited packet agendas without overwriting reviewed outcomes."""
 import ast
 import hashlib
 import json
@@ -11,8 +11,6 @@ from urllib.parse import urlencode
 ROOT=Path(__file__).resolve().parents[1]
 DATES=['2025-03-04','2025-03-18','2025-04-01','2025-04-15']
 SECTIONS=['Public Hearing','Action','Consent','Presentation','Reports','Closed Session']
-START='<!-- spring-2025-agendas:start -->'
-END='<!-- spring-2025-agendas:end -->'
 
 def label_for(date):
     d=Date.fromisoformat(date)
@@ -40,7 +38,7 @@ def merged_items(packet,review):
 def viewer(url,title):
     return '../documents/viewer.html?'+escape(urlencode(dict(url=url,title=title)),quote=True)
 
-def build_page(date):
+def build_page(date, source_namespace='BI_SPRING'):
     packet=load_packet(date);review=load_review(date);items=merged_items(packet,review)
     label=label_for(date)
     manifest=json.loads((ROOT/'data/document-storage-manifest.json').read_text(encoding='utf-8'))
@@ -113,17 +111,20 @@ def build_page(date):
     page=page.replace('src="video-agendas.js"',f'src="video-agendas.js?v={version}"')
     page=page.replace('</head>','<style>.packet-document{display:grid;grid-template-columns:1fr auto;gap:15px;align-items:center;padding:14px 0;border-bottom:1px solid var(--line)}.packet-document p{margin:6px 0}.packet-document strong{overflow-wrap:anywhere}@media(max-width:650px){.packet-document{grid-template-columns:1fr}}</style></head>')
     (ROOT/f'docs/briefings/{date}-sources.html').write_text(page,encoding='utf-8')
-    name='BI_SPRING_'+date.replace('-','_')+'_SOURCES'
+    name=source_namespace+'_'+date.replace('-','_')+'_SOURCES'
     (ROOT/f'docs/briefings/{date}-sources.js').write_text('window.'+name+'='+json.dumps(packet['documents'],ensure_ascii=False)+';\n',encoding='utf-8')
     print(date,len(items),'entries;',len(packet['documents']),'supporting documents; archive verified:',packet['audit']['archiveComplete'])
     return packet,items
 
-def build():
-    packets=[build_page(date) for date in DATES]
+def build(dates=None, heading='March and April 2025 interactive agendas', section_id='spring-2025-agendas', source_namespace='BI_SPRING'):
+    dates=DATES if dates is None else dates
+    start=f'<!-- {section_id}:start -->'
+    end=f'<!-- {section_id}:end -->'
+    packets=[build_page(date,source_namespace) for date in dates]
     cards=''.join(f'<article class="card"><h3>{label_for(p["date"])}</h3><p>{p["packetPages"]:,}-page packet · {len(p["documents"])} supporting documents. Published recommendations and any reviewed minutes outcomes are shown separately.</p><a class="btn" href="briefings/{p["date"]}-sources.html">Open interactive agenda</a></article>' for p,_ in packets)
-    block=START+'<section class="section compact" id="spring-2025-agendas"><div class="wrap"><h2>March and April 2025 interactive agendas</h2><p>City HTML attachment inventories matched to the supplied packets, with staff reports, attachments and original-source links.</p><div class="story-grid">'+cards+'</div></div></section>'+END
+    block=start+f'<section class="section compact" id="{escape(section_id,quote=True)}"><div class="wrap"><h2>{escape(heading)}</h2><p>City HTML attachment inventories matched to the supplied packets, with staff reports, attachments and original-source links.</p><div class="story-grid">'+cards+'</div></div></section>'+end
     path=ROOT/'docs/council-intelligence.html';page=path.read_text(encoding='utf-8')
-    page=re.sub(re.escape(START)+'.*?'+re.escape(END),'',page,flags=re.S)
+    page=re.sub(re.escape(start)+'.*?'+re.escape(end),'',page,flags=re.S)
     anchor='<!-- video-agenda-records:start -->' if '<!-- video-agenda-records:start -->' in page else '<section class="section compact" id="past-briefings">'
     page=page.replace(anchor,block+anchor,1);path.write_text(page,encoding='utf-8')
     path=ROOT/'docs/search-index.js';prefix='window.BI_SEARCH_INDEX = '

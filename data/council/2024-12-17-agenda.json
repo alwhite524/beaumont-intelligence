@@ -1,0 +1,988 @@
+{
+  "date": "2024-12-17",
+  "sourceFilename": "Agenda Package - City Council Closed and Regular Session_Dec17_2024.pdf",
+  "packetPages": 1277,
+  "agendaPageCount": 7,
+  "packetArchiveUrl": "https://documents.beaumontintelligence.com/records/agenda-packets/2024-12-17/2024-12-17-city-council-agenda-package.pdf",
+  "agendaUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-17/agenda.pdf",
+  "officialAgendaUrl": "https://pub-beaumont.escribemeetings.com/Meeting.aspx?Id=c91ce289-b131-4485-a14d-5791b82a74b5&Agenda=Agenda&lang=English",
+  "meetingStatus": "held",
+  "audit": {
+    "checkedOn": "2026-11-13",
+    "expectedDocuments": 73,
+    "linkedDocuments": 73,
+    "officialHtmlAuditComplete": true,
+    "archiveComplete": true,
+    "officialHtmlSha256": "80b174b66c7a3ef682da170bce34f558479124a1c68246a38fbfb2630094946a",
+    "basis": "Every official HTML attachment matched by agenda item and normalized filename to a unique supplied packet bookmark. Original City URLs and contiguous packet page ranges retained. Outcomes are not inferred from agenda recommendations."
+  },
+  "items": [
+    {
+      "item": "B.1",
+      "title": "Public Employee Performance Evaluation Pursuant to Government Code Section 54957. Title: City Manager",
+      "section": "Closed Session",
+      "description": "",
+      "recommendation": ""
+    },
+    {
+      "item": "B.2",
+      "title": "Conference with Legal Counsel – Anticipated Litigation – Potential Initiation of litigation pursuant to Government Code Section 54956.9(d)(4):",
+      "section": "Closed Session",
+      "description": "Two Potential Cases.",
+      "recommendation": ""
+    },
+    {
+      "item": "E.1",
+      "title": "California Public Policy Group - Update on Past Legislative Session",
+      "section": "Presentation",
+      "description": "",
+      "recommendation": ""
+    },
+    {
+      "item": "G.1",
+      "title": "Ratification of Warrants",
+      "section": "Consent",
+      "description": "",
+      "recommendation": "Ratify Warrants dated: November 29, 2024 December 6, 2024"
+    },
+    {
+      "item": "G.2",
+      "title": "Approval of Minutes",
+      "section": "Consent",
+      "description": "",
+      "recommendation": "Approve Minutes dated December 3, 2024."
+    },
+    {
+      "item": "G.3",
+      "title": "Accept Public Improvements and Exonerate Maintenance Bond",
+      "section": "Consent",
+      "description": "Maintenance bond exoneration for street improvements associated with Cherry Ave from Oak Valley Parkway to Cougar Way (Sundance) and Traffic Signal improvements associated with Parcel Map No. 36426.",
+      "recommendation": "Accept the public improvements, authorize the Mayor to sign the Certificate of Acceptance, and authorize staff to issue a bond exoneration letter for maintenance bonds for (Project / Bond Number / Improvement): Cherry Ave from Oak Valley to Cougar Way (Sundance) / 929598708-M / Street Parcel Map No. 36426 / 107736393 / Traffic Signal"
+    },
+    {
+      "item": "G.4",
+      "title": "FY 2024 Popular Annual Financial Report",
+      "section": "Consent",
+      "description": "Receive and file the City’s Fiscal Year End 2024 Popular Annual Financial Report.",
+      "recommendation": "Receive and file the City’s Fiscal Year End 2024 Popular Annual Financial Report."
+    },
+    {
+      "item": "G.5",
+      "title": "Fiscal Year 2024 Annual Comprehensive Financial Report and Report of Internal Control Over Financial Reporting",
+      "section": "Consent",
+      "description": "Fiscal Year 2024 Financial Audit and Results",
+      "recommendation": "Receive and file the Fiscal Year 2024 Annual Comprehensive Report and associated reports."
+    },
+    {
+      "item": "G.6",
+      "title": "FY 2025-2026 Budget Timeline",
+      "section": "Consent",
+      "description": "Review and provide direction on proposed FY 2025-2026 budget timeline.",
+      "recommendation": "Receive and file."
+    },
+    {
+      "item": "I.1",
+      "title": "Proposed Ordinance to Update Participation in the TUMF Program; Resolution Adopting A TUMF Schedule",
+      "section": "Public Hearing",
+      "description": "Ordinance and Resolution to adopt the 2024 Nexus Study and Fee Schedule for TUMF.",
+      "recommendation": "Hold a public hearing; Waive the full reading and approve by title only, “An Ordinance of the City of Beaumont Amending and Superseding Ordinance No. 1091 to Update Participation in the Western Riverside County Transportation Uniform Mitigation Fee (TUMF) Program”; and, Waive the full reading and adopt by title only, “A Resolution of the City Council of the City of Beaumont Amending the Applicable Transportation Uniform Mitigation Fee (TUMF) Applicable to all Developments in the City of Beaumont.”"
+    },
+    {
+      "item": "I.2",
+      "title": "Consideration of PLAN2024-0130 for an Automobile for Hire Operation Permit for an ambulance service at 875 West Fourth Street located within the City of Beaumont",
+      "section": "Public Hearing",
+      "description": "A request to operate an Automobile for Hire operation for Advantage Ambulance, Inc. located at 875 West Fourth Street in the City of Beaumont.",
+      "recommendation": "Hold a Public Hearing Approve the PLAN2024-1030 Auto for Hire Application for Advantage Ambulance, Inc. to operate in the City of Beaumont."
+    },
+    {
+      "item": "I.3",
+      "title": "Continuation of a Public Hearing of Request to Appeal Notice of Finding Under Development Agreement",
+      "section": "Public Hearing",
+      "description": "Tri Pointe Homes has requested an appeal of the City Manager’s Notice of Finding Under Development Agreement dated August 17, 2004.",
+      "recommendation": "Continue the Request to Appeal Notice of Finding Under Development Agreement dated August 17, 2004, to the City Council Meeting of January 21, 2025."
+    },
+    {
+      "item": "J.1",
+      "title": "Appointments to City Commission, Committees and Board",
+      "section": "Action",
+      "description": "Appointments to Planning Commission, Financial and Audit Committee, Economic Development Committee and Board of Administrative Appeals.",
+      "recommendation": "Conduct interviews followed by the selection process outlined in BMC 2.04.100"
+    },
+    {
+      "item": "J.2",
+      "title": "Relocation and Replacement of the Welcome to Beaumont Electronic Billboard Sign Located at 1691 East Sixth Street (APN: 419-180-025) in the Local Commercial (LC) Zone",
+      "section": "Action",
+      "description": "Consideration of application PLAN2024-0108.",
+      "recommendation": "Hold a public hearing; and Approve PLAN2024-0108 relocation and replacement of the Welcome to Beaumont Electronic Billboard."
+    },
+    {
+      "item": "J.3",
+      "title": "Award Professional Services Agreements with IMEG to Provide Facility Condition Assessments for 500 Grace Avenue and 105 Sixth Street – Capital Improvement Project CD-03",
+      "section": "Action",
+      "description": "Award contracts for a term of one year to IMEG to provide facility condition assessments for 500 Grace Avenue and 105 Sixth Street.",
+      "recommendation": "Award Professional Services Agreements with IMEG for a term of one year to provide facility conditions assessments for 500 Grace Avenue and 105 Sixth Street at the fixed rates in the attached proposals."
+    },
+    {
+      "item": "J.4",
+      "title": "Award a Professional Services Agreement to SKM Engineering LLC for SCADA Programming and System Integration Services for Wastewater Facilities",
+      "section": "Action",
+      "description": "SCADA programming and system integration services for Wastewater Facilities.",
+      "recommendation": "Award a Professional Services Agreement to SKM Engineering LLC for SCADA programming and system integration for wastewater facilities in an amount not to exceed $75,000."
+    },
+    {
+      "item": "J.5",
+      "title": "Riverside County Superintendent of Schools Special Education Vocational Education Program",
+      "section": "Action",
+      "description": "Transition Partnership Program/Work Ability.",
+      "recommendation": "Authorize the City Manager to execute the agreement with Riverside County Superintendent of School and Riverside County Office of Education."
+    },
+    {
+      "item": "J.6",
+      "title": "Approval of Grant Agreement for the Second Street Extension",
+      "section": "Action",
+      "description": "City Council approval is requested for the FY 2024 Community Project Funding (CPF) Grant Agreement between the City of Beaumont and the U.S. Department of Housing and Urban Development (HUD). This agreement provides $1,000,000 in federal funding to support the Second Street Extension Project.",
+      "recommendation": "Approve Grant Agreement No. B-24-CP-CA-0317 and authorize the City Manager, or their designee, to execute the agreement and related documentation necessary to implement the grant."
+    },
+    {
+      "item": "J.7",
+      "title": "Right-of-way Acceptance for Veile Avenue",
+      "section": "Action",
+      "description": "A resolution of the City of Beaumont accepting right-of-way for Veile Avenue as part of the conditions of approval for Hidden Canyon Industrial Park, Parcel Map No. 36426 (Project).",
+      "recommendation": "Waive the full reading and adopt by title only, “A Resolution of the City Council of the City of Beaumont, California, Accepting Right-of-Way for Veile Avenue”."
+    },
+    {
+      "item": "J.8",
+      "title": "Mayoral Appointments to Various Boards, Commissions and Committees",
+      "section": "Action",
+      "description": "Annual appointments to City Council Members to City and outside agency boards, commissions and committees.",
+      "recommendation": "Discuss and appoint Council Members to each board, commission and committee."
+    },
+    {
+      "item": "J.9",
+      "title": "Approval of City Attorney Invoices for the Month of November 2024",
+      "section": "Action",
+      "description": "",
+      "recommendation": "Approve invoices in the amount of $93,722.90"
+    },
+    {
+      "item": "M.1",
+      "title": "Treasurer Reports - November 2024",
+      "section": "Reports",
+      "description": "",
+      "recommendation": ""
+    },
+    {
+      "item": "P.1",
+      "title": "2024-2025 Strategic Plan Update",
+      "section": "Reports",
+      "description": "",
+      "recommendation": ""
+    }
+  ],
+  "documents": [
+    {
+      "item": "G.1",
+      "section": "Consent",
+      "title": "11.29.2024 Warrants",
+      "itemTitle": "Ratification of Warrants",
+      "packet_page_start": 8,
+      "packet_page_end": 18,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-17/item-g-1-01.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5670",
+      "packetBookmarkTitle": "G.1. 11.29.2024 Warrants.pdf"
+    },
+    {
+      "item": "G.1",
+      "section": "Consent",
+      "title": "12.06.2024 Warrants",
+      "itemTitle": "Ratification of Warrants",
+      "packet_page_start": 19,
+      "packet_page_end": 36,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-17/item-g-1-02.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5671",
+      "packetBookmarkTitle": "G.1. 12.06.2024 Warrants.pdf"
+    },
+    {
+      "item": "G.2",
+      "section": "Consent",
+      "title": "CC Minutes 12.03.2024",
+      "itemTitle": "Approval of Minutes",
+      "packet_page_start": 37,
+      "packet_page_end": 43,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-17/item-g-2-01.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5672",
+      "packetBookmarkTitle": "G.2. CC Minutes 12.03.2024.pdf"
+    },
+    {
+      "item": "G.3",
+      "section": "Consent",
+      "title": "Staff Report - Bond Exonerations",
+      "itemTitle": "Accept Public Improvements and Exonerate Maintenance Bond",
+      "packet_page_start": 44,
+      "packet_page_end": 45,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-17/item-g-3-01.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5602",
+      "packetBookmarkTitle": "G.3. Staff Report - Bond Exonerations.pdf"
+    },
+    {
+      "item": "G.3",
+      "section": "Consent",
+      "title": "Attachment A - PW2020-0530 Maintenance Bond 929598708-M Exoneration Packet",
+      "itemTitle": "Accept Public Improvements and Exonerate Maintenance Bond",
+      "packet_page_start": 46,
+      "packet_page_end": 58,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-17/item-g-3-02.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5603",
+      "packetBookmarkTitle": "G.3. Attachment A - PW2020-0530 Maintenance Bond 929598708-M Exoneration Packet.pdf"
+    },
+    {
+      "item": "G.3",
+      "section": "Consent",
+      "title": "Attachment B - PW2024-0112 - Maintenance Bond 107736393 Exoneration Packet",
+      "itemTitle": "Accept Public Improvements and Exonerate Maintenance Bond",
+      "packet_page_start": 59,
+      "packet_page_end": 69,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-17/item-g-3-03.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5604",
+      "packetBookmarkTitle": "G.3. Attachment B - PW2024-0112 - Maintenance Bond 107736393 Exoneration Packet.pdf"
+    },
+    {
+      "item": "G.3",
+      "section": "Consent",
+      "title": "Attachment C - Certificate of Acceptance",
+      "itemTitle": "Accept Public Improvements and Exonerate Maintenance Bond",
+      "packet_page_start": 70,
+      "packet_page_end": 71,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-17/item-g-3-04.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5605",
+      "packetBookmarkTitle": "G.3. Attachment C - Certificate of Acceptance.pdf"
+    },
+    {
+      "item": "G.4",
+      "section": "Consent",
+      "title": "Staff Report - FY 2024 Popular Annual Financial Report",
+      "itemTitle": "FY 2024 Popular Annual Financial Report",
+      "packet_page_start": 72,
+      "packet_page_end": 73,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-17/item-g-4-01.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5629",
+      "packetBookmarkTitle": "G.4. Staff Report - FY 2024 Popular Annual Financial Report.pdf"
+    },
+    {
+      "item": "G.4",
+      "section": "Consent",
+      "title": "Attachment A - 2024 Popular Annual Financial Report",
+      "itemTitle": "FY 2024 Popular Annual Financial Report",
+      "packet_page_start": 74,
+      "packet_page_end": 95,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-17/item-g-4-02.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5630",
+      "packetBookmarkTitle": "G.4. Attachment A - 2024 Popular Annual Financial Report.pdf"
+    },
+    {
+      "item": "G.5",
+      "section": "Consent",
+      "title": "Staff Report - Fiscal Year 2024 Annual Comprehensive Financial Report",
+      "itemTitle": "Fiscal Year 2024 Annual Comprehensive Financial Report and Report of Internal Control Over Financial Reporting",
+      "packet_page_start": 96,
+      "packet_page_end": 100,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-17/item-g-5-01.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5617",
+      "packetBookmarkTitle": "G.5. Staff Report - Fiscal Year 2024 Annual Comprehensive Financial Report.pdf"
+    },
+    {
+      "item": "G.5",
+      "section": "Consent",
+      "title": "Attachment A - FY2024 Annual Comprehensive Financial Report",
+      "itemTitle": "Fiscal Year 2024 Annual Comprehensive Financial Report and Report of Internal Control Over Financial Reporting",
+      "packet_page_start": 101,
+      "packet_page_end": 296,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-17/item-g-5-02.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5618",
+      "packetBookmarkTitle": "G.5. Attachment A - FY2024 Annual Comprehensive Financial Report.pdf"
+    },
+    {
+      "item": "G.5",
+      "section": "Consent",
+      "title": "Attachment B - FY2024 SAS114 Letter",
+      "itemTitle": "Fiscal Year 2024 Annual Comprehensive Financial Report and Report of Internal Control Over Financial Reporting",
+      "packet_page_start": 297,
+      "packet_page_end": 306,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-17/item-g-5-03.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5619",
+      "packetBookmarkTitle": "G.5. Attachment B - FY2024 SAS114 Letter.pdf"
+    },
+    {
+      "item": "G.5",
+      "section": "Consent",
+      "title": "Attachment C - FY2024 Report on Internal Control Over Financial Reporting ",
+      "itemTitle": "Fiscal Year 2024 Annual Comprehensive Financial Report and Report of Internal Control Over Financial Reporting",
+      "packet_page_start": 307,
+      "packet_page_end": 308,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-17/item-g-5-04.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5620",
+      "packetBookmarkTitle": "G.5. Attachment C - FY2024 Report on Internal Control Over Financial Reporting .pdf"
+    },
+    {
+      "item": "G.6",
+      "section": "Consent",
+      "title": "Staff Report - FY 2025-2026 Budget Timeline",
+      "itemTitle": "FY 2025-2026 Budget Timeline",
+      "packet_page_start": 309,
+      "packet_page_end": 310,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-17/item-g-6-01.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5600",
+      "packetBookmarkTitle": "G.6. Staff Report - FY 2025-2026 Budget Timeline.pdf"
+    },
+    {
+      "item": "G.6",
+      "section": "Consent",
+      "title": "Attachment A - FY 2025-2026 Budget Timeline",
+      "itemTitle": "FY 2025-2026 Budget Timeline",
+      "packet_page_start": 311,
+      "packet_page_end": 311,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-17/item-g-6-02.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5601",
+      "packetBookmarkTitle": "G.6. Attachment A - FY 2025-2026 Budget Timeline.pdf"
+    },
+    {
+      "item": "I.1",
+      "section": "Public Hearing",
+      "title": "Staff Report - TUMF Update",
+      "itemTitle": "Proposed Ordinance to Update Participation in the TUMF Program; Resolution Adopting A TUMF Schedule",
+      "packet_page_start": 312,
+      "packet_page_end": 314,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-17/item-i-1-01.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5611",
+      "packetBookmarkTitle": "I.1. Staff Report - TUMF Update.pdf"
+    },
+    {
+      "item": "I.1",
+      "section": "Public Hearing",
+      "title": "Attachment A - TUMF Ordinance",
+      "itemTitle": "Proposed Ordinance to Update Participation in the TUMF Program; Resolution Adopting A TUMF Schedule",
+      "packet_page_start": 315,
+      "packet_page_end": 326,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-17/item-i-1-02.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5612",
+      "packetBookmarkTitle": "I.1. Attachment A - TUMF Ordinance.pdf"
+    },
+    {
+      "item": "I.1",
+      "section": "Public Hearing",
+      "title": "Attachment B - TUMF Ordinance Exhibit A (Map of the Regional System)",
+      "itemTitle": "Proposed Ordinance to Update Participation in the TUMF Program; Resolution Adopting A TUMF Schedule",
+      "packet_page_start": 327,
+      "packet_page_end": 327,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-17/item-i-1-03.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5613",
+      "packetBookmarkTitle": "I.1. Attachment B - TUMF Ordinance Exhibit A (Map of the Regional System).pdf"
+    },
+    {
+      "item": "I.1",
+      "section": "Public Hearing",
+      "title": "Attachment C - TUMF Schedule Resolution (Draft)",
+      "itemTitle": "Proposed Ordinance to Update Participation in the TUMF Program; Resolution Adopting A TUMF Schedule",
+      "packet_page_start": 328,
+      "packet_page_end": 331,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-17/item-i-1-04.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5614",
+      "packetBookmarkTitle": "I.1. Attachment C - TUMF Schedule Resolution (Draft).pdf"
+    },
+    {
+      "item": "I.1",
+      "section": "Public Hearing",
+      "title": "Attachment D - 2024 Nexus Study",
+      "itemTitle": "Proposed Ordinance to Update Participation in the TUMF Program; Resolution Adopting A TUMF Schedule",
+      "packet_page_start": 332,
+      "packet_page_end": 723,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-17/item-i-1-05.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5615",
+      "packetBookmarkTitle": "I.1. Attachment D - 2024 Nexus Study.pdf"
+    },
+    {
+      "item": "I.1",
+      "section": "Public Hearing",
+      "title": "Attachment E - Notice",
+      "itemTitle": "Proposed Ordinance to Update Participation in the TUMF Program; Resolution Adopting A TUMF Schedule",
+      "packet_page_start": 724,
+      "packet_page_end": 725,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-17/item-i-1-06.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5616",
+      "packetBookmarkTitle": "I.1. Attachment E - Notice.pdf"
+    },
+    {
+      "item": "I.2",
+      "section": "Public Hearing",
+      "title": "Staff Report - Auto For Hire - Advantage Ambulance, Inc. ",
+      "itemTitle": "Consideration of PLAN2024-0130 for an Automobile for Hire Operation Permit for an ambulance service at 875 West Fourth Street located within the City of Beaumont",
+      "packet_page_start": 726,
+      "packet_page_end": 728,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-17/item-i-2-01.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5631",
+      "packetBookmarkTitle": "I.2. Staff Report - Auto For Hire - Advantage Ambulance, Inc. .pdf"
+    },
+    {
+      "item": "I.2",
+      "section": "Public Hearing",
+      "title": "(A) Application",
+      "itemTitle": "Consideration of PLAN2024-0130 for an Automobile for Hire Operation Permit for an ambulance service at 875 West Fourth Street located within the City of Beaumont",
+      "packet_page_start": 729,
+      "packet_page_end": 729,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-17/item-i-2-02.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5632",
+      "packetBookmarkTitle": "I.2. (A) Application.pdf"
+    },
+    {
+      "item": "I.2",
+      "section": "Public Hearing",
+      "title": "(B) Description and Pricing",
+      "itemTitle": "Consideration of PLAN2024-0130 for an Automobile for Hire Operation Permit for an ambulance service at 875 West Fourth Street located within the City of Beaumont",
+      "packet_page_start": 730,
+      "packet_page_end": 731,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-17/item-i-2-03.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5633",
+      "packetBookmarkTitle": "I.2. (B) Description and Pricing.pdf"
+    },
+    {
+      "item": "I.2",
+      "section": "Public Hearing",
+      "title": "(C) Certificate of Liability Insurance",
+      "itemTitle": "Consideration of PLAN2024-0130 for an Automobile for Hire Operation Permit for an ambulance service at 875 West Fourth Street located within the City of Beaumont",
+      "packet_page_start": 732,
+      "packet_page_end": 732,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-17/item-i-2-04.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5634",
+      "packetBookmarkTitle": "I.2. (C) Certificate of Liability Insurance.pdf"
+    },
+    {
+      "item": "I.2",
+      "section": "Public Hearing",
+      "title": "(D) Vehicle Photographs",
+      "itemTitle": "Consideration of PLAN2024-0130 for an Automobile for Hire Operation Permit for an ambulance service at 875 West Fourth Street located within the City of Beaumont",
+      "packet_page_start": 733,
+      "packet_page_end": 735,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-17/item-i-2-05.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5635",
+      "packetBookmarkTitle": "I.2. (D) Vehicle Photographs.pdf"
+    },
+    {
+      "item": "I.2",
+      "section": "Public Hearing",
+      "title": "(E) Levine Act Statement",
+      "itemTitle": "Consideration of PLAN2024-0130 for an Automobile for Hire Operation Permit for an ambulance service at 875 West Fourth Street located within the City of Beaumont",
+      "packet_page_start": 736,
+      "packet_page_end": 736,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-17/item-i-2-06.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5636",
+      "packetBookmarkTitle": "I.2. (E) Levine Act Statement.pdf"
+    },
+    {
+      "item": "I.2",
+      "section": "Public Hearing",
+      "title": "(E) PH Notice- Auto for Hire",
+      "itemTitle": "Consideration of PLAN2024-0130 for an Automobile for Hire Operation Permit for an ambulance service at 875 West Fourth Street located within the City of Beaumont",
+      "packet_page_start": 737,
+      "packet_page_end": 738,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-17/item-i-2-07.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5637",
+      "packetBookmarkTitle": "I.2. (E) PH Notice- Auto for Hire.pdf"
+    },
+    {
+      "item": "I.3",
+      "section": "Public Hearing",
+      "title": "Staff Report - Tri-Pointe continued hearing to 01.21.25",
+      "itemTitle": "Continuation of a Public Hearing of Request to Appeal Notice of Finding Under Development Agreement",
+      "packet_page_start": 739,
+      "packet_page_end": 739,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-17/item-i-3-01.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5668",
+      "packetBookmarkTitle": "I.3. Staff Report - Tri-Pointe continued hearing to 01.21.25.pdf"
+    },
+    {
+      "item": "J.1",
+      "section": "Action",
+      "title": "Staff Report - Appointments to City Committees - 2024",
+      "itemTitle": "Appointments to City Commission, Committees and Board",
+      "packet_page_start": 740,
+      "packet_page_end": 741,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-17/item-j-1-01.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5624",
+      "packetBookmarkTitle": "J.1. Staff Report - Appointments to City Committees - 2024.pdf"
+    },
+    {
+      "item": "J.1",
+      "section": "Action",
+      "title": "Attachment A - PC Apps combined - Dec 2024_Redacted",
+      "itemTitle": "Appointments to City Commission, Committees and Board",
+      "packet_page_start": 742,
+      "packet_page_end": 773,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-17/item-j-1-02.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5625",
+      "packetBookmarkTitle": "J.1. Attachment A - PC Apps combined - Dec 2024_Redacted.pdf"
+    },
+    {
+      "item": "J.1",
+      "section": "Action",
+      "title": "Attachment B - FAC Apps combined - Dec 2024_Redacted",
+      "itemTitle": "Appointments to City Commission, Committees and Board",
+      "packet_page_start": 774,
+      "packet_page_end": 784,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-17/item-j-1-03.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5626",
+      "packetBookmarkTitle": "J.1. Attachment B - FAC Apps combined - Dec 2024_Redacted.pdf"
+    },
+    {
+      "item": "J.1",
+      "section": "Action",
+      "title": "Attachment C - EDC Apps combined - Dec 2024_Redacted",
+      "itemTitle": "Appointments to City Commission, Committees and Board",
+      "packet_page_start": 785,
+      "packet_page_end": 817,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-17/item-j-1-04.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5627",
+      "packetBookmarkTitle": "J.1. Attachment C - EDC Apps combined - Dec 2024_Redacted.pdf"
+    },
+    {
+      "item": "J.1",
+      "section": "Action",
+      "title": "Attachment D - BOAA apps combined - Dec 2024 redacted",
+      "itemTitle": "Appointments to City Commission, Committees and Board",
+      "packet_page_start": 818,
+      "packet_page_end": 838,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-17/item-j-1-05.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5628",
+      "packetBookmarkTitle": "J.1. Attachment D - BOAA apps combined - Dec 2024 redacted.pdf"
+    },
+    {
+      "item": "J.2",
+      "section": "Action",
+      "title": "Staff Report - Welcome to Beaumont Electronic Billboard Sign ",
+      "itemTitle": "Relocation and Replacement of the Welcome to Beaumont Electronic Billboard Sign Located at 1691 East Sixth Street (APN: 419-180-025) in the Local Commercial (LC) Zone",
+      "packet_page_start": 839,
+      "packet_page_end": 840,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-17/item-j-2-01.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5648",
+      "packetBookmarkTitle": "J.2. Staff Report - Welcome to Beaumont Electronic Billboard Sign .pdf"
+    },
+    {
+      "item": "J.2",
+      "section": "Action",
+      "title": "(A) Application(1)",
+      "itemTitle": "Relocation and Replacement of the Welcome to Beaumont Electronic Billboard Sign Located at 1691 East Sixth Street (APN: 419-180-025) in the Local Commercial (LC) Zone",
+      "packet_page_start": 841,
+      "packet_page_end": 845,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-17/item-j-2-02.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5649",
+      "packetBookmarkTitle": "J.2. (A) Application(1).pdf"
+    },
+    {
+      "item": "J.2",
+      "section": "Action",
+      "title": "(B) Site Plan",
+      "itemTitle": "Relocation and Replacement of the Welcome to Beaumont Electronic Billboard Sign Located at 1691 East Sixth Street (APN: 419-180-025) in the Local Commercial (LC) Zone",
+      "packet_page_start": 846,
+      "packet_page_end": 846,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-17/item-j-2-03.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5650",
+      "packetBookmarkTitle": "J.2. (B) Site Plan.pdf"
+    },
+    {
+      "item": "J.2",
+      "section": "Action",
+      "title": "(C) Draft Resolution",
+      "itemTitle": "Relocation and Replacement of the Welcome to Beaumont Electronic Billboard Sign Located at 1691 East Sixth Street (APN: 419-180-025) in the Local Commercial (LC) Zone",
+      "packet_page_start": 847,
+      "packet_page_end": 848,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-17/item-j-2-04.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5651",
+      "packetBookmarkTitle": "J.2. (C) Draft Resolution.pdf"
+    },
+    {
+      "item": "J.2",
+      "section": "Action",
+      "title": "(D) Relocation Agreement",
+      "itemTitle": "Relocation and Replacement of the Welcome to Beaumont Electronic Billboard Sign Located at 1691 East Sixth Street (APN: 419-180-025) in the Local Commercial (LC) Zone",
+      "packet_page_start": 849,
+      "packet_page_end": 852,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-17/item-j-2-05.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5652",
+      "packetBookmarkTitle": "J.2. (D) Relocation Agreement.pdf"
+    },
+    {
+      "item": "J.2",
+      "section": "Action",
+      "title": "(E) Draft Conditions of Approval",
+      "itemTitle": "Relocation and Replacement of the Welcome to Beaumont Electronic Billboard Sign Located at 1691 East Sixth Street (APN: 419-180-025) in the Local Commercial (LC) Zone",
+      "packet_page_start": 853,
+      "packet_page_end": 856,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-17/item-j-2-06.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5653",
+      "packetBookmarkTitle": "J.2. (E) Draft Conditions of Approval.pdf"
+    },
+    {
+      "item": "J.2",
+      "section": "Action",
+      "title": "(F) General Plan Land Use Map",
+      "itemTitle": "Relocation and Replacement of the Welcome to Beaumont Electronic Billboard Sign Located at 1691 East Sixth Street (APN: 419-180-025) in the Local Commercial (LC) Zone",
+      "packet_page_start": 857,
+      "packet_page_end": 857,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-17/item-j-2-07.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5654",
+      "packetBookmarkTitle": "J.2. (F) General Plan Land Use Map.pdf"
+    },
+    {
+      "item": "J.2",
+      "section": "Action",
+      "title": "(G) Zoning Map",
+      "itemTitle": "Relocation and Replacement of the Welcome to Beaumont Electronic Billboard Sign Located at 1691 East Sixth Street (APN: 419-180-025) in the Local Commercial (LC) Zone",
+      "packet_page_start": 858,
+      "packet_page_end": 858,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-17/item-j-2-08.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5655",
+      "packetBookmarkTitle": "J.2. (G) Zoning Map.pdf"
+    },
+    {
+      "item": "J.2",
+      "section": "Action",
+      "title": "(H) Location on Aerial",
+      "itemTitle": "Relocation and Replacement of the Welcome to Beaumont Electronic Billboard Sign Located at 1691 East Sixth Street (APN: 419-180-025) in the Local Commercial (LC) Zone",
+      "packet_page_start": 859,
+      "packet_page_end": 859,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-17/item-j-2-09.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5656",
+      "packetBookmarkTitle": "J.2. (H) Location on Aerial.pdf"
+    },
+    {
+      "item": "J.2",
+      "section": "Action",
+      "title": "(I) 1997 Sign Permit",
+      "itemTitle": "Relocation and Replacement of the Welcome to Beaumont Electronic Billboard Sign Located at 1691 East Sixth Street (APN: 419-180-025) in the Local Commercial (LC) Zone",
+      "packet_page_start": 860,
+      "packet_page_end": 875,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-17/item-j-2-10.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5657",
+      "packetBookmarkTitle": "J.2. (I) 1997 Sign Permit.pdf"
+    },
+    {
+      "item": "J.2",
+      "section": "Action",
+      "title": "(J) 2014 Plans",
+      "itemTitle": "Relocation and Replacement of the Welcome to Beaumont Electronic Billboard Sign Located at 1691 East Sixth Street (APN: 419-180-025) in the Local Commercial (LC) Zone",
+      "packet_page_start": 876,
+      "packet_page_end": 877,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-17/item-j-2-11.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5658",
+      "packetBookmarkTitle": "J.2. (J) 2014 Plans.pdf"
+    },
+    {
+      "item": "J.3",
+      "section": "Action",
+      "title": "Staff Report - Facility Conditions Assessments for City Owned Buildings ",
+      "itemTitle": "Award Professional Services Agreements with IMEG to Provide Facility Condition Assessments for 500 Grace Avenue and 105 Sixth Street – Capital Improvement Project CD-03",
+      "packet_page_start": 878,
+      "packet_page_end": 879,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-17/item-j-3-01.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5640",
+      "packetBookmarkTitle": "J.3. Staff Report - Facility Conditions Assessments for City Owned Buildings .pdf"
+    },
+    {
+      "item": "J.3",
+      "section": "Action",
+      "title": "PSA - C24-140 IMEG 500 grace ave-vendor signed",
+      "itemTitle": "Award Professional Services Agreements with IMEG to Provide Facility Condition Assessments for 500 Grace Avenue and 105 Sixth Street – Capital Improvement Project CD-03",
+      "packet_page_start": 880,
+      "packet_page_end": 927,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-17/item-j-3-02.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5641",
+      "packetBookmarkTitle": "J.3. PSA - C24-140 IMEG 500 grace ave-vendor signed.pdf"
+    },
+    {
+      "item": "J.3",
+      "section": "Action",
+      "title": "IMEG - 500 Grace - Facilty Condition Assessment",
+      "itemTitle": "Award Professional Services Agreements with IMEG to Provide Facility Condition Assessments for 500 Grace Avenue and 105 Sixth Street – Capital Improvement Project CD-03",
+      "packet_page_start": 928,
+      "packet_page_end": 939,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-17/item-j-3-03.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5642",
+      "packetBookmarkTitle": "J.3. IMEG - 500 Grace - Facilty Condition Assessment.pdf"
+    },
+    {
+      "item": "J.3",
+      "section": "Action",
+      "title": "RFP - 500 Grace",
+      "itemTitle": "Award Professional Services Agreements with IMEG to Provide Facility Condition Assessments for 500 Grace Avenue and 105 Sixth Street – Capital Improvement Project CD-03",
+      "packet_page_start": 940,
+      "packet_page_end": 951,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-17/item-j-3-04.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5643",
+      "packetBookmarkTitle": "J.3. RFP - 500 Grace.pdf"
+    },
+    {
+      "item": "J.3",
+      "section": "Action",
+      "title": "PSA - C24-142 IMEG Facility condition assessment 105 6th st-vendor signed",
+      "itemTitle": "Award Professional Services Agreements with IMEG to Provide Facility Condition Assessments for 500 Grace Avenue and 105 Sixth Street – Capital Improvement Project CD-03",
+      "packet_page_start": 952,
+      "packet_page_end": 986,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-17/item-j-3-05.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5644",
+      "packetBookmarkTitle": "J.3. PSA - C24-142 IMEG Facility condition assessment 105 6th st-vendor signed.pdf"
+    },
+    {
+      "item": "J.3",
+      "section": "Action",
+      "title": "IMEG - 105 6th - Facilty Condition Assessment",
+      "itemTitle": "Award Professional Services Agreements with IMEG to Provide Facility Condition Assessments for 500 Grace Avenue and 105 Sixth Street – Capital Improvement Project CD-03",
+      "packet_page_start": 987,
+      "packet_page_end": 997,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-17/item-j-3-06.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5645",
+      "packetBookmarkTitle": "J.3. IMEG - 105 6th - Facilty Condition Assessment.pdf"
+    },
+    {
+      "item": "J.3",
+      "section": "Action",
+      "title": "RFP - 105 6th",
+      "itemTitle": "Award Professional Services Agreements with IMEG to Provide Facility Condition Assessments for 500 Grace Avenue and 105 Sixth Street – Capital Improvement Project CD-03",
+      "packet_page_start": 998,
+      "packet_page_end": 1009,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-17/item-j-3-07.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5646",
+      "packetBookmarkTitle": "J.3. RFP - 105 6th.pdf"
+    },
+    {
+      "item": "J.3",
+      "section": "Action",
+      "title": "Levine Act Statement",
+      "itemTitle": "Award Professional Services Agreements with IMEG to Provide Facility Condition Assessments for 500 Grace Avenue and 105 Sixth Street – Capital Improvement Project CD-03",
+      "packet_page_start": 1010,
+      "packet_page_end": 1010,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-17/item-j-3-08.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5647",
+      "packetBookmarkTitle": "J.3. Levine Act Statement.pdf"
+    },
+    {
+      "item": "J.4",
+      "section": "Action",
+      "title": "Staff Report",
+      "itemTitle": "Award a Professional Services Agreement to SKM Engineering LLC for SCADA Programming and System Integration Services for Wastewater Facilities",
+      "packet_page_start": 1011,
+      "packet_page_end": 1012,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-17/item-j-4-01.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5659",
+      "packetBookmarkTitle": "J.4. Staff Report.pdf"
+    },
+    {
+      "item": "J.4",
+      "section": "Action",
+      "title": "Attachment A - RFP",
+      "itemTitle": "Award a Professional Services Agreement to SKM Engineering LLC for SCADA Programming and System Integration Services for Wastewater Facilities",
+      "packet_page_start": 1013,
+      "packet_page_end": 1029,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-17/item-j-4-02.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5660",
+      "packetBookmarkTitle": "J.4. Attachment A - RFP.pdf"
+    },
+    {
+      "item": "J.4",
+      "section": "Action",
+      "title": "Attachment B - Professional Services Agreement (SKM Engineering)",
+      "itemTitle": "Award a Professional Services Agreement to SKM Engineering LLC for SCADA Programming and System Integration Services for Wastewater Facilities",
+      "packet_page_start": 1030,
+      "packet_page_end": 1111,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-17/item-j-4-03.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5661",
+      "packetBookmarkTitle": "J.4. Attachment B - Professional Services Agreement (SKM Engineering).pdf"
+    },
+    {
+      "item": "J.4",
+      "section": "Action",
+      "title": "Attachment C - Levine Act Statement SKM Engineering",
+      "itemTitle": "Award a Professional Services Agreement to SKM Engineering LLC for SCADA Programming and System Integration Services for Wastewater Facilities",
+      "packet_page_start": 1112,
+      "packet_page_end": 1112,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-17/item-j-4-04.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5662",
+      "packetBookmarkTitle": "J.4. Attachment C - Levine Act Statement SKM Engineering.pdf"
+    },
+    {
+      "item": "J.5",
+      "section": "Action",
+      "title": "Staff Report - TPP Program Agreement ",
+      "itemTitle": "Riverside County Superintendent of Schools Special Education Vocational Education Program",
+      "packet_page_start": 1113,
+      "packet_page_end": 1114,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-17/item-j-5-01.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5638",
+      "packetBookmarkTitle": "J.5. Staff Report - TPP Program Agreement .pdf"
+    },
+    {
+      "item": "J.5",
+      "section": "Action",
+      "title": "Attachment A - AFFILIATION Agreement 2024.RCOE",
+      "itemTitle": "Riverside County Superintendent of Schools Special Education Vocational Education Program",
+      "packet_page_start": 1115,
+      "packet_page_end": 1116,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-17/item-j-5-02.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5639",
+      "packetBookmarkTitle": "J.5. Attachment A - AFFILIATION Agreement 2024.RCOE.pdf"
+    },
+    {
+      "item": "J.6",
+      "section": "Action",
+      "title": "Staff Report - Approval of Grant Agreement for the Second Street Extension ",
+      "itemTitle": "Approval of Grant Agreement for the Second Street Extension",
+      "packet_page_start": 1117,
+      "packet_page_end": 1119,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-17/item-j-6-01.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5666",
+      "packetBookmarkTitle": "J.6. Staff Report - Approval of Grant Agreement for the Second Street Extension .pdf"
+    },
+    {
+      "item": "J.6",
+      "section": "Action",
+      "title": "Attachment A - FY24 CPF Grant Agreement",
+      "itemTitle": "Approval of Grant Agreement for the Second Street Extension",
+      "packet_page_start": 1120,
+      "packet_page_end": 1142,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-17/item-j-6-02.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5667",
+      "packetBookmarkTitle": "J.6. Attachment A - FY24 CPF Grant Agreement.pdf"
+    },
+    {
+      "item": "J.7",
+      "section": "Action",
+      "title": "Staff Report - Acceptance of Right-of-way Veile Avenue",
+      "itemTitle": "Right-of-way Acceptance for Veile Avenue",
+      "packet_page_start": 1143,
+      "packet_page_end": 1145,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-17/item-j-7-01.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5606",
+      "packetBookmarkTitle": "J.7. Staff Report - Acceptance of Right-of-way Veile Avenue.pdf"
+    },
+    {
+      "item": "J.7",
+      "section": "Action",
+      "title": "Attachment A - Resolution Accepting Right-of-way for Veile Avenue",
+      "itemTitle": "Right-of-way Acceptance for Veile Avenue",
+      "packet_page_start": 1146,
+      "packet_page_end": 1147,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-17/item-j-7-02.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5607",
+      "packetBookmarkTitle": "J.7. Attachment A - Resolution Accepting Right-of-way for Veile Avenue.pdf"
+    },
+    {
+      "item": "J.7",
+      "section": "Action",
+      "title": "Attachment B - Certificate of Acceptance",
+      "itemTitle": "Right-of-way Acceptance for Veile Avenue",
+      "packet_page_start": 1148,
+      "packet_page_end": 1148,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-17/item-j-7-03.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5608",
+      "packetBookmarkTitle": "J.7. Attachment B - Certificate of Acceptance.pdf"
+    },
+    {
+      "item": "J.7",
+      "section": "Action",
+      "title": "Attachment C - SCE Grant of Easement - Legal and Plat",
+      "itemTitle": "Right-of-way Acceptance for Veile Avenue",
+      "packet_page_start": 1149,
+      "packet_page_end": 1156,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-17/item-j-7-04.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5609",
+      "packetBookmarkTitle": "J.7. Attachment C - SCE Grant of Easement - Legal and Plat.pdf"
+    },
+    {
+      "item": "J.7",
+      "section": "Action",
+      "title": "Attachment D - Appraisal Report for Easement Dedication and Acquisition ",
+      "itemTitle": "Right-of-way Acceptance for Veile Avenue",
+      "packet_page_start": 1157,
+      "packet_page_end": 1243,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-17/item-j-7-05.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5610",
+      "packetBookmarkTitle": "J.7. Attachment D - Appraisal Report for Easement Dedication and Acquisition .pdf"
+    },
+    {
+      "item": "J.8",
+      "section": "Action",
+      "title": "Staff Report - Council Appointments to Outside Boards and Commissions - 2024",
+      "itemTitle": "Mayoral Appointments to Various Boards, Commissions and Committees",
+      "packet_page_start": 1244,
+      "packet_page_end": 1245,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-17/item-j-8-01.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5621",
+      "packetBookmarkTitle": "J.8. Staff Report - Council Appointments to Outside Boards and Commissions - 2024.pdf"
+    },
+    {
+      "item": "J.8",
+      "section": "Action",
+      "title": "Attachment A - 2024 Council-Board-Commission-Committees List",
+      "itemTitle": "Mayoral Appointments to Various Boards, Commissions and Committees",
+      "packet_page_start": 1246,
+      "packet_page_end": 1250,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-17/item-j-8-02.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5622",
+      "packetBookmarkTitle": "J.8. Attachment A - 2024 Council-Board-Commission-Committees List.pdf"
+    },
+    {
+      "item": "J.8",
+      "section": "Action",
+      "title": "Attachment B - 2025 blank Council-Board-Commission-Committees List",
+      "itemTitle": "Mayoral Appointments to Various Boards, Commissions and Committees",
+      "packet_page_start": 1251,
+      "packet_page_end": 1256,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-17/item-j-8-03.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5623",
+      "packetBookmarkTitle": "J.8. Attachment B - 2025 blank Council-Board-Commission-Committees List.pdf"
+    },
+    {
+      "item": "J.9",
+      "section": "Action",
+      "title": "SBEMP Nov 2024",
+      "itemTitle": "Approval of City Attorney Invoices for the Month of November 2024",
+      "packet_page_start": 1257,
+      "packet_page_end": 1274,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-17/item-j-9-01.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5669",
+      "packetBookmarkTitle": "J.9. SBEMP Nov 2024.pdf"
+    },
+    {
+      "item": "M.1",
+      "section": "Reports",
+      "title": "FY25 Treasurers Reports receipts, disbursements and balances Governmental Funds",
+      "itemTitle": "Treasurer Reports - November 2024",
+      "packet_page_start": 1275,
+      "packet_page_end": 1275,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-17/item-m-1-01.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5663",
+      "packetBookmarkTitle": "M.1. FY25 Treasurers Reports receipts, disbursements and balances Governmental Funds.pdf"
+    },
+    {
+      "item": "M.1",
+      "section": "Reports",
+      "title": "FY25 Treasurers Reports receipts, disbursements and balances Proprietary Funds",
+      "itemTitle": "Treasurer Reports - November 2024",
+      "packet_page_start": 1276,
+      "packet_page_end": 1276,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-17/item-m-1-02.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5664",
+      "packetBookmarkTitle": "M.1. FY25 Treasurers Reports receipts, disbursements and balances Proprietary Funds.pdf"
+    },
+    {
+      "item": "M.1",
+      "section": "Reports",
+      "title": "FY25 Treasurers Reports receipts, disbursements and balances Fiducuiary Funds",
+      "itemTitle": "Treasurer Reports - November 2024",
+      "packet_page_start": 1277,
+      "packet_page_end": 1277,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-17/item-m-1-03.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5665",
+      "packetBookmarkTitle": "M.1. FY25 Treasurers Reports receipts, disbursements and balances Fiducuiary Funds.pdf"
+    }
+  ],
+  "packetBytes": 179452125
+}

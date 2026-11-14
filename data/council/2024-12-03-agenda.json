@@ -1,0 +1,564 @@
+{
+  "date": "2024-12-03",
+  "sourceFilename": "Agenda Package - City Council Closed and Regular Session_Dec03_2024.pdf",
+  "packetPages": 270,
+  "agendaPageCount": 6,
+  "packetArchiveUrl": "https://documents.beaumontintelligence.com/records/agenda-packets/2024-12-03/2024-12-03-city-council-agenda-package.pdf",
+  "agendaUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-03/agenda.pdf",
+  "officialAgendaUrl": "https://pub-beaumont.escribemeetings.com/Meeting.aspx?Id=e7b8d889-395c-428d-b21f-b780c4903db9&Agenda=Agenda&lang=English",
+  "meetingStatus": "held",
+  "audit": {
+    "checkedOn": "2026-11-13",
+    "expectedDocuments": 37,
+    "linkedDocuments": 37,
+    "officialHtmlAuditComplete": true,
+    "archiveComplete": true,
+    "officialHtmlSha256": "27ae245a8ef1c3fc60f609c277d44f7e2591718fe013963cf11c72da33ae8779",
+    "basis": "Every official HTML attachment matched by agenda item and normalized filename to a unique supplied packet bookmark. Original City URLs and contiguous packet page ranges retained. Outcomes are not inferred from agenda recommendations."
+  },
+  "items": [
+    {
+      "item": "B.1",
+      "title": "Conference with Real Property Negotiators Pursuant to Government Code Section 54956.8",
+      "section": "Closed Session",
+      "description": "Property: Approximately 30 acres of vacant land described as APN 404-140-007. Agency Negotiator: City Manager Elizabeth Gibbs or her designee. Negotiating Parties: City of Beaumont as potential purchaser and Silva Family Trust and Bianchi Properties Limited as potential seller. Under negotiation: Price and Terms.",
+      "recommendation": ""
+    },
+    {
+      "item": "B.2",
+      "title": "Conference with Real Property Negotiator Pursuant to Government Code Section 54956.8",
+      "section": "Closed Session",
+      "description": "Property 105 6th street, Beaumont CA. Agency Negotiator: City Manager Elizabeth Gibbs or her designee; Negotiating Parties: City of Beaumont at potential Lessor; Potential Tenants include: 1. WeBrew Coffee; 2. Chicken Republic; 3. Cornerstone BBQ; 4. Hops & Spokes Brewing. Under Negotiation: Price and Terms.",
+      "recommendation": ""
+    },
+    {
+      "item": "B.3",
+      "title": "Conference with Legal Counsel – Anticipated Litigation – Potential Initiation of litigation pursuant to Government Code Section 54956.9(d)(4):",
+      "section": "Closed Session",
+      "description": "Two Potential Cases.",
+      "recommendation": ""
+    },
+    {
+      "item": "G.1",
+      "title": "Ratification of Warrants",
+      "section": "Consent",
+      "description": "",
+      "recommendation": "Ratify Warrants dated: November 15, 2024 November 22, 2024"
+    },
+    {
+      "item": "G.2",
+      "title": "Approval of Minutes",
+      "section": "Consent",
+      "description": "",
+      "recommendation": "Approve Minutes dated November 19, 2024."
+    },
+    {
+      "item": "G.3",
+      "title": "Freeway Agreement for State Highway Route 60",
+      "section": "Consent",
+      "description": "Freeway Agreement between the State of California and the City of Beaumont for State Highway Route 60 (SR-60), from Jack Rabbit Trail to State Highway Route 10 (I-10).",
+      "recommendation": "Authorize the City Manager to execute ​a Freeway Agreement between the State of California and the City of Beaumont for State Highway Route 60, from Jack Rabbit Trail to State Highway Route 10."
+    },
+    {
+      "item": "G.4",
+      "title": "A Resolution of the City Council of the City of Beaumont Accepting the Offer of Dedication For Lots 2, 6 and 7 of Tract Map 34862-1",
+      "section": "Consent",
+      "description": "Accept the Offer of Dedication and File a Certificate of Acceptance for APN Nos. 408-110-044, 408-110-028 and 408-110-027.",
+      "recommendation": "Waive the Full Reading and Adopt by Title Only, “A Resolution of the City Council of the City of Beaumont Accepting the Offer of Dedication for Lot 2 of Tract Map 34862-1 (APN No. 408-110-044)”; and Authorize City staff to file the Certificate of Acceptance with the County Recorder’s Office."
+    },
+    {
+      "item": "G.5",
+      "title": "2024 City of Beaumont Financial Policies for GASB 87 and 96",
+      "section": "Consent",
+      "description": "Establish a materiality level for GASB 87 and GASB 96.",
+      "recommendation": "Review and approve the 2024 City of Beaumont Financial Policies for GASB 87 and 96."
+    },
+    {
+      "item": "G.6",
+      "title": "Update to the City of Beaumont Financial Management Policy",
+      "section": "Consent",
+      "description": "Update to the Development Impact Fee section of the City of Beaumont Financial Management Policy.",
+      "recommendation": "Approve update to the City of Beaumont Financial Management Policy."
+    },
+    {
+      "item": "G.7",
+      "title": "City of Beaumont Sponsorship and Donation Policy",
+      "section": "Consent",
+      "description": "Sponsorship and Donation Policy to support the City of Beaumont’s Adopted Strategic Plan Target #1 Communications/Relationships Goal #2 Develop Funding Sources for Community Events.",
+      "recommendation": "Approve City of Beaumont Sponsorship and Donation Policy."
+    },
+    {
+      "item": "G.8",
+      "title": "Approval of Supplemental Agreement for 2024-2025 Community Development Block Grant (CDBG) Program",
+      "section": "Consent",
+      "description": "This report seeks City Council approval of the 2024-2025 CDBG Program Supplemental Agreement, funding the Pedestrian Sidewalk Safety Improvement Project Phase II and activities by local nonprofit organizations.",
+      "recommendation": "Approve the Supplemental Agreement for the 2024-2025 CDBG Program; and Authorize the City Manager to execute the agreement and return required documentation to the County of Riverside."
+    },
+    {
+      "item": "I.1",
+      "title": "Continuation of a Public Hearing of Request to Appeal Notice of Finding Under Development Agreement",
+      "section": "Public Hearing",
+      "description": "Tri Pointe Homes has requested an appeal of the City Manager’s Notice of Finding Under Development Agreement dated August 17, 2004.",
+      "recommendation": "Continue the Request to Appeal Notice of Finding Under Development Agreement dated August 17, 2004, to the City Council Meeting of December 17, 2024."
+    },
+    {
+      "item": "I.2",
+      "title": "Minor Plot Plan PP2024-0048 Plotting, Architecture and Floors Plan for Tract Map No. 32850 (APN:421-110-014)",
+      "section": "Public Hearing",
+      "description": "Conduct a public hearing and consideration of a request for the approval of a Minor Plot Plan (PP) to develop Tract Map No. 32850 into 95 Single Family Residential Lots with four (4) Plan Types, and one (1) park site. The subject property is 29.32-acres and is located west of Manzanita Park Road and south of Brownie Way in the Residential Single-Family Zone.",
+      "recommendation": "Continue PP2024-0048 without discussion to December 17, 2024, City Council meeting."
+    },
+    {
+      "item": "J.1",
+      "title": "Truck Route Viability",
+      "section": "Action",
+      "description": "Presentation on the viability of existing roads along the designated truck routes.",
+      "recommendation": "Receive and file."
+    },
+    {
+      "item": "J.2",
+      "title": "Potrero Extension Benefit Area",
+      "section": "Action",
+      "description": "Discussion on the infrastructure needed to support future development within the Potrero Extension Benefit Area.",
+      "recommendation": "Receive and file."
+    },
+    {
+      "item": "J.3",
+      "title": "Indemnification Agreement for Fourth Street and Potrero Boulevard",
+      "section": "Action",
+      "description": "Indemnification Agreement between the County of Riverside and the City of Beaumont various right-of-way dedications near Potrero Boulevard and Fourth Street.",
+      "recommendation": "Authorize the Mayor to execute ​an Indemnification Agreement between the County of Riverside and the City of Beaumont for Various Right-of-way Dedications near Potrero Boulevard and Fourth Street."
+    },
+    {
+      "item": "J.4",
+      "title": "Approval of Trustee Requisition 003 for Reimbursement of Bond Proceeds in the Amount of $8,863,651.89",
+      "section": "Action",
+      "description": "Tri Pointe Homes has submitted a request of Community Facilities District 93-1 Improvement Area 17D bond proceeds to reimburse for completed improvement costs totaling $7,452,415.96 and reimbursement of development impact fees of $1,411,235.93 for a total of $8,863,651.89.",
+      "recommendation": "Approve the City Manager to sign Requisition 003 to send to Trustee for disbursement of bond proceeds to the City of Beaumont for reimbursement of costs to Tri Pointe Homes IE-SD Inc."
+    },
+    {
+      "item": "J.5",
+      "title": "Approval of Tri Pointe Homes Community Facilities District 93-1 Improvement Area 17D PayGo Funds Reimbursement Request",
+      "section": "Action",
+      "description": "Tri Pointe Homes IE-SD, Inc. has submitted a request for the Community Facilities District 93-1 Improvement Area 17D PayGo funds to reimburse TUMF Fees paid in the amount of $214,799.45.",
+      "recommendation": "Approve Tri Pointe Homes 17D PayGo Funds Reimbursement Request in the amount of $214,799.45."
+    },
+    {
+      "item": "M.1",
+      "title": "Treasurer Reports",
+      "section": "Reports",
+      "description": "",
+      "recommendation": ""
+    }
+  ],
+  "documents": [
+    {
+      "item": "G.1",
+      "section": "Consent",
+      "title": "Warrants 11.15.2024",
+      "itemTitle": "Ratification of Warrants",
+      "packet_page_start": 7,
+      "packet_page_end": 21,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-03/item-g-1-01.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5516",
+      "packetBookmarkTitle": "G.1. Warrants 11.15.2024.pdf"
+    },
+    {
+      "item": "G.1",
+      "section": "Consent",
+      "title": "Warrants 11.22.2024",
+      "itemTitle": "Ratification of Warrants",
+      "packet_page_start": 22,
+      "packet_page_end": 33,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-03/item-g-1-02.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5517",
+      "packetBookmarkTitle": "G.1. Warrants 11.22.2024.pdf"
+    },
+    {
+      "item": "G.2",
+      "section": "Consent",
+      "title": "CC Minutes 11.19.2024",
+      "itemTitle": "Approval of Minutes",
+      "packet_page_start": 34,
+      "packet_page_end": 41,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-03/item-g-2-01.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5492",
+      "packetBookmarkTitle": "G.2. CC Minutes 11.19.2024.pdf"
+    },
+    {
+      "item": "G.3",
+      "section": "Consent",
+      "title": "SR-60 Freeway Agreement",
+      "itemTitle": "Freeway Agreement for State Highway Route 60",
+      "packet_page_start": 42,
+      "packet_page_end": 43,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-03/item-g-3-01.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5481",
+      "packetBookmarkTitle": "G.3. SR-60 Freeway Agreement.pdf"
+    },
+    {
+      "item": "G.3",
+      "section": "Consent",
+      "title": "Attachment A - SR60 Freeway Agreement",
+      "itemTitle": "Freeway Agreement for State Highway Route 60",
+      "packet_page_start": 44,
+      "packet_page_end": 47,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-03/item-g-3-02.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5482",
+      "packetBookmarkTitle": "G.3. Attachment A - SR60 Freeway Agreement.pdf"
+    },
+    {
+      "item": "G.4",
+      "section": "Consent",
+      "title": "Staff Report - A Resolution of the City Council of the City of Beaumont Accepting the Offer of Dedication",
+      "itemTitle": "A Resolution of the City Council of the City of Beaumont Accepting the Offer of Dedication For Lots 2, 6 and 7 of Tract Map 34862-1",
+      "packet_page_start": 48,
+      "packet_page_end": 49,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-03/item-g-4-01.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5497",
+      "packetBookmarkTitle": "G.4. Staff Report - A Resolution of the City Council of the City of Beaumont Accepting the Offer of Dedication.pdf"
+    },
+    {
+      "item": "G.4",
+      "section": "Consent",
+      "title": "Attachment A - Resolution",
+      "itemTitle": "A Resolution of the City Council of the City of Beaumont Accepting the Offer of Dedication For Lots 2, 6 and 7 of Tract Map 34862-1",
+      "packet_page_start": 50,
+      "packet_page_end": 51,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-03/item-g-4-02.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5498",
+      "packetBookmarkTitle": "G.4. Attachment A - Resolution.pdf"
+    },
+    {
+      "item": "G.4",
+      "section": "Consent",
+      "title": "Attachment B - Tract Map 34862-1",
+      "itemTitle": "A Resolution of the City Council of the City of Beaumont Accepting the Offer of Dedication For Lots 2, 6 and 7 of Tract Map 34862-1",
+      "packet_page_start": 52,
+      "packet_page_end": 55,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-03/item-g-4-03.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5499",
+      "packetBookmarkTitle": "G.4. Attachment B - Tract Map 34862-1.pdf"
+    },
+    {
+      "item": "G.4",
+      "section": "Consent",
+      "title": "Attachment C - Certificate of Acceptance",
+      "itemTitle": "A Resolution of the City Council of the City of Beaumont Accepting the Offer of Dedication For Lots 2, 6 and 7 of Tract Map 34862-1",
+      "packet_page_start": 56,
+      "packet_page_end": 57,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-03/item-g-4-04.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5500",
+      "packetBookmarkTitle": "G.4. Attachment C - Certificate of Acceptance.pdf"
+    },
+    {
+      "item": "G.4",
+      "section": "Consent",
+      "title": "Attachment D - Offer of Dedication",
+      "itemTitle": "A Resolution of the City Council of the City of Beaumont Accepting the Offer of Dedication For Lots 2, 6 and 7 of Tract Map 34862-1",
+      "packet_page_start": 58,
+      "packet_page_end": 60,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-03/item-g-4-05.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5501",
+      "packetBookmarkTitle": "G.4. Attachment D - Offer of Dedication.pdf"
+    },
+    {
+      "item": "G.5",
+      "section": "Consent",
+      "title": "Staff Report - 2024 City of Beaumont Financial Policies for GASB 87 and 96",
+      "itemTitle": "2024 City of Beaumont Financial Policies for GASB 87 and 96",
+      "packet_page_start": 61,
+      "packet_page_end": 62,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-03/item-g-5-01.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5510",
+      "packetBookmarkTitle": "G.5. Staff Report - 2024 City of Beaumont Financial Policies for GASB 87 and 96.pdf"
+    },
+    {
+      "item": "G.5",
+      "section": "Consent",
+      "title": "Attachment A - GASB 87 Financial Policy",
+      "itemTitle": "2024 City of Beaumont Financial Policies for GASB 87 and 96",
+      "packet_page_start": 63,
+      "packet_page_end": 64,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-03/item-g-5-02.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5511",
+      "packetBookmarkTitle": "G.5. Attachment A - GASB 87 Financial Policy.pdf"
+    },
+    {
+      "item": "G.5",
+      "section": "Consent",
+      "title": "Attachment B - GASB 96 Financial Policy",
+      "itemTitle": "2024 City of Beaumont Financial Policies for GASB 87 and 96",
+      "packet_page_start": 65,
+      "packet_page_end": 66,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-03/item-g-5-03.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5512",
+      "packetBookmarkTitle": "G.5. Attachment B - GASB 96 Financial Policy.pdf"
+    },
+    {
+      "item": "G.6",
+      "section": "Consent",
+      "title": "Staff Report - Update to the City of Beaumont Financial Management Policy",
+      "itemTitle": "Update to the City of Beaumont Financial Management Policy",
+      "packet_page_start": 67,
+      "packet_page_end": 67,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-03/item-g-6-01.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5493",
+      "packetBookmarkTitle": "G.6. Staff Report - Update to the City of Beaumont Financial Management Policy.pdf"
+    },
+    {
+      "item": "G.6",
+      "section": "Consent",
+      "title": "Attachment A - Draft Updated City of Beaumont Financial Management Policy",
+      "itemTitle": "Update to the City of Beaumont Financial Management Policy",
+      "packet_page_start": 68,
+      "packet_page_end": 81,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-03/item-g-6-02.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5494",
+      "packetBookmarkTitle": "G.6. Attachment A - Draft Updated City of Beaumont Financial Management Policy.pdf"
+    },
+    {
+      "item": "G.7",
+      "section": "Consent",
+      "title": "Staff Report - City of Beaumont Sponsorship and Donation Policy",
+      "itemTitle": "City of Beaumont Sponsorship and Donation Policy",
+      "packet_page_start": 82,
+      "packet_page_end": 82,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-03/item-g-7-01.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5495",
+      "packetBookmarkTitle": "G.7. Staff Report - City of Beaumont Sponsorship and Donation Policy.pdf"
+    },
+    {
+      "item": "G.7",
+      "section": "Consent",
+      "title": "Attachment A - City of Beaumont Sponsorship and Donation Policy   ",
+      "itemTitle": "City of Beaumont Sponsorship and Donation Policy",
+      "packet_page_start": 83,
+      "packet_page_end": 88,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-03/item-g-7-02.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5496",
+      "packetBookmarkTitle": "G.7. Attachment A - City of Beaumont Sponsorship and Donation Policy   .pdf"
+    },
+    {
+      "item": "G.8",
+      "section": "Consent",
+      "title": "Staff Report - Approval of Supplemental Agreement for 2024-2025 Community Development Block Grant (CDBG) Program",
+      "itemTitle": "Approval of Supplemental Agreement for 2024-2025 Community Development Block Grant (CDBG) Program",
+      "packet_page_start": 89,
+      "packet_page_end": 90,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-03/item-g-8-01.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5504",
+      "packetBookmarkTitle": "G.8. Staff Report - Approval of Supplemental Agreement for 2024-2025 Community Development Block Grant (CDBG) Program.pdf"
+    },
+    {
+      "item": "G.8",
+      "section": "Consent",
+      "title": "Attachment A - Supplemental Agreement for 2024-2025 CDBG Program ",
+      "itemTitle": "Approval of Supplemental Agreement for 2024-2025 Community Development Block Grant (CDBG) Program",
+      "packet_page_start": 91,
+      "packet_page_end": 127,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-03/item-g-8-02.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5505",
+      "packetBookmarkTitle": "G.8. Attachment A - Supplemental Agreement for 2024-2025 CDBG Program .pdf"
+    },
+    {
+      "item": "G.8",
+      "section": "Consent",
+      "title": "Attachment B - Supplemental Agreement Scope of Work (Exhibit A)",
+      "itemTitle": "Approval of Supplemental Agreement for 2024-2025 Community Development Block Grant (CDBG) Program",
+      "packet_page_start": 128,
+      "packet_page_end": 133,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-03/item-g-8-03.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5506",
+      "packetBookmarkTitle": "G.8. Attachment B - Supplemental Agreement Scope of Work (Exhibit A).pdf"
+    },
+    {
+      "item": "I.1",
+      "section": "Public Hearing",
+      "title": "Staff Report - Tri-Pointe continued hearing 12.03.24",
+      "itemTitle": "Continuation of a Public Hearing of Request to Appeal Notice of Finding Under Development Agreement",
+      "packet_page_start": 134,
+      "packet_page_end": 134,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-03/item-i-1-01.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5513",
+      "packetBookmarkTitle": "I.1. Staff Report - Tri-Pointe continued hearing 12.03.24.pdf"
+    },
+    {
+      "item": "I.2",
+      "section": "Public Hearing",
+      "title": "PP2024-0048 for TR32850",
+      "itemTitle": "Minor Plot Plan PP2024-0048 Plotting, Architecture and Floors Plan for Tract Map No. 32850 (APN:421-110-014)",
+      "packet_page_start": 135,
+      "packet_page_end": 136,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-03/item-i-2-01.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5514",
+      "packetBookmarkTitle": "I.2. PP2024-0048 for TR32850.pdf"
+    },
+    {
+      "item": "I.2",
+      "section": "Public Hearing",
+      "title": "Proof of Publication",
+      "itemTitle": "Minor Plot Plan PP2024-0048 Plotting, Architecture and Floors Plan for Tract Map No. 32850 (APN:421-110-014)",
+      "packet_page_start": 137,
+      "packet_page_end": 137,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-03/item-i-2-02.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5515",
+      "packetBookmarkTitle": "I.2. Proof of Publication.pdf"
+    },
+    {
+      "item": "J.1",
+      "section": "Action",
+      "title": "Truck Route Viability ",
+      "itemTitle": "Truck Route Viability",
+      "packet_page_start": 138,
+      "packet_page_end": 143,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-03/item-j-1-01.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5483",
+      "packetBookmarkTitle": "J.1. Truck Route Viability .pdf"
+    },
+    {
+      "item": "J.2",
+      "section": "Action",
+      "title": "Potrero Extension Benefit Area",
+      "itemTitle": "Potrero Extension Benefit Area",
+      "packet_page_start": 144,
+      "packet_page_end": 147,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-03/item-j-2-01.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5486",
+      "packetBookmarkTitle": "J.2. Potrero Extension Benefit Area.pdf"
+    },
+    {
+      "item": "J.2",
+      "section": "Action",
+      "title": "Attachment A - Industrial Projects Exhibit",
+      "itemTitle": "Potrero Extension Benefit Area",
+      "packet_page_start": 148,
+      "packet_page_end": 148,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-03/item-j-2-02.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5487",
+      "packetBookmarkTitle": "J.2. Attachment A - Industrial Projects Exhibit.pdf"
+    },
+    {
+      "item": "J.2",
+      "section": "Action",
+      "title": "Attachment B - Industrial Projects with Infrastructure Overlay Exhibit",
+      "itemTitle": "Potrero Extension Benefit Area",
+      "packet_page_start": 149,
+      "packet_page_end": 149,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-03/item-j-2-03.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5488",
+      "packetBookmarkTitle": "J.2. Attachment B - Industrial Projects with Infrastructure Overlay Exhibit.pdf"
+    },
+    {
+      "item": "J.2",
+      "section": "Action",
+      "title": "Attachment C - Nexus Study Scope and Fee",
+      "itemTitle": "Potrero Extension Benefit Area",
+      "packet_page_start": 150,
+      "packet_page_end": 154,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-03/item-j-2-04.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5489",
+      "packetBookmarkTitle": "J.2. Attachment C - Nexus Study Scope and Fee.pdf"
+    },
+    {
+      "item": "J.3",
+      "section": "Action",
+      "title": "Indemnity Agreement with Riverside County",
+      "itemTitle": "Indemnification Agreement for Fourth Street and Potrero Boulevard",
+      "packet_page_start": 155,
+      "packet_page_end": 156,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-03/item-j-3-01.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5490",
+      "packetBookmarkTitle": "J.3. Indemnity Agreement with Riverside County.pdf"
+    },
+    {
+      "item": "J.3",
+      "section": "Action",
+      "title": "Attachment A - Indemnification Agreement",
+      "itemTitle": "Indemnification Agreement for Fourth Street and Potrero Boulevard",
+      "packet_page_start": 157,
+      "packet_page_end": 225,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-03/item-j-3-02.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5491",
+      "packetBookmarkTitle": "J.3. Attachment A - Indemnification Agreement.pdf"
+    },
+    {
+      "item": "J.4",
+      "section": "Action",
+      "title": "Staff Report - Approval of Trustee Requisition 003 for Reimbursement of Bond Proceeds in the Amount of $8,863,651.89",
+      "itemTitle": "Approval of Trustee Requisition 003 for Reimbursement of Bond Proceeds in the Amount of $8,863,651.89",
+      "packet_page_start": 226,
+      "packet_page_end": 227,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-03/item-j-4-01.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5484",
+      "packetBookmarkTitle": "J.4. Staff Report - Approval of Trustee Requisition 003 for Reimbursement of Bond Proceeds in the Amount of $8,863,651.89.pdf"
+    },
+    {
+      "item": "J.4",
+      "section": "Action",
+      "title": "Attachment A - Written Requisition of City of Beaumont Community Facilities District No. 93-1",
+      "itemTitle": "Approval of Trustee Requisition 003 for Reimbursement of Bond Proceeds in the Amount of $8,863,651.89",
+      "packet_page_start": 228,
+      "packet_page_end": 261,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-03/item-j-4-02.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5485",
+      "packetBookmarkTitle": "J.4. Attachment A - Written Requisition of City of Beaumont Community Facilities District No. 93-1.pdf"
+    },
+    {
+      "item": "J.5",
+      "section": "Action",
+      "title": "Staff Report - Approval of Tri Pointe Homes Community Facilities District 93-1 Improvement Area 17D PayGo Funds ",
+      "itemTitle": "Approval of Tri Pointe Homes Community Facilities District 93-1 Improvement Area 17D PayGo Funds Reimbursement Request",
+      "packet_page_start": 262,
+      "packet_page_end": 263,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-03/item-j-5-01.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5502",
+      "packetBookmarkTitle": "J.5. Staff Report - Approval of Tri Pointe Homes Community Facilities District 93-1 Improvement Area 17D PayGo Funds .pdf"
+    },
+    {
+      "item": "J.5",
+      "section": "Action",
+      "title": "Attachment A - Tri Pointe Homes Reimbursement Request",
+      "itemTitle": "Approval of Tri Pointe Homes Community Facilities District 93-1 Improvement Area 17D PayGo Funds Reimbursement Request",
+      "packet_page_start": 264,
+      "packet_page_end": 267,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-03/item-j-5-02.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5503",
+      "packetBookmarkTitle": "J.5. Attachment A - Tri Pointe Homes Reimbursement Request.pdf"
+    },
+    {
+      "item": "M.1",
+      "section": "Reports",
+      "title": "FY25 Treasurers Reports receipts, disbursements and balances Governmental Funds(1)",
+      "itemTitle": "Treasurer Reports",
+      "packet_page_start": 268,
+      "packet_page_end": 268,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-03/item-m-1-01.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5507",
+      "packetBookmarkTitle": "M.1. FY25 Treasurers Reports receipts, disbursements and balances Governmental Funds(1).pdf"
+    },
+    {
+      "item": "M.1",
+      "section": "Reports",
+      "title": "FY25 Treasurers Reports receipts, disbursements and balances Proprietary Funds(1)",
+      "itemTitle": "Treasurer Reports",
+      "packet_page_start": 269,
+      "packet_page_end": 269,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-03/item-m-1-02.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5508",
+      "packetBookmarkTitle": "M.1. FY25 Treasurers Reports receipts, disbursements and balances Proprietary Funds(1).pdf"
+    },
+    {
+      "item": "M.1",
+      "section": "Reports",
+      "title": "FY25 Treasurers Reports receipts, disbursements and balances Fiduciary Funds(1)",
+      "itemTitle": "Treasurer Reports",
+      "packet_page_start": 270,
+      "packet_page_end": 270,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2024-12-03/item-m-1-03.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=5509",
+      "packetBookmarkTitle": "M.1. FY25 Treasurers Reports receipts, disbursements and balances Fiduciary Funds(1).pdf"
+    }
+  ],
+  "packetBytes": 48534816
+}
