@@ -1,0 +1,1831 @@
+{
+  "reviewedOn": "2026-11-13",
+  "reviewPage": "project-center-record-review.html",
+  "dates": [
+    "2025-03-04",
+    "2025-03-18",
+    "2025-04-01",
+    "2025-04-15"
+  ],
+  "additionalDates": [
+    "2026-11-17"
+  ],
+  "scope": "Four spring 2025 packets substantively reviewed, with targeted later project comparisons. Other collected agendas and searchable minutes receive a separate relevance screen, not a full attachment audit.",
+  "findings": [
+    {
+      "id": "project-review-potrero-funding",
+      "date": "2025-03-04",
+      "items": [
+        "I.1",
+        "J.1",
+        "J.2",
+        "J.3"
+      ],
+      "title": "Potrero Phase II: funding changes and the recorded motion",
+      "status": "Combined motion recorded; minutes omit a carried result",
+      "summary": "The minutes combine the fourth CIP amendment, RCTC agreement amendment, three-party construction-funding agreement and TUMF amendment. The CIP proposal adds $5 million General Fund, $600,000 WRCOG TUMF and $2,402,257 in Tri Pointe TUMF credits, with $13.5 million Pass Zone TUMF intended for construction.",
+      "limit": "The minutes name a mover and seconder but omit the result and vote tally for this combined motion. Obtain the adopted CIP and executed agreements before treating the entire proposal as verified final authority. TUMF credit is not unrestricted cash revenue.",
+      "pages": [
+        "potrero-interchange.html",
+        "potrero-interchange-council-actions.html",
+        "potrero-interchange-funding.html",
+        "potrero-interchange-design.html",
+        "potrero-interchange-construction.html",
+        "potrero-interchange-impact.html",
+        "potrero-interchange-evidence.html",
+        "budget.html",
+        "budget-council-actions.html",
+        "budget-funding.html",
+        "budget-evidence.html"
+      ],
+      "areas": [
+        "public-works-mobility",
+        "finance-government"
+      ],
+      "minutesPages": [
+        5,
+        6
+      ]
+    },
+    {
+      "id": "project-review-potrero-costs",
+      "date": "2025-03-04",
+      "items": [
+        "I.1",
+        "J.1",
+        "J.3"
+      ],
+      "title": "Potrero agreement estimate and CIP totals are different measures",
+      "status": "Staff-report accounting comparison",
+      "summary": "J.1 estimates the cooperative agreement at $75,819,000: $68,113,000 construction/construction management plus $7,706,000 PS&E/right-of-way. Its broader project table totals $79,306,257, pending the CIP amendment. I.1 shows a $79,252,046 component total and $71,904,000 current-budget caption; J.3 shows $78,952,046 with a $71,904,000 estimate caption.",
+      "limit": "The agreement estimate is not the whole CIP. Same-meeting captions and component totals are not internally uniform. Do not average them or pick a final project cost without the adopted CIP, RCTC agreement and reconciled ledger. These are historical estimates, not actual expenditure.",
+      "pages": [
+        "potrero-interchange.html",
+        "potrero-interchange-council-actions.html",
+        "potrero-interchange-funding.html",
+        "potrero-interchange-design.html",
+        "potrero-interchange-construction.html",
+        "potrero-interchange-impact.html",
+        "potrero-interchange-evidence.html",
+        "budget.html",
+        "budget-council-actions.html",
+        "budget-funding.html",
+        "budget-evidence.html",
+        "potrero-interchange-questions.html"
+      ],
+      "areas": [
+        "public-works-mobility",
+        "finance-government"
+      ],
+      "minutesPages": [
+        5,
+        6
+      ]
+    },
+    {
+      "id": "project-review-potrero-tumf",
+      "date": "2025-03-04",
+      "items": [
+        "J.2",
+        "J.3"
+      ],
+      "title": "Potrero TUMF: allocation versus reimbursement",
+      "status": "Terms proposed in the combined motion",
+      "summary": "J.3 proposes total Pass Zone TIP TUMF of $14.1 million. J.2 describes $13.5 million for construction, with WRCOG reimbursing RCTC directly after RCTC pays eligible costs. These figures have different scopes and are not two independent grants.",
+      "limit": "The combined minutes motion has no stated result. Executed agreements, eligible invoices and receipts remain to be checked. Project reimbursements do not establish restitution recovery or settlement payoff.",
+      "pages": [
+        "potrero-interchange.html",
+        "potrero-interchange-council-actions.html",
+        "potrero-interchange-funding.html",
+        "potrero-interchange-design.html",
+        "potrero-interchange-construction.html",
+        "potrero-interchange-impact.html",
+        "potrero-interchange-evidence.html",
+        "budget.html",
+        "budget-council-actions.html",
+        "budget-funding.html",
+        "budget-evidence.html",
+        "wrcog-restitution.html",
+        "wrcog-restitution-evidence.html"
+      ],
+      "areas": [
+        "public-works-mobility",
+        "finance-government"
+      ],
+      "minutesPages": [
+        6
+      ]
+    },
+    {
+      "id": "project-review-plus-ab98",
+      "date": "2025-03-04",
+      "items": [
+        "G.9"
+      ],
+      "title": "PLUS amended for AB 98",
+      "status": "Adopted unanimously in a separate motion",
+      "summary": "Council adopted PLAN2024-0134, the AB 98 amendments to the Policy on Land Use and Sensitive Receptors. G.9 was considered separately from the initial consent motion covering G.1-G.7.",
+      "limit": "This confirms the timeline milestone and adds its complete packet route. It does not establish project-level compliance, enforcement results or a later policy version.",
+      "pages": [
+        "land-policy.html",
+        "land-policy-council-actions.html",
+        "land-policy-history.html",
+        "land-policy-evidence.html"
+      ],
+      "areas": [
+        "growth-community-development"
+      ],
+      "minutesPages": [
+        7
+      ]
+    },
+    {
+      "id": "project-review-downtown-parking",
+      "date": "2025-03-04",
+      "items": [
+        "I.2"
+      ],
+      "title": "Downtown parking suspension: first reading",
+      "status": "First reading approved unanimously",
+      "summary": "Council approved the first reading extending the temporary parking suspension for existing non-residential downtown structures for up to 18 months.",
+      "limit": "This is not the second reading or an indefinitely continuing exemption. Check the final ordinance and effective/expiration dates before describing current parking requirements.",
+      "pages": [
+        "downtown-revitalization.html",
+        "downtown-revitalization-business.html",
+        "downtown-revitalization-council-actions.html",
+        "downtown-revitalization-funding.html",
+        "downtown-revitalization-evidence.html",
+        "downtown-revitalization-questions.html"
+      ],
+      "areas": [
+        "economic-development",
+        "growth-community-development"
+      ],
+      "minutesPages": [
+        7
+      ]
+    },
+    {
+      "id": "project-review-second-street-award",
+      "date": "2025-03-04",
+      "items": [
+        "J.5"
+      ],
+      "title": "Second Street Extension construction award",
+      "status": "Approved unanimously",
+      "summary": "Council awarded MDB General Engineering $3,799,709 plus $379,970 contingency, for combined authority of $4,179,679. The report describes the roughly 2,525-foot extension to Pennsylvania Avenue and the previously awarded $1 million federal grant.",
+      "limit": "The grant is the same funding recorded in the October/December 2024 items, not another award to add again. Contract authority does not establish final spending or completion.",
+      "pages": [
+        "budget.html",
+        "budget-council-actions.html",
+        "budget-funding.html",
+        "budget-evidence.html"
+      ],
+      "areas": [
+        "public-works-mobility",
+        "finance-government"
+      ],
+      "minutesPages": [
+        8,
+        9
+      ]
+    },
+    {
+      "id": "project-review-cherry-channel",
+      "date": "2025-03-04",
+      "items": [
+        "J.6"
+      ],
+      "title": "Cherry Channel modeling amendment and accounting discrepancy",
+      "status": "Approved unanimously",
+      "summary": "Council approved $9,600 of Chambers Group modeling work. The report states an original $164,566 environmental agreement and intended amended $174,166 contract, while its accounting table shows $174,566 encumbered.",
+      "limit": "Reconcile the $400 difference with the executed amendment and ledger. The discussion of approximately $1 million in possible mitigation credits is a forecast, not an approved purchase.",
+      "pages": [
+        "budget.html",
+        "budget-council-actions.html",
+        "budget-funding.html",
+        "budget-evidence.html"
+      ],
+      "areas": [
+        "public-works-mobility",
+        "utilities-environment",
+        "finance-government"
+      ],
+      "minutesPages": [
+        9
+      ]
+    },
+    {
+      "id": "project-review-fairway-initial-emergency",
+      "date": "2025-03-04",
+      "items": [],
+      "title": "Fairway Canyon emergency spending began at $500,000",
+      "status": "Late-added emergency item approved unanimously",
+      "summary": "The minutes record an emergency item added during the meeting, declaring a sewer-mainline emergency and authorizing expenditures up to $500,000 with continuing reports.",
+      "limit": "The late-added item is absent from the original packet inventory. The April increase to $1 million is cumulative, not $1 million plus the original $500,000. Spending requires ledger evidence.",
+      "pages": [
+        "budget.html",
+        "budget-council-actions.html",
+        "budget-funding.html",
+        "budget-evidence.html"
+      ],
+      "areas": [
+        "utilities-environment",
+        "finance-government"
+      ],
+      "minutesPages": [
+        3,
+        8
+      ]
+    },
+    {
+      "id": "project-review-event-waiver-tabled",
+      "date": "2025-03-04",
+      "items": [
+        "J.7"
+      ],
+      "title": "Special-event fee-waiver MOU was tabled",
+      "status": "Tabled without discussion",
+      "summary": "The proposed BCVRPD facility/park event fee-waiver MOU and resolution were tabled, rather than approved as recommended.",
+      "limit": "Do not treat the draft as executed or infer fees were waived. A later approval needs its own dated record.",
+      "pages": [
+        "budget.html",
+        "budget-council-actions.html",
+        "budget-funding.html",
+        "budget-evidence.html"
+      ],
+      "areas": [
+        "parks-community-services",
+        "finance-government"
+      ],
+      "minutesPages": [
+        9
+      ]
+    },
+    {
+      "id": "project-review-sales-tax-audit",
+      "date": "2025-03-04",
+      "items": [
+        "J.9"
+      ],
+      "title": "Sales-tax audit budget and purchase-order increase",
+      "status": "Approved unanimously",
+      "summary": "The motion records a $960,115 sales-tax revenue amendment, $960,115.60 contractual-services amendment and $960,115.60 purchase-order increase for Hinderliter de Llamas & Associates.",
+      "limit": "Preserve the $0.60 difference and check the final adjustment. Approval is not payment evidence or unrestricted net revenue.",
+      "pages": [
+        "budget.html",
+        "budget-council-actions.html",
+        "budget-funding.html",
+        "budget-evidence.html"
+      ],
+      "areas": [
+        "finance-government"
+      ],
+      "minutesPages": [
+        10
+      ]
+    },
+    {
+      "id": "project-review-planning-directions",
+      "date": "2025-03-04",
+      "items": [
+        "J.10",
+        "J.11",
+        "J.12",
+        "J.13"
+      ],
+      "title": "Planning changes moved toward later hearings",
+      "status": "Directions and noticing, not completed adoptions",
+      "summary": "Council directed a home-occupation hearing process, requested short-term-rental information and directed notice of off-site-improvement and Planning Commission ordinance amendments.",
+      "limit": "These directions did not themselves adopt all ordinances. Track the April 1 first reading, April 15 second reading for Chapter 2.24 and separate off-site-improvement action.",
+      "pages": [
+        "land-policy.html",
+        "land-policy-council-actions.html",
+        "land-policy-history.html",
+        "land-policy-evidence.html"
+      ],
+      "areas": [
+        "growth-community-development"
+      ],
+      "minutesPages": [
+        10,
+        11
+      ]
+    },
+    {
+      "id": "project-review-appropriations-requests",
+      "date": "2025-03-18",
+      "items": [
+        "J.7"
+      ],
+      "title": "Federal project requests: Pennsylvania, Downtown and police campus",
+      "status": "Submission list approved unanimously",
+      "summary": "Attachment A requests $5 million for Pennsylvania grade separation, $2 million for Downtown revitalization and $2 million for a Public Safety and Cultural Complex master plan anchored by a new police station. It also lists $5 million for wildfire/infrastructure resilience and $2 million for a wastewater microgrid.",
+      "limit": "These are requests, not grants received or available construction funds. The 30-acre campus is a planning concept, not a final station footprint. Later awards must be checked separately.",
+      "pages": [
+        "pennsylvania-grade-separation.html",
+        "pennsylvania-grade-separation-council-actions.html",
+        "pennsylvania-grade-separation-funding.html",
+        "pennsylvania-grade-separation-design.html",
+        "pennsylvania-grade-separation-schedule.html",
+        "pennsylvania-grade-separation-evidence.html",
+        "downtown-revitalization.html",
+        "downtown-revitalization-business.html",
+        "downtown-revitalization-council-actions.html",
+        "downtown-revitalization-funding.html",
+        "downtown-revitalization-evidence.html",
+        "police.html",
+        "police-facilities.html",
+        "police-evidence.html",
+        "budget.html",
+        "budget-council-actions.html",
+        "budget-funding.html",
+        "budget-evidence.html"
+      ],
+      "areas": [
+        "public-works-mobility",
+        "economic-development",
+        "public-safety",
+        "utilities-environment",
+        "finance-government"
+      ],
+      "minutesPages": [
+        6
+      ],
+      "documentTitles": [
+        "Attachment A - Detailed Project Descriptions"
+      ]
+    },
+    {
+      "id": "project-review-bond-refunding",
+      "date": "2025-03-18",
+      "items": [
+        "J.2",
+        "J.3"
+      ],
+      "title": "CFD refunding criteria and separate bond authorization",
+      "status": "Consensus on criteria; issuance approved unanimously",
+      "summary": "Council directed a 3% savings threshold and $200 savings in year two to screen refundings, with final transactions to return. Separately, it authorized CFD 2016-3 Series 2025 bonds up to $7.5 million and an acquisition-agreement amendment.",
+      "limit": "Screening criteria are not blanket refunding approval. An issuance ceiling is not the actual closing amount, cash receipt or expenditure.",
+      "pages": [
+        "budget.html",
+        "budget-council-actions.html",
+        "budget-funding.html",
+        "budget-evidence.html"
+      ],
+      "areas": [
+        "finance-government"
+      ],
+      "minutesPages": [
+        5
+      ]
+    },
+    {
+      "id": "project-review-cherry-festival",
+      "date": "2025-03-18",
+      "items": [
+        "J.5",
+        "J.6"
+      ],
+      "title": "Cherry Festival: recorded $100,000 differs from the proposal",
+      "status": "Sponsorship and parade approved unanimously",
+      "summary": "The minutes describe a $350,000 request but approve the already budgeted $100,000 through the balance of the entertainment invoice, with further contributions to return. Council also approved City hosting of the parade.",
+      "limit": "The packet recommended $135,000, which is not the recorded sponsorship amount. Check the later MOU and payments before calculating total event spending.",
+      "pages": [
+        "budget.html",
+        "budget-council-actions.html",
+        "budget-funding.html",
+        "budget-evidence.html",
+        "downtown-revitalization.html",
+        "downtown-revitalization-business.html",
+        "downtown-revitalization-council-actions.html",
+        "downtown-revitalization-funding.html",
+        "downtown-revitalization-evidence.html"
+      ],
+      "areas": [
+        "parks-community-services",
+        "economic-development",
+        "finance-government"
+      ],
+      "minutesPages": [
+        6
+      ]
+    },
+    {
+      "id": "project-review-audit-contract",
+      "date": "2025-03-18",
+      "items": [
+        "J.9"
+      ],
+      "title": "Five-year financial audit services agreement",
+      "status": "Approved unanimously",
+      "summary": "Council approved $337,125 over five years for Rogers, Anderson, Malody and Scott audit services, with annual engagement letters authorized.",
+      "limit": "This is the five-year total, not an annual cost. Completed audits, engagement letters and payments need separate records.",
+      "pages": [
+        "budget.html",
+        "budget-council-actions.html",
+        "budget-funding.html",
+        "budget-evidence.html"
+      ],
+      "areas": [
+        "finance-government"
+      ],
+      "minutesPages": [
+        7
+      ]
+    },
+    {
+      "id": "project-review-wastewater-rebid",
+      "date": "2025-03-18",
+      "items": [
+        "J.11",
+        "J.12"
+      ],
+      "title": "Wastewater bids rejected; emergency reporting continued",
+      "status": "Rebid approved unanimously; follow-up directed by consensus",
+      "summary": "Council rejected WW24-01 Bid Package 1 bids and authorized revised documents and re-advertisement. The emergency item separately required another response, expenditure and timeline report.",
+      "limit": "Rejecting bids is not an award or completion. Continued emergency reporting does not itself create another spending authorization.",
+      "pages": [
+        "budget.html",
+        "budget-council-actions.html",
+        "budget-funding.html",
+        "budget-evidence.html"
+      ],
+      "areas": [
+        "utilities-environment",
+        "finance-government"
+      ],
+      "minutesPages": [
+        8
+      ]
+    },
+    {
+      "id": "project-review-police-equipment",
+      "date": "2025-04-01",
+      "items": [
+        "G.4"
+      ],
+      "title": "Police specialized-equipment inventory received",
+      "status": "Consent approved unanimously",
+      "summary": "Council received the annual specialized-equipment inventory and fiscal-impact report.",
+      "limit": "Receiving an inventory does not authorize new purchases or complete the separate station project. Use the attachment for inventory and cost details.",
+      "pages": [
+        "police.html",
+        "police-operations.html",
+        "police-evidence.html"
+      ],
+      "areas": [
+        "public-safety",
+        "finance-government"
+      ],
+      "minutesPages": [
+        3,
+        4
+      ]
+    },
+    {
+      "id": "project-review-fairway-million",
+      "date": "2025-04-01",
+      "items": [
+        "J.1"
+      ],
+      "title": "Fairway Canyon emergency ceiling increased to $1 million",
+      "status": "Approved unanimously",
+      "summary": "Council increased City Manager authority by $500,000 to a cumulative $1,000,000 and extended the emergency declaration, with another follow-up required.",
+      "limit": "The ceiling includes the March $500,000. It does not prove $1 million was spent or repairs completed.",
+      "pages": [
+        "budget.html",
+        "budget-council-actions.html",
+        "budget-funding.html",
+        "budget-evidence.html"
+      ],
+      "areas": [
+        "utilities-environment",
+        "finance-government"
+      ],
+      "minutesPages": [
+        4,
+        5
+      ]
+    },
+    {
+      "id": "project-review-mesa-water",
+      "date": "2025-04-01",
+      "items": [
+        "J.2"
+      ],
+      "title": "Mesa Lift Station water-service agreement and bonds",
+      "status": "Approved unanimously",
+      "summary": "Council authorized the BCVWD service agreement and performance/payment bonds of $103,162.50 for the Mesa Lift Station Upgrade Project.",
+      "limit": "Bond face value is security, not necessarily cash expenditure to add to construction costs. Check the agreement, premiums and payments.",
+      "pages": [
+        "budget.html",
+        "budget-council-actions.html",
+        "budget-funding.html",
+        "budget-evidence.html"
+      ],
+      "areas": [
+        "utilities-environment",
+        "finance-government"
+      ],
+      "minutesPages": [
+        5
+      ]
+    },
+    {
+      "id": "project-review-beaumont-nights",
+      "date": "2025-04-01",
+      "items": [
+        "J.4"
+      ],
+      "title": "Beaumont Nights: season estimate and fee-process direction",
+      "status": "Approved unanimously",
+      "summary": "Staff estimates $305,106 in non-personnel operating expenses and $202,995 personnel for the 2025 season, totaling $508,101. Council directed notice of a vendor fee/deposit hearing and allowed alcohol sales subject to ABC licensing.",
+      "limit": "This is a season estimate spanning fiscal-year budgets, not actual expenditure or a three-year total. Notice of a fee hearing is not fee adoption. Check invoices, payroll allocation and later decisions.",
+      "pages": [
+        "budget.html",
+        "budget-council-actions.html",
+        "budget-funding.html",
+        "budget-evidence.html",
+        "downtown-revitalization.html",
+        "downtown-revitalization-business.html",
+        "downtown-revitalization-council-actions.html",
+        "downtown-revitalization-funding.html",
+        "downtown-revitalization-evidence.html",
+        "budget-questions.html"
+      ],
+      "areas": [
+        "parks-community-services",
+        "economic-development",
+        "finance-government"
+      ],
+      "minutesPages": [
+        6
+      ]
+    },
+    {
+      "id": "project-review-pennsylvania-grants",
+      "date": "2025-04-15",
+      "items": [
+        "G.6"
+      ],
+      "title": "Pennsylvania grants: pending requests versus awards",
+      "status": "Quarterly report received through unanimous consent",
+      "summary": "The Q3 summary lists $25 million applied for January 30 and $5 million applied for March 27. The scanned pending table also lists a $50.4 million TCEP request. A $22.6 million STBG request appears in the future-quarter outlook.",
+      "limit": "These are requests in the March 31 snapshot, not funds to sum. The summary calls the January request RAISE while detail calls it BUILD; identify the application rather than counting both names. Later 2026 funding/withdrawal records supersede these statuses.",
+      "pages": [
+        "pennsylvania-grade-separation.html",
+        "pennsylvania-grade-separation-council-actions.html",
+        "pennsylvania-grade-separation-funding.html",
+        "pennsylvania-grade-separation-design.html",
+        "pennsylvania-grade-separation-schedule.html",
+        "pennsylvania-grade-separation-evidence.html",
+        "budget.html",
+        "budget-council-actions.html",
+        "budget-funding.html",
+        "budget-evidence.html",
+        "pennsylvania-grade-separation-questions.html"
+      ],
+      "areas": [
+        "public-works-mobility",
+        "finance-government"
+      ],
+      "minutesPages": [
+        3
+      ],
+      "documentTitles": [
+        "Attachment A - Q3 2025 Quarterly Report",
+        "Attachment C - Pending Grant Applications Detail"
+      ]
+    },
+    {
+      "id": "project-review-stewart-orlp",
+      "date": "2025-04-15",
+      "items": [
+        "G.6"
+      ],
+      "title": "Stewart Park ORLP: historical $3.1 million listing",
+      "status": "Historical register; consent approved unanimously",
+      "summary": "The scanned Active Grants Detail lists a $3.1 million Outdoor Recreation Legacy Program grant for Stewart Park, dated September 25, 2024, with December 31, 2027 end date.",
+      "limit": "This is a Q3 FY2024-25 register snapshot, not cash received or a current balance. Keep it distinct from the later $2.5 million preserved-funding figure; do not add the two as independent grants.",
+      "pages": [
+        "stewart-park.html",
+        "stewart-park-funding.html",
+        "stewart-park-history.html",
+        "stewart-park-council-actions.html",
+        "stewart-park-evidence.html",
+        "stewart-park-features.html",
+        "budget.html",
+        "budget-council-actions.html",
+        "budget-funding.html",
+        "budget-evidence.html"
+      ],
+      "areas": [
+        "parks-community-services",
+        "finance-government"
+      ],
+      "minutesPages": [
+        3
+      ],
+      "documentTitles": [
+        "Attachment B - Active Grants Detail"
+      ]
+    },
+    {
+      "id": "project-review-sb125-project-label",
+      "date": "2025-04-15",
+      "items": [
+        "G.6"
+      ],
+      "title": "SB 125 project labels need reconciliation",
+      "status": "Conflicting attribution across dated records",
+      "summary": "Active Grants Detail labels a $5 million SB 125/TIRCP award as Potrero, dated July 23, 2024. The October 15, 2024 CIP report attributes a $5 million SB 125 increase to Pennsylvania grade separation.",
+      "limit": "This is a project-label discrepancy, not evidence of two awards. Obtain the allocation resolution, award agreement and project ledger before reassigning funds or increasing confirmed funding.",
+      "pages": [
+        "pennsylvania-grade-separation.html",
+        "pennsylvania-grade-separation-council-actions.html",
+        "pennsylvania-grade-separation-funding.html",
+        "pennsylvania-grade-separation-design.html",
+        "pennsylvania-grade-separation-schedule.html",
+        "pennsylvania-grade-separation-evidence.html",
+        "potrero-interchange.html",
+        "potrero-interchange-council-actions.html",
+        "potrero-interchange-funding.html",
+        "potrero-interchange-design.html",
+        "potrero-interchange-construction.html",
+        "potrero-interchange-impact.html",
+        "potrero-interchange-evidence.html",
+        "budget.html",
+        "budget-council-actions.html",
+        "budget-funding.html",
+        "budget-evidence.html",
+        "pennsylvania-grade-separation-questions.html",
+        "potrero-interchange-questions.html"
+      ],
+      "areas": [
+        "public-works-mobility",
+        "finance-government"
+      ],
+      "minutesPages": [
+        3
+      ],
+      "documentTitles": [
+        "Attachment B - Active Grants Detail"
+      ],
+      "documentPages": {
+        "Attachment B - Active Grants Detail": 4
+      },
+      "relatedSources": [
+        {
+          "title": "October 15, 2024 CIP report: Pennsylvania SB 125 allocation (packet page 55)",
+          "url": "https://documents.beaumontintelligence.com/official-documents/2024-10-15/item-f-1-01.pdf",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "id": "project-review-potrero-landscape",
+      "date": "2025-04-15",
+      "items": [
+        "J.5"
+      ],
+      "title": "Potrero landscaping creates an operating obligation",
+      "status": "Approved unanimously",
+      "summary": "Council approved the Caltrans maintenance agreement. Staff describes three years of plant establishment plus 17 years of maintenance, for 20 years, with costs from Community Services operations.",
+      "limit": "This is not completion or a quantified maintenance appropriation. Caltrans takeover after 20 years requires coordination, not automatic termination. Obtain execution, mapped areas and costs.",
+      "pages": [
+        "potrero-interchange.html",
+        "potrero-interchange-council-actions.html",
+        "potrero-interchange-funding.html",
+        "potrero-interchange-design.html",
+        "potrero-interchange-construction.html",
+        "potrero-interchange-impact.html",
+        "potrero-interchange-evidence.html",
+        "budget.html",
+        "budget-council-actions.html",
+        "budget-funding.html",
+        "budget-evidence.html"
+      ],
+      "areas": [
+        "public-works-mobility",
+        "parks-community-services",
+        "finance-government"
+      ],
+      "minutesPages": [
+        8
+      ]
+    },
+    {
+      "id": "project-review-crc-parking",
+      "date": "2025-04-15",
+      "items": [
+        "J.6"
+      ],
+      "title": "CRC overflow parking: Council chose Option 1 conditionally",
+      "status": "Approved 3-2; Martinez and Lara opposed",
+      "summary": "Council authorized Option 1 if within budget, rather than the recommended Option 3 study. Staff identifies $224,400 allocated to P-23 and says Option 1 lights the pedestrian path without adequately lighting the full lot.",
+      "limit": "Budget, SCE approvals and completion remain separate checks. This is Community Recreation Center parking, not Stewart Park construction.",
+      "pages": [
+        "budget.html",
+        "budget-council-actions.html",
+        "budget-funding.html",
+        "budget-evidence.html"
+      ],
+      "areas": [
+        "parks-community-services",
+        "finance-government"
+      ],
+      "minutesPages": [
+        9
+      ]
+    },
+    {
+      "id": "project-review-fire-ladder",
+      "date": "2025-04-15",
+      "items": [
+        "J.4"
+      ],
+      "title": "Ladder truck direction uses an existing purchase request",
+      "status": "Approved 4-0; Voigt recused",
+      "summary": "Council directed County Fire to acquire an identified truck to fulfill the existing request. Staff cites the earlier $2,205,646.81 purchase order and says no new funding is requested.",
+      "limit": "Do not count the earlier purchase order as a new April appropriation or infer delivery, staffing or deployment.",
+      "pages": [
+        "budget.html",
+        "budget-council-actions.html",
+        "budget-funding.html",
+        "budget-evidence.html"
+      ],
+      "areas": [
+        "public-safety",
+        "finance-government"
+      ],
+      "minutesPages": [
+        8
+      ]
+    },
+    {
+      "id": "project-review-planning-follow-through",
+      "date": "2025-04-15",
+      "items": [
+        "I.2",
+        "I.3",
+        "I.4",
+        "G.10"
+      ],
+      "title": "Planning follow-through: relief and continued hearings",
+      "status": "Mixed dispositions kept separate",
+      "summary": "Council unanimously approved the off-site-improvement suspension motion and Chapter 2.24 second reading. Noble Creek Vistas repeal continued to June 3; home occupations continued to May 6.",
+      "limit": "Continuances do not adopt a repeal or home-occupation amendment. This is not a PLUS amendment. Check final instruments and later decisions for current requirements.",
+      "pages": [
+        "land-policy.html",
+        "land-policy-council-actions.html",
+        "land-policy-history.html",
+        "land-policy-evidence.html"
+      ],
+      "areas": [
+        "growth-community-development"
+      ],
+      "minutesPages": [
+        3,
+        4,
+        6,
+        7
+      ]
+    },
+    {
+      "id": "project-review-procurement-grants",
+      "date": "2025-04-15",
+      "items": [
+        "G.5",
+        "G.6",
+        "I.1"
+      ],
+      "title": "Procurement and grant reports are not new awards",
+      "status": "Consent reports received; CUCCAC acknowledgment result unstated",
+      "summary": "Council received purchase/contract and grant reports. The grant summary distinguishes $63,890,896.29 listed active grants, $91,900,831.70 pending applications and $108,000 awarded in the period. The CUCCAC item records a motion to acknowledge its February 14 letter.",
+      "limit": "Different populations must not be added as available cash. The CUCCAC minutes omit the result; acknowledgment alone does not resolve its issues. Check awards, procurement records and corrective actions.",
+      "pages": [
+        "budget.html",
+        "budget-council-actions.html",
+        "budget-funding.html",
+        "budget-evidence.html"
+      ],
+      "areas": [
+        "finance-government"
+      ],
+      "minutesPages": [
+        3,
+        5
+      ]
+    },
+    {
+      "id": "project-review-compensation-study",
+      "date": "2025-04-15",
+      "items": [
+        "J.8"
+      ],
+      "title": "Classification and compensation study ceiling",
+      "status": "Approved unanimously",
+      "summary": "Council awarded Evergreen Solutions $152,000 for one year plus $30,400 contingency, totaling $182,400 authority.",
+      "limit": "The total already includes contingency. The award does not establish completed deliverables, salary changes or actual spending.",
+      "pages": [
+        "budget.html",
+        "budget-council-actions.html",
+        "budget-funding.html",
+        "budget-evidence.html"
+      ],
+      "areas": [
+        "finance-government"
+      ],
+      "minutesPages": [
+        9,
+        10
+      ]
+    },
+    {
+      "id": "project-review-stewart-latest-packet",
+      "date": "2026-11-17",
+      "items": [
+        "J.3"
+      ],
+      "title": "Stewart Park: November proposal refreshes schedule evidence",
+      "status": "Upcoming recommendation; no outcome claimed",
+      "summary": "The November 17 report says Phase II design is complete and seeks plans/specifications approval and bid solicitation. It anticipates 45 days of advertising and January 2027 bids. It reports Phase I progress and a March 2027 contractual completion schedule, with weather-delay risk.",
+      "limit": "This upcoming-meeting report is not bid authorization, an issued notice, award or confirmed completion. It is more specific than the October forecast. Verify the actual disposition and issued bid notice.",
+      "pages": [
+        "stewart-park.html",
+        "stewart-park-funding.html",
+        "stewart-park-history.html",
+        "stewart-park-council-actions.html",
+        "stewart-park-evidence.html",
+        "stewart-park-features.html",
+        "stewart-park-questions.html"
+      ],
+      "areas": [
+        "parks-community-services"
+      ],
+      "minutesPages": [],
+      "evidenceBasis": "Upcoming agenda and staff report",
+      "documentTitles": [
+        "Staff Report - Stewart Park Phase 2 Plans and Specifications"
+      ]
+    },
+    {
+      "id": "project-review-october-draft-minutes",
+      "date": "2026-11-17",
+      "items": [
+        "G.1"
+      ],
+      "title": "October 20 draft minutes are collected; approval pending",
+      "status": "Draft supplied for November 17 approval",
+      "summary": "The packet includes draft October 20 minutes. The station motion records $219,752 Phase I services plus $21,975 contingency, totaling $241,727, with later phases subject to funding and Council authorization. The Downtown draft records direction to proceed and amend the STB agreement.",
+      "limit": "These drafts do not establish approved minutes as of November 13 or corrected executed contracts. The $18,000 option exclusion and corrected Downtown $68,850 design total remain tied to transcript discussion; do not attribute those corrections to a draft clause that does not state them.",
+      "pages": [
+        "police.html",
+        "police-facilities.html",
+        "police-evidence.html",
+        "downtown-revitalization.html",
+        "downtown-revitalization-business.html",
+        "downtown-revitalization-council-actions.html",
+        "downtown-revitalization-funding.html",
+        "downtown-revitalization-evidence.html",
+        "budget.html",
+        "budget-council-actions.html",
+        "budget-funding.html",
+        "budget-evidence.html"
+      ],
+      "areas": [
+        "public-safety",
+        "economic-development",
+        "finance-government"
+      ],
+      "minutesPages": [
+        8,
+        9
+      ],
+      "minutesUrl": "https://documents.beaumontintelligence.com/official-documents/2026-11-17/g-1-cc-minutes-10-20-2026.pdf",
+      "minutesLabel": "Draft October 20 minutes",
+      "documentTitles": [
+        "CC Minutes 10.20.2026"
+      ]
+    },
+    {
+      "id": "project-review-police-november-equipment",
+      "date": "2026-11-17",
+      "items": [
+        "G.9",
+        "G.10"
+      ],
+      "title": "Police network and Axon proposals include separate costs and scope checks",
+      "status": "Upcoming recommendations; no approval or payment claimed",
+      "summary": "Staff proposes $125,636.94 for the CDCE police-vehicle network upgrade and a separate $130,314.94 Axon addition. The existing packet review identifies bundled AI Assistant/Draft One services of $40,512 in the Axon quote, a 50-month quote term and June 2028 payment date versus the staff report's four-year description and July 2028 payment timing.",
+      "limit": "These are separate proposed agreements, not police-station construction or actual expenditure. Clarify the authorized service scope and controlling payment schedule; the quote total agreeing with the report does not resolve the term and scope differences. No November 17 outcome is recorded here.",
+      "pages": [
+        "police.html",
+        "police-operations.html",
+        "police-evidence.html",
+        "budget.html",
+        "budget-council-actions.html",
+        "budget-funding.html",
+        "budget-evidence.html"
+      ],
+      "areas": [
+        "public-safety",
+        "finance-government"
+      ],
+      "minutesPages": [],
+      "documentTitles": [
+        "Staff Report - Police Vehicles Network Device Upgrade",
+        "Staff Report - Approve the Purchase of Additional Body-Worn Cameras and Licenses",
+        "Attachment A - Axon BWC"
+      ]
+    },
+    {
+      "id": "project-review-budget-november-adjustments",
+      "date": "2026-11-17",
+      "items": [
+        "G.16"
+      ],
+      "title": "November budget proposal: adjustment total and description conflict",
+      "status": "Upcoming recommendation; financial results attributed to staff",
+      "summary": "Staff reports $15.2 million General Fund first-quarter spending, about 19.3% of the $78.5 million budget. Its recommended adjustment table totals $1,643,493. The collected packet review notes that a $53,000 Planning adjustment is labeled Weed Abatement in the summary but Golden Triangle annexation professional services on the adjustment form.",
+      "limit": "Do not label the entire adjustment as new City spending: distinguish appropriations, transfers and coding corrections. Finance needs to reconcile the $53,000 description. The published proposal does not establish Council approval, payment or a revised adopted budget.",
+      "pages": [
+        "budget.html",
+        "budget-council-actions.html",
+        "budget-funding.html",
+        "budget-evidence.html"
+      ],
+      "areas": [
+        "finance-government"
+      ],
+      "minutesPages": [],
+      "documentTitles": [
+        "Staff Report - 1st Quarter FY27 Budget vs. Actuals",
+        "Attachment A - Budget Adjustment 1st QTR"
+      ]
+    },
+    {
+      "id": "project-review-vactor-proposal",
+      "date": "2026-11-17",
+      "items": [
+        "J.2"
+      ],
+      "title": "Vactor truck proposal stays separate from the wastewater project budget",
+      "status": "Upcoming purchase request; no outcome claimed",
+      "summary": "Staff requests $741,255.35 for a Vactor sewer-cleaning truck through Haaker Equipment Company and Sourcewell. The report identifies an $826,699 budget for WW27-01 from Wastewater Repair and Replace funds.",
+      "limit": "The $85,443.65 difference is arithmetic against the project budget, not proof of uncommitted funds or realized savings. A purchase request is not an executed order, delivery or actual expenditure.",
+      "pages": [
+        "budget.html",
+        "budget-council-actions.html",
+        "budget-funding.html",
+        "budget-evidence.html"
+      ],
+      "areas": [
+        "utilities-environment",
+        "finance-government"
+      ],
+      "minutesPages": []
+    }
+  ],
+  "coverage": [
+    {
+      "date": "2025-03-04",
+      "item": "B.1",
+      "title": "Conference with Legal Counsel Regarding Existing Litigation Pursuant to Government Code Section 54956.9(d)(1)",
+      "section": "Closed Session",
+      "findings": []
+    },
+    {
+      "date": "2025-03-04",
+      "item": "B.2",
+      "title": "Conference with Legal Counsel Regarding Existing Litigation Pursuant to Government Code Section 54956.9(d)(1)",
+      "section": "Closed Session",
+      "findings": []
+    },
+    {
+      "date": "2025-03-04",
+      "item": "B.3",
+      "title": "Conference with Legal Counsel Regarding Existing Litigation Pursuant to Government Code Section 54956.9(d)(1)",
+      "section": "Closed Session",
+      "findings": []
+    },
+    {
+      "date": "2025-03-04",
+      "item": "B.4",
+      "title": "Conference with Legal Counsel Regarding Existing Litigation Pursuant to Government Code Section 54956.9(d)(1)",
+      "section": "Closed Session",
+      "findings": []
+    },
+    {
+      "date": "2025-03-04",
+      "item": "B.5",
+      "title": "Conference with Real Property Negotiators Pursuant to Government Code Section 54956.8",
+      "section": "Closed Session",
+      "findings": []
+    },
+    {
+      "date": "2025-03-04",
+      "item": "E.1",
+      "title": "Red Cross Month Proclamation",
+      "section": "Presentation",
+      "findings": []
+    },
+    {
+      "date": "2025-03-04",
+      "item": "E.2",
+      "title": "Southern California Edison Wildfire Mitigation Plan Update",
+      "section": "Presentation",
+      "findings": []
+    },
+    {
+      "date": "2025-03-04",
+      "item": "E.3",
+      "title": "Chief Thuilliez Recognition and Farewell",
+      "section": "Presentation",
+      "findings": []
+    },
+    {
+      "date": "2025-03-04",
+      "item": "G.1",
+      "title": "Ratification of Warrants",
+      "section": "Consent",
+      "findings": []
+    },
+    {
+      "date": "2025-03-04",
+      "item": "G.2",
+      "title": "Approval of Minutes",
+      "section": "Consent",
+      "findings": []
+    },
+    {
+      "date": "2025-03-04",
+      "item": "G.3",
+      "title": "Declaration of Surplus Property",
+      "section": "Consent",
+      "findings": []
+    },
+    {
+      "date": "2025-03-04",
+      "item": "G.4",
+      "title": "Accept Public Improvements and Exonerate Maintenance Bond",
+      "section": "Consent",
+      "findings": []
+    },
+    {
+      "date": "2025-03-04",
+      "item": "G.5",
+      "title": "Improvement Agreement and Security",
+      "section": "Consent",
+      "findings": []
+    },
+    {
+      "date": "2025-03-04",
+      "item": "G.6",
+      "title": "Offer of Dedication for Public Street and Public Utilities",
+      "section": "Consent",
+      "findings": []
+    },
+    {
+      "date": "2025-03-04",
+      "item": "G.7",
+      "title": "Improvement Agreement and Security",
+      "section": "Consent",
+      "findings": []
+    },
+    {
+      "date": "2025-03-04",
+      "item": "G.8",
+      "title": "City of Beaumont Travel Expense and Reimbursement Policy",
+      "section": "Consent",
+      "findings": []
+    },
+    {
+      "date": "2025-03-04",
+      "item": "G.9",
+      "title": "PLAN2024-0134 – Assembly Bill 98 Revisions to the Policy on Land Use and Sensitive Receptors (PLUS)",
+      "section": "Consent",
+      "findings": [
+        "project-review-plus-ab98"
+      ]
+    },
+    {
+      "date": "2025-03-04",
+      "item": "I.1",
+      "title": "Public Hearing and Consideration of a Resolution for the Fourth Amendment to the City’s Fiscal Year 2025-2029 Capital Improvement Plan",
+      "section": "Public Hearing",
+      "findings": [
+        "project-review-potrero-funding",
+        "project-review-potrero-costs"
+      ]
+    },
+    {
+      "date": "2025-03-04",
+      "item": "I.2",
+      "title": "Public Hearing of Proposed Parking Suspension Extension Temporarily Terminating Off-Street Parking Requirements for Existing Non-Residential Structures in the Downtown District as Identified in the Downtown Districts Map",
+      "section": "Public Hearing",
+      "findings": [
+        "project-review-downtown-parking"
+      ]
+    },
+    {
+      "date": "2025-03-04",
+      "item": "J.1",
+      "title": "Amendment to Cooperative Agreement for Potrero Boulevard Interchange Phase II Project",
+      "section": "Action",
+      "findings": [
+        "project-review-potrero-funding",
+        "project-review-potrero-costs"
+      ]
+    },
+    {
+      "date": "2025-03-04",
+      "item": "J.2",
+      "title": "Cooperative Agreement for Potrero Interchange",
+      "section": "Action",
+      "findings": [
+        "project-review-potrero-funding",
+        "project-review-potrero-tumf"
+      ]
+    },
+    {
+      "date": "2025-03-04",
+      "item": "J.3",
+      "title": "Amendment to TUMF Reimbursement Agreement",
+      "section": "Action",
+      "findings": [
+        "project-review-potrero-funding",
+        "project-review-potrero-costs",
+        "project-review-potrero-tumf"
+      ]
+    },
+    {
+      "date": "2025-03-04",
+      "item": "J.4",
+      "title": "Cooperative Agreement for Beaumont Ave Interchange",
+      "section": "Action",
+      "findings": []
+    },
+    {
+      "date": "2025-03-04",
+      "item": "J.5",
+      "title": "Public Works Agreement for the Construction of the Second Street Extension",
+      "section": "Action",
+      "findings": [
+        "project-review-second-street-award"
+      ]
+    },
+    {
+      "date": "2025-03-04",
+      "item": "J.6",
+      "title": "Amendment to Contract with the Chambers Group",
+      "section": "Action",
+      "findings": [
+        "project-review-cherry-channel"
+      ]
+    },
+    {
+      "date": "2025-03-04",
+      "item": "J.7",
+      "title": "Approval of Memorandum of Understanding (MOU) and Adoption of Resolution between the City of Beaumont and the Beaumont—Cherry Valley Recreation and Park District for Special Event Fee Waivers",
+      "section": "Action",
+      "findings": [
+        "project-review-event-waiver-tabled"
+      ]
+    },
+    {
+      "date": "2025-03-04",
+      "item": "J.8",
+      "title": "Approval of Financing Team for Upcoming Bond Issuances and Refinancing",
+      "section": "Action",
+      "findings": []
+    },
+    {
+      "date": "2025-03-04",
+      "item": "J.9",
+      "title": "Approve Budget Adjustment and Purchase Order Increase for Hinderliter de Llamas & Associates Sales Tax Audit Invoice",
+      "section": "Action",
+      "findings": [
+        "project-review-sales-tax-audit"
+      ]
+    },
+    {
+      "date": "2025-03-04",
+      "item": "J.10",
+      "title": "PLAN2025-0164 Home Occupation Ordinance Review",
+      "section": "Action",
+      "findings": [
+        "project-review-planning-directions"
+      ]
+    },
+    {
+      "date": "2025-03-04",
+      "item": "J.11",
+      "title": "PLAN 2025-0182 Short-Term Rentals in the City of Beaumont",
+      "section": "Action",
+      "findings": [
+        "project-review-planning-directions"
+      ]
+    },
+    {
+      "date": "2025-03-04",
+      "item": "J.12",
+      "title": "Discussion on a Temporary Moratorium or Suspension on the Requirements of Beaumont Municipal Code (BMC) 17.11.050: Off-site Improvements",
+      "section": "Action",
+      "findings": [
+        "project-review-planning-directions"
+      ]
+    },
+    {
+      "date": "2025-03-04",
+      "item": "J.13",
+      "title": "Review and Discussion of Municipal Code Section 2.24 - Planning Commission and Community Development Department",
+      "section": "Action",
+      "findings": [
+        "project-review-planning-directions"
+      ]
+    },
+    {
+      "date": "2025-03-18",
+      "item": "B.1",
+      "title": "Public Employee Performance Evaluation Pursuant to Government Code Section 54957. Title: City Manager",
+      "section": "Closed Session",
+      "findings": []
+    },
+    {
+      "date": "2025-03-18",
+      "item": "B.2",
+      "title": "Conference with Labor Negotiators Pursuant to Government Code Section 54957.6.",
+      "section": "Closed Session",
+      "findings": []
+    },
+    {
+      "date": "2025-03-18",
+      "item": "B.3",
+      "title": "Conference with Real Property Negotiators Pursuant to Government Code Section 54956.8",
+      "section": "Closed Session",
+      "findings": []
+    },
+    {
+      "date": "2025-03-18",
+      "item": "E.1",
+      "title": "Introduction of Interim Police Chief, George Walter",
+      "section": "Presentation",
+      "findings": []
+    },
+    {
+      "date": "2025-03-18",
+      "item": "E.2",
+      "title": "California Society of Municipal Finance Officers 2024 Volunteer of the Year Award - Jennifer Ustation",
+      "section": "Presentation",
+      "findings": []
+    },
+    {
+      "date": "2025-03-18",
+      "item": "G.1",
+      "title": "Ratification of Warrants",
+      "section": "Consent",
+      "findings": []
+    },
+    {
+      "date": "2025-03-18",
+      "item": "G.2",
+      "title": "Approval of Minutes",
+      "section": "Consent",
+      "findings": []
+    },
+    {
+      "date": "2025-03-18",
+      "item": "G.3",
+      "title": "Approval of City Attorney Invoices for the Month of February 2025",
+      "section": "Consent",
+      "findings": []
+    },
+    {
+      "date": "2025-03-18",
+      "item": "G.4",
+      "title": "Approval of Corrected Gann Limit Language for Fiscal Year 2024",
+      "section": "Consent",
+      "findings": []
+    },
+    {
+      "date": "2025-03-18",
+      "item": "G.5",
+      "title": "Tri Pointe Bond Exonerations and Reductions",
+      "section": "Consent",
+      "findings": []
+    },
+    {
+      "date": "2025-03-18",
+      "item": "G.6",
+      "title": "Public and Private Easement Recordation",
+      "section": "Consent",
+      "findings": []
+    },
+    {
+      "date": "2025-03-18",
+      "item": "I.1",
+      "title": "Beaumont Municipal Code Amendment to Chapter 13.08 “Sewer System”",
+      "section": "Public Hearing",
+      "findings": []
+    },
+    {
+      "date": "2025-03-18",
+      "item": "J.1",
+      "title": "Authorize Employment Contract with Economic Development Director",
+      "section": "Action",
+      "findings": []
+    },
+    {
+      "date": "2025-03-18",
+      "item": "J.2",
+      "title": "Proposed Refunding of Outstanding Community Facilities District (CFD) Bonds",
+      "section": "Action",
+      "findings": [
+        "project-review-bond-refunding"
+      ]
+    },
+    {
+      "date": "2025-03-18",
+      "item": "J.3",
+      "title": "Approval of an Amendment to the Acquisition Agreement for Community Facilities District No. 2016-3 and Authorizing the Issuance of its Special Tax Bonds, Series 2025",
+      "section": "Action",
+      "findings": [
+        "project-review-bond-refunding"
+      ]
+    },
+    {
+      "date": "2025-03-18",
+      "item": "J.4",
+      "title": "Sales Tax Working Group Update and Recommended Next Steps for Fiscal Sustainability Planning",
+      "section": "Action",
+      "findings": []
+    },
+    {
+      "date": "2025-03-18",
+      "item": "J.5",
+      "title": "Sponsorship Request for the 2025 Cherry Festival by the Cherry Festival Association",
+      "section": "Action",
+      "findings": [
+        "project-review-cherry-festival"
+      ]
+    },
+    {
+      "date": "2025-03-18",
+      "item": "J.6",
+      "title": "Recommendation for the City of Beaumont to Host the Cherry Festival Parade",
+      "section": "Action",
+      "findings": [
+        "project-review-cherry-festival"
+      ]
+    },
+    {
+      "date": "2025-03-18",
+      "item": "J.7",
+      "title": "Proposed Projects for Congressional Appropriations Funding 2025",
+      "section": "Action",
+      "findings": [
+        "project-review-appropriations-requests"
+      ]
+    },
+    {
+      "date": "2025-03-18",
+      "item": "J.8",
+      "title": "Adopt a Resolution Approving the CalSIP Stream Gage Grant",
+      "section": "Action",
+      "findings": []
+    },
+    {
+      "date": "2025-03-18",
+      "item": "J.9",
+      "title": "Approval of Contract for Financial Auditing Services",
+      "section": "Action",
+      "findings": [
+        "project-review-audit-contract"
+      ]
+    },
+    {
+      "date": "2025-03-18",
+      "item": "J.10",
+      "title": "Request To Approve Service Agreement with Enterprise Fleet Management",
+      "section": "Action",
+      "findings": []
+    },
+    {
+      "date": "2025-03-18",
+      "item": "J.11",
+      "title": "Wastewater Treatment Plant Improvements Project (CIP WW24-01), Reject All Bids and Authorize City staff to Revise Bidding Documents and Re-Advertise for Bids",
+      "section": "Action",
+      "findings": [
+        "project-review-wastewater-rebid"
+      ]
+    },
+    {
+      "date": "2025-03-18",
+      "item": "J.12",
+      "title": "Follow-Up Report – Local State of Emergency – Sewer Mainline Failure and Emergency Repairs in Fairway Canyon",
+      "section": "Action",
+      "findings": [
+        "project-review-wastewater-rebid"
+      ]
+    },
+    {
+      "date": "2025-03-18",
+      "item": "M.1",
+      "title": "City Treasurer Reports",
+      "section": "Reports",
+      "findings": []
+    },
+    {
+      "date": "2025-04-01",
+      "item": "B.1",
+      "title": "Conference with legal counsel regarding potential initiation of litigation pursuant to Government Code Section 54956.9(d)(4)",
+      "section": "Closed Session",
+      "findings": []
+    },
+    {
+      "date": "2025-04-01",
+      "item": "B.2",
+      "title": "Conference with Legal Counsel – Anticipated Litigation – Significant exposure to litigation pursuant to Government Code 54956.9(d)(2)and/or(3).",
+      "section": "Closed Session",
+      "findings": []
+    },
+    {
+      "date": "2025-04-01",
+      "item": "B.3",
+      "title": "Conference with Legal Counsel regarding pending litigation pursuant to Government Code Section 54956.9(d)(1)",
+      "section": "Closed Session",
+      "findings": []
+    },
+    {
+      "date": "2025-04-01",
+      "item": "B.4",
+      "title": "Conference with Legal Counsel Regarding Existing Litigation Pursuant to Government Code Section 54956.9(d)(1)",
+      "section": "Closed Session",
+      "findings": []
+    },
+    {
+      "date": "2025-04-01",
+      "item": "B.5",
+      "title": "Public Employee Performance Evaluation Pursuant to Government Code Section 54957. Title: City Manager",
+      "section": "Closed Session",
+      "findings": []
+    },
+    {
+      "date": "2025-04-01",
+      "item": "B.6",
+      "title": "Conference with Labor Negotiators Pursuant to Government Code Section 54957.6.",
+      "section": "Closed Session",
+      "findings": []
+    },
+    {
+      "date": "2025-04-01",
+      "item": "E.1",
+      "title": "In Memoriam of Billiath Bengesa",
+      "section": "Presentation",
+      "findings": []
+    },
+    {
+      "date": "2025-04-01",
+      "item": "E.2",
+      "title": "Public Works Department - Inland Empire Roadeo Trophies",
+      "section": "Presentation",
+      "findings": []
+    },
+    {
+      "date": "2025-04-01",
+      "item": "G.1",
+      "title": "Ratification of Warrants",
+      "section": "Consent",
+      "findings": []
+    },
+    {
+      "date": "2025-04-01",
+      "item": "G.2",
+      "title": "Approval of Minutes",
+      "section": "Consent",
+      "findings": []
+    },
+    {
+      "date": "2025-04-01",
+      "item": "G.3",
+      "title": "Beaumont Municipal Code Amendment to Chapter 13.08 \"Sewer System\"",
+      "section": "Consent",
+      "findings": []
+    },
+    {
+      "date": "2025-04-01",
+      "item": "G.4",
+      "title": "Beaumont Police Department Specialized Equipment Inventory and Fiscal Impact Report",
+      "section": "Consent",
+      "findings": [
+        "project-review-police-equipment"
+      ]
+    },
+    {
+      "date": "2025-04-01",
+      "item": "I.1",
+      "title": "Public Hearing to Amend Beaumont Municipal Code Chapter 2.24 “Planning Commission and Community Development Department”",
+      "section": "Public Hearing",
+      "findings": []
+    },
+    {
+      "date": "2025-04-01",
+      "item": "J.1",
+      "title": "Follow-Up Report No. 2 – Local State of Emergency – Sewer Mainline Failure and Emergency Repairs in Fairway Canyon, Adopt a Resolution to Re-Ratify the Declared State of Local Emergency",
+      "section": "Action",
+      "findings": [
+        "project-review-fairway-million"
+      ]
+    },
+    {
+      "date": "2025-04-01",
+      "item": "J.2",
+      "title": "Approve a Service Agreement with Beaumont Cherry Valley Water District and issue Performance and Payment Bonds",
+      "section": "Action",
+      "findings": [
+        "project-review-mesa-water"
+      ]
+    },
+    {
+      "date": "2025-04-01",
+      "item": "J.3",
+      "title": "Street Cut Moratorium Exception Request from Beaumont Unified School District",
+      "section": "Action",
+      "findings": []
+    },
+    {
+      "date": "2025-04-01",
+      "item": "J.4",
+      "title": "Beaumont Nights at Towncenter 2025 Season Update and Program Considerations",
+      "section": "Action",
+      "findings": [
+        "project-review-beaumont-nights"
+      ]
+    },
+    {
+      "date": "2025-04-01",
+      "item": "J.5",
+      "title": "Fiscal Year 2025/26 Short-Range Transit Plan Table 4 Draft",
+      "section": "Action",
+      "findings": []
+    },
+    {
+      "date": "2025-04-01",
+      "item": "P.1",
+      "title": "Community Clean Up",
+      "section": "Reports",
+      "findings": []
+    },
+    {
+      "date": "2025-04-15",
+      "item": "B.1",
+      "title": "Conference with Real Property Negotiators Pursuant to Government Code Section 54956.8",
+      "section": "Closed Session",
+      "findings": []
+    },
+    {
+      "date": "2025-04-15",
+      "item": "B.2",
+      "title": "Conference with Real Property Negotiators Pursuant to Government Code Section 54956.8",
+      "section": "Closed Session",
+      "findings": []
+    },
+    {
+      "date": "2025-04-15",
+      "item": "B.3",
+      "title": "Conference with Legal Counsel Regarding Potential Initiation of Litigation Pursuant to Government Code 54956.9(d)(4).",
+      "section": "Closed Session",
+      "findings": []
+    },
+    {
+      "date": "2025-04-15",
+      "item": "B.4",
+      "title": "Public Employee Performance Evaluation Pursuant to Government Code Section 54957. Title: City Manager",
+      "section": "Closed Session",
+      "findings": []
+    },
+    {
+      "date": "2025-04-15",
+      "item": "E.1",
+      "title": "CAPIO EPIC Award and Certificates of Recognition for City Communications and Events",
+      "section": "Presentation",
+      "findings": []
+    },
+    {
+      "date": "2025-04-15",
+      "item": "E.2",
+      "title": "Recognition of Eagle Scouts - Trevor Shelton and Nathan Nees",
+      "section": "Presentation",
+      "findings": []
+    },
+    {
+      "date": "2025-04-15",
+      "item": "G.1",
+      "title": "Ratification of Warrants",
+      "section": "Consent",
+      "findings": []
+    },
+    {
+      "date": "2025-04-15",
+      "item": "G.2",
+      "title": "Approval of Minutes",
+      "section": "Consent",
+      "findings": []
+    },
+    {
+      "date": "2025-04-15",
+      "item": "G.3",
+      "title": "Approval of City Attorney Invoices for the Month of March 2025",
+      "section": "Consent",
+      "findings": []
+    },
+    {
+      "date": "2025-04-15",
+      "item": "G.4",
+      "title": "Final Approval of Parcel Map No. 38953",
+      "section": "Consent",
+      "findings": []
+    },
+    {
+      "date": "2025-04-15",
+      "item": "G.5",
+      "title": "Quarterly Report of City Manager Purchases and Contract Awards FY 24-25 Q3",
+      "section": "Consent",
+      "findings": [
+        "project-review-procurement-grants"
+      ]
+    },
+    {
+      "date": "2025-04-15",
+      "item": "G.6",
+      "title": "Grants Quarterly Report Q3 FY2024-2025",
+      "section": "Consent",
+      "findings": [
+        "project-review-pennsylvania-grants",
+        "project-review-stewart-orlp",
+        "project-review-sb125-project-label",
+        "project-review-procurement-grants"
+      ]
+    },
+    {
+      "date": "2025-04-15",
+      "item": "G.7",
+      "title": "Performance Bond Exoneration",
+      "section": "Consent",
+      "findings": []
+    },
+    {
+      "date": "2025-04-15",
+      "item": "G.8",
+      "title": "Accept Public Improvements and Exonerate Maintenance Bond",
+      "section": "Consent",
+      "findings": []
+    },
+    {
+      "date": "2025-04-15",
+      "item": "G.9",
+      "title": "Fiscal Year 2024 City of Beaumont, California Transit System",
+      "section": "Consent",
+      "findings": []
+    },
+    {
+      "date": "2025-04-15",
+      "item": "G.10",
+      "title": "Second Reading to Amend Beaumont Municipal Code Chapter 2.24 “Planning Commission and Community Development Department”",
+      "section": "Consent",
+      "findings": [
+        "project-review-planning-follow-through"
+      ]
+    },
+    {
+      "date": "2025-04-15",
+      "item": "G.11",
+      "title": "Consent to Transfer – Verizon Wireless Lease at 11250 Palmer Avenue",
+      "section": "Consent",
+      "findings": []
+    },
+    {
+      "date": "2025-04-15",
+      "item": "G.12",
+      "title": "Adoption of the City of Beaumont 2025 Strategic Plan",
+      "section": "Consent",
+      "findings": []
+    },
+    {
+      "date": "2025-04-15",
+      "item": "G.13",
+      "title": "Follow-Up Report No. 3 – Local State of Emergency – Sewer Mainline Failure and Emergency Repairs in Fairway Canyon",
+      "section": "Consent",
+      "findings": []
+    },
+    {
+      "date": "2025-04-15",
+      "item": "I.1",
+      "title": "Public Hearing - Letter of Action from the California Uniform Construction Cost Accounting Commission (CUCCAC) dated February 14, 2025",
+      "section": "Public Hearing",
+      "findings": [
+        "project-review-procurement-grants"
+      ]
+    },
+    {
+      "date": "2025-04-15",
+      "item": "I.2",
+      "title": "Temporary Suspension and Revision of BMC Ch. 17.11.050 – Offsite Improvements",
+      "section": "Public Hearing",
+      "findings": [
+        "project-review-planning-follow-through"
+      ]
+    },
+    {
+      "date": "2025-04-15",
+      "item": "I.3",
+      "title": "Continue the Public Hearing to Consider a Resolution Repealing the Noble Creek Vistas Specific Plan",
+      "section": "Public Hearing",
+      "findings": [
+        "project-review-planning-follow-through"
+      ]
+    },
+    {
+      "date": "2025-04-15",
+      "item": "I.4",
+      "title": "Continue the Public Hearing PLAN2025-0164 Beaumont Municipal Code Amendment to Chapter 17.11.110 Home Occupations",
+      "section": "Public Hearing",
+      "findings": [
+        "project-review-planning-follow-through"
+      ]
+    },
+    {
+      "date": "2025-04-15",
+      "item": "J.1",
+      "title": "Authorize the Fourth Amendment to the City Manager Employment Agreement",
+      "section": "Action",
+      "findings": []
+    },
+    {
+      "date": "2025-04-15",
+      "item": "J.2",
+      "title": "Approve a Memorandum of Understanding with the Cherry Festival Association for the 2025 Cherry Festival Event",
+      "section": "Action",
+      "findings": []
+    },
+    {
+      "date": "2025-04-15",
+      "item": "J.3",
+      "title": "Discussion on the State Fire Marshal’s Updated Fire Hazard Severity Zone (FHSZ) Maps for Local Responsibility Areas",
+      "section": "Action",
+      "findings": []
+    },
+    {
+      "date": "2025-04-15",
+      "item": "J.4",
+      "title": "Discussion and Direction on Proceeding with the Acquisition of a Ladder Truck in Coordination with Riverside County Fire Department",
+      "section": "Action",
+      "findings": [
+        "project-review-fire-ladder"
+      ]
+    },
+    {
+      "date": "2025-04-15",
+      "item": "J.5",
+      "title": "Landscape Maintenance Agreement for Potrero Interchange",
+      "section": "Action",
+      "findings": [
+        "project-review-potrero-landscape"
+      ]
+    },
+    {
+      "date": "2025-04-15",
+      "item": "J.6",
+      "title": "Provide Direction to Staff on the Community Recreation Center Overflow Parking Lot – Capital Improvement Project No. P-23",
+      "section": "Action",
+      "findings": [
+        "project-review-crc-parking"
+      ]
+    },
+    {
+      "date": "2025-04-15",
+      "item": "J.7",
+      "title": "Memorandum of Understanding Between the City of Beaumont and the City of Banning for the Purchase of Compressed Natural Gas Fuel",
+      "section": "Action",
+      "findings": []
+    },
+    {
+      "date": "2025-04-15",
+      "item": "J.8",
+      "title": "Award of Professional Services Agreement to Evergreen Solutions in an Amount Not to Exceed $182,400 for a Classification and Compensation Study",
+      "section": "Action",
+      "findings": [
+        "project-review-compensation-study"
+      ]
+    },
+    {
+      "date": "2025-04-15",
+      "item": "M.1",
+      "title": "Treasurer Reports",
+      "section": "Reports",
+      "findings": []
+    }
+  ]
+}

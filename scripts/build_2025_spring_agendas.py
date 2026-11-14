@@ -40,8 +40,10 @@ def viewer(url,title):
 
 def build_page(date, source_namespace='BI_SPRING'):
     packet=load_packet(date);review=load_review(date);items=merged_items(packet,review)
-    center_review=ROOT/'data/council/2024-autumn-center-review.json'
-    center_findings=json.loads(center_review.read_text(encoding='utf-8'))['findings'] if center_review.exists() else []
+    center_findings=[]
+    for center_review in sorted((ROOT/'data/council').glob('*-center-review.json')):
+        batch=json.loads(center_review.read_text(encoding='utf-8'))
+        center_findings.extend(dict(r,reviewPage=batch.get('reviewPage','autumn-2024-center-review.html')) for r in batch['findings'])
     label=label_for(date)
     manifest=json.loads((ROOT/'data/document-storage-manifest.json').read_text(encoding='utf-8'))
     verified={r['url'] for r in manifest['documents'] if r.get('sha256') and r.get('publication_status')!='pending-upload'}
@@ -71,7 +73,7 @@ def build_page(date, source_namespace='BI_SPRING'):
             elif minute:
                 related=[r for r in center_findings if r['date']==date and key in r['items']]
                 if related:
-                    links=' · '.join(f'<a href="../autumn-2024-center-review.html#{r["id"]}">{escape(r["title"])}</a>' for r in related)
+                    links=' · '.join(f'<a href="../{r["reviewPage"]}#{r["id"]}">{escape(r["title"])}</a>' for r in related)
                     body+='<p class="source-note">Minutes-based center findings: '+links+'. Published recommendations remain separate from the recorded disposition and evidence limits.</p>'
                 else:
                     body+='<p class="source-note">Official minutes are available above; an item-specific outcome review is not included here. A recommendation is not a Council decision.</p>'
