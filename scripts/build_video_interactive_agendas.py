@@ -16,6 +16,10 @@ def build():
     for date in DATES:
         data=json.loads((ROOT/f'data/council/{date}-interactive-agenda.json').read_text(encoding='utf-8'))
         meetings.append(data)
+        if (ROOT/f'data/council/{date}-agenda.json').exists():
+            from build_2025_spring_agendas import build_page
+            build_page(date)
+            continue
         groups=[]
         for section in SECTIONS:
             rows=[]
@@ -46,7 +50,7 @@ def build():
         if prior: prior.update(entry)
         else: registry['videos'].append(entry)
     registry_path.write_text(json.dumps(registry,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-    cards=''.join(f'<article class="card"><h3>{escape(d["label"])}</h3><p>{len(d["items"])} minutes-backed agenda entries · meeting video and exact minutes-page links.</p><a class="btn" href="briefings/{d["date"]}-sources.html">Open interactive agenda</a></article>' for d in meetings)
+    cards=''.join(f'<article class="card"><h3>{escape(d["label"])}</h3><p>{len(d["items"])} minutes-backed agenda entries · meeting video and exact minutes-page links.</p><a class="btn" href="briefings/{d["date"]}-sources.html">Open interactive agenda</a></article>' for d in meetings if not (ROOT/f'data/council/{d["date"]}-agenda.json').exists())
     block=START+'<section class="section compact" id="video-agenda-records"><div class="wrap"><h2>More interactive meeting records</h2><p>Browse the supplied recordings with official minutes. Item timestamps and complete packet inventories remain unverified.</p><div class="story-grid">'+cards+'</div></div></section>'+END
     path=ROOT/'docs/council-intelligence.html'
     page=path.read_text(encoding='utf-8')

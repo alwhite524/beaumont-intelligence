@@ -1,0 +1,947 @@
+{
+  "date": "2025-03-18",
+  "sourceFilename": "Agenda Package - City Council Closed and Regular Session_Mar18_2025.pdf",
+  "packetPages": 789,
+  "agendaPageCount": 8,
+  "packetArchiveUrl": "https://documents.beaumontintelligence.com/records/agenda-packets/2025-03-18/2025-03-18-city-council-agenda-package.pdf",
+  "agendaUrl": "https://documents.beaumontintelligence.com/official-documents/2025-03-18/agenda.pdf",
+  "officialAgendaUrl": "https://pub-beaumont.escribemeetings.com/Meeting.aspx?Id=20c45b2c-9ff8-4b6c-8648-b2f400d042a5&Agenda=Agenda&lang=English",
+  "meetingStatus": "held",
+  "audit": {
+    "checkedOn": "2026-11-13",
+    "expectedDocuments": 68,
+    "linkedDocuments": 68,
+    "officialHtmlAuditComplete": true,
+    "archiveComplete": true,
+    "officialHtmlSha256": "0c92fb19c042b2bac6c2a6ae4fea7defb94e90ad9cfa24b7d9d4b76b72bee28b",
+    "basis": "Every official HTML attachment matched by agenda item and normalized filename to a unique supplied packet bookmark. Original City URLs and contiguous packet page ranges retained. Outcomes are not inferred from agenda recommendations."
+  },
+  "items": [
+    {
+      "item": "B.1",
+      "title": "Public Employee Performance Evaluation Pursuant to Government Code Section 54957. Title: City Manager",
+      "section": "Closed Session",
+      "recommendation": "",
+      "description": ""
+    },
+    {
+      "item": "B.2",
+      "title": "Conference with Labor Negotiators Pursuant to Government Code Section 54957.6.",
+      "section": "Closed Session",
+      "recommendation": "",
+      "description": "Agency designated representatives: Council Members Julio Martínez and David Fenn. Unrepresented Employee: City Manager."
+    },
+    {
+      "item": "B.3",
+      "title": "Conference with Real Property Negotiators Pursuant to Government Code Section 54956.8",
+      "section": "Closed Session",
+      "recommendation": "",
+      "description": "Property: Approximately 6.26 acres of vacant land described as North of West 4th street and South of SR 60 and East of Beaumont Crossroads Logistics with APN 424-010-007. Agency Negotiator: City Manager Elizabeth Gibbs or her designee. Negotiating Parties: City of Beaumont as potential Purchaser and LASSEN DEVELOPMENT PARTNERS, LLP, a Delaware limited liability partnership as seller. Under negotiation: Price and Terms."
+    },
+    {
+      "item": "E.1",
+      "title": "Introduction of Interim Police Chief, George Walter",
+      "section": "Presentation",
+      "recommendation": "",
+      "description": ""
+    },
+    {
+      "item": "E.2",
+      "title": "California Society of Municipal Finance Officers 2024 Volunteer of the Year Award - Jennifer Ustation",
+      "section": "Presentation",
+      "recommendation": "",
+      "description": ""
+    },
+    {
+      "item": "G.1",
+      "title": "Ratification of Warrants",
+      "section": "Consent",
+      "recommendation": "Ratify Warrants dated: February 28, 2025 March 14, 2025",
+      "description": ""
+    },
+    {
+      "item": "G.2",
+      "title": "Approval of Minutes",
+      "section": "Consent",
+      "recommendation": "Approve Minutes dated March 4, 2025",
+      "description": ""
+    },
+    {
+      "item": "G.3",
+      "title": "Approval of City Attorney Invoices for the Month of February 2025",
+      "section": "Consent",
+      "recommendation": "Approve invoices in the amount of $68,343.87.",
+      "description": ""
+    },
+    {
+      "item": "G.4",
+      "title": "Approval of Corrected Gann Limit Language for Fiscal Year 2024",
+      "section": "Consent",
+      "recommendation": "Waive the full reading and adopt by title only a “Resolution of the City Council of the City of Beaumont, approving the Appropriation Limit for the 2023-2024 Fiscal Year”.",
+      "description": "Revise the language for growth factor calculation to non-residential."
+    },
+    {
+      "item": "G.5",
+      "title": "Tri Pointe Bond Exonerations and Reductions",
+      "section": "Consent",
+      "recommendation": "Accept the public improvements, authorize the Mayor to sign the Certificate of Acceptance, and authorize staff to exonerate the (6) Maintenance Bonds listed in Attachment A; Authorize City staff to reduce the (41) Performance Bonds listed in Attachment B; and, Accept the Improvement Agreements and Security Bonds associated with improvements to the SCE Easement trail, Planning Area 14 Detention Basin, and Cherry Avenue Street Lights.",
+      "description": "Maintenance Bond Exonerations, Performance Bond Reductions, and Acceptance of Bonds associated with improvements to the Southern California Edison Easement trail and Planning Area 14 Detention Basin in the Sundance Specific Plan."
+    },
+    {
+      "item": "G.6",
+      "title": "Public and Private Easement Recordation",
+      "section": "Consent",
+      "recommendation": "Record a Public and Private Easement across the 6.26-acre, city-owned parcel identified with APN:424-010-007.",
+      "description": "Record a Public and Private Easement across the 6.26-acre, city-owned parcel identified with APN:424-010-007, located north of Fourth Street and west of Potrero Blvd."
+    },
+    {
+      "item": "I.1",
+      "title": "Beaumont Municipal Code Amendment to Chapter 13.08 “Sewer System”",
+      "section": "Public Hearing",
+      "recommendation": "Hold a Public Hearing; and, Waive the first full reading and approve by title only, \"An Ordinance of the City Council of the City of Beaumont, California, amending Chapter 13.08 ‘Sewer System’, by adding New Section 13.08.415 ‘Lift Station and Force Main Facilities’ to the Beaumont Municipal Code”.",
+      "description": "Public H earing and consideration of proposed amendment to Beaumont Municipal Code Chapter 13.08 \"Sewer System \", more specifically Adding New Section 13.08.415 \"Lift Station and Force Main Facilities\"."
+    },
+    {
+      "item": "J.1",
+      "title": "Authorize Employment Contract with Economic Development Director",
+      "section": "Action",
+      "recommendation": "Approve the employment agreement with Kirk Pelser for the Economic Development Director and authorize the City Manager to sign the agreement.",
+      "description": "Staff is requesting Council review and authorize the City Manager to sign the employment agreement with Kirk Pelser appointing him to the position of Economic Development Director."
+    },
+    {
+      "item": "J.2",
+      "title": "Proposed Refunding of Outstanding Community Facilities District (CFD) Bonds",
+      "section": "Action",
+      "recommendation": "Provide direction to staff and the financing team on a savings threshold to consider in determining which CFD refundings to pursue and to bring back to City Council for ultimate approval to proceed.",
+      "description": "Seeking direction from City Council on establishing a minimum savings threshold and eliminating the escalating debt structure on certain CFD bonds."
+    },
+    {
+      "item": "J.3",
+      "title": "Approval of an Amendment to the Acquisition Agreement for Community Facilities District No. 2016-3 and Authorizing the Issuance of its Special Tax Bonds, Series 2025",
+      "section": "Action",
+      "recommendation": "Waive the full reading and adopt by title only, “A Resolution of the City Council of the City of Beaumont, acting as the legislative body of the City of Beaumont Community Facilities District No. 2016-3, authorizing the issuance of its Special Tax Bonds, Series 2025 in a principal amount not to exceed $7,500,000 and approving certain documents and taking certain other actions in connection therewith”. Adopt a resolution of the City Council of the City of Beaumont approving First Amendment to Acquisition Agreement.",
+      "description": "Approve amendment to the Acquisition Agreement for Community Facilities District No. 2016-3 and authorize the issuance of Special Tax Bonds."
+    },
+    {
+      "item": "J.4",
+      "title": "Sales Tax Working Group Update and Recommended Next Steps for Fiscal Sustainability Planning",
+      "section": "Action",
+      "recommendation": "Receive and file the update on the Sales Tax Working Group; and Discuss and give direction to staff on engaging a consultant to assist in determining the City's options for revenue strategies for sustainability.",
+      "description": "The purpose of this report is to update the City Council on the latest developments regarding the League of California Cities (Cal Cities) Sales Tax Working Group and the potential fiscal impacts of proposed changes to the Bradley-Burns Sales Tax allocation, particularly regarding e-commerce sales tax distribution. Given the potential revenue implications for the City of Beaumont, this report also outlines recommended next steps, including engaging a consultant to assist with fiscal sustainability planning and public education efforts."
+    },
+    {
+      "item": "J.5",
+      "title": "Sponsorship Request for the 2025 Cherry Festival by the Cherry Festival Association",
+      "section": "Action",
+      "recommendation": "Staff recommends City Council authorize $135,000 to sponsor the 2025 Cherry Festival and direct staff to issue a purchase order to the Cherry Festival Association.",
+      "description": "Consideration of a sponsorship request from the Cherry Festival Association (CFA) in the amount of $350,000 to support the 2025 Cherry Festival, which includes funding for free admission, discounted ticket prices, entertainment, community scholarships, and operational expenses."
+    },
+    {
+      "item": "J.6",
+      "title": "Recommendation for the City of Beaumont to Host the Cherry Festival Parade",
+      "section": "Action",
+      "recommendation": "Staff recommends that City Council approve the City of Beaumont hosting the 2025 Cherry Festival Parade.",
+      "description": "Consideration of the City of Beaumont assuming responsibility for the coordination and orchestration of the Cherry Festival Parade, ensuring the continuation of a decades-long community tradition."
+    },
+    {
+      "item": "J.7",
+      "title": "Proposed Projects for Congressional Appropriations Funding 2025",
+      "section": "Action",
+      "recommendation": "Staff recommends that City Council approve the proposed project list as presented and authorize staff to submit the identified projects for federal appropriations funding requests.",
+      "description": "This report presents proposed projects for federal appropriations funding and seeks Council approval for submission."
+    },
+    {
+      "item": "J.8",
+      "title": "Adopt a Resolution Approving the CalSIP Stream Gage Grant",
+      "section": "Action",
+      "recommendation": "Waive the full reading and adopt by title only, “A Resolution of the City Council of the City of Beaumont Authorizing the Funding Request, Acceptance, and Execution for the CalSIP Stream Gage Grant”.",
+      "description": "City Council approval is requested to adopt a resolution accepting the CalSIP Stream Gage Grant in the amount of $108,000 from the Department of Water Resources (DWR) and authorizing execution of the funding agreement."
+    },
+    {
+      "item": "J.9",
+      "title": "Approval of Contract for Financial Auditing Services",
+      "section": "Action",
+      "recommendation": "Approve a five-year contract, a total of $337,125, with Rogers, Anderson, Malody and Scott, LLP to perform audit services and authorize the City Manager to sign the engagement letters for each year of the five-year contract.",
+      "description": "Approve the 5-year contract with Rogers, Anderson, Malody and Scott (RAMS)."
+    },
+    {
+      "item": "J.10",
+      "title": "Request To Approve Service Agreement with Enterprise Fleet Management",
+      "section": "Action",
+      "recommendation": "Approve the service agreements with Enterprise Fleet Management for procuring, leasing, outfitting, and retiring fleet vehicles; Authorize the City Manager to sign the Master Lease Agreement and Service Agreement Addendum; and Authorize the City Manager to sign the Sourcewell Agreement with Enterprise, Enterprise Agreement to Sell Customer Vehicles, Consignment Auction Agreement, Self Insurance Addedum, and Government Credit Application.",
+      "description": "To improve fleet acquisition and outfitting efficiency by approving the utilization of Enterprise Fleet Management’s services."
+    },
+    {
+      "item": "J.11",
+      "title": "Wastewater Treatment Plant Improvements Project (CIP WW24-01), Reject All Bids and Authorize City staff to Revise Bidding Documents and Re-Advertise for Bids",
+      "section": "Action",
+      "recommendation": "Authorize staff to reject all bids, prepare revised bidding documents, and re-advertise for new bids following the established bidding procedure.",
+      "description": "Reject all bids for the construction of the Wastewater Treatment Plant Improvements Project (CIP WW24-01) – Bid Package 1 and authorize staff to revise bidding documents and re-advertise for bids."
+    },
+    {
+      "item": "J.12",
+      "title": "Follow-Up Report – Local State of Emergency – Sewer Mainline Failure and Emergency Repairs in Fairway Canyon",
+      "section": "Action",
+      "recommendation": "Direct staff to return at the next Council meeting with a follow-up report on emergency response efforts, expenditures, and timeline updates.",
+      "description": "This staff report serves as a follow-up on the declared local emergency due to the sewer mainline failure in Fairway Canyon and provides an update on emergency response efforts, expenditures, and projected timelines for resolution."
+    },
+    {
+      "item": "M.1",
+      "title": "City Treasurer Reports",
+      "section": "Reports",
+      "recommendation": "",
+      "description": ""
+    }
+  ],
+  "documents": [
+    {
+      "item": "G.1",
+      "section": "Consent",
+      "title": "Warrants 02.28.2025",
+      "itemTitle": "Ratification of Warrants",
+      "packet_page_start": 9,
+      "packet_page_end": 28,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2025-03-18/item-g-1-01.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=6354",
+      "packetBookmarkTitle": "G.1. Warrants 02.28.2025.pdf"
+    },
+    {
+      "item": "G.1",
+      "section": "Consent",
+      "title": "Warrants 03.14.2025",
+      "itemTitle": "Ratification of Warrants",
+      "packet_page_start": 29,
+      "packet_page_end": 54,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2025-03-18/item-g-1-02.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=6355",
+      "packetBookmarkTitle": "G.1. Warrants 03.14.2025.pdf"
+    },
+    {
+      "item": "G.2",
+      "section": "Consent",
+      "title": "CC Minutes 03.04.2025",
+      "itemTitle": "Approval of Minutes",
+      "packet_page_start": 55,
+      "packet_page_end": 66,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2025-03-18/item-g-2-01.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=6353",
+      "packetBookmarkTitle": "G.2. CC Minutes 03.04.2025.pdf"
+    },
+    {
+      "item": "G.3",
+      "section": "Consent",
+      "title": "SBEMP Invoices - February 2025",
+      "itemTitle": "Approval of City Attorney Invoices for the Month of February 2025",
+      "packet_page_start": 67,
+      "packet_page_end": 86,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2025-03-18/item-g-3-01.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=6323",
+      "packetBookmarkTitle": "G.3. SBEMP Invoices - February 2025.pdf"
+    },
+    {
+      "item": "G.4",
+      "section": "Consent",
+      "title": "Staff Report - Approval of Corrected Gann Limit Language for Fiscal Year 2024",
+      "itemTitle": "Approval of Corrected Gann Limit Language for Fiscal Year 2024",
+      "packet_page_start": 87,
+      "packet_page_end": 88,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2025-03-18/item-g-4-01.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=6345",
+      "packetBookmarkTitle": "G.4. Staff Report - Approval of Corrected Gann Limit Language for Fiscal Year 2024.pdf"
+    },
+    {
+      "item": "G.4",
+      "section": "Consent",
+      "title": "Attachment A - Appropriation Limit Calculation for the Fiscal Year ending June 30, 2024",
+      "itemTitle": "Approval of Corrected Gann Limit Language for Fiscal Year 2024",
+      "packet_page_start": 89,
+      "packet_page_end": 89,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2025-03-18/item-g-4-02.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=6346",
+      "packetBookmarkTitle": "G.4. Attachment A - Appropriation Limit Calculation for the Fiscal Year ending June 30, 2024.pdf"
+    },
+    {
+      "item": "G.4",
+      "section": "Consent",
+      "title": "Attachment B - Resolution 2023-17 of the City Council approving the FY2023-24 Appropriation Limit",
+      "itemTitle": "Approval of Corrected Gann Limit Language for Fiscal Year 2024",
+      "packet_page_start": 90,
+      "packet_page_end": 91,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2025-03-18/item-g-4-03.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=6347",
+      "packetBookmarkTitle": "G.4. Attachment B - Resolution 2023-17 of the City Council approving the FY2023-24 Appropriation Limit.pdf"
+    },
+    {
+      "item": "G.4",
+      "section": "Consent",
+      "title": "Attachment C - Revised Gann Resolution of the City Council approving the FY2023-24 Appropriation Limit",
+      "itemTitle": "Approval of Corrected Gann Limit Language for Fiscal Year 2024",
+      "packet_page_start": 92,
+      "packet_page_end": 92,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2025-03-18/item-g-4-04.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=6348",
+      "packetBookmarkTitle": "G.4. Attachment C - Revised Gann Resolution of the City Council approving the FY2023-24 Appropriation Limit.pdf"
+    },
+    {
+      "item": "G.5",
+      "section": "Consent",
+      "title": "Staff Report - Tri Pointe Bond Exonerations and Reductions",
+      "itemTitle": "Tri Pointe Bond Exonerations and Reductions",
+      "packet_page_start": 93,
+      "packet_page_end": 94,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2025-03-18/item-g-5-01.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=6373",
+      "packetBookmarkTitle": "G.5. Staff Report - Tri Pointe Bond Exonerations and Reductions.pdf"
+    },
+    {
+      "item": "G.5",
+      "section": "Consent",
+      "title": "Attachment A - Maintenance Bonds Exoneration",
+      "itemTitle": "Tri Pointe Bond Exonerations and Reductions",
+      "packet_page_start": 95,
+      "packet_page_end": 95,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2025-03-18/item-g-5-02.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=6374",
+      "packetBookmarkTitle": "G.5. Attachment A - Maintenance Bonds Exoneration.pdf"
+    },
+    {
+      "item": "G.5",
+      "section": "Consent",
+      "title": "Attachment B - Performance and PAyment Bonds Reduction",
+      "itemTitle": "Tri Pointe Bond Exonerations and Reductions",
+      "packet_page_start": 96,
+      "packet_page_end": 97,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2025-03-18/item-g-5-03.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=6375",
+      "packetBookmarkTitle": "G.5. Attachment B - Performance and PAyment Bonds Reduction.pdf"
+    },
+    {
+      "item": "G.5",
+      "section": "Consent",
+      "title": "Attachment C - Certificate of Acceptance",
+      "itemTitle": "Tri Pointe Bond Exonerations and Reductions",
+      "packet_page_start": 98,
+      "packet_page_end": 99,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2025-03-18/item-g-5-04.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=6376",
+      "packetBookmarkTitle": "G.5. Attachment C - Certificate of Acceptance.pdf"
+    },
+    {
+      "item": "G.5",
+      "section": "Consent",
+      "title": "Attachment D - Subdivision Improvement Agreement – PA 14 Basin",
+      "itemTitle": "Tri Pointe Bond Exonerations and Reductions",
+      "packet_page_start": 100,
+      "packet_page_end": 129,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2025-03-18/item-g-5-05.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=6377",
+      "packetBookmarkTitle": "G.5. Attachment D - Subdivision Improvement Agreement – PA 14 Basin.pdf"
+    },
+    {
+      "item": "G.5",
+      "section": "Consent",
+      "title": "Attachment E - Subdivision Improvement Agreement - SCE Easement",
+      "itemTitle": "Tri Pointe Bond Exonerations and Reductions",
+      "packet_page_start": 130,
+      "packet_page_end": 159,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2025-03-18/item-g-5-06.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=6378",
+      "packetBookmarkTitle": "G.5. Attachment E - Subdivision Improvement Agreement - SCE Easement.pdf"
+    },
+    {
+      "item": "G.5",
+      "section": "Consent",
+      "title": "Attachment F - Subdivision Improvement Agreement - Cherry Ave Street Lights",
+      "itemTitle": "Tri Pointe Bond Exonerations and Reductions",
+      "packet_page_start": 160,
+      "packet_page_end": 188,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2025-03-18/item-g-5-07.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=6379",
+      "packetBookmarkTitle": "G.5. Attachment F - Subdivision Improvement Agreement - Cherry Ave Street Lights.pdf"
+    },
+    {
+      "item": "G.6",
+      "section": "Consent",
+      "title": "Staff Report - Public Easement",
+      "itemTitle": "Public and Private Easement Recordation",
+      "packet_page_start": 189,
+      "packet_page_end": 190,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2025-03-18/item-g-6-01.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=6380",
+      "packetBookmarkTitle": "G.6. Staff Report - Public Easement.pdf"
+    },
+    {
+      "item": "G.6",
+      "section": "Consent",
+      "title": "Attachment A - Beaumont Public Access Easement",
+      "itemTitle": "Public and Private Easement Recordation",
+      "packet_page_start": 191,
+      "packet_page_end": 199,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2025-03-18/item-g-6-02.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=6381",
+      "packetBookmarkTitle": "G.6. Attachment A - Beaumont Public Access Easement.pdf"
+    },
+    {
+      "item": "G.6",
+      "section": "Consent",
+      "title": "Attachment B - Beaumont Access Easement to Hall",
+      "itemTitle": "Public and Private Easement Recordation",
+      "packet_page_start": 200,
+      "packet_page_end": 208,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2025-03-18/item-g-6-03.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=6382",
+      "packetBookmarkTitle": "G.6. Attachment B - Beaumont Access Easement to Hall.pdf"
+    },
+    {
+      "item": "I.1",
+      "section": "Public Hearing",
+      "title": "Staff Report - Ordinance for Sewer System - Lift Stations and Force Main Facilities",
+      "itemTitle": "Beaumont Municipal Code Amendment to Chapter 13.08 “Sewer System”",
+      "packet_page_start": 209,
+      "packet_page_end": 210,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2025-03-18/item-i-1-01.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=6319",
+      "packetBookmarkTitle": "I.1. Staff Report - Ordinance for Sewer System - Lift Stations and Force Main Facilities.pdf"
+    },
+    {
+      "item": "I.1",
+      "section": "Public Hearing",
+      "title": "Attachment A -Draft Ordinance ",
+      "itemTitle": "Beaumont Municipal Code Amendment to Chapter 13.08 “Sewer System”",
+      "packet_page_start": 211,
+      "packet_page_end": 212,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2025-03-18/item-i-1-02.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=6320",
+      "packetBookmarkTitle": "I.1. Attachment A -Draft Ordinance .pdf"
+    },
+    {
+      "item": "I.1",
+      "section": "Public Hearing",
+      "title": "Attachment B - New Section  13.08.415 Lift Stations and Force Main Facilities",
+      "itemTitle": "Beaumont Municipal Code Amendment to Chapter 13.08 “Sewer System”",
+      "packet_page_start": 213,
+      "packet_page_end": 213,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2025-03-18/item-i-1-03.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=6321",
+      "packetBookmarkTitle": "I.1. Attachment B - New Section  13.08.415 Lift Stations and Force Main Facilities.pdf"
+    },
+    {
+      "item": "I.1",
+      "section": "Public Hearing",
+      "title": "Attachment C - Notice of Public Hearing - Sewer Systems Ord",
+      "itemTitle": "Beaumont Municipal Code Amendment to Chapter 13.08 “Sewer System”",
+      "packet_page_start": 214,
+      "packet_page_end": 215,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2025-03-18/item-i-1-04.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=6322",
+      "packetBookmarkTitle": "I.1. Attachment C - Notice of Public Hearing - Sewer Systems Ord.pdf"
+    },
+    {
+      "item": "J.1",
+      "section": "Action",
+      "title": "Staff Report - Authorize Employment Contract with Economic Development Director",
+      "itemTitle": "Authorize Employment Contract with Economic Development Director",
+      "packet_page_start": 216,
+      "packet_page_end": 217,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2025-03-18/item-j-1-01.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=6368",
+      "packetBookmarkTitle": "J.1. Staff Report - Authorize Employment Contract with Economic Development Director.pdf"
+    },
+    {
+      "item": "J.1",
+      "section": "Action",
+      "title": "Attachment A - EDD - Pelser Employment Contract ",
+      "itemTitle": "Authorize Employment Contract with Economic Development Director",
+      "packet_page_start": 218,
+      "packet_page_end": 227,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2025-03-18/item-j-1-02.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=6369",
+      "packetBookmarkTitle": "J.1. Attachment A - EDD - Pelser Employment Contract .pdf"
+    },
+    {
+      "item": "J.2",
+      "section": "Action",
+      "title": "Staff Report - Proposed Refunding of Outstanding CFD Bonds",
+      "itemTitle": "Proposed Refunding of Outstanding Community Facilities District (CFD) Bonds",
+      "packet_page_start": 228,
+      "packet_page_end": 229,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2025-03-18/item-j-2-01.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=6359",
+      "packetBookmarkTitle": "J.2. Staff Report - Proposed Refunding of Outstanding CFD Bonds.pdf"
+    },
+    {
+      "item": "J.2",
+      "section": "Action",
+      "title": "City Council Presentation (CFD Refis) 3-11-25 vF",
+      "itemTitle": "Proposed Refunding of Outstanding Community Facilities District (CFD) Bonds",
+      "packet_page_start": 230,
+      "packet_page_end": 239,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2025-03-18/item-j-2-02.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=6360",
+      "packetBookmarkTitle": "J.2. City Council Presentation (CFD Refis) 3-11-25 vF.pdf"
+    },
+    {
+      "item": "J.3",
+      "section": "Action",
+      "title": "Staff Report - Approval of an Amendment to the Acquisition Agreement for Community Facilities District No. 2016-3 ",
+      "itemTitle": "Approval of an Amendment to the Acquisition Agreement for Community Facilities District No. 2016-3 and Authorizing the Issuance of its Special Tax Bonds, Series 2025",
+      "packet_page_start": 240,
+      "packet_page_end": 245,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2025-03-18/item-j-3-01.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=6335",
+      "packetBookmarkTitle": "J.3. Staff Report - Approval of an Amendment to the Acquisition Agreement for Community Facilities District No. 2016-3 .pdf"
+    },
+    {
+      "item": "J.3",
+      "section": "Action",
+      "title": "Attachment A - Good Faith Estimates",
+      "itemTitle": "Approval of an Amendment to the Acquisition Agreement for Community Facilities District No. 2016-3 and Authorizing the Issuance of its Special Tax Bonds, Series 2025",
+      "packet_page_start": 246,
+      "packet_page_end": 356,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2025-03-18/item-j-3-02.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=6336",
+      "packetBookmarkTitle": "J.3. Attachment A - Good Faith Estimates.pdf"
+    },
+    {
+      "item": "J.3",
+      "section": "Action",
+      "title": "Attachment B - CFD Resolution",
+      "itemTitle": "Approval of an Amendment to the Acquisition Agreement for Community Facilities District No. 2016-3 and Authorizing the Issuance of its Special Tax Bonds, Series 2025",
+      "packet_page_start": 357,
+      "packet_page_end": 358,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2025-03-18/item-j-3-03.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=6337",
+      "packetBookmarkTitle": "J.3. Attachment B - CFD Resolution.pdf"
+    },
+    {
+      "item": "J.3",
+      "section": "Action",
+      "title": "Attachment C - City Resolution",
+      "itemTitle": "Approval of an Amendment to the Acquisition Agreement for Community Facilities District No. 2016-3 and Authorizing the Issuance of its Special Tax Bonds, Series 2025",
+      "packet_page_start": 359,
+      "packet_page_end": 362,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2025-03-18/item-j-3-04.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=6338",
+      "packetBookmarkTitle": "J.3. Attachment C - City Resolution.pdf"
+    },
+    {
+      "item": "J.3",
+      "section": "Action",
+      "title": "Attachment D - First Supplement to Bond Indenture",
+      "itemTitle": "Approval of an Amendment to the Acquisition Agreement for Community Facilities District No. 2016-3 and Authorizing the Issuance of its Special Tax Bonds, Series 2025",
+      "packet_page_start": 363,
+      "packet_page_end": 376,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2025-03-18/item-j-3-05.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=6339",
+      "packetBookmarkTitle": "J.3. Attachment D - First Supplement to Bond Indenture.pdf"
+    },
+    {
+      "item": "J.3",
+      "section": "Action",
+      "title": "Attachment E - Bond Purchase Agreement",
+      "itemTitle": "Approval of an Amendment to the Acquisition Agreement for Community Facilities District No. 2016-3 and Authorizing the Issuance of its Special Tax Bonds, Series 2025",
+      "packet_page_start": 377,
+      "packet_page_end": 413,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2025-03-18/item-j-3-06.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=6340",
+      "packetBookmarkTitle": "J.3. Attachment E - Bond Purchase Agreement.pdf"
+    },
+    {
+      "item": "J.3",
+      "section": "Action",
+      "title": "Attachment F - Preliminary Official Statement",
+      "itemTitle": "Approval of an Amendment to the Acquisition Agreement for Community Facilities District No. 2016-3 and Authorizing the Issuance of its Special Tax Bonds, Series 2025",
+      "packet_page_start": 414,
+      "packet_page_end": 505,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2025-03-18/item-j-3-07.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=6341",
+      "packetBookmarkTitle": "J.3. Attachment F - Preliminary Official Statement.pdf"
+    },
+    {
+      "item": "J.3",
+      "section": "Action",
+      "title": "Attachment G - First Amendment to Acquisition Agreement",
+      "itemTitle": "Approval of an Amendment to the Acquisition Agreement for Community Facilities District No. 2016-3 and Authorizing the Issuance of its Special Tax Bonds, Series 2025",
+      "packet_page_start": 506,
+      "packet_page_end": 509,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2025-03-18/item-j-3-08.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=6342",
+      "packetBookmarkTitle": "J.3. Attachment G - First Amendment to Acquisition Agreement.pdf"
+    },
+    {
+      "item": "J.3",
+      "section": "Action",
+      "title": "Attachment H - 2025 Special Tax Bonds Presentation",
+      "itemTitle": "Approval of an Amendment to the Acquisition Agreement for Community Facilities District No. 2016-3 and Authorizing the Issuance of its Special Tax Bonds, Series 2025",
+      "packet_page_start": 510,
+      "packet_page_end": 522,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2025-03-18/item-j-3-09.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=6343",
+      "packetBookmarkTitle": "J.3. Attachment H - 2025 Special Tax Bonds Presentation.pdf"
+    },
+    {
+      "item": "J.4",
+      "section": "Action",
+      "title": "Staff Report - Next Steps for Fiscal Sustainability Planning",
+      "itemTitle": "Sales Tax Working Group Update and Recommended Next Steps for Fiscal Sustainability Planning",
+      "packet_page_start": 523,
+      "packet_page_end": 527,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2025-03-18/item-j-4-01.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=6344",
+      "packetBookmarkTitle": "J.4. Staff Report - Next Steps for Fiscal Sustainability Planning.pdf"
+    },
+    {
+      "item": "J.5",
+      "section": "Action",
+      "title": "Staff Report - Sponsorship Request for the 2025 Cherry Festival by the Cherry Festival Association",
+      "itemTitle": "Sponsorship Request for the 2025 Cherry Festival by the Cherry Festival Association",
+      "packet_page_start": 528,
+      "packet_page_end": 529,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2025-03-18/item-j-5-01.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=6316",
+      "packetBookmarkTitle": "J.5. Staff Report - Sponsorship Request for the 2025 Cherry Festival by the Cherry Festival Association.pdf"
+    },
+    {
+      "item": "J.5",
+      "section": "Action",
+      "title": "Attachment A - Sponsorship Proposal Letter",
+      "itemTitle": "Sponsorship Request for the 2025 Cherry Festival by the Cherry Festival Association",
+      "packet_page_start": 530,
+      "packet_page_end": 532,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2025-03-18/item-j-5-02.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=6317",
+      "packetBookmarkTitle": "J.5. Attachment A - Sponsorship Proposal Letter.pdf"
+    },
+    {
+      "item": "J.5",
+      "section": "Action",
+      "title": "Attachment B - 2024 Cherry Festival Assoc Audit",
+      "itemTitle": "Sponsorship Request for the 2025 Cherry Festival by the Cherry Festival Association",
+      "packet_page_start": 533,
+      "packet_page_end": 545,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2025-03-18/item-j-5-03.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=6318",
+      "packetBookmarkTitle": "J.5. Attachment B - 2024 Cherry Festival Assoc Audit.pdf"
+    },
+    {
+      "item": "J.6",
+      "section": "Action",
+      "title": "Staff Report - City of Beaumont to Orchestrate the Cherry Festival Parade",
+      "itemTitle": "Recommendation for the City of Beaumont to Host the Cherry Festival Parade",
+      "packet_page_start": 546,
+      "packet_page_end": 547,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2025-03-18/item-j-6-01.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=6356",
+      "packetBookmarkTitle": "J.6. Staff Report - City of Beaumont to Orchestrate the Cherry Festival Parade.pdf"
+    },
+    {
+      "item": "J.6",
+      "section": "Action",
+      "title": "Attachment A - Rotary Club Letter",
+      "itemTitle": "Recommendation for the City of Beaumont to Host the Cherry Festival Parade",
+      "packet_page_start": 548,
+      "packet_page_end": 548,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2025-03-18/item-j-6-02.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=6357",
+      "packetBookmarkTitle": "J.6. Attachment A - Rotary Club Letter.pdf"
+    },
+    {
+      "item": "J.6",
+      "section": "Action",
+      "title": "Attachment B - Cherry Festival Letter",
+      "itemTitle": "Recommendation for the City of Beaumont to Host the Cherry Festival Parade",
+      "packet_page_start": 549,
+      "packet_page_end": 549,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2025-03-18/item-j-6-03.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=6358",
+      "packetBookmarkTitle": "J.6. Attachment B - Cherry Festival Letter.pdf"
+    },
+    {
+      "item": "J.7",
+      "section": "Action",
+      "title": "Staff Report – Proposed Projects for Congressional Appropriations Funding",
+      "itemTitle": "Proposed Projects for Congressional Appropriations Funding 2025",
+      "packet_page_start": 550,
+      "packet_page_end": 551,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2025-03-18/item-j-7-01.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=6370",
+      "packetBookmarkTitle": "J.7. Staff Report – Proposed Projects for Congressional Appropriations Funding.pdf"
+    },
+    {
+      "item": "J.7",
+      "section": "Action",
+      "title": "Attachment A - Detailed Project Descriptions",
+      "itemTitle": "Proposed Projects for Congressional Appropriations Funding 2025",
+      "packet_page_start": 552,
+      "packet_page_end": 552,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2025-03-18/item-j-7-02.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=6371",
+      "packetBookmarkTitle": "J.7. Attachment A - Detailed Project Descriptions.pdf"
+    },
+    {
+      "item": "J.7",
+      "section": "Action",
+      "title": "Attachment B - Overview of Appropriations Categories",
+      "itemTitle": "Proposed Projects for Congressional Appropriations Funding 2025",
+      "packet_page_start": 553,
+      "packet_page_end": 553,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2025-03-18/item-j-7-03.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=6372",
+      "packetBookmarkTitle": "J.7. Attachment B - Overview of Appropriations Categories.pdf"
+    },
+    {
+      "item": "J.8",
+      "section": "Action",
+      "title": "Staff Report - Adopt a Resolution Approving the CalSIP Stream Gage Grant",
+      "itemTitle": "Adopt a Resolution Approving the CalSIP Stream Gage Grant",
+      "packet_page_start": 554,
+      "packet_page_end": 555,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2025-03-18/item-j-8-01.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=6332",
+      "packetBookmarkTitle": "J.8. Staff Report - Adopt a Resolution Approving the CalSIP Stream Gage Grant.pdf"
+    },
+    {
+      "item": "J.8",
+      "section": "Action",
+      "title": "Attachment A Resolution",
+      "itemTitle": "Adopt a Resolution Approving the CalSIP Stream Gage Grant",
+      "packet_page_start": 556,
+      "packet_page_end": 557,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2025-03-18/item-j-8-02.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=6333",
+      "packetBookmarkTitle": "J.8. Attachment A Resolution.pdf"
+    },
+    {
+      "item": "J.8",
+      "section": "Action",
+      "title": "Attachment B DWR Award Letter",
+      "itemTitle": "Adopt a Resolution Approving the CalSIP Stream Gage Grant",
+      "packet_page_start": 558,
+      "packet_page_end": 559,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2025-03-18/item-j-8-03.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=6334",
+      "packetBookmarkTitle": "J.8. Attachment B DWR Award Letter.pdf"
+    },
+    {
+      "item": "J.9",
+      "section": "Action",
+      "title": "Staff Report - Approval of Contract for Financial Auditing Services",
+      "itemTitle": "Approval of Contract for Financial Auditing Services",
+      "packet_page_start": 560,
+      "packet_page_end": 562,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2025-03-18/item-j-9-01.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=6361",
+      "packetBookmarkTitle": "J.9. Staff Report - Approval of Contract for Financial Auditing Services.pdf"
+    },
+    {
+      "item": "J.9",
+      "section": "Action",
+      "title": "Attachment A - RFP for City Audit Services issued on December 6, 2024",
+      "itemTitle": "Approval of Contract for Financial Auditing Services",
+      "packet_page_start": 563,
+      "packet_page_end": 594,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2025-03-18/item-j-9-02.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=6362",
+      "packetBookmarkTitle": "J.9. Attachment A - RFP for City Audit Services issued on December 6, 2024.pdf"
+    },
+    {
+      "item": "J.9",
+      "section": "Action",
+      "title": "Attachment B - Contract with Rogers, Anderson, Malody and Scott, LLP to perform audit services",
+      "itemTitle": "Approval of Contract for Financial Auditing Services",
+      "packet_page_start": 595,
+      "packet_page_end": 668,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2025-03-18/item-j-9-03.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=6363",
+      "packetBookmarkTitle": "J.9. Attachment B - Contract with Rogers, Anderson, Malody and Scott, LLP to perform audit services.pdf"
+    },
+    {
+      "item": "J.9",
+      "section": "Action",
+      "title": "Attachment C - Contract Exhibit A – RAMS RFP proposal",
+      "itemTitle": "Approval of Contract for Financial Auditing Services",
+      "packet_page_start": 669,
+      "packet_page_end": 697,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2025-03-18/item-j-9-04.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=6364",
+      "packetBookmarkTitle": "J.9. Attachment C - Contract Exhibit A – RAMS RFP proposal.pdf"
+    },
+    {
+      "item": "J.9",
+      "section": "Action",
+      "title": "Attachment D - Contract Exhibit B – Audit Engagement Letter",
+      "itemTitle": "Approval of Contract for Financial Auditing Services",
+      "packet_page_start": 698,
+      "packet_page_end": 708,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2025-03-18/item-j-9-05.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=6365",
+      "packetBookmarkTitle": "J.9. Attachment D - Contract Exhibit B – Audit Engagement Letter.pdf"
+    },
+    {
+      "item": "J.9",
+      "section": "Action",
+      "title": "Attachment E - Contract Exhibit C – SAS 114 Letter",
+      "itemTitle": "Approval of Contract for Financial Auditing Services",
+      "packet_page_start": 709,
+      "packet_page_end": 710,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2025-03-18/item-j-9-06.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=6366",
+      "packetBookmarkTitle": "J.9. Attachment E - Contract Exhibit C – SAS 114 Letter.pdf"
+    },
+    {
+      "item": "J.9",
+      "section": "Action",
+      "title": "Attachment F - Contract Exhibit D – Certificates of Insurance",
+      "itemTitle": "Approval of Contract for Financial Auditing Services",
+      "packet_page_start": 711,
+      "packet_page_end": 715,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2025-03-18/item-j-9-07.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=6367",
+      "packetBookmarkTitle": "J.9. Attachment F - Contract Exhibit D – Certificates of Insurance.pdf"
+    },
+    {
+      "item": "J.10",
+      "section": "Action",
+      "title": "Staff Report - Request To Approve Service Agreement With Enterprise Fleet Management",
+      "itemTitle": "Request To Approve Service Agreement with Enterprise Fleet Management",
+      "packet_page_start": 716,
+      "packet_page_end": 719,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2025-03-18/item-j-10-01.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=6324",
+      "packetBookmarkTitle": "J.10. Staff Report - Request To Approve Service Agreement With Enterprise Fleet Management.pdf"
+    },
+    {
+      "item": "J.10",
+      "section": "Action",
+      "title": "Attachment A - Enterprise Master lease agreement-revised by City 12.27",
+      "itemTitle": "Request To Approve Service Agreement with Enterprise Fleet Management",
+      "packet_page_start": 720,
+      "packet_page_end": 725,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2025-03-18/item-j-10-02.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=6325",
+      "packetBookmarkTitle": "J.10. Attachment A - Enterprise Master lease agreement-revised by City 12.27.pdf"
+    },
+    {
+      "item": "J.10",
+      "section": "Action",
+      "title": "Attachment B - Enterprise Agreement to sell customer vehicles 12.27",
+      "itemTitle": "Request To Approve Service Agreement with Enterprise Fleet Management",
+      "packet_page_start": 726,
+      "packet_page_end": 728,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2025-03-18/item-j-10-03.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=6326",
+      "packetBookmarkTitle": "J.10. Attachment B - Enterprise Agreement to sell customer vehicles 12.27.pdf"
+    },
+    {
+      "item": "J.10",
+      "section": "Action",
+      "title": "Attachment C - Enterprise Consignment auction agreement",
+      "itemTitle": "Request To Approve Service Agreement with Enterprise Fleet Management",
+      "packet_page_start": 729,
+      "packet_page_end": 730,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2025-03-18/item-j-10-04.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=6327",
+      "packetBookmarkTitle": "J.10. Attachment C - Enterprise Consignment auction agreement.pdf"
+    },
+    {
+      "item": "J.10",
+      "section": "Action",
+      "title": "Attachment D - EFM Government Credit Application (copy)",
+      "itemTitle": "Request To Approve Service Agreement with Enterprise Fleet Management",
+      "packet_page_start": 731,
+      "packet_page_end": 733,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2025-03-18/item-j-10-05.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=6328",
+      "packetBookmarkTitle": "J.10. Attachment D - EFM Government Credit Application (copy).pdf"
+    },
+    {
+      "item": "J.10",
+      "section": "Action",
+      "title": "Attachment E - GP2F - City of Beaumont - Self-Insurance Addendum - PD  - Equity 01.2025",
+      "itemTitle": "Request To Approve Service Agreement with Enterprise Fleet Management",
+      "packet_page_start": 734,
+      "packet_page_end": 734,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2025-03-18/item-j-10-06.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=6329",
+      "packetBookmarkTitle": "J.10. Attachment E - GP2F - City of Beaumont - Self-Insurance Addendum - PD  - Equity 01.2025.pdf"
+    },
+    {
+      "item": "J.10",
+      "section": "Action",
+      "title": "Attachment F - Sourcewell agreement-Enterprise",
+      "itemTitle": "Request To Approve Service Agreement with Enterprise Fleet Management",
+      "packet_page_start": 735,
+      "packet_page_end": 776,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2025-03-18/item-j-10-07.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=6330",
+      "packetBookmarkTitle": "J.10. Attachment F - Sourcewell agreement-Enterprise.pdf"
+    },
+    {
+      "item": "J.10",
+      "section": "Action",
+      "title": "Attachment G - GP2F - City of Beaumont - Service Agreement - 02.2025",
+      "itemTitle": "Request To Approve Service Agreement with Enterprise Fleet Management",
+      "packet_page_start": 777,
+      "packet_page_end": 777,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2025-03-18/item-j-10-08.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=6331",
+      "packetBookmarkTitle": "J.10. Attachment G - GP2F - City of Beaumont - Service Agreement - 02.2025.pdf"
+    },
+    {
+      "item": "J.11",
+      "section": "Action",
+      "title": "Staff Report - WWTP Improvements - Rejection of Bids, Reduce Scope and Re-Advertise for Bids ",
+      "itemTitle": "Wastewater Treatment Plant Improvements Project (CIP WW24-01), Reject All Bids and Authorize City staff to Revise Bidding Documents and Re-Advertise for Bids",
+      "packet_page_start": 778,
+      "packet_page_end": 781,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2025-03-18/item-j-11-01.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=6349",
+      "packetBookmarkTitle": "J.11. Staff Report - WWTP Improvements - Rejection of Bids, Reduce Scope and Re-Advertise for Bids .pdf"
+    },
+    {
+      "item": "J.12",
+      "section": "Action",
+      "title": "Staff Report - Follow-Up Report – Local State of Emergency – Sewer Mainline Failure and Emergency Repairs in Fairway Canyon",
+      "itemTitle": "Follow-Up Report – Local State of Emergency – Sewer Mainline Failure and Emergency Repairs in Fairway Canyon",
+      "packet_page_start": 782,
+      "packet_page_end": 786,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2025-03-18/item-j-12-01.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=6383",
+      "packetBookmarkTitle": "J.12. Staff Report - Follow-Up Report – Local State of Emergency – Sewer Mainline Failure and Emergency Repairs in Fairway Canyon.pdf"
+    },
+    {
+      "item": "M.1",
+      "section": "Reports",
+      "title": "FY25 Treasurers Reports receipts, disbursements and balances Governmental Funds",
+      "itemTitle": "City Treasurer Reports",
+      "packet_page_start": 787,
+      "packet_page_end": 787,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2025-03-18/item-m-1-01.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=6350",
+      "packetBookmarkTitle": "M.1. FY25 Treasurers Reports receipts, disbursements and balances Governmental Funds.pdf"
+    },
+    {
+      "item": "M.1",
+      "section": "Reports",
+      "title": "FY25 Treasurers Reports receipts, disbursements and balances Fiduciary Funds",
+      "itemTitle": "City Treasurer Reports",
+      "packet_page_start": 788,
+      "packet_page_end": 788,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2025-03-18/item-m-1-02.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=6351",
+      "packetBookmarkTitle": "M.1. FY25 Treasurers Reports receipts, disbursements and balances Fiduciary Funds.pdf"
+    },
+    {
+      "item": "M.1",
+      "section": "Reports",
+      "title": "FY25 Treasurers Reports receipts, disbursements and balances Proprietary Funds",
+      "itemTitle": "City Treasurer Reports",
+      "packet_page_start": 789,
+      "packet_page_end": 789,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2025-03-18/item-m-1-03.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=6352",
+      "packetBookmarkTitle": "M.1. FY25 Treasurers Reports receipts, disbursements and balances Proprietary Funds.pdf"
+    }
+  ],
+  "packetBytes": 57358691
+}

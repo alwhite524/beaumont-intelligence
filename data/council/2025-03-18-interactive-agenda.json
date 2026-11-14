@@ -11,7 +11,7 @@
   "reviewedOn": "2026-11-13",
   "transcriptStatus": "advertised-but-not-retrieved",
   "timestampBasis": "No item video offsets verified. Clock times in official minutes are not video offsets.",
-  "sourceCoverage": "Agenda navigation reconstructed from official minutes and verified YouTube titles. Complete agenda packets and item attachments are not inventoried. Minutes outcomes are distinct from proposals; listed motions are not proof of payment or delivery.",
+  "sourceCoverage": "All 68 City-listed supporting documents matched item by item to the supplied 789-page packet bookmarks. Every report and attachment is linked with its original City URL and packet page range. This verifies the source inventory, not the substantive accuracy of every page. The existing 36 minutes-backed entries, recorded decisions and video link are preserved; published recommendations appear separately.",
   "items": [
     {
       "item": "B.1",
@@ -301,5 +301,7 @@
       "outcome": "Minutes state adjournment at 11:30 p.m. and April 1, 2025 as the next regular meeting. Clock times are not converted to video timestamps; the recording's full coverage has not been independently verified.",
       "timestampSeconds": null
     }
-  ]
+  ],
+  "packetArchiveUrl": "https://documents.beaumontintelligence.com/records/agenda-packets/2025-03-18/2025-03-18-city-council-agenda-package.pdf",
+  "documentsSource": "data/council/2025-03-18-agenda.json"
 }

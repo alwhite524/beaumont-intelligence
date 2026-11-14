@@ -109,6 +109,16 @@ for date in ['2025-03-18', '2024-04-02', '2024-06-04']:
                         'body': item['title'] + ' Official minutes record: ' + item['outcome']})
 
 quarter_review = load_reviews()
+for date in ['2025-03-04', '2025-04-01', '2025-04-15']:
+    path = ROOT / f'data/council/{date}-agenda.json'
+    if not path.exists():
+        continue
+    packet = json.loads(path.read_text(encoding='utf-8'))
+    for item in packet['items']:
+        records.append({'title': item['title'], 'url': f'../briefings/{date}-sources.html#item-' + item['item'].lower().replace('.', '-'),
+                        'date': date, 'item': item['item'], 'topic': topic_for(item['title']), 'type': 'Agenda item',
+                        'body': item['title'] + ' Published description: ' + item.get('description', '') + ' Published recommendation: ' + item.get('recommendation', '')})
+
 if quarter_review:
     for date, review in quarter_review.items():
         agenda = json.loads((ROOT / f'data/council/{date}-agenda.json').read_text(encoding='utf-8'))

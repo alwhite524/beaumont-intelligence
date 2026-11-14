@@ -1,0 +1,443 @@
+{
+  "date": "2025-04-01",
+  "sourceFilename": "Agenda Package - City Council Closed and Regular Session_Apr01_2025.pdf",
+  "packetPages": 137,
+  "agendaPageCount": 6,
+  "packetArchiveUrl": "https://documents.beaumontintelligence.com/records/agenda-packets/2025-04-01/2025-04-01-city-council-agenda-package.pdf",
+  "agendaUrl": "https://documents.beaumontintelligence.com/official-documents/2025-04-01/agenda.pdf",
+  "officialAgendaUrl": "https://pub-beaumont.escribemeetings.com/Meeting.aspx?Id=bc2c09b2-6d94-4b8e-9d56-bbf9b1f0f12c&Agenda=Agenda&lang=English",
+  "meetingStatus": "held",
+  "audit": {
+    "checkedOn": "2026-11-13",
+    "expectedDocuments": 26,
+    "linkedDocuments": 26,
+    "officialHtmlAuditComplete": true,
+    "archiveComplete": true,
+    "officialHtmlSha256": "afc66169d8d5a417068318368ad7e245a83e217a4e785644e4ecd1a82597072f",
+    "basis": "Every official HTML attachment matched by agenda item and normalized filename to a unique supplied packet bookmark. Original City URLs and contiguous packet page ranges retained. Outcomes are not inferred from agenda recommendations."
+  },
+  "items": [
+    {
+      "item": "B.1",
+      "title": "Conference with legal counsel regarding potential initiation of litigation pursuant to Government Code Section 54956.9(d)(4)",
+      "section": "Closed Session",
+      "recommendation": "",
+      "description": "One Potential Case"
+    },
+    {
+      "item": "B.2",
+      "title": "Conference with Legal Counsel – Anticipated Litigation – Significant exposure to litigation pursuant to Government Code 54956.9(d)(2)and/or(3).",
+      "section": "Closed Session",
+      "recommendation": "",
+      "description": "One potential case."
+    },
+    {
+      "item": "B.3",
+      "title": "Conference with Legal Counsel regarding pending litigation pursuant to Government Code Section 54956.9(d)(1)",
+      "section": "Closed Session",
+      "recommendation": "",
+      "description": "Sierra Club v City of Beaumont, et.al (Case Number CVRI 2403512). One Case"
+    },
+    {
+      "item": "B.4",
+      "title": "Conference with Legal Counsel Regarding Existing Litigation Pursuant to Government Code Section 54956.9(d)(1)",
+      "section": "Closed Session",
+      "recommendation": "",
+      "description": "James Pietronico et. al. v. City of Beaumont et. al. United States District, Central District Case No.: 5:23-CV-02431-KS"
+    },
+    {
+      "item": "B.5",
+      "title": "Public Employee Performance Evaluation Pursuant to Government Code Section 54957. Title: City Manager",
+      "section": "Closed Session",
+      "recommendation": "",
+      "description": ""
+    },
+    {
+      "item": "B.6",
+      "title": "Conference with Labor Negotiators Pursuant to Government Code Section 54957.6.",
+      "section": "Closed Session",
+      "recommendation": "",
+      "description": "Agency designated representatives: Council Members Julio Martínez and David Fenn. Unrepresented Employee: City Manager."
+    },
+    {
+      "item": "E.1",
+      "title": "In Memoriam of Billiath Bengesa",
+      "section": "Presentation",
+      "recommendation": "",
+      "description": ""
+    },
+    {
+      "item": "E.2",
+      "title": "Public Works Department - Inland Empire Roadeo Trophies",
+      "section": "Presentation",
+      "recommendation": "",
+      "description": ""
+    },
+    {
+      "item": "G.1",
+      "title": "Ratification of Warrants",
+      "section": "Consent",
+      "recommendation": "Ratify Warrants dated: March 14, 2025 March 21, 2025",
+      "description": ""
+    },
+    {
+      "item": "G.2",
+      "title": "Approval of Minutes",
+      "section": "Consent",
+      "recommendation": "Approve Minutes dated March 18, 2025",
+      "description": ""
+    },
+    {
+      "item": "G.3",
+      "title": "Beaumont Municipal Code Amendment to Chapter 13.08 \"Sewer System\"",
+      "section": "Consent",
+      "recommendation": "Waive the second full reading and adopt by title only, \"An Ordinance of the City Council of the City of Beaumont, California, amending Chapter 13.08 'Sewer System', by adding New Section 13.08.415 'Lift Station and Force Main Facilities' to the Beaumont Municipal Code\".",
+      "description": "Second reading of code amendment to Beaumont Municipal Code Chapter 13.08 \"Sewer System\", more specifically Adding New Section 13.08.415 \"Lift Station and Force Main Facilities\"."
+    },
+    {
+      "item": "G.4",
+      "title": "Beaumont Police Department Specialized Equipment Inventory and Fiscal Impact Report",
+      "section": "Consent",
+      "recommendation": "Receive and file.",
+      "description": "Requirement per Government Code 7072 to submit an annual report to its governing body regarding military equipment (specialized equipment) as dictated by Assembly Bill AB481."
+    },
+    {
+      "item": "I.1",
+      "title": "Public Hearing to Amend Beaumont Municipal Code Chapter 2.24 “Planning Commission and Community Development Department”",
+      "section": "Public Hearing",
+      "recommendation": "Waive the full first reading and approve by title only, “An Ordinance of the City Council of the City of Beaumont, California, Amending Chapter 2.24 ‘Planning Commission and Community Development Department’, of the Beaumont Municipal Code”.",
+      "description": "Proposed amendments to update sections within the chapter to include primary residence requirement and other housekeeping updates."
+    },
+    {
+      "item": "J.1",
+      "title": "Follow-Up Report No. 2 – Local State of Emergency – Sewer Mainline Failure and Emergency Repairs in Fairway Canyon, Adopt a Resolution to Re-Ratify the Declared State of Local Emergency",
+      "section": "Action",
+      "recommendation": "Waive the full reading and adopt by title only, “A Resolution of the City Council of the City of Beaumont Extending the Declaration of a Local Emergency and Authorizing the City Manager to Take Necessary Action”, and Increase the spending authority of the City Manager by $500,000 for a grand total of $1,000,000 to be used to address this emergency sewer mainline failure. Direct staff to return at the next Council meeting with a follow-up report on emergency response efforts, expenditures, and timeline updates.",
+      "description": "Local emergency due to the sewer mainline failure in Fairway Canyon."
+    },
+    {
+      "item": "J.2",
+      "title": "Approve a Service Agreement with Beaumont Cherry Valley Water District and issue Performance and Payment Bonds",
+      "section": "Action",
+      "recommendation": "Authorize the City Manager to execute the service agreement with BCVWD and issue performance and payment bonds in the requested amount of $103,162.50 in favor of BCVWD.",
+      "description": "Water Services at the Mesa Lift Station Upgrade Project (CIP WW-11)."
+    },
+    {
+      "item": "J.3",
+      "title": "Street Cut Moratorium Exception Request from Beaumont Unified School District",
+      "section": "Action",
+      "recommendation": "Authorize the City Engineer to grant an exception to the street cut moratorium for Chestnut Avenue and Eight Street in association with water service connections for Glen View High School and Palm Innovation Academy; and, Reject the request by BUSD to modify the imposed conditions identified in the BMC Chapter 12.31 - Street Cut Moratorium.",
+      "description": "Beaumont Unified School District is requesting an exception to the Street Cut Moratorium and street repair requirements at Glen View High School and Palm Innovation Academy."
+    },
+    {
+      "item": "J.4",
+      "title": "Beaumont Nights at Towncenter 2025 Season Update and Program Considerations",
+      "section": "Action",
+      "recommendation": "Staff recommends that City Council give direction to publish a notice of public hearing to establish a nominal fee or a deposit-based system for vendor registration; and, Allow alcohol sales in accordance with ABC licensing.",
+      "description": "Beaumont Nights at Towncenter 2025 Season Update."
+    },
+    {
+      "item": "J.5",
+      "title": "Fiscal Year 2025/26 Short-Range Transit Plan Table 4 Draft",
+      "section": "Action",
+      "recommendation": "Approve the Fiscal Year 2025/26 Short-Range Transit Plan Table 4 as presented.",
+      "description": "Review of the Short-Range Transit Plan Table 4 Draft."
+    },
+    {
+      "item": "P.1",
+      "title": "Community Clean Up",
+      "section": "Reports",
+      "recommendation": "",
+      "description": ""
+    }
+  ],
+  "documents": [
+    {
+      "item": "G.1",
+      "section": "Consent",
+      "title": "20250314 Warrants",
+      "itemTitle": "Ratification of Warrants",
+      "packet_page_start": 7,
+      "packet_page_end": 27,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2025-04-01/item-g-1-01.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=6414",
+      "packetBookmarkTitle": "G.1. 20250314 Warrants.pdf"
+    },
+    {
+      "item": "G.1",
+      "section": "Consent",
+      "title": "20250321 Warrants",
+      "itemTitle": "Ratification of Warrants",
+      "packet_page_start": 28,
+      "packet_page_end": 49,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2025-04-01/item-g-1-02.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=6415",
+      "packetBookmarkTitle": "G.1. 20250321 Warrants.pdf"
+    },
+    {
+      "item": "G.2",
+      "section": "Consent",
+      "title": "CC Minutes 03.18.2025",
+      "itemTitle": "Approval of Minutes",
+      "packet_page_start": 50,
+      "packet_page_end": 59,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2025-04-01/item-g-2-01.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=6423",
+      "packetBookmarkTitle": "G.2. CC Minutes 03.18.2025.pdf"
+    },
+    {
+      "item": "G.3",
+      "section": "Consent",
+      "title": "Staff Report - Sewer System Ord",
+      "itemTitle": "Beaumont Municipal Code Amendment to Chapter 13.08 \"Sewer System\"",
+      "packet_page_start": 60,
+      "packet_page_end": 61,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2025-04-01/item-g-3-01.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=6410",
+      "packetBookmarkTitle": "G.3. Staff Report - Sewer System Ord.pdf"
+    },
+    {
+      "item": "G.3",
+      "section": "Consent",
+      "title": "Attachment A - Draft Ordinance - Lift Stations and Force Mains",
+      "itemTitle": "Beaumont Municipal Code Amendment to Chapter 13.08 \"Sewer System\"",
+      "packet_page_start": 62,
+      "packet_page_end": 63,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2025-04-01/item-g-3-02.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=6411",
+      "packetBookmarkTitle": "G.3. Attachment A - Draft Ordinance - Lift Stations and Force Mains.pdf"
+    },
+    {
+      "item": "G.3",
+      "section": "Consent",
+      "title": "Attachment B - Proposed New Section  13.08.415",
+      "itemTitle": "Beaumont Municipal Code Amendment to Chapter 13.08 \"Sewer System\"",
+      "packet_page_start": 64,
+      "packet_page_end": 64,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2025-04-01/item-g-3-03.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=6412",
+      "packetBookmarkTitle": "G.3. Attachment B - Proposed New Section  13.08.415.pdf"
+    },
+    {
+      "item": "G.3",
+      "section": "Consent",
+      "title": "Attachment C - Proof of Publication - Public Hearing on New Section 13.08.415",
+      "itemTitle": "Beaumont Municipal Code Amendment to Chapter 13.08 \"Sewer System\"",
+      "packet_page_start": 65,
+      "packet_page_end": 66,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2025-04-01/item-g-3-04.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=6413",
+      "packetBookmarkTitle": "G.3. Attachment C - Proof of Publication - Public Hearing on New Section 13.08.415.pdf"
+    },
+    {
+      "item": "G.4",
+      "section": "Consent",
+      "title": "Staff Report - Beaumont Police Department Specialized Equipment Inventory and Fiscal Impact Report",
+      "itemTitle": "Beaumont Police Department Specialized Equipment Inventory and Fiscal Impact Report",
+      "packet_page_start": 67,
+      "packet_page_end": 68,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2025-04-01/item-g-4-01.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=6419",
+      "packetBookmarkTitle": "G.4. Staff Report - Beaumont Police Department Specialized Equipment Inventory and Fiscal Impact Report.pdf"
+    },
+    {
+      "item": "G.4",
+      "section": "Consent",
+      "title": "Attachment A - AB481 March 2025",
+      "itemTitle": "Beaumont Police Department Specialized Equipment Inventory and Fiscal Impact Report",
+      "packet_page_start": 69,
+      "packet_page_end": 79,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2025-04-01/item-g-4-02.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=6420",
+      "packetBookmarkTitle": "G.4. Attachment A - AB481 March 2025.pdf"
+    },
+    {
+      "item": "I.1",
+      "section": "Public Hearing",
+      "title": "Staff Report - PC Ordinance Public Hearing",
+      "itemTitle": "Public Hearing to Amend Beaumont Municipal Code Chapter 2.24 “Planning Commission and Community Development Department”",
+      "packet_page_start": 80,
+      "packet_page_end": 80,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2025-04-01/item-i-1-01.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=6406",
+      "packetBookmarkTitle": "I.1. Staff Report - PC Ordinance Public Hearing.pdf"
+    },
+    {
+      "item": "I.1",
+      "section": "Public Hearing",
+      "title": "Attachment A - 2.24.020 Redlines",
+      "itemTitle": "Public Hearing to Amend Beaumont Municipal Code Chapter 2.24 “Planning Commission and Community Development Department”",
+      "packet_page_start": 81,
+      "packet_page_end": 82,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2025-04-01/item-i-1-02.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=6407",
+      "packetBookmarkTitle": "I.1. Attachment A - 2.24.020 Redlines.pdf"
+    },
+    {
+      "item": "I.1",
+      "section": "Public Hearing",
+      "title": "Attachment B - Ord - Ch 2.24 Planning Commission",
+      "itemTitle": "Public Hearing to Amend Beaumont Municipal Code Chapter 2.24 “Planning Commission and Community Development Department”",
+      "packet_page_start": 83,
+      "packet_page_end": 85,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2025-04-01/item-i-1-03.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=6408",
+      "packetBookmarkTitle": "I.1. Attachment B - Ord - Ch 2.24 Planning Commission.pdf"
+    },
+    {
+      "item": "I.1",
+      "section": "Public Hearing",
+      "title": "Attachment C - Exhibit A to ordinance",
+      "itemTitle": "Public Hearing to Amend Beaumont Municipal Code Chapter 2.24 “Planning Commission and Community Development Department”",
+      "packet_page_start": 86,
+      "packet_page_end": 86,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2025-04-01/item-i-1-04.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=6409",
+      "packetBookmarkTitle": "I.1. Attachment C - Exhibit A to ordinance.pdf"
+    },
+    {
+      "item": "J.1",
+      "section": "Action",
+      "title": "ff Report - Follow-Up Report No. 2 Local State of Emergency – Sewer Mainline Failure and Emergency Repairs",
+      "itemTitle": "Follow-Up Report No. 2 – Local State of Emergency – Sewer Mainline Failure and Emergency Repairs in Fairway Canyon, Adopt a Resolution to Re-Ratify the Declared State of Local Emergency",
+      "packet_page_start": 87,
+      "packet_page_end": 90,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2025-04-01/item-j-1-01.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=6421",
+      "packetBookmarkTitle": "J.1. ff Report - Follow-Up Report No. 2 Local State of Emergency – Sewer Mainline Failure and Emergency Repairs.pdf"
+    },
+    {
+      "item": "J.1",
+      "section": "Action",
+      "title": "Attachment A - Emergency Declaration re-ratification - 2025 Sewer Main",
+      "itemTitle": "Follow-Up Report No. 2 – Local State of Emergency – Sewer Mainline Failure and Emergency Repairs in Fairway Canyon, Adopt a Resolution to Re-Ratify the Declared State of Local Emergency",
+      "packet_page_start": 91,
+      "packet_page_end": 92,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2025-04-01/item-j-1-02.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=6422",
+      "packetBookmarkTitle": "J.1. Attachment A - Emergency Declaration re-ratification - 2025 Sewer Main.pdf"
+    },
+    {
+      "item": "J.2",
+      "section": "Action",
+      "title": "Staff Report - Approve Service Agreement and Bonds with BCVWD for Mesa Lift Station Upgrade",
+      "itemTitle": "Approve a Service Agreement with Beaumont Cherry Valley Water District and issue Performance and Payment Bonds",
+      "packet_page_start": 93,
+      "packet_page_end": 95,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2025-04-01/item-j-2-01.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=6424",
+      "packetBookmarkTitle": "J.2. Staff Report - Approve Service Agreement and Bonds with BCVWD for Mesa Lift Station Upgrade.pdf"
+    },
+    {
+      "item": "J.2",
+      "section": "Action",
+      "title": "Attachment A - Service Agreement",
+      "itemTitle": "Approve a Service Agreement with Beaumont Cherry Valley Water District and issue Performance and Payment Bonds",
+      "packet_page_start": 96,
+      "packet_page_end": 119,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2025-04-01/item-j-2-02.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=6425",
+      "packetBookmarkTitle": "J.2. Attachment A - Service Agreement.pdf"
+    },
+    {
+      "item": "J.2",
+      "section": "Action",
+      "title": "Attachment B - AR761_Mesa Lift Station_NP BCVWD _Fees",
+      "itemTitle": "Approve a Service Agreement with Beaumont Cherry Valley Water District and issue Performance and Payment Bonds",
+      "packet_page_start": 120,
+      "packet_page_end": 122,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2025-04-01/item-j-2-03.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=6426",
+      "packetBookmarkTitle": "J.2. Attachment B - AR761_Mesa Lift Station_NP BCVWD _Fees.pdf"
+    },
+    {
+      "item": "J.3",
+      "section": "Action",
+      "title": "Street Cut Moratorium Wavier",
+      "itemTitle": "Street Cut Moratorium Exception Request from Beaumont Unified School District",
+      "packet_page_start": 123,
+      "packet_page_end": 124,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2025-04-01/item-j-3-01.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=6427",
+      "packetBookmarkTitle": "J.3. Street Cut Moratorium Wavier.pdf"
+    },
+    {
+      "item": "J.3",
+      "section": "Action",
+      "title": "Attachment A - Glen View High School Moratorium Exhibit",
+      "itemTitle": "Street Cut Moratorium Exception Request from Beaumont Unified School District",
+      "packet_page_start": 125,
+      "packet_page_end": 125,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2025-04-01/item-j-3-02.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=6428",
+      "packetBookmarkTitle": "J.3. Attachment A - Glen View High School Moratorium Exhibit.pdf"
+    },
+    {
+      "item": "J.3",
+      "section": "Action",
+      "title": "Attachment B - Palm Innovation Academy Moratorium Exhibit",
+      "itemTitle": "Street Cut Moratorium Exception Request from Beaumont Unified School District",
+      "packet_page_start": 126,
+      "packet_page_end": 126,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2025-04-01/item-j-3-03.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=6429",
+      "packetBookmarkTitle": "J.3. Attachment B - Palm Innovation Academy Moratorium Exhibit.pdf"
+    },
+    {
+      "item": "J.4",
+      "section": "Action",
+      "title": "Staff Report - Market Night Update",
+      "itemTitle": "Beaumont Nights at Towncenter 2025 Season Update and Program Considerations",
+      "packet_page_start": 127,
+      "packet_page_end": 131,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2025-04-01/item-j-4-01.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=6416",
+      "packetBookmarkTitle": "J.4. Staff Report - Market Night Update.pdf"
+    },
+    {
+      "item": "J.4",
+      "section": "Action",
+      "title": "Attachment A - Beaumont Nights at Towncenter Flyer",
+      "itemTitle": "Beaumont Nights at Towncenter 2025 Season Update and Program Considerations",
+      "packet_page_start": 132,
+      "packet_page_end": 132,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2025-04-01/item-j-4-02.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=6417",
+      "packetBookmarkTitle": "J.4. Attachment A - Beaumont Nights at Towncenter Flyer.pdf"
+    },
+    {
+      "item": "J.4",
+      "section": "Action",
+      "title": "Attachment B - 2025 Market Night Cost Estimate",
+      "itemTitle": "Beaumont Nights at Towncenter 2025 Season Update and Program Considerations",
+      "packet_page_start": 133,
+      "packet_page_end": 133,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2025-04-01/item-j-4-03.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=6418",
+      "packetBookmarkTitle": "J.4. Attachment B - 2025 Market Night Cost Estimate.pdf"
+    },
+    {
+      "item": "J.5",
+      "section": "Action",
+      "title": "Staff Report - 4.1.2025 SRTP Table 4 Draft",
+      "itemTitle": "Fiscal Year 2025/26 Short-Range Transit Plan Table 4 Draft",
+      "packet_page_start": 134,
+      "packet_page_end": 136,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2025-04-01/item-j-5-01.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=6404",
+      "packetBookmarkTitle": "J.5. Staff Report - 4.1.2025 SRTP Table 4 Draft.pdf"
+    },
+    {
+      "item": "J.5",
+      "section": "Action",
+      "title": "Attachment A - FY 2025_2026 SRTP Table 4",
+      "itemTitle": "Fiscal Year 2025/26 Short-Range Transit Plan Table 4 Draft",
+      "packet_page_start": 137,
+      "packet_page_end": 137,
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2025-04-01/item-j-5-02.pdf",
+      "officialUrl": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=6405",
+      "packetBookmarkTitle": "J.5. Attachment A - FY 2025_2026 SRTP Table 4.pdf"
+    }
+  ],
+  "packetBytes": 39220701
+}

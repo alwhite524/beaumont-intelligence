@@ -12,9 +12,12 @@
     document.querySelector('#agenda-empty').hidden=visible!==0;
   }
   document.addEventListener('click',event=>{
-    const button=event.target.closest('[data-minutes-page]');if(!button)return;
+    const button=event.target.closest('[data-minutes-page]')||event.target.closest('[data-document-url]');if(!button)return;
     title.textContent=button.dataset.title;
-    const query=new URLSearchParams({url:config.minutesUrl,page:button.dataset.minutesPage,title:button.dataset.title,returnUrl:new URL(config.date+'-sources.html',location.href).href,returnLabel:'Back to interactive agenda'});
+    const source=button.dataset.documentUrl||config.minutesUrl;
+    const query=new URLSearchParams({url:source,title:button.dataset.title,returnUrl:new URL(config.date+'-sources.html',location.href).href,returnLabel:'Back to interactive agenda'});
+    if(button.dataset.minutesPage)query.set('page',button.dataset.minutesPage);
+    const original=document.querySelector('#viewer-original');if(original){original.href=source;original.textContent=button.dataset.documentUrl?'Open original PDF ↗':'Open original minutes PDF ↗';}
     frame.src='../documents/viewer.html?'+query;
     dialog.showModal();
   });
