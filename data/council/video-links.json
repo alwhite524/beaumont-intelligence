@@ -2,6 +2,25 @@
   "description": "Verified public City Council video links supplied for meeting-source integration.",
   "videos": [
     {
+      "date": "2015-11-17",
+      "url": "https://www.youtube.com/watch?v=oi840CngqIE",
+      "title": "City of Beaumont - City Council Meeting (November 17, 2015)",
+      "verificationStatus": "verified-youtube-metadata"
+    },
+    {
+      "date": "2017-05-16",
+      "url": "https://www.youtube.com/watch?v=7T4BXrH9mnE",
+      "title": "City of Beaumont - City Council Meeting (May 23, 2017)",
+      "verificationStatus": "verified-recording-and-official-minutes-date",
+      "dateNote": "The YouTube title says May 23. The presiding officer identifies May 16 at 1:05:30, and the workshop and closed-session report match the May 16 minutes."
+    },
+    {
+      "date": "2018-07-03",
+      "url": "https://www.youtube.com/watch?v=nhgCWtxPp1k",
+      "title": "City of Beaumont - City Council July 3, 2018",
+      "verificationStatus": "verified-youtube-metadata"
+    },
+    {
       "date": "2026-10-20",
       "url": "https://www.youtube.com/watch?v=UVsGQHIcdkA",
       "title": "City Council Meeting 10/20/26 | City of Beaumont",

@@ -49,10 +49,10 @@ test('March 18 retains all reviewed outcomes, page links, source limitations and
   assert.match(read('scripts/build_video_interactive_agendas.py'),/build_page\(date\)/);
 });
 
-test('catalog, Council overview and library expose the four upgraded agendas and attachments',()=>{
+test('The meeting catalog and library retain the upgraded agendas without a batch section',()=>{
   const context=vm.createContext({window:{}});vm.runInContext(read('docs/council-meeting-sources.js'),context);vm.runInContext(read('docs/documents/library-index.js'),context);
-  const overview=read('docs/council-intelligence.html');assert.equal((overview.match(/id="spring-2025-agendas"/g)||[]).length,1);
-  for(const [date] of dates){const a=load(date),row=context.window.BI_COUNCIL_MEETING_SOURCES.find(r=>r.date===date);assert.equal(row.interactiveAgenda,`briefings/${date}-sources.html`);assert.equal(row.packet,a.packetArchiveUrl);assert.ok(overview.includes(row.interactiveAgenda));for(const doc of a.documents)assert.ok(context.window.BI_RESEARCH_LIBRARY.some(r=>r.url===doc.archiveUrl&&r.item===doc.item),doc.archiveUrl);}
+  const overview=read('docs/council-intelligence.html');assert.equal((overview.match(/id="spring-2025-agendas"/g)||[]).length,0);
+  for(const [date] of dates){const a=load(date),row=context.window.BI_COUNCIL_MEETING_SOURCES.find(r=>r.date===date);assert.equal(row.interactiveAgenda,`briefings/${date}-sources.html`);assert.equal(row.packet,a.packetArchiveUrl);for(const doc of a.documents)assert.ok(context.window.BI_RESEARCH_LIBRARY.some(r=>r.url===doc.archiveUrl&&r.item===doc.item),doc.archiveUrl);}
   assert.equal(context.window.BI_COUNCIL_MEETING_SOURCES.find(r=>r.date==='2025-03-18').video,'https://www.youtube.com/watch?v=UdHDF5Q8o3U');
 });
 

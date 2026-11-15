@@ -22,7 +22,7 @@
       row.append(link, paragraph); rows.push(row);
     }
     document.querySelector('#transcript-lines').append(...rows);
-    function filter() { const q = document.querySelector('#transcript-search').value.toLowerCase().trim(); rows.forEach(row => row.hidden = !row.textContent.toLowerCase().includes(q)); document.querySelector('#transcript-count').textContent = `${rows.filter(row => !row.hidden).length} of ${rows.length} caption lines`; }
+    function filter() { const q = document.querySelector('#transcript-search').value.toLowerCase().trim(); rows.forEach(row => row.hidden = !row.textContent.toLowerCase().includes(q)); document.querySelector('#transcript-count').textContent = `${rows.filter(row => !row.hidden).length} of ${rows.length} transcript lines`; }
     document.querySelector('#transcript-search').addEventListener('input', filter); filter();
   } catch { note.textContent = 'The transcript could not be loaded. Return to the meeting sources to check availability.'; }
 })();

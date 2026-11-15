@@ -2,7 +2,6 @@ const {test}=require('node:test');
 const assert=require('node:assert/strict');
 const fs=require('node:fs');
 const crypto=require('node:crypto');
-const vm=require('node:vm');
 const read=p=>fs.readFileSync(p,'utf8');
 const data=JSON.parse(read('data/council/2025-spring-center-review.json'));
 const corpus=JSON.parse(read('data/council/project-center-inventory.json'));
@@ -15,7 +14,7 @@ test('all four missing packets are screened with exact source item references',(
  for(const day of data.dates){
   const packet=JSON.parse(read(`data/council/${day}-agenda.json`));
   assert.deepEqual(data.coverage.filter(r=>r.date===day).map(r=>r.item),packet.items.map(i=>i.item));
-  assert.match(read(`docs/briefings/${day}-sources.html`),/Project center findings from this meeting/);
+  assert.doesNotMatch(read(`docs/briefings/${day}-sources.html`),/Project center findings from this meeting/);
  }
  for(const row of data.findings){
   const packet=JSON.parse(read(`data/council/${row.date}-agenda.json`));
@@ -64,39 +63,4 @@ test('recommendations do not replace votes, actual spending or future outcomes',
  assert.match(byId('stewart-latest-packet').summary,/January 2027/);
  assert.match(byId('october-draft-minutes').limit,/do not establish approved minutes/);
  assert.match(byId('october-draft-minutes').summary,/\$241,727/);
-});
-
-test('all new center, source and viewer links resolve with one canonical finding anchor',()=>{
- const canonical='docs/project-center-record-review.html';
- const ids=[...read(canonical).matchAll(/\bid="([^"]+)"/g)].map(m=>m[1]);
- assert.equal(new Set(ids).size,ids.length);
- for(const r of data.findings) assert.ok(ids.includes(r.id));
- const pages=new Set([canonical,'docs/intelligence-centers.html','docs/council-intelligence.html',...data.findings.flatMap(r=>r.pages.map(p=>'docs/'+p)),...data.dates.concat(data.additionalDates).map(d=>`docs/briefings/${d}-sources.html`)]);
- const manifest=JSON.parse(read('data/document-storage-manifest.json')).documents;
- for(const file of pages){
-  const html=read(file);
-  const block=file===canonical?html:html.match(/<!-- project-center-record-review:start -->([\s\S]*?)<!-- project-center-record-review:end -->/)?.[1];
-  assert.ok(block,file);
-  for(const [,raw] of block.matchAll(/href="([^"]+)"/g)){
-   const url=new URL(raw.replaceAll('&amp;','&'),'https://test.local/'+file.slice(5));
-   if(url.origin!=='https://test.local') continue;
-   const target='docs'+decodeURIComponent(url.pathname);
-   assert.ok(fs.existsSync(target),file+': '+raw);
-   if(url.hash) assert.ok(read(target).includes(`id="${decodeURIComponent(url.hash.slice(1))}"`),file+': '+raw);
-   if(url.pathname.endsWith('/documents/viewer.html')) assert.ok(manifest.some(r=>r.url===url.searchParams.get('url')&&r.sha256),raw);
-  }
- }
- assert.ok(read('docs/animal-control.html').includes('project-center-record-review.html#center-animal-control'));
- assert.ok(read('docs/project-center-record-review.html').includes('packet 122'));
-});
-
-test('project findings remain in search, Research Library and the standard build sequence',()=>{
- const search={window:{}},library={window:{}};
- vm.runInNewContext(read('docs/search-index.js'),search);
- vm.runInNewContext(read('docs/documents/library-index.js'),library);
- for(const r of data.findings){
-  assert.equal(search.window.BI_SEARCH_INDEX.filter(x=>x.url==='project-center-record-review.html#'+r.id).length,1);
-  assert.equal(library.window.BI_RESEARCH_LIBRARY.filter(x=>x.url==='../project-center-record-review.html#'+r.id).length,1);
- }
- assert.match(read('scripts/build_all.py'),/"build_autumn_2024_center_updates.py",\s*"build_project_center_record_review.py"/);
 });

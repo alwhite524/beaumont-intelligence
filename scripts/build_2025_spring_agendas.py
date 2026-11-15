@@ -40,10 +40,6 @@ def viewer(url,title):
 
 def build_page(date, source_namespace='BI_SPRING'):
     packet=load_packet(date);review=load_review(date);items=merged_items(packet,review)
-    center_findings=[]
-    for center_review in sorted((ROOT/'data/council').glob('*-center-review.json')):
-        batch=json.loads(center_review.read_text(encoding='utf-8'))
-        center_findings.extend(dict(r,reviewPage=batch.get('reviewPage','autumn-2024-center-review.html')) for r in batch['findings'])
     label=label_for(date)
     manifest=json.loads((ROOT/'data/document-storage-manifest.json').read_text(encoding='utf-8'))
     verified={r['url'] for r in manifest['documents'] if r.get('sha256') and r.get('publication_status')!='pending-upload'}
@@ -71,12 +67,7 @@ def build_page(date, source_namespace='BI_SPRING'):
                 body+='<p><strong>Minutes record:</strong> '+escape(item['outcome'])+'</p><p class="source-note">Official minutes · PDF page '+str(item['page'])+'. Item video timestamp not verified.</p>'
                 body+=f'<button class="btn small secondary" data-minutes-page="{item["page"]}" data-title="{escape(label+" minutes · "+key,quote=True)}">View minutes page {item["page"]}</button>'
             elif minute:
-                related=[r for r in center_findings if r['date']==date and key in r['items']]
-                if related:
-                    links=' · '.join(f'<a href="../{r["reviewPage"]}#{r["id"]}">{escape(r["title"])}</a>' for r in related)
-                    body+='<p class="source-note">Minutes-based center findings: '+links+'. Published recommendations remain separate from the recorded disposition and evidence limits.</p>'
-                else:
-                    body+='<p class="source-note">Official minutes are available above; an item-specific outcome review is not included here. A recommendation is not a Council decision.</p>'
+                body+='<p class="source-note">See the official minutes for the recorded outcome.</p>'
             if video:body+=f'<p><a class="text-link" href="{escape(video,quote=True)}" target="_blank" rel="noopener">Open meeting video ↗</a> · Item video timestamp not verified.</p>'
             if docs:
                 body+=f'<h3>Staff reports and attachments ({len(docs)})</h3><div class="packet-documents">'
@@ -125,17 +116,9 @@ def build_page(date, source_namespace='BI_SPRING'):
     print(date,len(items),'entries;',len(packet['documents']),'supporting documents; archive verified:',packet['audit']['archiveComplete'])
     return packet,items
 
-def build(dates=None, heading='March and April 2025 interactive agendas', section_id='spring-2025-agendas', source_namespace='BI_SPRING'):
+def build(dates=None, source_namespace='BI_SPRING'):
     dates=DATES if dates is None else dates
-    start=f'<!-- {section_id}:start -->'
-    end=f'<!-- {section_id}:end -->'
     packets=[build_page(date,source_namespace) for date in dates]
-    cards=''.join(f'<article class="card"><h3>{label_for(p["date"])}</h3><p>{p["packetPages"]:,}-page packet · {len(p["documents"])} supporting documents. Published recommendations and any reviewed minutes outcomes are shown separately.</p><a class="btn" href="briefings/{p["date"]}-sources.html">Open interactive agenda</a></article>' for p,_ in packets)
-    block=start+f'<section class="section compact" id="{escape(section_id,quote=True)}"><div class="wrap"><h2>{escape(heading)}</h2><p>City HTML attachment inventories matched to the supplied packets, with staff reports, attachments and original-source links.</p><div class="story-grid">'+cards+'</div></div></section>'+end
-    path=ROOT/'docs/council-intelligence.html';page=path.read_text(encoding='utf-8')
-    page=re.sub(re.escape(start)+'.*?'+re.escape(end),'',page,flags=re.S)
-    anchor='<!-- video-agenda-records:start -->' if '<!-- video-agenda-records:start -->' in page else '<section class="section compact" id="past-briefings">'
-    page=page.replace(anchor,block+anchor,1);path.write_text(page,encoding='utf-8')
     path=ROOT/'docs/search-index.js';prefix='window.BI_SEARCH_INDEX = '
     records=json.loads(path.read_text(encoding='utf-8')[len(prefix):].strip().removesuffix(';'))
     for p,items in packets:

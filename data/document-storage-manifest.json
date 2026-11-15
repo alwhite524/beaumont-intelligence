@@ -1,8 +1,8 @@
 {
   "bucket": "beaumont-intelligence-documents",
   "public_base_url": "https://documents.beaumontintelligence.com",
-  "document_count": 3649,
-  "total_bytes": 23229063007,
+  "document_count": 3652,
+  "total_bytes": 23590695509,
   "documents": [
     {
       "path": "official-documents/2008-01-15/council-minutes.pdf",
@@ -21653,6 +21653,18 @@
       "sha256": "26cb4419d6c83f5242a6e6f1d11e40306d9ee4653822761aed65df365b7df2c1"
     },
     {
+      "path": "records/agenda-packets/2023-06-06/2023-06-06-city-council-agenda-package.pdf",
+      "url": "https://documents.beaumontintelligence.com/records/agenda-packets/2023-06-06/2023-06-06-city-council-agenda-package.pdf",
+      "bytes": 146478143,
+      "sha256": "d4e7bb130bfed518ded88032a08e48f574b22dd90c627b59f9efc6a62474690a"
+    },
+    {
+      "path": "records/agenda-packets/2024-08-20/2024-08-20-city-council-agenda-package.pdf",
+      "url": "https://documents.beaumontintelligence.com/records/agenda-packets/2024-08-20/2024-08-20-city-council-agenda-package.pdf",
+      "bytes": 135094022,
+      "sha256": "a8ea99ed5b47b191d0f2d46bf9d76849a7197fdc4474532edb6949728428aaab"
+    },
+    {
       "path": "records/agenda-packets/2024-10-01/2024-10-01-city-council-agenda-package.pdf",
       "url": "https://documents.beaumontintelligence.com/records/agenda-packets/2024-10-01/2024-10-01-city-council-agenda-package.pdf",
       "bytes": 118433208,
@@ -21681,6 +21693,12 @@
       "url": "https://documents.beaumontintelligence.com/records/agenda-packets/2024-12-17/2024-12-17-city-council-agenda-package.pdf",
       "bytes": 179452125,
       "sha256": "8b0fdcdb69c79501ef9e5059203980e62efd1dafb0f9e71d8e9f729d7dc91f01"
+    },
+    {
+      "path": "records/agenda-packets/2025-02-04/2025-02-04-city-council-agenda-package.pdf",
+      "url": "https://documents.beaumontintelligence.com/records/agenda-packets/2025-02-04/2025-02-04-city-council-agenda-package.pdf",
+      "bytes": 80060337,
+      "sha256": "d89461619ef18065eb2252e00365fe7b336a2cb68984d688d2ff6e45867f862f"
     },
     {
       "path": "records/agenda-packets/2025-03-04/2025-03-04-city-council-agenda-package.pdf",

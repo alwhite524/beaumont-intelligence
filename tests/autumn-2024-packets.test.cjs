@@ -64,11 +64,11 @@ test('all five packets and extracted PDFs have verified archive sizes and checks
   }
 });
 
-test('Council overview, meeting catalog and library connect every agenda and supporting document',()=>{
+test('The meeting catalog and library retain agenda sources without a batch section',()=>{
   const context=vm.createContext({window:{}});vm.runInContext(read('docs/council-meeting-sources.js'),context);vm.runInContext(read('docs/documents/library-index.js'),context);
-  const page=read('docs/council-intelligence.html');assert.equal((page.match(/id="autumn-2024-agendas"/g)||[]).length,1);
+  const page=read('docs/council-intelligence.html');assert.equal((page.match(/id="autumn-2024-agendas"/g)||[]).length,0);
   for(const [date] of dates){const a=load(date),record=context.window.BI_COUNCIL_MEETING_SOURCES.find(r=>r.date===date);
-    assert.equal(record.interactiveAgenda,`briefings/${date}-sources.html`);assert.equal(record.packet,a.packetArchiveUrl);assert.ok(record.minutes);assert.ok(page.includes(record.interactiveAgenda));
+    assert.equal(record.interactiveAgenda,`briefings/${date}-sources.html`);assert.equal(record.packet,a.packetArchiveUrl);assert.ok(record.minutes);
     for(const d of a.documents)assert.ok(context.window.BI_RESEARCH_LIBRARY.some(r=>r.url===d.archiveUrl&&r.item===d.item));
     for(const i of a.items)assert.ok(context.window.BI_RESEARCH_LIBRARY.some(r=>r.date===date&&r.type==='Agenda item'&&r.item===i.item));
   }
