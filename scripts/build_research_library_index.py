@@ -75,9 +75,10 @@ if not any(record["date"] == "2026-09-01" and record["type"] == "Archived docume
 for transcript in sorted((DOCS / "transcripts").glob("*-city-council*transcript.txt"), reverse=True):
     date = transcript.name[:10]
     body = transcript.read_text(encoding="utf-8", errors="replace")
+    if date == "2021-06-21" and "June 1, 2021" in body[:1500]:
+        date = "2021-06-01"
     video_match = re.search(r"https://www\.youtube\.com/watch\?v=[A-Za-z0-9_-]+", body[:1000])
-    reviewed = date in load_reviews() or (ROOT / f'data/council/{date}-outcomes.json').exists()
-    transcript_url = f'../transcripts/reader.html?date={date}' if reviewed and transcript.name == f'{date}-city-council-transcript.txt' else f'../transcripts/{transcript.name}'
+    transcript_url = f'../transcripts/reader.html?date={date}' if transcript.name == f'{date}-city-council-transcript.txt' else f'../transcripts/{transcript.name}'
     records.append({"title": f"{date} City Council transcript", "url": transcript_url,
                     "videoUrl": video_match.group(0) if video_match else "", "date": date, "item": "",
                     "topic": "council", "type": "Meeting transcript", "body": body})

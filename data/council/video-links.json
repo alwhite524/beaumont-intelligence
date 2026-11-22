@@ -195,6 +195,14 @@
       "durationSeconds": 7640,
       "verificationStatus": "verified-youtube-oembed-player-metadata-and-official-minutes-date",
       "transcriptStatus": "Automatic English captions advertised; retrieval unsuccessful; no verified item video timestamps"
+    },
+    {
+      "date": "2026-11-17",
+      "url": "https://www.youtube.com/watch?v=4ZI2N54mCRU",
+      "title": "City Council Meeting 11/17/26 | City of Beaumont",
+      "durationSeconds": 8982,
+      "verificationStatus": "verified-youtube-metadata-and-opening-captions",
+      "transcriptStatus": "Complete available YouTube automatic English captions retrieved"
     }
   ]
 }

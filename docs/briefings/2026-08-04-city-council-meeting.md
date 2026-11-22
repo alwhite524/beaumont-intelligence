@@ -162,7 +162,7 @@ One resident thanked City Council and Public Works crews for constructing new si
 
 ---
 
-# Budget Center Impacts
+# Finance Center Impacts
 
 This meeting creates new evidence for:
 
@@ -172,7 +172,7 @@ This meeting creates new evidence for:
 - Downtown Business Attraction Program
 - Economic Development Strategy
 
-These items should be added to the Budget Center Source Register and linked to their respective projects.
+These items should be added to the Finance Center Source Register and linked to their respective projects.
 
 ---
 

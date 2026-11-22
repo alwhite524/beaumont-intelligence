@@ -200,7 +200,7 @@ Unanimous.
 This is the most significant action of the meeting and should update:
 
 - Pennsylvania Grade Separation project
-- Budget Center
+- Finance Center
 - Funding Timeline
 - Source Register
 - Capital Projects dataset
@@ -224,7 +224,7 @@ for recently completed sidewalk improvements near Sundance School.
 
 | Area | Action |
 |-------|--------|
-| Budget Center | Add new funding evidence |
+| Finance Center | Add new funding evidence |
 | Pennsylvania Grade Separation | Update funding strategy |
 | Master Drainage Line 2 | Record environmental approvals |
 | Transit Yard | Record hearing continuation |
@@ -237,7 +237,7 @@ for recently completed sidewalk improvements near Sundance School.
 
 - [ ] Update Pennsylvania Grade Separation project page.
 - [ ] Add Source Register entries for new council actions.
-- [ ] Update Budget Center funding timeline.
+- [ ] Update Finance Center funding timeline.
 - [ ] Link Master Drainage Line 2 to Pennsylvania Grade Separation.
 - [ ] Record Tuscanos incentive in Economic Development records.
 - [ ] Update Capital Projects dataset.

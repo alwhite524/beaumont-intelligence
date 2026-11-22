@@ -33,6 +33,13 @@ def build():
     page = page.replace('<div class="agenda-toolbar">','<p>Tuesday, November 17 · Closed session 5:00 PM · Regular meeting 6:00 PM · 550 E. Sixth Street.</p><p>All 87 bookmarked supporting documents are linked. No public hearing items are listed. Consent appears last here for browsing; the official meeting order places it before action items. <a href="2026-11-17.html#document-checks">Read the targeted document checks</a>. Proposed actions await Council decisions.</p><div class="agenda-toolbar">')
     page = page.replace(f'<a class="btn secondary" href="{packet["packetArchiveUrl"]}" target="_blank" rel="noopener">Full agenda packet ↗</a>','<button class="btn secondary" id="view-packet" type="button">View full agenda packet</button>')
     page = page.replace('render()})();','document.querySelector("#view-packet").addEventListener("click",()=>openViewer('+json.dumps(packet['packetArchiveUrl'])+',"November 17 agenda packet"));render()})();')
+    transcript = DOCS / f'transcripts/{DATE}-city-council-transcript.txt'
+    if transcript.exists():
+        recording = ('<div class="status-actions"><a class="btn" href="https://www.youtube.com/watch?v=4ZI2N54mCRU">'
+                     'Watch November 17 meeting</a><a class="btn secondary" href="../transcripts/reader.html?date=2026-11-17">'
+                     'Search meeting transcript</a></div>')
+        page = re.sub(r'(</h1>)', lambda match: match.group(0) + recording, page, count=1)
+        page = page.replace('Upcoming interactive agenda', 'Interactive agenda')
     (DOCS / f'briefings/{DATE}-sources.html').write_text(page,encoding='utf-8')
     (DOCS / f'briefings/{DATE}-sources.js').write_text('window.BI_NOVEMBER_17_SOURCES='+json.dumps(documents,ensure_ascii=False)+';\n',encoding='utf-8')
 
@@ -44,7 +51,7 @@ def build():
     header_source = (DOCS / 'briefings/2026-10-20.html').read_text(encoding='utf-8')
     header = re.search(r'<header class="app-header">.*?</header>',header_source,re.S).group(0)
     head = '<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>November 17, 2026 Council Agenda Briefing | Beaumont Intelligence</title><meta name="description" content="November 17 Beaumont City Council agenda: Stewart Park Phase II, sewer truck, police technology, short-term rentals and budget adjustments."><link rel="stylesheet" href="../styles.css"><script defer src="../app.js"></script></head><body data-page="briefing"><a class="skip-link" href="#main">Skip to content</a>'+header
-    body = '<main id="main"><section class="section"><div class="wrap narrow"><div class="eyebrow">Upcoming meeting · Proposed actions</div><h1>November 17, 2026 Council agenda briefing</h1><p class="lead-copy">'+DECK+'</p><p><strong>Tuesday, November 17 · Closed session 5:00 PM · Regular meeting 6:00 PM</strong><br>550 E. Sixth Street, Beaumont, CA</p>'
+    body = '<main id="main"><section class="section"><div class="wrap narrow"><div class="eyebrow">Meeting held · Pre-meeting agenda analysis</div><h1>November 17, 2026 Council agenda briefing</h1><p class="lead-copy">'+DECK+'</p><p><strong>Tuesday, November 17 · Closed session 5:00 PM · Regular meeting 6:00 PM</strong><br>550 E. Sixth Street, Beaumont, CA</p>'
     body += '<div class="status-actions"><a class="btn" href="2026-11-17-sources.html">Open interactive agenda</a><a class="btn secondary" href="'+viewer(packet['agendaArchiveUrl'],'November 17 agenda')+'">View five-page agenda</a><a class="btn secondary" href="'+viewer(packet['packetArchiveUrl'],'November 17 full agenda packet')+'">View full 1,786-page packet</a></div>'
     body += '<p class="source-note">Prepared November 13, 2026 from the supplied City agenda package. All 87 bookmarked supporting documents across 22 voting items are linked. '+escape(review['scope'])+' Council actions described here are proposed; reported invoices, asset values and budget results are not proof of payment or newly approved spending.</p>'
     body += '<h2>Attend and comment</h2><p>The notice provides in-person attendance and the <a href="https://beaumont-ca.municodemeetings.com/livestream">City livestream</a>. Send comments to <a href="mailto:nicolew@beaumontca.gov">nicolew@beaumontca.gov</a> with “Public Comment” in the subject before or during the meeting, up to the end of the item; call (951) 922-4845 before the item; or submit an in-person Request to Speak form. The notice generally allows three minutes. Contact the Clerk at (951) 572-3196 for accessibility assistance; 48 hours’ advance notice is requested.</p>'
@@ -66,19 +73,9 @@ def build():
     body += '<p>No public hearing items are listed in the supplied agenda. The next regular meeting named in the packet is December 15, 2026, at 6:00 PM, unless otherwise posted.</p><p><a href="https://pub-beaumont.escribemeetings.com/">City meeting portal</a> · <a href="../council-intelligence.html">Council Intelligence</a></p></div></section></main></body></html>'
     (DOCS / f'briefings/{DATE}.html').write_text(head+body,encoding='utf-8')
     actions = '<div class="status-actions"><a class="btn" href="briefings/2026-11-17.html">Read November 17 briefing</a><a class="text-link" href="briefings/2026-11-17-sources.html">Open interactive agenda →</a><a class="text-link" href="briefings/2026-10-20.html#meeting-outcomes">October 20 outcomes &amp; transcript →</a></div>'
-    home_actions = re.sub(r'<a[^>]+href="briefings/2026-10-20.html#meeting-outcomes"[^>]*>.*?</a>', '', actions)
-    home = DOCS / 'index.html'
-    s = home.read_text(encoding='utf-8')
-    feature = '<section aria-labelledby="latest-council-title" class="council-feature" data-home-meeting-mode="upcoming" data-next-regular-date="2026-11-17"><div class="wrap"><article class="council-feature-card"><div class="council-feature-copy"><div class="eyebrow">Upcoming Council meeting · Agenda available</div><h2 id="latest-council-title">November 17 City Council meeting</h2><p class="council-deck">'+DECK+'</p>'+home_actions+'</div><aside aria-label="Meeting schedule" class="council-feature-meta"><span class="pill pending">Agenda available</span><p><strong>November 17, 2026</strong></p><p>Closed session · 5:00 PM<br>Regular meeting · 6:00 PM</p><p class="meeting-schedule-note">550 E. Sixth Street, Beaumont, CA. Source: supplied November 17 agenda packet.</p></aside></article></div></section>'
-    s = re.sub(r'<section aria-labelledby="latest-council-title".*?</section>',lambda m:feature,s,count=1,flags=re.S)
-    home.write_text(s,encoding='utf-8')
-    council = DOCS / 'council-intelligence.html'
-    s = council.read_text(encoding='utf-8')
-    s = re.sub(r'<section class="section compact alt"><div class="wrap"><div class="eyebrow">Upcoming meeting.*?</section>',lambda m:'<section class="section compact alt"><div class="wrap"><div class="eyebrow">Upcoming meeting · Agenda available</div><h2>November 17, 2026</h2><p>Closed session 5:00 PM · Regular meeting 6:00 PM</p><p>'+DECK+'</p>'+actions+'</div></section>',s,count=1,flags=re.S)
-    council.write_text(s,encoding='utf-8')
     archive = DOCS / 'council-briefings-2026.html'
     s = archive.read_text(encoding='utf-8')
-    card = '<article class="story-card"><div class="pill pending">Upcoming · Agenda available</div><h3>November 17, 2026</h3><p>Closed session 5:00 PM · Regular meeting 6:00 PM</p><p>'+DECK+'</p>'+actions+'</article>'
+    card = '<article class="story-card"><div class="pill pending">Meeting held · Agenda briefing</div><h3>November 17, 2026</h3><p>Closed session 5:00 PM · Regular meeting 6:00 PM</p><p>'+DECK+'</p>'+actions+'</article>'
     s = re.sub(r'<article class="story-card">(?:(?!</article>).)*<h3>November 17, 2026</h3>.*?</article>',lambda m:card,s,count=1,flags=re.S)
     archive.write_text(s,encoding='utf-8')
     path = DOCS / 'search-index.js'

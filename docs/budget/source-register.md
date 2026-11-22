@@ -1,4 +1,4 @@
-# Budget Center Source Register
+# Finance Center Source Register
 
 **Issue:** BC-002 — Build Budget Source Register  
 **Schema version:** 1.0  
@@ -7,7 +7,7 @@
 
 ## Purpose
 
-The Budget Center Source Register is the authoritative catalog of financial evidence used by Beaumont Intelligence. It separates the underlying official record from the analysis built on top of that record.
+The Finance Center Source Register is the authoritative catalog of financial evidence used by Beaumont Intelligence. It separates the underlying official record from the analysis built on top of that record.
 
 Every published financial claim should be traceable to one or more permanent Source IDs.
 
@@ -15,7 +15,7 @@ Every published financial claim should be traceable to one or more permanent Sou
 
 - `data/budget/source-register.json` — canonical machine-readable register
 - `docs/budget-evidence.html` — human-readable, filterable public register
-- `docs/budget.html` — Budget Center landing page
+- `docs/budget.html` — Finance Center landing page
 
 ## Source record schema
 
