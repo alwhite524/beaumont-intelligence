@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Budgets | Beaumont Intelligence</title>
+  <meta name="description" content="Compare adopted operating budgets by fiscal year and fund.">
+  <link rel="icon" href="favicon.png">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="budget-dashboard.css">
+</head>
+<body data-page="budget">
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="app-header"><div class="wrap header-row">
+  <a aria-label="Beaumont Intelligence home" class="brand" href="index.html"><img alt="Moving Beaumont Forward logo" class="brand-logo" src="mbf-logo.png"/><span class="brand-copy"><strong><span class="red">BEAUMONT</span> <span class="blue">INTELLIGENCE</span></strong><small>Budget Center</small><em>Connecting Today's Decisions to Tomorrow's Beaumont.</em></span></a>
+  <button aria-controls="primary-nav" aria-expanded="false" class="menu-button" id="menu-button">Menu</button>
+  <nav aria-label="Primary navigation" class="primary-nav" id="primary-nav"><a href="index.html">Home</a><a href="council-intelligence.html">Council Intelligence</a><a aria-current="page" href="intelligence-centers.html">Intelligence Centers</a><a href="documents/index.html">Research Library</a><a href="about.html">About</a></nav>
+</div></header>
+<div class="breadcrumb-strip"><div class="wrap"><nav aria-label="Breadcrumb" class="breadcrumbs"><a href="index.html">Home</a><span aria-hidden="true">›</span><a href="intelligence-centers.html">Intelligence Centers</a><span aria-hidden="true">›</span><a href="budget.html">Budget Center</a><span aria-hidden="true">›</span><span aria-current="page">Budgets</span></nav></div></div>
+
+<main id="main" class="budget-dashboard"><section class="finance-hero"><div class="wrap"><p class="finance-kicker">Beaumont, California</p><h1>Budgets</h1><p>Compare adopted operating budgets by fiscal year and fund.</p><nav class="project-nav finance-nav" aria-label="Budget Center"><a href="budget.html">Budget Center</a><a href="budget-budgets.html" aria-current="page">Budgets</a><a href="budget-cip.html">Capital Improvement Plan</a><a href="budget-audits.html">Audits</a></nav></div></section><div class="wrap finance-content"><noscript><p>Enable JavaScript to use the budget filters. <a href="budgets-audits.html">Browse budget documents</a>.</p></noscript>    <section class="finance-panel" id="operating-budget" aria-labelledby="operating-title">
+      <header class="finance-section-header">
+        <div><h2 id="operating-title">Operating budget</h2><p>Adopted figures in nominal dollars. Coverage varies by fund and year.</p></div>
+        <a href="budgets-audits.html">Budget and audit library</a>
+      </header>
+      <div class="finance-filters">
+        <label>Fund <select id="budget-fund"><option>General Fund</option><option>Wastewater</option><option>Transit</option></select></label>
+        <label>Fiscal year <select id="budget-year"></select></label>
+        <label>Compare with <select id="budget-baseline"></select></label>
+      </div>
+      <div id="budget-kpis" class="finance-kpis" aria-live="polite"></div>
+      <div class="finance-split">
+        <section aria-labelledby="trend-title">
+          <h3 id="trend-title">Budget by year</h3>
+          <div class="finance-legend"><span>Revenue</span><span>Expenditures</span></div>
+          <div id="budget-chart"></div>
+        </section>
+        <section aria-labelledby="comparison-title">
+          <h3 id="comparison-title">Year comparison</h3>
+          <div id="budget-table"></div>
+        </section>
+      </div>
+      <p class="finance-note" id="budget-coverage"></p>
+    </section>
+
+<section class="finance-records"><div><h2>Budget Center records</h2><p>Council actions, financial history, and supporting documents.</p></div><a class="btn" href="budget-records.html">Open records</a></section></div></main><script defer src="budget-dashboard.js"></script><footer class="footer"><div class="wrap footer-grid"><div class="footer-brand"><a aria-label="Beaumont Intelligence home" class="footer-home" href="index.html"><img alt="" src="mbf-logo.png"/><div><strong>Moving Beaumont Forward</strong><p>Beaumont Intelligence</p></div></a></div><div><strong>Financial claims linked to evidence.</strong><p>Budgets, authorizations, awards, and expenditures are kept distinct.</p></div><div><strong>Quick Links</strong><nav aria-label="Footer navigation" class="footer-nav"><a href="index.html">Home</a><a href="council-intelligence.html">Council Intelligence</a><a href="intelligence-centers.html">Intelligence Centers</a><a href="documents/index.html">Research Library</a><a href="budget-evidence.html">Evidence</a><a href="about.html">About</a></nav><p class="footer-version">Budget Center · Public Preview</p></div></div></footer>
+<script src="data.js"></script><script src="app.js"></script><script src="center-progress.js"></script>
+</body>
+</html>

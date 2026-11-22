@@ -118,9 +118,18 @@
   cursor: pointer;
 }
 .finance-records { padding: 20px 4px 0; margin-bottom: 0; }
+.finance-destinations { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
+.finance-destinations .finance-panel { display: flex; flex-direction: column; align-items: flex-start; gap: 14px; }
+.finance-destinations .finance-panel p { flex: 1; margin: 0; }
+.finance-audit-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
+.finance-audit-list article { padding: 20px; border: 1px solid var(--budget-line); border-radius: 10px; }
+.finance-audit-list h3 { font-size: 1.1rem; }
+.finance-audit-list .record-actions { display: flex; flex-wrap: wrap; gap: 12px; }
+.finance-nav a[aria-current="page"] { background: #315d70; border-color: #a0dfd4; }
 
 @media (max-width: 850px) {
   .finance-split { grid-template-columns: minmax(0, 1fr); }
+  .finance-destinations, .finance-audit-list { grid-template-columns: minmax(0, 1fr); }
 }
 
 @media (max-width: 550px) {

@@ -57,104 +57,109 @@
     select.replaceChildren(...items);
   };
 
-  const fund = byId('budget-fund');
-  const year = byId('budget-year');
-  const baseline = byId('budget-baseline');
-  const metrics = ['Revenue', 'Expenditures', 'Revenue less expenditures'];
-  const values = record => {
-    const [revenue, expenditures] = record.funds[fund.value];
-    return [revenue, expenditures, revenue - expenditures];
-  };
-  const available = () => budgetSources.filter(record => record.funds[fund.value]);
-
-  function renderBudget() {
-    const records = available();
-    const current = records.find(record => record.year === Number(year.value));
-    const prior = records.find(record => record.year === Number(baseline.value));
-    const currentValues = values(current);
-    const priorValues = values(prior);
-    const approximate = (record, index) => record.rounded && index > 0 ? '≈' : '';
-    const change = (index, formatter) => {
-      const prefix = approximate(current, index) || approximate(prior, index);
-      return prefix + signed(currentValues[index] - priorValues[index], formatter);
+  if (byId("budget-fund")) {
+    const fund = byId('budget-fund');
+    const year = byId('budget-year');
+    const baseline = byId('budget-baseline');
+    const metrics = ['Revenue', 'Expenditures', 'Revenue less expenditures'];
+    const values = record => {
+      const [revenue, expenditures] = record.funds[fund.value];
+      return [revenue, expenditures, revenue - expenditures];
     };
+    const available = () => budgetSources.filter(record => record.funds[fund.value]);
 
-    byId('budget-kpis').replaceChildren(...metrics.map((metric, index) => {
-      const card = element('article', undefined, 'finance-kpi');
-      const delta = priorValues[index] > 0
-        ? ` (${percent.format((currentValues[index] - priorValues[index]) / priorValues[index])})`
-        : '';
-      card.append(element('h3', metric), element('strong', approximate(current, index) + compact.format(currentValues[index])),
-        element('p', `${change(index, compact)}${index < 2 ? delta : ''} vs. ${fy(prior.year)}`));
-      return card;
-    }));
+    function renderBudget() {
+      const records = available();
+      const current = records.find(record => record.year === Number(year.value));
+      const prior = records.find(record => record.year === Number(baseline.value));
+      const currentValues = values(current);
+      const priorValues = values(prior);
+      const approximate = (record, index) => record.rounded && index > 0 ? '≈' : '';
+      const change = (index, formatter) => {
+        const prefix = approximate(current, index) || approximate(prior, index);
+        return prefix + signed(currentValues[index] - priorValues[index], formatter);
+      };
 
-    const max = Math.max(...records.flatMap(record => values(record).slice(0, 2)));
-    byId('budget-chart').replaceChildren(...budgetSources.map(record => {
-      const row = element('div', undefined, 'finance-chart-row');
-      row.classList.toggle('finance-chart-selected', record === current);
-      row.append(element('strong', fy(record.year)));
-      if (!record.funds[fund.value]) {
-        row.append(element('span', 'Figures unavailable', 'finance-note'));
+      byId('budget-kpis').replaceChildren(...metrics.map((metric, index) => {
+        const card = element('article', undefined, 'finance-kpi');
+        const delta = priorValues[index] > 0
+          ? ` (${percent.format((currentValues[index] - priorValues[index]) / priorValues[index])})`
+          : '';
+        card.append(element('h3', metric), element('strong', approximate(current, index) + compact.format(currentValues[index])),
+          element('p', `${change(index, compact)}${index < 2 ? delta : ''} vs. ${fy(prior.year)}`));
+        return card;
+      }));
+
+      const max = Math.max(...records.flatMap(record => values(record).slice(0, 2)));
+      byId('budget-chart').replaceChildren(...budgetSources.map(record => {
+        const row = element('div', undefined, 'finance-chart-row');
+        row.classList.toggle('finance-chart-selected', record === current);
+        row.append(element('strong', fy(record.year)));
+        if (!record.funds[fund.value]) {
+          row.append(element('span', 'Figures unavailable', 'finance-note'));
+          return row;
+        }
+        const bars = element('div');
+        values(record).slice(0, 2).forEach((amount, index) => {
+          const bar = element('div', undefined, 'finance-bar');
+          const meter = element('meter');
+          meter.min = 0;
+          meter.max = max;
+          meter.value = amount;
+          const label = approximate(record, index) + currency.format(amount);
+          meter.setAttribute('aria-label', `${fy(record.year)} ${metrics[index]} ${label}`);
+          bar.append(meter, element('span', approximate(record, index) + compact.format(amount)));
+          bars.append(bar);
+        });
+        row.append(bars);
         return row;
-      }
-      const bars = element('div');
-      values(record).slice(0, 2).forEach((amount, index) => {
-        const bar = element('div', undefined, 'finance-bar');
-        const meter = element('meter');
-        meter.min = 0;
-        meter.max = max;
-        meter.value = amount;
-        const label = approximate(record, index) + currency.format(amount);
-        meter.setAttribute('aria-label', `${fy(record.year)} ${metrics[index]} ${label}`);
-        bar.append(meter, element('span', approximate(record, index) + compact.format(amount)));
-        bars.append(bar);
+      }));
+
+      const table = element('table', undefined, 'finance-table');
+      table.setAttribute('aria-labelledby', 'comparison-title');
+      const headings = table.createTHead().insertRow();
+      headings.append(element('th', 'Metric'), element('th'), element('th'), element('th', 'Change'));
+      headings.cells[1].append(link(fy(prior.year), prior.source));
+      headings.cells[2].append(link(fy(current.year), current.source));
+      const body = table.createTBody();
+      metrics.forEach((metric, index) => {
+        const row = body.insertRow();
+        const heading = element('th', metric);
+        heading.scope = 'row';
+        row.append(heading);
+        row.insertCell().textContent = approximate(prior, index) + currency.format(priorValues[index]);
+        row.insertCell().textContent = approximate(current, index) + currency.format(currentValues[index]);
+        row.insertCell().textContent = change(index, currency);
       });
-      row.append(bars);
-      return row;
-    }));
+      byId('budget-table').replaceChildren(table);
+      byId('budget-coverage').textContent =
+        'Years use the City’s published operating fund totals, including transfers where reported. ≈ indicates a calculation or display based on the rounded FY 2025–26 expenditure figure.';
+    }
 
-    const table = element('table', undefined, 'finance-table');
-    table.setAttribute('aria-labelledby', 'comparison-title');
-    const headings = table.createTHead().insertRow();
-    headings.append(element('th', 'Metric'), element('th'), element('th'), element('th', 'Change'));
-    headings.cells[1].append(link(fy(prior.year), prior.source));
-    headings.cells[2].append(link(fy(current.year), current.source));
-    const body = table.createTBody();
-    metrics.forEach((metric, index) => {
-      const row = body.insertRow();
-      const heading = element('th', metric);
-      heading.scope = 'row';
-      row.append(heading);
-      row.insertCell().textContent = approximate(prior, index) + currency.format(priorValues[index]);
-      row.insertCell().textContent = approximate(current, index) + currency.format(currentValues[index]);
-      row.insertCell().textContent = change(index, currency);
-    });
-    byId('budget-table').replaceChildren(table);
-    byId('budget-coverage').textContent =
-      'Years use the City’s published operating fund totals, including transfers where reported. ≈ indicates a calculation or display based on the rounded FY 2025–26 expenditure figure.';
+    function updateBaseline() {
+      const candidates = available().filter(record => record.year !== Number(year.value));
+      options(baseline, candidates.map(record => [record.year, fy(record.year)]));
+      const previous = candidates.filter(record => record.year < Number(year.value)).at(-1);
+      baseline.value = (previous || candidates[0]).year;
+      renderBudget();
+    }
+
+    function updateFund() {
+      const preferred = Number(year.value);
+      const records = available();
+      options(year, records.map(record => [record.year, fy(record.year)]));
+      year.value = records.some(record => record.year === preferred) ? preferred : records.at(-1).year;
+      updateBaseline();
+    }
+
+    fund.addEventListener('change', updateFund);
+    year.addEventListener('change', () => updateBaseline());
+    baseline.addEventListener('change', renderBudget);
+    updateFund();
+
   }
 
-  function updateBaseline() {
-    const candidates = available().filter(record => record.year !== Number(year.value));
-    options(baseline, candidates.map(record => [record.year, fy(record.year)]));
-    const previous = candidates.filter(record => record.year < Number(year.value)).at(-1);
-    baseline.value = (previous || candidates[0]).year;
-    renderBudget();
-  }
-
-  function updateFund() {
-    const preferred = Number(year.value);
-    const records = available();
-    options(year, records.map(record => [record.year, fy(record.year)]));
-    year.value = records.some(record => record.year === preferred) ? preferred : records.at(-1).year;
-    updateBaseline();
-  }
-
-  fund.addEventListener('change', updateFund);
-  year.addEventListener('change', () => updateBaseline());
-  baseline.addEventListener('change', renderBudget);
-  updateFund();
+  if (!byId("capital-plan")) return;
 
   const plans = window.beaumontCapitalPlans.map(plan => ({
     ...plan,
