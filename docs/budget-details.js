@@ -7,11 +7,23 @@
   const currency=new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',minimumFractionDigits:2});
   const deltaCurrency=new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',signDisplay:'exceptZero'});
   const amountLabels=['Original budget','Current budget','Delta'];
+  const archiveOrigin='https://documents.beaumontintelligence.com/';
   const columns=[['account','Account'],['description','Description'],['fund','Fund'],['department','Department'],['type','Type'],['original','Original budget'],['current','Current budget']];
   const node=(tag,text,cls)=>{const n=document.createElement(tag);if(text!==undefined)n.textContent=text;if(cls)n.className=cls;return n;};
   let data,limit=50,descending=false;
   const controls=[fund,department,type,search,sort,direction];
-  function link(label,source,page=1){const a=node('a',label);a.href='documents/viewer.html?'+new URLSearchParams({pdf:'../'+source,title:'FY 2026–2027 budget',page,returnUrl:'../budget-budgets.html#budget-detail',returnLabel:'Budget details'});return a;}
+  function link(label,source,page=1){
+    const anchor=node('a',label);
+    const params=new URLSearchParams({
+      url:new URL(source,archiveOrigin).href,
+      title:'FY 2026–2027 budget detail report',
+      page,
+      returnUrl:'../budget-budgets.html#budget-detail',
+      returnLabel:'Budget details',
+    });
+    anchor.href='documents/viewer.html?'+params;
+    return anchor;
+  }
   function renderCards(rows){
     const cards=node('div',undefined,'budget-account-cards');
     const headings=node('div',undefined,'budget-card-amounts budget-card-headings');
@@ -75,7 +87,7 @@
       sort.replaceChildren(...columns.map(([key,label])=>new Option(label,key)));sort.value='account';
       updateDepartments();byId('budget-detail-note').textContent=data.basis;
       byId('budget-detail-sources').replaceChildren(link('Open source detail report',data.source));
-      window.BIPdfReader.open(byId('budget-book-reader'),data.book,'FY 2026–2027 budget book');
+      window.BIPdfReader.open(byId('budget-book-reader'),new URL(data.book,archiveOrigin).href,'FY 2026–2027 budget book');
       controls.forEach(c=>c.disabled=false);render();
     }catch{status.textContent='Budget accounts could not be loaded.';const retry=node('button','Retry');retry.type='button';retry.addEventListener('click',()=>{results.replaceChildren();load();});results.replaceChildren(retry);}
   }
