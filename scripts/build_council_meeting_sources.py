@@ -9,7 +9,6 @@ from pathlib import Path
 from urllib.parse import quote
 
 from minutes_selection import preferred_minutes
-from historical_meeting_reviews import load_reviews
 
 ROOT = Path(__file__).resolve().parents[1]
 DOCS = ROOT / "docs"
@@ -97,12 +96,16 @@ def meeting_records() -> list[dict[str, str | None]]:
         date = agenda.name[:10]
         record = meetings.setdefault(date, {'date': date, 'video': None, 'packet': None})
         record['interactiveAgenda'] = 'briefings/' + agenda.name
-    for transcript in sorted((DOCS / 'transcripts').glob('*-city-council-transcript.txt')):
-        if transcript.name[:10] not in load_reviews() and not (ROOT / f'data/council/{transcript.name[:10]}-outcomes.json').exists():
-            continue
+    for transcript in sorted((DOCS / 'transcripts').glob('*-city-council*transcript.txt')):
         date = transcript.name[:10]
+        destination = 'transcripts/reader.html?date=' + date
+        if date == "2021-06-21" and "June 1, 2021" in transcript.read_text(encoding="utf-8")[:1500]:
+            date = "2021-06-01"
+            destination = 'transcripts/' + transcript.name
+        elif transcript.name != f'{date}-city-council-transcript.txt':
+            destination = 'transcripts/' + transcript.name
         record = meetings.setdefault(date, {'date': date, 'video': None, 'packet': None})
-        record['transcript'] = 'transcripts/reader.html?date=' + date
+        record['transcript'] = destination
     return sorted(meetings.values(), key=lambda item: item["date"], reverse=True)
 
 

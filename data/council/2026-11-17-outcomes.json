@@ -1,0 +1,47 @@
+{
+  "date": "2026-11-17",
+  "reviewedOn": "2026-11-22",
+  "videoUrl": "https://www.youtube.com/watch?v=4ZI2N54mCRU",
+  "evidence": "Reviewed against the available YouTube automatic English captions and published agenda. Council members Fenn, White, and Voigt were present. Lara and Martinez were absent. Approved minutes have not been collected. Captions repeat White's name for the final speaker in two roll calls, so those results are described as three affirmative responses.",
+  "items": [
+    {
+      "item": "B.1–B.4",
+      "title": "Closed-session report",
+      "videoSeconds": 4080,
+      "summary": "The City Attorney reported no reportable action on each of the four closed-session matters.",
+      "vote": ""
+    },
+    {
+      "item": "G.1–G.19",
+      "title": "Consent calendar approved together",
+      "videoSeconds": 5029,
+      "summary": "Council approved the consent calendar without pulling an item for discussion. The calendar includes the October 20 minutes, police network and Axon purchases, committee and short-term rental ordinance second readings, first-quarter budget adjustments, and other listed items.",
+      "vote": "Three affirmative responses",
+      "evidenceLimit": "This was a grouped vote. Caption speaker labels repeat White's name for the final response. The record supports approval of the calendar but does not resolve the pre-meeting document discrepancies."
+    },
+    {
+      "item": "J.1",
+      "title": "Severe-weather emergency resolution adopted",
+      "videoSeconds": 6393,
+      "summary": "Council adopted a resolution proclaiming a local emergency in preparation for severe-weather incidents associated with the developing El Niño event, including emergency orders and regulations.",
+      "vote": "Three affirmative responses",
+      "evidenceLimit": "Caption speaker labels repeat White's name for the final response. Verify individual attribution against the recording or approved minutes."
+    },
+    {
+      "item": "J.2",
+      "title": "Vactor sewer-cleaning truck purchase approved",
+      "videoSeconds": 6586,
+      "summary": "Council approved a $741,255.35 purchase order to Haaker Equipment Company for the Vactor 2115 combo sewer cleaner through Sourcewell, using CIP WW27-01 funding. Fenn, White, and Voigt each answered yes.",
+      "vote": "3–0",
+      "evidenceLimit": "The vote authorizes the purchase. Delivery, payment, and final project spending require subsequent records."
+    },
+    {
+      "item": "J.3",
+      "title": "Stewart Park Phase II bid package approved",
+      "videoSeconds": 8453,
+      "summary": "Council approved the working details, drawings, plans, and specifications for CIP P-10 Stewart Park Improvements Phase II and authorized advertisement and solicitation of construction bids. Fenn, White, and Voigt each answered yes.",
+      "vote": "3–0",
+      "evidenceLimit": "The action authorizes bidding. A construction contract award and completed work require subsequent Council and project records."
+    }
+  ]
+}

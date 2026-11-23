@@ -1151,7 +1151,7 @@
       "section": "Action"
     }
   ],
-  "meetingStatus": "upcoming",
+  "meetingStatus": "held",
   "officialAgendaUrl": "https://pub-beaumont.escribemeetings.com/",
   "officialPdfUrl": null,
   "closedSessionTime": "5:00 PM",
@@ -1174,5 +1174,7 @@
     "officialHtmlAuditComplete": false,
     "archiveComplete": true,
     "basis": "87 supporting document ranges inventoried from the supplied 1,786-page City packet bookmarks. Separate City HTML agenda inventory and individual City document URLs remain unverified."
-  }
+  },
+  "videoUrl": "https://www.youtube.com/watch?v=4ZI2N54mCRU",
+  "outcomesSource": "data/council/2026-11-17-outcomes.json"
 }

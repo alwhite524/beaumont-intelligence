@@ -8,8 +8,11 @@
     const text = (await response.text()).replace(/\r\n?/g, '\n');
     const video = text.match(/https:\/\/www\.youtube\.com\/watch\?v=[\w-]+/)?.[0];
     document.querySelector('#transcript-title').textContent = `${date} Council transcript`;
-    document.querySelector('#agenda-link').href = `../briefings/${date}-sources.html`;
-    document.querySelector('#agenda-link').textContent = 'Back to interactive agenda';
+    const meeting = window.BI_COUNCIL_MEETING_SOURCES?.find(record => record.date === date);
+    if (meeting?.interactiveAgenda) {
+      document.querySelector('#agenda-link').href = `../${meeting.interactiveAgenda}`;
+      document.querySelector('#agenda-link').textContent = 'Back to interactive agenda';
+    }
     note.textContent = text.split(/\n(?=\(\d+:)/)[0];
     const rows = [];
     for (const line of text.split('\n')) {

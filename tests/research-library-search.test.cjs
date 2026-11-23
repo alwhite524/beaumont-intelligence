@@ -46,6 +46,7 @@ records.push({ title: '2016 Council minutes compilation', url: 'https://document
 records.push({title: 'Stewart RFP', url: '../briefings/2022-01-18-sources.html#item-17', date: '2022-01-18', topic: 'parks', type: 'Agenda item', body: 'Stewart solicitation'});
 records.push({title: 'Council evidence', url: '../stewart-park-council-actions.html#q1', date: '2022-01-18', topic: 'parks', type: 'Council evidence summary', body: 'Stewart evidence'});
 records.push({title: 'January transcript', url: '../transcripts/reader.html?date=2022-01-18', date: '2022-01-18', topic: 'council', type: 'Meeting transcript', body: '(04:52:53) Stewart solicitation'});
+records.push({title: 'Split captions', url: '../transcripts/reader.html?date=2026-11-17', date: '2026-11-17', topic: 'council', type: 'Meeting transcript', videoUrl: 'https://www.youtube.com/watch?v=split', body: '(1:00:01) Discussion of the Cherry\n(1:00:04) Festival agreement with the\n(1:00:07) Cherries of the Pass.'});
 const context = vm.createContext({ window: { BI_RESEARCH_LIBRARY: records }, document, URL, console });
 vm.runInContext(fs.readFileSync('docs/documents/library-search.js', 'utf8'), context);
 
@@ -105,4 +106,19 @@ assert.doesNotMatch(topics.results.innerHTML, /viewer.html/);
 modes[0].checked = false; modes[1].checked = true; modes[1].listeners.change();
 assert.match(topics.results.innerHTML, /Read transcript/);
 assert.match(topics.results.innerHTML, /href="..\/transcripts\/reader.html\?date=2022-01-18"/);
+search.value = 'Cherry Festival agreement'; search.listeners.input();
+assert.match(topics.results.innerHTML, /Watch video at 1:00:01/);
+assert.match(topics.results.innerHTML, /t=3601s/);
+assert.match(topics.results.innerHTML, /Cherry Festival agreement/);
+search.value = 'Cherries of the Pass'; search.listeners.input();
+assert.match(topics.results.innerHTML, /Split captions/);
+const allMode = { ...control('all'), checked: true };
+modes[1].checked = false;
+modes.push(allMode);
+search.value = 'Stewart'; search.listeners.input();
+assert.match(topics.results.innerHTML, /January transcript/);
+assert.match(topics.results.innerHTML, /Stewart RFP/);
+search.value = 'Cherry Festival agreement'; search.listeners.input();
+assert.match(topics.results.innerHTML, /Split captions/);
+assert.match(topics.results.innerHTML, /Watch video at 1:00:01/);
 console.log('Research Library documents, transcripts and minutes behavior passed.');

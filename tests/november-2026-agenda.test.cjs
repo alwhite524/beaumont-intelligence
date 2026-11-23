@@ -39,10 +39,12 @@ test('briefing separates proposals, reported amounts and attachment findings',()
   assert.match(p,/Packet p\. 491/);
 });
 
-test('home and Council routes lead to the new briefing and interactive agenda',()=>{
-  for(const file of ['docs/index.html','docs/council-intelligence.html','docs/council-briefings-2026.html']){
+test('completed November briefing is reachable through Council pages and home shows the upcoming date',()=>{
+  for(const file of ['docs/council-intelligence.html','docs/council-briefings-2026.html']){
     const p=read(file);assert.match(p,/briefings\/2026-11-17-sources\.html/);assert.doesNotMatch(p,/View (?:November 17|meeting) placeholder/);
   }
+  assert.match(read('docs/index.html'), /data-next-regular-date="2026-12-01"/);
+  assert.match(read('docs/index.html'), /href="council-intelligence\.html"/);
   assert.match(read('scripts/build_october_2026_update.py'),/publish_november_agenda\(\)/);
 });
 

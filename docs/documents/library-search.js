@@ -70,19 +70,44 @@
   };
   const transcriptHit = (record, query) => {
     if (record.type !== transcriptType) return null;
+    const segments = [];
     let latestTimestamp = null;
     for (const line of String(record.body || '').split(/\r?\n/)) {
       const timestamp = line.match(/^\((\d{1,2}:\d{2}(?::\d{2})?)\)\s*/);
       if (timestamp) latestTimestamp = timestamp;
-      if (!matchesQuery(line, query)) continue;
-      if (!latestTimestamp) return null;
+      if (!latestTimestamp) continue;
       const seconds = secondsFromTimestamp(latestTimestamp[1]);
-      if (seconds === null) return null;
-      return {
+      if (seconds === null) continue;
+      const text = line.slice(timestamp ? timestamp[0].length : 0).trim();
+      if (!text) continue;
+      segments.push({
         label: latestTimestamp[1],
         seconds,
-        text: line.slice(timestamp ? timestamp[0].length : 0),
-      };
+        text,
+      });
+    }
+    // Captions can divide one spoken phrase across several timestamped lines.
+    for (const compactMode of [false, true]) {
+      const normalize = compactMode ? compact : norm;
+      const separator = compactMode ? '' : ' ';
+      const parts = segments.map(segment => normalize(segment.text));
+      const needle = normalize(query);
+      const at = parts.join(separator).indexOf(needle);
+      if (!needle || at < 0) continue;
+      let offset = 0;
+      const first = parts.findIndex(part => {
+        const end = offset + part.length;
+        if (at < end) return true;
+        offset = end + separator.length;
+        return false;
+      });
+      if (first < 0) continue;
+      let end = first;
+      let covered = offset + parts[first].length;
+      while (covered < at + needle.length && end + 1 < parts.length) {
+        covered += separator.length + parts[++end].length;
+      }
+      return { ...segments[first], text: segments.slice(first, end + 1).map(segment => segment.text).join(' ') };
     }
     return null;
   };
@@ -180,7 +205,7 @@
     const sourceRecords = mode === 'all' ? records : mode === 'transcripts' ? transcripts : mode === 'minutes' ? minutes : documents;
     const matches = sourceRecords.filter(record => {
       if (!recordMatchesFilters(record)) return false;
-      if (mode === 'transcripts') return Boolean(transcriptHit(record, query));
+      if (record.type === transcriptType) return !query || Boolean(transcriptHit(record, query));
       return !query || matchesQuery(`${record.title} ${record.item} ${record.body}`, query);
     });
     renderRecords(matches, query, mode);

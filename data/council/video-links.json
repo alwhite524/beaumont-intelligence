@@ -44,7 +44,9 @@
       "date": "2016-06-21",
       "url": "https://www.youtube.com/watch?v=riGeL0bsumw",
       "title": "City of Beaumont - City Council Meeting (June 21, 2016)",
-      "verificationStatus": "verified-youtube-metadata"
+      "verificationStatus": "verified-youtube-metadata",
+      "durationSeconds": 17139,
+      "transcriptStatus": "AI-generated transcript from complete public recording; quotations require video verification"
     },
     {
       "date": "2017-06-20",
@@ -62,7 +64,9 @@
       "date": "2019-05-07",
       "url": "https://www.youtube.com/watch?v=c9LrT--e3iY",
       "title": "City of Beaumont - City Council May 7, 2019",
-      "verificationStatus": "verified-youtube-metadata"
+      "verificationStatus": "verified-youtube-metadata",
+      "durationSeconds": 17662,
+      "transcriptStatus": "AI-generated transcript from complete public recording; quotations require video verification"
     },
     {
       "date": "2021-05-18",
@@ -178,7 +182,7 @@
       "title": "City Council Meeting | March 18th, 2025 | City of Beaumont, CA",
       "durationSeconds": 9388,
       "verificationStatus": "verified-youtube-oembed-player-metadata-and-official-minutes-date",
-      "transcriptStatus": "Automatic English captions advertised; retrieval unsuccessful; no verified item video timestamps"
+      "transcriptStatus": "Available YouTube automatic English captions retrieved"
     },
     {
       "date": "2024-04-02",
@@ -186,7 +190,7 @@
       "title": "City Council Meeting | April 2, 2024",
       "durationSeconds": 13599,
       "verificationStatus": "verified-youtube-oembed-player-metadata-and-official-minutes-date",
-      "transcriptStatus": "Automatic English captions advertised; retrieval unsuccessful; no verified item video timestamps"
+      "transcriptStatus": "Available YouTube automatic English captions retrieved"
     },
     {
       "date": "2024-06-04",
@@ -194,7 +198,7 @@
       "title": "City Council Meeting | 6 4, 2024",
       "durationSeconds": 7640,
       "verificationStatus": "verified-youtube-oembed-player-metadata-and-official-minutes-date",
-      "transcriptStatus": "Automatic English captions advertised; retrieval unsuccessful; no verified item video timestamps"
+      "transcriptStatus": "Available YouTube automatic English captions retrieved"
     },
     {
       "date": "2026-11-17",
@@ -203,6 +207,14 @@
       "durationSeconds": 8982,
       "verificationStatus": "verified-youtube-metadata-and-opening-captions",
       "transcriptStatus": "Complete available YouTube automatic English captions retrieved"
+    },
+    {
+      "date": "2015-11-03",
+      "url": "https://www.youtube.com/watch?v=mokmwjT4ujs",
+      "title": "City of Beaumont - Council Meeting (November 3, 2015)",
+      "verificationStatus": "verified-youtube-metadata",
+      "durationSeconds": 18670,
+      "transcriptStatus": "AI-generated transcript from complete public recording; quotations require video verification"
     }
   ]
 }

@@ -7,6 +7,9 @@
   background: #f1f5f8;
   color: var(--budget-ink);
 }
+.breadcrumb-strip .breadcrumbs,
+.breadcrumb-strip .breadcrumbs a { color: #174a7e; }
+.finance-content #history { display: grid; gap: 18px; }
 
 .finance-hero {
   background: #102e49;

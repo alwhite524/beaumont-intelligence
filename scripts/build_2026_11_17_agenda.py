@@ -89,6 +89,9 @@ def build():
                 if value.get('url')==url: value.update(row);found=True
         if not found: records.append(row)
     path.write_text(prefix+json.dumps(records,ensure_ascii=False,separators=(',',':'))+';\n',encoding='utf-8')
+    if (ROOT / f'data/council/{DATE}-outcomes.json').exists():
+        from build_november_2026_outcomes import build as publish_outcomes
+        publish_outcomes()
     print('Built November 17 briefing, 22-item interactive agenda and 87-document inventory; archive verified:',verified)
 
 if __name__=='__main__':
