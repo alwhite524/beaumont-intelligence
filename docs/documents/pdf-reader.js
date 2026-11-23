@@ -74,8 +74,6 @@
         slots.push(slot);
       }
       pageCounter.textContent = 'Page ' + first + ' of ' + pdf.numPages;
-      status.hidden = true;
-      container.removeAttribute('aria-busy');
       const updateCounter = () => {
         if (session.closed) return;
         const visibleTop = container.getBoundingClientRect().top + controls.offsetHeight;
@@ -88,47 +86,51 @@
       };
       container.addEventListener('scroll', updateCounter, { passive: true });
       session.updateCounter = updateCounter;
-      let queue = Promise.resolve();
-      const render = slot => {
-        queue = queue.then(async () => {
-          if (session.closed || !slot.isConnected || !slot.dataset.visible || slot.firstChild) return;
-          const page = await pdf.getPage(Number(slot.dataset.page));
-          if (session.closed || !slot.dataset.visible) { page.cleanup(); return; }
-          const baseViewport = page.getViewport({ scale: 1 });
-          const width = Math.max(1, Math.min(container.clientWidth - 24, 1200));
-          const scale = Math.min(width / baseViewport.width * Math.min(window.devicePixelRatio || 1, 2), Math.sqrt(2000000 / (baseViewport.width * baseViewport.height)));
-          const viewport = page.getViewport({ scale });
-          const canvas = document.createElement('canvas');
-          canvas.className = 'pdf-page-canvas';
-          slot.dataset.rendering = 'true';
-          canvas.width = Math.max(1, Math.floor(viewport.width));
-          canvas.height = Math.max(1, Math.floor(viewport.height));
-          canvas.setAttribute('role', 'img');
-          canvas.setAttribute('aria-label', title + ', page ' + slot.dataset.page + ' of ' + pdf.numPages);
-          slot.append(canvas);
-          try {
-            await page.render({ canvasContext: canvas.getContext('2d', { alpha: false }), viewport }).promise;
-          } finally {
-            delete slot.dataset.rendering;
-            page.cleanup();
-            if (session.closed || !slot.dataset.visible) { canvas.width = canvas.height = 0; canvas.remove(); }
-          }
-        }).catch(fail);
+      const shouldRender = slot => !session.closed && slot.isConnected &&
+        (slot === slots[0] || Boolean(slot.dataset.visible));
+      const render = async slot => {
+        if (!shouldRender(slot) || slot.firstChild) return;
+        const page = await pdf.getPage(Number(slot.dataset.page));
+        if (!shouldRender(slot)) { page.cleanup(); return; }
+        const baseViewport = page.getViewport({ scale: 1 });
+        const width = Math.max(1, Math.min(container.clientWidth - 24, 1200));
+        const scale = Math.min(width / baseViewport.width * Math.min(window.devicePixelRatio || 1, 2), Math.sqrt(2000000 / (baseViewport.width * baseViewport.height)));
+        const viewport = page.getViewport({ scale });
+        const canvas = document.createElement('canvas');
+        canvas.className = 'pdf-page-canvas';
+        canvas.width = Math.max(1, Math.floor(viewport.width));
+        canvas.height = Math.max(1, Math.floor(viewport.height));
+        canvas.setAttribute('role', 'img');
+        canvas.setAttribute('aria-label', title + ', page ' + slot.dataset.page + ' of ' + pdf.numPages);
+        try {
+          await page.render({ canvas, viewport }).promise;
+          if (shouldRender(slot)) slot.append(canvas);
+        } finally {
+          page.cleanup();
+          if (!canvas.isConnected) canvas.width = canvas.height = 0;
+        }
       };
+      // Paint the requested page even if visibility callbacks are delayed in an iframe.
+      await render(slots[0]);
+      if (session.closed) return;
+      status.hidden = true;
+      container.removeAttribute('aria-busy');
+
+      let queue = Promise.resolve();
       session.observer = new IntersectionObserver(entries => {
         for (const entry of entries) {
           const slot = entry.target;
           if (entry.isIntersecting) {
             slot.dataset.visible = 'true';
-            render(slot);
+            queue = queue.then(() => render(slot)).catch(fail);
           } else {
             delete slot.dataset.visible;
             const canvas = slot.querySelector('canvas');
-            if (canvas && !slot.dataset.rendering) { canvas.width = canvas.height = 0; canvas.remove(); }
+            if (canvas) { canvas.width = canvas.height = 0; canvas.remove(); }
           }
         }
       }, { root: container, rootMargin: '600px 0px' });
-      slots.forEach(slot => session.observer.observe(slot));
+      slots.slice(1).forEach(slot => session.observer.observe(slot));
     } catch (error) { fail(error); }
   }
   window.BIPdfReader = { open, clear };
