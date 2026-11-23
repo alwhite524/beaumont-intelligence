@@ -213,7 +213,7 @@
     const table = element('table', undefined, 'finance-table capital-table');
     table.setAttribute('aria-labelledby', 'capital-title');
     const header = table.createTHead().insertRow();
-    const fields = ['Project', 'Estimated cost', 'Programmed funding', 'Unfunded'];
+    const fields = ['Project', 'Estimated cost', 'Programmed', 'Unfunded'];
     header.append(...fields.map((field, i) => {const th=element('th');th.scope='col';const key=['name','cost','funding','gap'][i];th.setAttribute('aria-sort',order===key?(descending?'descending':'ascending'):'none');const button=element('button',field+(order===key?(descending?' ▼':' ▲'):''));button.type='button';button.addEventListener('click',()=>{descending=sort.value===key?!descending:false;sort.value=key;visible=pageSize;renderCapital();});th.append(button);return th;}));
     const body = table.createTBody();
     for (const project of matches.slice(0, visible)) {
