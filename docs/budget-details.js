@@ -11,7 +11,9 @@
   const columns=[['account','Account'],['description','Description'],['fund','Fund'],['department','Department'],['type','Type'],['original','Original budget'],['current','Current budget']];
   const node=(tag,text,cls)=>{const n=document.createElement(tag);if(text!==undefined)n.textContent=text;if(cls)n.className=cls;return n;};
   let data,limit=50,descending=false;
-  const controls=[fund,department,type,search,sort,direction];
+  const filters=[fund,department,type,search,sort];
+  const controls=[...filters,direction];
+  const filterKey='beaumont:budget-account-filters';
   function link(label,source,page=1){
     const anchor=node('a',label);
     const params=new URLSearchParams({
@@ -58,6 +60,10 @@
     return cards;
   }
   function render(){
+    try {
+      const values=Object.fromEntries(filters.map(control=>[control.id,control.value]));
+      localStorage.setItem(filterKey,JSON.stringify({...values,descending}));
+    } catch { /* Filtering still works without storage. */ }
     const query=search.value.toLowerCase().trim().split(/\s+/).filter(Boolean);
     const matches=data.rows.filter(row=>(!fund.value||row.fund===fund.value)&&(!department.value||row.department===department.value)&&(!type.value||row.type===type.value)&&query.every(q=>[row.account,row.description,row.fund,row.department,row.type].join(' ').toLowerCase().includes(q)));
     const key=sort.value;
@@ -85,7 +91,19 @@
       const response=await fetch('budget-details/2027-table.json?v=20261122-table');if(!response.ok)throw Error('Unavailable');data=await response.json();
       fund.replaceChildren(new Option('All funds',''),...[...new Set(data.rows.map(r=>r.fund))].sort().map(v=>new Option(v,v)));
       sort.replaceChildren(...columns.map(([key,label])=>new Option(label,key)));sort.value='account';
-      updateDepartments();byId('budget-detail-note').textContent=data.basis;
+      let saved={};
+      try {
+        saved=JSON.parse(localStorage.getItem(filterKey))??{};
+      } catch { /* Keep the default filters when storage is unavailable. */ }
+      for(const control of filters){
+        if(control===department) updateDepartments();
+        const value=saved[control.id];
+        if(typeof value==='string' && (control===search || Array.from(control.options).some(option=>option.value===value))){
+          control.value=value;
+        }
+      }
+      if(typeof saved.descending==='boolean') descending=saved.descending;
+      byId('budget-detail-note').textContent=data.basis;
       byId('budget-detail-sources').replaceChildren(link('Open source detail report',data.source));
       window.BIPdfReader.open(byId('budget-book-reader'),new URL(data.book,archiveOrigin).href,'FY 2026–2027 budget book');
       controls.forEach(c=>c.disabled=false);render();
