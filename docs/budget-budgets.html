@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Budgets | Beaumont Intelligence</title>
-  <meta name="description" content="Explore budget details by fiscal year, department, and fund.">
+  <meta name="description" content="Read the FY 2026–2027 budget book and explore detailed fund reports.">
   <link rel="icon" href="favicon.png">
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="budget-dashboard.css">
@@ -18,46 +18,25 @@
 </div></header>
 <div class="breadcrumb-strip"><div class="wrap"><nav aria-label="Breadcrumb" class="breadcrumbs"><a href="index.html">Home</a><span aria-hidden="true">›</span><a href="intelligence-centers.html">Intelligence Centers</a><span aria-hidden="true">›</span><a href="budget.html">Finance Center</a><span aria-hidden="true">›</span><span aria-current="page">Budgets</span></nav></div></div>
 
-<main id="main" class="budget-dashboard"><section class="finance-hero"><div class="wrap"><p class="finance-kicker">Beaumont, California</p><h1>Budgets</h1><p>Explore budget details by fiscal year, department, and fund.</p><nav class="project-nav finance-nav" aria-label="Finance Center"><a href="budget.html">Finance Center</a><a href="budget-budgets.html" aria-current="page">Budgets</a><a href="budget-cip.html">Capital Improvement Plan</a><a href="budget-audits.html">Audits</a></nav></div></section><div class="wrap finance-content"><noscript><p>Enable JavaScript to use the budget filters. <a href="budgets-audits.html">Browse budget documents</a>.</p></noscript><section class="finance-panel" id="budget-detail" aria-labelledby="budget-detail-title">
-  <header class="finance-section-header"><div><h2 id="budget-detail-title">Budget details by year</h2><p>Select a fiscal year to read its department, revenue, and expenditure detail.</p></div></header>
+<main id="main" class="budget-dashboard"><section class="finance-hero"><div class="wrap"><p class="finance-kicker">Beaumont, California</p><h1>FY 2026–2027 Budget</h1><p>July 1, 2026 through June 30, 2027. Read the full budget book and explore detailed fund reports.</p><nav class="project-nav finance-nav" aria-label="Finance Center"><a href="budget.html">Finance Center</a><a href="budget-budgets.html" aria-current="page">Budgets</a><a href="budget-cip.html">Capital Improvement Plan</a><a href="budget-audits.html">Audits</a></nav></div></section><div class="wrap finance-content"><noscript><p>Enable JavaScript to use the budget filters. <a href="budgets-audits.html">Browse budget documents</a>.</p></noscript><section class="finance-panel" id="budget-detail" aria-labelledby="budget-detail-title">
+  <header class="finance-section-header"><div><h2 id="budget-detail-title">FY 2026–2027 budget details</h2><p>Search accounts and sort by fund, department, description, or budget amount.</p></div></header>
   <div class="finance-filters budget-detail-filters">
-    <label>Budget year <select id="budget-detail-year"></select></label>
-    <label>Document <select id="budget-detail-document" disabled></select></label>
-    <label>Section or department <select id="budget-detail-section" disabled></select></label>
+    <label>Fund <select id="budget-table-fund" disabled></select></label>
+    <label>Department <select id="budget-detail-section" disabled></select></label>
     <label>Search details <input type="search" id="budget-detail-search" placeholder="Police, salaries, account number…" disabled></label>
+    <label>Type <select id="budget-table-type" disabled><option value="">Revenue and expenses</option><option>Revenue</option><option>Expense</option></select></label>
+    <label>Sort by <select id="budget-table-sort" disabled></select></label>
+    <div class="budget-sort-direction"><button id="budget-table-direction" type="button" disabled>Ascending</button></div>
   </div>
   <p id="budget-detail-note" class="finance-note"></p>
   <div id="budget-detail-sources" class="record-actions"></div>
   <p id="budget-detail-status" role="status" aria-live="polite"></p>
-  <div id="budget-detail-results"></div>
-  <button type="button" id="budget-detail-more" class="finance-more" hidden>Show more pages</button>
+  <div id="budget-table-totals" class="budget-table-totals" aria-live="polite"></div>
+  <div id="budget-detail-results" class="budget-table-scroll" role="region" aria-label="Budget accounts table" tabindex="0"></div>
+  <button type="button" id="budget-detail-more" class="finance-more" hidden>Show more accounts</button>
 </section>
-    <section class="finance-panel" id="operating-budget" aria-labelledby="operating-title">
-      <header class="finance-section-header">
-        <div><h2 id="operating-title">Compare operating budgets</h2><p>Adopted figures in nominal dollars. Coverage varies by fund and year.</p></div>
-        <a href="budgets-audits.html">Budget and audit library</a>
-      </header>
-      <div class="finance-filters">
-        <label>Fund <select id="budget-fund"><option>General Fund</option><option>Wastewater</option><option>Transit</option></select></label>
-        <label>Comparison year <select id="budget-year"></select></label>
-        <label>Compare with <select id="budget-baseline"></select></label>
-      </div>
-      <div id="budget-kpis" class="finance-kpis" aria-live="polite"></div>
-      <div class="finance-split">
-        <section aria-labelledby="trend-title">
-          <h3 id="trend-title">Budget by year</h3>
-          <div class="finance-legend"><span>Revenue</span><span>Expenditures</span></div>
-          <div id="budget-chart"></div>
-        </section>
-        <section aria-labelledby="comparison-title">
-          <h3 id="comparison-title">Year comparison</h3>
-          <div id="budget-table"></div>
-        </section>
-      </div>
-      <p class="finance-note" id="budget-coverage"></p>
-    </section>
-
-<section class="finance-records"><div><h2>Finance Center records</h2><p>Council actions, financial history, and supporting documents.</p></div><a class="btn" href="budget-records.html">Open records</a></section></div></main><script defer src="budget-dashboard.js?v=20261122"></script><script defer src="documents/pdf-reader.js?v=20261017-title8"></script><script defer src="budget-details.js?v=20261122"></script><footer class="footer"><div class="wrap footer-grid"><div class="footer-brand"><a aria-label="Beaumont Intelligence home" class="footer-home" href="index.html"><img alt="" src="mbf-logo.png"/><div><strong>Moving Beaumont Forward</strong><p>Beaumont Intelligence</p></div></a></div><div><strong>Financial claims linked to evidence.</strong><p>Budgets, authorizations, awards, and expenditures are kept distinct.</p></div><div><strong>Quick Links</strong><nav aria-label="Footer navigation" class="footer-nav"><a href="index.html">Home</a><a href="council-intelligence.html">Council Intelligence</a><a href="intelligence-centers.html">Intelligence Centers</a><a href="documents/index.html">Research Library</a><a href="budget-evidence.html">Evidence</a><a href="about.html">About</a></nav><p class="footer-version">Finance Center · Public Preview</p></div></div></footer>
+<section class="finance-panel" aria-labelledby="current-budget-title"><header class="finance-section-header"><div><h2 id="current-budget-title">FY 2026–2027 budget book</h2><p>July 1, 2026 through June 30, 2027.</p></div><a href="documents/viewer.html?pdf=../official-documents/2026-09-15/g-13-attachment-b-fy2026-2027-budget-book-final.pdf&amp;title=FY%202026-2027%20Budget%20Book&amp;returnUrl=../budget-budgets.html">Open full budget book</a></header><div id="budget-book-reader" class="budget-page-reader" aria-label="FY 2026–2027 budget book"></div></section>
+<section class="finance-records"><div><h2>Finance Center records</h2><p>Council actions, financial history, and supporting documents.</p></div><a class="btn" href="budget-records.html">Open records</a></section></div></main><script defer src="documents/pdf-reader.js?v=20261017-title8"></script><script defer src="budget-details.js?v=20261122-table"></script><footer class="footer"><div class="wrap footer-grid"><div class="footer-brand"><a aria-label="Beaumont Intelligence home" class="footer-home" href="index.html"><img alt="" src="mbf-logo.png"/><div><strong>Moving Beaumont Forward</strong><p>Beaumont Intelligence</p></div></a></div><div><strong>Financial claims linked to evidence.</strong><p>Budgets, authorizations, awards, and expenditures are kept distinct.</p></div><div><strong>Quick Links</strong><nav aria-label="Footer navigation" class="footer-nav"><a href="index.html">Home</a><a href="council-intelligence.html">Council Intelligence</a><a href="intelligence-centers.html">Intelligence Centers</a><a href="documents/index.html">Research Library</a><a href="budget-evidence.html">Evidence</a><a href="about.html">About</a></nav><p class="footer-version">Finance Center · Public Preview</p></div></div></footer>
 <script src="data.js"></script><script src="app.js"></script><script src="center-progress.js"></script>
 </body>
 </html>

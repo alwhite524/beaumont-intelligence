@@ -159,15 +159,17 @@
 
   }
 
-  if (!byId("capital-plan")) return;
+  if (!byId("capital-results")) return;
 
-  const plans = window.beaumontCapitalPlans.map(plan => ({
+  const plans = window.beaumontCapitalPlans.slice(-1).map(plan => ({
     ...plan,
     projects: plan.projects.map(([id, name, department, type, cost, funding, gap, page]) => ({
       id, name, department, type, cost, funding, gap, page
     }))
   }));
-  const planSelect = byId('capital-plan');
+  const department = byId('capital-department');
+  const direction = byId('capital-direction');
+  let descending = true;
   const search = byId('capital-search');
   const type = byId('capital-type');
   const status = byId('capital-status');
@@ -180,13 +182,12 @@
     PW: 'Public Works', COMDV: 'Community Development', COMSRV: 'Community Services',
     FIRE: 'Fire', IT: 'Information Technology', PD: 'Police', WW: 'Wastewater', TRANSIT: 'Transit'
   };
-  options(planSelect, plans.map((plan, index) => [index, plan.label]));
-  planSelect.value = plans.length - 1;
+  options(department, [...new Set(plans[0].projects.map(p=>p.department))].sort().map(value=>[value, departments[value] || value]), 'All departments');
   const types = [...new Set(plans.flatMap(plan => plan.projects.map(project => project.type)))].sort();
   options(type, types.map(value => [value, value]), 'All types');
 
   function renderCapital() {
-    const plan = plans[Number(planSelect.value)];
+    const plan = plans[0];
     byId('capital-source').href = plan.source;
     const term = search.value.trim().toLowerCase();
     const statuses = {
@@ -197,10 +198,13 @@
     };
     const order = sort.value;
     const matches = plan.projects
-      .filter(project => `${project.id} ${project.name}`.toLowerCase().includes(term))
+      .filter(project => `${project.id} ${project.name} ${project.type} ${departments[project.department] || project.department}`.toLowerCase().includes(term))
       .filter(project => !type.value || project.type === type.value)
+      .filter(project => !department.value || project.department === department.value)
       .filter(statuses[status.value])
-      .sort((a, b) => (order === 'name' ? 0 : b[order] - a[order]) || a.name.localeCompare(b.name));
+      .sort((a, b) => (descending ? -1 : 1) * (typeof a[order] === 'number' ? a[order]-b[order] : a[order].localeCompare(b[order], undefined, {numeric:true})) || a.name.localeCompare(b.name));
+    direction.textContent = descending ? 'Descending' : 'Ascending';
+    direction.setAttribute('aria-label', `Sort direction: ${descending?'descending':'ascending'}. Change direction`);
 
     byId('capital-count').textContent = matches.length
       ? `Showing ${Math.min(visible, matches.length)} of ${matches.length} ${matches.length === 1 ? 'project' : 'projects'}`
@@ -210,7 +214,7 @@
     table.setAttribute('aria-labelledby', 'capital-title');
     const header = table.createTHead().insertRow();
     const fields = ['Project', 'Estimated cost', 'Programmed funding', 'Unfunded'];
-    header.append(...fields.map(field => element('th', field)));
+    header.append(...fields.map((field, i) => {const th=element('th');th.scope='col';const key=['name','cost','funding','gap'][i];th.setAttribute('aria-sort',order===key?(descending?'descending':'ascending'):'none');const button=element('button',field+(order===key?(descending?' ▼':' ▲'):''));button.type='button';button.addEventListener('click',()=>{descending=sort.value===key?!descending:false;sort.value=key;visible=pageSize;renderCapital();});th.append(button);return th;}));
     const body = table.createTBody();
     for (const project of matches.slice(0, visible)) {
       const row = body.insertRow();
@@ -228,12 +232,13 @@
     results.replaceChildren(...(matches.length ? [table] : []));
   }
 
-  for (const control of [planSelect, type, status, sort, search]) {
+  for (const control of [department, type, status, sort, search]) {
     control.addEventListener(control === search ? 'input' : 'change', () => {
       visible = pageSize;
       renderCapital();
     });
   }
+  direction.addEventListener('click',()=>{descending=!descending;visible=pageSize;renderCapital();});
   more.addEventListener('click', () => {
     visible += pageSize;
     renderCapital();
