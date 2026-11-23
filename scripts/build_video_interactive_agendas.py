@@ -8,9 +8,6 @@ from urllib.parse import urlencode
 ROOT = Path(__file__).resolve().parents[1]
 DATES = ['2025-03-18', '2024-04-02', '2024-06-04']
 SECTIONS = ['Public Hearing', 'Action', 'Consent', 'Presentation', 'Reports', 'Closed Session']
-START = '<!-- video-agenda-records:start -->'
-END = '<!-- video-agenda-records:end -->'
-
 def build():
     meetings=[]
     for date in DATES:
@@ -50,13 +47,6 @@ def build():
         if prior: prior.update(entry)
         else: registry['videos'].append(entry)
     registry_path.write_text(json.dumps(registry,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-    cards=''.join(f'<article class="card"><h3>{escape(d["label"])}</h3><p>{len(d["items"])} minutes-backed agenda entries · meeting video and exact minutes-page links.</p><a class="btn" href="briefings/{d["date"]}-sources.html">Open interactive agenda</a></article>' for d in meetings if not (ROOT/f'data/council/{d["date"]}-agenda.json').exists())
-    block=START+'<section class="section compact" id="video-agenda-records"><div class="wrap"><h2>More interactive meeting records</h2><p>Browse the supplied recordings with official minutes. Item timestamps and complete packet inventories remain unverified.</p><div class="story-grid">'+cards+'</div></div></section>'+END
-    path=ROOT/'docs/council-intelligence.html'
-    page=path.read_text(encoding='utf-8')
-    page=re.sub(re.escape(START)+'.*?'+re.escape(END),'',page,flags=re.S)
-    page=page.replace('<section class="section compact" id="past-briefings">',block+'<section class="section compact" id="past-briefings">',1)
-    path.write_text(page,encoding='utf-8')
     path=ROOT/'docs/search-index.js';prefix='window.BI_SEARCH_INDEX = '
     records=json.loads(path.read_text(encoding='utf-8')[len(prefix):].strip().removesuffix(';'))
     for d in meetings:

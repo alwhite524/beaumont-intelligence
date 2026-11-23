@@ -36,17 +36,18 @@ test('requests, contingent steps and missing vote tallies are not turned into br
   assert.match(june.items.find(i=>i.item==='J.2').outcome,/not interchange construction/);
 });
 
-test('meeting catalog, Council overview and Research Library expose all three agendas',()=>{
+test('Council overview links to the meeting catalog and all three agendas are in the catalog and Research Library',()=>{
+  const councilOverview=read('docs/council-intelligence.html');
+  assert.match(councilOverview,/href="council-meeting-sources\.html"/);
+  assert.doesNotMatch(councilOverview,/id="video-agenda-records"/);
   const context=vm.createContext({window:{}});
   vm.runInContext(read('docs/council-meeting-sources.js'),context);
   vm.runInContext(read('docs/documents/library-index.js'),context);
   for(const [date,id,count] of entries){
     const row=context.window.BI_COUNCIL_MEETING_SOURCES.find(r=>r.date===date);
     assert.equal(row.video,'https://www.youtube.com/watch?v='+id);assert.equal(row.interactiveAgenda,`briefings/${date}-sources.html`);assert.ok(row.minutes);
-    assert.ok(read('docs/council-intelligence.html').includes(row.interactiveAgenda));
     assert.equal(context.window.BI_RESEARCH_LIBRARY.filter(r=>r.date===date&&r.type==='Agenda item'&&r.url.includes(`${date}-sources.html#item-`)).length,count);
   }
-  assert.equal((read('docs/council-intelligence.html').match(/id="video-agenda-records"/g)||[]).length,1);
 });
 
 test('shared navigation filters sections and outcomes, reveals anchors and opens exact minutes pages',()=>{

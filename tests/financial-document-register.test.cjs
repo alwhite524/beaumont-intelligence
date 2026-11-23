@@ -27,8 +27,10 @@ for (const document of register.documents) {
 }
 
 const homePage = fs.readFileSync('docs/index.html', 'utf8');
+const centersPage = fs.readFileSync('docs/intelligence-centers.html', 'utf8');
 const budgetCenter = fs.readFileSync('docs/budget.html', 'utf8');
-assert.match(homePage, /href="budgets-audits\.html"/);
+assert.match(homePage, /href="intelligence-centers\.html"/);
+assert.match(centersPage, /href="budget\.html"/);
 assert.match(budgetCenter, /href="budgets-audits\.html"/);
 
 console.log('Financial document register, archive page, and eight preserved PDFs passed.');
