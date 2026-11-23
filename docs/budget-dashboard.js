@@ -176,6 +176,10 @@
   const sort = byId('capital-sort');
   const results = byId('capital-results');
   const more = byId('capital-more');
+  const totals = byId('capital-totals');
+  const filters = [department, type, status, sort, search];
+  const filterKey = 'beaumont:cip-filters';
+  const amountColumns = [['cost', 'Estimated cost'], ['funding', 'Programmed'], ['gap', 'Unfunded']];
   const pageSize = 12;
   let visible = pageSize;
   const departments = {
@@ -186,7 +190,33 @@
   const types = [...new Set(plans.flatMap(plan => plan.projects.map(project => project.type)))].sort();
   options(type, types.map(value => [value, value]), 'All types');
 
-  function renderCapital() {
+  try {
+    const saved = JSON.parse(localStorage.getItem(filterKey)) ?? {};
+    for (const control of filters) {
+      const value = saved[control.id];
+      if (typeof value === 'string' && (control === search || Array.from(control.options).some(option => option.value === value))) {
+        control.value = value;
+      }
+    }
+    if (typeof saved.descending === 'boolean') descending = saved.descending;
+  } catch { /* Keep the default filters when storage is unavailable. */ }
+
+  const projectFragment = id => `#cip-project-${id}`;
+  function restoreProject() {
+    if (!location.hash.startsWith('#cip-project-')) return;
+    const row = byId(location.hash.slice(1));
+    if (!row) return;
+    requestAnimationFrame(() => {
+      row.focus({ preventScroll: true });
+      row.scrollIntoView({ block: 'start' });
+    });
+  }
+
+  function renderCapital(restore = false) {
+    try {
+      const values = Object.fromEntries(filters.map(control => [control.id, control.value]));
+      localStorage.setItem(filterKey, JSON.stringify({ ...values, descending }));
+    } catch { /* Filtering still works without storage. */ }
     const plan = plans[0];
     byId('capital-source').href = plan.source;
     const term = search.value.trim().toLowerCase();
@@ -206,21 +236,45 @@
     direction.textContent = descending ? 'Descending' : 'Ascending';
     direction.setAttribute('aria-label', `Sort direction: ${descending?'descending':'ascending'}. Change direction`);
 
+    if (restore) {
+      const index = matches.findIndex(project => projectFragment(project.id) === location.hash);
+      visible = Math.max(visible, Math.ceil((index + 1) / pageSize) * pageSize);
+    }
     byId('capital-count').textContent = matches.length
       ? `Showing ${Math.min(visible, matches.length)} of ${matches.length} ${matches.length === 1 ? 'project' : 'projects'}`
       : 'No projects match these filters.';
     more.hidden = matches.length <= visible;
+    totals.replaceChildren(...amountColumns.map(([field, label]) => {
+      const amount = matches.reduce((sum, project) => sum + project[field], 0);
+      const card = element('div');
+      card.append(element('span', `Total ${label.toLowerCase()}`), element('strong', currency.format(amount)));
+      return card;
+    }));
     const table = element('table', undefined, 'finance-table capital-table');
     table.setAttribute('aria-labelledby', 'capital-title');
     const header = table.createTHead().insertRow();
-    const fields = ['Project', 'Estimated cost', 'Programmed funding', 'Unfunded'];
+    const fields = ['Project', ...amountColumns.map(([, label]) => label)];
     header.append(...fields.map((field, i) => {const th=element('th');th.scope='col';const key=['name','cost','funding','gap'][i];th.setAttribute('aria-sort',order===key?(descending?'descending':'ascending'):'none');const button=element('button',field+(order===key?(descending?' ▼':' ▲'):''));button.type='button';button.addEventListener('click',()=>{descending=sort.value===key?!descending:false;sort.value=key;visible=pageSize;renderCapital();});th.append(button);return th;}));
     const body = table.createTBody();
     for (const project of matches.slice(0, visible)) {
       const row = body.insertRow();
       const heading = element('th');
       heading.scope = 'row';
-      heading.append(link(project.name, `${plan.source}#page=${project.page}`),
+      const fragment = projectFragment(project.id);
+      row.id = fragment.slice(1);
+      row.tabIndex = -1;
+      const params = new URLSearchParams({
+        url: plan.source,
+        title: plan.label + ' CIP project list',
+        page: project.page,
+        returnUrl: '../budget-cip.html' + fragment,
+        returnLabel: 'Back to CIP project',
+      });
+      const sourceLink = link(project.name, 'documents/viewer.html?' + params);
+      sourceLink.addEventListener('click', () => {
+        history.replaceState(history.state, '', fragment);
+      });
+      heading.append(sourceLink,
         element('small', `${project.id} · ${project.type} · ${departments[project.department] || project.department}`));
       row.append(heading);
       [project.cost, project.funding, project.gap].forEach((value, index) => {
@@ -230,9 +284,10 @@
       });
     }
     results.replaceChildren(...(matches.length ? [table] : []));
+    if (restore) restoreProject();
   }
 
-  for (const control of [department, type, status, sort, search]) {
+  for (const control of filters) {
     control.addEventListener(control === search ? 'input' : 'change', () => {
       visible = pageSize;
       renderCapital();
@@ -245,5 +300,6 @@
     const firstNewLink = results.querySelectorAll('tbody a')[visible - pageSize];
     firstNewLink?.focus();
   });
-  renderCapital();
+  window.addEventListener('pageshow', event => { if (event.persisted) restoreProject(); });
+  renderCapital(true);
 })();

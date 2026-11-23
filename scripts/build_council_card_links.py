@@ -23,14 +23,22 @@ def update_council_card_links(records):
         actions=re.search(r'<div class="status-actions">([\s\S]*?)</div>',text)
         existing=actions[1] if actions else ''
         urls={href for _,href in targets}
-        def keep(anchor):
+        target_labels={label for label,_ in targets}
+        def remove_redundant_link(anchor):
             href=re.search(r'href="([^"]+)"',anchor[0])
             label=re.sub(r'<[^>]+>','',anchor[0]).strip().strip('→↗ ')
-            return '' if (href and unescape(href[1]) in urls) or label in {label for label,_ in targets} else anchor[0]
-        existing=re.sub(r'<a\b[^>]*>[\s\S]*?</a>',keep,existing)
-        links=''.join(f'<a href="{escape(href,quote=True)}">{label}</a>' for label,href in targets)
+            if (href and unescape(href[1]) in urls) or label in target_labels:
+                return ''
+            if href and unescape(href[1]) == f'briefings/{date[1]}.html' and label.lower().endswith('meeting record'):
+                return ''
+            return anchor[0]
+        existing=re.sub(r'<a\b[^>]*>[\s\S]*?</a>',remove_redundant_link,existing)
+        agenda_label,agenda_href=targets[0]
+        agenda_link=f'<a class="btn" href="{escape(agenda_href,quote=True)}">{agenda_label}</a>'
+        source_links=''.join(f'<a href="{escape(href,quote=True)}">{label}</a>' for label,href in targets[1:])
+        links=agenda_link+existing+source_links
         if actions:
-            text=text[:actions.start(1)]+existing+links+text[actions.end(1):]
+            text=text[:actions.start(1)]+links+text[actions.end(1):]
         else:
             # Historical cards use their interactive agenda as their primary action.
             text=re.sub(r'<a\b[^>]*href="'+re.escape(escape(targets[0][1],quote=True))+r'"[^>]*>[\s\S]*?</a>','',text)
