@@ -5,11 +5,46 @@
   const fund=byId('budget-table-fund'), department=byId('budget-detail-section'), type=byId('budget-table-type'), search=byId('budget-detail-search'), sort=byId('budget-table-sort'), direction=byId('budget-table-direction'), more=byId('budget-detail-more');
   const status=byId('budget-detail-status');
   const currency=new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',minimumFractionDigits:2});
+  const deltaCurrency=new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',signDisplay:'exceptZero'});
+  const amountLabels=['Original budget','Current budget','Delta'];
   const columns=[['account','Account'],['description','Description'],['fund','Fund'],['department','Department'],['type','Type'],['original','Original budget'],['current','Current budget']];
   const node=(tag,text,cls)=>{const n=document.createElement(tag);if(text!==undefined)n.textContent=text;if(cls)n.className=cls;return n;};
   let data,limit=50,descending=false;
   const controls=[fund,department,type,search,sort,direction];
   function link(label,source,page=1){const a=node('a',label);a.href='documents/viewer.html?'+new URLSearchParams({pdf:'../'+source,title:'FY 2026–2027 budget',page,returnUrl:'../budget-budgets.html#budget-detail',returnLabel:'Budget details'});return a;}
+  function renderCards(rows){
+    const cards=node('div',undefined,'budget-account-cards');
+    const headings=node('div',undefined,'budget-card-amounts budget-card-headings');
+    headings.setAttribute('aria-hidden','true');
+    headings.append(...amountLabels.map(label=>node('span',label)));
+    cards.append(headings);
+
+    rows.forEach(row=>{
+      const card=node('details',undefined,'budget-account-card');
+      const summary=node('summary');
+      const title=node('span',row.description,'budget-card-description');
+      const amounts=node('span',undefined,'budget-card-amounts');
+      const delta=(Math.round(row.current*100)-Math.round(row.original*100))/100;
+      const values=[currency.format(row.original),currency.format(row.current),deltaCurrency.format(delta)];
+      values.forEach((value,index)=>{
+        const amount=node('span');
+        amount.append(node('span',amountLabels[index]+': ','visually-hidden'),value);
+        amounts.append(amount);
+      });
+      summary.append(title,amounts);
+
+      const details=node('dl',undefined,'budget-card-details');
+      const fields=[['Account',row.account],['Fund',row.fund],['Department',row.department],['Type',row.type],['Source',link(`Page ${row.page}`,data.source,row.page)]];
+      fields.forEach(([label,value])=>{
+        const definition=node('dd');
+        definition.append(value);
+        details.append(node('dt',label),definition);
+      });
+      card.append(summary,details);
+      cards.append(card);
+    });
+    return cards;
+  }
   function render(){
     const query=search.value.toLowerCase().trim().split(/\s+/).filter(Boolean);
     const matches=data.rows.filter(row=>(!fund.value||row.fund===fund.value)&&(!department.value||row.department===department.value)&&(!type.value||row.type===type.value)&&query.every(q=>[row.account,row.description,row.fund,row.department,row.type].join(' ').toLowerCase().includes(q)));
@@ -26,6 +61,7 @@
     const body=table.createTBody();
     shown.forEach(row=>{const tr=body.insertRow();columns.forEach(([field,label])=>{const cell=node(field==='account'?'th':'td',typeof row[field]==='number'?currency.format(row[field]):row[field]);if(field==='account')cell.scope='row';cell.dataset.label=label;tr.append(cell);});const cell=tr.insertCell();cell.dataset.label='Source';cell.append(link(`Page ${row.page}`,data.source,row.page));});
     results.replaceChildren(table);
+    if(shown.length)results.append(renderCards(shown));
     if(!matches.length)results.append(node('p','No accounts match. Try another search or clear the filters.'));
     more.hidden=shown.length===matches.length;
     const totals=byId('budget-table-totals');totals.replaceChildren(...['Revenue','Expense'].map(kind=>{const amount=matches.filter(r=>r.type===kind).reduce((sum,r)=>sum+Math.round(r.current*100),0)/100;const card=node('div');card.append(node('span',`Matching ${kind.toLowerCase()} budget`),node('strong',currency.format(amount)));return card;}));
