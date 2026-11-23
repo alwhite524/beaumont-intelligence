@@ -131,6 +131,8 @@ def main() -> None:
     if replacements != 1:
         raise ValueError('Expected one meeting catalog script reference')
     page.write_text(html, encoding='utf-8', newline='\n')
+    from build_council_card_links import update_council_card_links
+    update_council_card_links(records)
     print(f"Council meeting sources: {len(records)} meetings")
 
 
