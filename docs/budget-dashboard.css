@@ -153,3 +153,23 @@
   .capital-table tbody :is(th, td) { border: 0; }
   .capital-mobile-label { display: block; color: var(--budget-muted); font-size: .72rem; }
 }
+/* Fiscal-year detail explorer. Wide source tables scroll within their own panel. */
+.budget-detail-filters { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.budget-detail-filters input { width: 100%; min-height: 44px; padding: 10px; border: 1px solid #859aaa; border-radius: 7px; font: inherit; }
+#budget-detail-sources { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 16px; }
+#budget-detail-status { font-size: .9rem; color: var(--budget-muted); }
+.budget-detail-page { border: 1px solid var(--budget-line); border-radius: 8px; margin-top: 12px; padding: 12px; min-width: 0; }
+.budget-detail-page summary { cursor: pointer; min-height: 44px; overflow-wrap: anywhere; }
+.budget-detail-page summary strong { margin-left: 6px; }
+.budget-detail-page summary span { display: block; font-size: .9rem; margin: 6px 0 0 20px; color: var(--budget-muted); }
+.budget-detail-page pre { max-width: 100%; overflow: auto; max-height: 620px; padding: 14px; background: #f4f7fa; color: #18334b; font: 14px/1.6 ui-monospace, Consolas, monospace; tab-size: 4; }
+.budget-detail-page pre:focus-visible { outline: 3px solid #174a7e; }
+@media (max-width: 550px) {
+  .budget-detail-filters { grid-template-columns: minmax(0, 1fr); }
+  .budget-detail-page { padding: 10px; }
+}
+.budget-page-reader { max-height: 660px; overflow: auto; border: 1px solid var(--budget-line); border-radius: 6px; background: #eef2f6; }
+.budget-page-reader .pdf-reader-controls { flex-wrap: wrap; }
+.budget-page-reader .pdf-reader-title { white-space: normal; }
+.budget-extracted-text { margin-top: 16px; }
+.budget-extracted-text pre { white-space: pre-wrap; overflow-wrap: anywhere; }
