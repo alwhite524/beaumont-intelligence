@@ -185,6 +185,9 @@
 .budget-table-totals div { padding: 12px; background: #edf5f6; border-radius: 8px; }
 .budget-table-totals span,.budget-table-totals strong { display: block; }
 .budget-account-cards { display: none; }
+.budget-account-card, .budget-account-table tbody tr, .capital-table tbody tr {
+  scroll-margin-top: 100px;
+}
 @media(max-width: 550px) {
   .budget-account-table { display: none; }
   .budget-account-cards { display: grid; gap: 8px; }

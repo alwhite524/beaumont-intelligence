@@ -14,16 +14,32 @@
   const filters=[fund,department,type,search,sort];
   const controls=[...filters,direction];
   const filterKey='beaumont:budget-account-filters';
-  function link(label,source,page=1){
+  const accountFragment=account=>`#budget-account-${account}`;
+  function restoreAccount(){
+    const id=location.hash.slice(1);
+    if(!id.startsWith('budget-account-')) return;
+    const card=byId(id);
+    const target=card?.getClientRects().length ? card : byId(id+'-row');
+    if(!target) return;
+    if(card) card.open=true;
+    requestAnimationFrame(()=>{
+      target.focus({preventScroll:true});
+      target.scrollIntoView({block:'start'});
+    });
+  }
+  function link(label,source,page=1,account){
     const anchor=node('a',label);
     const params=new URLSearchParams({
       url:new URL(source,archiveOrigin).href,
       title:'FY 2026–2027 budget detail report',
       page,
-      returnUrl:'../budget-budgets.html#budget-detail',
+      returnUrl:'../budget-budgets.html'+(account ? accountFragment(account) : '#budget-detail'),
       returnLabel:'Budget details',
     });
     anchor.href='documents/viewer.html?'+params;
+    if(account) anchor.addEventListener('click',()=>{
+      history.replaceState(history.state,'',accountFragment(account));
+    });
     return anchor;
   }
   function renderCards(rows){
@@ -35,6 +51,8 @@
 
     rows.forEach(row=>{
       const card=node('details',undefined,'budget-account-card');
+      card.id=accountFragment(row.account).slice(1);
+      card.tabIndex=-1;
       const summary=node('summary');
       const title=node('span',row.description,'budget-card-description');
       const amounts=node('span',undefined,'budget-card-amounts');
@@ -48,7 +66,7 @@
       summary.append(title,amounts);
 
       const details=node('dl',undefined,'budget-card-details');
-      const fields=[['Account',row.account],['Fund',row.fund],['Department',row.department],['Type',row.type],['Source',link(`Page ${row.page}`,data.source,row.page)]];
+      const fields=[['Account',row.account],['Fund',row.fund],['Department',row.department],['Type',row.type],['Source',link(`Page ${row.page}`,data.source,row.page,row.account)]];
       fields.forEach(([label,value])=>{
         const definition=node('dd');
         definition.append(value);
@@ -59,7 +77,7 @@
     });
     return cards;
   }
-  function render(){
+  function render(restore=false){
     try {
       const values=Object.fromEntries(filters.map(control=>[control.id,control.value]));
       localStorage.setItem(filterKey,JSON.stringify({...values,descending}));
@@ -68,6 +86,10 @@
     const matches=data.rows.filter(row=>(!fund.value||row.fund===fund.value)&&(!department.value||row.department===department.value)&&(!type.value||row.type===type.value)&&query.every(q=>[row.account,row.description,row.fund,row.department,row.type].join(' ').toLowerCase().includes(q)));
     const key=sort.value;
     matches.sort((a,b)=>{const comparison=typeof a[key]==='number'?a[key]-b[key]:a[key].localeCompare(b[key],undefined,{numeric:true});return (descending?-comparison:comparison)||a.account.localeCompare(b.account);});
+    if(restore){
+      const index=matches.findIndex(row=>accountFragment(row.account)===location.hash);
+      limit=Math.max(limit,Math.ceil((index+1)/50)*50);
+    }
     const shown=matches.slice(0,limit);
     status.textContent=`${matches.length.toLocaleString()} matching ${matches.length===1?'account':'accounts'} · Showing ${shown.length.toLocaleString()} of ${data.rows.length.toLocaleString()} accounts`;
     direction.textContent=descending?'Descending':'Ascending';direction.setAttribute('aria-label',`Sort direction: ${descending?'descending':'ascending'}. Change direction`);
@@ -77,11 +99,12 @@
     columns.forEach(([field,label])=>{const th=node('th');th.scope='col';th.setAttribute('aria-sort',field===key?(descending?'descending':'ascending'):'none');const button=node('button',label+(field===key?(descending?' ▼':' ▲'):''));button.type='button';button.addEventListener('click',()=>{descending=field===sort.value?!descending:false;sort.value=field;limit=50;render();});th.append(button);header.append(th);});
     const sourceHead=node('th','Source');sourceHead.scope='col';header.append(sourceHead);
     const body=table.createTBody();
-    shown.forEach(row=>{const tr=body.insertRow();columns.forEach(([field,label])=>{const cell=node(field==='account'?'th':'td',typeof row[field]==='number'?currency.format(row[field]):row[field]);if(field==='account')cell.scope='row';cell.dataset.label=label;tr.append(cell);});const cell=tr.insertCell();cell.dataset.label='Source';cell.append(link(`Page ${row.page}`,data.source,row.page));});
+    shown.forEach(row=>{const tr=body.insertRow();tr.id=accountFragment(row.account).slice(1)+'-row';tr.tabIndex=-1;columns.forEach(([field,label])=>{const cell=node(field==='account'?'th':'td',typeof row[field]==='number'?currency.format(row[field]):row[field]);if(field==='account')cell.scope='row';cell.dataset.label=label;tr.append(cell);});const cell=tr.insertCell();cell.dataset.label='Source';cell.append(link(`Page ${row.page}`,data.source,row.page,row.account));});
     results.replaceChildren(table);
     if(shown.length)results.append(renderCards(shown));
     if(!matches.length)results.append(node('p','No accounts match. Try another search or clear the filters.'));
     more.hidden=shown.length===matches.length;
+    if(restore) restoreAccount();
     const totals=byId('budget-table-totals');totals.replaceChildren(...['Revenue','Expense'].map(kind=>{const amount=matches.filter(r=>r.type===kind).reduce((sum,r)=>sum+Math.round(r.current*100),0)/100;const card=node('div');card.append(node('span',`Matching ${kind.toLowerCase()} budget`),node('strong',currency.format(amount)));return card;}));
   }
   function updateDepartments(){const previous=department.value;const values=[...new Set(data.rows.filter(r=>!fund.value||r.fund===fund.value).map(r=>r.department))].sort();department.replaceChildren(new Option('All departments',''),...values.map(v=>new Option(v,v)));if(values.includes(previous))department.value=previous;}
@@ -106,11 +129,12 @@
       byId('budget-detail-note').textContent=data.basis;
       byId('budget-detail-sources').replaceChildren(link('Open source detail report',data.source));
       window.BIPdfReader.open(byId('budget-book-reader'),new URL(data.book,archiveOrigin).href,'FY 2026–2027 budget book');
-      controls.forEach(c=>c.disabled=false);render();
+      controls.forEach(c=>c.disabled=false);render(true);
     }catch{status.textContent='Budget accounts could not be loaded.';const retry=node('button','Retry');retry.type='button';retry.addEventListener('click',()=>{results.replaceChildren();load();});results.replaceChildren(retry);}
   }
   fund.addEventListener('change',()=>{updateDepartments();limit=50;render();});
   [department,type,sort].forEach(control=>control.addEventListener('change',()=>{limit=50;render();}));
   search.addEventListener('input',()=>{limit=50;render();});direction.addEventListener('click',()=>{descending=!descending;limit=50;render();});more.addEventListener('click',()=>{limit+=50;render();});
+  window.addEventListener('pageshow',event=>{if(event.persisted) restoreAccount();});
   load();
 })();

@@ -201,7 +201,18 @@
     if (typeof saved.descending === 'boolean') descending = saved.descending;
   } catch { /* Keep the default filters when storage is unavailable. */ }
 
-  function renderCapital() {
+  const projectFragment = id => `#cip-project-${id}`;
+  function restoreProject() {
+    if (!location.hash.startsWith('#cip-project-')) return;
+    const row = byId(location.hash.slice(1));
+    if (!row) return;
+    requestAnimationFrame(() => {
+      row.focus({ preventScroll: true });
+      row.scrollIntoView({ block: 'start' });
+    });
+  }
+
+  function renderCapital(restore = false) {
     try {
       const values = Object.fromEntries(filters.map(control => [control.id, control.value]));
       localStorage.setItem(filterKey, JSON.stringify({ ...values, descending }));
@@ -225,6 +236,10 @@
     direction.textContent = descending ? 'Descending' : 'Ascending';
     direction.setAttribute('aria-label', `Sort direction: ${descending?'descending':'ascending'}. Change direction`);
 
+    if (restore) {
+      const index = matches.findIndex(project => projectFragment(project.id) === location.hash);
+      visible = Math.max(visible, Math.ceil((index + 1) / pageSize) * pageSize);
+    }
     byId('capital-count').textContent = matches.length
       ? `Showing ${Math.min(visible, matches.length)} of ${matches.length} ${matches.length === 1 ? 'project' : 'projects'}`
       : 'No projects match these filters.';
@@ -245,7 +260,21 @@
       const row = body.insertRow();
       const heading = element('th');
       heading.scope = 'row';
-      heading.append(link(project.name, `${plan.source}#page=${project.page}`),
+      const fragment = projectFragment(project.id);
+      row.id = fragment.slice(1);
+      row.tabIndex = -1;
+      const params = new URLSearchParams({
+        url: plan.source,
+        title: plan.label + ' CIP project list',
+        page: project.page,
+        returnUrl: '../budget-cip.html' + fragment,
+        returnLabel: 'Back to CIP project',
+      });
+      const sourceLink = link(project.name, 'documents/viewer.html?' + params);
+      sourceLink.addEventListener('click', () => {
+        history.replaceState(history.state, '', fragment);
+      });
+      heading.append(sourceLink,
         element('small', `${project.id} · ${project.type} · ${departments[project.department] || project.department}`));
       row.append(heading);
       [project.cost, project.funding, project.gap].forEach((value, index) => {
@@ -255,6 +284,7 @@
       });
     }
     results.replaceChildren(...(matches.length ? [table] : []));
+    if (restore) restoreProject();
   }
 
   for (const control of filters) {
@@ -270,5 +300,6 @@
     const firstNewLink = results.querySelectorAll('tbody a')[visible - pageSize];
     firstNewLink?.focus();
   });
-  renderCapital();
+  window.addEventListener('pageshow', event => { if (event.persisted) restoreProject(); });
+  renderCapital(true);
 })();
