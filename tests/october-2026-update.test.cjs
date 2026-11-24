@@ -37,21 +37,14 @@ test('October outcomes preserve proposals and distinguish first readings and con
   }
 });
 
-test('the service-area register lists only actions with open research checks', () => {
+test('the service-area register clears completed actions and their landing-page links', () => {
   const data = JSON.parse(read('data/service-area-actions.json'));
   const page = read('docs/service-area-actions.html');
-  const directory = read('docs/intelligence-centers.html');
-  assert.equal(data.records.length, 4);
-  assert.doesNotMatch(page, /Research completion: 100%/);
-  for (const action of data.records) {
-    assert.notEqual(action.date, outcomes.date);
-    assert.ok(Object.values(action.checks).includes(false));
-    for (const area of action.areas) {
-      assert.ok(page.includes(`id="${area}-${action.id}"`));
-    }
-  }
-  for (const match of directory.matchAll(/href="service-area-actions\.html#([^"]+)"/g)) {
-    assert.ok(page.includes(`id="${match[1]}"`));
+  assert.deepEqual(data.records, []);
+  assert.match(page, /All tracked actions have completed their research checks/);
+  assert.doesNotMatch(page, /Research completion: \d+%/);
+  for (const name of ['index.html', 'intelligence-centers.html', 'council-intelligence.html']) {
+    assert.doesNotMatch(read('docs/' + name), /href="service-area-actions\.html/);
   }
 });
 

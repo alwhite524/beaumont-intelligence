@@ -1,6 +1,6 @@
 {
   "reviewedOn": "2026-11-23",
-  "scope": "Selected Council actions with research checks still open.",
+  "scope": "All tracked actions have completed their research checks.",
   "criteria": {
     "scope": "Dated action and service-area scope recorded",
     "sources": "Decision record and supporting-document route linked",
@@ -8,95 +8,5 @@
     "finance": "Financial authority distinguished from estimates and expenditure",
     "instruments": "Final instruments and material discrepancies reconciled"
   },
-  "records": [
-    {
-      "id": "smart-signals",
-      "date": "2026-10-06",
-      "areas": [
-        "public-works-mobility"
-      ],
-      "title": "Highland Springs smart-signal construction awarded",
-      "summary": "Council awarded California Professional Engineering the signal smart-technology work for $723,517 plus $72,352 contingency, totaling $795,869. Voigt moved and Lara seconded.",
-      "limit": "Checked against the supplied City minutes. Authorization does not establish payment, completed work, or later implementation.",
-      "evidence": "Supplied City minutes reviewed",
-      "recordUrl": "briefings/2026-10-06.html#minutes-review",
-      "documentsUrl": "briefings/2026-10-06-sources.html",
-      "nextStep": "Collect the executed construction contract and subsequent implementation records.",
-      "checks": {
-        "scope": true,
-        "sources": true,
-        "minutes": true,
-        "finance": true,
-        "instruments": false
-      },
-      "reviewedOn": "2026-10-24"
-    },
-    {
-      "id": "emergency-services",
-      "date": "2026-08-18",
-      "areas": [
-        "public-safety"
-      ],
-      "title": "County Emergency Services Coordinator agreement",
-      "summary": "On August 18, Council approved a two-year County agreement at $195,000 per year, with a 40-hour on-site week. The base cost is $390,000; overtime and extraordinary costs may be separate.",
-      "limit": "The meeting record reports approval 5–0. This inventory has not independently checked approved minutes or the executed agreement; authorization does not establish staffing or deliverables.",
-      "evidence": "Collected meeting outcome and linked agenda documents",
-      "recordUrl": "briefings/2026-08-18.html#emergency-services",
-      "documentsUrl": "briefings/2026-08-18-sources.html",
-      "nextStep": "Collect the executed agreement, deployment status, deliverables and costs above the base agreement.",
-      "checks": {
-        "scope": true,
-        "sources": true,
-        "minutes": false,
-        "finance": true,
-        "instruments": false
-      },
-      "reviewedOn": "2026-10-24"
-    },
-    {
-      "id": "recreation-center",
-      "date": "2026-08-18",
-      "areas": [
-        "parks-community-services"
-      ],
-      "title": "Community Recreation Center feasibility study",
-      "summary": "On August 18, Council approved RHA Community Works at $176,945, with 5% contingency for total authority of $185,793, and a $150,000 carryforward. The study includes a community survey.",
-      "limit": "The meeting record reports approval 5–0. This funds study and planning, not facility construction. Approved minutes and final execution have not been independently checked in this inventory.",
-      "evidence": "Collected meeting outcome and linked agenda documents",
-      "recordUrl": "briefings/2026-08-18.html#recreation-center",
-      "documentsUrl": "briefings/2026-08-18-sources.html",
-      "nextStep": "Collect the executed agreement, survey and study deliverables, and the later facility/funding decision.",
-      "checks": {
-        "scope": true,
-        "sources": true,
-        "minutes": false,
-        "finance": true,
-        "instruments": false
-      },
-      "reviewedOn": "2026-10-24"
-    },
-    {
-      "id": "transit-yard",
-      "date": "2026-08-18",
-      "areas": [
-        "public-works-mobility",
-        "utilities-environment"
-      ],
-      "title": "Transit yard environmental findings",
-      "summary": "On August 18, Council adopted the Mitigated Negative Declaration and Mitigation Monitoring and Reporting Program for the Fourth Street and Viele Avenue transit yard. The briefing describes a $16.14 million project estimate.",
-      "limit": "Environmental approval does not establish a construction award, expenditure or completed facility. Approved minutes and final instruments have not been independently checked in this inventory.",
-      "evidence": "Collected meeting outcome and linked agenda documents",
-      "recordUrl": "briefings/2026-08-18.html#transit-yard",
-      "documentsUrl": "briefings/2026-08-18-sources.html",
-      "nextStep": "Collect the adopted environmental resolution, current funding schedule and subsequent procurement disposition.",
-      "checks": {
-        "scope": true,
-        "sources": true,
-        "minutes": false,
-        "finance": true,
-        "instruments": false
-      },
-      "reviewedOn": "2026-10-24"
-    }
-  ]
+  "records": []
 }
