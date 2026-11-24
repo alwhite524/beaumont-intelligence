@@ -16,8 +16,8 @@ class StationStatusTests(unittest.TestCase):
                 self.assertEqual(text.count(station.START), 1)
                 self.assertIn(station.render(page), text)
                 for phrase in ('$5,437,851', '$241,727', 'each phase',
-                               'approved October 20 minutes', 'corrected executed agreement',
-                               'was excluded', 'transcript-based'):
+                               'supplied October 20 minutes', 'final instruments and material discrepancies',
+                               'was excluded', 'new-police-station.html'):
                     self.assertIn(phrase, station.render(page))
 
     def test_estimates_and_authority_are_distinct(self):
