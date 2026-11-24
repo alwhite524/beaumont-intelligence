@@ -12,9 +12,12 @@
   const fy = value => `FY ${value - 1}–${String(value).slice(-2)}`;
   const node = (tag, text, cls) => { const n = document.createElement(tag); if (text !== undefined) n.textContent = text; if (cls) n.className = cls; return n; };
   const option = (value, text) => new Option(text, value);
+  const documentUrl = source => new URL(source, source.startsWith('official-documents/')
+    ? 'https://documents.beaumontintelligence.com/'
+    : location.href).href;
   function sourceLink(text, source, page = 1) {
     const a = node('a', text);
-    const params = new URLSearchParams({pdf: '../' + source, title: `${fy(data.year)} budget`, page, returnUrl: '../budget-annual-history.html?year=' + data.year + '#budget-detail', returnLabel: 'Budget details'});
+    const params = new URLSearchParams({url: documentUrl(source), title: `${fy(data.year)} budget`, page, returnUrl: '../budget-annual-history.html?year=' + data.year + '#budget-detail', returnLabel: 'Budget details'});
     a.href = 'documents/viewer.html?' + params;
     return a;
   }
@@ -30,11 +33,11 @@
       card.open = i === 0;
       const summary = node('summary');
       summary.append(node('strong', p.section), node('span', `${p.doc.title} · PDF page ${p.page}`));
-      const actions = node('p'); actions.append(sourceLink('View original page', p.doc.source, p.page));
+      const actions = node('p'); actions.append(sourceLink('Open page in viewer', p.doc.source, p.page));
       const reader = node('div', undefined, 'budget-page-reader');
       let opened = false;
       card.addEventListener('toggle', () => {
-        if (card.open && !opened) {opened = true; window.BIPdfReader.open(reader, p.doc.source, p.doc.title, {startPage:p.page, endPage:p.page});}
+        if (card.open && !opened) {opened = true; window.BIPdfReader.open(reader, documentUrl(p.doc.source), p.doc.title, {startPage:p.page, endPage:p.page});}
         if (!card.open && opened) {window.BIPdfReader.clear(reader);opened = false;}
       });
       const extracted = node('details', undefined, 'budget-extracted-text');
