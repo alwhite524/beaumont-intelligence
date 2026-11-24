@@ -61,6 +61,7 @@
     const fund = byId('budget-fund');
     const year = byId('budget-year');
     const baseline = byId('budget-baseline');
+    const sort = byId('budget-comparison-sort');
     const metrics = ['Revenue', 'Expenditures', 'Revenue less expenditures'];
     const values = record => {
       const [revenue, expenditures] = record.funds[fund.value];
@@ -122,9 +123,24 @@
       headings.cells[1].append(link(fy(prior.year), prior.source));
       headings.cells[2].append(link(fy(current.year), current.source));
       const body = table.createTBody();
-      metrics.forEach((metric, index) => {
+      const metricOrder = metrics.map((_, index) => index);
+      switch (sort?.value) {
+        case 'metric':
+          metricOrder.sort((a, b) => metrics[a].localeCompare(metrics[b]));
+          break;
+        case 'prior':
+          metricOrder.sort((a, b) => priorValues[b] - priorValues[a]);
+          break;
+        case 'current':
+          metricOrder.sort((a, b) => currentValues[b] - currentValues[a]);
+          break;
+        case 'change':
+          metricOrder.sort((a, b) => (currentValues[b] - priorValues[b]) - (currentValues[a] - priorValues[a]));
+          break;
+      }
+      metricOrder.forEach(index => {
         const row = body.insertRow();
-        const heading = element('th', metric);
+        const heading = element('th', metrics[index]);
         heading.scope = 'row';
         row.append(heading);
         row.insertCell().textContent = approximate(prior, index) + currency.format(priorValues[index]);
@@ -155,6 +171,7 @@
     fund.addEventListener('change', updateFund);
     year.addEventListener('change', () => updateBaseline());
     baseline.addEventListener('change', renderBudget);
+    sort?.addEventListener('change', renderBudget);
     updateFund();
 
   }
