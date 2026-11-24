@@ -7,6 +7,13 @@ import pdfplumber
 ROOT=Path(__file__).resolve().parents[1]
 BASE='official-documents/2026-06-16/'
 SOURCE=BASE+'i-1-attachment-h-budget-detail-report-all-funds.pdf'
+ADJUSTMENT_SOURCE='official-documents/2026-11-17/g-16-attachment-a-budget-adjustment-1st-qtr.pdf'
+# Account, budget before the November adjustment, adjustment, and new budget.
+GENERAL_FUND_ADJUSTMENTS={
+    '100-2150-7063-0000': (250000, -53000, 197000),
+    '100-1350-7068-0000': (20000, 53000, 73000),
+    '100-0000-8072-0000': (49617, -31047, 18570),
+}
 NUMBER=r'-?[\d,]+\.\d{2}'
 TAIL=re.compile(rf'\s+({NUMBER})\s+({NUMBER})\s+({NUMBER})\s+({NUMBER})\s+({NUMBER})\s+({NUMBER})\s*%$')
 ACCOUNT=re.compile(r'^(\d{3}-\d{4}-\d{4}-[A-Za-z0-9]{4})\s+')
@@ -42,7 +49,15 @@ def build():
     if sums.keys()!=totals.keys(): raise ValueError('Missing printed fund/type totals')
     for key,values in sums.items():
         if values!=totals[key]:raise ValueError(f'Reconciliation failed {key}: {values} != {totals[key]}')
-    data=dict(year=2027,source=SOURCE,book='official-documents/2026-09-15/g-13-attachment-b-fy2026-2027-budget-book-final.pdf',basis='FY 2026–2027 budget-adoption reports, June 2026. Original and current budget columns reflect that report, not subsequent amendments or actual spending. Account descriptions follow the source, including truncation.',reconciledTotals=len(totals),rows=rows)
+    by_account={row['account']: row for row in rows}
+    for account, (before, change, after) in GENERAL_FUND_ADJUSTMENTS.items():
+        row=by_account[account]
+        if row['type']!='Expense' or before+change!=after:
+            raise ValueError(f'Invalid General Fund adjustment for {account}')
+        row.update(current=after, beforeAdjustment=before, adjustment=change)
+    for row in rows:
+        row['change']=round(row['current']-row['original'],2)
+    data=dict(year=2027,source=SOURCE,book='official-documents/2026-09-15/g-13-attachment-b-fy2026-2027-budget-book-final.pdf',basis='Original amounts come from the June 2026 adoption report. Latest shown includes three General Fund accounts updated from the November 17 adjustment. Other accounts show the June report amounts. Totals sum the listed accounts and are not certified amended fund totals.',adjustmentSource=ADJUSTMENT_SOURCE,reconciledTotals=len(totals),rows=rows)
     (ROOT/'docs/budget-details/2027-table.json').write_text(json.dumps(data,ensure_ascii=False,separators=(',',':')),encoding='utf-8')
     print(f'{len(rows)} unique account rows; {len(totals)} printed fund/type totals reconciled.')
 if __name__=='__main__':build()

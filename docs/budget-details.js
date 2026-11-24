@@ -6,9 +6,9 @@
   const status=byId('budget-detail-status');
   const currency=new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',minimumFractionDigits:2});
   const deltaCurrency=new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',signDisplay:'exceptZero'});
-  const amountLabels=['Original budget','Current budget','Delta'];
+  const amountLabels=['Original budget','Latest shown','Change'];
   const archiveOrigin='https://documents.beaumontintelligence.com/';
-  const columns=[['account','Account'],['description','Description'],['fund','Fund'],['department','Department'],['type','Type'],['original','Original budget'],['current','Current budget']];
+  const columns=[['account','Account'],['description','Description'],['fund','Fund'],['department','Department'],['type','Type'],['original','Original budget'],['current','Latest shown'],['change','Change']];
   const node=(tag,text,cls)=>{const n=document.createElement(tag);if(text!==undefined)n.textContent=text;if(cls)n.className=cls;return n;};
   let data,limit=50,descending=false;
   const filters=[fund,department,type,search,sort];
@@ -42,6 +42,11 @@
     });
     return anchor;
   }
+  function accountSource(row){
+    return row.adjustment === undefined
+      ? link(`Page ${row.page}`,data.source,row.page,row.account)
+      : link('Nov. 17 adjustment',data.adjustmentSource,1,row.account);
+  }
   function renderCards(rows){
     const cards=node('div',undefined,'budget-account-cards');
     const headings=node('div',undefined,'budget-card-amounts budget-card-headings');
@@ -56,8 +61,7 @@
       const summary=node('summary');
       const title=node('span',row.description,'budget-card-description');
       const amounts=node('span',undefined,'budget-card-amounts');
-      const delta=(Math.round(row.current*100)-Math.round(row.original*100))/100;
-      const values=[currency.format(row.original),currency.format(row.current),deltaCurrency.format(delta)];
+      const values=[currency.format(row.original),currency.format(row.current),deltaCurrency.format(row.change)];
       values.forEach((value,index)=>{
         const amount=node('span');
         amount.append(node('span',amountLabels[index]+': ','visually-hidden'),value);
@@ -66,7 +70,7 @@
       summary.append(title,amounts);
 
       const details=node('dl',undefined,'budget-card-details');
-      const fields=[['Account',row.account],['Fund',row.fund],['Department',row.department],['Type',row.type],['Source',link(`Page ${row.page}`,data.source,row.page,row.account)]];
+      const fields=[['Account',row.account],['Fund',row.fund],['Department',row.department],['Type',row.type],['Source',accountSource(row)]];
       fields.forEach(([label,value])=>{
         const definition=node('dd');
         definition.append(value);
@@ -99,7 +103,7 @@
     columns.forEach(([field,label])=>{const th=node('th');th.scope='col';th.setAttribute('aria-sort',field===key?(descending?'descending':'ascending'):'none');const button=node('button',label+(field===key?(descending?' ▼':' ▲'):''));button.type='button';button.addEventListener('click',()=>{descending=field===sort.value?!descending:false;sort.value=field;limit=50;render();});th.append(button);header.append(th);});
     const sourceHead=node('th','Source');sourceHead.scope='col';header.append(sourceHead);
     const body=table.createTBody();
-    shown.forEach(row=>{const tr=body.insertRow();tr.id=accountFragment(row.account).slice(1)+'-row';tr.tabIndex=-1;columns.forEach(([field,label])=>{const cell=node(field==='account'?'th':'td',typeof row[field]==='number'?currency.format(row[field]):row[field]);if(field==='account')cell.scope='row';cell.dataset.label=label;tr.append(cell);});const cell=tr.insertCell();cell.dataset.label='Source';cell.append(link(`Page ${row.page}`,data.source,row.page,row.account));});
+    shown.forEach(row=>{const tr=body.insertRow();tr.id=accountFragment(row.account).slice(1)+'-row';tr.tabIndex=-1;columns.forEach(([field,label])=>{const cell=node(field==='account'?'th':'td',field==='change'?deltaCurrency.format(row.change):typeof row[field]==='number'?currency.format(row[field]):row[field]);if(field==='account')cell.scope='row';cell.dataset.label=label;tr.append(cell);});const cell=tr.insertCell();cell.dataset.label='Source';cell.append(accountSource(row));});
     results.replaceChildren(table);
     if(shown.length)results.append(renderCards(shown));
     if(!matches.length)results.append(node('p','No accounts match. Try another search or clear the filters.'));
@@ -111,7 +115,7 @@
   async function load(){
     controls.forEach(c=>c.disabled=true);status.textContent='Loading FY 2026–2027 budget accounts…';more.hidden=true;
     try{
-      const response=await fetch('budget-details/2027-table.json?v=20261122-table');if(!response.ok)throw Error('Unavailable');data=await response.json();
+      const response=await fetch('budget-details/2027-table.json?v=20261124-nov17');if(!response.ok)throw Error('Unavailable');data=await response.json();
       const generalFund='100 - GENERAL FUND';
       const funds=[...new Set(data.rows.map(r=>r.fund))].sort();
       fund.replaceChildren(new Option('All funds',''),...funds.map(value=>new Option(value===generalFund?'100 - General Fund':value,value)));
@@ -130,7 +134,10 @@
       }
       if(typeof saved.descending==='boolean') descending=saved.descending;
       byId('budget-detail-note').textContent=data.basis;
-      byId('budget-detail-sources').replaceChildren(link('Open source detail report',data.source));
+      byId('budget-detail-sources').replaceChildren(
+        link('June adoption detail report',data.source),
+        link('November 17 adjustment form',data.adjustmentSource)
+      );
       window.BIPdfReader.open(byId('budget-book-reader'),new URL(data.book,archiveOrigin).href,'FY 2026–2027 budget book');
       controls.forEach(c=>c.disabled=false);render(true);
     }catch{status.textContent='Budget accounts could not be loaded.';const retry=node('button','Retry');retry.type='button';retry.addEventListener('click',()=>{results.replaceChildren();load();});results.replaceChildren(retry);}
