@@ -1,106 +1,86 @@
 (() => {
   const year = document.getElementById('budget-detail-year');
   if (!year) return;
-  const documentSelect = document.getElementById('budget-detail-document');
-  const section = document.getElementById('budget-detail-section');
-  const search = document.getElementById('budget-detail-search');
+
+  const summaryYear = document.getElementById('budget-year');
+  const title = document.getElementById('budget-detail-title');
   const results = document.getElementById('budget-detail-results');
   const status = document.getElementById('budget-detail-status');
-  const more = document.getElementById('budget-detail-more');
-  const cache = new Map();
-  let data, request = 0, limit = 8;
-  const fy = value => `FY ${value - 1}–${String(value).slice(-2)}`;
-  const node = (tag, text, cls) => { const n = document.createElement(tag); if (text !== undefined) n.textContent = text; if (cls) n.className = cls; return n; };
-  const option = (value, text) => new Option(text, value);
-  const documentUrl = source => new URL(source, source.startsWith('official-documents/')
-    ? 'https://documents.beaumontintelligence.com/'
-    : location.href).href;
-  function sourceLink(text, source, page = 1) {
-    const a = node('a', text);
-    const params = new URLSearchParams({url: documentUrl(source), title: `${fy(data.year)} budget`, page, returnUrl: '../budget-annual-history.html?year=' + data.year + '#budget-detail', returnLabel: 'Budget details'});
-    a.href = 'documents/viewer.html?' + params;
-    return a;
-  }
-  function clearReaders() { results.querySelectorAll('.budget-page-reader').forEach(reader=>window.BIPdfReader.clear(reader)); }
-  function render() {
-    if (!data) return;
-    const query = search.value.trim().toLocaleLowerCase().replace(/\s+/g, ' ');
-    const matches = data.documents.flatMap((doc, i) => doc.pages.map(page => ({...page, doc, index:i})))
-      .filter(p => (documentSelect.value === '' || p.index === Number(documentSelect.value)) && (!section.value || (p.sections || [p.section]).includes(section.value)) && (!query || p.text.toLocaleLowerCase().replace(/\s+/g, ' ').includes(query)));
-    status.textContent = `${fy(data.year)} · ${matches.length} matching pages · Showing ${Math.min(limit, matches.length)}`;
-    const cards = matches.slice(0, limit).map((p, i) => {
-      const card = node('details', undefined, 'budget-detail-page');
-      card.open = i === 0;
-      const summary = node('summary');
-      summary.append(node('strong', p.section), node('span', `${p.doc.title} · PDF page ${p.page}`));
-      const actions = node('p'); actions.append(sourceLink('Open page in viewer', p.doc.source, p.page));
-      const reader = node('div', undefined, 'budget-page-reader');
-      let opened = false;
-      card.addEventListener('toggle', () => {
-        if (card.open && !opened) {opened = true; window.BIPdfReader.open(reader, documentUrl(p.doc.source), p.doc.title, {startPage:p.page, endPage:p.page});}
-        if (!card.open && opened) {window.BIPdfReader.clear(reader);opened = false;}
+  const fiscalYear = value => `FY ${Number(value) - 1}–${value.slice(-2)}`;
+  let catalog;
+
+  function showYear() {
+    const selected = year.value;
+    const label = fiscalYear(selected);
+    const { reports, externalSource } = catalog[selected];
+    title.textContent = `${label} budget PDFs`;
+    results.replaceChildren();
+    status.textContent = reports.length === 1
+      ? 'The full budget book contains the available fund detail for this year.'
+      : reports.length ? '' : 'The City source is available for this year.';
+    for (const report of reports) {
+      const base = report.source.startsWith('official-documents/')
+        ? 'https://documents.beaumontintelligence.com/'
+        : location.href;
+      const params = new URLSearchParams({
+        url: new URL(report.source, base).href,
+        title: `${label} ${report.title}`,
+        returnUrl: `../budget-annual-history.html?year=${selected}#budget-detail`,
+        returnLabel: 'Budget History',
       });
-      const extracted = node('details', undefined, 'budget-extracted-text');
-      extracted.append(node('summary','Searchable text (check original for table columns)'));
-      const text = node('pre', p.text.replace(/[^\S\n]+/g, ' ') || 'This page contains graphics or scanned content. Use the original page to read it.');
-      text.tabIndex = 0; text.setAttribute('aria-label', `${p.section}, page ${p.page}; scroll horizontally for all columns`);
-      extracted.append(text);
-      card.append(summary, actions, reader, extracted);
-      return card;
-    });
-    clearReaders(); results.replaceChildren(...cards);
-    if (!matches.length) results.append(node('p', data.documents.length ? 'No pages match. Try another department, account number, or search term.' : 'Searchable detail is not yet available for this year. Use the City source above.'));
-    more.hidden = matches.length <= limit;
-  }
-  function updateSections() {
-    const documents = data.documents.filter((_,i)=>documentSelect.value === '' || i === Number(documentSelect.value));
-    const sections = [...new Set(documents.flatMap(doc=>doc.pages.flatMap(p=>p.sections || [p.section])))];
-    section.replaceChildren(option('', 'All sections'), ...sections.map(s=>option(s,s)));
-    limit = 8; render();
-  }
-  async function loadYear() {
-    const token = ++request;
-    data = null;
-    clearReaders(); results.replaceChildren(); status.textContent = `Loading ${fy(Number(year.value))} details…`;
-    documentSelect.disabled = section.disabled = search.disabled = true;
-    more.hidden = true;
-    document.getElementById('budget-detail-sources').replaceChildren();
-    document.getElementById('budget-detail-note').textContent = '';
-    const url = new URL(location.href); url.searchParams.set('year',year.value); history.replaceState(null,'',url);
-    try {
-      let loaded = cache.get(year.value);
-      if (!loaded) {
-        const response = await fetch(`budget-details/${year.value}.json?v=20261122`);
-        if (!response.ok) throw Error('Could not load budget details');
-        loaded = await response.json(); cache.set(year.value, loaded);
-      }
-      if (token !== request) return;
-      data = loaded;
-      documentSelect.replaceChildren(option('', 'All documents'), ...data.documents.map((d,i)=>option(i,d.title)));
-      document.getElementById('budget-detail-title').textContent = `${fy(data.year)} budget details`;
-      document.getElementById('budget-detail-note').textContent = data.notice || 'Search the adopted budget book by department, fund, service, or account. Extracted text may omit graphics or alter table spacing. Check the original page when citing figures.';
-      const sources = document.getElementById('budget-detail-sources');
-      const book = data.book || (data.documents.length===1 && data.documents[0].source);
-      if (book) sources.append(sourceLink('Open full budget book', book));
-      if (data.externalSource) { const a=node('a','Open City budget source'); a.href=data.externalSource; sources.append(a); }
-      documentSelect.disabled = section.disabled = search.disabled = !data.documents.length;
-      search.value = ''; updateSections();
-      const summaryYear = document.getElementById('budget-year');
-      if ([...summaryYear.options].some(o=>o.value===year.value) && summaryYear.value!==year.value) {summaryYear.value=year.value; summaryYear.dispatchEvent(new Event('change'));}
-    } catch {
-      if(token !== request) return;
-      status.textContent = 'Budget details could not be loaded. Please retry.';
-      const retry=node('button','Retry');retry.type='button';retry.addEventListener('click',loadYear);results.append(retry);
+      const link = document.createElement('a');
+      link.className = 'btn';
+      link.href = 'documents/viewer.html?' + params;
+      link.textContent = report.title;
+      results.append(link);
+    }
+    if (externalSource) {
+      const link = document.createElement('a');
+      link.className = 'text-link';
+      link.href = externalSource;
+      link.textContent = 'Open City budget source';
+      results.append(link);
+    }
+
+    const url = new URL(location.href);
+    url.searchParams.set('year', selected);
+    history.replaceState(null, '', url);
+    if (summaryYear.value !== selected && Array.from(summaryYear.options).some(option => option.value === selected)) {
+      summaryYear.value = selected;
+      summaryYear.dispatchEvent(new Event('change'));
     }
   }
-  year.replaceChildren(...Array.from({length:7},(_,i)=>2027-i).map(y=>option(y,fy(y))));
-  const requested = new URLSearchParams(location.search).get('year');
-  year.value = [...year.options].some(o=>o.value===requested) ? requested : '2027';
-  year.addEventListener('change',loadYear);
-  documentSelect.addEventListener('change',updateSections);
-  section.addEventListener('change',()=>{limit=8;render();});
-  search.addEventListener('input',()=>{limit=8;render();});
-  more.addEventListener('click',()=>{limit+=8;render();});
-  document.getElementById('budget-year').addEventListener('change',event=>{if(year.value!==event.target.value){year.value=event.target.value;loadYear();}});
-  loadYear();
+
+  async function load() {
+    year.disabled = true;
+    results.replaceChildren();
+    status.textContent = 'Loading budget PDFs…';
+    try {
+      const response = await fetch('budget-details/history-reports.json');
+      if (!response.ok) throw new Error('Budget PDF catalog unavailable');
+      catalog = await response.json();
+      year.replaceChildren(...Object.keys(catalog).reverse().map(value => new Option(fiscalYear(value), value)));
+      const requested = new URLSearchParams(location.search).get('year');
+      if (Object.hasOwn(catalog, requested)) year.value = requested;
+      year.disabled = false;
+      showYear();
+    } catch {
+      status.textContent = 'Budget PDFs could not be loaded.';
+      const retry = document.createElement('button');
+      retry.type = 'button';
+      retry.className = 'btn';
+      retry.textContent = 'Retry';
+      retry.addEventListener('click', load);
+      results.append(retry);
+    }
+  }
+
+  year.addEventListener('change', showYear);
+  summaryYear.addEventListener('change', () => {
+    if (catalog && summaryYear.value !== year.value && Object.hasOwn(catalog, summaryYear.value)) {
+      year.value = summaryYear.value;
+      showYear();
+    }
+  });
+  load();
 })();

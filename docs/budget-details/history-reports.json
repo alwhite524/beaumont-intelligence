@@ -1,0 +1,74 @@
+{
+  "2021": {
+    "reports": [
+      {
+        "title": "Full budget book",
+        "source": "budgets/city-of-beaumont-fy2020-21-adopted-budget.pdf"
+      }
+    ]
+  },
+  "2022": {
+    "reports": [
+      {
+        "title": "Full budget book",
+        "source": "budgets/city-of-beaumont-fy2021-22-adopted-budget.pdf"
+      }
+    ]
+  },
+  "2023": {
+    "reports": [
+      {
+        "title": "Full budget book",
+        "source": "budgets/city-of-beaumont-fy2022-23-adopted-budget.pdf"
+      }
+    ]
+  },
+  "2024": {
+    "reports": [
+      {
+        "title": "Full budget book",
+        "source": "budgets/city-of-beaumont-fy2023-24-adopted-budget.pdf"
+      }
+    ]
+  },
+  "2025": {
+    "reports": [],
+    "externalSource": "https://pub-beaumont.escribemeetings.com/filestream.ashx?DocumentId=4367"
+  },
+  "2026": {
+    "reports": [
+      {
+        "title": "General Fund",
+        "source": "budgets/city-of-beaumont-fy2025-26-general-fund-budget-detail.pdf"
+      },
+      {
+        "title": "Wastewater Fund",
+        "source": "official-documents/2025-06-03/item-i-1-08.pdf"
+      },
+      {
+        "title": "Transit Fund",
+        "source": "official-documents/2025-06-03/item-i-1-09.pdf"
+      }
+    ]
+  },
+  "2027": {
+    "reports": [
+      {
+        "title": "General Fund",
+        "source": "budgets/city-of-beaumont-fy2026-27-general-fund-budget-detail.pdf"
+      },
+      {
+        "title": "Wastewater Fund",
+        "source": "official-documents/2026-06-16/i-1-attachment-f-budget-detail-report-wastewater-fund.pdf"
+      },
+      {
+        "title": "Transit Fund",
+        "source": "official-documents/2026-06-16/i-1-attachment-g-budget-detail-report-transit.pdf"
+      },
+      {
+        "title": "Full budget book",
+        "source": "official-documents/2026-09-15/g-13-attachment-b-fy2026-2027-budget-book-final.pdf"
+      }
+    ]
+  }
+}
