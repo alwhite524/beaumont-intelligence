@@ -84,17 +84,31 @@
     ],
     "comparison": {
       "latestLabel": "Final budget",
-      "note": "Original and final budget totals from the General Fund budgetary comparison schedule. Comparable Wastewater and Transit totals have not been verified for this year.",
+      "note": "Figures come from the General Fund budgetary comparison schedule. Budget change is final minus original. Actual − final uses the same calculation for every row, so spending below budget is negative. Transfers out are shown as outflows. Comparable Wastewater and Transit figures have not been verified.",
       "rows": [
         {
           "label": "General Fund revenues",
           "original": 59571736,
-          "latest": 60016736
+          "latest": 60016736,
+          "actual": 64067746
         },
         {
           "label": "General Fund expenditures",
           "original": 62227724,
-          "latest": 60857023
+          "latest": 60857023,
+          "actual": 51343509
+        },
+        {
+          "label": "General Fund transfers in",
+          "original": 8218067,
+          "latest": 8281367,
+          "actual": 7390919
+        },
+        {
+          "label": "General Fund transfers out",
+          "original": -5562079,
+          "latest": -15066312,
+          "actual": -14604940
         }
       ]
     }
@@ -109,17 +123,31 @@
     ],
     "comparison": {
       "latestLabel": "Final budget",
-      "note": "Original and final budget totals from the General Fund budgetary comparison schedule. Comparable Wastewater and Transit totals have not been verified for this year.",
+      "note": "Figures come from the General Fund budgetary comparison schedule. Budget change is final minus original. Actual − final uses the same calculation for every row, so spending below budget is negative. Transfers out are shown as outflows. Comparable Wastewater and Transit figures have not been verified.",
       "rows": [
         {
           "label": "General Fund revenues",
           "original": 60853879,
-          "latest": 62223994
+          "latest": 62223994,
+          "actual": 72793485
         },
         {
           "label": "General Fund expenditures",
           "original": 60807173,
-          "latest": 64573596
+          "latest": 64573596,
+          "actual": 57068379
+        },
+        {
+          "label": "General Fund transfers in",
+          "original": 7263776,
+          "latest": 7341076,
+          "actual": 7028831
+        },
+        {
+          "label": "General Fund transfers out",
+          "original": -5927743,
+          "latest": -18412743,
+          "actual": -18389656
         }
       ]
     }

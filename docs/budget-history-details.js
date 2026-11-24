@@ -8,36 +8,59 @@
   const comparisonPanel = document.getElementById('budget-detail-comparison');
   const status = document.getElementById('budget-detail-status');
   const fiscalYear = value => `FY ${Number(value) - 1}–${value.slice(-2)}`;
+  const money = new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD', maximumFractionDigits: 0 });
+  const change = amount => (amount > 0 ? '+' : '') + money.format(amount);
   let catalog;
 
-  function showComparison(comparison) {
-    comparisonPanel.replaceChildren();
-    if (!comparison) return;
+  function comparisonTable(caption, labels, rows) {
     const table = document.createElement('table');
     table.className = 'finance-table';
-    table.createCaption().textContent = 'Original and revised budget totals';
+    table.createCaption().textContent = caption;
     const heading = table.createTHead().insertRow();
-    for (const label of ['Fund and category', 'Original budget', comparison.latestLabel, 'Change']) {
+    for (const label of ['Fund and category', ...labels]) {
       const cell = document.createElement('th');
       cell.scope = 'col';
       cell.textContent = label;
       heading.append(cell);
     }
-    const money = new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD', maximumFractionDigits: 0 });
     const body = table.createTBody();
-    for (const row of comparison.rows) {
+    for (const [label, ...values] of rows) {
       const tr = body.insertRow();
       const name = document.createElement('th');
       name.scope = 'row';
-      name.textContent = row.label;
+      name.textContent = label;
       tr.append(name);
-      [row.original, row.latest, row.latest - row.original].forEach((amount, index) => {
+      values.forEach((value, index) => {
         const cell = tr.insertCell();
-        cell.dataset.label = ['Original budget', comparison.latestLabel, 'Change'][index];
-        cell.textContent = index === 2 && amount > 0 ? '+' + money.format(amount) : money.format(amount);
+        cell.dataset.label = labels[index];
+        cell.textContent = value;
       });
     }
-    comparisonPanel.append(table);
+    return table;
+  }
+
+  function showComparison(comparison) {
+    comparisonPanel.replaceChildren();
+    if (!comparison) return;
+    const hasActuals = comparison.rows.every(row => Number.isFinite(row.actual));
+    const labels = ['Original budget', comparison.latestLabel, 'Budget change'];
+    if (hasActuals) labels.push('Reported actual', 'Actual − final');
+    const rows = comparison.rows.map(row => {
+      const values = [row.label, money.format(row.original), money.format(row.latest), change(row.latest - row.original)];
+      if (hasActuals) values.push(money.format(row.actual), change(row.actual - row.latest));
+      return values;
+    });
+    comparisonPanel.append(comparisonTable('Original and revised budget totals', labels, rows));
+    if (!hasActuals || !['2024', '2025'].includes(year.value)) return;
+
+    const prior = catalog['2024'].comparison.rows;
+    const recent = catalog['2025'].comparison.rows;
+    const trend = recent.map(row => {
+      const earlier = prior.find(item => item.label === row.label);
+      return [row.label, money.format(earlier.actual), money.format(row.actual), change(row.actual - earlier.actual)];
+    });
+    comparisonPanel.append(comparisonTable('General Fund actuals year over year',
+      ['FY 2023–24 actual', 'FY 2024–25 actual', 'Year-over-year change'], trend));
   }
 
   function showYear() {
@@ -89,7 +112,7 @@
     results.replaceChildren();
     status.textContent = 'Loading budget PDFs…';
     try {
-      const response = await fetch('budget-details/history-reports.json?v=20261124-comparisons');
+      const response = await fetch('budget-details/history-reports.json?v=20261124-two-year-pilot');
       if (!response.ok) throw new Error('Budget PDF catalog unavailable');
       catalog = await response.json();
       year.replaceChildren(...Object.keys(catalog).reverse().map(value => new Option(fiscalYear(value), value)));
