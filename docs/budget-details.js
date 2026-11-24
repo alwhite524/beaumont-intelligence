@@ -112,7 +112,10 @@
     controls.forEach(c=>c.disabled=true);status.textContent='Loading FY 2026–2027 budget accounts…';more.hidden=true;
     try{
       const response=await fetch('budget-details/2027-table.json?v=20261122-table');if(!response.ok)throw Error('Unavailable');data=await response.json();
-      fund.replaceChildren(new Option('All funds',''),...[...new Set(data.rows.map(r=>r.fund))].sort().map(v=>new Option(v,v)));
+      const generalFund='100 - GENERAL FUND';
+      const funds=[...new Set(data.rows.map(r=>r.fund))].sort();
+      fund.replaceChildren(new Option('All funds',''),...funds.map(value=>new Option(value===generalFund?'100 - General Fund':value,value)));
+      if(funds.includes(generalFund)) fund.value=generalFund;
       sort.replaceChildren(...columns.map(([key,label])=>new Option(label,key)));sort.value='account';
       let saved={};
       try {
