@@ -15,8 +15,9 @@
     const url = new URL(button.dataset.document);
     let fallback = dialog.querySelector('a');
     if (!fallback) { fallback = document.createElement('a'); fallback.textContent = 'Open official record in a new tab'; fallback.target = '_blank'; fallback.rel = 'noopener'; dialog.insertBefore(fallback, frame); }
-    fallback.href = url.href;
-    frame.src = url.hostname === 'portal.laserfiche.com' ? url.href : `../documents/viewer.html?url=${encodeURIComponent(url.href)}`;
+    const source = url.hostname === 'portal.laserfiche.com' ? url.href : `../documents/viewer.html?url=${encodeURIComponent(url.href)}`;
+    fallback.href = source;
+    frame.src = source;
     dialog.showModal();
   });
   document.querySelector('#viewer-close').addEventListener('click', () => dialog.close());

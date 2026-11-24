@@ -9,6 +9,10 @@
 <title>Official Document Viewer | Beaumont Intelligence</title>
 
 <link rel="stylesheet" href="../styles.css?v=20261017-title8">
+<style>
+  .word-minutes { max-width: 850px; margin: 0 auto; padding: clamp(16px, 4vw, 48px); background: white; color: var(--ink); }
+  .word-minutes-text { white-space: pre-wrap; overflow-wrap: anywhere; }
+</style>
 
 </head>
 
@@ -45,7 +49,7 @@ Loading document summary...
     <button class="inline-pdf-close" id="pdf-back" type="button" aria-label="Back to interactive agenda" title="Back to interactive agenda"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="m11 8-4 4 4 4M7 12h10"/></svg></button>
     <div><h2 id="pdf-heading">Loading document…</h2></div>
   </div>
-  <div id="pdf-viewer" class="pdf-page-stack" role="document" aria-label="Official document PDF"></div>
+  <div id="pdf-viewer" class="pdf-page-stack" role="document" aria-label="Official document"></div>
   <nav id="viewer-attachments" class="viewer-attachments" aria-label="Other attachments" hidden></nav>
 </section>
 
@@ -60,8 +64,8 @@ No documents available.
 </main>
 
 <script src="document-data.js?v=20260829a"></script>
-<script src="pdf-reader.js?v=20261123-first-page"></script>
-<script src="viewer.js?v=20261017-title8"></script>
+<script src="pdf-reader.js?v=20261123-archive-viewer"></script>
+<script src="viewer.js?v=20261123-archive-viewer"></script>
 
 </body>
 

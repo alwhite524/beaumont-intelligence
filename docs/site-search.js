@@ -298,17 +298,21 @@
       return;
     }
 
-    results.innerHTML = matches.slice(0, 60).map(item => `
+    results.innerHTML = matches.slice(0, 60).map(item => {
+      const archived = /^(?:https:\/\/documents\.beaumontintelligence\.com\/|(?:\.\.\/)?(?:official-documents|minutes|audits|budgets)\/)[^?#]+\.(?:pdf|docx)(?:[?#]|$)/i.test(item.url);
+      const href = archived ? `documents/viewer.html?url=${encodeURIComponent(item.url.startsWith('https://') || item.url.startsWith('../') ? item.url : '../' + item.url)}&title=${encodeURIComponent(item.title)}` : item.url;
+      return `
       <article class="search-result-card">
         <div class="search-result-meta">
           <span>${esc(item.category)}</span>
           ${item._matchType === 'related' ? '<span>Related term</span>' : ''}
         </div>
-        <h3><a href="${esc(item.url)}">${esc(item.title)}</a></h3>
+        <h3><a href="${esc(href)}">${esc(item.title)}</a></h3>
         <p>${esc(item.description || 'Open this Beaumont Intelligence record.')}</p>
-        <a class="text-link" href="${esc(item.url)}">Open result →</a>
+        <a class="text-link" href="${esc(href)}">Open result →</a>
       </article>
-    `).join('');
+    `;
+    }).join('');
   }
 
   form?.addEventListener('submit', event => {

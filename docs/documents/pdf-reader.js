@@ -32,7 +32,12 @@
     original.target = '_blank';
     original.rel = 'noopener';
     original.textContent = 'Open PDF in a new tab ↗';
-    controls.append(readerTitle, pageCounter, original);
+    original.hidden = true;
+    const archived = !/^[a-z][a-z\d+.-]*:/i.test(url) ||
+      /^https:\/\/documents\.beaumontintelligence\.com\//i.test(url) ||
+      url.startsWith(`${window.location?.origin}/`);
+    controls.append(readerTitle, pageCounter);
+    if (!archived) controls.append(original);
     const status = document.createElement('p');
     status.className = 'pdf-reader-status';
     status.setAttribute('role', 'status');
@@ -43,7 +48,10 @@
     container.setAttribute('aria-busy', 'true');
     const fail = error => {
       if (session.closed) return;
-      status.textContent = 'Inline viewing is unavailable. Use “Open PDF in a new tab” to read or save the document.';
+      status.textContent = archived
+        ? 'The archived PDF could not be displayed. Reload this page to try again.'
+        : 'Inline viewing is unavailable. Use “Open PDF in a new tab” to open the source.';
+      if (!archived) original.hidden = false;
       status.hidden = false;
       pageCounter.textContent = 'Unavailable';
       container.removeAttribute('aria-busy');

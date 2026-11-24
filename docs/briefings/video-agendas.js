@@ -17,8 +17,9 @@
     const source=button.dataset.documentUrl||config.minutesUrl;
     const query=new URLSearchParams({url:source,title:button.dataset.title,returnUrl:new URL(config.date+'-sources.html',location.href).href,returnLabel:'Back to interactive agenda'});
     if(button.dataset.minutesPage)query.set('page',button.dataset.minutesPage);
-    const original=document.querySelector('#viewer-original');if(original){original.href=source;original.textContent=button.dataset.documentUrl?'Open original PDF ↗':'Open original minutes PDF ↗';}
-    frame.src='../documents/viewer.html?'+query;
+    const destination='../documents/viewer.html?'+query;
+    const original=document.querySelector('#viewer-original');if(original){original.href=destination;original.textContent='Open viewer in a new tab ↗';}
+    frame.src=destination;
     dialog.showModal();
   });
   document.querySelector('#viewer-close').addEventListener('click',()=>dialog.close());

@@ -38,10 +38,46 @@
       image.loading = index ? 'lazy' : 'eager'; pdfViewer.appendChild(image);
     });
   };
-  const requestedPage = Math.max(1, Number.parseInt(params.get("page") || "1", 10) || 1);
-  const renderPdf = (url, documentTitle) => window.BIPdfReader.open(
-    pdfViewer, url, documentTitle, { startPage: requestedPage }
-  );
+  const requestedPage = url => Math.max(1, Number.parseInt(
+    new URLSearchParams(window.location.search).get("page") || new URL(url, window.location.href).hash.match(/^#page=(\d+)/i)?.[1] || "1", 10
+  ) || 1);
+  const renderPdf = (url, documentTitle) => {
+    const source = new URL(url, window.location.href);
+    source.hash = '';
+    return window.BIPdfReader.open(pdfViewer, source.href, documentTitle, { startPage: requestedPage(url) });
+  };
+  const renderStandaloneDocument = async (url, documentTitle) => {
+    const parsed = new URL(url);
+    if (!/\.docx$/i.test(parsed.pathname)) {
+      renderPdf(url, documentTitle);
+      return;
+    }
+    clearPdf();
+    const status = document.createElement("p");
+    status.setAttribute("role", "status");
+    status.textContent = "Loading minutes…";
+    pdfViewer.append(status);
+    try {
+      const response = await fetch("word-minutes.json");
+      if (!response.ok) throw new Error("Minutes index unavailable");
+      const minutes = await response.json();
+      const record = minutes.find(item => new URL(item.url, window.location.href).href === parsed.href);
+      if (!record?.text.trim()) throw new Error("Minutes text unavailable");
+      if (activeStandaloneUrl !== url) return;
+      const article = document.createElement("article");
+      article.className = "word-minutes";
+      const note = document.createElement("p");
+      note.className = "source-note";
+      note.textContent = "Text from the archived Word minutes.";
+      const body = document.createElement("div");
+      body.className = "word-minutes-text";
+      body.textContent = record.text;
+      article.append(note, body);
+      pdfViewer.replaceChildren(article);
+    } catch {
+      if (activeStandaloneUrl === url) status.textContent = "The archived minutes text is unavailable.";
+    }
+  };
 
   const resetAttachmentFooter = () => {
     const label = document.createElement('strong');
@@ -193,20 +229,22 @@
   const renderStandalone = (url, suppliedTitle = null, updateHistory = false) => {
     let filename = suppliedTitle || params.get("title") || "Official document";
     try {
-      const parsedUrl = new URL(url);
+      const parsedUrl = new URL(url, window.location.href);
       const trustedHosts = new Set([
         "documents.beaumontintelligence.com",
         "pub-beaumont.escribemeetings.com",
         "beaumontca.gov",
         "www.beaumontca.gov",
       ]);
-      if (parsedUrl.protocol !== "https:" || !trustedHosts.has(parsedUrl.hostname)) {
+      const localDocument = parsedUrl.origin === window.location.origin && /\.(pdf|docx)$/i.test(parsedUrl.pathname);
+      if (!localDocument && (parsedUrl.protocol !== "https:" || !trustedHosts.has(parsedUrl.hostname))) {
         throw new Error("Unsupported document host");
       }
       const pathName = decodeURIComponent(parsedUrl.pathname.split("/").pop() || "");
       if (!params.get("title") && pathName && !/filestream\.ashx$/i.test(pathName)) {
-        filename = pathName.replace(/\.pdf$/i, "").replace(/[-_]+/g, " ");
+        filename = pathName.replace(/\.(pdf|docx)$/i, "").replace(/[-_]+/g, " ");
       }
+      url = parsedUrl.href;
     } catch {
       renderDocument();
       return;
@@ -233,19 +271,13 @@
     viewLink.dataset.documentTitle = filename;
     viewLink.textContent = "Reopen in viewer →";
     actionsParagraph.appendChild(viewLink);
-    actionsParagraph.append(" · ");
-    const downloadLink = document.createElement("a");
-    downloadLink.href = url;
-    downloadLink.download = "";
-    downloadLink.textContent = "Download PDF →";
-    actionsParagraph.appendChild(downloadLink);
     attachments.appendChild(actionsParagraph);
     resetAttachmentFooter();
     viewerAttachments.hidden = false;
     pdfPanel.hidden = false;
     pdfHeading.textContent = filename;
-    pdfViewer.setAttribute("aria-label", `${filename} PDF`);
-    renderPdf(url, filename);
+    pdfViewer.setAttribute("aria-label", filename);
+    renderStandaloneDocument(url, filename);
     relatedSources(url).then(otherDocuments => {
       if (activeStandaloneUrl !== url) return;
       resetAttachmentFooter();
@@ -276,7 +308,7 @@
     if (standaloneLink) {
       event.preventDefault();
       pdfPanel.hidden = false;
-      renderPdf(
+      renderStandaloneDocument(
         standaloneLink.dataset.standaloneUrl,
         standaloneLink.dataset.documentTitle || "Official document"
       );

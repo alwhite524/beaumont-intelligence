@@ -23,6 +23,7 @@ scripts = [
     "build_service_area_actions.py",
     "build_2015_11_03_agenda.py",
     "build_research_library_index.py",
+    "route_archived_documents.py",
     "validate_database.py",
 ]
 for script in scripts:

@@ -64,5 +64,5 @@ test('shared document control opens an attachment in the same modal and updates 
   vm.runInNewContext(read('docs/briefings/video-agendas.js'),{document:{querySelector:s=>els[s],querySelectorAll:()=>[],addEventListener(n,f){events[n]=f;},getElementById:()=>null},window:{addEventListener(){}},location:{href:'https://beaumontintelligence.com/briefings/2025-03-04-sources.html',hash:''},URL,URLSearchParams});
   const d=load('2025-03-04').documents.find(r=>r.item==='J.5');
   events.click({target:{closest:selector=>selector==='[data-document-url]'?{dataset:{documentUrl:d.archiveUrl,title:d.title}}:null}});
-  const query=new URLSearchParams(els['#viewer-frame'].src.split('?')[1]);assert.equal(query.get('url'),d.archiveUrl);assert.equal(query.has('page'),false);assert.equal(els['#viewer-original'].href,d.archiveUrl);assert.equal(els['#viewer-dialog'].open,true);
+  const query=new URLSearchParams(els['#viewer-frame'].src.split('?')[1]);assert.equal(query.get('url'),d.archiveUrl);assert.equal(query.has('page'),false);assert.equal(els['#viewer-original'].href,els['#viewer-frame'].src);assert.equal(els['#viewer-dialog'].open,true);
 });

@@ -37,7 +37,7 @@ def build(meeting_only=False):
                f'<p>{escape(minutes["session"])} {escape(minutes["closedSession"])}</p>'
                f'<p class="source-note"><strong>Dais handout verification ({escape(handouts["reportedOn"])}).</strong> {escape(handouts["summary"])}</p>'
                '<div class="status-actions">'
-               f'<a class="btn" href="{minutes_href}">Download supplied minutes (Word)</a>'
+               f'<a class="btn" href="{minutes_href}">View supplied minutes</a>'
                f'<a class="btn secondary" href="{transcript}">Read and search the transcript</a></div>'
                '<iframe style="display:block;width:100%;aspect-ratio:16/9;border:0" src="https://www.youtube-nocookie.com/embed/UVsGQHIcdkA" '
                'title="October 20, 2026 Beaumont City Council meeting" loading="lazy" allow="accelerometer; autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>'
