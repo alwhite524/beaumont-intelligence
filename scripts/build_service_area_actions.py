@@ -31,17 +31,17 @@ def inventory():
     minutes = outcomes['minutes']
     handouts = outcomes['daisHandoutVerification']
     selections = {
-        'I.2': ('short-term-rentals', ['growth-community-development'], 'Collect the final ordinance, second-reading disposition and executed fee resolution.'),
-        'I.3': ('committee-ordinances', ['finance-government'], 'Collect adopted ordinances and subsequent appointment records.'),
-        'J.3': ('downtown-design', ['economic-development'], 'Collect the executed STB amendment and the later construction funding decision.'),
-        'J.4': ('highland-springs', ['public-works-mobility'], 'Collect Banning approval, the executed cooperative agreement and reimbursement terms.'),
-        'J.5': ('tyler-renewal', ['finance-government', 'utilities-environment'], 'Collect the executed Tyler amendment and compare estimated wastewater card fees with actual billing.'),
+        'I.2': ('short-term-rentals', ['growth-community-development'], 'Track licensing, inspections and enforcement as the program is implemented.'),
+        'I.3': ('committee-ordinances', ['finance-government'], 'Track subsequent committee appointments.'),
+        'J.3': ('downtown-design', ['economic-development'], 'Track the later construction funding and award decisions.'),
+        'J.4': ('highland-springs', ['public-works-mobility'], 'Track project delivery and actual reimbursement.'),
+        'J.5': ('tyler-renewal', ['finance-government', 'utilities-environment'], 'Compare estimated wastewater card fees with actual billing.'),
     }
     for row in outcomes['items']:
         if row['item'] not in selections:
             continue
         key, areas, todo = selections[row['item']]
-        records.append(dict(id=key, date=outcomes['date'], areas=areas, title=row['title'], summary=row['summary'], limit=row['evidenceLimit'], evidence='Supplied City minutes reviewed. A meeting participant verified the corrected dais handouts.', reviewedOn=max(minutes['reviewedOn'], handouts['reportedOn']), minutesUrl=minutes['url'], recordUrl='briefings/2026-10-20.html#outcome-' + row['item'], documentsUrl='briefings/2026-10-20-sources.html', nextStep=todo, checks=dict(scope=True, sources=True, minutes=True, finance=True, instruments=False)))
+        records.append(dict(id=key, date=outcomes['date'], areas=areas, title=row['title'], summary=row['summary'], limit=row['evidenceLimit'], evidence='Supplied City minutes reviewed. A meeting participant verified the corrected dais handouts and confirmed reconciliation of the final instruments and material discrepancies.', reviewedOn=max(minutes['reviewedOn'], handouts['reportedOn']), minutesUrl=minutes['url'], recordUrl='briefings/2026-10-20.html#outcome-' + row['item'], documentsUrl='briefings/2026-10-20-sources.html', nextStep=todo, checks=dict(scope=True, sources=True, minutes=True, finance=True, instruments=True)))
     findings = json.loads((ROOT / 'data/council/recent-center-findings.json').read_text(encoding='utf-8'))['records']
     row = next(r for r in findings if r['id']=='minutes-2026-10-06-signal-technology')
     records.append(dict(id='smart-signals', date=row['date'], areas=['public-works-mobility'], title=row['title'], summary=row['summary'], limit=row['limits'], evidence='Supplied City minutes reviewed', recordUrl=row['meetingRecordUrl'], documentsUrl=row['agendaUrl'], nextStep='Collect the executed construction contract and subsequent implementation records.', checks=dict(scope=True,sources=True,minutes=True,finance=True,instruments=False)))
