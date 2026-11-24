@@ -70,14 +70,17 @@ def main():
         row.setdefault('reviewedOn', ORIGINAL_REVIEW_DATE)
     review_date = max(row['reviewedOn'] for row in records)
     review_label = datetime.fromisoformat(review_date).strftime('%B %d, %Y')
-    data = dict(reviewedOn=review_date, scope='Nine selected August–October 2026 actions; not a complete Council or service inventory.', criteria=CRITERIA, records=records)
+    records = [row for row in records if not all(row['checks'][key] for key in CRITERIA)]
+    active_areas = {key: label for key, label in AREAS.items() if any(key in row['areas'] for row in records)}
+    scope = 'Selected Council actions with research checks still open.'
+    data = dict(reviewedOn=review_date, scope=scope, criteria=CRITERIA, records=records)
     (ROOT/'data/service-area-actions.json').write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     esc = html.escape
-    intro = f'''<section class="section compact"><div class="wrap"><div class="eyebrow">Updated {review_label}</div><h1>Service-area actions and research completion</h1><p class="lead-copy">Follow selected Council decisions by civic service, with dated research checks and the next records needed.</p><p>This initial register covers nine selected August–October 2026 actions. It is not a complete inventory of Council decisions or service performance. Scores describe research readiness for each action, not construction progress, factual certainty or permission to publish.</p><nav aria-label="Service areas">'''
-    intro += ' · '.join(f'<a href="#{key}">{esc(label)}</a>' for key,label in AREAS.items()) + '</nav></div></section>'
-    rubric = '<section class="section compact alt" id="scoring-method"><div class="wrap"><h2>How the dated score works</h2><p>Each completed check earns 20 points; incomplete or unverified checks earn zero. Score = completed checks ÷ 5 × 100. A source route earns discovery credit without certifying every attachment. Minutes credit requires a minutes-based review. The final-instrument check requires both reconciliation of material discrepancies and review of the applicable final agreements, ordinances or resolutions. Each score reflects the evidence available on its review date.</p><ol>' + ''.join('<li>'+esc(v)+'</li>' for v in CRITERIA.values()) + '</ol><p>A 100% checklist would complete this bounded action review only. Payments, delivery and service outcomes require their own evidence. Cross-listed actions retain one score and count once in the nine-action total; area totals overlap.</p></div></section>'
+    intro = f'''<section class="section compact"><div class="wrap"><div class="eyebrow">Updated {review_label}</div><h1>Service-area actions and research completion</h1><p class="lead-copy">Follow selected Council decisions by civic service, with dated research checks and the next records needed.</p><p>{scope}</p><nav aria-label="Service areas">'''
+    intro += ' · '.join(f'<a href="#{key}">{esc(label)}</a>' for key,label in active_areas.items()) + '</nav></div></section>'
+    rubric = '<section class="section compact alt" id="scoring-method"><div class="wrap"><h2>How the dated score works</h2><p>Each completed check earns 20 points; incomplete or unverified checks earn zero. Score = completed checks ÷ 5 × 100. A source route earns discovery credit without certifying every attachment. Minutes credit requires a minutes-based review. The final-instrument check requires both reconciliation of material discrepancies and review of the applicable final agreements, ordinances or resolutions. Each score reflects the evidence available on its review date.</p><ol>' + ''.join('<li>'+esc(v)+'</li>' for v in CRITERIA.values()) + '</ol><p>A 100% checklist would complete this bounded action review only. Payments, delivery and service outcomes require their own evidence. Cross-listed actions retain one score and count once in the register total.</p></div></section>'
     sections = []
-    for area,label in AREAS.items():
+    for area,label in active_areas.items():
         rows = [r for r in records if area in r['areas']]
         cards=[]
         for r in rows:
@@ -86,25 +89,27 @@ def main():
             minutes_link = f' · <a href="{esc(r["minutesUrl"])}">Supplied minutes (Word) →</a>' if r.get('minutesUrl') else ''
             cards.append(f'<article class="story-card" id="{area}-{r["id"]}"><div class="eyebrow">{r["date"]} · Reviewed {r["reviewedOn"]}</div><h3>{esc(r["title"])}</h3><p><strong>Research completion: {score}% · {sum(r["checks"].values())}/5 checks</strong></p><p>{esc(r["summary"])}</p><p><strong>Evidence:</strong> {esc(r["evidence"])}</p><p><strong>Limit:</strong> {esc(r["limit"])}</p><details><summary>Scoring evidence and open checks</summary><ul>{checks}</ul></details><p><strong>Next records:</strong> {esc(r["nextStep"])}</p><a href="{esc(r["recordUrl"])}">Decision record →</a> · <a href="{esc(r["documentsUrl"])}">Agenda and supporting documents →</a>{minutes_link}</article>')
         sections.append(f'<section class="section compact" id="{area}"><div class="wrap"><h2>{esc(label)}</h2><p>{len(rows)} selected action(s)</p><div class="story-grid">'+''.join(cards)+'</div></div></section>')
+    if not sections:
+        sections.append('<section class="section compact"><div class="wrap"><p>All tracked actions have completed their research checks.</p></div></section>')
     page='<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Service-area Actions and Research Completion | Beaumont Intelligence</title><link rel="stylesheet" href="styles.css"><link rel="icon" href="favicon.png"></head><body><a class="skip-link" href="#main">Skip to content</a><header class="app-header"><div class="wrap header-row"><a class="brand" href="index.html">Beaumont Intelligence</a><nav aria-label="Primary navigation"><a href="intelligence-centers.html">Intelligence Centers</a> · <a href="council-intelligence.html">Council Intelligence</a> · <a href="documents/index.html">Research Library</a></nav></div></header><main id="main">'+intro+rubric+''.join(sections)+'</main><footer class="footer"><div class="wrap"><a href="intelligence-centers.html">Return to service areas</a></div></footer></body></html>'
     (DOCS/'service-area-actions.html').write_text(page+'\n',encoding='utf-8')
     path=DOCS/'intelligence-centers.html'
     text=path.read_text(encoding='utf-8')
-    for area,label in AREAS.items():
+    for area in AREAS:
         marker=f'<!-- service-route-{area}:start -->'
         link=f'<a href="service-area-actions.html#{area}"><span>Recent service-area actions</span><small>Dated research scores and next records →</small></a>'
-        block=marker+link+f'<!-- service-route-{area}:end -->'
+        block=marker+link+f'<!-- service-route-{area}:end -->' if area in active_areas else ''
         if marker in text:
             text=re.sub(rf'{re.escape(marker)}.*?<!-- service-route-{area}:end -->',lambda _:block,text,flags=re.S)
-        else:
+        elif block:
             start=text.index(f'id="{area}"')
             pos=text.index('<div class="center-links">',start)+len('<div class="center-links">')
             text=text[:pos]+block+text[pos:]
     path.write_text(text,encoding='utf-8')
-    banner=f'<section class="section compact alt"><div class="wrap"><h2>Dated service-area action reviews</h2><p>Nine selected actions across seven civic services, updated {review_label}. See research completion checks, decision records and outstanding evidence.</p><a class="text-link" href="service-area-actions.html">Explore actions and completion scoring →</a></div></section>'
+    banner=f'<section class="section compact alt"><div class="wrap"><h2>Dated service-area action reviews</h2><p>{len(records)} actions with open research checks across {len(active_areas)} service areas. Updated {review_label}.</p><a class="text-link" href="service-area-actions.html">Explore actions and completion scoring →</a></div></section>'
     for name in ['index.html','intelligence-centers.html','council-intelligence.html']:
         replace_block(DOCS/name,'service-action-register',banner,'</main>')
-    print('Built nine unique action reviews and seven service-area routes.')
+    print(f'Built {len(records)} open action reviews and {len(active_areas)} service-area routes.')
 
 if __name__=='__main__':
     main()

@@ -37,22 +37,21 @@ test('October outcomes preserve proposals and distinguish first readings and con
   }
 });
 
-test('October 20 reconciliation completes all five scored actions', () => {
+test('the service-area register lists only actions with open research checks', () => {
   const data = JSON.parse(read('data/service-area-actions.json'));
-  const actions = data.records.filter(row => row.date === outcomes.date);
-  assert.ok(data.records.filter(row => row.date !== outcomes.date).every(row => !row.checks.instruments));
-  assert.equal(actions.length, 5);
   const page = read('docs/service-area-actions.html');
-  for (const action of actions) {
-    assert.equal(action.checks.minutes, true);
-    assert.equal(action.checks.instruments, true);
-    assert.match(action.evidence, /verified the corrected dais handouts/);
-    assert.equal(Object.values(action.checks).filter(Boolean).length, 5);
-    assert.equal(action.minutesUrl, outcomes.minutes.url);
+  const directory = read('docs/intelligence-centers.html');
+  assert.equal(data.records.length, 4);
+  assert.doesNotMatch(page, /Research completion: 100%/);
+  for (const action of data.records) {
+    assert.notEqual(action.date, outcomes.date);
+    assert.ok(Object.values(action.checks).includes(false));
     for (const area of action.areas) {
-      const card = page.split(`id="${area}-${action.id}"`)[1].split('</article>')[0];
-      assert.match(card, /Research completion: 100% · 5\/5 checks/);
+      assert.ok(page.includes(`id="${area}-${action.id}"`));
     }
+  }
+  for (const match of directory.matchAll(/href="service-area-actions\.html#([^"]+)"/g)) {
+    assert.ok(page.includes(`id="${match[1]}"`));
   }
 });
 
