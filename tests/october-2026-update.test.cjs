@@ -71,7 +71,11 @@ test('new center findings link to evidence without inventing October 20 minutes'
     const page = read('docs/' + finding.page);
     assert.ok(page.includes(`id="${finding.id}"`), finding.page);
     assert.ok(page.includes(finding.meetingRecordUrl));
-    assert.match(finding.limits, /approved October 20 minutes not yet collected/);
+    if (finding.item === 'J.1') {
+      assert.match(finding.limits, /Supplied October 20 minutes confirm the Phase I authorization/);
+    } else {
+      assert.match(finding.limits, /approved October 20 minutes not yet collected/);
+    }
   }
   assert.equal(outcomes.serviceAreaReview.length, 7);
 });
