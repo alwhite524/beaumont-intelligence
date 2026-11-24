@@ -1165,5 +1165,7 @@
     }
   },
   "outcomeSource": "data/council/2026-10-20-outcomes.json",
-  "transcriptReviewedOn": "2026-10-24"
+  "transcriptReviewedOn": "2026-10-24",
+  "minutesUrl": "official-documents/2026-10-20/council-minutes.docx",
+  "minutesReviewedOn": "2026-11-23"
 }

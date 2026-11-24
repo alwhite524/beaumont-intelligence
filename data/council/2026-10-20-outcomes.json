@@ -4,7 +4,7 @@
   "videoUrl": "https://www.youtube.com/watch?v=UVsGQHIcdkA",
   "videoTitle": "City Council Meeting 10/20/26 | City of Beaumont",
   "durationSeconds": 12668,
-  "evidence": "Complete YouTube automatic English caption track reviewed against the published agenda and pre-meeting document review. Roll-call results are transcript-based; audiovisual playback and approved October 20 minutes have not been independently checked. Captions can misidentify names and numbers. Original pre-meeting recommendations remain preserved.",
+  "evidence": "The October 20 decisions were checked against the supplied City minutes. Video timestamps and discussion details come from the October 24 review of automatic captions. The original agenda recommendations remain available below.",
   "nextMeeting": {
     "date": "2026-11-17",
     "label": "November 17, 2026",
@@ -21,23 +21,26 @@
       "videoSeconds": 5654,
       "summary": "Council approved G.2 through G.15 together after pulling G.1. This includes the October 6 minutes, attorney invoices, conflict-of-interest code update, transit agreement, event waiver, bond releases, executive agreement amendments, engineering position, traffic analysis, street contingency, financial reports, purchase-order report, and Planning Commission report.",
       "vote": "5–0",
-      "evidenceLimit": "This was a grouped consent vote. Receipt of financial reports does not independently verify transactions or establish that authorized funds were spent."
+      "evidenceLimit": "This was a grouped consent vote. Receipt of financial reports does not independently verify transactions or establish that authorized funds were spent.",
+      "minutesVote": "Approved unanimously"
     },
     {
       "item": "G.1",
       "title": "Warrants approved separately",
       "videoSeconds": 5705,
-      "summary": "Council discussed missing Treasurer signatures. The City Attorney said this should not prevent payment and described possible retroactive ratification by the future Treasurer. Council then approved G.1 separately.",
+      "summary": "Council separately ratified warrants dated September 11, 18, and 25, 2026. The transcript records discussion of missing Treasurer signatures and possible later ratification by the future Treasurer.",
       "vote": "5–0",
-      "evidenceLimit": "The transcript does not establish that later Treasurer ratification occurred or independently reconcile the warrant payments."
+      "evidenceLimit": "The transcript does not establish that later Treasurer ratification occurred or independently reconcile the warrant payments.",
+      "minutesVote": "Approved unanimously"
     },
     {
       "item": "I.1",
       "title": "Calvary Chapel TEFRA approval",
       "videoSeconds": 5809,
-      "summary": "Council approved the recommended resolution following the hearing. Staff and counsel described the City role as facilitating the hearing and approval, with no City repayment obligation. Staff reported removal of a typographical paragraph from the draft resolution.",
+      "summary": "Council adopted the resolution approving issuance of up to $10 million in tax-exempt religious facility revenue bonds. The minutes describe the City as having no responsibility or liability for the bonds. Staff reported a correction to the draft resolution during discussion.",
       "vote": "5–0",
-      "evidenceLimit": "This is borrower financing, not City borrowing or development approval. Obtain the final resolution before relying on the archived draft wording."
+      "evidenceLimit": "This is borrower financing, not City borrowing or development approval. Obtain the final resolution before relying on the archived draft wording.",
+      "minutesVote": "Approved unanimously"
     },
     {
       "item": "I.2",
@@ -45,7 +48,8 @@
       "videoSeconds": 5969,
       "summary": "Council voted to introduce the short-term rental ordinance and adopt the fee resolution. Staff presented a revised ordinance with $500/$1,000/$2,000 fine tiers and a 15-day correction interval; the occupancy discussion clarified that three bedrooms allow six occupants. Staff targeted January 2027 implementation and described a later second reading.",
       "vote": "5–0",
-      "evidenceLimit": "Introduction is not final ordinance adoption. Revised ordinance text and the executed fee resolution were not collected; archived packet discrepancies remain documented below. The captioned nine-person example was corrected to six during discussion."
+      "evidenceLimit": "Council introduced the ordinance at first reading. The corrected dais handouts reconciled the archived packet discrepancies, according to a participant who reviewed them. The final ordinance and executed fee resolution are still needed. The discussion clarified the three-bedroom occupancy example as six.",
+      "minutesVote": "Approved unanimously"
     },
     {
       "item": "I.3",
@@ -53,7 +57,8 @@
       "videoSeconds": 6405,
       "summary": "Council approved first readings of the Public Works Advisory, Parks and Recreation, Economic Development, and Financial and Audit committee ordinances. Staff reported typographical corrections, transition through attrition, and November advertising with December selections.",
       "vote": "5–0",
-      "evidenceLimit": "First readings do not establish final adoption or filled appointments. Obtain the final ordinances to confirm corrected language."
+      "evidenceLimit": "First readings do not establish final adoption or filled appointments. Obtain the final ordinances to confirm corrected language.",
+      "minutesVote": "Approved unanimously"
     },
     {
       "item": "J.1",
@@ -61,15 +66,17 @@
       "videoSeconds": 6636,
       "summary": "Council approved the Tilden-Coil agreement with a $5,437,851 overall ceiling subject to phase funding and authorization. The present authorization is $219,752 plus $21,975 contingency, totaling $241,727 for Phase I. Staff excluded the optional $18,000 modeling service from this award and said a corrected agreement would be used. Later phases require Council authorization.",
       "vote": "5–0",
-      "evidenceLimit": "The roughly $88.5 million project estimate is not fully funded: staff described about $8.5 million available and about $80 million unfunded. This action is not a construction award or proof of expenditure; an architect award will return separately."
+      "evidenceLimit": "The roughly $88.5 million project estimate is not fully funded: staff described about $8.5 million available and about $80 million unfunded. This action is not a construction award or proof of expenditure; an architect award will return separately.",
+      "minutesVote": "Approved unanimously"
     },
     {
       "item": "J.2",
       "title": "IOA Championship sponsorship approved",
       "videoSeconds": 8169,
-      "summary": "Council approved sponsorship of the 2027 IOA Championship up to $80,000 and authorized a sponsorship agreement, with a public-purpose finding. Lara voted no; Fenn, Martinez, White, and Voigt voted yes. Discussion covered youth and senior pro-am participation, promotion, deliverables, and post-event reporting.",
+      "summary": "Council approved up to $80,000 for the 2027 IOA Championship, authorized a sponsorship agreement subject to City Attorney approval as to form, and made a public-purpose finding.",
       "vote": "4–1",
-      "evidenceLimit": "This is an authorization ceiling, not a verified payment or measured economic return. Staff time and promotional support are additional matters to track in the agreement and event report."
+      "evidenceLimit": "The minutes list Lara as voting no and also record approval as 4–0. The transcript roll call records four yes votes and Lara voting no (4–1). The authorization establishes a spending ceiling. The executed terms, payment and economic results still require evidence.",
+      "minutesVote": "Approved · Lara voted no"
     },
     {
       "item": "J.3",
@@ -77,7 +84,8 @@
       "videoSeconds": 9810,
       "summary": "Council directed the City Manager to proceed with the Phase I concept as discussed and amend the STB Landscape Architects contract. Staff corrected the concept cost to $15,450; with $53,400 additional design services, the stated combined STB design cost is $68,850. Construction funding and a later award will return to Council.",
       "vote": "5–0",
-      "evidenceLimit": "The $2–3 million construction figure is a planning estimate, not an award or appropriation. Staff discussed existing downtown CIP resources and future funding options; no dedicated construction funding was authorized by this motion."
+      "evidenceLimit": "The $2–3 million construction figure is a planning estimate, not an award or appropriation. Staff discussed existing downtown CIP resources and future funding options; no dedicated construction funding was authorized by this motion.",
+      "minutesVote": "Approved unanimously"
     },
     {
       "item": "J.4",
@@ -85,15 +93,17 @@
       "videoSeconds": 11539,
       "summary": "Council approved the cooperative agreement with Banning for Highland Springs Avenue work. Beaumont would lead construction and Banning would reimburse its actual share. Staff said Banning had not yet considered approval. The City Attorney recused because his firm represents Banning.",
       "vote": "5–0",
-      "evidenceLimit": "Beaumont approval does not establish Banning approval, executed reimbursement terms, completed construction, or an actual reimbursement amount."
+      "evidenceLimit": "Beaumont approval does not establish Banning approval, executed reimbursement terms, completed construction, or an actual reimbursement amount.",
+      "minutesVote": "Approved unanimously"
     },
     {
       "item": "J.5",
       "title": "Tyler three-year renewal approved",
       "videoSeconds": 11777,
-      "summary": "Council approved and authorized execution of the three-year Tyler Technologies amendment. Staff corrected the amendment amount from $631,892.93 to $631,892.87 and separately described $346,144.50 in estimated wastewater usage-based card fees. Staff said no additional appropriation was requested.",
+      "summary": "Council unanimously approved execution of the three-year Tyler Technologies amendment. The minutes list $631,892.93 in contract costs plus $346,144.50 in estimated wastewater billing usage, totaling $978,037.43. The transcript records a six-cent correction to the contract amount ($631,892.87), yielding a combined estimate of $978,037.37.",
       "vote": "5–0",
-      "evidenceLimit": "Wastewater transaction fees are variable estimates outside the amendment, not a fixed vendor price. The combined planning figure is $978,037.37 after the six-cent correction, not verified expenditure."
+      "evidenceLimit": "A participant confirmed that the corrected dais handouts reconciled the meeting document discrepancies. The executed amendment is still needed for the final contract record. Wastewater billing fees are variable estimates. Actual expenditure requires billing and payment records.",
+      "minutesVote": "Approved unanimously"
     },
     {
       "item": "M",
@@ -183,5 +193,15 @@
       ],
       "note": "Drainage bond releases and wastewater billing fees reviewed; no new utility construction award identified."
     }
-  ]
+  ],
+  "minutes": {
+    "url": "official-documents/2026-10-20/council-minutes.docx",
+    "reviewedOn": "2026-11-23",
+    "session": "All five council members were present. The minutes record a 5:01 p.m. closed-session call to order, a 6:10 p.m. regular-session call to order, and adjournment at 8:20 p.m.",
+    "closedSession": "On B.1, Council voted unanimously to defend the Melara action. The minutes list no reportable action on B.2 through B.4."
+  },
+  "daisHandoutVerification": {
+    "reportedOn": "2026-11-23",
+    "summary": "A meeting participant reported reviewing the corrected handouts distributed on the dais before the meeting and verified that the October 20 document discrepancies had been reconciled. The archived packet preserves the earlier versions. The corrected handouts are not included in the archive."
+  }
 }

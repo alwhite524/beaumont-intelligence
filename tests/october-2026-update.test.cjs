@@ -23,14 +23,35 @@ test('October outcomes preserve proposals and distinguish first readings and con
   assert.equal((page.match(/id="meeting-outcomes"/g) || []).length, 1);
   assert.equal((page.match(/Preserved pre-meeting briefing and document checks/g) || []).length, 1);
   assert.match(page, /Fine schedule differs between report and ordinance/);
-  assert.match(page, /Introduction is not final ordinance adoption/);
+  assert.match(page, /Council introduced the ordinance at first reading/);
   assert.match(page, /\$241,727/);
-  assert.match(page, /Transcript roll call 4–1/);
-  assert.match(page, /approved October 20 minutes have not been independently checked/);
+  assert.match(page, /The transcript roll call records four yes votes and Lara voting no/);
+  assert.match(page, /Decisions checked against the supplied minutes/);
+  assert.match(page, /six-cent correction/);
+  assert.match(page, /Dais handout verification/);
+  assert.ok(fs.existsSync('docs/' + outcomes.minutes.url));
   assert.equal(JSON.parse(read('data/council/2026-10-20-agenda.json')).meetingStatus, 'held');
   for (const item of outcomes.items) {
     assert.ok(item.videoSeconds >= 0 && item.videoSeconds < outcomes.durationSeconds);
     assert.ok(page.includes(`id="outcome-${item.item}"`));
+  }
+});
+
+test('October 20 minutes raise five action scores to 80% with final instruments open', () => {
+  const data = JSON.parse(read('data/service-area-actions.json'));
+  const actions = data.records.filter(row => row.date === outcomes.date);
+  assert.equal(actions.length, 5);
+  const page = read('docs/service-area-actions.html');
+  for (const action of actions) {
+    assert.equal(action.checks.minutes, true);
+    assert.equal(action.checks.instruments, false);
+    assert.match(action.evidence, /verified the corrected dais handouts/);
+    assert.equal(Object.values(action.checks).filter(Boolean).length, 4);
+    assert.equal(action.minutesUrl, outcomes.minutes.url);
+    for (const area of action.areas) {
+      const card = page.split(`id="${area}-${action.id}"`)[1].split('</article>')[0];
+      assert.match(card, /Research completion: 80% · 4\/5 checks/);
+    }
   }
 });
 
@@ -45,7 +66,9 @@ test('complete caption track and its reader are available in both source catalog
   const meeting = context.window.BI_COUNCIL_MEETING_SOURCES.find(row => row.date === '2026-10-20');
   assert.equal(meeting.transcript, 'transcripts/reader.html?date=2026-10-20');
   assert.match(meeting.video, /UVsGQHIcdkA/);
+  assert.ok(meeting.documents.some(document => document.url === outcomes.minutes.url));
   vm.runInNewContext(read('docs/documents/library-index.js'), context);
+  assert.ok(context.window.BI_RESEARCH_LIBRARY.some(row => row.type === 'Meeting minutes' && row.url === '../' + outcomes.minutes.url));
   assert.ok(context.window.BI_RESEARCH_LIBRARY.some(row => row.date === '2026-10-20' && row.type === 'Meeting transcript' && row.url.includes('reader.html')));
 });
 

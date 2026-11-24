@@ -140,7 +140,10 @@ for item in historical['items']:
                         'type': 'Official City document', 'body': doc['title'] + ' ' + item['notes']})
 
 for minute in preferred_minutes(minutes):
-    records.append({"title": minute['title'], "url": minute['url'], "date": minute['date'],
+    url = minute['url']
+    if not url.startswith(('http://', 'https://')):
+        url = '../' + url
+    records.append({"title": minute['title'], "url": url, "date": minute['date'],
                     "item": "", "topic": "council", "type": "Meeting minutes",
                     "body": "\n".join(minute['textPages']) or "Text unavailable; open the scanned minutes to read.",
                     "textAvailable": any(page.strip() for page in minute['textPages']),

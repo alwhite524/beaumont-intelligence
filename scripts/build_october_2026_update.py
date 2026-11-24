@@ -14,24 +14,30 @@ START = '<!-- october-20-outcomes:start -->'
 END = '<!-- october-20-outcomes:end -->'
 
 
-def build():
+def build(meeting_only=False):
     review = json.loads((ROOT / f'data/council/{DATE}-outcomes.json').read_text(encoding='utf-8'))
     next_meeting = review['nextMeeting']
     video = review['videoUrl']
     transcript = f'../transcripts/reader.html?date={DATE}'
+    minutes = review['minutes']
+    handouts = review['daisHandoutVerification']
+    minutes_href = '../' + escape(minutes['url'], quote=True)
     cards = []
     for item in review['items']:
         seconds = item['videoSeconds']
         timestamp = f'{seconds//3600}:{seconds%3600//60:02}:{seconds%60:02}'
-        vote = f' · Transcript roll call {item["vote"]}' if item['vote'] else ''
+        vote = ' · ' + item['minutesVote'] if item.get('minutesVote') else ''
         cards.append(f'<article class="card" id="outcome-{escape(item["item"], quote=True)}">'
                      f'<div class="meta">{escape(item["item"] + vote)}</div><h3>{escape(item["title"])}</h3>'
                      f'<p>{escape(item["summary"])}</p><p class="source-note"><strong>Evidence limit:</strong> {escape(item["evidenceLimit"])}</p>'
                      f'<p><a href="{escape(video, quote=True)}&amp;t={seconds}s" target="_blank" rel="noopener">Video at {timestamp} ↗</a>'
                      f' · <a href="{transcript}">Search the transcript</a></p></article>')
-    section = (START + '<section id="meeting-outcomes" aria-labelledby="outcomes-title"><h2 id="outcomes-title">After the meeting: transcript-based outcomes</h2>'
-               f'<p class="source-note">Reviewed October 24, 2026. {escape(review["evidence"])}</p>'
+    section = (START + '<section id="meeting-outcomes" aria-labelledby="outcomes-title"><h2 id="outcomes-title">Decisions checked against the supplied minutes</h2>'
+               f'<p class="source-note">Minutes reviewed {minutes["reviewedOn"]}. {escape(review["evidence"])}</p>'
+               f'<p>{escape(minutes["session"])} {escape(minutes["closedSession"])}</p>'
+               f'<p class="source-note"><strong>Dais handout verification ({escape(handouts["reportedOn"])}).</strong> {escape(handouts["summary"])}</p>'
                '<div class="status-actions">'
+               f'<a class="btn" href="{minutes_href}">Download supplied minutes (Word)</a>'
                f'<a class="btn secondary" href="{transcript}">Read and search the transcript</a></div>'
                '<iframe style="display:block;width:100%;aspect-ratio:16/9;border:0" src="https://www.youtube-nocookie.com/embed/UVsGQHIcdkA" '
                'title="October 20, 2026 Beaumont City Council meeting" loading="lazy" allow="accelerometer; autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>'
@@ -48,6 +54,15 @@ def build():
     page = page.replace('<div class="eyebrow">Pre-meeting briefing</div>', '<div class="eyebrow">Meeting record and preserved pre-meeting briefing</div>')
     page = page.replace('Upcoming · Council action pending', 'Meeting held · Transcript-based outcomes available')
     page = page.replace('Council decisions will be recorded separately after the meeting.', 'Transcript-based outcomes are recorded separately above. This pre-meeting analysis remains preserved for comparison.')
+    for old, new in [
+        ('Transcript reviewed · Approved minutes pending', 'Supplied minutes reviewed'),
+        ('Transcript-based outcomes available', 'Minutes-checked outcomes available'),
+        ('transcript-based outcomes, roll calls', 'minutes-checked outcomes, recorded votes'),
+        ('The transcript-based record is separate from the preserved pre-meeting analysis below.',
+         'The minutes-checked decisions appear above the preserved pre-meeting analysis.'),
+        ('Transcript-based outcomes are recorded separately above.', 'Minutes-checked decisions are recorded separately above.'),
+    ]:
+        page = page.replace(old, new)
     # Keep the October 16 review intact below the new evidence section.
     marker = '<p class="source-note">Prepared October 16'
     if marker not in page:
@@ -58,12 +73,34 @@ def build():
 
     path = ROOT / f'data/council/{DATE}-agenda.json'
     agenda = json.loads(path.read_text(encoding='utf-8'))
-    agenda.update(meetingStatus='held', outcomeSource=f'data/council/{DATE}-outcomes.json', transcriptReviewedOn=review['reviewedOn'])
+    agenda.update(meetingStatus='held', outcomeSource=f'data/council/{DATE}-outcomes.json', transcriptReviewedOn=review['reviewedOn'],
+                  minutesUrl=minutes['url'], minutesReviewedOn=minutes['reviewedOn'])
     path.write_text(json.dumps(agenda, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     path = DOCS / f'briefings/{DATE}-sources.html'
     page = path.read_text(encoding='utf-8').replace('Upcoming interactive agenda', 'Archived interactive agenda')
     page = page.replace('Proposed actions await Council decisions.', 'Meeting held October 20. <a href="2026-10-20.html#meeting-outcomes">Read transcript-based outcomes</a> · <a href="../transcripts/reader.html?date=2026-10-20">Search the meeting transcript</a>. The archived agenda and packet retain the original proposals.')
+    page = page.replace('Read transcript-based outcomes', 'Read minutes-checked decisions')
     path.write_text(page, encoding='utf-8')
+
+    for name, pattern, date_label in [
+        ('council-intelligence.html', r'<details class="briefing-card.*?</details>', '<strong>October 20, 2026 City Council Meeting</strong>'),
+        ('council-briefings-2026.html', r'<article class="story-card">.*?</article>', '<h3>October 20, 2026</h3>'),
+    ]:
+        def update_card(match):
+            card = match[0]
+            if date_label not in card:
+                return card
+            return (card.replace('Meeting held · Transcript reviewed · Minutes pending', 'Supplied minutes reviewed')
+                        .replace('Meeting held · Transcript reviewed', 'Supplied minutes reviewed')
+                        .replace('approved the golf sponsorship 4–1', 'approved the golf sponsorship')
+                        .replace('transcript-based outcomes', 'minutes-checked decisions')
+                        .replace('Transcript-based outcomes', 'Minutes-checked decisions'))
+
+        listing = DOCS / name
+        listing.write_text(re.sub(pattern, update_card, listing.read_text(encoding='utf-8'), flags=re.S), encoding='utf-8')
+
+    if meeting_only:
+        return
 
     if (ROOT / 'data/council/2026-11-17-packet-map.json').exists():
         from build_2026_11_17_agenda import build as publish_november_agenda
@@ -144,4 +181,6 @@ def build():
 
 
 if __name__ == '__main__':
-    build()
+    import sys
+
+    build(meeting_only='--meeting-only' in sys.argv[1:])
