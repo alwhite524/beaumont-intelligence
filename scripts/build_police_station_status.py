@@ -22,7 +22,7 @@ def render(page):
     elif page == 'police-evidence':
         details = '''<div class="story-grid">
 <article class="story-card"><h3>Agenda packet: proposal and draft</h3><p>The October 20 J.1 staff report supplies the exact project estimate and funding totals. Agreement sections 4.01 and 4.01(a) use $237,752, including an optional $18,000 modeling service. That archived draft is not proof of the final executed terms.</p><a href="briefings/2026-10-20-sources.html">Open J.1 source documents</a></article>
-<article class="story-card"><h3>Minutes and transcript: conditional action</h3><p>The minutes record approval of $219,752 in base services plus $21,975 in contingency. The transcript records the discussion excluding the $18,000 modeling option.</p><a href="transcripts/reader.html?date=2026-10-20">Read the meeting transcript</a></article>
+<article class="story-card"><h3>Minutes and transcript: conditional action</h3><p>The minutes record approval of $219,752 in base services plus $21,975 in contingency. The transcript records the discussion excluding the $18,000 modeling option.</p><a href="https://www.youtube.com/watch?v=UVsGQHIcdkA&amp;t=6636s">Watch discussion · 1:50:36</a> · <a href="transcripts/reader.html?date=2026-10-20">Read the meeting transcript</a></article>
 <article class="story-card"><h3>Records still needed</h3><p>Follow later phase authorizations, an architect award, final site and space-program records, estimate basis, environmental path, financing strategy and any bond, construction-award or payment records. Their absence here does not establish that no such record exists.</p></article></div>'''
     elif page == 'police-questions':
         details = '''<div class="story-grid">
