@@ -81,9 +81,12 @@ Large public PDFs are synchronized to the Cloudflare R2 bucket
 git-ignored `.r2.local.json` file.
 
 Place a new PDF under its intended `docs/official-documents` or
-`docs/records/agenda-packets` path, run the sync, verify the manifest, and then
-remove the local copy. PDFs in those folders are ignored to prevent accidental
-commits.
+`docs/records/agenda-packets` path, run the sync, and verify the manifest.
+Before publishing a briefing, open the archived PDF through the site viewer
+using its public archive URL. For packet citations, confirm that the viewer
+opens on the cited page. If storage is unavailable, verify a working official
+City PDF URL in the viewer and use it until the archive copy is available.
+Local PDFs in those folders are ignored by Git and are excluded from deployment.
 
 ```bash
 python -m pip install -r requirements-r2.txt

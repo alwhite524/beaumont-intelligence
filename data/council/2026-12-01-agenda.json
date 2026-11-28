@@ -10,7 +10,7 @@
     "basis": "Packet p. 3; unless otherwise posted."
   },
   "packetPages": 171,
-  "packetArchiveUrl": "../records/agenda-packets/2026-12-01/2026-12-01-city-council-agenda-package.pdf",
+  "packetArchiveUrl": "https://documents.beaumontintelligence.com/records/agenda-packets/2026-12-01/2026-12-01-city-council-agenda-package.pdf",
   "officialAgendaUrl": "https://pub-beaumont.escribemeetings.com/",
   "sourceFilename": "Agenda Package - City Council Closed and Regular Session_Dec01_2026.pdf",
   "documents": [
@@ -21,17 +21,17 @@
       "section": "Consent",
       "packet_page_start": 4,
       "packet_page_end": 12,
-      "archiveUrl": "../records/agenda-packets/2026-12-01/2026-12-01-city-council-agenda-package.pdf#page=4",
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-12-01/d-1-cc-minutes-11-17-2026.pdf",
       "officialUrl": "https://pub-beaumont.escribemeetings.com/"
     },
     {
       "item": "D.2",
-      "title": "Approval of a three year general services agreement with Garden State Fireworks, Inc. for Fourth of July Fireworks services",
+      "title": "Staff Report - Fourth of July Fireworks Services Agreement",
       "itemTitle": "Fourth of July fireworks services",
       "section": "Consent",
       "packet_page_start": 13,
       "packet_page_end": 15,
-      "archiveUrl": "../records/agenda-packets/2026-12-01/2026-12-01-city-council-agenda-package.pdf#page=13",
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-12-01/d-2-approval-of-a-three-year-general-services-agreement-with-garden-state-fireworks-inc-for-fourth-of-july-fireworks-services.pdf",
       "officialUrl": "https://pub-beaumont.escribemeetings.com/"
     },
     {
@@ -41,7 +41,7 @@
       "section": "Consent",
       "packet_page_start": 16,
       "packet_page_end": 29,
-      "archiveUrl": "../records/agenda-packets/2026-12-01/2026-12-01-city-council-agenda-package.pdf#page=16",
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-12-01/d-2-beaumont-july-4-2027-garden-state-fireworks-proposal.pdf",
       "officialUrl": "https://pub-beaumont.escribemeetings.com/"
     },
     {
@@ -51,7 +51,7 @@
       "section": "Consent",
       "packet_page_start": 30,
       "packet_page_end": 49,
-      "archiveUrl": "../records/agenda-packets/2026-12-01/2026-12-01-city-council-agenda-package.pdf#page=30",
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-12-01/d-2-c26-187-garden-state-fireworks-inc-legal-reviewed-11-17-26.pdf",
       "officialUrl": "https://pub-beaumont.escribemeetings.com/"
     },
     {
@@ -61,7 +61,7 @@
       "section": "Consent",
       "packet_page_start": 50,
       "packet_page_end": 51,
-      "archiveUrl": "../records/agenda-packets/2026-12-01/2026-12-01-city-council-agenda-package.pdf#page=50",
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-12-01/d-3-staff-report-notice-of-completion-for-kodiak-painting-inc.pdf",
       "officialUrl": "https://pub-beaumont.escribemeetings.com/"
     },
     {
@@ -71,7 +71,7 @@
       "section": "Consent",
       "packet_page_start": 52,
       "packet_page_end": 53,
-      "archiveUrl": "../records/agenda-packets/2026-12-01/2026-12-01-city-council-agenda-package.pdf#page=52",
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-12-01/d-3-attachment-a-notice-of-completion-kodiak-painting.pdf",
       "officialUrl": "https://pub-beaumont.escribemeetings.com/"
     },
     {
@@ -81,7 +81,7 @@
       "section": "Consent",
       "packet_page_start": 54,
       "packet_page_end": 55,
-      "archiveUrl": "../records/agenda-packets/2026-12-01/2026-12-01-city-council-agenda-package.pdf#page=54",
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-12-01/d-4-staff-report-amendment-no-1-to-professional-services-contract-with-ab-landscape.pdf",
       "officialUrl": "https://pub-beaumont.escribemeetings.com/"
     },
     {
@@ -91,7 +91,7 @@
       "section": "Consent",
       "packet_page_start": 56,
       "packet_page_end": 92,
-      "archiveUrl": "../records/agenda-packets/2026-12-01/2026-12-01-city-council-agenda-package.pdf#page=56",
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-12-01/d-4-attachment-a-c25-51-ab-landscape-agreement.pdf",
       "officialUrl": "https://pub-beaumont.escribemeetings.com/"
     },
     {
@@ -101,7 +101,7 @@
       "section": "Consent",
       "packet_page_start": 93,
       "packet_page_end": 104,
-      "archiveUrl": "../records/agenda-packets/2026-12-01/2026-12-01-city-council-agenda-package.pdf#page=93",
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-12-01/d-4-attachment-b-c25-51-ab-landscape-agreement-amendment-no-1.pdf",
       "officialUrl": "https://pub-beaumont.escribemeetings.com/"
     },
     {
@@ -111,7 +111,7 @@
       "section": "Consent",
       "packet_page_start": 105,
       "packet_page_end": 106,
-      "archiveUrl": "../records/agenda-packets/2026-12-01/2026-12-01-city-council-agenda-package.pdf#page=105",
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-12-01/d-5-staff-report-council-appointments-to-boards-and-committees.pdf",
       "officialUrl": "https://pub-beaumont.escribemeetings.com/"
     },
     {
@@ -121,7 +121,7 @@
       "section": "Consent",
       "packet_page_start": 107,
       "packet_page_end": 109,
-      "archiveUrl": "../records/agenda-packets/2026-12-01/2026-12-01-city-council-agenda-package.pdf#page=107",
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-12-01/d-5-attachment-a-2027-blank-council-committees.pdf",
       "officialUrl": "https://pub-beaumont.escribemeetings.com/"
     },
     {
@@ -131,7 +131,7 @@
       "section": "Public Hearing",
       "packet_page_start": 110,
       "packet_page_end": 112,
-      "archiveUrl": "../records/agenda-packets/2026-12-01/2026-12-01-city-council-agenda-package.pdf#page=110",
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-12-01/f-1-staff-report-public-hearing-to-consider-the-approval-of-an-ordinance-amending-bmc-section-2-08-120-city-treasurer.pdf",
       "officialUrl": "https://pub-beaumont.escribemeetings.com/"
     },
     {
@@ -141,7 +141,7 @@
       "section": "Public Hearing",
       "packet_page_start": 113,
       "packet_page_end": 114,
-      "archiveUrl": "../records/agenda-packets/2026-12-01/2026-12-01-city-council-agenda-package.pdf#page=113",
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-12-01/f-1-attachment-a-ordinance.pdf",
       "officialUrl": "https://pub-beaumont.escribemeetings.com/"
     },
     {
@@ -151,7 +151,7 @@
       "section": "Public Hearing",
       "packet_page_start": 115,
       "packet_page_end": 116,
-      "archiveUrl": "../records/agenda-packets/2026-12-01/2026-12-01-city-council-agenda-package.pdf#page=115",
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-12-01/f-1-attachment-b-ordinance-language.pdf",
       "officialUrl": "https://pub-beaumont.escribemeetings.com/"
     },
     {
@@ -161,7 +161,7 @@
       "section": "Public Hearing",
       "packet_page_start": 117,
       "packet_page_end": 118,
-      "archiveUrl": "../records/agenda-packets/2026-12-01/2026-12-01-city-council-agenda-package.pdf#page=117",
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-12-01/f-1-attachment-c-redlines.pdf",
       "officialUrl": "https://pub-beaumont.escribemeetings.com/"
     },
     {
@@ -171,7 +171,7 @@
       "section": "Public Hearing",
       "packet_page_start": 119,
       "packet_page_end": 119,
-      "archiveUrl": "../records/agenda-packets/2026-12-01/2026-12-01-city-council-agenda-package.pdf#page=119",
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-12-01/f-1-attachment-d-2-08-120-city-treasurer-duties.pdf",
       "officialUrl": "https://pub-beaumont.escribemeetings.com/"
     },
     {
@@ -181,7 +181,7 @@
       "section": "Action",
       "packet_page_start": 120,
       "packet_page_end": 124,
-      "archiveUrl": "../records/agenda-packets/2026-12-01/2026-12-01-city-council-agenda-package.pdf#page=120",
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-12-01/g-1-staff-report-discussion-of-a-future-fire-station.pdf",
       "officialUrl": "https://pub-beaumont.escribemeetings.com/"
     },
     {
@@ -191,7 +191,7 @@
       "section": "Action",
       "packet_page_start": 125,
       "packet_page_end": 127,
-      "archiveUrl": "../records/agenda-packets/2026-12-01/2026-12-01-city-council-agenda-package.pdf#page=125",
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-12-01/g-1-attachment-a-site-options.pdf",
       "officialUrl": "https://pub-beaumont.escribemeetings.com/"
     },
     {
@@ -201,7 +201,7 @@
       "section": "Action",
       "packet_page_start": 128,
       "packet_page_end": 147,
-      "archiveUrl": "../records/agenda-packets/2026-12-01/2026-12-01-city-council-agenda-package.pdf#page=128",
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-12-01/g-1-attachment-b-fy-26-27-fire-protection-agreement.pdf",
       "officialUrl": "https://pub-beaumont.escribemeetings.com/"
     },
     {
@@ -211,7 +211,7 @@
       "section": "Action",
       "packet_page_start": 148,
       "packet_page_end": 153,
-      "archiveUrl": "../records/agenda-packets/2026-12-01/2026-12-01-city-council-agenda-package.pdf#page=148",
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-12-01/g-2-staff-report-cherry-festival-mou-with-cherries-of-the-pass-foundation.pdf",
       "officialUrl": "https://pub-beaumont.escribemeetings.com/"
     },
     {
@@ -221,7 +221,7 @@
       "section": "Action",
       "packet_page_start": 154,
       "packet_page_end": 167,
-      "archiveUrl": "../records/agenda-packets/2026-12-01/2026-12-01-city-council-agenda-package.pdf#page=154",
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-12-01/g-2-attachment-a-mou-draft-city-and-cotpf-11-3-26-clean.pdf",
       "officialUrl": "https://pub-beaumont.escribemeetings.com/"
     },
     {
@@ -231,7 +231,7 @@
       "section": "Action",
       "packet_page_start": 168,
       "packet_page_end": 168,
-      "archiveUrl": "../records/agenda-packets/2026-12-01/2026-12-01-city-council-agenda-package.pdf#page=168",
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-12-01/g-2-attachment-b-cherry-festival-budget-adjustment.pdf",
       "officialUrl": "https://pub-beaumont.escribemeetings.com/"
     },
     {
@@ -241,7 +241,7 @@
       "section": "Action",
       "packet_page_start": 169,
       "packet_page_end": 170,
-      "archiveUrl": "../records/agenda-packets/2026-12-01/2026-12-01-city-council-agenda-package.pdf#page=169",
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-12-01/g-3-staff-report-city-council-meetings-2027.pdf",
       "officialUrl": "https://pub-beaumont.escribemeetings.com/"
     },
     {
@@ -251,7 +251,7 @@
       "section": "Action",
       "packet_page_start": 171,
       "packet_page_end": 171,
-      "archiveUrl": "../records/agenda-packets/2026-12-01/2026-12-01-city-council-agenda-package.pdf#page=171",
+      "archiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-12-01/g-3-attachment-a-cc-calendar-2027.pdf",
       "officialUrl": "https://pub-beaumont.escribemeetings.com/"
     }
   ],
@@ -261,7 +261,8 @@
     "votingItems": 9,
     "packetInventoryComplete": true,
     "officialHtmlAuditComplete": false,
-    "basis": "Supplied packet bookmarks. City portal returned HTTP 403 during the independent HTML check."
+    "basis": "Reconciled voted-calendar staff-report attachment lists and all 24 top-level supporting-document bookmarks across packet pp. 4–171. Includes eight staff reports, November 17 minutes and 15 attachments. The City HTML inventory was not independently verified.",
+    "archiveComplete": true
   },
   "items": [
     {
@@ -274,7 +275,17 @@
       "item": "D.2",
       "section": "Consent",
       "title": "Fourth of July fireworks services",
-      "summary": "Consider a Garden State Fireworks agreement capped at $310,000 for 2027–2029. The two optional one-year extensions are priced at $115,000 each, for a potential five-year value of $540,000."
+      "summary": "Consider a Garden State Fireworks agreement capped at $310,000 for 2027–2029. The two optional one-year extensions are priced at $115,000 each, for a potential five-year value of $540,000.",
+      "checks": [
+        {
+          "title": "Confirm the effective date and initial expiration",
+          "text": "The staff report describes July 1, 2027 through June 30, 2030. The draft leaves the effective date blank on a 2026 signature line and provides for automatic termination after July 31, 2029, subject to the renewal provisions.",
+          "packetPages": [
+            14,
+            30
+          ]
+        }
+      ]
     },
     {
       "item": "D.3",
@@ -310,7 +321,17 @@
       "item": "G.2",
       "section": "Action",
       "title": "Three-year Cherry Festival agreement",
-      "summary": "Consider a three-year MOU with Cherries of the Pass Foundation. The City would lead festival operations and retain final approval of event plans. For 2027, staff requests $550,000 in General Fund appropriations and $255,000 in projected revenue, for an estimated $295,000 net General Fund impact. Ticket projections assume 15,000 paid admissions at an average of $10."
+      "summary": "Consider a three-year MOU with Cherries of the Pass Foundation. The City would lead festival operations and retain final approval of event plans. For 2027, staff requests $550,000 in General Fund appropriations and $255,000 in projected revenue, for an estimated $295,000 net General Fund impact. Ticket projections assume 15,000 paid admissions at an average of $10.",
+      "checks": [
+        {
+          "title": "Complete the stage production exhibit before signing",
+          "text": "The staff report points to Exhibit B for City-funded stage, sound and lighting specifications. Exhibit B still contains a drafting note calling for the baseline dimensions, equipment and staffing to be inserted before execution. Those specifications define which production services the City would fund.",
+          "packetPages": [
+            150,
+            167
+          ]
+        }
+      ]
     },
     {
       "item": "G.3",
@@ -318,5 +339,6 @@
       "title": "2027 Council meeting dates",
       "summary": "Consider the 2027 schedule. Staff flags January 5, July 6, August 3 and December 21 for cancellation."
     }
-  ]
+  ],
+  "agendaArchiveUrl": "https://documents.beaumontintelligence.com/official-documents/2026-12-01/agenda.pdf"
 }

@@ -1,8 +1,8 @@
 {
   "bucket": "beaumont-intelligence-documents",
   "public_base_url": "https://documents.beaumontintelligence.com",
-  "document_count": 3652,
-  "total_bytes": 23590695509,
+  "document_count": 3678,
+  "total_bytes": 23624389026,
   "documents": [
     {
       "path": "official-documents/2008-01-15/council-minutes.pdf",
@@ -21539,6 +21539,156 @@
       "sha256": "ba8d99c1a730d35bb0ee02e3ce2391569f4c44aa7a3566c88b239791225e0227"
     },
     {
+      "path": "official-documents/2026-12-01/agenda.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-12-01/agenda.pdf",
+      "bytes": 100889,
+      "sha256": "38a7f2e71df7cb3d599bb2d3b00a3836b116a132851db02a13e17cf5141c46fe"
+    },
+    {
+      "path": "official-documents/2026-12-01/d-1-cc-minutes-11-17-2026.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-12-01/d-1-cc-minutes-11-17-2026.pdf",
+      "bytes": 234287,
+      "sha256": "8b0ec1790ac11fefd6630b3c074c0f7acf17669b05900d3664d1be7c722b467f"
+    },
+    {
+      "path": "official-documents/2026-12-01/d-2-approval-of-a-three-year-general-services-agreement-with-garden-state-fireworks-inc-for-fourth-of-july-fireworks-services.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-12-01/d-2-approval-of-a-three-year-general-services-agreement-with-garden-state-fireworks-inc-for-fourth-of-july-fireworks-services.pdf",
+      "bytes": 99993,
+      "sha256": "d95b9cf89290361efaf13cbf90f1153b9c37682280ab2bb9c6a76e981e94a335"
+    },
+    {
+      "path": "official-documents/2026-12-01/d-2-beaumont-july-4-2027-garden-state-fireworks-proposal.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-12-01/d-2-beaumont-july-4-2027-garden-state-fireworks-proposal.pdf",
+      "bytes": 1587279,
+      "sha256": "22e15054be7e21b87e812c709596763010563feda1a88effc1869823c43e40b6"
+    },
+    {
+      "path": "official-documents/2026-12-01/d-2-c26-187-garden-state-fireworks-inc-legal-reviewed-11-17-26.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-12-01/d-2-c26-187-garden-state-fireworks-inc-legal-reviewed-11-17-26.pdf",
+      "bytes": 246436,
+      "sha256": "2374c8045c2543893c4c576ee90520c34674de425d148e14da29caed4e7859b8"
+    },
+    {
+      "path": "official-documents/2026-12-01/d-3-attachment-a-notice-of-completion-kodiak-painting.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-12-01/d-3-attachment-a-notice-of-completion-kodiak-painting.pdf",
+      "bytes": 28622,
+      "sha256": "6ef9809e4df0b8029f0a42c0506ad49b3c3a93ea3a54d2141b34557ffa70b547"
+    },
+    {
+      "path": "official-documents/2026-12-01/d-3-staff-report-notice-of-completion-for-kodiak-painting-inc.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-12-01/d-3-staff-report-notice-of-completion-for-kodiak-painting-inc.pdf",
+      "bytes": 98211,
+      "sha256": "0b1282f76b6cb6f3b29ea70324058827745e7a5758185bbd8be9dbc7c9750583"
+    },
+    {
+      "path": "official-documents/2026-12-01/d-4-attachment-a-c25-51-ab-landscape-agreement.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-12-01/d-4-attachment-a-c25-51-ab-landscape-agreement.pdf",
+      "bytes": 5520407,
+      "sha256": "e19da725b15fb20956bc0dab6f425de75e06fa32a09db98b24f389aae1e2e9d5"
+    },
+    {
+      "path": "official-documents/2026-12-01/d-4-attachment-b-c25-51-ab-landscape-agreement-amendment-no-1.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-12-01/d-4-attachment-b-c25-51-ab-landscape-agreement-amendment-no-1.pdf",
+      "bytes": 4975557,
+      "sha256": "b1ac5da3a6b687cf584df7a03ca1566b4b159ca968b81d1b2cc79673e3094a95"
+    },
+    {
+      "path": "official-documents/2026-12-01/d-4-staff-report-amendment-no-1-to-professional-services-contract-with-ab-landscape.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-12-01/d-4-staff-report-amendment-no-1-to-professional-services-contract-with-ab-landscape.pdf",
+      "bytes": 96526,
+      "sha256": "045245b8fbff6b7ec122c9d06452ee6aad519ccef3f56e65dad481a3cd833c8e"
+    },
+    {
+      "path": "official-documents/2026-12-01/d-5-attachment-a-2027-blank-council-committees.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-12-01/d-5-attachment-a-2027-blank-council-committees.pdf",
+      "bytes": 303342,
+      "sha256": "3f007b4ae3c7352fc43473843e0a2a605d68f9aca0d6417324df57fad2c8bc45"
+    },
+    {
+      "path": "official-documents/2026-12-01/d-5-staff-report-council-appointments-to-boards-and-committees.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-12-01/d-5-staff-report-council-appointments-to-boards-and-committees.pdf",
+      "bytes": 91351,
+      "sha256": "4d100867e206896458620a30cf48d0bb28b3d251897c51b23d88aca9bbf738c1"
+    },
+    {
+      "path": "official-documents/2026-12-01/f-1-attachment-a-ordinance.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-12-01/f-1-attachment-a-ordinance.pdf",
+      "bytes": 99091,
+      "sha256": "f8eb2f43fcda052d4e2e3e7e55c39edf9efc718d918e7cc3361b85efb5a0227d"
+    },
+    {
+      "path": "official-documents/2026-12-01/f-1-attachment-b-ordinance-language.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-12-01/f-1-attachment-b-ordinance-language.pdf",
+      "bytes": 134037,
+      "sha256": "84bce1e5cf0cb3206ca838cc8bde7da51e9cda7da8a91ef9235e4dd69a56c25d"
+    },
+    {
+      "path": "official-documents/2026-12-01/f-1-attachment-c-redlines.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-12-01/f-1-attachment-c-redlines.pdf",
+      "bytes": 143380,
+      "sha256": "00310601425f3dc5a3d35c81dfe0e62250dc5a4027cb45cb2f41c1cfac470f5c"
+    },
+    {
+      "path": "official-documents/2026-12-01/f-1-attachment-d-2-08-120-city-treasurer-duties.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-12-01/f-1-attachment-d-2-08-120-city-treasurer-duties.pdf",
+      "bytes": 223136,
+      "sha256": "be8d0f243232996ec4dd6a48409ee65f2a0bb05a065fbe57370e5c71251687bc"
+    },
+    {
+      "path": "official-documents/2026-12-01/f-1-staff-report-public-hearing-to-consider-the-approval-of-an-ordinance-amending-bmc-section-2-08-120-city-treasurer.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-12-01/f-1-staff-report-public-hearing-to-consider-the-approval-of-an-ordinance-amending-bmc-section-2-08-120-city-treasurer.pdf",
+      "bytes": 98422,
+      "sha256": "70ebc105fe522379fd4f22fc592b080d94a41c61c2b5c1c883f16d03d484878a"
+    },
+    {
+      "path": "official-documents/2026-12-01/g-1-attachment-a-site-options.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-12-01/g-1-attachment-a-site-options.pdf",
+      "bytes": 804850,
+      "sha256": "beaf826fde7d6a0460504aa6137e444e19198f5d743a7f5a91fb010bbbc6e4ba"
+    },
+    {
+      "path": "official-documents/2026-12-01/g-1-attachment-b-fy-26-27-fire-protection-agreement.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-12-01/g-1-attachment-b-fy-26-27-fire-protection-agreement.pdf",
+      "bytes": 1273602,
+      "sha256": "c05dd1af68920b6a0d05abd768f6f05ab20c8e9b8434c7faa60936530f859d66"
+    },
+    {
+      "path": "official-documents/2026-12-01/g-1-staff-report-discussion-of-a-future-fire-station.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-12-01/g-1-staff-report-discussion-of-a-future-fire-station.pdf",
+      "bytes": 108721,
+      "sha256": "f56db4a1b82a72129689e6d368b66dae61479e967c55caa754f393d44458377d"
+    },
+    {
+      "path": "official-documents/2026-12-01/g-2-attachment-a-mou-draft-city-and-cotpf-11-3-26-clean.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-12-01/g-2-attachment-a-mou-draft-city-and-cotpf-11-3-26-clean.pdf",
+      "bytes": 242555,
+      "sha256": "b5e496df8ff993c0475dc046bdfc7a07caf8fc00d484ee3651fe4d67b96f93f0"
+    },
+    {
+      "path": "official-documents/2026-12-01/g-2-attachment-b-cherry-festival-budget-adjustment.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-12-01/g-2-attachment-b-cherry-festival-budget-adjustment.pdf",
+      "bytes": 96164,
+      "sha256": "1a885d974dde761299dafe2f5eceee17e15a24e1db08d70893db219c50074e35"
+    },
+    {
+      "path": "official-documents/2026-12-01/g-2-staff-report-cherry-festival-mou-with-cherries-of-the-pass-foundation.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-12-01/g-2-staff-report-cherry-festival-mou-with-cherries-of-the-pass-foundation.pdf",
+      "bytes": 112282,
+      "sha256": "b297085a5b5207ba1486ca7e76d1432449b6d559aed73f6a4829057f9b58dbfb"
+    },
+    {
+      "path": "official-documents/2026-12-01/g-3-attachment-a-cc-calendar-2027.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-12-01/g-3-attachment-a-cc-calendar-2027.pdf",
+      "bytes": 282806,
+      "sha256": "1d7fdb196589d53d446e8f2ab0ba5775f6f2568cdb25d53f539434e1da0d3853"
+    },
+    {
+      "path": "official-documents/2026-12-01/g-3-staff-report-city-council-meetings-2027.pdf",
+      "url": "https://documents.beaumontintelligence.com/official-documents/2026-12-01/g-3-staff-report-city-council-meetings-2027.pdf",
+      "bytes": 92895,
+      "sha256": "6da84a14465cb0d7958e341c698d63eeb80e64d370cc89d813ead8a97bac6129"
+    },
+    {
       "path": "official-documents/stewart-park/2024-06-18-act-1-construction-award-staff-report.pdf",
       "url": "https://documents.beaumontintelligence.com/official-documents/stewart-park/2024-06-18-act-1-construction-award-staff-report.pdf",
       "bytes": 266703,
@@ -21915,6 +22065,12 @@
       "url": "https://documents.beaumontintelligence.com/records/agenda-packets/2026-11-17/2026-11-17-city-council-agenda-package.pdf",
       "bytes": 538251629,
       "sha256": "84ff33565a9c15d238a616c7d081d4a1e5b326579991585d90eac2448f0ddfdd"
+    },
+    {
+      "path": "records/agenda-packets/2026-12-01/2026-12-01-city-council-agenda-package.pdf",
+      "url": "https://documents.beaumontintelligence.com/records/agenda-packets/2026-12-01/2026-12-01-city-council-agenda-package.pdf",
+      "bytes": 16598676,
+      "sha256": "ddbf4ae2d8fe5a326ffdbfce3cc35f2f7d04d959a082ba5bec5801d5dea31d2e"
     }
   ]
 }
