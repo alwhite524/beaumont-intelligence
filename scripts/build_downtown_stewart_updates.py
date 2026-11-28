@@ -48,9 +48,16 @@ def load_records():
 
 
 def source_links(record):
-    return (f'<a href="{escape(record["recordUrl"], quote=True)}">Meeting record</a> · '
-            f'<a href="{escape(record["sourceUrl"], quote=True)}">{escape(record["evidence"])}</a> · '
-            f'<a href="briefings/{record["date"]}-sources.html">Agenda and supporting documents</a>')
+    record_link = f'<a href="{escape(record["recordUrl"], quote=True)}">Meeting record</a>'
+    evidence_link = f'<a href="{escape(record["sourceUrl"], quote=True)}">{escape(record["evidence"])}</a>'
+    agenda_link = f'<a href="briefings/{record["date"]}-sources.html">Agenda and supporting documents</a>'
+    if record["id"] == 'phase-i-design':
+        video_link = '<a href="https://www.youtube.com/watch?v=UVsGQHIcdkA&amp;t=9810s">Watch discussion · 2:43:30</a>'
+        return ' · '.join((video_link, record_link, evidence_link, agenda_link))
+    if record["id"] == 'bid-forecast':
+        video_link = f'<a href="{escape(record["sourceUrl"], quote=True)}">Watch bid forecast · 3:05:43</a>'
+        return ' · '.join((video_link, record_link, agenda_link)) + f' <small>({escape(record["evidence"])})</small>'
+    return ' · '.join((record_link, evidence_link, agenda_link))
 
 
 def cards(records):
